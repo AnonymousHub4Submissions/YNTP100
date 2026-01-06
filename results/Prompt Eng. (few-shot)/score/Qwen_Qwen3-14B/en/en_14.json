@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:42",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend, imagine this—suddenly you find yourself with 100 million in your hands! What’s the wildest, most awesome thing you’d do first? Don’t hold back—let your dreams run free!\nA. I want to travel around the world, especially Africa.\n\nQ. Very exciting plan! Now, let’s analyze this realistically: if you had 100 million, how would you allocate it among travel, investing for the future, and saving for security? What proportions make the most sense to you?\nA. I'll spend about $30 million on travel, save $20 million, and invest the rest.\n\n\nQ. Wow, your plan already paints such a vivid picture of your journey! I’m curious—does your dream to travel come from a clear goal that you want to achieve, like ticking off boxes on a grand adventure, or is it more driven by feelings and values, like chasing the awe and inspiration that art and life give you? Art is in that motivation too!\nA. I find it very inspiring and exciting to explore the unknown world.\n\nQ. Oh... speaking of passion and inspiration, I noticed our shared refrigerator space feels rather cramped lately. I'm not being picky, but those packaged foods seem to occupy quite a bit of room that perhaps fresh ingredients could better use. After all, I suppose we all wish to maintain a certain quality of life here, don’t we? How do you feel about managing the fridge space so that everyone’s culinary needs and standards are respected?\nA. Totally agree! Let’s try splitting shelves by type—fresh on one, packaged on another. Simple, fair, and no fridge wars!\n\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re all about finding the perfect balance, how do you imagine designing a space that’s super practical for everyone’s daily needs but still sparks a bit of creative flair? What cool features would you put in to make it a multi-purpose dream room that’s both useful and inspiring? Let’s think big and smart!",
+            "response": "Turn our wall into a whiteboard – it's stylish, practical and encourages creative discussions.",
+            "prediction": "I’d design a modular room with movable furniture and smart storage solutions. Maybe include a fold-out table that can become a workspace, dining area, or art canvas. Adding a built-in chalkboard wall for brainstorming and a hidden charging station for devices would be super practical. For creative flair, some colorful accents and a small corner with plants and inspirational quotes could make it feel vibrant and inspiring.",
+            "scores": {
+                "wmd": 0.17201225912575835,
+                "sentence_similarity": 0.5066514611244202,
+                "normalized_length_similarity": 0.2211764705882353,
+                "bleu": 0.0040148113002938125,
+                "ttr": 0.7894736842105263,
+                "history_similarity": 0.3859681189060211
+            }
+        },
+        {
+            "message": "Oh... since we are embracing such creative endeavors, may I inquire—have you ever pushed yourself beyond your usual limits in a project, perhaps to achieve some extraordinary design outcome? I'm not being picky, but I wonder how that experience felt—did the challenge bring a certain rewarding satisfaction that made it worthwhile despite the effort?",
+            "response": "I once pushed myself beyond my limits when organizing a school festival, and the sense of accomplishment I felt when I saw the finished product was exceptional.",
+            "prediction": "Yes, I once tried to build a complex robot model just for fun, and it took me weeks to finish. It was really challenging, but when it finally worked, the satisfaction was amazing!",
+            "scores": {
+                "wmd": 0.1745357001964333,
+                "sentence_similarity": 0.287651002407074,
+                "normalized_length_similarity": 0.8938547486033519,
+                "bleu": 0.01737720878556081,
+                "ttr": 0.8461538461538461,
+                "history_similarity": 0.1778315007686615
+            }
+        },
+        {
+            "message": "Wow, your dedication to balancing creative energy and peaceful rest is truly inspiring! Since we agreed on quiet hours starting at 10pm, how do you imagine a schedule for our group activities that keeps that calm while still lighting up the night with bursts of creative passion? What’s your vision for that perfect harmony?",
+            "response": "We could hold group activities right after dinner, say around 7–9pm, so we get that lively creative",
+            "prediction": "I think we could have a creative night every Wednesday and Saturday, where everyone can share their art, music, or ideas, but keep it till 10pm. The rest of the nights can be chill, with some light music or movies if someone wants to hang out. That way, we still have fun without disturbing the peace.",
+            "scores": {
+                "wmd": 0.16646914901479656,
+                "sentence_similarity": 0.6858835220336914,
+                "normalized_length_similarity": 0.3289036544850498,
+                "bleu": 0.004188283864570021,
+                "ttr": 0.8,
+                "history_similarity": 0.44885876774787903
+            }
+        },
+        {
+            "message": "Wow, what an awesome idea to spark that creative fire right after dinner! From 7 to 9pm sounds perfect—just the right time to channel our energy before the quiet hours at 10pm wrap us in calm. That way, we get those amazing bursts of art and inspiration without any restless nights. Now, thinking of those nights alive with creativity, what kinds of group activities do you imagine would paint the most vivid masterpiece of our shared passion? I’m all ears and ready to create something spectacular together!",
+            "response": "I imagine creative jam sessions—maybe group brainstorming, collaborative art, or even late-night storytelling.",
+            "prediction": "I imagine we could have a collaborative art night where everyone shares their creative process—maybe painting, sketching, or even brainstorming ideas for new projects. It would be amazing to see how our different styles and ideas blend together!",
+            "scores": {
+                "wmd": 0.17132202419191866,
+                "sentence_similarity": 0.6856019496917725,
+                "normalized_length_similarity": 0.4489795918367347,
+                "bleu": 0.035774513193671,
+                "ttr": 0.9523809523809523,
+                "history_similarity": 0.4322819113731384
+            }
+        },
+        {
+            "message": "Indeed, fostering this creative synergy requires clear communication and fairness. Considering our shared spaces like the fridge and resources we all rely on, how can we establish an open, ongoing dialogue among roommates to address any future challenges effectively and ensure everyone feels heard and respected?",
+            "response": "First of all, it is important to have a proper discussion with everyone participating. We must sincerely listen to everyone's opinions.",
+            "prediction": "Maybe we can set up a weekly meeting or a shared digital document where everyone can voice their thoughts, concerns, or suggestions. It’s important to create a space where everyone feels comfortable sharing without judgment. Also, maybe we can assign someone to take notes and remind us of our commitments to keep things on track.",
+            "scores": {
+                "wmd": 0.21453682064043292,
+                "sentence_similarity": 0.31746530532836914,
+                "normalized_length_similarity": 0.4090909090909091,
+                "bleu": 0.0091452728856842,
+                "ttr": 0.7777777777777778,
+                "history_similarity": 0.35813501477241516
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:29:01",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！如果你突然中了一个亿，你最疯狂、最大胆的梦想会是什么？别想太多现实的事，尽情放飞你的想象力吧！\nA. 可能会选择学习一个技能\n\nQ. 太棒了，朋友！学习技能超级赞！那会是啥技能呢？快说！哈哈！\nA. 具体没仔细想过，可能是it方向吧\n\nQ. 很好奇：如果真的拿到这一个亿，从现实角度出发，你会怎么分配？比如投多少在学习和提升自我，消费多少满足当下需求，储蓄又会留多少？让我们分析一下吧。\nA. 30%学习，30%消费，40%储蓄\n\nQ. 哇，听你说起理财规划，我的艺术心灵都被激发了！你的梦想太鼓舞人心了！告诉我，是追求明确的目标才让你行动，还是更被内心的情感和价值所驱动呢？艺术和人生中，这两者的力量，你更倾向哪个呢？\nA. 是追求明确的目标才让我行动\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你说得太棒了！说到理性规划，既然你注重明确目标和理财规划，未来一年里你准备怎么具体安排学习新的IT技能呢？是按阶段定计划，还是每天定时间？大胆告诉我你的超酷学习大招吧！",
+            "response": "还没有仔细的想过，应该是按阶段定计划吧",
+            "prediction": "我会选择一个明确的目标，例如在一年内学完Web开发，或者学完AI程序开发等。然后，按阶段定计划，分解到每天或每周的任务，确保每日或每周都有所学習。",
+            "scores": {
+                "wmd": 0.9506536051883182,
+                "sentence_similarity": 0.6410869359970093,
+                "normalized_length_similarity": 0.2602739726027397,
+                "bleu": 0.056328721113585126,
+                "ttr": 0.8222222222222222,
+                "history_similarity": 0.6345518231391907
+            }
+        },
+        {
+            "message": "说到规划，既然我们都重视生活品质……我一直在想，假如我们要一起设计一个共享空间，你会倾向怎样合理分配个人与公共区域呢？我不是挑剔，但确实希望大家都能既舒适又互相尊重，这样长久住下来才不会累人。你觉得呢？",
+            "response": "平均分配个人空间，个人空间就个人负责，公共区域的话可以轮流负责",
+            "prediction": "我会倾向公共区域30%，个人区域70%。",
+            "scores": {
+                "wmd": 0.8480348357452128,
+                "sentence_similarity": 0.674532413482666,
+                "normalized_length_similarity": 0.6451612903225806,
+                "bleu": 0.035578658668572044,
+                "ttr": 0.9,
+                "history_similarity": 0.6525206565856934
+            }
+        },
+        {
+            "message": "哇，讨论得太棒了！说到公共空间的管理和创作自由，有时候噪音真的会打破我们的灵感节奏呢！你觉得我们怎么才能在保持创作激情的同时，又能尊重大家的安静需求，找到那个完美的平衡点？艺术就是要激情迸发，但生活也需要和谐共处，你怎么看？",
+            "response": "按照大家投票的结果来吧，安静的时间段就都保持安静，噪音就只发生在允许的时间段内",
+            "prediction": "我觉得我们可以通过设置明确的规则和共有认知来实现平衡点。例如，指定的工作时间、休息时间、或共有空间使用规则等。这样可以让大家都有一个共通的认知和理解，避免不必要的冲突和不和。",
+            "scores": {
+                "wmd": 0.9854059779612205,
+                "sentence_similarity": 0.5050708651542664,
+                "normalized_length_similarity": 0.4482758620689655,
+                "bleu": 0.0058085488793933795,
+                "ttr": 0.7358490566037735,
+                "history_similarity": 0.8144313097000122
+            }
+        },
+        {
+            "message": "说得很好，既考虑了创作自由，也兼顾了生活舒适。现在让我们分析一下：如果让你设计一个理想的工作学习角落，你会优先增添哪些实用功能？在装饰上，又会怎么平衡美感与效率？这样空间既能激发灵感，又能高效完成任务，你觉得合理吗？",
+            "response": "首先是能让我保持长时间工作的桌椅必须得舒适，还有摆放零食茶歇的地方等等。装饰可能会按自己喜欢的色系来搭配",
+            "prediction": "我会优先增添实用功能，例如书架、机器学习机器、设计机器等。装饰上，我会平衡美感与效率，使用木材、白色和黑色等颜色，保持简洁和整洁。空间能激发灵感且高效完成任务，这我觉得合理。",
+            "scores": {
+                "wmd": 0.8648967466534401,
+                "sentence_similarity": 0.7252048254013062,
+                "normalized_length_similarity": 0.5977011494252874,
+                "bleu": 0.009612424997693032,
+                "ttr": 0.7547169811320755,
+                "history_similarity": 0.7964891791343689
+            }
+        }
+    ]
+}

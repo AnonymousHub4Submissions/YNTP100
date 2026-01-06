@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:24:16",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友，说到记录生活，我一直喜欢用相机捕捉不同文化的精彩瞬间！假如让你策划一场旅行摄影展，你会选什么主题呢？来大胆说说，为什么这个主题最能打动你的心？太棒了，分享你的创意吧！",
+      "response": "旅行摄影展？我想我会选择“街道”作为主题吧，我想去拍世界各地不同城市的街道",
+      "prediction": "哈哈，那我的主题一定会是“世界的呼吸：多元文化与生命百态”。我一直对世界各地人们的生活方式和文化充满好奇，想用镜头记录下那些独特的瞬间，让更多人感受到地球上不同角落的生命力。",
+      "scores": {
+        "wmd": 0.8670418111571194,
+        "sentence_similarity": 0.5955699682235718,
+        "normalized_length_similarity": 0.42528735632183906,
+        "history_similarity": 0.760273814201355,
+        "bleu": 0.0056989542032516195,
+        "ttr": 0.8421052631578947
+      }
+    },
+    {
+      "message": "哦……既然我们都这么热爱美好事物，我想问问大家，你们有没有想过通过一些具体的措施来改善我们共享的居住环境呢？比如说，冰箱分区的安排，或者公共区域的清洁维护。我不是挑剔，但是这些细节真的影响大家的生活品质，不觉得吗？你们觉得有哪些可行的办法呢？",
+      "response": "呃当然有，我们不如开个会，确定一下规定大家一起来遵守，彻底规定好冰箱分区和公共区域的清洁顺序",
+      "prediction": "是的，我觉得之前提到的冰箱按食物种类分区，还有制定公共区域轮流打扫的约定都是可行的办法。",
+      "scores": {
+        "wmd": 0.6851738856864735,
+        "sentence_similarity": 0.7574252486228943,
+        "normalized_length_similarity": 0.9565217391304348,
+        "history_similarity": 0.7346465587615967,
+        "bleu": 0.019427446513842185,
+        "ttr": 0.8214285714285714
+      }
+    },
+    {
+      "message": "哇，说到空间设计，这可真是把实用和艺术美学放在天秤上的大挑战！你觉得在我们这个房子里，到底是要狠抓实用性，还是让艺术感爆棚才是王道？有没有什么设计元素是你觉得非有不可的，能让这里既方便又美得让人灵魂飞扬？",
+      "response": "我还是觉得实用性最重要，设计元素的话我希望家具是智能的啊，同时给我一种科技风，虽然不知道能不能实现，但是这种高实用性确实会让我感觉很舒适",
+      "prediction": "我觉得还是要狠抓实用性，房子是用来住的，住得舒服最重要。不过我们可以在此基础上融入美学。对我来说，充足的收纳空间和舒适的公共区域是必不可少的，另外如果能有一些自然的绿植，会让整个空间更有生命力，也更让人放松。",
+      "scores": {
+        "wmd": 0.7018978545308454,
+        "sentence_similarity": 0.6989055871963501,
+        "normalized_length_similarity": 0.6538461538461539,
+        "history_similarity": 0.8760874271392822,
+        "bleu": 0.01184064267801907,
+        "ttr": 0.7575757575757576
+      }
+    },
+    {
+      "message": "既然我们讲到了实用与美感的平衡，那关于噪音控制和创作空间的时间安排，你们觉得怎样划分比较合理？是按时间段轮流使用还是分区固定用途更合适？让我们分析一下，怎样的方案既能保障大家的创作自由，又不会影响彼此的休息。",
+      "response": "我觉得应该去商量一下大家的生活状态和每天的活跃时间吧，比如有些人是夜猫子的话，那我们完全可以按时间段来啊。如果大家都差不多一个作息那我觉得分区来也是可以的",
+      "prediction": "我倾向按时间段轮流使用，这样能更好地控制噪音，对大家也更公平。",
+      "scores": {
+        "wmd": 0.9383134439262607,
+        "sentence_similarity": 0.746664822101593,
+        "normalized_length_similarity": 0.4025974025974026,
+        "history_similarity": 0.8031652569770813,
+        "bleu": 0.0074661840297943136,
+        "ttr": 0.95
+      }
+    }
+  ]
+}

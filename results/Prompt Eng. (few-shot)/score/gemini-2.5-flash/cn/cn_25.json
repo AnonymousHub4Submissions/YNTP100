@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:50:47",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友们，既然聊到生活习惯和体验了，我想问问大家！如果有机会环游世界，你会选择深度体验某个文化，还是更喜欢自由随性的背包游呢？大胆说说你的想法，别害羞，太棒了！",
+      "response": "自由随性的背包游为主，如果有很感兴趣的地方，不介意在那里多待一段时间，直到我觉得对这个地方了解足够了，就换一个地方",
+      "prediction": "我更喜欢自由随性的背包游。边走边看，遇到什么有意思的就多停留一下。",
+      "scores": {
+        "wmd": 0.7000143240895889,
+        "sentence_similarity": 0.5978691577911377,
+        "normalized_length_similarity": 0.5789473684210527,
+        "history_similarity": 0.7785298824310303,
+        "bleu": 0.1083791570341519,
+        "ttr": 0.9
+      }
+    },
+    {
+      "message": "哦……既然大家都喜欢自由随性的背包游，又不乏深度体验，那如果要组织一次主题为“感受生活美好”的短途旅行，你们觉得我们应该重点安排些什么样的活动呢？我不是挑剔，但是光是走马观花或拍照打卡，似乎有点浪费了这美好的时光。也许我们可以找一些更细腻、更能触动心灵的体验，大家有什么建议吗？",
+      "response": "比如一起开房车去海边露营？还可以海钓，钓鱼后我们可以一起烧烤，晚上可以围着篝火一起聊天，游戏",
+      "prediction": "我觉得可以多体验当地生活。比如去逛逛当地市场，尝尝特色小吃，或者找个小工坊学点传统手艺。这样比单纯打卡更有意思，也能增长见闻。",
+      "scores": {
+        "wmd": 0.9352429283185286,
+        "sentence_similarity": 0.6517118811607361,
+        "normalized_length_similarity": 0.7301587301587301,
+        "history_similarity": 0.7224253416061401,
+        "bleu": 0.007843772989359645,
+        "ttr": 0.8648648648648649
+      }
+    },
+    {
+      "message": "哇，大家的想法真的太有温度了！说到触动心灵，这让我想起了，如果我们在这个共享空间里举办一次“心灵分享会”，你有没有哪段生活故事是让你特别感动或启发的？艺术就是要打动人心！你愿意来分享一下吗？这对我来说太有意义了！",
+      "response": "应该说我做临床医生期间的很多见闻吧，见识了人类情感的多样性",
+      "prediction": "心灵分享会挺好的。我从小就喜欢出去玩，增长见闻让我很开心，这本身就是让我感动和启发的地方，到时候可以分享一些经历。",
+      "scores": {
+        "wmd": 0.9594062189564199,
+        "sentence_similarity": 0.6547783613204956,
+        "normalized_length_similarity": 0.5087719298245614,
+        "history_similarity": 0.7591121196746826,
+        "bleu": 0.007494276366370973,
+        "ttr": 0.7837837837837838
+      }
+    },
+    {
+      "message": "很有意思。接下来现实一点：在我们共享空间的日常管理上，怎样的规则或理念才能既保障每个人的舒适，又真正体现出相互尊重和促进情感交流？你觉得哪些具体措施最有效？",
+      "response": "规则的话，像刚才说的规划空间，卫生值日，都很有用，还有就是，建议如果有任何觉得不舒适或者矛盾，我们都能坐下来好好聊，尽量达成相互理解。绝对不能有孤立，或者人身攻击之类的行为",
+      "prediction": "嗯，我觉得最重要的理念就是互相理解和开放沟通。具体措施的话，我们可以定期开个例会，大家有问题或者有新想法都可以提出来一起讨论。另外，可以设立一个共享日历或者公告板，把清洁、安静时段、或者大家想一起做的活动都列出来，这样每个人都清楚，也方便安排。这样既能减少误会，也能多一些互相交流的机会。",
+      "scores": {
+        "wmd": 0.7288355581046376,
+        "sentence_similarity": 0.8328255414962769,
+        "normalized_length_similarity": 0.5972222222222222,
+        "history_similarity": 0.7745496034622192,
+        "bleu": 0.00952159341324299,
+        "ttr": 0.7159090909090909
+      }
+    }
+  ]
+}

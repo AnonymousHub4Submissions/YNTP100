@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-30 13:34:33",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making our space both beautiful and functional, imagine we add a cozy washitsu room with traditional Japanese vibes—but with some clever modern touches to blend convenience and comfort! How would that mix of old and new make you feel about our ShareHouse? Would it inspire you or make you want to hang out there more? Share your awesome thoughts!",
+            "response": "Not just once a week, but at night we should generally keep quiet.\nCleaning once a week should be enough.",
+            "prediction": "I think it's a great idea to create a washitsu room. Having a space where people can sit quietly and reflect or meditate is important. I think we should all use it.",
+            "scores": {
+                "wmd": 0.28314823783684984,
+                "sentence_similarity": 0.3162621259689331,
+                "normalized_length_similarity": 0.6402439024390244,
+                "bleu": 0.01435314135902754,
+                "ttr": 0.8055555555555556,
+                "history_similarity": 0.5430209636688232
+            }
+        },
+        {
+            "message": "Haha, friend, that’s such an awesome idea! Quiet nights are perfect for recharging those batteries, right?! Keeping the night peaceful every day definitely helps everyone get top-notch rest! And cleaning once a week? Super efficient and eco-friendly, just the right balance! Imagine how peaceful our ShareHouse will feel with that calm nighttime vibe and sparkling clean spaces! Let’s make this a cozy, chill zone everyone loves to come home to! What else do you think would make our ShareHouse even more awesome? Share your cool ideas, friend! Haha!",
+            "response": "If we make a rule against keeping personal belongings in common areas, I think it would make problems much less likely to occur.",
+            "prediction": "You should all have fun sharing your experiences and tips on how to live comfortably. Besides that, I think people should just clean up after themselves.",
+            "scores": {
+                "wmd": 0.21086029295293163,
+                "sentence_similarity": 0.3313625454902649,
+                "normalized_length_similarity": 0.8366013071895425,
+                "bleu": 0.036393742223820025,
+                "ttr": 0.9310344827586207,
+                "history_similarity": 0.5614085793495178
+            }
+        },
+        {
+            "message": "Oh... since we all desire a harmonious and well-kept living space, might I gently suggest the idea of holding a weekly meeting to discuss and perhaps refine our shared space usage and cleanliness guidelines? I'm not being picky, but such a thoughtful gathering could help maintain the elegance and order we all appreciate. Would this be something you find agreeable, do you think?",
+            "response": "To be sure, participation isn't mandatory, but I'd think a few minutes of discussion would be fine.",
+            "prediction": "At first, it might be challenging to enforce the idea of sharing common spaces and using common supplies. People may have different opinions on how to use the spaces, and it may not be straightforward to enforce the rules. Eventually, though, it may be possible to make it work by enforcing the principle that those who use the common space must clean up after themselves.",
+            "scores": {
+                "wmd": 0.22381290251393718,
+                "sentence_similarity": 0.2084035873413086,
+                "normalized_length_similarity": 0.2661290322580645,
+                "bleu": 0.003948237950352602,
+                "ttr": 0.6527777777777778,
+                "history_similarity": 0.5137251019477844
+            }
+        },
+        {
+            "message": "Wow, what an inspiring conversation about creating harmony and order through thoughtful rules and gatherings! Speaking of sharing and celebrating what we love, imagine if we could bring a burst of traditional Japanese culture right here into our ShareHouse—what kind of immersive, creative experience or fun activity would you propose to truly share the spirit and beauty of that culture with everyone? Would it be something hands-on, like a tea ceremony or calligraphy workshop, or perhaps a vibrant storytelling session that captures the heart and history? I’d love to hear your vision—art is all about sharing passion and connection, after all!",
+            "response": "Indeed, for a tea ceremony, I think we could prepare everything quickly. Fine, I'll do it.",
+            "prediction": "I think we should all try our hand at traditional Japanese calligraphy. It's a beautifully artistic activity that also encourages mindfulness.",
+            "scores": {
+                "wmd": 0.3036921548915687,
+                "sentence_similarity": 0.31899476051330566,
+                "normalized_length_similarity": 0.6338028169014085,
+                "bleu": 0.04657469807170698,
+                "ttr": 0.9583333333333334,
+                "history_similarity": 0.3610920011997223
+            }
+        },
+        {
+            "message": "Logically speaking, communication is crucial in shared living spaces. If we had a digital notice board where everyone could post requests or updates about shared areas, would you find it efficient to use? What types of messages would you consider important enough to post there?",
+            "response": "I don't think there's much demand for this, but it's good for collecting notes and other documents in one place.",
+            "prediction": "I think it would be important to use the notice board to communicate about shared spaces. If people used the board to post when they were using shared spaces, like the kitchen, or when they were cleaning up after themselves, it would be effective.",
+            "scores": {
+                "wmd": 0.1813669894900211,
+                "sentence_similarity": 0.34075382351875305,
+                "normalized_length_similarity": 0.4534412955465587,
+                "bleu": 0.005599757876912195,
+                "ttr": 0.673469387755102,
+                "history_similarity": 0.4853854477405548
+            }
+        }
+    ]
+}

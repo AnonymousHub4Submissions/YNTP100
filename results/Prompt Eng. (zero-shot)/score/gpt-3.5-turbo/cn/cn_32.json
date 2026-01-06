@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "model": "gpt-3.5-turbo",
+    "method": "zero-shot",
+    "date": "2025-10-06 19:15:03"},
+  "scores": [
+    {
+      "message": "哈哈朋友，说到你之前提到制定详尽的计划和数字，太棒了！是什么让你这么坚持这些理性安排呢？是为了安全感、目标感，还是有别的特别理由？快告诉我你的秘密！",
+      "response": "有目标感会比较安心，我不喜欢突发情况",
+      "prediction": "Oh, 我喜欢有计划有步骤地做事情，这样能够更有效率地完成任务。并且，我也觉得有了详尽的计划，可以更好地掌控局面，减轻压力。听起来很理性吧？ Haha!",
+      "scores": {
+        "wmd": 0.9475069284726977,
+        "sentence_similarity": 0.5700176954269409,
+        "normalized_length_similarity": 0.23684210526315788,
+        "history_similarity": 0.578151524066925,
+        "bleu": 0.009417632649968437,
+        "ttr": 0.7959183673469388
+      }
+    },
+    {
+      "message": "说到稳妥和秩序，我正想问……如果我们设计共享冰箱，你觉得是给每个人固定分区比较合理，还是按物品类别来划分更合适呢？我不是挑剔，但空间有限，大家都希望存放物品时既方便又不混乱。你觉得哪种安排更能让生活品质得到保障呢？",
+      "response": "每个人固定分区，这样比较公平",
+      "prediction": "My response to the message would be: \"我觉得按物品类别来划分比较合适。这样可以确保冰箱内的物品井然有序，避免混乱和错位。每个人都可以按照食物类型来存放，既方便取用也不会混乱。这样的安排可以更好地保障我们的生活品质。大家如果有其他建议或意见也可以一起讨论哦。\"ttr",
+      "scores": {
+        "wmd": 1.156965037471161,
+        "sentence_similarity": 0.4716229736804962,
+        "normalized_length_similarity": 0.0945945945945946,
+        "history_similarity": 0.382976770401001,
+        "bleu": 0.005874738147063014,
+        "ttr": 0.7317073170731707
+      }
+    },
+    {
+      "message": "哇，说到生活细节，咱们装修“梦想房间”时，面对实用和美观的矛盾，你会怎么拿捏呢？更偏向功能优化，把实用放在第一位，还是愿意为了艺术感适度妥协一点？艺术就是要找到那个完美平衡点，你怎么看？",
+      "response": "实用第一位",
+      "prediction": "I might say something like:\n\n哇，这个问题很有趣呢！我认为在装修“梦想房间”的时候，实用和美观其实是可以兼顾的。我倾向于先考虑功能性，确保房间能满足基本需求，然后再在此基础上添加一些艺术元素，找到实用和美观的平衡点。你们对此有什么想法呢？",
+      "scores": {
+        "wmd": 1.2245040049411908,
+        "sentence_similarity": 0.310522198677063,
+        "normalized_length_similarity": 0.03759398496240601,
+        "history_similarity": 0.4511253237724304,
+        "bleu": 0.002324796558859722,
+        "ttr": 0.7692307692307693
+      }
+    },
+    {
+      "message": "从生活细节来说，噪音和清洁这些因素确实会影响心情。我们能不能用一个具体的公约来规范，比如安静时间段或者轮流清洁安排？你觉得这样的规则怎么制定才更合理，既尊重彼此习惯又能保证效率？",
+      "response": "可以制定公约。公约的制定需要在了解大家自身作息的基础上协商确定",
+      "prediction": "That sounds like a great idea! I believe open communication and mutual respect are key in establishing house rules that work for everyone. We could hold a house meeting to discuss everyone's preferences and come up with a fair schedule for quiet hours and cleaning duties. It's important that everyone's needs are considered so that we can create a harmonious living environment together.",
+      "scores": {
+        "wmd": 1.2860474556749326,
+        "sentence_similarity": -0.024567637592554092,
+        "normalized_length_similarity": 0.07989690721649484,
+        "history_similarity": 0.05273997783660889,
+        "bleu": 0.0,
+        "ttr": 0.4148148148148148
+      }
+    }
+  ]
+}

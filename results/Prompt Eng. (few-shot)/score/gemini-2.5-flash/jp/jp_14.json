@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:54:31",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "ハハ、最高にいい話だね友達！じゃあ、そこで君に質問だ！シェアハウスのルールやマナーって、ただ決めるだけじゃなくてみんなが納得して守れることが大事だよね？君は具体的にどんなルールや工夫があったら、みんなが気持ちよく過ごせると思う？例えば掃除のタイミングや共有スペースの使い方とか、何かいいアイデアはあるかな？",
+      "response": "掃除は各自が持ち回りで当番制にしたらいいと思うよ。共有スペースは",
+      "prediction": "僕が思うのは、ルールを決める時はみんなで話し合って、それぞれが納得できる形にするのが一番かな。一方的に決めるんじゃなくて、みんなで「これなら守れるね」って思えるような内容にすることが大事だと思う。\n例えば掃除だったら、当番制は引き続きだけど、いつまでにやるかとか、何をどこまでやるかみたいな、具体的な基準をみんなで決めて、終わったらチェックできるような簡単なシートとかを作ってみるのもいいかもしれない。共有スペースの使い方としては、やっぱり使ったら元の場所に戻すとか、私物は基本的には自分の部屋に持ち帰るようにするとかが、みんな気持ちよく使える基本になるんじゃないかな。あとは、何か気になることがあったら、直接じゃなくてメモに書いて冷蔵庫に貼るとか、匿名で意見を出せる場所を作るとかも、角が立たずにスムーズにいく工夫になるかもね。",
+      "scores": {
+        "wmd": 0.7542231911987536,
+        "sentence_similarity": 0.24412347376346588,
+        "normalized_length_similarity": 0.08767123287671233,
+        "history_similarity": 0.4409104287624359,
+        "bleu": 0.006546039115222199,
+        "ttr": 0.4732142857142857
+      }
+    },
+    {
+      "message": "ハハ！持ち回りの掃除当番制、最高だ友達！共有スペースはどう使うのがいいと思う？教えてくれ！",
+      "response": "自分の部屋よりもいっそうきれいに使う意識が必要かな。",
+      "prediction": "僕としては、みんなが気持ちよく使えるのが一番だと思う。だから、私物を放置しないとか、使ったあとは片付けるとか、基本的なことを守るのが大事かな。",
+      "scores": {
+        "wmd": 0.7918818629213954,
+        "sentence_similarity": 0.6002782583236694,
+        "normalized_length_similarity": 0.36619718309859156,
+        "history_similarity": 0.7542649507522583,
+        "bleu": 0.021511596337479864,
+        "ttr": 0.6458333333333334
+      }
+    },
+    {
+      "message": "ああ、共有スペースをいつもピカピカに保つというのは確かに理想的ですね。ただ、創作活動の熱量が高まると、つい散らかってしまうことも避けられない気がします。僕のように完璧主義な人間には少し...ストレスかもしれませんが、みなさんはどうやってそういう創作の途中の混沌と周囲の清潔感のバランスを取っているのでしょうか？具体的な工夫や経験があったらぜひ教えてほしいですね。",
+      "response": "僕は自分の作業環境が清潔じゃないと創作活動へのモチベーションがわかなくなるからきれいにしてるかな。外部の人間を呼ぶことで強制的にきれいにするのもいいと思う。",
+      "prediction": "僕も創作してると散らかるのはわかるな。でも、最低限、他の人が使うときに困らない程度には片付けるべきだと思うよ。完全にピカピカじゃなくても、使う人が気持ちいい程度にはね。",
+      "scores": {
+        "wmd": 0.5408178333213373,
+        "sentence_similarity": 0.6799454092979431,
+        "normalized_length_similarity": 0.9285714285714286,
+        "history_similarity": 0.7321244478225708,
+        "bleu": 0.01754980667854339,
+        "ttr": 0.6851851851851852
+      }
+    },
+    {
+      "message": "わあ、みんなの工夫は本当に刺激的だよ！さて、シェアハウスの動画プロジェクトで、実用性を重視しつつ見た目の魅力もアップさせるためにはどんなアイディアがあると思う？例えば、ただきれいにするだけじゃなくて、アートのように空間が映える工夫とか、何か君の創造力が燃え上がる提案はあるかな？君の意見を聞かせてほしいな！",
+      "response": "せっかく動画にするなら視聴者の案を採用するといいと思う。アンケートとかもとってさ。",
+      "prediction": "僕的には、実用性を考えると、まずは整理整頓を徹底することかな。それに加えて、少し観葉植物を置いたり、照明の色を工夫したりするだけでも雰囲気が良くなると思うよ。",
+      "scores": {
+        "wmd": 0.7163947597438758,
+        "sentence_similarity": 0.6163932085037231,
+        "normalized_length_similarity": 0.5189873417721519,
+        "history_similarity": 0.786973237991333,
+        "bleu": 0.012133650006341503,
+        "ttr": 0.7647058823529411
+      }
+    },
+    {
+      "message": "そうですね、共有空間の管理というと冷蔵庫の使い方や清掃ルールが重要になると思います。そこでお聞きしたいのですが、実際に皆が守っているルールや工夫で、特に効果的だったものは何ですか？たとえば食品の賞味期限の管理方法や、スペースの使い分けの仕組みなど、具体的に教えてもらえますか？",
+      "response": "賞味期限は開封したら日付を書いて、この日までに使い切ると決めて無理なら捨てるかな。スペースに関してはそもそも大きい冷蔵庫を買うことで何とかしてる。",
+      "prediction": "僕がこれまで効果的だと感じたのは、やっぱり賞味期限切れの食品はすぐ捨てることと、飲み物とか調味料に開栓日を書くことかな。僕個人はそうしてるんだけど、皆も意識してやってる部分は多いと思うよ。あとはスペースの使い分けについては、特に細かく決めてるわけじゃないけど、各自が自分のものはなるべく奥にしまったり、共有スペースは譲り合って使うようにしてるんじゃないかな。そういうちょっとした気遣いが積み重なると、全体が使いやすくなると思う。",
+      "scores": {
+        "wmd": 0.541331769025284,
+        "sentence_similarity": 0.31743380427360535,
+        "normalized_length_similarity": 0.3411214953271028,
+        "history_similarity": 0.5989745855331421,
+        "bleu": 0.015225737679929968,
+        "ttr": 0.584
+      }
+    }
+  ]
+}

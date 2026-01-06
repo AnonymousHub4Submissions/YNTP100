@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "model": "gpt-3.5-turbo",
+    "method": "zero-shot",
+    "date": "2025-10-06 19:15:03"},
+  "scores": [
+    {
+      "message": "哈哈，朋友们！既然大家都同意要明确时间表，那我们来想想怎么把厨房使用和安静时段安排得又合理又快乐吧！你觉得每周定一个固定轮流做饭时间，还是按需求灵活安排更好？还有，晚上几点开始安静时段，才不会打扰到大家的创作和休息呢？大胆说说你的想法吧，太棒了！",
+      "response": "我觉得可以定一个时间段，大家可以自由使用厨房，但是超过这个时间段就不要使用了",
+      "prediction": "My response would be: \"我觉得每周定一个固定轮流做饭时间是个不错的主意，可以让大家都参与进来，也能保证厨房的使用秩序。至于安静时段，晚上十点开始是个合适的时间，这样可以确保每个人都能有充足的休息。谢谢你的提议，让我们共同努力让这个share house变得更加和谐愉快吧！\"ttr",
+      "scores": {
+        "wmd": 0.9112766553547371,
+        "sentence_similarity": 0.5742682218551636,
+        "normalized_length_similarity": 0.25675675675675674,
+        "history_similarity": 0.4379235804080963,
+        "bleu": 0.00838311205478219,
+        "ttr": 0.7411764705882353
+      }
+    },
+    {
+      "message": "说到共享空间的规则，我不是挑剔，但我总觉得公平和责任心很关键呢。比如说，大家用完厨房后是否都能及时清理，或者公共区域的物品摆放有没有统一标准。或许我们可以设定一些具体的“使用后必清理”之类的规则，既保护环境，又减少摩擦。你们觉得，这样的细节是不是也应该写进我们的规章里呢？毕竟，维持一个高品质的ShareHouse，光靠时间表恐怕还不够吧。",
+      "response": "对的，应该再制定一个表，确定每个人的清扫范围",
+      "prediction": "My predicted response to the message would be: \"我完全同意你的看法。维持共享空间的整洁和有序确实需要大家共同努力和相互尊重。定期清理和约定统一的规则对于保持良好的居住环境至关重要。我们可以一起商讨并制定一份包括这些细节规定的规章，让我们的ShareHouse更加舒适和宜居。谢谢你提出这个建议！\"ttr",
+      "scores": {
+        "wmd": 1.0745700517972896,
+        "sentence_similarity": 0.4833607077598572,
+        "normalized_length_similarity": 0.12790697674418605,
+        "history_similarity": 0.45626071095466614,
+        "bleu": 0.003124359578315143,
+        "ttr": 0.7439024390243902
+      }
+    },
+    {
+      "message": "哇，这个共享厨房的热闹场面简直就是一场艺术盛宴！说到做菜和聊天，有时候我会被大家的故事和笑声包围，太有感染力了！不过，保持厨房整洁又实用，是不是也像雕塑打磨一样重要呢？在这样温馨的共同烹饪时刻，你更倾向于享受这份社交的火花，还是坚持让厨房井井有条，做到完美无瑕呢？艺术与秩序，你是哪一派？",
+      "response": "我更倾向于秩序",
+      "prediction": "I would probably respond with something along the lines of: \"我觉得艺术与秩序两者都很重要。在共享厨房里，不仅可以享受社交的乐趣，还要保持整洁和井井有条，这样才能让大家更好地共同利用和享受这个空间。对我来说，平衡艺术和秩序是最理想的做法。你呢？你更注重社交还是秩序呢？\"ttr",
+      "scores": {
+        "wmd": 1.141434579242101,
+        "sentence_similarity": 0.43316900730133057,
+        "normalized_length_similarity": 0.04242424242424243,
+        "history_similarity": 0.39236265420913696,
+        "bleu": 0.0026749010302443248,
+        "ttr": 0.6966292134831461
+      }
+    },
+    {
+      "message": "从实用角度讲，秩序确实是关键。但生活中难免有些设计上的小妥协会带来更好的舒适感和合作氛围。你觉得在保持基本秩序的前提下，偶尔为了提升大家的居住体验，接受一些小的设计妥协合理吗？哪些方面你认为可以灵活调整，哪些又必须严格执行？",
+      "response": "比如清扫时间表可以灵活调整，但是厨房使用时间必须按照规定来。",
+      "prediction": "I agree that maintaining basic order is crucial in a share house setting. It is reasonable to make some small design compromises to enhance everyone's living experience while ensuring mutual comfort and a cooperative atmosphere. Flexibility can be applied in areas such as personal decoration of individual rooms, sharing of common spaces, and scheduling of shared activities. However, certain rules must be strictly followed to ensure the well-being and respect of all residents, such as cleanliness standards, noise levels, and shared responsibilities for household chores. It's important to find a balance between maintaining a harmonious living environment and accommodating individual preferences within the shared space.",
+      "scores": {
+        "wmd": 1.2802534303284279,
+        "sentence_similarity": 0.024196898564696312,
+        "normalized_length_similarity": 0.04132231404958678,
+        "history_similarity": 0.14089301228523254,
+        "bleu": 0.0,
+        "ttr": 0.38495575221238937
+      }
+    }
+  ]
+}

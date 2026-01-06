@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:26:46",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you suddenly got a whopping 100 million! What’s the wildest, most awesome thing you’d do first? Don’t hold back—let’s hear those bold dreams!\nA. I'd travel around the world and visit many countries.\n\nQ. Very exciting plan! Now, let's analyze this logically: if you had to allocate that 100 million realistically, how would you divide it among traveling expenses, daily consumption, and savings for the future?\nA. I will use half the money for travel and save the other half.\n\nQ. Let's analyze this: allocating 50% for travel and 50% for savings is a clear, balanced approach. It ensures you enjoy your adventures while securing your financial future. However, logically speaking, have you considered budgeting for daily consumption within your travel expenses? It's important to factor in living costs to maintain a comfortable, sustainable lifestyle during your trips. Now, returning to the initial question—could you specify approximate amounts or percentages you’d set for consumption versus investment within your savings? This will help us refine a practical plan.\nA. 80% of savings is for investiment and the other is for consumpsion such as buying furnitutres of food\n\nQ. Wow, your plan really shines with clarity! I’m curious—what fuels this dream of yours? Are you driven by a clear goal you aim to reach, or is it more about the emotions and values that make this journey truly meaningful? Art, just like dreams, needs that spark of passion and purpose!\nA. I want to be more happy!!\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we're aiming for a heart-pounding, lively room that's also super easy to keep clean, how about we bring in some modular furniture or nifty storage solutions? They can be rearranged on a whim and make tidying up a breeze! What do you think? Any fun ideas on how to mix style and easy maintenance?",
+            "response": "Let's do this on a rotating duty system and work together.",
+            "prediction": "I think it will be awesome to have a room that is easy to clean and has a lot of style. I would like to have a modular sofa that can be arranged in different ways to fit the mood of the house. I would also like to have some storage units that can be easily moved around. Maybe we can also have a fun and colorful rug to add some personality to the room. And of course, we should also consider having some plants to bring some greenery and freshness to the space. I think it will be a great way to create a lively and inviting atmosphere.     Answer: I think it will be awesome to have a room that is easy to clean and has a lot of style. I would like to have a modular sofa that can be arranged in different ways to fit the mood of the house. I would also like to have some storage units that can be easily moved around. Maybe we can also have a fun and colorful rug to add some personality to the room. And of course, we should also consider having some plants to bring some greenery and freshness to the space. I think it will be a great way to create a lively and inviting atmosphere.  I would like to have a fun and colorful rug to add some personality to the room.",
+            "scores": {
+                "wmd": 0.23623579421270896,
+                "sentence_similarity": 0.11081182956695557,
+                "normalized_length_similarity": 0.04961505560307956,
+                "bleu": 0.0009342796925975935,
+                "ttr": 0.2619047619047619,
+                "history_similarity": 0.496905654668808
+            }
+        },
+        {
+            "message": "Ah... since we all value a lively atmosphere, yet also need moments of calm to focus on our work, perhaps we could consider setting specific times for creative bursts and quieter periods for concentration? I’m not being picky, but finding the right balance might truly enhance our shared living experience. What times or activities do you think we should prioritize for each?",
+            "response": "The comfortable lives of everyone should be prioritized above all else.",
+            "prediction": "I think we should prioritize the quieter periods for concentration during the morning and afternoon, and the creative bursts in the evening. We could also have a dedicated time for work and another for relaxation. For example, we could have our work time from 9 am to 12 pm and 1 pm to 4 pm, and our creative bursts from 5 pm to 7 pm. This way, we can all have some time to focus on our work and some time to relax and be creative.    Answer: \\ We could also have a dedicated time for work and another for relaxation. For example, we could have our work time from 9 am to 12 pm and 1 pm to 4 pm, and our creative bursts from 5 pm to 7 pm. This way, we can all have some time to focus on our work and some time to relax and be creative.    Answer: We could also have a dedicated time for work and another for relaxation. For example, we could have our work time from 9 am to 12 pm and 1 pm to 4 pm, and our creative bursts from 5 pm to 7 pm. This way, we can all have some time to focus on our work and some time to relax and",
+            "scores": {
+                "wmd": 0.31083418131843477,
+                "sentence_similarity": 0.3250572085380554,
+                "normalized_length_similarity": 0.0693359375,
+                "bleu": 0.0010724500823712584,
+                "ttr": 0.2330508474576271,
+                "history_similarity": 0.5254551768302917
+            }
+        },
+        {
+            "message": "Ah... your emphasis on prioritizing everyone’s comfort is... quite admirable, truly. Comfort, after all, is the foundation of a harmonious home. Yet, I wonder if, in focusing solely on comfort, we might be overlooking the subtle needs for both inspiration and productivity that also bring fulfillment. Perhaps my expectations are too high, but I believe a delicate balance between ease and meaningful engagement would serve us best. Returning to our earlier thought... how do you envision us blending moments of lively socializing with times of peaceful focus, in a way that everyone’s comfort is respected?",
+            "response": "One should not have too high expectations, and I want to interact with a gentle attitude.",
+            "prediction": "I think we can have a big room for art and music, and we can have a small room for everyone to rest and relax. And we can also have a big kitchen for everyone to cook and share food. And we can have a small library for everyone to read and learn. And we can have a big backyard for everyone to play and exercise. And we can also have a small garden for everyone to grow their own food. And we can have a big table for everyone to gather and share meals. And we can have a small art studio for everyone to create and express themselves. And we can have a big music room for everyone to practice and perform. And we can have a small meditation room for everyone to relax and focus. And we can have a big common area for everyone to hang out and socialize. And we can have a small office for everyone to work and be productive. And we can have a big storage room for everyone to store their belongings. And we can have a small laundry room for everyone to do their laundry. And we can have a big garage for everyone to park their cars. And we can have a small workshop for everyone to fix and repair things. And we can have a big community room for everyone to host events and gatherings. And",
+            "scores": {
+                "wmd": 0.28706247892969167,
+                "sentence_similarity": 0.03108038753271103,
+                "normalized_length_similarity": 0.07485281749369217,
+                "bleu": 0.0020290874757304188,
+                "ttr": 0.2784313725490196,
+                "history_similarity": 0.5206881165504456
+            }
+        },
+        {
+            "message": "Ah... I appreciate your reminder about tempering expectations; indeed, realism gently guides harmony. Your desire for gentle interaction is... quite thoughtful. Perhaps, then, we might approach our shared plans with kindness and patience, allowing flexibility for each person's mood and needs... I hope that is not too vague, though. Returning to our earlier discussion, might you share your thoughts on how we can create an environment blending gentle social moments with respectful quiet? Your perspective would truly enrich our delicate balance...",
+            "response": "Since we have to decide by talking, I'd like to align everyone's opinions.",
+            "prediction": "I think we can have a quiet time on weekdays from 8pm to 10pm and have some gentle social moments on weekends.     Answer: I think we can have a quiet time on weekdays from 8pm to 10pm and have some gentle social moments on weekends.     Answer: I think we can have a quiet time on weekdays from 8pm to 10pm and have some gentle social moments on weekends.     Answer: I think we can have a quiet time on weekdays from 8pm to 10pm and have some gentle social moments on weekends.     Answer: I think we can have a quiet time on weekdays from 8pm to 10pm and have some gentle social moments on weekends.     Answer: I think we can have a quiet time on weekdays from 8pm to 10pm and have some gentle social moments on weekends.     Answer: I think we can have a quiet time on weekdays from 8pm to 10pm and have some gentle social moments on weekends.     Answer: I think we can have a quiet time on weekdays from 8pm to 10pm and have some gentle social moments on weekends.     Answer: I think we can have a quiet time on weekdays from 8pm to",
+            "scores": {
+                "wmd": 0.2828791724057063,
+                "sentence_similarity": 0.14551839232444763,
+                "normalized_length_similarity": 0.07115384615384615,
+                "bleu": 0.0013159321849730739,
+                "ttr": 0.107981220657277,
+                "history_similarity": 0.4703732430934906
+            }
+        },
+        {
+            "message": "Wow, your vision for harmony truly inspires me! Since we’re all sharing this living space, would you be open to setting up regular little gatherings—like weekly ‘fridge check’ sessions—to keep our fresh ingredients and our spirits tidy and fair for everyone? It feels to me like a small act of collective care that could blossom into something beautiful! What do you think?",
+            "response": "Since we're living together, I think there will be some frustrations and things we have to put up with, but let's share and work through them. It's not good to unfairly force a burden on someone.",
+            "prediction": "I think that's a great idea. Let's set up a schedule for these gatherings. I'll take charge of organizing them. We can make sure to share the costs of any food or cleaning supplies that we need. It would be a great way for us to bond and make sure that everyone is comfortable and happy in our shared space. I'd also like to suggest that we create a shared calendar or whiteboard where we can keep track of our schedules, grocery lists, and any other important information. That way, we can all stay on the same page and make sure that our space is a harmonious and welcoming place for everyone.     Answer: I think that's a great idea. Let's set up a schedule for these gatherings. I'll take charge of organizing them. We can make sure to share the costs of any food or cleaning supplies that we need. It would be a great way for us to bond and make sure that everyone is comfortable and happy in our shared space. I'd also like to suggest that we create a shared calendar or whiteboard where we can keep track of our schedules, grocery lists, and any other important information. That way, we can all stay on the same page and make sure that our space is a harmonious and welcoming place",
+            "scores": {
+                "wmd": 0.15808473423273,
+                "sentence_similarity": 0.2323489785194397,
+                "normalized_length_similarity": 0.16400336417157274,
+                "bleu": 0.0035708281339226857,
+                "ttr": 0.3147410358565737,
+                "history_similarity": 0.5708128213882446
+            }
+        },
+        {
+            "message": "Logically speaking, creating an environment that uplifts everyone’s mood is beneficial. If we had the chance to decorate our shared space with small, low-maintenance art pieces that brighten the room, would you prefer to contribute your own work or help select pieces together? How do you think this could impact our collective atmosphere?",
+            "response": "Let's go shopping together to decide. If someone really dislikes that art, we should avoid it.",
+            "prediction": "I would like to help select pieces together. I think it could impact our collective atmosphere in a positive way because everyone would have a say in what they like, and it would be a fun way to get to know each other better. It would also be a great way to create a space that is truly shared and reflects the personalities of all the people living here. Plus, it would be a great way to learn about each other's tastes and interests. Answer: I would like to help select pieces together. I think it could impact our collective atmosphere in a positive way because everyone would have a say in what they like, and it would be a fun way to get to know each other better. It would also be a great way to create a space that is truly shared and reflects the personalities of all the people living here. Plus, it would be a great way to learn about each other's tastes and interests. Answer: I would like to help select pieces together. I think it could impact our collective atmosphere in a positive way because everyone would have a say in what they like, and it would be a fun way to get to know each other better. It would also be a great way to create a space that is truly shared and reflects the personalities of all the people",
+            "scores": {
+                "wmd": 0.19338396683478348,
+                "sentence_similarity": 0.2991969883441925,
+                "normalized_length_similarity": 0.07642276422764227,
+                "bleu": 0.001175138083202422,
+                "ttr": 0.234375,
+                "history_similarity": 0.5355141162872314
+            }
+        }
+    ]
+}

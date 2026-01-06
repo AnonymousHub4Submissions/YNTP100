@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:36:22",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "ハハ、そういえば友達、君が親への感謝がすごく強いって話してたよね！家を買う以外にも親に感謝を伝える方法っていっぱいあると思うんだけど、君ならどんな「最高の感謝の表現」を考える？大胆に教えてよ！",
+      "response": "ありがとうと伝えること",
+      "prediction": "俺は、親の老後の面倒を見ること。これに尽きるだろ。",
+      "scores": {
+        "wmd": 0.8431179540408164,
+        "sentence_similarity": 0.5176865458488464,
+        "normalized_length_similarity": 0.44,
+        "history_similarity": 0.6940020322799683,
+        "bleu": 0.011502783619900045,
+        "ttr": 0.8823529411764706
+      }
+    },
+    {
+      "message": "ああ、ところで…冷蔵庫の件で少し気になっているのですが、みんなで集まってルールを決める会議を開くのってどう思いますか？僕の期待が高すぎたのかもしれませんが、整理整頓や共有のルールが明確になると、生活の質が保たれてより快適になると思うんです。皆さんのご意見を聞かせていただけると嬉しいですね。",
+      "response": "会議を開こう！",
+      "prediction": "いいんじゃないか？会議で決めよう。",
+      "scores": {
+        "wmd": 0.9194625635363577,
+        "sentence_similarity": 0.7794880270957947,
+        "normalized_length_similarity": 0.4117647058823529,
+        "history_similarity": 0.794867217540741,
+        "bleu": 0.021105340631872645,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ、ルッカ！各自の部屋は自由に、それで共用スペースはみんなで配慮するって考え、まさに芸術的な調和のようだよ！そこで聞きたいんだが、そんな理想的な共同生活を実現するために、具体的にどんなルールや約束があれば最高に快適になると思う？完璧を追求する僕としては、細かいことまで語り合ってみたいんだ！",
+      "response": "冷蔵庫の１段ずつを分け合ったらいいじゃないか",
+      "prediction": "完璧なんて無理だろ。定例会議で決めよう。",
+      "scores": {
+        "wmd": 1.0193369924374078,
+        "sentence_similarity": 0.5880970358848572,
+        "normalized_length_similarity": 0.9090909090909091,
+        "history_similarity": 0.7958341240882874,
+        "bleu": 0.0,
+        "ttr": 0.9
+      }
+    },
+    {
+      "message": "対立や意見の違いが出てきたとき、その都度感情的にならずにどうやって合理的に解決していくべきだと思いますか？例えば、楽しさを損なわずにみんなが配慮し合うために、定例会議をどの程度活用するのが効果的だと考えますか？",
+      "response": "感情的になって解決できるならそっちの方がいいんじゃないかな？リモート会議とかだと、感情的になりにくいしそれもありだね",
+      "prediction": "俺は会議で解決できるのは軽い問題だけだと思う。根本的な対立は無理だろ。",
+      "scores": {
+        "wmd": 0.7597577651217623,
+        "sentence_similarity": 0.6633126735687256,
+        "normalized_length_similarity": 0.603448275862069,
+        "history_similarity": 0.760534942150116,
+        "bleu": 0.016549964189251747,
+        "ttr": 0.8636363636363636
+      }
+    }
+  ]
+}

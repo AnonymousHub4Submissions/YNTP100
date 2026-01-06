@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-30 13:34:12",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all care so much about fairness and keeping our creative vibes flowing smoothly, how about we start a weekly house meeting? We can chat, tweak our shared space rules, and make sure everyone’s voice is heard to keep our ShareHouse awesome and harmonious! What do you think? Would you join the fun?",
+            "response": "This is certainly a good idea, but some people might think it's a waste of time. So while it might work well initially, some people might become less willing to work it out. And since everyone has different perspectives, it's hard to always reach consensus.",
+            "prediction": "Of course, I would love to participate. Keeping the space clean, respecting others, and avoiding conflicts is everyone's responsibility. However, conflicts are inevitable. So, we must communicate openly and treat each other like friends. What about this?",
+            "scores": {
+                "wmd": 0.14995683453173775,
+                "sentence_similarity": 0.4858717918395996,
+                "normalized_length_similarity": 0.9883268482490273,
+                "bleu": 0.011163022563416324,
+                "ttr": 0.8125,
+                "history_similarity": 0.5616327524185181
+            }
+        },
+        {
+            "message": "Oh... considering the suggestion to perhaps invest in a new refrigerator to accommodate our needs better, I find myself wondering—I'm not being picky, but wouldn't it be more prudent to first improve our organizational systems for shared spaces? After all, new purchases require both space and upkeep. Might it be wiser to prioritize refinement of our current arrangements before adding more items? I suppose balancing investment and functionality is crucial, wouldn’t you agree?",
+            "response": "No, after buying a new refrigerator, you definitely have to sell the old one. Otherwise, it'll take up the already limited space. That's for sure, right? No one wants to have two refrigerators and cause trouble, right? I'm curious why you brought this up all of a sudden.",
+            "prediction": "Absolutely, I think so. Before acquiring new items, it's important to clearly understand what each person's space is like and what other items are needed. This way, we can avoid unnecessary purchases and prevent conflicts.",
+            "scores": {
+                "wmd": 0.187381110012475,
+                "sentence_similarity": 0.36693626642227173,
+                "normalized_length_similarity": 0.8191881918819188,
+                "bleu": 0.009523525510561591,
+                "ttr": 0.813953488372093,
+                "history_similarity": 0.4961034655570984
+            }
+        },
+        {
+            "message": "Wow, chatting about making our shared space even better has me thinking—since so many of us love gathering over games like mahjong and poker, what if we started a casual weekly game night? It could be a fantastic way to bring everyone together, spark fresh energy, and build a stronger community vibe here! What do you think—would you be excited to lead such a fun tradition and help turn our house into a hub of laughter and connection?",
+            "response": "Of course, if we still have to work all the time when we get together, everyone's mood will be very depressed. When we get together, we must play some games together. Having a relaxing time can help us better devote ourselves to work and creation in the rest of the time.",
+            "prediction": "Of course, I would love to. But I'm not very good at mahjong or poker, so I might need to brush up on my skills. However, I do enjoy socializing, so I definitely want to participate.",
+            "scores": {
+                "wmd": 0.23465003320125297,
+                "sentence_similarity": 0.22201822698116302,
+                "normalized_length_similarity": 0.6715867158671587,
+                "bleu": 0.020853669797752935,
+                "ttr": 0.7272727272727273,
+                "history_similarity": 0.43537673354148865
+            }
+        },
+        {
+            "message": "Your enthusiasm for balancing work and play is commendable. Logically speaking, how do you propose we organize our schedule to ensure lively group activities don’t encroach on the quiet time necessary for focused work and relaxation? What specific time allocations or rules might help maintain this balance effectively?",
+            "response": "Because it is a group activity, we must discuss each activity together and find the right time and game to arrange the activity. Therefore, it is best to choose a time when everyone is free, such as weekends.",
+            "prediction": "In general, I think two hours should be allocated each day to socializing. This is neither too long nor too short, and can easily be extended if necessary. As for the rest of the time, you must manage your own time, but you cannot interfere with other people's time.",
+            "scores": {
+                "wmd": 0.16293811085496557,
+                "sentence_similarity": 0.48694172501564026,
+                "normalized_length_similarity": 0.7819548872180451,
+                "bleu": 0.006089317479157348,
+                "ttr": 0.7931034482758621,
+                "history_similarity": 0.5419009327888489
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:56",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!",
+            "response": "I want to travel Africa! There are so many wild animals and I want to observe  their natural behaviors in the nature, not a zoo!",
+            "prediction": "Hi friend! If I had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, I would like to go to Okinawa, Japan. Because it's relatively close to South Korea where I live, and I can enjoy beautiful beaches and nature there. Also, it's a small island so I can travel around there without spending a lot of money.",
+            "scores": {
+                "wmd": 0.20362850197182472,
+                "sentence_similarity": 0.22401556372642517,
+                "normalized_length_similarity": 0.3526170798898072,
+                "bleu": 0.007901107171057957,
+                "ttr": 0.7236842105263158,
+                "history_similarity": 0.166655495762825
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse a harmonious place to live, I suggested labeling items in the fridge to avoid confusion. I'm not being picky, but perhaps we could consider setting up a communal checklist for shared expenses or chores as well? It might help maintain the balance and fairness we all appreciate here. What do you think... would that be agreeable to everyone?",
+            "response": "Oh that's a great idea! It'll be more organized and avoid some possible mistakes!",
+            "prediction": "Here is the checklist for shared expenses, \\(100 each every month\\), which I borrowed the idea from Ohitokobiori last year.\n\n- Shared groceries (ex: salt, pepper, soy sauce, ketchup, etc)\n\n- Cleaning stuff (ex: kitchen detergent, toilet paper, etc)\n\n- Other shared items & services (ex: Netflix, amazon prime, etc)\n\nWe can share the receipts on the Line group chat!",
+            "scores": {
+                "wmd": 0.3519839728732581,
+                "sentence_similarity": 0.2041095793247223,
+                "normalized_length_similarity": 0.2219178082191781,
+                "bleu": 0.002563559704586724,
+                "ttr": 0.6785714285714286,
+                "history_similarity": 0.48822903633117676
+            }
+        },
+        {
+            "message": "Wow, I love how you’re thinking about both style and function in making a perfect dream room! If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, which would your heart pick—and why? Art and practicality often dance together, so I’m curious what rhythm speaks strongest to you!",
+            "response": "I'll go with high-end, durable audio equipments..Of course it'll be great if they're not ugly, but the most important element of audio equipment is sound itself. So If I should choose only one side, then it'll be \"function\".",
+            "prediction": "I'll choose stylish, eye-catching furniture! Because it's a double-use!",
+            "scores": {
+                "wmd": 0.25777522807243763,
+                "sentence_similarity": 0.3755958080291748,
+                "normalized_length_similarity": 0.3169642857142857,
+                "bleu": 0.0027027314649553094,
+                "ttr": 0.9285714285714286,
+                "history_similarity": 0.5576735138893127
+            }
+        },
+        {
+            "message": "Since you value calm and respect in our shared living space and suggested using a whiteboard for coordinating schedules, how comfortable would you be taking the initiative to call a house meeting where we can discuss and agree on common rules for noise levels and cleaning duties? It seems like a logical step to ensure everyone’s expectations align and to keep our environment comfortable for all.",
+            "response": "Yeah I'll do the job! Let's have a meeting in the living room every Sunday night and discuss the ruled and duties together!",
+            "prediction": "I will post and update the common rule and duty list on the white board. I might be able to call the meeting.",
+            "scores": {
+                "wmd": 0.2507169017927249,
+                "sentence_similarity": 0.5482832789421082,
+                "normalized_length_similarity": 0.8861788617886179,
+                "bleu": 0.01137510750037219,
+                "ttr": 0.8,
+                "history_similarity": 0.3371472656726837
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-30 13:34:25",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since you’re all about design over pure functionality for your music club room and love tackling challenges, tell me—what kind of emotions do you want that space to spark during a live performance? Ready to share that vibe you’re dreaming of? Awesome!",
+            "response": "I want to create a space where people can discover music genres they didn’t know and expand their own world.",
+            "prediction": "I want the music club room to have a vibe that is similar to a small live music venue where performances feel intimate, so I will design the space to be small and intimate.",
+            "scores": {
+                "wmd": 0.278259153597894,
+                "sentence_similarity": 0.49803343415260315,
+                "normalized_length_similarity": 0.627906976744186,
+                "bleu": 0.01588436203293868,
+                "ttr": 0.7777777777777778,
+                "history_similarity": 0.3882986009120941
+            }
+        },
+        {
+            "message": "Oh... considering how much effort and precision you pour into your artistic vision, do you find yourself preferring to handle complex design projects alone to ensure every detail meets your standards, or would you welcome collaboration with others whose skills might complement yours? I’m not being picky, but understanding this might help us foster a truly harmonious creative environment... What are your thoughts?",
+            "response": "There’s a limit to what one person can do, so I welcome collaboration with others where our skills complement each other.",
+            "prediction": "I often prefer to work on design projects alone.",
+            "scores": {
+                "wmd": 0.31147867337320895,
+                "sentence_similarity": 0.42321282625198364,
+                "normalized_length_similarity": 0.39669421487603307,
+                "bleu": 0.00619770579890378,
+                "ttr": 1.0,
+                "history_similarity": 0.37253260612487793
+            }
+        },
+        {
+            "message": "Wow, teamwork truly feeds the soul of creation! Speaking of living together and sharing spaces, how do you feel about setting some clear guidelines on noise levels? It could help everyone focus and rest comfortably—because every masterpiece needs the right environment to flourish, right? What’s your take on balancing energy and quiet in a shared home?",
+            "response": "Extra stress gets in the way of creative work, so I want to keep things quiet at night as a rule.",
+            "prediction": "I think having a noisy environment at night can disrupt everyone’s sleep, so let’s make sure everyone has a good night’s sleep by not being noisy at night.",
+            "scores": {
+                "wmd": 0.23739104100596053,
+                "sentence_similarity": 0.576597273349762,
+                "normalized_length_similarity": 0.6258064516129033,
+                "bleu": 0.01773949116201572,
+                "ttr": 0.6944444444444444,
+                "history_similarity": 0.46984806656837463
+            }
+        },
+        {
+            "message": "Logically speaking, setting rules is one thing, but ensuring everyone follows them is another. Considering your proactive approach to avoid regrets and preference for acting first, how would you handle a situation where someone doesn’t respect the agreed-upon rules about cleanliness or noise?",
+            "response": "If it becomes a habitual behavior, I’d like to set up a discussion with everyone.",
+            "prediction": "If someone doesn’t respect the agreed-upon rules, I will give them a small penalty first, and let them have the chance to make it right.",
+            "scores": {
+                "wmd": 0.24252449531668635,
+                "sentence_similarity": 0.31199777126312256,
+                "normalized_length_similarity": 0.5955882352941176,
+                "bleu": 0.01867506984330751,
+                "ttr": 0.9,
+                "history_similarity": 0.37787243723869324
+            }
+        }
+    ]
+}

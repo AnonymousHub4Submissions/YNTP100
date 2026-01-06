@@ -1,0 +1,141 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:34",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，既然我们都在努力营造舒服的环境，那我来问问大家！如果我们要设计一个完美的电竞房，你觉得里面最酷的美学元素或者装饰风格应该是什么样的？别害羞，放飞你的想象力，来点炫的、酷的、让人秒变游戏王的感觉吧！",
+            "response": "电脑啊，4090",
+            "prediction": "我不知道，我没和这么多人住过",
+            "scores": {
+                "wmd": 1.166886141225369,
+                "sentence_similarity": 0.3666216731071472,
+                "normalized_length_similarity": 0.5714285714285714,
+                "bleu": 0.021105340631872645,
+                "ttr": 0.9,
+                "history_similarity": 0.7607402205467224
+            }
+        },
+        {
+            "message": "哈哈，朋友！4090超强！那电竞房墙壁要不弄成酷炫的霓虹灯效果，怎么样？！太棒了！！",
+            "response": "不要，花里胡哨的",
+            "prediction": "你说得对，你也说说你心里的梦想目标是什么？大家一起支持吧",
+            "scores": {
+                "wmd": 1.0439562904659931,
+                "sentence_similarity": 0.5826495289802551,
+                "normalized_length_similarity": 0.2857142857142857,
+                "bleu": 0.012109013026441871,
+                "ttr": 0.8421052631578947,
+                "history_similarity": 0.7048169374465942
+            }
+        },
+        {
+            "message": "哦……既然我们都认同简约风格更符合电竞房的实用需求，那如果真的遇到空间或设备布置上的限制，你会怎么在追求理想美感和实际功能之间找到一个既不过分妥协又不显得突兀的平衡点呢？我不是挑剔，只是感觉这其实挺微妙的，大家怎么看呢？",
+            "response": "我不怎么看",
+            "prediction": "你说得对，你们几个打完后留下的状况有时比创作时的还糟",
+            "scores": {
+                "wmd": 1.2029707003086134,
+                "sentence_similarity": 0.49640703201293945,
+                "normalized_length_similarity": 0.19230769230769232,
+                "bleu": 0.0,
+                "ttr": 0.9411764705882353,
+                "history_similarity": 0.7030172348022461
+            }
+        },
+        {
+            "message": "嗯……也许是我期望过高了，能不能说说你的想法呢？",
+            "response": "一起打游戏",
+            "prediction": "我不知道，我没时间想这么多",
+            "scores": {
+                "wmd": 1.2272899322715751,
+                "sentence_similarity": 0.4304988980293274,
+                "normalized_length_similarity": 0.38461538461538464,
+                "bleu": 0.0,
+                "ttr": 0.9,
+                "history_similarity": 0.7715529799461365
+            }
+        },
+        {
+            "message": "呵呵……一起打游戏当然重要呢，但是否也可以顺便聊聊设计细节呢？",
+            "response": "我对这些无所谓，别艺术了，你再说艺术我就离家出走了",
+            "prediction": "谁扯到钱了？你想说什么吧",
+            "scores": {
+                "wmd": 0.9360427142167049,
+                "sentence_similarity": 0.5624880194664001,
+                "normalized_length_similarity": 0.48,
+                "bleu": 0.014228844094632594,
+                "ttr": 1.0,
+                "history_similarity": 0.7026484608650208
+            }
+        },
+        {
+            "message": "哇，说到共享那些有限的冰箱空间，我真的觉得这就像雕塑一样，要在保持个人隐私和遵守集体规则之间找到完美的平衡！你觉得我们应该怎么做，才能既尊重每个人的独占空间，又不让整个共享环境变得紧张呢？这种冲突是不是也像艺术创作中的矛盾一样，有它独特的美感呢？",
+            "response": "确实",
+            "prediction": "你说得对，你们几个理想中的生活空间似乎都被过分限定了，人这么多，空间自然有限，大家也应该对互相尊重有更明确的界定，绝对不能是这么多人住一起，冰箱也不能是这么少",
+            "scores": {
+                "wmd": Infinity,
+                "sentence_similarity": 0.3617610037326813,
+                "normalized_length_similarity": 0.02531645569620253,
+                "bleu": 0.0,
+                "ttr": 0.7755102040816326,
+                "history_similarity": 0.623754620552063
+            }
+        },
+        {
+            "message": "哇，太棒了！你觉得这种独特的美感怎么体现出来？快跟我分享！",
+            "response": "没有美感",
+            "prediction": "谁扔的垃圾",
+            "scores": {
+                "wmd": 1.2723761749809777,
+                "sentence_similarity": 0.5062072277069092,
+                "normalized_length_similarity": 0.8,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.8776528239250183
+            }
+        },
+        {
+            "message": "从逻辑上讲，如果大家都能严格遵守安静和整洁的规则，这种环境对你的学习和实现梦想会带来怎样的影响？会让你更高效、更有动力，还是说还有其他因素更重要？",
+            "response": "是的",
+            "prediction": "谁扔的垃圾",
+            "scores": {
+                "wmd": 0.6550564701803909,
+                "sentence_similarity": 0.9006900787353516,
+                "normalized_length_similarity": 0.4,
+                "bleu": 0.08034284189446518,
+                "ttr": 1.0,
+                "history_similarity": 0.8776528239250183
+            }
+        },
+        {
+            "message": "你同意规则带来的积极影响吗？请具体说明你的想法。",
+            "response": "OK",
+            "prediction": "我不知道，我没时间看看规则",
+            "scores": {
+                "wmd": 1.3310930509740713,
+                "sentence_similarity": 0.10337144136428833,
+                "normalized_length_similarity": 0.15384615384615385,
+                "bleu": 0.0,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.7715529799461365
+            }
+        },
+        {
+            "message": "让我们分析一下，你觉得哪些具体规则最能提升你的效率？",
+            "response": "没啥规则",
+            "prediction": "谁这么多规则",
+            "scores": {
+                "wmd": 1.2995392241927144,
+                "sentence_similarity": 0.9511563777923584,
+                "normalized_length_similarity": 0.6666666666666666,
+                "bleu": 0.08034284189446518,
+                "ttr": 1.0,
+                "history_similarity": 0.6250664591789246
+            }
+        }
+    ]
+}

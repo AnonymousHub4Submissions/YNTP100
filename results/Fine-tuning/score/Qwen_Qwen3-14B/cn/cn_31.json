@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:56",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！说到公共区域的整洁，我们要不要来个轮流值日的打扫计划？大家觉得怎样分配任务最公平又高效？比如谁负责扫地，谁负责擦桌子，怎么安排才能让每个人都轻松又开心？大胆说说你的好主意吧！",
+            "response": "每人安排一天打扫吧。每一个月1号晚上大家抽一个小时集体大扫除。至于谁负责扫地，谁负责擦桌子，当天再安排吧。你们觉得怎么样",
+            "prediction": "轮流值日是一个很棒的主意！我觉得可以按照大家的空闲时间来分配任务，比如有人晚上有空可以负责扫地，有人周末有时间可以负责擦洗公共区域。大家可以提提自己的想法，我们一起协调一下，你觉得呢？",
+            "scores": {
+                "wmd": 0.8435541328007934,
+                "sentence_similarity": 0.7071094512939453,
+                "normalized_length_similarity": 0.6521739130434783,
+                "bleu": 0.02309684450197105,
+                "ttr": 0.7547169811320755,
+                "history_similarity": 0.7872694730758667
+            }
+        },
+        {
+            "message": "嗯……既然我们都这么重视生活品质，我想问问大家，有没有什么看似不起眼但其实很关键的小习惯，或者必须要遵守的规矩？我不是挑剔，但这些细节往往决定了我们共同生活的舒适度呢。大家觉得呢？",
+            "response": "拿了东西要即及时放回原位",
+            "prediction": "说到生活品质，我觉得保持公共区域的干净非常重要的。比如客厅、厨房这些大家都会去的地方，用完东西放回原处，垃圾及时清理，这样大家在一起生活也会更舒服一点，你们觉得呢？",
+            "scores": {
+                "wmd": 1.09332102876826,
+                "sentence_similarity": 0.5629332065582275,
+                "normalized_length_similarity": 0.14634146341463414,
+                "bleu": 0.008685806487464783,
+                "ttr": 0.8301886792452831,
+                "history_similarity": 0.7286903858184814
+            }
+        },
+        {
+            "message": "哇，大家对生活细节的关注让我灵感爆棚！说到公共空间设计，如果有机会参加一个讨论会，和大家一起提出改进方案，你会特别关注哪方面呢？是空间的美感、功能性，还是大家的互动体验？艺术就是要让空间和人产生共鸣，你怎么看？",
+            "response": "空间的美感、功能性，还是大家的互动体验，以及艺术等方面我都会关注",
+            "prediction": "感觉功能性和大家的互动体验结合起来会很棒，你们觉得呢",
+            "scores": {
+                "wmd": 0.628527007198881,
+                "sentence_similarity": 0.7213815450668335,
+                "normalized_length_similarity": 0.8125,
+                "bleu": 0.13558496146802437,
+                "ttr": 1.0,
+                "history_similarity": 0.784092366695404
+            }
+        },
+        {
+            "message": "说到艺术和实用的平衡，从逻辑上讲，你认为在公共空间我们应该更多地加入实用设施，提升功能性，还是增强艺术氛围，让环境更有趣？这样选择的背后，你觉得哪个因素对提升生活质量更关键？",
+            "response": "加入实用设施，提升功能性是更重要的，因为要长期生活使用，艺术无法解决一些实际问题",
+            "prediction": "这个真有意思！如果是实用设施，感觉大家可能会更注重实用功能，比如更多人可能觉得实用更重要",
+            "scores": {
+                "wmd": 0.775370920696229,
+                "sentence_similarity": 0.6142493486404419,
+                "normalized_length_similarity": 0.9090909090909091,
+                "bleu": 0.05356850921756574,
+                "ttr": 0.8333333333333334,
+                "history_similarity": 0.8400106430053711
+            }
+        }
+    ]
+}

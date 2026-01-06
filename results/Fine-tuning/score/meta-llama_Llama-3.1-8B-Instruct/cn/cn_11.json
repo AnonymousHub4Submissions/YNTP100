@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:33",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，既然我们准备启动梦想房间的布置计划啦，你们更希望它是个大家聚在一起放松娱乐的社交天地，还是一个能静静创作、独处的避风港呢？大胆说出你的心声，让我们一起打造最棒的梦想空间！",
+            "response": "这两者可以兼得啊，只需要把大家聚在一起放松娱乐的区域做好隔音措施，那么每个人自己房间就可以变成静静创作，独处的避风港了呢。你们觉得呢",
+            "prediction": "我觉得无所谓，按照大家的意见达成共识即可",
+            "scores": {
+                "wmd": 0.8858206745754734,
+                "sentence_similarity": 0.6718896627426147,
+                "normalized_length_similarity": 0.30303030303030304,
+                "bleu": 0.002091013512950115,
+                "ttr": 1.0,
+                "history_similarity": 0.842932939529419
+            }
+        },
+        {
+            "message": "哦……关于工作和生活的平衡，我不是挑剔，但既然大家都在追求稳定的收入来支撑生活，或许我们应该更细致地考虑如何合理安排时间？毕竟，在忙碌的工作、挑战性的任务和休闲放松之间找到一个真正让人满意的分配，并不是件容易的事。你们有没有什么具体的想法，觉得怎样的时间分配才算既高效又不失生活品质呢？",
+            "response": "我没有什么具体的想法。我更倾向于在想做自己的事情的时候就马上行动",
+            "prediction": "我觉得这可能是因为各自的理想和现实的差异，应该由大家共同协商，等到大家都同意就可以实施了",
+            "scores": {
+                "wmd": 0.9703250552386501,
+                "sentence_similarity": 0.5980275869369507,
+                "normalized_length_similarity": 0.7272727272727273,
+                "bleu": 0.009871721786705418,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.8558626174926758
+            }
+        },
+        {
+            "message": "哇，大家的想法都太有深度了！说到我们共用的空间，比如冰箱和公共区域，我们是不是也该来点艺术家的规矩？你们觉得，哪些使用守则最关键，能让我们既尊重彼此的生活品质，又保持这个家充满创造力和和谐的氛围呢？太棒了，快说说你的想法！",
+            "response": "所有的剩菜应该套上保鲜膜，防止串味，过期的食品应该主动丢弃，这样应该能更好的利用冰箱",
+            "prediction": "我觉得无所谓，按照大家的意见达成共识即可",
+            "scores": {
+                "wmd": 1.0024530763741155,
+                "sentence_similarity": 0.5204340815544128,
+                "normalized_length_similarity": 0.47619047619047616,
+                "bleu": 0.006875734342866205,
+                "ttr": 1.0,
+                "history_similarity": 0.842932939529419
+            }
+        },
+        {
+            "message": "既然我们提到了规矩，生活中难免会遇到一些小冲突，比如噪音或公共区域卫生。让我们分析一下，从逻辑和效率角度出发，你觉得什么样的沟通方式最能让大家达成共识，避免矛盾升级？",
+            "response": "我觉得，及时沟通最为关键。很多时候也不是故意发出噪音，更多的是无意间发出的噪音，只要及时提醒，我觉得可以把争吵扼杀在萌芽阶段",
+            "prediction": "我觉得这可能与大家的生活品质和预期有關，应该由各自的意见通过对话达成共识，且应由所有人共同通过对话达成的规则优先于个人的意见",
+            "scores": {
+                "wmd": 0.8963406059755026,
+                "sentence_similarity": 0.6086142063140869,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.013948420003997713,
+                "ttr": 0.7567567567567568,
+                "history_similarity": 0.8823955655097961
+            }
+        }
+    ]
+}

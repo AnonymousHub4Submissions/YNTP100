@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:29:00",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！要是你突然中了一个亿，你第一件疯狂想做的事是什么？别拘泥于现实，尽情放飞你的梦想吧！\nA. 存一部分然后环球旅行\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何具体分配？比如投资、消费和储蓄各占多少比例？这样既能实现梦想，也能保证未来的安全。\nA. 投资20% 消费5% 储蓄75%\n\nQ. 哇，你的梦想太鼓舞人心了！告诉我，这背后的动力是什么？你更看重明确的目标，还是内心的情感和价值在推动你前进呢？艺术就是要挖掘那最真实的力量！\nA. 都重要\n\nQ. 哦……提到保持这份热情，我想顺便说一下冰箱的情况。最近那些包装食品似乎占用了不少空间，我不是挑剔，但我们不是都希望维持一个既方便又有品质的生活环境吗？大家觉得我们应该怎么共同调整，才更合适呢？\nA. 每人分一层 自己决定自己的那层怎么使用\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你刚才说会把大部分资金储蓄起来，还有明确的梦想和目标！如果突然来了一笔意外之财，你会用它去实现什么疯狂又美妙的梦想呢？大胆说出来，让我们一起为你的梦想加油打气！",
+            "response": "环游世界 我是认真的",
+            "prediction": "储蓄75% 使用剩下的25%实现一个疯狂又美妙的梦想，例如存一部分然后环球旅行，或者购买一家别墅，或者开始自己的创业等。",
+            "scores": {
+                "wmd": 1.106499795072416,
+                "sentence_similarity": 0.40720319747924805,
+                "normalized_length_similarity": 0.16666666666666666,
+                "bleu": 0.0067177027389942,
+                "ttr": 0.8484848484848485,
+                "history_similarity": 0.7893470525741577
+            }
+        },
+        {
+            "message": "说到日常的小细节，关于冰箱我一直坚持各自占用一层，虽然我不是挑剔，但共享确实容易带来小摩擦。你觉得呢，这样的安排，最大的好处会体现在哪些方面呢？毕竟生活品质和便利性都不能忽视呢。",
+            "response": "我支持不共享",
+            "prediction": "自分的生活空間が明確に分けられているため、生活品質と便利性を両立することができる。",
+            "scores": {
+                "wmd": 1.2274942564688751,
+                "sentence_similarity": 0.37290558218955994,
+                "normalized_length_similarity": 0.14634146341463414,
+                "bleu": 0.0,
+                "ttr": 0.8484848484848485,
+                "history_similarity": 0.6231490969657898
+            }
+        },
+        {
+            "message": "嗯...我不是挑剔，但是大家都坚持不共享，偶尔会不会显得有些孤立呢...呢？",
+            "response": "我不觉得",
+            "prediction": "我也认为大家都坚持不共享，偶尔会显得有些孤立。共享空间是大家共同使用的，所以大家应该共同调整、共有。",
+            "scores": {
+                "wmd": 1.1293997326050726,
+                "sentence_similarity": 0.5465379953384399,
+                "normalized_length_similarity": 0.08,
+                "bleu": 0.007173775053353474,
+                "ttr": 0.8064516129032258,
+                "history_similarity": 0.630407989025116
+            }
+        },
+        {
+            "message": "哇，你对梦想房间的抽象风格主导真是太酷了！你有没有特别钟爱的元素或者图案，觉得能用幽默感十足的方式，完美展现那个空间的灵魂呢？艺术就是要敢于疯狂创新，对吧！",
+            "response": "蜡笔小新 我喜欢绿色",
+            "prediction": "存一部分然后环球旅行。",
+            "scores": {
+                "wmd": 1.2218688228474692,
+                "sentence_similarity": 0.611018717288971,
+                "normalized_length_similarity": 0.9090909090909091,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7683528065681458
+            }
+        },
+        {
+            "message": "让我们分析一下，创作自由和生活安宁确实容易冲突。从实际角度，你觉得在梦想房间设计里，如何兼顾这两者？是设立专门的创作区域，还是通过材料和布局降低噪音？你更倾向哪种方案？",
+            "response": "设立专门的创作区域",
+            "prediction": "我更倾向于通过材料和布局降低噪音。理由は，创作自由を兼顾するために专门的创作区域を设立すると，反而可能会分割共有空间，引起生活安宁的冲突。材料和布局を工夫することで，共有空间内で创作自由を実现可能。",
+            "scores": {
+                "wmd": 1.1136386100101623,
+                "sentence_similarity": 0.6877210736274719,
+                "normalized_length_similarity": 0.09090909090909091,
+                "bleu": 0.03628990737912466,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.6229510307312012
+            }
+        }
+    ]
+}

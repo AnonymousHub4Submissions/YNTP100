@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:37:56",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend! Since we’re all about making our space both beautiful and functional, imagine we add a cozy washitsu room with traditional Japanese vibes—but with some clever modern touches to blend convenience and comfort! How would that mix of old and new make you feel about our ShareHouse? Would it inspire you or make you want to hang out there more? Share your awesome thoughts!",
+      "response": "Not just once a week, but at night we should generally keep quiet.\nCleaning once a week should be enough.",
+      "prediction": "I think a washitsu that blends traditional Japanese aesthetics with modern convenience would be very appealing. It would make me want to use the ShareHouse more and definitely inspire me.",
+      "scores": {
+        "wmd": 0.23812060484430486,
+        "sentence_similarity": 0.12235990911722183,
+        "normalized_length_similarity": 0.5614973262032086,
+        "history_similarity": 0.5066916346549988,
+        "bleu": 0.00825101291002796,
+        "ttr": 0.90625
+      }
+    },
+    {
+      "message": "Haha, friend, that’s such an awesome idea! Quiet nights are perfect for recharging those batteries, right?! Keeping the night peaceful every day definitely helps everyone get top-notch rest! And cleaning once a week? Super efficient and eco-friendly, just the right balance! Imagine how peaceful our ShareHouse will feel with that calm nighttime vibe and sparkling clean spaces! Let’s make this a cozy, chill zone everyone loves to come home to! What else do you think would make our ShareHouse even more awesome? Share your cool ideas, friend! Haha!",
+      "response": "If we make a rule against keeping personal belongings in common areas, I think it would make problems much less likely to occur.",
+      "prediction": "I think a dedicated creative space would be useful. This could be a place for noisier activities or projects that generate mess.",
+      "scores": {
+        "wmd": 0.24148499302341045,
+        "sentence_similarity": 0.3238093852996826,
+        "normalized_length_similarity": 1.0,
+        "history_similarity": 0.5543487668037415,
+        "bleu": 0.02018373959272774,
+        "ttr": 0.875
+      }
+    },
+    {
+      "message": "Oh... since we all desire a harmonious and well-kept living space, might I gently suggest the idea of holding a weekly meeting to discuss and perhaps refine our shared space usage and cleanliness guidelines? I'm not being picky, but such a thoughtful gathering could help maintain the elegance and order we all appreciate. Would this be something you find agreeable, do you think?",
+      "response": "To be sure, participation isn't mandatory, but I'd think a few minutes of discussion would be fine.",
+      "prediction": "A weekly meeting sounds like a good idea. It will help keep things organized.",
+      "scores": {
+        "wmd": 0.33078043578216904,
+        "sentence_similarity": 0.4223663806915283,
+        "normalized_length_similarity": 0.7777777777777778,
+        "history_similarity": 0.34242939949035645,
+        "bleu": 0.01005371131863072,
+        "ttr": 0.9375
+      }
+    },
+    {
+      "message": "Wow, what an inspiring conversation about creating harmony and order through thoughtful rules and gatherings! Speaking of sharing and celebrating what we love, imagine if we could bring a burst of traditional Japanese culture right here into our ShareHouse—what kind of immersive, creative experience or fun activity would you propose to truly share the spirit and beauty of that culture with everyone? Would it be something hands-on, like a tea ceremony or calligraphy workshop, or perhaps a vibrant storytelling session that captures the heart and history? I’d love to hear your vision—art is all about sharing passion and connection, after all!",
+      "response": "Indeed, for a tea ceremony, I think we could prepare everything quickly. Fine, I'll do it.",
+      "prediction": "I think a calligraphy workshop would be a good idea. It's hands-on and we could all try writing Japanese characters.",
+      "scores": {
+        "wmd": 0.27451899109745687,
+        "sentence_similarity": 0.22833096981048584,
+        "normalized_length_similarity": 0.7758620689655172,
+        "history_similarity": 0.3928951323032379,
+        "bleu": 0.028489318277723965,
+        "ttr": 0.9130434782608695
+      }
+    },
+    {
+      "message": "Logically speaking, communication is crucial in shared living spaces. If we had a digital notice board where everyone could post requests or updates about shared areas, would you find it efficient to use? What types of messages would you consider important enough to post there?",
+      "response": "I don't think there's much demand for this, but it's good for collecting notes and other documents in one place.",
+      "prediction": "Yes, I think that would be efficient. I'd post updates on cleaning, common area usage, or when someone will be away.",
+      "scores": {
+        "wmd": 0.20412229664343995,
+        "sentence_similarity": 0.2576841711997986,
+        "normalized_length_similarity": 0.9655172413793104,
+        "history_similarity": 0.4080737829208374,
+        "bleu": 0.009871721786705418,
+        "ttr": 0.8148148148148148
+      }
+    }
+  ]
+}

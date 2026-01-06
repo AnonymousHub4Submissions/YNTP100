@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:20",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、そういえば友達、君が親への感謝がすごく強いって話してたよね！家を買う以外にも親に感謝を伝える方法っていっぱいあると思うんだけど、君ならどんな「最高の感謝の表現」を考える？大胆に教えてよ！",
+            "response": "ありがとうと伝えること",
+            "prediction": "自分の手で大きなみんなの楽しいモノを作ってやりたい",
+            "scores": {
+                "wmd": 1.0305681686875237,
+                "sentence_similarity": 0.45549100637435913,
+                "normalized_length_similarity": 0.44,
+                "bleu": 0.0,
+                "ttr": 0.9285714285714286,
+                "history_similarity": 0.7623348236083984
+            }
+        },
+        {
+            "message": "ああ、ところで…冷蔵庫の件で少し気になっているのですが、みんなで集まってルールを決める会議を開くのってどう思いますか？僕の期待が高すぎたのかもしれませんが、整理整頓や共有のルールが明確になると、生活の質が保たれてより快適になると思うんです。皆さんのご意見を聞かせていただけると嬉しいですね。",
+            "response": "会議を開こう！",
+            "prediction": "授業用の冷蔵庫があると良いと思います",
+            "scores": {
+                "wmd": 1.1488107144432216,
+                "sentence_similarity": 0.4279198944568634,
+                "normalized_length_similarity": 0.3888888888888889,
+                "bleu": 0.0,
+                "ttr": 0.9090909090909091,
+                "history_similarity": 0.7732610106468201
+            }
+        },
+        {
+            "message": "わあ、ルッカ！各自の部屋は自由に、それで共用スペースはみんなで配慮するって考え、まさに芸術的な調和のようだよ！そこで聞きたいんだが、そんな理想的な共同生活を実現するために、具体的にどんなルールや約束があれば最高に快適になると思う？完璧を追求する僕としては、細かいことまで語り合ってみたいんだ！",
+            "response": "冷蔵庫の１段ずつを分け合ったらいいじゃないか",
+            "prediction": "部屋をちゃんと片付ける担当を週ごとに変えていけば良いと思います",
+            "scores": {
+                "wmd": 0.8556212399847892,
+                "sentence_similarity": 0.6569533348083496,
+                "normalized_length_similarity": 0.7096774193548387,
+                "bleu": 0.011502783619900045,
+                "ttr": 0.9411764705882353,
+                "history_similarity": 0.7725327014923096
+            }
+        },
+        {
+            "message": "対立や意見の違いが出てきたとき、その都度感情的にならずにどうやって合理的に解決していくべきだと思いますか？例えば、楽しさを損なわずにみんなが配慮し合うために、定例会議をどの程度活用するのが効果的だと考えますか？",
+            "response": "感情的になって解決できるならそっちの方がいいんじゃないかな？リモート会議とかだと、感情的になりにくいしそれもありだね",
+            "prediction": "見習いです…但しどうしても合理的に解決するべきだと思います",
+            "scores": {
+                "wmd": 0.7066171428887722,
+                "sentence_similarity": 0.5609461665153503,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.012688318991227627,
+                "ttr": 0.9473684210526315,
+                "history_similarity": 0.7692370414733887
+            }
+        }
+    ]
+}

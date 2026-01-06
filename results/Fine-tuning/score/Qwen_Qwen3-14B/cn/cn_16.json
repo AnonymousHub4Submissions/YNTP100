@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:52",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友！那我们是不是可以制定一个详细的“晚间安静时间”规则，这样大家心里都有数，睡觉时间超棒又安静！你觉得这样合理吗？还是说我们用别的方式来解决，搞得更灵活一些？说说你的想法吧！",
+            "response": "每个人晚上的睡眠时间区间取并集，这个时间保持安静就行",
+            "prediction": "使用既定规则确实能带来安心与秩序，但我也珍视灵活与共情。或许我们可以找到一个平衡点，既保证休息质量，又留有相互理解和调整的空间。",
+            "scores": {
+                "wmd": 1.0250416953989059,
+                "sentence_similarity": 0.7161878943443298,
+                "normalized_length_similarity": 0.40625,
+                "bleu": 0.005959978627465526,
+                "ttr": 0.8918918918918919,
+                "history_similarity": 0.7062742114067078
+            }
+        },
+        {
+            "message": "既然大家都在意生活的便利性……我倒挺好奇的，你们在梦想房间里，会优先选择哪类智能设备或者家具呢？我不是挑剔，但毕竟空间有限，功能性又要和品质感兼顾，这样用起来才会顺手，你觉得呢？",
+            "response": "我提议扫地机器人",
+            "prediction": "使用智能家居设备肯定是大前提，但品质和美感也不能将就",
+            "scores": {
+                "wmd": 1.1542040114550827,
+                "sentence_similarity": 0.43878844380378723,
+                "normalized_length_similarity": 0.3076923076923077,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7549408078193665
+            }
+        },
+        {
+            "message": "哇，听你们说得这么实用，我突然灵感迸发了！如果在这个实用的房间里，加个小小的艺术角落，像是悬挂创意灯光或者摆放特别的艺术装饰品，你们觉得这样的点缀会不会让生活多点激情和灵魂的火花呢？艺术就是生活的心跳，你们怎么看？",
+            "response": "额，对艺术没什么概念。不过搞点小装饰能让心情更加愉悦。",
+            "prediction": "当然会！艺术点缀就像是房间的灵魂点睛之笔，既保留了实用性，又增添了创意和个性",
+            "scores": {
+                "wmd": 1.039394275273625,
+                "sentence_similarity": 0.6020042896270752,
+                "normalized_length_similarity": 0.7105263157894737,
+                "bleu": 0.009849349468888718,
+                "ttr": 0.9130434782608695,
+                "history_similarity": 0.7993306517601013
+            }
+        },
+        {
+            "message": "从逻辑上讲，生活区域的整洁和生熟分开是关键。你们觉得设立简单明确的分工或规则，比如谁负责哪些区域、清洁频率如何安排，是否能有效提高大家的遵守度？这样既保证效率，也维护了生活品质，你们怎么看？",
+            "response": "公共区域的清洁，比如冰箱和灶台的打扫，可以写个排班表。其他公共区域麻烦自己产生的垃圾自己带走。",
+            "prediction": "使用冰箱食品包装盒作为收纳整理的创意确实实用！不过在冰箱这个共享空间里，大家对食物储存的需求和习惯可能各有不同。你觉得是制定统一的整理标准，还是大家根据使用频率自由安排更合理呢？",
+            "scores": {
+                "wmd": 0.9232724175871675,
+                "sentence_similarity": 0.5262789726257324,
+                "normalized_length_similarity": 0.5280898876404494,
+                "bleu": 0.006043355220907112,
+                "ttr": 0.8627450980392157,
+                "history_similarity": 0.6948990225791931
+            }
+        }
+    ]
+}

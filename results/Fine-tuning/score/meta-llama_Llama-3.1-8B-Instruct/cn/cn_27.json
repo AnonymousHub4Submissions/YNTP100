@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:36",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你说得太棒了！说到理性规划，既然你注重明确目标和理财规划，未来一年里你准备怎么具体安排学习新的IT技能呢？是按阶段定计划，还是每天定时间？大胆告诉我你的超酷学习大招吧！",
+            "response": "还没有仔细的想过，应该是按阶段定计划吧",
+            "prediction": "根据能力分阶段",
+            "scores": {
+                "wmd": 1.1039272798442155,
+                "sentence_similarity": 0.6311225891113281,
+                "normalized_length_similarity": 0.3684210526315789,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.6923685669898987
+            }
+        },
+        {
+            "message": "说到规划，既然我们都重视生活品质……我一直在想，假如我们要一起设计一个共享空间，你会倾向怎样合理分配个人与公共区域呢？我不是挑剔，但确实希望大家都能既舒适又互相尊重，这样长久住下来才不会累人。你觉得呢？",
+            "response": "平均分配个人空间，个人空间就个人负责，公共区域的话可以轮流负责",
+            "prediction": "哦……也许得专门布局一个工作区和一个放松区，尽量保持噪音和活动空间的品质标准，毕竟这些细节都会影响到日常质量。大家有没有其他更靠谱的点子呢？",
+            "scores": {
+                "wmd": 1.021749424673473,
+                "sentence_similarity": 0.6945027112960815,
+                "normalized_length_similarity": 0.44285714285714284,
+                "bleu": 0.004863083928997274,
+                "ttr": 0.8666666666666667,
+                "history_similarity": 0.6244966387748718
+            }
+        },
+        {
+            "message": "哇，讨论得太棒了！说到公共空间的管理和创作自由，有时候噪音真的会打破我们的灵感节奏呢！你觉得我们怎么才能在保持创作激情的同时，又能尊重大家的安静需求，找到那个完美的平衡点？艺术就是要激情迸发，但生活也需要和谐共处，你怎么看？",
+            "response": "按照大家投票的结果来吧，安静的时间段就都保持安静，噪音就只发生在允许的时间段内",
+            "prediction": "哦……这确实是小挑战啊……也许我们可以专门布局一个创作区域，留着公共区域保持安静时段，大家都有一个明确的活动空间和时间段，大家都有机会专注和释放内心的能量，毕竟这两者的碰撞才是艺术的灵魂啊！你觉得这个方案合理吗？有没有更好的建议？太棒了！",
+            "scores": {
+                "wmd": 0.8645445211363222,
+                "sentence_similarity": 0.6654637455940247,
+                "normalized_length_similarity": 0.3277310924369748,
+                "bleu": 0.007651787755053268,
+                "ttr": 0.72,
+                "history_similarity": 0.7270951271057129
+            }
+        },
+        {
+            "message": "说得很好，既考虑了创作自由，也兼顾了生活舒适。现在让我们分析一下：如果让你设计一个理想的工作学习角落，你会优先增添哪些实用功能？在装饰上，又会怎么平衡美感与效率？这样空间既能激发灵感，又能高效完成任务，你觉得合理吗？",
+            "response": "首先是能让我保持长时间工作的桌椅必须得舒适，还有摆放零食茶歇的地方等等。装饰可能会按自己喜欢的色系来搭配",
+            "prediction": "实用性重要",
+            "scores": {
+                "wmd": 1.2327249278760761,
+                "sentence_similarity": 0.3897831439971924,
+                "normalized_length_similarity": 0.09615384615384616,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.5393937826156616
+            }
+        }
+    ]
+}

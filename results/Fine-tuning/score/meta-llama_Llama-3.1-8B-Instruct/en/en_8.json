@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:31",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since you’re all about breaking the mold and sharing something no one else can do, if you could invent a wild, one-of-a-kind gadget to make life here at the ShareHouse easier and more awesome for everyone, what would it be? Give me your boldest, most brilliant idea!",
+            "response": "We invent a cleaning robot",
+            "prediction": "Wow, fantastic! I really want to have a family cinema!",
+            "scores": {
+                "wmd": 0.4086902359450018,
+                "sentence_similarity": 0.02619088813662529,
+                "normalized_length_similarity": 0.48148148148148145,
+                "bleu": 0.01553712569276035,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.21333518624305725
+            }
+        },
+        {
+            "message": "Oh... a cleaning robot does sound rather convenient, indeed. But tell me, friend, since we aim to create a truly exceptional and practical space, would you prefer to start with a simple prototype to test our ideas rather cautiously, or shall we invest more time and effort upfront to design almost a perfect innovation from the very beginning? I’m not being picky, but setting the right foundation matters, don’t you think?",
+            "response": "we should invest more time and effort upfront to design almost a perfect innovation",
+            "prediction": "Hmmm, I think we should make a simple prototype first.",
+            "scores": {
+                "wmd": 0.31961351222947215,
+                "sentence_similarity": 0.5657523274421692,
+                "normalized_length_similarity": 0.6506024096385542,
+                "bleu": 0.03374378457966304,
+                "ttr": 1.0,
+                "history_similarity": 0.3727281093597412
+            }
+        },
+        {
+            "message": "Wow, your dedication to perfection really shines! Now, thinking about our shared space—how do you imagine we can honor each person’s creative freedom while also keeping our home peaceful and tidy? Balancing wild invention with respect for quiet and cleanliness seems like a true masterpiece of harmony, don’t you think?",
+            "response": "Making rules can be tiring",
+            "prediction": "Hmmm, that's really a great question. As I said, we can gather together to make a non-noise time chart. Then, everyone can sign-up for the quiet hours.",
+            "scores": {
+                "wmd": 0.4324822408972427,
+                "sentence_similarity": 0.10454633831977844,
+                "normalized_length_similarity": 0.17218543046357615,
+                "bleu": 0.005474870710453651,
+                "ttr": 0.8235294117647058,
+                "history_similarity": 0.22855454683303833
+            }
+        },
+        {
+            "message": "Wow, I totally get that! Rules can feel like a heavy brushstroke on a blank canvas, tiring and limiting sometimes. But think of them as the frame that holds our masterpiece together—guidelines that help everyone's creativity and peace coexist beautifully! How about we make just a few simple, inspiring ‘rules’ that celebrate freedom yet keep our home harmonious? That way, everyone’s art of living blossoms without chaos. What small, beautiful agreement do you think could help us keep this balance? Art is all about balance, after all!",
+            "response": "we don't need balance",
+            "prediction": "Hmmm, you can have a quiet time after 12:00 am, and we can also set a voice down time for everyone--like after 12:00 am, we should keep down the voice or have a low voice in the share room.",
+            "scores": {
+                "wmd": 0.4760352811673393,
+                "sentence_similarity": 0.12828752398490906,
+                "normalized_length_similarity": 0.1111111111111111,
+                "bleu": 0.004089349842971759,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.21128696203231812
+            }
+        },
+        {
+            "message": "Wow, that's a bold and passionate brushstroke! To say we don’t need balance is like declaring the sky doesn’t need stars—pure energy and freedom! But imagine, without even a hint of order, could our vibrant colors blend or would they clash like wild storms? Art is freedom, yes, but also harmony! What if our ‘no balance’ is its own unique masterpiece—a raw, untamed expression? How do you envision this fearless, unbalanced creation living together every day in our ShareHouse? Tell me your vision—wow, this could be truly extraordinary!",
+            "response": "Art is freedom",
+            "prediction": "Hmmm, I think it will be a big garbage  since we have no place to put all the things.",
+            "scores": {
+                "wmd": 0.559201828273231,
+                "sentence_similarity": 0.13911715149879456,
+                "normalized_length_similarity": 0.16470588235294117,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.2436317652463913
+            }
+        },
+        {
+            "message": "Your passion for freedom is clear, and I respect that. Logically speaking, though, total freedom without any agreed boundaries could lead to conflicts affecting everyone's well-being. If you could see a future moment where your ideal of art as pure freedom has either succeeded brilliantly or faced challenges, what would that moment look like? How might that vision guide us in shaping our shared living environment practically and sustainably?",
+            "response": "it will be succeed",
+            "prediction": "Well, I had a really great time during the family movie night last weekend. We all gathered in the living room, and I played some awesome jazz music before the film. The atmosphere was really lively, don't you think?",
+            "scores": {
+                "wmd": 0.5000257994675376,
+                "sentence_similarity": -0.025840837508440018,
+                "normalized_length_similarity": 0.08333333333333333,
+                "bleu": 0.0,
+                "ttr": 0.8478260869565217,
+                "history_similarity": 0.1026344746351242
+            }
+        },
+        {
+            "message": "Let’s analyze this. You believe the ideal of art as pure freedom will succeed. That’s an optimistic and valid view, but logically speaking, success depends on how well we manage potential conflicts and maintain respect within the group. Could you describe what specific conditions or agreements would make this success possible in our ShareHouse? Understanding that will help us create practical guidelines, ensuring this vision of freedom thrives sustainably. Now, reflecting on that, how do you see us balancing freedom with necessary order to keep harmony alive daily?",
+            "response": "We need to communication everyday",
+            "prediction": "Well, as I said, we can have a chore chart for everyone to take their responsibilities, along with some clear rules that would help maintain the living environment.",
+            "scores": {
+                "wmd": 0.3450670047692381,
+                "sentence_similarity": 0.25015968084335327,
+                "normalized_length_similarity": 0.20121951219512196,
+                "bleu": 0.005834347180338519,
+                "ttr": 0.9375,
+                "history_similarity": 0.28832319378852844
+            }
+        }
+    ]
+}

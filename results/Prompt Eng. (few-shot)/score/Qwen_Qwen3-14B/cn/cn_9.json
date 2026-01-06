@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:49",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 来吧朋友！如果你突然中了大奖，拿到一个亿，你第一件疯狂想做的事是什么？别想太现实，大胆告诉我你最狂野的梦想吧！哈哈！\nA. 我想现实一点，搞个大房子然后拥有一间自己的大琴房，然后买很多乐器\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何分配？比如买房、购置乐器的预算占多少，剩下的钱你打算怎样投资或储蓄？\nA. 买房2000万，乐器5000万，剩下就够我生活了，或许开一家奶茶店之类的\n\nQ. 哇，你的梦想真的让我心潮澎湃！不过让我好奇，你的动力更多是源自那个明确的大目标，还是因为那些音乐和生活背后的情感与价值呢？艺术就是要有灵魂的火花，你怎么看？\nA. 艺术是我的一切\n\nQ. 哦……说到生活品质，我发现冰箱里那些包装食品占了不少空间。我不是挑剔，但毕竟新鲜的食材才是健康生活的基本，我们难道不该一起维护这份品质吗？你觉得呢？\nA. 包装食品也有它们的好处\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，说到创造空间，听说你想把琴房设计得既实用又美观！来，聊聊你最看重琴房里的什么功能？是收纳乐器还是那些炫酷的音响设备？太棒了，快告诉我你的想法！",
+            "response": "收纳乐器，不需要音响，我喜欢乐器最真实的声音",
+            "prediction": "我最看重的是琴房的隔音效果和自然采光，这样练习的时候不会打扰到别人，也能让心情更愉悦。",
+            "scores": {
+                "wmd": 0.9018895709172436,
+                "sentence_similarity": 0.6435701847076416,
+                "normalized_length_similarity": 0.5116279069767442,
+                "bleu": 0.010043468297595231,
+                "ttr": 0.8928571428571429,
+                "history_similarity": 0.7621504068374634
+            }
+        },
+        {
+            "message": "哦……说到收纳，我这边正在考虑如何把那些包装食品移出冰箱，毕竟空间有点紧张。我不是挑剔，不过如果能找到既整洁又方便的存放方式，会让整个空间显得更有秩序。你觉得我们可以尝试什么新的收纳方法呢？也许有什么你觉得特别实用的建议？",
+            "response": "为什么你总是说你不是挑剔",
+            "prediction": "我们可以用一些收纳盒把包装食品分类存放，比如用抽屉式收纳盒放在厨房柜子里，这样既整齐又方便拿取。另外，标签分类也很重要，这样大家都能清楚知道里面是什么东西。",
+            "scores": {
+                "wmd": 1.1574494620003755,
+                "sentence_similarity": 0.49564728140830994,
+                "normalized_length_similarity": 0.15384615384615385,
+                "bleu": 0.0,
+                "ttr": 0.8297872340425532,
+                "history_similarity": 0.7384796142578125
+            }
+        },
+        {
+            "message": "哦…这话说出来，是想让气氛轻松些呢。我不是挑剔，但是有时候期望确实高了点呢。说到收纳，咱们还是回到那个如何保持空间整洁方便的问题吧？你有没有特别喜欢的收纳小妙招？",
+            "response": "没有，我觉得按使用频率放就好",
+            "prediction": "我习惯用标签分类，这样找东西的时候特别方便。",
+            "scores": {
+                "wmd": 0.9261138905593733,
+                "sentence_similarity": 0.6833173036575317,
+                "normalized_length_similarity": 0.6363636363636364,
+                "bleu": 0.0169861974906263,
+                "ttr": 1.0,
+                "history_similarity": 0.7196327447891235
+            }
+        },
+        {
+            "message": "哇，说到大家共同维护公共区域，真的是一种艺术般的合作啊！你觉得有没有什么轻松又有创意的方法，让我们都能愉快地分担这份责任，让空间不仅整洁，还充满活力？",
+            "response": "卫生表",
+            "prediction": "我们可以把公共区域的清洁和维护变成一种游戏或者挑战，比如每周设定一个主题，大家轮流负责不同的区域，完成任务后可以得到小奖励或者积分，积分可以兑换一些小礼物或者特权，这样既有趣又能保持空间的整洁和活力。",
+            "scores": {
+                "wmd": 1.2816380249083106,
+                "sentence_similarity": 0.3631649613380432,
+                "normalized_length_similarity": 0.03,
+                "bleu": 0.0,
+                "ttr": 0.7627118644067796,
+                "history_similarity": 0.6125336289405823
+            }
+        },
+        {
+            "message": "从逻辑上讲，如果琴房的隔音效果做到极致，你觉得这样会不会让我们更容易组织音乐聚会或者邀请朋友过来？这会不会成为增强团队互动的新契机？",
+            "response": "是的",
+            "prediction": "会的，这样我们就可以尽情地开音乐会或者即兴演奏，不用担心打扰到邻居，还能邀请更多朋友来分享音乐，增强大家的互动和交流。",
+            "scores": {
+                "wmd": 1.1454553449883167,
+                "sentence_similarity": 0.5017794370651245,
+                "normalized_length_similarity": 0.03389830508474576,
+                "bleu": 0.005157142709886005,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.7142312526702881
+            }
+        }
+    ]
+}

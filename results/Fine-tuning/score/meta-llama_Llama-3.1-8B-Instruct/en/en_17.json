@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:27",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we're all about that balance between practicality and style, how about we start a weekly fridge organization routine? Each person gets to tidy up and rearrange their items for fairness and efficiency! What do you think—would that help keep our shared space awesome and neat?",
+            "response": "I think that’s a great idea!",
+            "prediction": "Why don't you take the lead and design a plan for organizing the fridge space? I appreciate your ideas!",
+            "scores": {
+                "wmd": 0.38387734977451954,
+                "sentence_similarity": 0.37349390983581543,
+                "normalized_length_similarity": 0.27184466019417475,
+                "bleu": 0.011433361115787456,
+                "ttr": 0.9545454545454546,
+                "history_similarity": 0.5960039496421814
+            }
+        },
+        {
+            "message": "Oh... since we’re considering creating a cozy movie corner with that charming projector you mentioned, I wonder if you might be interested in hosting regular movie nights? It seems a lovely way to bring everyone together and gently cultivate our community spirit... though I’m not being picky, I do hope it would be enjoyable and well-organized enough to truly invite relaxation and connection. Would you find that agreeable?",
+            "response": "Yes, please! I’m looking forward to it!",
+            "prediction": "Why don't you take the lead in organizing those movie nights, and make them as enjoyable and comfortable as you've described, in order to truly invite relaxation and connection?",
+            "scores": {
+                "wmd": 0.36783630715036775,
+                "sentence_similarity": 0.19406381249427795,
+                "normalized_length_similarity": 0.22033898305084745,
+                "bleu": 0.006510755202591488,
+                "ttr": 0.8235294117647058,
+                "history_similarity": 0.3196360468864441
+            }
+        },
+        {
+            "message": "Wow, your passion for creating something meaningful really shines through! Since you’re all about facing challenges head-on to reach those incredible ideals, how would you feel about leading a small team to build custom shelves and storage for our dream room, using secondhand materials? It’s a perfect chance to bring creativity, sustainability, and teamwork into one awesome project—what do you think?",
+            "response": "It sounds fun to make something together! Let’s definitely do it!",
+            "prediction": "Dream room sounds fantastic! I'm totally in—when do we start?",
+            "scores": {
+                "wmd": 0.2989803369807486,
+                "sentence_similarity": 0.35589292645454407,
+                "normalized_length_similarity": 0.9384615384615385,
+                "bleu": 0.017532201649672802,
+                "ttr": 1.0,
+                "history_similarity": 0.439579576253891
+            }
+        },
+        {
+            "message": "Logically speaking, as we dive into this creative project, should we also establish specific quiet hours in the share house to ensure everyone can balance active collaboration with necessary rest? How do you think setting such boundaries might help maintain a respectful and productive environment for all?",
+            "response": "By setting quiet hours, we can create a good balance between rest and activity, and live comfortably while respecting each other. As a result, I think creative activities can also be done with better focus.",
+            "prediction": "I don't think setting quiet hours is enough to maintain a respectful and productive environment. We need to take care of our own habits and don't disturb each other, even during quiet hours.",
+            "scores": {
+                "wmd": 0.19444019566942572,
+                "sentence_similarity": 0.6626266241073608,
+                "normalized_length_similarity": 0.9223300970873787,
+                "bleu": 0.036544294407181266,
+                "ttr": 0.8157894736842105,
+                "history_similarity": 0.3933824598789215
+            }
+        }
+    ]
+}

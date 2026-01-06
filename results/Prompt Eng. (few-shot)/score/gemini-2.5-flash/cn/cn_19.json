@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:34:33",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友，你刚才说会把大部分资金储蓄起来，还有明确的梦想和目标！如果突然来了一笔意外之财，你会用它去实现什么疯狂又美妙的梦想呢？大胆说出来，让我们一起为你的梦想加油打气！",
+      "response": "环游世界 我是认真的",
+      "prediction": "买岛环球旅行",
+      "scores": {
+        "wmd": 1.2549435889691345,
+        "sentence_similarity": 0.4928756356239319,
+        "normalized_length_similarity": 0.6,
+        "history_similarity": 0.7655327916145325,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "说到日常的小细节，关于冰箱我一直坚持各自占用一层，虽然我不是挑剔，但共享确实容易带来小摩擦。你觉得呢，这样的安排，最大的好处会体现在哪些方面呢？毕竟生活品质和便利性都不能忽视呢。",
+      "response": "我支持不共享",
+      "prediction": "减少摩擦 方便",
+      "scores": {
+        "wmd": 1.2106420488161154,
+        "sentence_similarity": 0.44100701808929443,
+        "normalized_length_similarity": 0.8571428571428571,
+        "history_similarity": 0.8035276532173157,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "嗯...我不是挑剔，但是大家都坚持不共享，偶尔会不会显得有些孤立呢...呢？",
+      "response": "我不觉得",
+      "prediction": "孤立是自己的事",
+      "scores": {
+        "wmd": 1.186470803895292,
+        "sentence_similarity": 0.45996201038360596,
+        "normalized_length_similarity": 0.5714285714285714,
+        "history_similarity": 0.7683686017990112,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，你对梦想房间的抽象风格主导真是太酷了！你有没有特别钟爱的元素或者图案，觉得能用幽默感十足的方式，完美展现那个空间的灵魂呢？艺术就是要敢于疯狂创新，对吧！",
+      "response": "蜡笔小新 我喜欢绿色",
+      "prediction": "荒诞图案",
+      "scores": {
+        "wmd": 1.2622372690989425,
+        "sentence_similarity": 0.5270395278930664,
+        "normalized_length_similarity": 0.4,
+        "history_similarity": 0.7188229560852051,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "让我们分析一下，创作自由和生活安宁确实容易冲突。从实际角度，你觉得在梦想房间设计里，如何兼顾这两者？是设立专门的创作区域，还是通过材料和布局降低噪音？你更倾向哪种方案？",
+      "response": "设立专门的创作区域",
+      "prediction": "降低噪音",
+      "scores": {
+        "wmd": 1.2565710987708323,
+        "sentence_similarity": 0.4985971450805664,
+        "normalized_length_similarity": 0.4444444444444444,
+        "history_similarity": 0.7188229560852051,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

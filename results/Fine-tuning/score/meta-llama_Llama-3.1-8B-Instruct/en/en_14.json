@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:27",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re all about finding the perfect balance, how do you imagine designing a space that’s super practical for everyone’s daily needs but still sparks a bit of creative flair? What cool features would you put in to make it a multi-purpose dream room that’s both useful and inspiring? Let’s think big and smart!",
+            "response": "Turn our wall into a whiteboard – it's stylish, practical and encourages creative discussions.",
+            "prediction": "I would love the space to have a designated area for focus and work, with good lighting and a comfortable chair. Then another space for resting and enjoying activities, with a sofa and a big TV. I would choose minimalist aesthetics, with few and consistent colors.",
+            "scores": {
+                "wmd": 0.1836518714812607,
+                "sentence_similarity": 0.2842550277709961,
+                "normalized_length_similarity": 0.3560606060606061,
+                "bleu": 0.0049811554679751145,
+                "ttr": 0.6730769230769231,
+                "history_similarity": 0.4147951006889343
+            }
+        },
+        {
+            "message": "Oh... since we are embracing such creative endeavors, may I inquire—have you ever pushed yourself beyond your usual limits in a project, perhaps to achieve some extraordinary design outcome? I'm not being picky, but I wonder how that experience felt—did the challenge bring a certain rewarding satisfaction that made it worthwhile despite the effort?",
+            "response": "I once pushed myself beyond my limits when organizing a school festival, and the sense of accomplishment I felt when I saw the finished product was exceptional.",
+            "prediction": "Haha, you want a bold and creative response! Always dream big and bold, never be afraid to think outside the box and push the limits! Would you like some ideas to spark your dream design?",
+            "scores": {
+                "wmd": 0.2245509286291493,
+                "sentence_similarity": 0.23431776463985443,
+                "normalized_length_similarity": 0.8556149732620321,
+                "bleu": 0.007232031895361329,
+                "ttr": 0.775,
+                "history_similarity": 0.4437010884284973
+            }
+        },
+        {
+            "message": "Wow, your dedication to balancing creative energy and peaceful rest is truly inspiring! Since we agreed on quiet hours starting at 10pm, how do you imagine a schedule for our group activities that keeps that calm while still lighting up the night with bursts of creative passion? What’s your vision for that perfect harmony?",
+            "response": "We could hold group activities right after dinner, say around 7–9pm, so we get that lively creative",
+            "prediction": "If we need to be quiet after 10 PM, I would schedule group activities during the day and early evening, so everyone has space to rest and focus when needed. Then, we could set up a ‘creative hour’ where everyone is welcome to join and be as lively as they want, but it would be voluntary and without expecting everyone to participate. Would everyone be okay with this schedule?",
+            "scores": {
+                "wmd": 0.19804376821309874,
+                "sentence_similarity": 0.6801447868347168,
+                "normalized_length_similarity": 0.2625994694960212,
+                "bleu": 0.008742637130044476,
+                "ttr": 0.7435897435897436,
+                "history_similarity": 0.3974390923976898
+            }
+        },
+        {
+            "message": "Wow, what an awesome idea to spark that creative fire right after dinner! From 7 to 9pm sounds perfect—just the right time to channel our energy before the quiet hours at 10pm wrap us in calm. That way, we get those amazing bursts of art and inspiration without any restless nights. Now, thinking of those nights alive with creativity, what kinds of group activities do you imagine would paint the most vivid masterpiece of our shared passion? I’m all ears and ready to create something spectacular together!",
+            "response": "I imagine creative jam sessions—maybe group brainstorming, collaborative art, or even late-night storytelling.",
+            "prediction": "I would love to do a creative activity, like painting or drawing, where everyone can freely express themselves and the final result is a collective artwork. Then we could display it somewhere in the house so everyone can see and enjoy it. Would everyone be okay with this?",
+            "scores": {
+                "wmd": 0.24329984213978775,
+                "sentence_similarity": 0.5336958169937134,
+                "normalized_length_similarity": 0.40441176470588236,
+                "bleu": 0.005405463811495536,
+                "ttr": 0.8301886792452831,
+                "history_similarity": 0.38833126425743103
+            }
+        },
+        {
+            "message": "Indeed, fostering this creative synergy requires clear communication and fairness. Considering our shared spaces like the fridge and resources we all rely on, how can we establish an open, ongoing dialogue among roommates to address any future challenges effectively and ensure everyone feels heard and respected?",
+            "response": "First of all, it is important to have a proper discussion with everyone participating. We must sincerely listen to everyone's opinions.",
+            "prediction": "It would be great if we could all agree to do a 'fridge sweep' every week, where we all tidy up the fridge and throw away expired foods. Then, if the space gets too cramped, we could reassess and think about further adjustments so everyone has room for their needs. Would everyone be okay with this?",
+            "scores": {
+                "wmd": 0.2597656845588692,
+                "sentence_similarity": 0.13327333331108093,
+                "normalized_length_similarity": 0.451505016722408,
+                "bleu": 0.005009072254029602,
+                "ttr": 0.8095238095238095,
+                "history_similarity": 0.4784950613975525
+            }
+        }
+    ]
+}

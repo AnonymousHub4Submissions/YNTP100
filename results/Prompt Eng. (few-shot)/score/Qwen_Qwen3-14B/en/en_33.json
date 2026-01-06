@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:43",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Come on, friend! If you suddenly found yourself with 100 million in your pocket, what wild and amazing thing would you do first? Don’t hold back—let’s hear your boldest, most epic dream! Haha!\nA. hello, I'm C&C.\nthank you for your welcoming.\nand if I found 100 million, I would travel all over the world! one of my desire is to travel whole Europe.\nand I would take my family and lover.\n\nQ. Very exciting plan! Now, let's analyze this logically: if you had to allocate that 100 million realistically, how would you divide it among travel expenses, daily living costs, and perhaps saving or investing some of it? What proportions seem most practical to you?\nA. First of all, i would save money 50% of 100 million.\nthen, I would invest 1% to 5% of all.\nAnd around 20%, I'd like to use for me. rest of money, perhaps i have to spend for my normal life.\n\nQ. Wow, your dream is so vibrant and full of life! I’m curious—does this dream come from a clear goal you’re aiming for, like ticking off every spot on your Europe map? Or is it more about the feelings and values, like the joy of sharing moments with your family and lover? Art and dreams are both fueled by heart and vision—how about yours?\nA. thank you for making me think about my trip deeply.\nso far, I' thinking about second one which you suggested me.\nBecause, if I visit all famous place, it'll be so hectic and i won't be able to enjoy enough.\nInstead, I wanna spend  wonderful n unforgettable time with my family n lover to make special memories. I'd rather take care of my feeling n value than place.\n\nQ. Oh... speaking of sharing and living together, I noticed our shared refrigerator space feels rather cramped lately. I'm not being picky, but the abundance of packaged foods seems to take up quite a bit of room—space that fresh ingredients, perhaps more aligned with a certain quality of life, could better utilize. I suppose we all hope to maintain that same standard of living here, don't we? What are your thoughts on managing our fridge space to preserve a comfortable environment for everyone?\nA. Once we should hold a meeting to discuss shared space.\nI would say some people might have expired things and extra things and so on...\nand we should decide about spice. because everyone can use spice, so we shouldn't buy spice for each person.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re all about making awesome memories together here, I gotta ask—when you spend special moments with your family or partner, how do you usually turn that time into unforgettable fun? Share your cool tricks or favorite ways to create those warm, joyful memories!",
+            "response": "let's see...\nI think i alway appreciate when i meet someone even my family. cause every moment never come back...especially my friends, family, boyfriend i cherish have own lifetime, but they give their time to spend with me. so i always feel happy when i meet important n precious people.",
+            "prediction": "I usually try to create a cozy and relaxed atmosphere, maybe with some good food, music, and meaningful conversations. Sometimes, I like to plan little surprises or small adventures, like a spontaneous picnic or a movie night under the stars. The key is to be present and truly enjoy the moment with the people I care about.",
+            "scores": {
+                "wmd": 0.20394566679549006,
+                "sentence_similarity": 0.34707576036453247,
+                "normalized_length_similarity": 0.8919753086419753,
+                "bleu": 0.005100840914137451,
+                "ttr": 0.7076923076923077,
+                "history_similarity": 0.4884610176086426
+            }
+        },
+        {
+            "message": "Oh... your sentiments about cherishing moments with loved ones truly resonate. That said, I find myself pondering—balancing the joy of investing in memorable experiences with family against the prudence needed to secure one’s financial future is quite the delicate art. I’m not being picky, but how do you personally navigate allocating your resources between creating those precious memories and ensuring long-term stability? Perhaps my expectations are too high, but finding that equilibrium seems essential, don’t you think?",
+            "response": "that's right.\nnow i'm in trouble about that case.\nI have to work a lot to get my good life, at the same time, it's also important to spend my precious.\nso now I'm trying to do half and half. I mean, when i focus on work or something to do, I never contact n meet someone. but in advance, i told them.\nthen after i finished, I'm gonna meet sometimes.",
+            "prediction": "I think you're absolutely right—finding that balance is essential. For me, I would prioritize both, but in a way that ensures I don't sacrifice long-term stability for short-term enjoyment. Maybe I would set aside a certain percentage for investments and savings, like 50%, as I mentioned before, and then allocate another 20% for experiences with my family and lover. That way, I can enjoy the present while still securing my future. It's about planning wisely so that I can keep creating memories without worrying about financial stress.",
+            "scores": {
+                "wmd": 0.16829483145306304,
+                "sentence_similarity": 0.27237334847450256,
+                "normalized_length_similarity": 0.647495361781076,
+                "bleu": 0.009596678259695474,
+                "ttr": 0.7281553398058253,
+                "history_similarity": 0.4646323621273041
+            }
+        },
+        {
+            "message": "Wow, your balance between deep focus and sharing precious moments is truly inspiring! In a shared creative space like ours, where some thrive on lively energy and others need peaceful calm, how do you think we could arrange group activities so everyone’s rhythm and vibe are honored? Art thrives on harmony, after all!",
+            "response": "i think you should ask both opinions.",
+            "prediction": "I think we can set a schedule for group activities and also have some free time. For example, we can have some time for group work or discussion, and also some time for individual work or rest. Also, we can ask everyone's preference and arrange activities according to that. In this way, everyone can have their own space and also share with others.",
+            "scores": {
+                "wmd": 0.40877334364230045,
+                "sentence_similarity": 0.09274343401193619,
+                "normalized_length_similarity": 0.10601719197707736,
+                "bleu": 0.0033200591390201775,
+                "ttr": 0.5972222222222222,
+                "history_similarity": 0.5187900066375732
+            }
+        },
+        {
+            "message": "Very well. Since you suggested organizing the fridge with individual containers for each person to maintain order, would you be willing to take the lead in coordinating a brief group meeting? We could set clear, fair rules for shared spaces that reflect everyone's needs and promote efficiency. What do you think would be the most effective way to facilitate this?",
+            "response": "First, you tell the gratitude for gathering.\nthen, you should tell your feeling n thought. like recently there are lots of things inside refrigerator. and you suggest that why don't we use containers.\nthen, you should ask what they think one by one. then start discuss",
+            "prediction": "I think it's a great idea. I would be happy to take the lead. The most effective way would be to set a specific time when everyone is free, maybe during the weekend. We can have a short meeting, each person can share their needs and concerns about the fridge space, and then we can agree on some rules together, like labeling containers, setting a schedule for restocking, and designating specific areas for different types of food.",
+            "scores": {
+                "wmd": 0.21567439158653495,
+                "sentence_similarity": 0.4239687919616699,
+                "normalized_length_similarity": 0.6203703703703703,
+                "bleu": 0.004111972203691621,
+                "ttr": 0.7386363636363636,
+                "history_similarity": 0.3488701283931732
+            }
+        }
+    ]
+}

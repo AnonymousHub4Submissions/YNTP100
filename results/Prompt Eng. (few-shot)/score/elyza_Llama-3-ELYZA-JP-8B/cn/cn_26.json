@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:29:01",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 来吧朋友！如果你突然中了一个亿，你最疯狂最不切实际的梦想会是什么？大胆说出来，让我们一起脑洞大开！哈哈！\nA. 我觉得很难中一个亿\n\nQ. 哈哈，朋友！别担心，咱们不谈难不难，来聊聊你的梦想吧！太棒了！\nA. 我应该会买房或买车\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何分配？比如投资、消费、储蓄各占大约多少？\nA. 投资由于我几乎完全没有相关知识储备，应该占比很少。消费3成，储蓄6成，投资1成。\n\nQ. 哇，你的理财规划真是既稳健又有远见！不过让我好奇的是——你的梦想背后，是更注重明确的目标和数字吗，还是更多被那些深藏在心底、让你热血沸腾的情感和价值驱动呢？艺术一样需要灵魂注入，理财也需要那个“为什么”在支持！\nA. 我可能只是想活得轻松一些\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈朋友们，既然我们都觉得定个“安静时段”很棒，那你们觉得这个时段应该从什么时候开始最合适呢？是早一点让大家休息好，还是晚一点让大家有足够玩乐时间？大胆说说你的想法吧！太棒了！",
+            "response": "可以发一个住户的问卷调查，大家晚上在几点之后希望是一个比较安静的环境，然后综合大家的想法，定下一个时间",
+            "prediction": "我认为这个“安静时段”应该从晚一点开始最合适。理由は、大家有足够玩乐时间後可以更好地休息。",
+            "scores": {
+                "wmd": 0.8645085081954358,
+                "sentence_similarity": 0.666419267654419,
+                "normalized_length_similarity": 0.8823529411764706,
+                "bleu": 0.009166909537303668,
+                "ttr": 0.9629629629629629,
+                "history_similarity": 0.780978262424469
+            }
+        },
+        {
+            "message": "哦……既然我们谈到了“梦想房间”，我想问问大家，如果由我来设计这个房间，我会优先考虑哪些实用功能呢？我不是挑剔，但是，毕竟生活品质和舒适度都很重要，是不是应该有些具体的设计细节能真正满足大家的日常需求呢？你们觉得呢？",
+            "response": "我个人的话，会比较偏好收纳功能，因为我的东西比较多。也许女孩和男孩的偏好不同，也可以以问卷的形式调查。",
+            "prediction": "我会优先考虑有充足的収納空间、快捷的洗濯干燥設備、实用性高的キッチン設備、和一个大型の家具配置可能。",
+            "scores": {
+                "wmd": 0.9215594109824478,
+                "sentence_similarity": 0.6270278692245483,
+                "normalized_length_similarity": 0.9803921568627451,
+                "bleu": 0.008447063994683927,
+                "ttr": 0.8484848484848485,
+                "history_similarity": 0.8263583183288574
+            }
+        },
+        {
+            "message": "哇，大家对梦想房间的热情真是太棒了！说到公共区域的整洁，我脑袋里蹦出一个念头：除了空间划分和安静时间，我们是不是可以设计一些激励机制，比如小奖励或有趣的活动，来鼓励大家自觉保持整洁呢？你们觉得，用艺术的力量来激发大家的责任感，这个点子怎么样？太棒了还是太疯狂？快告诉我你的想法！",
+            "response": "我认为保持整洁是个人的责任，但小奖励或活动可能更能激发人的积极性。",
+            "prediction": "我觉得太棒了！",
+            "scores": {
+                "wmd": 1.1593822780434826,
+                "sentence_similarity": 0.5975084900856018,
+                "normalized_length_similarity": 0.21212121212121213,
+                "bleu": 0.0011460290896963962,
+                "ttr": 1.0,
+                "history_similarity": 0.8083390593528748
+            }
+        },
+        {
+            "message": "从逻辑上讲，既然大家都有不同需求和偏好，不如我们举办一个关于“理想共享空间”的讨论会，系统地收集并分析大家的建议。你愿意参加并分享你的改善点吗？如果参加了，你最关注的改进方向会是什么？",
+            "response": "我会参加讨论会，视具体情况而定我认为需要改进的地方。",
+            "prediction": "我愿意参加并分享我的改善点。最关注的改进方向は，各个个人空间和共有空间的区分明确化。",
+            "scores": {
+                "wmd": 0.8100969528370183,
+                "sentence_similarity": 0.7545598745346069,
+                "normalized_length_similarity": 0.6190476190476191,
+                "bleu": 0.011371681934875243,
+                "ttr": 0.8461538461538461,
+                "history_similarity": 0.7785080075263977
+            }
+        },
+        {
+            "message": "明白了，你会根据讨论会情况决定改进点。既然如此，请你先告诉我，当前你最关注公共区域哪方面的问题？",
+            "response": "便利性",
+            "prediction": "我最关心公共区域的“生活音”问题。",
+            "scores": {
+                "wmd": 1.2370943368452256,
+                "sentence_similarity": 0.37615060806274414,
+                "normalized_length_similarity": 0.17647058823529413,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7149527668952942
+            }
+        }
+    ]
+}

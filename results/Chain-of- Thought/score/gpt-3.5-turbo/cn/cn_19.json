@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Prompt_Engineering_CoT",
+        "date": "2025-12-23 08:58:31",
+        "cot_policy": "latent_style_decomposition",
+        "style": {
+            "tone": "casual",
+            "length": "short",
+            "emotion": "low",
+            "distance": "neutral"
+        }
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你刚才说会把大部分资金储蓄起来，还有明确的梦想和目标！如果突然来了一笔意外之财，你会用它去实现什么疯狂又美妙的梦想呢？大胆说出来，让我们一起为你的梦想加油打气！",
+            "response": "环游世界 我是认真的",
+            "prediction": "把所有钱投资艺术项目。",
+            "scores": {
+                "wmd": 1.2330564026959911,
+                "sentence_similarity": 0.5972634553909302,
+                "normalized_length_similarity": 0.9090909090909091,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7797508835792542
+            }
+        },
+        {
+            "message": "说到日常的小细节，关于冰箱我一直坚持各自占用一层，虽然我不是挑剔，但共享确实容易带来小摩擦。你觉得呢，这样的安排，最大的好处会体现在哪些方面呢？毕竟生活品质和便利性都不能忽视呢。",
+            "response": "我支持不共享",
+            "prediction": "每人有自己的空间会增加私人空间感，也可以避免共享带来的摩擦。",
+            "scores": {
+                "wmd": 1.1148796554716192,
+                "sentence_similarity": 0.4984669089317322,
+                "normalized_length_similarity": 0.2,
+                "bleu": 0.010802314890908065,
+                "ttr": 0.9444444444444444,
+                "history_similarity": 0.6793543100357056
+            }
+        },
+        {
+            "message": "嗯...我不是挑剔，但是大家都坚持不共享，偶尔会不会显得有些孤立呢...呢？",
+            "response": "我不觉得",
+            "prediction": "明白。共享也许能增进我们的交流。",
+            "scores": {
+                "wmd": 1.1260893606706814,
+                "sentence_similarity": 0.6186785697937012,
+                "normalized_length_similarity": 0.25,
+                "bleu": 0.0,
+                "ttr": 0.9,
+                "history_similarity": 0.7264629006385803
+            }
+        },
+        {
+            "message": "哇，你对梦想房间的抽象风格主导真是太酷了！你有没有特别钟爱的元素或者图案，觉得能用幽默感十足的方式，完美展现那个空间的灵魂呢？艺术就是要敢于疯狂创新，对吧！",
+            "response": "蜡笔小新 我喜欢绿色",
+            "prediction": "谢谢！我喜欢运用抽象艺术来增加工作空间的幽默感。画面上的各种符号和线条，可以给工作氛围增添一丝活力和趣味。",
+            "scores": {
+                "wmd": 1.1556911779185883,
+                "sentence_similarity": 0.646718442440033,
+                "normalized_length_similarity": 0.18867924528301888,
+                "bleu": 0.012338142098850861,
+                "ttr": 0.875,
+                "history_similarity": 0.6588540077209473
+            }
+        },
+        {
+            "message": "让我们分析一下，创作自由和生活安宁确实容易冲突。从实际角度，你觉得在梦想房间设计里，如何兼顾这两者？是设立专门的创作区域，还是通过材料和布局降低噪音？你更倾向哪种方案？",
+            "response": "设立专门的创作区域",
+            "prediction": "希望能有专门的创作区域，这样可以更好地分隔创作和生活空间。",
+            "scores": {
+                "wmd": 0.9659387670376836,
+                "sentence_similarity": 0.7447057962417603,
+                "normalized_length_similarity": 0.3103448275862069,
+                "bleu": 0.1431712315455507,
+                "ttr": 0.9411764705882353,
+                "history_similarity": 0.7044423818588257
+            }
+        }
+    ]
+}

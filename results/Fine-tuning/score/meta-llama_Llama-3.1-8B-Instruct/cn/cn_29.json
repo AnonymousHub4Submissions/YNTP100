@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:36",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你说得太棒了！说到我们的梦想房间，除了那些智能家具带来的便利，你还想加点什么特别的设计元素，让生活更舒适更有个性呢？来吧，放开想象，告诉我你的奇思妙想！",
+            "response": "你看到过法式奶油风的装饰风格吗，我觉得那样的暖色调会看起来很温馨",
+            "prediction": "我觉得有个巨大的书shelf会很好，能放很多书和装饰品",
+            "scores": {
+                "wmd": 0.8828319445293091,
+                "sentence_similarity": 0.7366848587989807,
+                "normalized_length_similarity": 0.84375,
+                "bleu": 0.02666204976456136,
+                "ttr": 0.9375,
+                "history_similarity": 0.5327019095420837
+            }
+        },
+        {
+            "message": "嗯……说到美观与实用的平衡，我想听听你有没有遇到过那种让你左右为难的设计抉择？我不是挑剔，但有时候，选择既要好看又实用的元素，真是让人头疼呢。你当时是什么感受？最后又是如何决定的呢？",
+            "response": "好像并没有。但假如是生活上的，我想我选择偏向美观吧。毕竟人类是视觉动物，好看的东西总会给人一种心情变好了生活也变美好了的感觉",
+            "prediction": "当时我觉得自己正在参加一个需要综合能力的设计竞赛，想留下既有章法又有设计感的成果。所以我花了整整一小时来调整方案， ultimately我选择了一个兼顾美观和实用功能的方案。",
+            "scores": {
+                "wmd": 0.8780735866215047,
+                "sentence_similarity": 0.7322112321853638,
+                "normalized_length_similarity": 0.7126436781609196,
+                "bleu": 0.013158447399419156,
+                "ttr": 0.8125,
+                "history_similarity": 0.8193311095237732
+            }
+        },
+        {
+            "message": "哇，说得太有艺术感了！既然我们都在享受这个家的美好氛围，你觉得设立一些明确的行为规范或者时间安排，是不是能让大家的共同生活质量更上一层楼呢？毕竟艺术与秩序的结合，才是真正的完美！你的想法是怎样的？",
+            "response": "我觉得一些行为规范是有必要的，比如在公共区域在几点后应保持安静、不能随便不经过别的室友同意就带朋友回家开派对之类的，也许公共区域的打扫卫生我们也该排个值日表？当然，平时自己制造的垃圾或是污渍还是要自己清理的，就比如在公共区域打翻了咖啡，这种情况就该自己清理",
+            "prediction": "我觉得这是一个很好的建议",
+            "scores": {
+                "wmd": 1.0266492269767524,
+                "sentence_similarity": 0.5774127840995789,
+                "normalized_length_similarity": 0.09375,
+                "bleu": 1.3226651082837167e-05,
+                "ttr": 1.0,
+                "history_similarity": 0.7489697933197021
+            }
+        },
+        {
+            "message": "很有意思，既然我们强调规范和责任，那如果发现有室友经常不遵守公共区域的卫生和使用规则，你觉得从逻辑上讲，怎样的沟通方式最有效？你会怎么具体去解决这个问题？",
+            "response": "我觉得第一次可以发信息委婉进行提醒，第二次直接当面提醒，如果还是不改，我想我可能会希望管理员介入沟通",
+            "prediction": "我觉得这样对比分析，能够帮助我们理清思路，找准对策。 当公共区域的卫生和使用引起问题时，建议进行具体、实质的意见表达，例如：”朋友们，大家共同维护公共区域的洁净和整洁，是我们共同的努力方向。大家有洁癖的需求，希望大家能够保持卫生，保持整洁。”",
+            "scores": {
+                "wmd": 0.922869122275728,
+                "sentence_similarity": 0.5583241581916809,
+                "normalized_length_similarity": 0.4132231404958678,
+                "bleu": 0.00699902307094887,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.8291718363761902
+            }
+        }
+    ]
+}

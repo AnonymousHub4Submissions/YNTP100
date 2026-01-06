@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:47",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all care so much about fairness and keeping our creative vibes flowing smoothly, how about we start a weekly house meeting? We can chat, tweak our shared space rules, and make sure everyone’s voice is heard to keep our ShareHouse awesome and harmonious! What do you think? Would you join the fun?",
+            "response": "This is certainly a good idea, but some people might think it's a waste of time. So while it might work well initially, some people might become less willing to work it out. And since everyone has different perspectives, it's hard to always reach consensus.",
+            "prediction": "Logically speaking, a 100-square-meter space divided among five people inherently contains conflicts. No matter how perfect the contract, it's like dividing a cake—someone will always feel it's unfair. As for the rest, it's just living.",
+            "scores": {
+                "wmd": 0.1360958043343299,
+                "sentence_similarity": 0.25025320053100586,
+                "normalized_length_similarity": 0.9182879377431906,
+                "bleu": 0.027940334196587247,
+                "ttr": 0.7727272727272727,
+                "history_similarity": 0.41120636463165283
+            }
+        },
+        {
+            "message": "Oh... considering the suggestion to perhaps invest in a new refrigerator to accommodate our needs better, I find myself wondering—I'm not being picky, but wouldn't it be more prudent to first improve our organizational systems for shared spaces? After all, new purchases require both space and upkeep. Might it be wiser to prioritize refinement of our current arrangements before adding more items? I suppose balancing investment and functionality is crucial, wouldn’t you agree?",
+            "response": "No, after buying a new refrigerator, you definitely have to sell the old one. Otherwise, it'll take up the already limited space. That's for sure, right? No one wants to have two refrigerators and cause trouble, right? I'm curious why you brought this up all of a sudden.",
+            "prediction": "That's a very practical mindset. Logically speaking, optimizing space utilization and establishing clear zoning principles are foundational prerequisites. From an engineering perspective, this involves analyzing spatial dimensions, calculating functional zones based on activity flow, and designing storage systems that maximize vertical space. Perhaps we could create a space utilization plan that clearly defines functional areas and corresponding storage solutions.",
+            "scores": {
+                "wmd": 0.2568728476760637,
+                "sentence_similarity": 0.12071532011032104,
+                "normalized_length_similarity": 0.5790598290598291,
+                "bleu": 0.010940300623436379,
+                "ttr": 0.7794117647058824,
+                "history_similarity": 0.47801223397254944
+            }
+        },
+        {
+            "message": "Wow, chatting about making our shared space even better has me thinking—since so many of us love gathering over games like mahjong and poker, what if we started a casual weekly game night? It could be a fantastic way to bring everyone together, spark fresh energy, and build a stronger community vibe here! What do you think—would you be excited to lead such a fun tradition and help turn our house into a hub of laughter and connection?",
+            "response": "Of course, if we still have to work all the time when we get together, everyone's mood will be very depressed. When we get together, we must play some games together. Having a relaxing time can help us better devote ourselves to work and creation in the rest of the time.",
+            "prediction": "Haha, I'm sorry, but mahjong and poker are like 'soul-reading' games. You need to be in a good mental state to play, and you also need to 'mentally prepare' to lose.",
+            "scores": {
+                "wmd": 0.27883544646772174,
+                "sentence_similarity": 0.1609964817762375,
+                "normalized_length_similarity": 0.6088560885608856,
+                "bleu": 0.005534372261560639,
+                "ttr": 0.7692307692307693,
+                "history_similarity": 0.13991421461105347
+            }
+        },
+        {
+            "message": "Your enthusiasm for balancing work and play is commendable. Logically speaking, how do you propose we organize our schedule to ensure lively group activities don’t encroach on the quiet time necessary for focused work and relaxation? What specific time allocations or rules might help maintain this balance effectively?",
+            "response": "Because it is a group activity, we must discuss each activity together and find the right time and game to arrange the activity. Therefore, it is best to choose a time when everyone is free, such as weekends.",
+            "prediction": "Generally speaking, people are social animals. So at night, you can play games or chat. As for the rest of the time, you can do what you want.",
+            "scores": {
+                "wmd": 0.24933927127981714,
+                "sentence_similarity": 0.4735749363899231,
+                "normalized_length_similarity": 0.6826923076923077,
+                "bleu": 0.007066202196658074,
+                "ttr": 0.7647058823529411,
+                "history_similarity": 0.5147060751914978
+            }
+        }
+    ]
+}

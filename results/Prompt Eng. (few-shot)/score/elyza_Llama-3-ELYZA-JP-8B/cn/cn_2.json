@@ -1,0 +1,115 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:29:00",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈朋友！如果你突然中了一个亿，别管现实，尽情大开脑洞告诉我你最狂最大胆的梦想是什么？来吧，说出来让我们都惊掉下巴！\nA. 我想去韩国医美之旅一下\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何分配？比如医美、投资、储蓄和其他消费各占大约多少？\nA. 医美可能花个10w吧，其余我暂时想不到要干啥，先理财投资吧\n\nQ. 哇，听你这么说，我真被你这梦想的能量震撼到了！告诉我，你的这份热忱背后，是更偏向清晰的目标规划，还是那些深藏心底的情感和价值驱动呢？艺术就是要触碰灵魂啊！\nA. 那肯定是目标规划对我来说最重要\n\nQ. 哦……说到生活品质，冰箱里的包装食品似乎占据了不少空间。我不是挑剔，但如果不能合理分配一下，恐怕连储存新鲜食材的地方都变得有限了。大家也都希望维持一个既方便又整洁的生活环境，对吧？\nA. 你好，我是xxx，xxx专业。视觉艺术，可以给我看看做的作品是什么样的吗？冰箱的话，我们几个分配一下每个人的使用空间吧\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，既然大家都觉得需要规则来维护公共空间卫生和使用公平，那我们是不是该一起讨论制定冰箱和共享空间的管理条例呢？你们觉得，怎样的规则才能既合理又让大家都开心，让我们的ShareHouse活力满满又干净整洁？快告诉我你的超级创意吧！",
+            "response": "我没意见，你去问Donatello",
+            "prediction": "我想制定一个“每人占用空间比例”这个规则，例如DaVinci、Donatello、Michelangelo、Raffaello每人占用一分之一，剩下的空间可以用来共用或临时存储。这样大家都有自己的空间可以自由使用，且共有部分的使用率も公平。",
+            "scores": {
+                "wmd": 0.8369963591108003,
+                "sentence_similarity": 0.6338340044021606,
+                "normalized_length_similarity": 0.14166666666666666,
+                "bleu": 0.004375436627586616,
+                "ttr": 0.7818181818181819,
+                "history_similarity": 0.6450629830360413
+            }
+        },
+        {
+            "message": "哈哈，朋友！你也来出个主意嘛，一起玩才太棒了！快说说！",
+            "response": "冰箱我们一人一格",
+            "prediction": "我想在这个共享房子里开设一个美术馆！各位大师的作品展示、芸術講座、交流会等等，毎週末開催，房子内的空間を最大限度利用！",
+            "scores": {
+                "wmd": 1.1769338571953365,
+                "sentence_similarity": 0.524399995803833,
+                "normalized_length_similarity": 0.13559322033898305,
+                "bleu": 0.0,
+                "ttr": 0.8611111111111112,
+                "history_similarity": 0.7921075820922852
+            }
+        },
+        {
+            "message": "哦……说到我们梦想中的房间设计，我一直在想，是不是应该更多地注重实用性，比如配备一个设备齐全的健身区？我不是挑剔，但是如果只是追求整体美感和整齐收纳，可能会牺牲了生活的实际便利。大家觉得呢？难道我们能在这两者之间找到一个既美观又实用的平衡点吗？",
+            "response": "实用一点，你们想放啥东西",
+            "prediction": "我们可以在这两者之间找到一个既美观又实用的平衡点。例如，我想DaVinci、Donatello、Michelangelo、Raffaello四个人的特点是不同的视觉艺术家，可能他们可以各自设计一个自己的空间，整体美感和整齐收纳的方面可以由Michelangelo和Raffaello负责，设备齐全的健身区等实用性方面可以由DaVinci和Donatello负责。这样可以在两者之间找到一个平衡点。",
+            "scores": {
+                "wmd": 1.1067151762079233,
+                "sentence_similarity": 0.4185817837715149,
+                "normalized_length_similarity": 0.06060606060606061,
+                "bleu": 0.002660316597295732,
+                "ttr": 0.6172839506172839,
+                "history_similarity": 0.6435023546218872
+            }
+        },
+        {
+            "message": "嗯……我不是挑剔，但是或许我们可以先列个清单呢，这样才能更清楚每样东西的必要性呢？你觉得呢？那么，大家最希望先安排哪些实用物品呢？",
+            "response": "买只猫吧",
+            "prediction": "我们可以列个清单。实用物品先，例如，洗剤、トイレットペーパー、食器等。",
+            "scores": {
+                "wmd": 1.2388565368219704,
+                "sentence_similarity": 0.48270437121391296,
+                "normalized_length_similarity": 0.11428571428571428,
+                "bleu": 0.0,
+                "ttr": 0.8148148148148148,
+                "history_similarity": 0.7230224609375
+            }
+        },
+        {
+            "message": "哦……买猫这主意倒是有趣呢，不过我不是挑剔，但是猫咪的需求也要考虑周全，不然可能会影响整体环境呢。你觉得呢？",
+            "response": "养猫还好不会太影响环境。",
+            "prediction": "我们可以分配一下每个人的使用空间吧，猫咪的需求も考虑周全。",
+            "scores": {
+                "wmd": 1.0926142367507288,
+                "sentence_similarity": 0.6265150308609009,
+                "normalized_length_similarity": 0.41379310344827586,
+                "bleu": 0.010802314890908065,
+                "ttr": 0.9444444444444444,
+                "history_similarity": 0.8046969175338745
+            }
+        },
+        {
+            "message": "哇，大家一起生活，最大的挑战肯定不少吧！你觉得我们在日常相处或环境维护上，最头疼的问题是什么？为了让这个家更艺术、更和谐，你愿意怎么参与改善呢？太棒了，期待你的灵感爆发！",
+            "response": "最头疼马桶。每个人上完厕所应该自己清理掉。",
+            "prediction": "我是xxx，xxx专业。视觉艺术，可以给我看看做の作品是什么样的吗？我愿意参与改善，例えば我可以将我的作品展示在共有空间中，以提高家的艺术性。",
+            "scores": {
+                "wmd": 1.1549565694195054,
+                "sentence_similarity": 0.5286691188812256,
+                "normalized_length_similarity": 0.29577464788732394,
+                "bleu": 0.004649189828106597,
+                "ttr": 0.7021276595744681,
+                "history_similarity": 0.7976672649383545
+            }
+        },
+        {
+            "message": "既然说到共享空间，从理性角度分析，如果让你设计一个完美的共享生活环境，你会优先考虑哪些元素来提升整体的生活品质和舒适度？比如实用功能、空间布局或某种智能设备，你会怎么权衡？",
+            "response": "咖啡机",
+            "prediction": "我会优先考虑实用功能和空间布局。例えば，共有部分的家具配置、各个部屋的使用空间分配、通路的通行性和安全性等。智能设备等可以在后面加上。",
+            "scores": {
+                "wmd": 1.3063364160239033,
+                "sentence_similarity": 0.3148118257522583,
+                "normalized_length_similarity": 0.04477611940298507,
+                "bleu": 0.0,
+                "ttr": 0.825,
+                "history_similarity": 0.7841560244560242
+            }
+        },
+        {
+            "message": "让我们分析一下，咖啡机作为智能设备，提升效率和体验。接下来，空间布局如何优化？",
+            "response": "东西能收的都收起来，腾出空间",
+            "prediction": "我想咖啡机可以占用一个独立的空间，例如在共有区域的角落或书房内。这样可以避免占用太多的空间。其余的空間可以分配到其他家具或家电上。",
+            "scores": {
+                "wmd": 1.0114770514468336,
+                "sentence_similarity": 0.5854750871658325,
+                "normalized_length_similarity": 0.2153846153846154,
+                "bleu": 0.006081389695809871,
+                "ttr": 0.75,
+                "history_similarity": 0.6895688772201538
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:50",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making our space both beautiful and functional, imagine we add a cozy washitsu room with traditional Japanese vibes—but with some clever modern touches to blend convenience and comfort! How would that mix of old and new make you feel about our ShareHouse? Would it inspire you or make you want to hang out there more? Share your awesome thoughts!",
+            "response": "Not just once a week, but at night we should generally keep quiet.\nCleaning once a week should be enough.",
+            "prediction": "",
+            "scores": {
+                "wmd": Infinity,
+                "sentence_similarity": 0.023641929030418396,
+                "normalized_length_similarity": 0.0,
+                "bleu": 0.0,
+                "ttr": 0.0,
+                "history_similarity": 0.10118173807859421
+            }
+        },
+        {
+            "message": "Haha, friend, that’s such an awesome idea! Quiet nights are perfect for recharging those batteries, right?! Keeping the night peaceful every day definitely helps everyone get top-notch rest! And cleaning once a week? Super efficient and eco-friendly, just the right balance! Imagine how peaceful our ShareHouse will feel with that calm nighttime vibe and sparkling clean spaces! Let’s make this a cozy, chill zone everyone loves to come home to! What else do you think would make our ShareHouse even more awesome? Share your cool ideas, friend! Haha!",
+            "response": "If we make a rule against keeping personal belongings in common areas, I think it would make problems much less likely to occur.",
+            "prediction": "It seems like having quiet hours at night and cleaning once a week would all be good ideas.",
+            "scores": {
+                "wmd": 0.190890281182384,
+                "sentence_similarity": 0.21122564375400543,
+                "normalized_length_similarity": 0.7109375,
+                "bleu": 0.009772055734607274,
+                "ttr": 1.0,
+                "history_similarity": 0.532616376876831
+            }
+        },
+        {
+            "message": "Oh... since we all desire a harmonious and well-kept living space, might I gently suggest the idea of holding a weekly meeting to discuss and perhaps refine our shared space usage and cleanliness guidelines? I'm not being picky, but such a thoughtful gathering could help maintain the elegance and order we all appreciate. Would this be something you find agreeable, do you think?",
+            "response": "To be sure, participation isn't mandatory, but I'd think a few minutes of discussion would be fine.",
+            "prediction": "I think it would be very effective to discuss and maintain the quality of life in the shared space.",
+            "scores": {
+                "wmd": 0.20704727767356465,
+                "sentence_similarity": 0.4793582558631897,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.02425113719986906,
+                "ttr": 0.95,
+                "history_similarity": 0.5402529835700989
+            }
+        },
+        {
+            "message": "Wow, what an inspiring conversation about creating harmony and order through thoughtful rules and gatherings! Speaking of sharing and celebrating what we love, imagine if we could bring a burst of traditional Japanese culture right here into our ShareHouse—what kind of immersive, creative experience or fun activity would you propose to truly share the spirit and beauty of that culture with everyone? Would it be something hands-on, like a tea ceremony or calligraphy workshop, or perhaps a vibrant storytelling session that captures the heart and history? I’d love to hear your vision—art is all about sharing passion and connection, after all!",
+            "response": "Indeed, for a tea ceremony, I think we could prepare everything quickly. Fine, I'll do it.",
+            "prediction": "I think we should have a Japanese-style room where people can experience traditional Japanese culture like wajyu-style furniture and Japanese-style rooms.",
+            "scores": {
+                "wmd": 0.2440718673177523,
+                "sentence_similarity": 0.23260413110256195,
+                "normalized_length_similarity": 0.5844155844155844,
+                "bleu": 0.048853266442119264,
+                "ttr": 0.9545454545454546,
+                "history_similarity": 0.6747850775718689
+            }
+        },
+        {
+            "message": "Logically speaking, communication is crucial in shared living spaces. If we had a digital notice board where everyone could post requests or updates about shared areas, would you find it efficient to use? What types of messages would you consider important enough to post there?",
+            "response": "I don't think there's much demand for this, but it's good for collecting notes and other documents in one place.",
+            "prediction": "I think it would be quite effective.",
+            "scores": {
+                "wmd": 0.4135118007674795,
+                "sentence_similarity": 0.21686136722564697,
+                "normalized_length_similarity": 0.32142857142857145,
+                "bleu": 0.0046915019735703535,
+                "ttr": 1.0,
+                "history_similarity": 0.19987989962100983
+            }
+        }
+    ]
+}

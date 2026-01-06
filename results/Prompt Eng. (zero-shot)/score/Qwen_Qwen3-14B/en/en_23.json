@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:25:50",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!",
+            "response": "I want to travel Africa! There are so many wild animals and I want to observe  their natural behaviors in the nature, not a zoo!",
+            "prediction": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!\n\n*leans back on the couch, grinning*  \nAlright, let’s see... If I had to pick a place that’s both wallet-friendly and soul-recharging? Hmm... I’d say **Iceland**. Yeah, Iceland. It might sound like a splurge at first, but if you plan it right, it’s actually pretty budget-friendly compared to other European destinations. Plus, it’s one of the most awe-inspiring places on Earth.\n\n*leans forward, eyes sparkling*  \nImagine waking up to the Northern Lights dancing across the sky, soaking in geothermal hot springs under the stars, hiking through volcanic landscapes, and exploring charming towns like Reykjavik—all while eating amazing local food like skyr and fermented shark (okay, maybe not the shark, but the skyr is legit). And the best part? Icelanders are super friendly, and the nature is so untouched, it feels like you’re in a different world.\n\n*crosses arms, thinking*  \nIt’s not just about the sights, though. It’s about the feeling of being in a place that reminds you how small you are in the grand scheme of things—and how lucky you are to be alive. That kind of perspective? That’s the ultimate recharge. Plus, with a little planning, you can totally make it work on a budget. Win-win!\n\n*smiles*  \nSo, what about you? Any dream spots that hit that perfect balance of adventure and affordability?",
+            "scores": {
+                "wmd": 0.22743046603137584,
+                "sentence_similarity": 0.19104552268981934,
+                "normalized_length_similarity": 0.07950310559006211,
+                "bleu": 0.0022024147859902527,
+                "ttr": 0.5481049562682215,
+                "history_similarity": 0.23200561106204987
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse a harmonious place to live, I suggested labeling items in the fridge to avoid confusion. I'm not being picky, but perhaps we could consider setting up a communal checklist for shared expenses or chores as well? It might help maintain the balance and fairness we all appreciate here. What do you think... would that be agreeable to everyone?",
+            "response": "Oh that's a great idea! It'll be more organized and avoid some possible mistakes!",
+            "prediction": "That's a thoughtful suggestion! I think labeling items in the fridge is a great start—it helps everyone know what's available and reduces confusion. As for a communal checklist for chores and shared expenses, I'm definitely in favor. It would help keep things organized and ensure that everyone contributes their fair share. \n\nI can help set that up if you'd like—maybe we could create a shared digital document or use a whiteboard in the common area. What do you think, DaVinci? You're usually the one who keeps track of things, so your input would be valuable.",
+            "scores": {
+                "wmd": 0.23751323524059034,
+                "sentence_similarity": 0.43945667147636414,
+                "normalized_length_similarity": 0.14412811387900357,
+                "bleu": 0.0066440709571908615,
+                "ttr": 0.7454545454545455,
+                "history_similarity": 0.5463435649871826
+            }
+        },
+        {
+            "message": "Wow, I love how you’re thinking about both style and function in making a perfect dream room! If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, which would your heart pick—and why? Art and practicality often dance together, so I’m curious what rhythm speaks strongest to you!",
+            "response": "I'll go with high-end, durable audio equipments..Of course it'll be great if they're not ugly, but the most important element of audio equipment is sound itself. So If I should choose only one side, then it'll be \"function\".",
+            "prediction": "Ah, what a fantastic question! It's like choosing between a beautiful painting and a masterful sculpture—both are art, but in different forms. If I had to pick, I think my heart would lean toward the **super high-end, durable audio equipment**. \n\nYou see, for me, sound is the soul of a space. Music, dialogue, and even silence carry emotion and meaning. High-quality audio equipment isn’t just about volume or clarity—it's about creating an atmosphere that resonates with the spirit of the room. It’s the invisible thread that weaves together art, function, and experience. \n\nThat said, I wouldn’t ignore the allure of stylish furniture. A well-designed chair or a piece of furniture that doubles as art can elevate a space in ways that are both functional and inspiring. But if I had to choose, I’d say I’d go for the **audio equipment**—because it's the heartbeat of the room, and I believe that when the music is perfect, everything else falls into place. \n\nWhat about you? Do you lean more toward the sound or the sight?",
+            "scores": {
+                "wmd": 0.1542111708321615,
+                "sentence_similarity": 0.5719705820083618,
+                "normalized_length_similarity": 0.21853658536585366,
+                "bleu": 0.01876805343231077,
+                "ttr": 0.5656108597285068,
+                "history_similarity": 0.45062607526779175
+            }
+        },
+        {
+            "message": "Since you value calm and respect in our shared living space and suggested using a whiteboard for coordinating schedules, how comfortable would you be taking the initiative to call a house meeting where we can discuss and agree on common rules for noise levels and cleaning duties? It seems like a logical step to ensure everyone’s expectations align and to keep our environment comfortable for all.",
+            "response": "Yeah I'll do the job! Let's have a meeting in the living room every Sunday night and discuss the ruled and duties together!",
+            "prediction": "That sounds like an excellent idea. I would be very comfortable taking the initiative to call a house meeting. It's important that we all feel heard and respected, and having a structured discussion about shared responsibilities and boundaries will help create a more harmonious living environment for everyone. I'll set a time that works for most people and make sure to send out a reminder in advance. Would you like me to suggest a time or format for the meeting?",
+            "scores": {
+                "wmd": 0.19694797120490254,
+                "sentence_similarity": 0.4966406524181366,
+                "normalized_length_similarity": 0.26394849785407726,
+                "bleu": 0.006658376454379869,
+                "ttr": 0.7613636363636364,
+                "history_similarity": 0.43871819972991943
+            }
+        }
+    ]
+}

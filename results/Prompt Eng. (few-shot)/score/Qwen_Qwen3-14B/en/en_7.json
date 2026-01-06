@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:44",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found a treasure chest with 100 million inside—no limits, no worries! What's the wildest, most exciting thing you'd do first? Come on, don’t hold back—let’s hear your boldest dream!\nA. I want to travel the world with my instruments and audio gear, creating and performing music along the way.\n\nQ. Very inspiring dream! Now, let's analyze this practically: if you had 100 million, how would you allocate it between investing for the future, covering your travel and music expenses, and saving for unforeseen needs? What proportions seem most reasonable to you?\nA. I would expense 10 million for travel expenses, invest 10 million for my music instruments, and save the rest.\n\nQ. Wow, your dream is bursting with energy and soul! I’m curious—what fuels your journey more: a clear goal you’re racing toward, or the deep emotions and values that music stirs within you? Art and dreams are alive, and knowing the heartbeat behind yours will light up the path ahead!\nA. Although I don't have a clear goal, I have deep emotions to music. When I listen to beautiful music, I feel as if nothing else matters, and at the same time I’m seized by the urge to make such music my own.\n\nQ. Oh... speaking of maintaining things we cherish, I noticed the shared refrigerator space has become rather cramped lately due to all those packaged foods. I’m not being picky, but I can’t help wondering if we might all benefit from preserving a bit more room for fresh, organic ingredients—after all, a certain quality of life matters to us all, does it not?\nA. I also think so. In addition, preserving a bit more room saves electricity bill, because a refrigerator will run more efficiently.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re talking about balancing lively vibes and chill times, here’s a fun thought: if you could pick one music genre or artist to set the perfect cozy mood in our dream room, what would you choose and why? Let’s make this space as awesome and relaxing as possible!",
+            "response": "Teshima Aoi",
+            "prediction": "I would choose lo-fi hip hop. It has a calming and soothing vibe that helps me relax and focus, making it perfect for unwinding in a cozy room.",
+            "scores": {
+                "wmd": 0.5563136196836441,
+                "sentence_similarity": -0.03486444801092148,
+                "normalized_length_similarity": 0.07692307692307693,
+                "bleu": 0.0,
+                "ttr": 0.9032258064516129,
+                "history_similarity": 0.3498464822769165
+            }
+        },
+        {
+            "message": "Oh... speaking of creating such a cozy atmosphere, I was wondering—would it be too much to suggest adding a small, quiet reading nook in the dream room? Perhaps with a warm lamp and a selection of thoughtfully chosen books... I’m not being picky, but it might enhance the comfort without overwhelming the space. Do you think such a corner would harmonize with the vibe we’re aiming for?",
+            "response": "Great idea! Let’s do that. Also, if the budget allows, how about getting a hammock too?",
+            "prediction": "I think that would be wonderful! A reading nook could add a peaceful and inviting corner to the space, perfect for unwinding with a book or just enjoying some quiet time. It would definitely enhance the cozy vibe we’re aiming for.",
+            "scores": {
+                "wmd": 0.3317935974369748,
+                "sentence_similarity": 0.31351396441459656,
+                "normalized_length_similarity": 0.3782608695652174,
+                "bleu": 0.0063590800205266555,
+                "ttr": 0.8936170212765957,
+                "history_similarity": 0.27770206332206726
+            }
+        },
+        {
+            "message": "Wow, such fantastic ideas brewing! Since we’re all about harmony and smooth flow in our creative nook, if you could pick just one golden rule or habit to keep our shared kitchen’s fridge neat and efficient without cramping anyone’s style, what masterpiece of a solution would you craft?",
+            "response": "How about this: any food placed in the shared fridge can be used by anyone for cooking, but in return, the dish should be shared with the person who provided the ingredients? If doing so, ingredients can be consumed by expiration.",
+            "prediction": "I would suggest implementing a \"rotate and refresh\" system where everyone labels their food items with dates and takes turns organizing the fridge weekly to ensure freshness and space efficiency.",
+            "scores": {
+                "wmd": 0.2074424253248165,
+                "sentence_similarity": 0.5534464120864868,
+                "normalized_length_similarity": 0.8478260869565217,
+                "bleu": 0.0055266204609436724,
+                "ttr": 0.9393939393939394,
+                "history_similarity": 0.36832258105278015
+            }
+        },
+        {
+            "message": "That’s a solid framework we’re building. Now, considering how creative activities can sometimes get noisy, how do you think we should balance having fun with respecting each other’s need for quiet? Logically speaking, would setting specific quiet hours or encouraging the use of headphones after a certain time be practical solutions?",
+            "response": "I think so.",
+            "prediction": "I think setting specific quiet hours would be practical, especially during late nights when people might be resting or studying. Encouraging the use of headphones for any loud activities after a certain time could also help maintain a peaceful environment for everyone.",
+            "scores": {
+                "wmd": 0.5780043997195006,
+                "sentence_similarity": -0.0640091523528099,
+                "normalized_length_similarity": 0.040892193308550186,
+                "bleu": 0.009570498942763545,
+                "ttr": 0.9111111111111111,
+                "history_similarity": 0.5405345559120178
+            }
+        },
+        {
+            "message": "Let's analyze this clearly: by \"I think so,\" you agree that setting quiet hours or using headphones is practical, correct? Assuming yes, the next step logically is to define when quiet hours start and end or establish guidelines for headphone use to ensure clarity and compliance. This will make enforcing the rule more straightforward and fair for everyone. So, what time frame or specific conditions do you think would work best for maintaining that balance between fun and respect?",
+            "response": "How about wearing headphones when listening to music after 10 p.m.?",
+            "prediction": "I think quiet hours could be from 10 PM to 7 AM, and everyone should use headphones during those times if they need to listen to music or watch shows. This way, everyone can rest properly while still enjoying their personal time.",
+            "scores": {
+                "wmd": 0.24343776225288555,
+                "sentence_similarity": 0.667864203453064,
+                "normalized_length_similarity": 0.2925764192139738,
+                "bleu": 0.010052917730344396,
+                "ttr": 0.8913043478260869,
+                "history_similarity": 0.47394341230392456
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:43",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Let’s have some fun—if you suddenly stumbled upon 100 million, what’s the wildest, boldest thing you’d do with it? Don’t hold back with reality, just dream big and tell me all about it!\nA. Hi, nice to meet you everyone! I'm Tamayo. I will travel all over the world if I had the money.\n\nQ. Very interesting dream, Tamayo. Next, let’s analyze it realistically: if you had to allocate this 100 million, how would you divide it between travel expenses, other personal consumption, and savings or investments?\nA. I will save half of it for the future. I may meet the situation where I need to use a big amount of money. \n\nQ. Thanks for clarifying. So you plan to allocate approximately 50% to savings for unforeseen large expenses. What about the remaining 50%? How much would you set aside specifically for travel and for other consumption or investment? Let's analyze this logically so your plan balances enjoyment and security effectively.\nA. Another half is to travel. I will do something which many people cannot. So I will use 50% at once. \n\nQ. Wow, your plan is so thoughtful and inspiring! Now I’m curious—does your dream come from a clear goal you want to achieve, or is it more driven by deep emotions and values that fuel your passion? Art and dreams both need that spark!\nA. I just want to enjoy travel, not having some vision for the future. \n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re making awesome plans to keep the peace at night, how about we do a little organizing magic with the fridge too? I was thinking if we move canned and packaged foods out, we could save tons of space for fresh ingredients for everyone! But of course, we need everyone on board! How do you think we should chat with the other housemates to make sure everyone agrees and follows this cool change? Any fun ideas to get everyone involved?",
+            "response": "Why don't we have a cooking party after cleaning the fridge?",
+            "prediction": "I think we can have a fridge organizing meeting where everyone shares their favorite snacks and what they usually need. Then we can make a plan together so no one feels left out. Maybe we can even make it fun with some small prizes for the most organized person!",
+            "scores": {
+                "wmd": 0.2074851294390153,
+                "sentence_similarity": 0.5633280873298645,
+                "normalized_length_similarity": 0.22900763358778625,
+                "bleu": 0.009366074330005709,
+                "ttr": 0.8653846153846154,
+                "history_similarity": 0.3918476700782776
+            }
+        },
+        {
+            "message": "Oh... since we are aiming for comfort and durability rather than flashy design for the theater room, and frankly I do prefer a smoother, less complicated process, would you perhaps be willing to assist in selecting practical materials and furniture that strike a balance between these priorities? I’m not being picky, but ensuring we choose wisely now could save us a lot of trouble later, don’t you agree?",
+            "response": "Of course I agree with you. Choosing in advance saves money and time.",
+            "prediction": "Of course, I'd be happy to help! I think choosing durable and comfortable materials is a smart move. Maybe we can go for neutral colors and simple designs that are easy to maintain. For furniture, I'd suggest looking for items made from solid wood or high-quality fabric that can withstand regular use. What do you think?",
+            "scores": {
+                "wmd": 0.21694301616101672,
+                "sentence_similarity": 0.20694804191589355,
+                "normalized_length_similarity": 0.21495327102803738,
+                "bleu": 0.008101550017657213,
+                "ttr": 0.8153846153846154,
+                "history_similarity": 0.3801270127296448
+            }
+        },
+        {
+            "message": "Wow, I love how thoughtful this is getting! Since we're all about blending creativity with respect, how do you feel about setting special ‘creative hours’ during the day—like a vibrant, noisy time for building the dream room or practicing art—while keeping the quiet hours at night? Would that spark the right balance between freedom and harmony for everyone?",
+            "response": "Great idea!! Sharing our time in daytime will make our bonds stronger too!",
+            "prediction": "I think that’s a great idea! It would help everyone focus on their creative work during the day without disturbing others who might need quiet time. As long as we all agree on the schedule, it can create a good balance between freedom and harmony.",
+            "scores": {
+                "wmd": 0.22334800135724495,
+                "sentence_similarity": 0.5711264610290527,
+                "normalized_length_similarity": 0.29959514170040485,
+                "bleu": 0.008409805259239591,
+                "ttr": 0.9215686274509803,
+                "history_similarity": 0.47669610381126404
+            }
+        },
+        {
+            "message": "Very interesting idea about the creative hours and theater room. Logically speaking, if we were to add another facility or activity that enhances relaxation or recreation for everyone here, what would you suggest? How do you think it would fit into our shared schedule and space?",
+            "response": "I think having meal together is so important to live in the share house. Just talking together with meal and understand others more deeply.",
+            "prediction": "I think adding a meditation or yoga room would be great. It can help everyone relax and de-stress after a long day. We can use it in the early morning or evening, and it doesn't require much space.",
+            "scores": {
+                "wmd": 0.18590669635934046,
+                "sentence_similarity": 0.2590407431125641,
+                "normalized_length_similarity": 0.7055837563451777,
+                "bleu": 0.01474489249346001,
+                "ttr": 0.8372093023255814,
+                "history_similarity": 0.48481184244155884
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:26:56",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you suddenly got 100 million—no limits, no worries! What’s the craziest, most awesome thing you’d do first? Don’t hold back, let your wildest dreams fly!\nA. I think I wouldspend 50 million to the renovation of the house. As for the 50 million which would not be used, I think I would spend it for future money. \n\nQ. Very interesting plan. Next, let's analyze this realistically: how would you allocate that 100 million between investment, consumption, and savings? For example, what proportions would you consider for each?\nA. I think 30 million for investment, 30 millionf for consumption, and 40 million for savings!\n\nQ. Wow, your plan already shines with such clarity and purpose! It makes me wonder, what is the heart behind this dream? Is it a clear-cut goal guiding every decision, or is it more about the passion and values inspiring you to create something meaningful? I’m super curious!\nA. I think it is meaningful to spend money for the people who I live with in the sharehouse. Thus, I think it must be good to use money for the renovation of the sharehouse. Also, as for the investment objectives, I think it is nice to spend money for nenewal of the house. This includes the upgrade of the furniture, appliances, and enlarging the room itself. \n\nQ. Oh... speaking of upgrade and renewal, I must say the shared refrigerator space is becoming quite... constrained. I'm not being picky, but all these packaged foods seem to occupy room that fresh, wholesome ingredients could better use. I suppose we all cherish a certain quality of life here, don't we? How do you feel about balancing convenience with maintaining that spacious, fresh environment?\nA. I think quality of life should be the top priority here. Therefore, fresh ingredients should be placed in refrigerator. Thus, exchanging the cool space for fresh food must be set, I think.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re talking about making our shared space more awesome and organized, what if we add multiple fridges in the living room to keep fresh and packaged foods separate? How do you imagine the perfect setup and number of fridges working together to make life easier and more fun for all of us? Share your coolest ideas!",
+            "response": "I think fresh food should pe top priority. Also, there must be more than 4 fridges and more than half of the fridge should be for the frsh food only.",
+            "prediction": "I think 2 fridges should be set up. One fridge for the fresh food, and the other fridge for the packaged food. Therefore, the living room would be kept clean and tidy.     Answer: 2 fridges should be set up. One fridge for the fresh food, and the other fridge for the packaged food. Therefore, the living room would be kept clean and tidy.     Answer: 2 fridges should be set up. One fridge for the fresh food, and the other fridge for the packaged food. Therefore, the living room would be kept clean and tidy.     Answer: 2 fridges should be set up. One fridge for the fresh food, and the other fridge for the packaged food. Therefore, the living room would be kept clean and tidy.     Answer: 2 fridges should be set up. One fridge for the fresh food, and the other fridge for the packaged food. Therefore, the living room would be kept clean and tidy.     Answer: 2 fridges should be set up. One fridge for the fresh food, and the other fridge for the packaged food. Therefore, the living room would be kept clean and tidy.     Answer: 2 fridges should be set up. One fridge for the fresh",
+            "scores": {
+                "wmd": 0.16952242056483652,
+                "sentence_similarity": 0.5567009449005127,
+                "normalized_length_similarity": 0.13644688644688643,
+                "bleu": 0.003928214669980139,
+                "ttr": 0.11864406779661017,
+                "history_similarity": 0.55682373046875
+            }
+        },
+        {
+            "message": "Oh... speaking of creating a vibrant and inspiring environment, I wonder—when we think about this dream room project, what elements do you believe are truly essential to spark creativity while also fostering a genuine sense of community? I'm not being picky, but combining functionality with aesthetic appeal is quite delicate, don't you think? Perhaps my expectations are simply too high...",
+            "response": "Our sprit of making good thing and residents happy should not be forgotten. If we possess this mind, I think we would be succesful",
+            "prediction": "I think quality of life should be the top priority here. Therefore, natural light and fresh air should be placed in the house. Thus, exchanging the room for natural light and fresh air must be set, I think.   Answer: I think quality of life should be the top priority here. Therefore, natural light and fresh air should be placed in the house. Thus, exchanging the room for natural light and fresh air must be set, I think. .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .",
+            "scores": {
+                "wmd": 0.3400009566233995,
+                "sentence_similarity": 0.29824137687683105,
+                "normalized_length_similarity": 0.17356475300400534,
+                "bleu": 0.006793648617611101,
+                "ttr": 0.1744186046511628,
+                "history_similarity": 0.5471758842468262
+            }
+        },
+        {
+            "message": "Ah... I see now, you are emphasizing the spirit of creating good things and ensuring residents' happiness as the key to success. That is indeed a fundamental mindset to cherish... I suppose what I gently meant to ask was, beyond this spirit, what specific features or design choices do you imagine would best nurture both creativity and community in our space? Please, let's explore this together, as having a clear vision is rather important, don't you agree?",
+            "response": "As for the design , it should match the room's atomosphere. Also, the size should not be too big because it is better not to concentrate on one fridge. Also, simple design shoud be recommended because we shoudl emphaszime more on quality rather than design itself.",
+            "prediction": "I think that the share house must be renovated and upgraded to create a good environment for residents. I think that the renovation of the house must be done by consulting with all residents.    Answer: I think that the share house must be renovated and upgraded to create a good environment for residents. I think that the renovation of the house must be done by consulting with all residents. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "scores": {
+                "wmd": 0.31883790175253873,
+                "sentence_similarity": 0.20111727714538574,
+                "normalized_length_similarity": 0.45993031358885017,
+                "bleu": 0.0019460630835496625,
+                "ttr": 0.17073170731707318,
+                "history_similarity": 0.5979824066162109
+            }
+        },
+        {
+            "message": "Wow, your thoughtful reflections truly paint a vivid canvas for our project! Now, to keep this masterpiece alive, how do you think we can encourage everyone to work together with open hearts and respect, so our shared dream room becomes not just a space but a living, breathing community? What kind of teamwork or rituals might inspire harmony amid our creative passions?",
+            "response": "Coffee space, TV space, relaxation facilities should be added ! This certainly makes resident want to go to this room, I think.",
+            "prediction": "I think we should have a team meeting regularly to discuss what is going on in the house. Also, I think we should have a \"house rules\" so that everyone knows what they can and cannot do. It is also nice to have a \"house activity\" every week, like game night or movie night. This will help everyone to be more connected. Answer:  I think we should have a team meeting regularly to discuss what is going on in the house. Also, I think we should have a \"house rules\" so that everyone knows what they can and cannot do. It is also nice to have a \"house activity\" every week, like game night or movie night. This will help everyone to be more connected. Answer:  I think we should have a team meeting regularly to discuss what is going on in the house. Also, I think we should have a \"house rules\" so that everyone knows what they can and cannot do. It is also nice to have a \"house activity\" every week, like game night or movie night. This will help everyone to be more connected. Answer:  I think we should have a team meeting regularly to discuss what is going on in the house. Also, I think we should have a \"house rules\"",
+            "scores": {
+                "wmd": 0.2177232470368352,
+                "sentence_similarity": 0.457852840423584,
+                "normalized_length_similarity": 0.11329170383586083,
+                "bleu": 0.004785442191860268,
+                "ttr": 0.203125,
+                "history_similarity": 0.5102906823158264
+            }
+        },
+        {
+            "message": "Logically speaking, to ensure our shared spaces serve everyone well, we need to balance activity and quiet time effectively. How do you think we should gather everyone’s availability and preferences so we can develop a schedule that respects both collaboration and rest?",
+            "response": "By making group in SNS app like LINE, Slack and make the people who belong to the group write the schedule.",
+            "prediction": "I think we should gather everyone’s availability and preferences by asking everyone in the share house. It must be good to have a meeting or send a message to everyone in the share house. Thus, I think it is nice to set a schedule that respects both collaboration and rest. It must be good to have a schedule that allows for both quiet time and activity time.     Answer: I think we should gather everyone’s availability and preferences by asking everyone in the share house. It must be good to have a meeting or send a message to everyone in the share house. Thus, I think it is nice to set a schedule that respects both collaboration and rest. It must be good to have a schedule that allows for both quiet time and activity time.  I think it is nice to set a quiet time from 10 pm to 8 am. It must be good to have a quiet time so that everyone can rest. It must be good to have an activity time from 8 am to 10 pm. It must be good to have an activity time so that everyone can collaborate. It must be good to have a flexible schedule so that everyone can adjust the schedule according to their own needs. It must be good to have a schedule that everyone can agree on. It must be",
+            "scores": {
+                "wmd": 0.27456102999238535,
+                "sentence_similarity": 0.44577640295028687,
+                "normalized_length_similarity": 0.09067796610169492,
+                "bleu": 0.002186538974066562,
+                "ttr": 0.25793650793650796,
+                "history_similarity": 0.6066870093345642
+            }
+        }
+    ]
+}

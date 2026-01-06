@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:49",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about balancing order and creativity here, imagine if a new opportunity popped up—an investment promising bigger returns but with more ups and downs! How would you balance the risk so you can still enjoy your travels and personal growth without getting too wild? Share your boldest strategy!",
+            "response": "in that case i would spend my time to understand the investment, if it makes sense ot me and seems like a productive investment, I will go 50% in, if it does not feels nice Ill just let it go.",
+            "prediction": "Friend, speaking of balancing the wild with the wise, I'd dive into some deep analysis to find the perfect sweet spot between risk and reward",
+            "scores": {
+                "wmd": 0.20642875079651357,
+                "sentence_similarity": 0.33758676052093506,
+                "normalized_length_similarity": 0.734375,
+                "bleu": 0.010185919321287089,
+                "ttr": 0.8928571428571429,
+                "history_similarity": 0.351557195186615
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping balances and thoughtful approaches, I was pondering about our shared refrigerator space and the idea of labeling items that was mentioned earlier. I'm not being picky, but perhaps implementing a quarterly review to adjust space allocation based on usage and our respect for common areas could help maintain harmony. Do you think such a system would be... beneficial to preserving our shared quality of life here?",
+            "response": "Ideally no, but I think individuals can talk with each other so that they can lend/borrow space from each other.",
+            "prediction": "Yes, that makes sense",
+            "scores": {
+                "wmd": 0.5277380904460969,
+                "sentence_similarity": 0.12618529796600342,
+                "normalized_length_similarity": 0.1875,
+                "bleu": 0.002132362070729961,
+                "ttr": 1.0,
+                "history_similarity": 0.2918736934661865
+            }
+        },
+        {
+            "message": "Wow, Raffaello, your thoughtful approach to harmony really sparks my creativity! Since we all treasure both lively collaboration and moments of quiet focus here, what if we arranged a weekly rotation where each of us hosts either a fun creative session or a peaceful workday in the common area? How do you imagine you'd bring your unique touch to balancing this rhythm between vibrant energy and calm concentration? I’m curious—would you lean more toward inspiring artistic bursts or soothing steady productivity?",
+            "response": "I think I would alternate bewteen both",
+            "prediction": "agree",
+            "scores": {
+                "wmd": 0.6948169972527979,
+                "sentence_similarity": 0.2871190905570984,
+                "normalized_length_similarity": 0.13157894736842105,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.31883135437965393
+            }
+        },
+        {
+            "message": "Very interesting approach to balance creativity and focus. Now, reflecting on your desire for a dream room that’s both functional and playful with video games, what practical features or tech gadgets do you think would truly enhance usability and enjoyment for everyone involved? Let’s analyze how to merge fun and efficiency logically.",
+            "response": "big screen headphones and snack table",
+            "prediction": "Tech-wise, a quality gaming setup with a good console and some cool games would be a must for the playful side. For keeping things organized and peaceful, having clear spaces for everyone to keep their stuff and maybe some schedules to plan when to play or do quiet activities could really help. What do you think makes the most sense for arranging the room and managing time for all the different activities?",
+            "scores": {
+                "wmd": 0.313891770449158,
+                "sentence_similarity": 0.2583392858505249,
+                "normalized_length_similarity": 0.09046454767726161,
+                "bleu": 0.0023555952768576035,
+                "ttr": 0.7662337662337663,
+                "history_similarity": 0.3245336711406708
+            }
+        }
+    ]
+}

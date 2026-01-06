@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "claude-sonnet-4-0",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:45:08",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈朋友，说到你之前提到制定详尽的计划和数字，太棒了！是什么让你这么坚持这些理性安排呢？是为了安全感、目标感，还是有别的特别理由？快告诉我你的秘密！",
+      "response": "有目标感会比较安心，我不喜欢突发情况",
+      "prediction": "主要是为了安全感。有明确的计划和数字让我觉得更有掌控感，能够预见和应对各种情况",
+      "scores": {
+        "wmd": 0.8320172452863064,
+        "sentence_similarity": 0.6893158555030823,
+        "normalized_length_similarity": 0.46153846153846156,
+        "history_similarity": 0.787235677242279,
+        "bleu": 0.010713701843513142,
+        "ttr": 0.92
+      }
+    },
+    {
+      "message": "说到稳妥和秩序，我正想问……如果我们设计共享冰箱，你觉得是给每个人固定分区比较合理，还是按物品类别来划分更合适呢？我不是挑剔，但空间有限，大家都希望存放物品时既方便又不混乱。你觉得哪种安排更能让生活品质得到保障呢？",
+      "response": "每个人固定分区，这样比较公平",
+      "prediction": "固定分区比较合理。这样可以避免混乱，每个人对自己的空间负责，也不会产生纠纷",
+      "scores": {
+        "wmd": 0.8180124221697931,
+        "sentence_similarity": 0.7664245367050171,
+        "normalized_length_similarity": 0.3783783783783784,
+        "history_similarity": 0.8157212138175964,
+        "bleu": 0.031420504922717064,
+        "ttr": 0.9523809523809523
+      }
+    },
+    {
+      "message": "哇，说到生活细节，咱们装修“梦想房间”时，面对实用和美观的矛盾，你会怎么拿捏呢？更偏向功能优化，把实用放在第一位，还是愿意为了艺术感适度妥协一点？艺术就是要找到那个完美平衡点，你怎么看？",
+      "response": "实用第一位",
+      "prediction": "更偏向功能优化。在预算和空间有限的情况下，实用性应该是首要考虑因素，美观可以在不影响功能的前提下适度考虑",
+      "scores": {
+        "wmd": 1.2321763291611376,
+        "sentence_similarity": 0.43775928020477295,
+        "normalized_length_similarity": 0.09615384615384616,
+        "history_similarity": 0.8029662370681763,
+        "bleu": 0.0,
+        "ttr": 0.8125
+      }
+    },
+    {
+      "message": "从生活细节来说，噪音和清洁这些因素确实会影响心情。我们能不能用一个具体的公约来规范，比如安静时间段或者轮流清洁安排？你觉得这样的规则怎么制定才更合理，既尊重彼此习惯又能保证效率？",
+      "response": "可以制定公约。公约的制定需要在了解大家自身作息的基础上协商确定",
+      "prediction": "可以制定公约。安静时间可以设定为晚上10点到早上8点，清洁方面建议按周轮流负责公共区域，个人物品各自整理。这样既明确了责任又有可操作性",
+      "scores": {
+        "wmd": 0.8194997142333845,
+        "sentence_similarity": 0.7923463582992554,
+        "normalized_length_similarity": 0.4626865671641791,
+        "history_similarity": 0.7136381268501282,
+        "bleu": 0.06066858194850451,
+        "ttr": 0.9210526315789473
+      }
+    }
+  ]
+}

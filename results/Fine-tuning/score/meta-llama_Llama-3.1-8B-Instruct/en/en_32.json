@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:30",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about creating a vibe that lifts everyone up, I gotta ask—if you had to pick a song or music style to spark hope and brighten tough days here in our ShareHouse, what would it be? Come on, spill your inspiring choice and why it hits that magic spot for you!",
+            "response": "I’d pick piano music, especially gentle, uplifting pieces. The piano has this magical ability to touch emotions directly—soft notes can calm stress, and bright melodies can spark hope like sunlight breaking through clouds. For me, it creates both focus and warmth, making the ShareHouse feel like a sanctuary where challenges transform into inspiration. That balance of peace and energy is exactly the vibe I’d love us to share.",
+            "prediction": "If I had to choose, I would pick music that has a strong, consistent beat, like techno or house music.",
+            "scores": {
+                "wmd": 0.22155850071718494,
+                "sentence_similarity": 0.42599737644195557,
+                "normalized_length_similarity": 0.2383177570093458,
+                "bleu": 0.0013699371835204472,
+                "ttr": 0.8333333333333334,
+                "history_similarity": 0.21270547807216644
+            }
+        },
+        {
+            "message": "Oh... since we cherish such uplifting energy, I wonder how we might gracefully handle those moments when exuberant creative activities unexpectedly disrupt our much-needed quiet time? I’m not being picky, but maintaining both artistic freedom and communal harmony is quite the delicate dance, don’t you think? Perhaps there’s a way to embrace both without compromise... what are your thoughts?",
+            "response": "You’re absolutely right—it is a delicate dance. I think the key is flexibility and mutual awareness. When someone feels inspired and bursts into lively creativity, we could embrace it with joy, but also keep tools like headphones, soundproof corners, or quick check-ins to avoid tension. Likewise, when quiet is needed, we honor it as sacred space. It’s not about compromise so much as shifting gracefully between energies, turning potential conflict into harmony.",
+            "prediction": "It’s not good for the burden to fall too much on one person, so let’s set up a schedule from now on so everyone will have space for activity while keeping the burden of noise reasonable.",
+            "scores": {
+                "wmd": 0.1486528984711272,
+                "sentence_similarity": 0.3929823338985443,
+                "normalized_length_similarity": 0.40086206896551724,
+                "bleu": 0.02455151821570439,
+                "ttr": 0.8333333333333334,
+                "history_similarity": 0.37419798970222473
+            }
+        },
+        {
+            "message": "Wow, your sensitivity to balance truly shows a deep artistic soul! Imagine now our dream room is fully alive with vivid colors and bold designs—some might feel a bit overwhelmed by such vibrant energy. How do you think we could encourage a friend to not just accept, but truly embrace that passionate spirit in the space as a source of creative inspiration rather than distraction? What comforting words or ideas might help transform that initial overwhelm into awe?",
+            "response": "I’d remind them that every bold color, every daring shape, carries the heartbeat of creativity—it’s not chaos, but energy waiting to spark new ideas. Overwhelm often comes before wonder; if they pause and breathe, they may feel the passion behind the design lifting their own imagination. I’d say, “Let the colors dance with you, not against you—see them as companions in your journey.” With that shift, what once felt distracting could become a powerful source of inspiration.",
+            "prediction": "I think you should let everyone solve that by doing activities that release tension, like having everyone work on a project that requires concentration.",
+            "scores": {
+                "wmd": 0.15739344106665185,
+                "sentence_similarity": 0.3027203679084778,
+                "normalized_length_similarity": 0.31865828092243187,
+                "bleu": 0.0008003999024901575,
+                "ttr": 0.8846153846153846,
+                "history_similarity": 0.3868672847747803
+            }
+        },
+        {
+            "message": "Your enthusiasm for balancing inspiration with practical living is inspiring. Let’s analyze this: if you had to mentor someone struggling to maintain their artistic goals while handling everyday responsibilities, what specific mindset or strategies would you recommend to keep them both motivated and realistically grounded?",
+            "response": "I’d encourage them to see daily responsibilities not as obstacles, but as rhythms that can support their art. A key mindset is balance: treat routine as a grounding frame, and creativity as the color within it. Practical strategies might include setting small, consistent time blocks for art, celebrating progress rather than perfection, and integrating inspiration into ordinary tasks. This way, they stay motivated without burning out, and their artistic goals grow naturally alongside a sustainable, grounded life.",
+            "prediction": "If I had to mentor someone struggling to maintain their artistic goals while handling everyday responsibilities, I would recommend embracing failure as a natural part of the learning process, so they can keep moving forward with courage.",
+            "scores": {
+                "wmd": 0.12484121252052294,
+                "sentence_similarity": 0.6200206279754639,
+                "normalized_length_similarity": 0.4584139264990329,
+                "bleu": 0.010137993685049494,
+                "ttr": 0.925,
+                "history_similarity": 0.397411584854126
+            }
+        }
+    ]
+}

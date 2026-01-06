@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:54:23",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈！朋友啊，既然能感受到这种和谐与创造的能量，我觉得咱们合租生活里保持乐趣与规则的平衡才是最佳方式对吧？要是你能具体说说想尝试的点子，还有自己的职责分工，那就更完美啦！”",
+      "response": "我没有什么具体的想法，如果有矛盾我会尽力调整，我是一个利他主义者，我希望别人不会因为我受到影响",
+      "prediction": "我觉得平衡很重要。点子的话，我们可以定一些公共区域的使用时间，比如晚上几点后保持安静。我的职责分工，我可以负责公共区域的卫生，或者管理冰箱的一块区域，这样大家都能更清楚。",
+      "scores": {
+        "wmd": 0.9315732903293716,
+        "sentence_similarity": 0.6855994462966919,
+        "normalized_length_similarity": 0.5529411764705883,
+        "history_similarity": 0.7301449179649353,
+        "bleu": 0.009990095999535837,
+        "ttr": 0.7169811320754716
+      }
+    },
+    {
+      "message": "啊...这种利他主义的态度确实值得点赞。不过要是因为价值观不同或规则理解分歧导致矛盾时，大家该怎么在维护共同利益的同时，找到双方都能接受的解决方案呢？有没有什么成功的具体案例，或者理想的协商推进方式可以分享？可能我的期待值有点高了吧...",
+      "response": "以大家的利益为先吧，然后在思考各自的想法",
+      "prediction": "我觉得可以坐下来好好谈，找到一个大家都能接受的折中方案，毕竟住在一起，还是要互相体谅的。",
+      "scores": {
+        "wmd": 0.916782329737839,
+        "sentence_similarity": 0.6832699179649353,
+        "normalized_length_similarity": 0.45454545454545453,
+        "history_similarity": 0.8691320419311523,
+        "bleu": 0.009871721786705418,
+        "ttr": 0.8888888888888888
+      }
+    },
+    {
+      "message": "啊...大家优先考虑共同利益确实很重要。不过具体怎么落实个人意见，我也挺在意的...虽然我的听问题不算特别挑剔...要是能详细说明下就更好了。话说回来，我最担心的就是规则模糊导致混乱...您怎么看呢？”",
+      "response": "抱歉我有点累了，我没什么具体的想法，我想就是把共同的利益放在首位，然后在不损害共同利益的条件下尽可能的满足个人的需求",
+      "prediction": "我觉得规则简单清晰最重要，大家一起商量，然后少数服从多数就好了。",
+      "scores": {
+        "wmd": 0.9870250111980444,
+        "sentence_similarity": 0.6544098258018494,
+        "normalized_length_similarity": 0.5517241379310345,
+        "history_similarity": 0.8321862816810608,
+        "bleu": 0.012716280758097807,
+        "ttr": 0.95
+      }
+    },
+    {
+      "message": "哇，你说自己没什么梦想和激情，但用房间颜色和物品摆放来调节心情这个点子，真是既新颖又充满艺术感！这灵感到底是怎么来的？要是能详细讲讲，说不定还能成为我雕塑创作的灵感源泉呢！",
+      "response": "因为生活很苦，所以我想在房间中更温馨一些，这样会让我心情变好",
+      "prediction": "没什么特别的灵感，只是想让自己住得舒服一点，心情好一点，生活已经够累了，总要给自己找点调节情绪的方式吧。",
+      "scores": {
+        "wmd": 0.8195206900367658,
+        "sentence_similarity": 0.8022286891937256,
+        "normalized_length_similarity": 0.5769230769230769,
+        "history_similarity": 0.8144024014472961,
+        "bleu": 0.008905296375949619,
+        "ttr": 0.8235294117647058
+      }
+    },
+    {
+      "message": "在合租生活中，房东通常需要大家承担打扫卫生和共同规则的职责分工。您对这些事务中的个人行为和应对策略有什么想法？如果有具体做法的话，请详细说明。",
+      "response": "我可以洗碗",
+      "prediction": "对于打扫卫生，我觉得之前提到的值日表就很好用，可以把公共区域像客厅、厨房这些都分进去，大家轮流打扫。至于共同规则和个人行为，我觉得最重要的还是自觉。每个人都把自己份内的事情做好，不要想着占别人的便宜或者偷懒，这样才能保证大家住得都舒服。如果真的有矛盾或者觉得有人没做好，我觉得直接但礼貌地提出来是最好的解决办法，毕竟大家都是住在一起的伙伴，有问题一起商量着解决，目标都是为了让大家能住得开心顺利。",
+      "scores": {
+        "wmd": 1.1654745285958499,
+        "sentence_similarity": 0.3143625855445862,
+        "normalized_length_similarity": 0.025252525252525252,
+        "history_similarity": 0.7912396192550659,
+        "bleu": 0.0017406025254073849,
+        "ttr": 0.7073170731707317
+      }
+    }
+  ]
+}

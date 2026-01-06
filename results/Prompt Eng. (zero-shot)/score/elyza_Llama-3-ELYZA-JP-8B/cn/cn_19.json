@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:07",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你刚才说会把大部分资金储蓄起来，还有明确的梦想和目标！如果突然来了一笔意外之财，你会用它去实现什么疯狂又美妙的梦想呢？大胆说出来，让我们一起为你的梦想加油打气！",
+            "response": "环游世界 我是认真的",
+            "prediction": "Oh, guys! I'm super excited to share my crazy and magnificent dreams with you! If I suddenly got a surprise windfall, I would use it to travel the world and experience different cultures! Imagine being able to visit famous museums, historical landmarks, and art galleries without worrying about budget constraints. It would be an incredible adventure!",
+            "scores": {
+                "wmd": 1.2932741560741583,
+                "sentence_similarity": 0.10569272935390472,
+                "normalized_length_similarity": 0.02849002849002849,
+                "bleu": 0.0014758140748286537,
+                "ttr": 0.45081967213114754,
+                "history_similarity": 0.012916619889438152
+            }
+        },
+        {
+            "message": "说到日常的小细节，关于冰箱我一直坚持各自占用一层，虽然我不是挑剔，但共享确实容易带来小摩擦。你觉得呢，这样的安排，最大的好处会体现在哪些方面呢？毕竟生活品质和便利性都不能忽视呢。",
+            "response": "我支持不共享",
+            "prediction": "Hi everyone! I'm excited to join this share house. I noticed that each resident has their own shelf in the fridge, which I think is a great arrangement. Although I'm not particularly picky, shared spaces can sometimes lead to small frictions. In this arrangement, the biggest benefits will likely appear in the following aspects: \n     - Each resident can store their own food and drinks without worrying about others using their space.\n     - Everyone can easily access their own belongings without having to ask others.\n     - It promotes a sense of ownership and responsibility among residents.\n\n    This arrangement seems to be well-organized and practical, and I think it's great for maintaining a smooth and comfortable living environment.",
+            "scores": {
+                "wmd": 1.3018377831692163,
+                "sentence_similarity": -0.009807326830923557,
+                "normalized_length_similarity": 0.008053691275167786,
+                "bleu": 0.0,
+                "ttr": 0.34065934065934067,
+                "history_similarity": 0.06071261316537857
+            }
+        },
+        {
+            "message": "嗯...我不是挑剔，但是大家都坚持不共享，偶尔会不会显得有些孤立呢...呢？",
+            "response": "我不觉得",
+            "prediction": "我完全理解大家都有自己的生活节奏和秘密，共享空间只是一个共有资源。大家都有自己的人生，当然有时会感到孤立的感覚。でも，我认为我们可以通过一些小さな交流、例えば大家一起做饭、或一起看电影、等等，来缓和这个感覚。我们可以相互理解和尊重し合い、大家一起生活的空間を作り上げることが可能。",
+            "scores": {
+                "wmd": 1.1761727748943418,
+                "sentence_similarity": 0.3481510281562805,
+                "normalized_length_similarity": 0.02857142857142857,
+                "bleu": 0.0019226046773833667,
+                "ttr": 0.723404255319149,
+                "history_similarity": 0.5292643308639526
+            }
+        },
+        {
+            "message": "哇，你对梦想房间的抽象风格主导真是太酷了！你有没有特别钟爱的元素或者图案，觉得能用幽默感十足的方式，完美展现那个空间的灵魂呢？艺术就是要敢于疯狂创新，对吧！",
+            "response": "蜡笔小新 我喜欢绿色",
+            "prediction": "I'm really impressed by the abstract style that dominates the dream room! As for me, I have a special fondness for elements like clouds and waves, and I think they could be used in a humorous way to perfectly capture the soul of that space. Art is all about taking bold and innovative steps, right?",
+            "scores": {
+                "wmd": 1.3054753884873354,
+                "sentence_similarity": -0.0516199953854084,
+                "normalized_length_similarity": 0.03355704697986577,
+                "bleu": 0.0015397079930921473,
+                "ttr": 0.452991452991453,
+                "history_similarity": 0.003484810469672084
+            }
+        },
+        {
+            "message": "让我们分析一下，创作自由和生活安宁确实容易冲突。从实际角度，你觉得在梦想房间设计里，如何兼顾这两者？是设立专门的创作区域，还是通过材料和布局降低噪音？你更倾向哪种方案？",
+            "response": "设立专门的创作区域",
+            "prediction": "As I move into this share house, I'm excited to get creative and express myself through art. However, I also understand that creative freedom and peaceful living can indeed conflict with each other. In my dream room design, I would consider setting up a dedicated creative zone and a quiet area to separate my artistic pursuits from my personal space. This way, I can focus on my creativity without disturbing others, and also ensure that my artistic endeavors do not disturb others' peaceful living.",
+            "scores": {
+                "wmd": 1.2960873160447022,
+                "sentence_similarity": 0.024515703320503235,
+                "normalized_length_similarity": 0.018,
+                "bleu": 0.0,
+                "ttr": 0.3743016759776536,
+                "history_similarity": 0.05387928709387779
+            }
+        }
+    ]
+}

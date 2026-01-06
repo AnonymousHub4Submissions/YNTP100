@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:56",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你说得太棒了！既然我们想把生活变得既实用又有条理，那如果我们在“梦想房间”里设计一些多功能储物模块，让大家收纳更方便，你觉得这样的设计能满足你的需求吗？大胆说说你的想法吧！",
+            "response": "那很好，我喜欢收纳多的房间。",
+            "prediction": "呃……梦想房间？我是来创作的，不是来收纳的。如果你要在我的空间里加储物模块，那也得给我一个同样大的空间来重新创作吧？公平一点？",
+            "scores": {
+                "wmd": 0.8728324075107912,
+                "sentence_similarity": 0.6956061124801636,
+                "normalized_length_similarity": 0.2222222222222222,
+                "bleu": 0.0065020699986389945,
+                "ttr": 0.717391304347826,
+                "history_similarity": 0.7700159549713135
+            }
+        },
+        {
+            "message": "嗯……考虑到大家作息和时间都不太一致，我想提个建议：如果我们设立一个预约表来管理公共创作区的使用时间，是不是能避免使用冲突和噪音干扰呢？我不是挑剔，但毕竟每个人都需要一个相对安静的环境来发挥创意，这样的安排，你觉得合理吗？",
+            "response": "这个预约表的事情我昨天就提过了？",
+            "prediction": "这确实是个很实际的需求。如果你不介意的话，我可以帮你整理一个时间表？",
+            "scores": {
+                "wmd": 0.8818173452421021,
+                "sentence_similarity": 0.7340289354324341,
+                "normalized_length_similarity": 0.47058823529411764,
+                "bleu": 0.011433361115787456,
+                "ttr": 0.9545454545454546,
+                "history_similarity": 0.8463912010192871
+            }
+        },
+        {
+            "message": "哇，你们对空间秩序这么上心太棒了！既然我们都偏向折中方案来保持整洁和舒适，你觉得哪些日常的小习惯最能帮助大家轻松维护共享空间的和谐呢？艺术就是细节的舞蹈，我们一起打造完美的共处环境，怎么样？",
+            "response": "比如……随手丢垃圾？",
+            "prediction": "那我们是不是得制定一个比较明确的清理时间？比如每周五大家都会清理一次。",
+            "scores": {
+                "wmd": 1.0312901302804818,
+                "sentence_similarity": 0.6904540061950684,
+                "normalized_length_similarity": 0.2857142857142857,
+                "bleu": 0.011451997463067555,
+                "ttr": 0.95,
+                "history_similarity": 0.8268994688987732
+            }
+        },
+        {
+            "message": "从逻辑上讲，要让‘梦想房间’既实用又美观，我们应该先明确哪些功能元素是不可或缺的。你觉得在设计中，哪些实用功能必须优先保障？同时，哪些装饰细节能够显著提升你的使用体验？换句话说，功能和美感你会怎么权衡？",
+            "response": "当然是合理的储物空间分配了。装饰的话可以放在最后，这个不急。",
+            "prediction": "那之后剩下的空间就可以进行装饰啦！在实用方面，我需要一块大一点的创作用的桌子，收纳空间也很重要。剩下的都可以装饰成你想要的样子！",
+            "scores": {
+                "wmd": 0.7674972969826854,
+                "sentence_similarity": 0.7770801782608032,
+                "normalized_length_similarity": 0.46875,
+                "bleu": 0.006708839685423083,
+                "ttr": 0.7674418604651163,
+                "history_similarity": 0.7723131775856018
+            }
+        }
+    ]
+}

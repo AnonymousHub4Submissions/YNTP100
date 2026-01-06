@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:26:44",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found a treasure chest with 100 million inside—no limits, no worries! What’s the wildest, most amazing thing you’d do first? Don’t hold back, let your boldest dreams fly!\nA. I'd travel to every country with a bodyguard and take photos of beautiful nature and animals with a high-end camera.\n\nQ. Very exciting plan! Now, let's analyze this realistically: if you had 100 million, how would you allocate it among investing in your travels, covering daily expenses and security, and saving for future opportunities? What proportions seem most practical to you?\nA. I would use 50% for travel expenses, 20% for safety measures, and the rest of the money for retirement funds.\n\nQ. Wow, your dream bursts with so much life and vision! I gotta ask—what drives this incredible journey of yours? Is it a crystal-clear goal you’re chasing, like capturing that perfect shot, or is it more about following the emotions and values that make your heart race? Art and life thrive on passion—what fuels your fire?\nA. I think it's more about the emotions and values. When I see beautiful photos from other countries on Instagram, I'd like to experience that magnificent nature and take photos myself. In my country, I often take photos, but I can rarely see such magnificent nature. It's not just about taking perfect shots, but about feeling the beauty of nature myself.\n\nQ. Oh... speaking of passion and experiences, I noticed our shared refrigerator seems rather cramped lately due to all the packaged foods. I'm not being picky, but it does make it difficult to store fresh ingredients—which, I suppose, we all agree are essential to maintaining a certain quality of life, yes? Do you think it would be possible for us all to be a bit more mindful about how we use that space?\nA. You're right. We should discuss how to divide  the space so we can all use it comfortably.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, while we’re getting all organized and harmonious here, I gotta ask—if you were planning an epic photography trip next year to capture the most stunning nature scenes, what wild landscapes or cool creatures would you chase after to really feel that magical connection? Let’s dream big and adventurous!",
+            "response": "I want to see vast nature where water and greenery coexist, like a valley. I'd also love to see animals living freely on a savanna.",
+            "prediction": "I would love to travel to New Zealand to capture the breathtaking landscapes of Milford Sound and the stunning fjords of Fiordland National Park. I'd also be thrilled to photograph the majestic mountains of the Southern Alps and the unique wildlife, such as the kiwi bird and the kakapo parrot. The adventure and the opportunity to experience the untouched beauty of New Zealand would be truly unforgettable.     Answer:  I would love to travel to New Zealand to capture the breathtaking landscapes of Milford Sound and the stunning fjords of Fiordland National Park. I'd also be thrilled to photograph the majestic mountains of the Southern Alps and the unique wildlife, such as the kiwi bird and the kakapo parrot. The adventure and the opportunity to experience the untouched beauty of New Zealand would be truly unforgettable.     Answer:  I would love to travel to New Zealand to capture the breathtaking landscapes of Milford Sound and the stunning fjords of Fiordland National Park. I'd also be thrilled to photograph the majestic mountains of the Southern Alps and the unique wildlife, such as the kiwi bird and the kakapo parrot. The adventure and the opportunity to experience the untouched beauty of New Zealand would be truly unforgettable.     Answer:  I would love to travel to New",
+            "scores": {
+                "wmd": 0.27356989016174466,
+                "sentence_similarity": 0.3949939012527466,
+                "normalized_length_similarity": 0.10115830115830116,
+                "bleu": 0.013463082640038423,
+                "ttr": 0.21397379912663755,
+                "history_similarity": 0.22815223038196564
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping things harmonious here, I was wondering... since you seem so enthusiastic about adventures and fun, how would you feel about taking on the responsibility of organizing and maintaining the gaming setup? I'm not being picky, but balancing enjoyment with a certain orderliness in our shared space might help everyone stay comfortable. Of course, I trust someone mindful like you would manage this well... What do you think?",
+            "response": "I'd be happy to take on that responsibility to make sure everyone can enjoy the gaming setup comfortably. I'll probably need to ask for your input on your preferences, so I appreciate your help when the time comes.",
+            "prediction": "I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to take on that responsibility.     Answer: I think that sounds like a great idea. I would be happy to",
+            "scores": {
+                "wmd": 0.247990646098857,
+                "sentence_similarity": 0.16655322909355164,
+                "normalized_length_similarity": 0.1848013816925734,
+                "bleu": 0.027801001176081315,
+                "ttr": 0.07346938775510205,
+                "history_similarity": 0.29837632179260254
+            }
+        },
+        {
+            "message": "Wow, Raffaello, your vision of harmony and beauty in our shared space truly speaks to me! Since creativity often bursts out loud and wild, but we also need quiet focus to shape our best work, how do you think we could gently balance those energies? Could we create special zones or times that honor both the wild sparks of inspiration and the calm flow of concentration, keeping our space vibrant yet peaceful? What’s your take on blending noise and stillness like a perfect sculpture of life?",
+            "response": "How about we use a retractable screen? Then, we could roll it out only when we want to be active and have some fun, and then put it away when we need to focus. I think this would let us use the same space in two different ways without changing the size of the room.",
+            "prediction": "I think we can create a designated area for art and music, and we can also set up a quiet area for studying and reading. We can also establish rules for noise levels during certain times of the day, like during work hours or when someone is sleeping. This way, we can maintain a balance between creativity and focus.    Answer: I think we can create a designated area for art and music, and we can also set up a quiet area for studying and reading. We can also establish rules for noise levels during certain times of the day, like during work hours or when someone is sleeping. This way, we can maintain a balance between creativity and focus. .     Answer: I think we can create a designated area for art and music, and we can also set up a quiet area for studying and reading. We can also establish rules for noise levels during certain times of the day, like during work hours or when someone is sleeping. This way, we can maintain a balance between creativity and focus. .     Answer: I think we can create a designated area for art and music, and we can also set up a quiet area for studying and reading. We can also establish rules for noise levels during certain times of the day, like during work hours or when",
+            "scores": {
+                "wmd": 0.19226268754672216,
+                "sentence_similarity": 0.4217899441719055,
+                "normalized_length_similarity": 0.21739130434782608,
+                "bleu": 0.0040080562738919745,
+                "ttr": 0.19123505976095617,
+                "history_similarity": 0.5885710716247559
+            }
+        },
+        {
+            "message": "Since we’ve agreed on a flexible and fair way to share the gaming setup, would you both be open to applying a similar approach to other shared resources or responsibilities? From a practical standpoint, what system could we put in place to ensure smooth coordination and mutual respect across all shared areas?",
+            "response": "I'm not sure if this is the same approach, but what if we tried a weekly chore schedule? By taking turns with the responsibilities, we could all understand the effort it takes to keep our shared space clean and have a better living situation.",
+            "prediction": "I think we should discuss how to divide the space in the shared refrigerator so we can all use it comfortably. Maybe we could label the shelves and designate specific areas for each person to store their food. That way, we can all have enough space to store our fresh ingredients. Additionally, we could establish a rule that everyone cleans up after themselves and doesn't leave their food or trash in the fridge for too long. This way, we can maintain a clean and organized space that everyone can enjoy.     Answer:  Label the shelves and designate specific areas for each person to store their food. Establish a rule that everyone cleans up after themselves and doesn't leave their food or trash in the fridge for too long.     Answer:  Label the shelves and designate specific areas for each person to store their food. Establish a rule that everyone cleans up after themselves and doesn't leave their food or trash in the fridge for too long.     Answer:  Label the shelves and designate specific areas for each person to store their food. Establish a rule that everyone cleans up after themselves and doesn't leave their food or trash in the fridge for too long.     Answer:  Label the shelves and designate specific areas for each person to store their food. Establish a rule that everyone cleans up after themselves",
+            "scores": {
+                "wmd": 0.14204702990745316,
+                "sentence_similarity": 0.480098158121109,
+                "normalized_length_similarity": 0.18277945619335348,
+                "bleu": 0.006427212824790576,
+                "ttr": 0.2782258064516129,
+                "history_similarity": 0.5313941240310669
+            }
+        }
+    ]
+}

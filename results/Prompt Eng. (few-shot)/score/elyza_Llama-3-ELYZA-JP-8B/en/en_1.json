@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:55",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Let’s have some fun—if you suddenly got 100 million bucks, what wild and awesome adventure would you dive into first? Don’t hold back, dream big and bold!\nA. Travel around the world.\n\nQ. Your travel plan sounds exciting. Now, let’s analyze this realistically: if you had 100 million, how would you allocate it among traveling, investing for future security, and maybe saving for unexpected needs? What proportions seem reasonable to you?\nA. I will save half of my money, and spend the other half on travel. I will allocate about 40% of my savings to investments.\n\nQ. Wow, your plan is truly inspiring! I’m curious—does this dream of traveling the world come from a clear goal you want to achieve, like discovering new cultures or creating unforgettable memories? Or is it more about following a deep emotional passion and values that travel stirs within your soul? Art and life both need that kind of heartfelt motivation! What’s the beating heart behind your amazing dream?\nA. It's the curiosity to see and experience things that I've never seen or felt before.\n\nQ. Oh... speaking of maintaining quality in all aspects of life, I’ve noticed our shared refrigerator space has become quite cramped, especially with many packaged foods occupying the shelves. I’m not being picky, but wouldn’t it be better if we could all ensure there’s enough room for fresh ingredients, which are so essential for our well-being? After all, we all surely want to preserve a certain standard of living here, don’t we?\nA. Our goal should be to improve the overall quality of life for everyone.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re aiming for harmony AND creativity, how about we try a rotating schedule for quiet and active hours? That way, everyone gets their turn to be expressive or chill without stepping on anyone’s toes! What do you think? Would that make our ShareHouse vibe even more awesome?",
+            "response": "Exactly! We should emphasize the importance of balance and contrast.",
+            "prediction": "I think that's a great idea!",
+            "scores": {
+                "wmd": 0.4344166027141901,
+                "sentence_similarity": 0.17093628644943237,
+                "normalized_length_similarity": 0.4117647058823529,
+                "bleu": 0.016847111051295396,
+                "ttr": 1.0,
+                "history_similarity": 0.35351505875587463
+            }
+        },
+        {
+            "message": "Haha, friend, you’re totally spot on! Balance and contrast are the secret sauce that makes everything shine! By balancing quiet focus and lively energy, we keep our ShareHouse buzzing with creativity AND calm! So, let’s chat more about how we can sprinkle that perfect mix into our rotating schedule! What’s your ideal way to mix those chill and lively vibes? Haha, I’m all ears and super excited!",
+            "response": "By making the morning and evening hours quiet, and the daytime and early evening active, a natural daily rhythm can be established.",
+            "prediction": "If I were given the opportunity to suddenly get 100 million bucks, I would dive into wild and awesome adventure first.",
+            "scores": {
+                "wmd": 0.2683264154757323,
+                "sentence_similarity": -0.06308242678642273,
+                "normalized_length_similarity": 0.9007633587786259,
+                "bleu": 0.010737429082545526,
+                "ttr": 0.9565217391304348,
+                "history_similarity": 0.3496156632900238
+            }
+        },
+        {
+            "message": "Oh... speaking of maintaining such a harmonious rhythm, I wonder if we might also consider some small yet thoughtful habits to keep our shared spaces as inviting and pleasant as that ideal schedule. I’m not being picky, but perhaps simple daily efforts—like tidying up immediately after ourselves or being mindful of shared supplies—could make a considerable difference, don’t you think? After all, little gestures build the overall quality and comfort we all cherish in our home, wouldn’t you agree?",
+            "response": "That's right. Just by consistently following simple rules like putting things back in their original place after use, you can maintain most of the order in your space.",
+            "prediction": "I agree that simple daily efforts like tidying up immediately after ourselves or being mindful of shared supplies could make a considerable difference in maintaining the overall quality and comfort of our shared spaces.",
+            "scores": {
+                "wmd": 0.1881513512937051,
+                "sentence_similarity": 0.4078681468963623,
+                "normalized_length_similarity": 0.7625570776255708,
+                "bleu": 0.008639165425740879,
+                "ttr": 0.9428571428571428,
+                "history_similarity": 0.5752097368240356
+            }
+        },
+        {
+            "message": "Wow, such a fantastic flow of harmony and respect in our home already! Since we’re vibing so well with the energy of music filling our dream room, how do you feel about weaving in some peaceful, quiet moments by pausing the music—like gentle breaths in our artistic symphony—to help everyone focus or rest deeply when they need it? Would that balance inspire even greater creativity and calm?",
+            "response": "I agree that having quiet time is a good idea.",
+            "prediction": "I think it would be great if we could pause the music and create some quiet moments. It would help everyone focus or rest deeply when they need it, and that balance could inspire even greater creativity and calm.",
+            "scores": {
+                "wmd": 0.2989736438440663,
+                "sentence_similarity": 0.49530768394470215,
+                "normalized_length_similarity": 0.2169811320754717,
+                "bleu": 0.006211915815063893,
+                "ttr": 0.8571428571428571,
+                "history_similarity": 0.42198601365089417
+            }
+        },
+        {
+            "message": "Your idea of balancing vibrant activity with restful pauses is very insightful. Logically speaking, if we were to design a weekend plan that combines learning new skills with relaxing downtime, what specific activities would you include to maximize both mental stimulation and proper rest? How would you allocate time between these to maintain that harmony we value here?",
+            "response": "In addition to rest, incorporating some light exercise will likely have a positive effect on both your physical and mental well-being.",
+            "prediction": "If I were to design a weekend plan, I would include activities such as learning new languages, reading books, and exploring new places. For mental stimulation, I would allocate 60% of my time. For relaxing downtime, I would allocate 40%.",
+            "scores": {
+                "wmd": 0.19935064676596362,
+                "sentence_similarity": 0.3701108694076538,
+                "normalized_length_similarity": 0.5654008438818565,
+                "bleu": 0.005739995047374933,
+                "ttr": 0.7,
+                "history_similarity": 0.41876736283302307
+            }
+        },
+        {
+            "message": "Let's analyze this: Your suggestion to add light exercise complements rest well, as it supports both physical health and mental clarity, fitting our balance goal. To return to my original question, what specific activities—combining rest, light exercise, and skill learning—would you propose for a weekend plan? Also, how would you distribute time across these to ensure optimal harmony and productivity?",
+            "response": "By dedicating 50% of your time to skill acquisition, 30% to rest, and 20% to exercise, and rotating these activities in small increments (skill acquisition, exercise, rest), you can maintain your focus and concentration.",
+            "prediction": "- Combine rest with light exercise: yoga or short walks\n     - Skill learning: online course or book reading\n     - Allocate time: 30% for rest, 40% for light exercise, 30% for skill learning",
+            "scores": {
+                "wmd": 0.28589998856215976,
+                "sentence_similarity": 0.6824067831039429,
+                "normalized_length_similarity": 0.8681818181818182,
+                "bleu": 0.03310462382771287,
+                "ttr": 0.625,
+                "history_similarity": 0.20835033059120178
+            }
+        }
+    ]
+}

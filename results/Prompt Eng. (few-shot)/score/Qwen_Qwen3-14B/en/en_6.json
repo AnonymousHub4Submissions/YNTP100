@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:43",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Just imagine—if you suddenly found yourself with 100 million in your hands, what's the wildest, most awesome thing you'd want to do first? Don’t hold back—let your boldest dreams run free!\nA. Well...if I found myself with 100 million in my hands, I would travel all around the world! \n\nQ. Very interesting dream! Next, let's analyze this realistically: if you had 100 million, how would you allocate it between traveling, investing for the future, and maybe saving or spending on other things? What proportions make the most sense to you?\nA. I guess I will save about 45% and invest about 40% of it - and use the other 15% to spend on traveling - I feel like 15 million is still a lot of money to spend on traveling.\n\nQ. Wow, your vision is truly amazing! I can feel the passion behind your plan—now I’m curious, what drives this dream more for you: is it a clear goal you’re aiming to achieve, or is it the excitement and values behind experiencing the world that fuel your journey? Art, life, dreams—they all have their own heartbeat! What’s yours?\nA. Well, it's not exactly a clear goal I am trying to achieve. It actually something thats away from what I want to achieve in life talking work wise. I guess its the excitement to meet new cultures, food, and art around the world, because I myself, though not professional, am a musician. \n\nQ. Oh... speaking of maintaining a certain quality of life, I couldn’t help but notice the shared refrigerator space is rather cramped lately, especially with so many packaged foods occupying the shelves. I’m not being picky, but don’t you think it’s important for all of us—yourself included—to have enough room to store fresh ingredients properly? Perhaps we could consider how best to balance our needs for convenience and quality living... What are your thoughts on ensuring this delicate harmony?\nA. Yeah, I think we gotta reduce the amount of packaged foods so we can fit more fresh ingredients properly. But I do think using packaged food is alright sometimes because we don't always have the time to cook ourselves healthy meals and the only thing we can do is not starve ourselves. \n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we're thinking about sharing fridge space mostly for fresh foods but still wanting to keep room for packaged meals, how about we take it up a notch and plan a weekly group cooking session? We can prep fresh meals together, bond over some awesome cooking, and make sure everyone's food gets the space it deserves! What do you say, friend? Ready to cook up some fun and teamwork?",
+            "response": "Yeah, that sounds like a great idea!! I will love cooking together!",
+            "prediction": "That sounds like a great idea! I'm definitely up for it. Cooking together could be a fun way to bond and also help manage the fridge space better. Plus, it might even inspire some new recipes!",
+            "scores": {
+                "wmd": 0.24155000782294261,
+                "sentence_similarity": 0.7903062701225281,
+                "normalized_length_similarity": 0.3489583333333333,
+                "bleu": 0.12795100096585615,
+                "ttr": 0.9047619047619048,
+                "history_similarity": 0.5112741589546204
+            }
+        },
+        {
+            "message": "Oh… speaking of balancing utility and aesthetic in our living spaces, I wonder—if you had to choose, would you prefer furniture that is more multi-functional and space-saving, even if it might appear a bit simpler in design? I'm not being picky, but perhaps striking that balance is more delicate than it seems… What are your thoughts on this?",
+            "response": "Well...if we have limited space in our flat, I guess  I'd prefer furniture that is more multifunctional and space saving. That's life. However though, I think we could try to blast our creativity in other parts like decorations on the walls where we don't need to think about practicality.",
+            "prediction": "I think multi-functional and space-saving furniture is the way to go, especially in a share house where space is limited. Even if the design is simpler, functionality and practicality are more important for our daily living. Plus, we can always add some decorative touches later to make it more aesthetically pleasing!",
+            "scores": {
+                "wmd": 0.13963243878771622,
+                "sentence_similarity": 0.7706278562545776,
+                "normalized_length_similarity": 0.9088050314465409,
+                "bleu": 0.011779085869805648,
+                "ttr": 0.8421052631578947,
+                "history_similarity": 0.46758556365966797
+            }
+        },
+        {
+            "message": "Wow, your sense of balance really inspires me! Since we all thrive on different energies—some lively and some peaceful—how would you feel about setting special ‘quiet hours’ during the day where the whole house embraces calm and low noise? Could this rhythm help us all find that perfect flow between a vibrant buzz and soothing focus?",
+            "response": "I think that is a great idea, because even if we like each other and have fun spending time together, it is also important that we get some time to ourselves in privacy so that we can think deeply and focus on personal needs.",
+            "prediction": "I think that's a great idea! Having quiet hours could really help everyone in the house find their focus and relax when needed. I'd definitely support setting specific times where we keep the noise down, maybe in the early mornings and late evenings. It would create a better balance between being lively and having moments of peace.",
+            "scores": {
+                "wmd": 0.1218875749685224,
+                "sentence_similarity": 0.3059416711330414,
+                "normalized_length_similarity": 0.6756756756756757,
+                "bleu": 0.028737423147040593,
+                "ttr": 0.859375,
+                "history_similarity": 0.5351874232292175
+            }
+        },
+        {
+            "message": "Logically speaking, since we all value both comfort and functionality in our long-term home, if you could select one improvement that would make your ideal room perfect in terms of comfort, what would that be? How do you see it enhancing our shared living experience?",
+            "response": "Maybe I would get a comfortable big sofa for the five us to share in the living room so we could have some quality time together there  - perhaps watch a movie together or just drink and talk. Shared hammock was a great idea but I figured we won't be able to use it together.",
+            "prediction": "I think adding more storage space would make my room perfect in terms of comfort. Having more storage would help reduce clutter, making the space feel more organized and peaceful. It would also help with keeping shared areas like the living room and kitchen more tidy, which would enhance our overall living experience by making it easier for everyone to find what they need and maintain a clean environment.",
+            "scores": {
+                "wmd": 0.1685946772294544,
+                "sentence_similarity": 0.40716248750686646,
+                "normalized_length_similarity": 0.6740196078431373,
+                "bleu": 0.01784444937840728,
+                "ttr": 0.7567567567567568,
+                "history_similarity": 0.5445074439048767
+            }
+        }
+    ]
+}

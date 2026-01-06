@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:31:38",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "ハハ、それならリラックスの秘訣もお互い違うかもしれないね！友達、自分にとって究極のリラックス法って何だと思う？どんな風に心と体を解き放つか、その夢みたいな方法を教えてくれよ！最高のリラックスタイムをみんなで共有しようじゃないか！",
+      "response": "夜一緒に音楽を聴くとかどう？落ち着く曲調のやつ",
+      "prediction": "美味しいものを食べるのが一番落ち着くかな",
+      "scores": {
+        "wmd": 0.7162471213034334,
+        "sentence_similarity": 0.6742851734161377,
+        "normalized_length_similarity": 0.8695652173913043,
+        "history_similarity": 0.7560607194900513,
+        "bleu": 0.020007350064179908,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "ああ…みんなリラックスのスタイルは様々で興味深いですね。ところで、もし理想のインテリアを自由に選べるとしたら、どんなテーマや色合いで自分の空間を整えたいと思いますか？僕は居心地の良さと調和が大事だと思うのですが、みんなのこだわりも聞いてみたいですね。",
+      "response": "うるさくないような調和したデザインは素敵だと思うよ。統一感があって木目調やモノトーンなどの色合いだと目に刺激にならなくていいかもね",
+      "prediction": "落ち着いた空間がいいな。白やベージュでまとめて、自然素材の家具とか置きたい",
+      "scores": {
+        "wmd": 0.7852463294176429,
+        "sentence_similarity": 0.5964806079864502,
+        "normalized_length_similarity": 0.5692307692307692,
+        "history_similarity": 0.7792460322380066,
+        "bleu": 0.0074652279716716195,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ、みんなが自分の空間を大事にしていることが伝わってくるよ！ところでね、共同生活ってそんな個々のこだわりを尊重しながら、みんなが快適に過ごせる場所にするのが最高の芸術作品みたいなものさ！だから、僕にしてほしいちょっとした気遣いってある？君の心地よさのために小さな魔法みたいな配慮を教えてくれたら、僕も全力でそれを守るよ！",
+      "response": "物を置きっぱなしにしないとかかな？捨てていいかも判断しずらいしごちゃごちゃした場所になるのが嫌なんだ",
+      "prediction": "騒がしくしすぎないように気をつけてくれると嬉しいな。",
+      "scores": {
+        "wmd": 0.6371265461911632,
+        "sentence_similarity": 0.6649353504180908,
+        "normalized_length_similarity": 0.52,
+        "history_similarity": 0.7554394006729126,
+        "bleu": 0.006475676701497964,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "君のこだわりはとても明確だね。じゃあ次に聞きたいのは、どうしても譲れない部分が出てきたとき、感情面も含めて周囲と円滑に共存するためにはどんなコミュニケーションやルールが必要だと思う？合理的な解決策を一緒に考えてみよう。",
+      "response": "それぞれ譲れない部分を主張して解決できるような案を考えよう一緒に",
+      "prediction": "冷静に話し合う場を設けて、譲れない部分はルールにすればいいんじゃないかな。",
+      "scores": {
+        "wmd": 0.6854684758425569,
+        "sentence_similarity": 0.7750600576400757,
+        "normalized_length_similarity": 0.8648648648648649,
+        "history_similarity": 0.798865556716919,
+        "bleu": 0.050661968099322066,
+        "ttr": 0.9130434782608695
+      }
+    }
+  ]
+}

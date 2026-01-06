@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:26:58",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend, imagine you just found a treasure chest with 100 million inside! What’s the wildest, most exciting thing you’d want to do first? Don’t hold back—let your boldest dreams run free!\nA. I would quit my job right now and go on a trip abroad.\n\nQ. Very exciting plan! Now, let's analyze this practically: out of that 100 million, how would you realistically allocate funds between travel, daily expenses, and saving for the future?\nA. I don't need to invest, I should be able to live on 100 million without needing to increase it any further. I'll think about it if I run out of money, but for now I'll use it all to travel.\n\nQ. Wow, your dream to drop everything and explore the world is bursting with passion! I’m curious—does this adventure come from a clear, focused goal you’re chasing, or is it more about following the emotional call of freedom and the joy travel brings? What fuels your fire more: a destination or the feeling itself?\nA. There's nothing in particular I want to do. Just following my heart and the emotions that come with living fully in the moment.\n\nQ. Oh... speaking of living fully and with passion, I noticed that the shared refrigerator has become rather cramped lately, especially with all those packaged foods taking up the space. I'm not being picky, but surely we all wish to maintain a certain quality of life here, including having room for fresh ingredients and a bit of order—do you think that’s something we might consider together?\nA. For example, how about putting shared condiments in the door pocket?\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all love freedom and living in the moment, how about this? If we start a creative project together here in the ShareHouse that needs extra teamwork and effort, what would light your fire to jump in and give it your all? What kind of motivation or vibe would make you excited to be part of something big with everyone? Let’s dream big and make it awesome!",
+            "response": "Let's hold a festival",
+            "prediction": "I would be excited to be part of a creative project that allows me to express my artistic side. Perhaps we could create a mural together in the living room, or even start a community garden in the backyard. I think it would be amazing to work together with everyone to bring this vision to life. It would be a great way to bond and create something beautiful and meaningful together. Plus, it would be a great way to add some personality to our home and make it feel more like our own. I'm all in!     Answer: &quot;I would be excited to be part of a creative project that allows me to express my artistic side.&quot;     Answer: &quot;Perhaps we could create a mural together in the living room, or even start a community garden in the backyard.&quot;     Answer: &quot;I think it would be amazing to work together with everyone to bring this vision to life.&quot;     Answer: &quot;It would be a great way to bond and create something beautiful and meaningful together.&quot;     Answer: &quot;Plus, it would be a great way to add some personality to our home and make it feel more like our own.&quot;     Answer: &quot;I'm all in!",
+            "scores": {
+                "wmd": 0.4316032281119958,
+                "sentence_similarity": 0.16143721342086792,
+                "normalized_length_similarity": 0.018534863195057368,
+                "bleu": 0.0007156126392565029,
+                "ttr": 0.308,
+                "history_similarity": 0.41310033202171326
+            }
+        },
+        {
+            "message": "Oh... speaking of bringing everyone together so wonderfully, I wonder if we might also consider some gentle guidelines around our shared spaces—like the fridge and cleaning duties. I'm not being picky, but perhaps if we had a little routine or rulebook, it could make the joyful chaos of a festival and daily life flow even more smoothly, preserving harmony for all. What sort of house rules or customs do you think would help us all live and create in such a lively place with fairness and ease?",
+            "response": "If we have trash, throw it in the trash can",
+            "prediction": "I think we could make a shared calendar for household chores and create a rule that we clean up after ourselves, like putting away dishes and wiping down the counters after meals. That way, we can all contribute to the household and make it a more pleasant space for everyone.     Answer: \\nWe could make a shared calendar for household chores and create a rule that we clean up after ourselves, like putting away dishes and wiping down the counters after meals. That way, we can all contribute to the household and make it a more pleasant space for everyone.     Answer: \\nWe could make a shared calendar for household chores and create a rule that we clean up after ourselves, like putting away dishes and wiping down the counters after meals. That way, we can all contribute to the household and make it a more pleasant space for everyone.     Answer: \\nWe could make a shared calendar for household chores and create a rule that we clean up after ourselves, like putting away dishes and wiping down the counters after meals. That way, we can all contribute to the household and make it a more pleasant space for everyone.     Answer: \\nWe could make a shared calendar for household chores and create a rule that we clean up after ourselves, like putting away dishes and wiping",
+            "scores": {
+                "wmd": 0.3472568364597207,
+                "sentence_similarity": 0.14789266884326935,
+                "normalized_length_similarity": 0.03359375,
+                "bleu": 0.001096567509634699,
+                "ttr": 0.18032786885245902,
+                "history_similarity": 0.47468289732933044
+            }
+        },
+        {
+            "message": "Wow, your focus on a clean and inviting space really lights up the creative energy here! Speaking of balancing beauty and practicality, when working on something breathtaking like the planetarium, do you think it's worth bending a bit on practical details to keep that stunning aesthetic, or should we always put functionality first to make sure our creations last and serve us well? What’s your take on this dance between art and purpose?",
+            "response": "it's worth bending a bit on practical details to keep that stunning aesthetic",
+            "prediction": "I think that's a great question, and it's something I've thought about a lot when working on the planetarium. For me, it's all about finding that balance between form and function. While it's true that we want to create something that's visually stunning, we also need to make sure that it's functional and serves its purpose. If we sacrifice too much on the practical side, it can end up being a beautiful but useless piece. On the other hand, if we prioritize function over form, it can end up being dull and uninspiring. So, I think it's all about finding that sweet spot where both aspects come together in harmony. In the case of the planetarium, I think it's worth bending a bit on practical details to keep that stunning aesthetic, but only if it's done in a way that still maintains functionality. For example, if we're designing a display that's going to be used by a lot of people, we might prioritize making it easy to clean and maintain, even if it means sacrificing a bit of visual appeal. But if it's a more personal project, like a piece of art, I think it's okay to take a bit more risk and prioritize the aesthetic. Ultimately, it's all about finding that balance and",
+            "scores": {
+                "wmd": 0.1488174771572094,
+                "sentence_similarity": 0.5030684471130371,
+                "normalized_length_similarity": 0.06503378378378379,
+                "bleu": 0.049502556915030756,
+                "ttr": 0.4782608695652174,
+                "history_similarity": 0.49019691348075867
+            }
+        },
+        {
+            "message": "Building on this great energy and balance we've been discussing, let's analyze how we could structure an ideal weekend day here at the ShareHouse. From morning to night, how would you allocate time between creativity, personal freedom, and harmony with housemates to create the most productive and enjoyable day?",
+            "response": "Do any noisy work or work in shared spaces by the evening",
+            "prediction": "I would allocate my time between creativity and personal freedom. I would wake up early, make some coffee, and then spend a few hours working on a project I've been putting off. After that, I would take a break and go for a walk or do some exercise. In the afternoon, I would spend some time with my housemates, whether that's playing a game, cooking dinner together, or just hanging out. I would also make sure to have some time for myself to relax and recharge. As for harmony with housemates, I would try to be mindful of noise levels and keep my space clean. I would also make sure to communicate with my housemates about any plans or changes to the schedule. I think this would create a good balance between creativity, personal freedom, and harmony with housemates. Answer:  I would allocate my time between creativity and personal freedom. I would wake up early, make some coffee, and then spend a few hours working on a project I've been putting off. After that, I would take a break and go for a walk or do some exercise. In the afternoon, I would spend some time with my housemates, whether that's playing a game, cooking dinner together, or just hanging out. I would also make sure",
+            "scores": {
+                "wmd": 0.2960763642942761,
+                "sentence_similarity": 0.4225040078163147,
+                "normalized_length_similarity": 0.047818791946308725,
+                "bleu": 0.0009417991978658295,
+                "ttr": 0.344,
+                "history_similarity": 0.4502100348472595
+            }
+        },
+        {
+            "message": "Let's analyze this: prioritizing quieter activities in the evening logically supports everyone's rest and focus. To optimize the day, I suggest allocating mornings for focused, potentially noisy or collaborative tasks when energy and alertness peak. Afternoons could balance creative solo work and social interactions, allowing flexibility. Evening times should be reserved for quieter, less disruptive activities to maintain harmony. This structure maximizes productivity while respecting shared living dynamics. What specific creative or technical tasks do you see fitting best into each period? Let's map that out for an efficient, respectful routine.",
+            "response": "morning:Meetings",
+            "prediction": "I think mornings should be for focused, potentially noisy or collaborative tasks like cooking, cleaning,",
+            "scores": {
+                "wmd": 0.46990228510616383,
+                "sentence_similarity": 0.587141752243042,
+                "normalized_length_similarity": 0.15384615384615385,
+                "bleu": 0.0,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.26591408252716064
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:15",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈朋友，说到你之前提到制定详尽的计划和数字，太棒了！是什么让你这么坚持这些理性安排呢？是为了安全感、目标感，还是有别的特别理由？快告诉我你的秘密！",
+            "response": "有目标感会比较安心，我不喜欢突发情况",
+            "prediction": "Ahaha, thank you! I'm glad you liked my plan. To be honest, I'm a bit of a perfectionist and I like to plan things out thoroughly because it makes me feel more secure and in control. Plus, having a clear plan helps me stay focused and motivated. It's not just about safety and target, but also about enjoying the process and feeling a sense of accomplishment.",
+            "scores": {
+                "wmd": 1.2847591682662456,
+                "sentence_similarity": 0.11978055536746979,
+                "normalized_length_similarity": 0.05013927576601671,
+                "bleu": 0.0,
+                "ttr": 0.3972602739726027,
+                "history_similarity": -0.010863239876925945
+            }
+        },
+        {
+            "message": "说到稳妥和秩序，我正想问……如果我们设计共享冰箱，你觉得是给每个人固定分区比较合理，还是按物品类别来划分更合适呢？我不是挑剔，但空间有限，大家都希望存放物品时既方便又不混乱。你觉得哪种安排更能让生活品质得到保障呢？",
+            "response": "每个人固定分区，这样比较公平",
+            "prediction": "Hello everyone! I'm excited to join this share house. I noticed that we haven't discussed the shared fridge yet. I think it's essential to discuss this topic. If we design the shared fridge, I think it's better to divide it into sections based on categories rather than assigning fixed zones to each person. This approach can help ensure that everyone can easily find what they need and avoid clutter. For example, we can designate a zone for dairy products, another for meats, and so on. This way, everyone can put away their belongings in an organized manner. What do you guys think?",
+            "scores": {
+                "wmd": 1.2819809634232107,
+                "sentence_similarity": 0.05761432275176048,
+                "normalized_length_similarity": 0.023931623931623933,
+                "bleu": 0.0,
+                "ttr": 0.37777777777777777,
+                "history_similarity": 0.011081204749643803
+            }
+        },
+        {
+            "message": "哇，说到生活细节，咱们装修“梦想房间”时，面对实用和美观的矛盾，你会怎么拿捏呢？更偏向功能优化，把实用放在第一位，还是愿意为了艺术感适度妥协一点？艺术就是要找到那个完美平衡点，你怎么看？",
+            "response": "实用第一位",
+            "prediction": "私は、装修“梦想房间”する際、実用と美観の矛盾に直面した場合、機能優先で実用を第一に考える傾向にあります。というのも、日常生活で使い勝手の良さや効率を重視することで、ストレスを減らし、快適に過ごしたいと考えるからです。ただし、完全に実用のみに偏るのではなく、適度に美観も考慮します。なぜなら、美しい空間で生活することで、心が豊かになり、インスピレーションも生まれると信じているからです。私としては、実用と美観のバランスを取ることが大切で、完璧な平衡点を探し続けたいと考えています。",
+            "scores": {
+                "wmd": 1.214072992434249,
+                "sentence_similarity": 0.009840227663516998,
+                "normalized_length_similarity": 0.020833333333333332,
+                "bleu": 0.0,
+                "ttr": 0.4232558139534884,
+                "history_similarity": 0.5163001418113708
+            }
+        },
+        {
+            "message": "从生活细节来说，噪音和清洁这些因素确实会影响心情。我们能不能用一个具体的公约来规范，比如安静时间段或者轮流清洁安排？你觉得这样的规则怎么制定才更合理，既尊重彼此习惯又能保证效率？",
+            "response": "可以制定公约。公约的制定需要在了解大家自身作息的基础上协商确定",
+            "prediction": "- 安静時間の設定: 我は、安静時間を設定することを提案します。例えば、夜の10時から翌朝の7時までは、静かに過ごす時間とします。こうすることで、各自の自由時間を確保しつつ、夜中の騒音を最小限に抑えることができます。\n     - 清洁の分担: 清洁の分担については、各自のスケジュールに合わせて、ローテーションで清潔の時間を設定することを提案します。例えば、月曜日はAさんが清潔、火曜日はBさんが清潔、というように。こうすることで、各自の負担を平等に分配し、清潔を保つことができます。\n     - 公約の実践: 安静時間や清洁の分担を公約として実践するためには、各自の協力が必要です。例えば、安静時間が設定されているにも関わらず、夜中の騒音が続く場合、他住民に配慮することが大切です。また、清洁の分担",
+            "scores": {
+                "wmd": 1.1111936878595035,
+                "sentence_similarity": 0.16729313135147095,
+                "normalized_length_similarity": 0.08806818181818182,
+                "bleu": 0.0006017909097722214,
+                "ttr": 0.3265993265993266,
+                "history_similarity": 0.37376752495765686
+            }
+        }
+    ]
+}

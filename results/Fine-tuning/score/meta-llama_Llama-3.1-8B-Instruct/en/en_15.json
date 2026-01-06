@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:27",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, while we’re getting all organized and harmonious here, I gotta ask—if you were planning an epic photography trip next year to capture the most stunning nature scenes, what wild landscapes or cool creatures would you chase after to really feel that magical connection? Let’s dream big and adventurous!",
+            "response": "I want to see vast nature where water and greenery coexist, like a valley. I'd also love to see animals living freely on a savanna.",
+            "prediction": "In that case, I'd choose to go to the moon!",
+            "scores": {
+                "wmd": 0.5119545145373543,
+                "sentence_similarity": 0.3072206377983093,
+                "normalized_length_similarity": 0.3282442748091603,
+                "bleu": 0.012066932816832156,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.2807529866695404
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping things harmonious here, I was wondering... since you seem so enthusiastic about adventures and fun, how would you feel about taking on the responsibility of organizing and maintaining the gaming setup? I'm not being picky, but balancing enjoyment with a certain orderliness in our shared space might help everyone stay comfortable. Of course, I trust someone mindful like you would manage this well... What do you think?",
+            "response": "I'd be happy to take on that responsibility to make sure everyone can enjoy the gaming setup comfortably. I'll probably need to ask for your input on your preferences, so I appreciate your help when the time comes.",
+            "prediction": "It's okey. On week days, I won't make too much noises after 10 PM. On weekends, I'll make sure to limit the volume on quiet hours.",
+            "scores": {
+                "wmd": 0.2473134654615335,
+                "sentence_similarity": 0.2656669020652771,
+                "normalized_length_similarity": 0.6074766355140186,
+                "bleu": 0.016181517002733403,
+                "ttr": 0.8235294117647058,
+                "history_similarity": 0.3479710519313812
+            }
+        },
+        {
+            "message": "Wow, Raffaello, your vision of harmony and beauty in our shared space truly speaks to me! Since creativity often bursts out loud and wild, but we also need quiet focus to shape our best work, how do you think we could gently balance those energies? Could we create special zones or times that honor both the wild sparks of inspiration and the calm flow of concentration, keeping our space vibrant yet peaceful? What’s your take on blending noise and stillness like a perfect sculpture of life?",
+            "response": "How about we use a retractable screen? Then, we could roll it out only when we want to be active and have some fun, and then put it away when we need to focus. I think this would let us use the same space in two different ways without changing the size of the room.",
+            "prediction": "When it comes to balancing energy, I'd suggest designating certain areas for more active gatherings and others for quiet focus. Also, setting a schedule with specific time slots for lively gatherings and quiet hours might help. What do you think, does this sound like it would work?",
+            "scores": {
+                "wmd": 0.177982453937892,
+                "sentence_similarity": 0.4064447283744812,
+                "normalized_length_similarity": 0.9397163120567376,
+                "bleu": 0.010947034848845827,
+                "ttr": 0.8333333333333334,
+                "history_similarity": 0.5254222750663757
+            }
+        },
+        {
+            "message": "Since we’ve agreed on a flexible and fair way to share the gaming setup, would you both be open to applying a similar approach to other shared resources or responsibilities? From a practical standpoint, what system could we put in place to ensure smooth coordination and mutual respect across all shared areas?",
+            "response": "I'm not sure if this is the same approach, but what if we tried a weekly chore schedule? By taking turns with the responsibilities, we could all understand the effort it takes to keep our shared space clean and have a better living situation.",
+            "prediction": "It makes sense to establish clear boundaries and guidelines for these shared spaces. We could make a schedule for usage to avoid conflicts, and also designate specific areas for particular activities to keep things organized.",
+            "scores": {
+                "wmd": 0.15071285121247835,
+                "sentence_similarity": 0.5582520961761475,
+                "normalized_length_similarity": 0.9297520661157025,
+                "bleu": 0.011239703043842877,
+                "ttr": 0.8421052631578947,
+                "history_similarity": 0.6474061012268066
+            }
+        }
+    ]
+}

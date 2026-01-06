@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:26:26",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend, since we’re all about making awesome memories together here, I gotta ask—when you spend special moments with your family or partner, how do you usually turn that time into unforgettable fun? Share your cool tricks or favorite ways to create those warm, joyful memories!",
+      "response": "let's see...\nI think i alway appreciate when i meet someone even my family. cause every moment never come back...especially my friends, family, boyfriend i cherish have own lifetime, but they give their time to spend with me. so i always feel happy when i meet important n precious people.",
+      "prediction": "For me, I love to explore new places together like going on short trips or finding a new park to walk in. We also like to cook special meals at home and just talk. Taking photos of these moments helps us remember them clearly.",
+      "scores": {
+        "wmd": 0.21688690975840122,
+        "sentence_similarity": 0.4007022976875305,
+        "normalized_length_similarity": 0.7820069204152249,
+        "history_similarity": 0.27314236760139465,
+        "bleu": 0.0048458897517823325,
+        "ttr": 0.875
+      }
+    },
+    {
+      "message": "Oh... your sentiments about cherishing moments with loved ones truly resonate. That said, I find myself pondering—balancing the joy of investing in memorable experiences with family against the prudence needed to secure one’s financial future is quite the delicate art. I’m not being picky, but how do you personally navigate allocating your resources between creating those precious memories and ensuring long-term stability? Perhaps my expectations are too high, but finding that equilibrium seems essential, don’t you think?",
+      "response": "that's right.\nnow i'm in trouble about that case.\nI have to work a lot to get my good life, at the same time, it's also important to spend my precious.\nso now I'm trying to do half and half. I mean, when i focus on work or something to do, I never contact n meet someone. but in advance, i told them.\nthen after i finished, I'm gonna meet sometimes.",
+      "prediction": "Yes, I think finding that equilibrium is essential. First, I secure my financial future by saving money, like I said with the 50% for savings. After that, I use the rest of my money for creating those precious memories with my family n lover. This makes me feel more stable to enjoy those times.",
+      "scores": {
+        "wmd": 0.1933164791120832,
+        "sentence_similarity": 0.2847821116447449,
+        "normalized_length_similarity": 0.8452722063037249,
+        "history_similarity": 0.47761085629463196,
+        "bleu": 0.00842530167723383,
+        "ttr": 0.7301587301587301
+      }
+    },
+    {
+      "message": "Wow, your balance between deep focus and sharing precious moments is truly inspiring! In a shared creative space like ours, where some thrive on lively energy and others need peaceful calm, how do you think we could arrange group activities so everyone’s rhythm and vibe are honored? Art thrives on harmony, after all!",
+      "response": "i think you should ask both opinions.",
+      "prediction": "That's truly important to keep harmony in our shared space.\ni think we should make a schedule. For example, some time we can spend for creative activities for everyone, and other time we can have quietly time for people who need calm.\nAnd i also think about zones. maybe we can make a lively zone and quiet zone to respect everyone's vibe.",
+      "scores": {
+        "wmd": 0.39557167120161507,
+        "sentence_similarity": 0.13718152046203613,
+        "normalized_length_similarity": 0.10914454277286136,
+        "history_similarity": 0.512667715549469,
+        "bleu": 0.0064355608314765845,
+        "ttr": 0.676056338028169
+      }
+    },
+    {
+      "message": "Very well. Since you suggested organizing the fridge with individual containers for each person to maintain order, would you be willing to take the lead in coordinating a brief group meeting? We could set clear, fair rules for shared spaces that reflect everyone's needs and promote efficiency. What do you think would be the most effective way to facilitate this?",
+      "response": "First, you tell the gratitude for gathering.\nthen, you should tell your feeling n thought. like recently there are lots of things inside refrigerator. and you suggest that why don't we use containers.\nthen, you should ask what they think one by one. then start discuss",
+      "prediction": "Yeah, I can do that. I think we can hold a quick meeting after dinner one day. I'll make a list of points we need to discuss for the fridge and other shared areas. Then, we can decide together.",
+      "scores": {
+        "wmd": 0.21575630535747625,
+        "sentence_similarity": 0.4848034977912903,
+        "normalized_length_similarity": 0.7201492537313433,
+        "history_similarity": 0.4131040871143341,
+        "bleu": 0.006574102434720739,
+        "ttr": 0.7608695652173914
+      }
+    }
+  ]
+}

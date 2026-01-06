@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:37",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，说到记录生活，我一直喜欢用相机捕捉不同文化的精彩瞬间！假如让你策划一场旅行摄影展，你会选什么主题呢？来大胆说说，为什么这个主题最能打动你的心？太棒了，分享你的创意吧！",
+            "response": "旅行摄影展？我想我会选择“街道”作为主题吧，我想去拍世界各地不同城市的街道",
+            "prediction": "艺术与生活",
+            "scores": {
+                "wmd": 1.2594069948355904,
+                "sentence_similarity": 0.34236589074134827,
+                "normalized_length_similarity": 0.13513513513513514,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.5532426238059998
+            }
+        },
+        {
+            "message": "哦……既然我们都这么热爱美好事物，我想问问大家，你们有没有想过通过一些具体的措施来改善我们共享的居住环境呢？比如说，冰箱分区的安排，或者公共区域的清洁维护。我不是挑剔，但是这些细节真的影响大家的生活品质，不觉得吗？你们觉得有哪些可行的办法呢？",
+            "response": "呃当然有，我们不如开个会，确定一下规定大家一起来遵守，彻底规定好冰箱分区和公共区域的清洁顺序",
+            "prediction": "琴房或许不需要在公共空间里",
+            "scores": {
+                "wmd": 1.096039287921073,
+                "sentence_similarity": 0.7577799558639526,
+                "normalized_length_similarity": 0.2826086956521739,
+                "bleu": 0.0022800085458457306,
+                "ttr": 1.0,
+                "history_similarity": 0.5986377596855164
+            }
+        },
+        {
+            "message": "哇，说到空间设计，这可真是把实用和艺术美学放在天秤上的大挑战！你觉得在我们这个房子里，到底是要狠抓实用性，还是让艺术感爆棚才是王道？有没有什么设计元素是你觉得非有不可的，能让这里既方便又美得让人灵魂飞扬？",
+            "response": "我还是觉得实用性最重要，设计元素的话我希望家具是智能的啊，同时给我一种科技风，虽然不知道能不能实现，但是这种高实用性确实会让我感觉很舒适",
+            "prediction": "实用更重要，但艺术也不可或缺",
+            "scores": {
+                "wmd": 0.8938639470592142,
+                "sentence_similarity": 0.5002244710922241,
+                "normalized_length_similarity": 0.20588235294117646,
+                "bleu": 0.0007394210672889012,
+                "ttr": 1.0,
+                "history_similarity": 0.7101925611495972
+            }
+        },
+        {
+            "message": "既然我们讲到了实用与美感的平衡，那关于噪音控制和创作空间的时间安排，你们觉得怎样划分比较合理？是按时间段轮流使用还是分区固定用途更合适？让我们分析一下，怎样的方案既能保障大家的创作自由，又不会影响彼此的休息。",
+            "response": "我觉得应该去商量一下大家的生活状态和每天的活跃时间吧，比如有些人是夜猫子的话，那我们完全可以按时间段来啊。如果大家都差不多一个作息那我觉得分区来也是可以的",
+            "prediction": "不需要时间段上的分配",
+            "scores": {
+                "wmd": 1.077425279063388,
+                "sentence_similarity": 0.5521047711372375,
+                "normalized_length_similarity": 0.12987012987012986,
+                "bleu": 5.230014754331851e-05,
+                "ttr": 1.0,
+                "history_similarity": 0.6225257515907288
+            }
+        }
+    ]
+}

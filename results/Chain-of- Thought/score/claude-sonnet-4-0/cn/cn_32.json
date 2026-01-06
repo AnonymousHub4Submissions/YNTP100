@@ -1,0 +1,68 @@
+{
+    "metadata": {
+        "model": "claude-sonnet-4-0",
+        "method": "Prompt_Engineering_CoT",
+        "date": "2025-12-23 08:58:25",
+        "cot_policy": "latent_style_decomposition",
+        "style": {
+            "tone": "casual",
+            "length": "short",
+            "emotion": "low",
+            "distance": "neutral"
+        }
+    },
+    "scores": [
+        {
+            "message": "哈哈朋友，说到你之前提到制定详尽的计划和数字，太棒了！是什么让你这么坚持这些理性安排呢？是为了安全感、目标感，还是有别的特别理由？快告诉我你的秘密！",
+            "response": "有目标感会比较安心，我不喜欢突发情况",
+            "prediction": "主要是为了安全感吧，有明确的计划让我感觉更踏实",
+            "scores": {
+                "wmd": 0.8045818468125341,
+                "sentence_similarity": 0.7167575359344482,
+                "normalized_length_similarity": 0.782608695652174,
+                "bleu": 0.017395797375642234,
+                "ttr": 1.0,
+                "history_similarity": 0.7907696962356567
+            }
+        },
+        {
+            "message": "说到稳妥和秩序，我正想问……如果我们设计共享冰箱，你觉得是给每个人固定分区比较合理，还是按物品类别来划分更合适呢？我不是挑剔，但空间有限，大家都希望存放物品时既方便又不混乱。你觉得哪种安排更能让生活品质得到保障呢？",
+            "response": "每个人固定分区，这样比较公平",
+            "prediction": "固定分区比较合理，这样可以避免混乱和纠纷",
+            "scores": {
+                "wmd": 0.7254901854911485,
+                "sentence_similarity": 0.7802765369415283,
+                "normalized_length_similarity": 0.7,
+                "bleu": 0.059609942732681,
+                "ttr": 1.0,
+                "history_similarity": 0.5700744986534119
+            }
+        },
+        {
+            "message": "哇，说到生活细节，咱们装修“梦想房间”时，面对实用和美观的矛盾，你会怎么拿捏呢？更偏向功能优化，把实用放在第一位，还是愿意为了艺术感适度妥协一点？艺术就是要找到那个完美平衡点，你怎么看？",
+            "response": "实用第一位",
+            "prediction": "实用优先，但如果艺术感不影响功能的话可以考虑",
+            "scores": {
+                "wmd": 1.1907628744374716,
+                "sentence_similarity": 0.5132840871810913,
+                "normalized_length_similarity": 0.22727272727272727,
+                "bleu": 0.017033186037639283,
+                "ttr": 1.0,
+                "history_similarity": 0.8360901474952698
+            }
+        },
+        {
+            "message": "从生活细节来说，噪音和清洁这些因素确实会影响心情。我们能不能用一个具体的公约来规范，比如安静时间段或者轮流清洁安排？你觉得这样的规则怎么制定才更合理，既尊重彼此习惯又能保证效率？",
+            "response": "可以制定公约。公约的制定需要在了解大家自身作息的基础上协商确定",
+            "prediction": "可以制定公约。安静时间可以设在晚上10点到早上8点，清洁可以按周轮流分配具体区域",
+            "scores": {
+                "wmd": 0.874250369163626,
+                "sentence_similarity": 0.7232203483581543,
+                "normalized_length_similarity": 0.775,
+                "bleu": 0.1081300533795917,
+                "ttr": 0.9090909090909091,
+                "history_similarity": 0.7110453248023987
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:28:40",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友，你说得太棒了！既然我们想把生活变得既实用又有条理，那如果我们在“梦想房间”里设计一些多功能储物模块，让大家收纳更方便，你觉得这样的设计能满足你的需求吗？大胆说说你的想法吧！",
+      "response": "那很好，我喜欢收纳多的房间。",
+      "prediction": "嗯，这个想法很棒。多功能储物模块能很好地解决收纳问题，我挺需要的。",
+      "scores": {
+        "wmd": 0.7335773766591792,
+        "sentence_similarity": 0.773199200630188,
+        "normalized_length_similarity": 0.42424242424242425,
+        "history_similarity": 0.8590531349182129,
+        "bleu": 0.026801651563557783,
+        "ttr": 0.9
+      }
+    },
+    {
+      "message": "嗯……考虑到大家作息和时间都不太一致，我想提个建议：如果我们设立一个预约表来管理公共创作区的使用时间，是不是能避免使用冲突和噪音干扰呢？我不是挑剔，但毕竟每个人都需要一个相对安静的环境来发挥创意，这样的安排，你觉得合理吗？",
+      "response": "这个预约表的事情我昨天就提过了？",
+      "prediction": "对啊，我上次也说了，我觉得挺合理的。",
+      "scores": {
+        "wmd": 0.8995309760321419,
+        "sentence_similarity": 0.6531646847724915,
+        "normalized_length_similarity": 0.8888888888888888,
+        "history_similarity": 0.8457826375961304,
+        "bleu": 0.017395797375642234,
+        "ttr": 0.8666666666666667
+      }
+    },
+    {
+      "message": "哇，你们对空间秩序这么上心太棒了！既然我们都偏向折中方案来保持整洁和舒适，你觉得哪些日常的小习惯最能帮助大家轻松维护共享空间的和谐呢？艺术就是细节的舞蹈，我们一起打造完美的共处环境，怎么样？",
+      "response": "比如……随手丢垃圾？",
+      "prediction": "用完东西随手收拾好，不要把私人物品堆在公共区域吧。这样大家都能轻松一点。",
+      "scores": {
+        "wmd": 1.1496543081978967,
+        "sentence_similarity": 0.5594843626022339,
+        "normalized_length_similarity": 0.2777777777777778,
+        "history_similarity": 0.7409709692001343,
+        "bleu": 0.008282282660969604,
+        "ttr": 0.9565217391304348
+      }
+    },
+    {
+      "message": "从逻辑上讲，要让‘梦想房间’既实用又美观，我们应该先明确哪些功能元素是不可或缺的。你觉得在设计中，哪些实用功能必须优先保障？同时，哪些装饰细节能够显著提升你的使用体验？换句话说，功能和美感你会怎么权衡？",
+      "response": "当然是合理的储物空间分配了。装饰的话可以放在最后，这个不急。",
+      "prediction": "功能肯定要优先，最重要的就是收纳。美观方面，我觉得能让空间看起来舒适、有特色就行，可以慢慢添置装饰品。功能和美感我会先保障功能。",
+      "scores": {
+        "wmd": 0.9186216270235265,
+        "sentence_similarity": 0.7130966186523438,
+        "normalized_length_similarity": 0.46875,
+        "history_similarity": 0.789486289024353,
+        "bleu": 0.007425055521504611,
+        "ttr": 0.8461538461538461
+      }
+    }
+  ]
+}

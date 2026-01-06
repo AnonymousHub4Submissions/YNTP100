@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:28",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all care so much about fairness and keeping our creative vibes flowing smoothly, how about we start a weekly house meeting? We can chat, tweak our shared space rules, and make sure everyone’s voice is heard to keep our ShareHouse awesome and harmonious! What do you think? Would you join the fun?",
+            "response": "This is certainly a good idea, but some people might think it's a waste of time. So while it might work well initially, some people might become less willing to work it out. And since everyone has different perspectives, it's hard to always reach consensus.",
+            "prediction": "The weekly house meeting sounds like a great way to stay connected and ensure everyone feels comfortable in our shared space. I’m happy to help organize it and even take turns checking the schedule, so we all stay informed. With a clear, consistent routine, we can enjoy a harmonious home that truly feels like a friendly, inspiring place!",
+            "scores": {
+                "wmd": 0.17053693696791591,
+                "sentence_similarity": 0.29951706528663635,
+                "normalized_length_similarity": 0.7581120943952803,
+                "bleu": 0.00494504393005872,
+                "ttr": 0.8059701492537313,
+                "history_similarity": 0.3393460512161255
+            }
+        },
+        {
+            "message": "Oh... considering the suggestion to perhaps invest in a new refrigerator to accommodate our needs better, I find myself wondering—I'm not being picky, but wouldn't it be more prudent to first improve our organizational systems for shared spaces? After all, new purchases require both space and upkeep. Might it be wiser to prioritize refinement of our current arrangements before adding more items? I suppose balancing investment and functionality is crucial, wouldn’t you agree?",
+            "response": "No, after buying a new refrigerator, you definitely have to sell the old one. Otherwise, it'll take up the already limited space. That's for sure, right? No one wants to have two refrigerators and cause trouble, right? I'm curious why you brought this up all of a sudden.",
+            "prediction": "I agree with your perspective, balancing investment with practicality is vital. Focusing on organizing shared spaces efficiently would enhance everyone’s quality of life. A well-designed, functional environment should support both beauty and practicality. By prioritizing organization and clear design, we can create a home that feels truly lively and welcoming—though also respectful and sustainable.",
+            "scores": {
+                "wmd": 0.18424950515373215,
+                "sentence_similarity": 0.12455452233552933,
+                "normalized_length_similarity": 0.6758104738154613,
+                "bleu": 0.00514276487376302,
+                "ttr": 0.8412698412698413,
+                "history_similarity": 0.5632431507110596
+            }
+        },
+        {
+            "message": "Wow, chatting about making our shared space even better has me thinking—since so many of us love gathering over games like mahjong and poker, what if we started a casual weekly game night? It could be a fantastic way to bring everyone together, spark fresh energy, and build a stronger community vibe here! What do you think—would you be excited to lead such a fun tradition and help turn our house into a hub of laughter and connection?",
+            "response": "Of course, if we still have to work all the time when we get together, everyone's mood will be very depressed. When we get together, we must play some games together. Having a relaxing time can help us better devote ourselves to work and creation in the rest of the time.",
+            "prediction": "The idea of creating a lively, homey atmosphere through regular game nights truly resonates with me. Filled activities and friendly competition can break down barriers and boost everyone’s well-being. I’d be happy to help organize and even lead some events, from board games and book clubs to art sessions or movie nights. With a shared, lively space, we could feel truly connected and supported—exactly the heart of our home!",
+            "scores": {
+                "wmd": 0.16496413905925023,
+                "sentence_similarity": 0.3950890898704529,
+                "normalized_length_similarity": 0.636150234741784,
+                "bleu": 0.008305470218208074,
+                "ttr": 0.8024691358024691,
+                "history_similarity": 0.4589298963546753
+            }
+        },
+        {
+            "message": "Your enthusiasm for balancing work and play is commendable. Logically speaking, how do you propose we organize our schedule to ensure lively group activities don’t encroach on the quiet time necessary for focused work and relaxation? What specific time allocations or rules might help maintain this balance effectively?",
+            "response": "Because it is a group activity, we must discuss each activity together and find the right time and game to arrange the activity. Therefore, it is best to choose a time when everyone is free, such as weekends.",
+            "prediction": "I value both creativity and efficiency, so I’d suggest dividing the day into structured, movable blocks for activity and quiet time. For example, morning could be active (with noise tolerance), afternoon quiet focus, and early evening relaxed check-ins. A clear schedule and gentle check-ins let everyone feel at ease while staying productive. This way, everyone can enjoy and work freely, knowing the environment supports both vigor and tranquility.",
+            "scores": {
+                "wmd": 0.1840909818345091,
+                "sentence_similarity": 0.49306344985961914,
+                "normalized_length_similarity": 0.4622222222222222,
+                "bleu": 0.004061426272555926,
+                "ttr": 0.7590361445783133,
+                "history_similarity": 0.5562986731529236
+            }
+        }
+    ]
+}

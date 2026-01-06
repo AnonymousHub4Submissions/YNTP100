@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:45",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！假如你突然中了个亿，别管现实啦，告诉我你第一个疯狂要实现的梦想是什么？大胆说出来，咱们一起嗨翻天！\nA. 我想买一个市区的房子，再买一个郊区的房子，过半隐居的生活。\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何分配？比如买房占多少比例，剩下的钱你打算怎么投资、消费或储蓄？\nA. 买房可能占去一半左右的比例，剩下的我会做保守投资，用利息生活\n\nQ. 哇，听你这么规划，真是有条不紊！不过告诉我，你实现这个梦想的动力到底是什么？是明确的目标驱动你一步步前进，还是那些内心深处的情感和价值观在支持你呢？艺术就是挖掘灵魂啊！\nA. 是明确的目标。\n\nQ. 哦，说到生活品质，我发现冰箱里那些包装食品似乎占了不少空间……我不是挑剔，但如果我们都能留点余地给新鲜食材，或许对大家的生活都会更好一些呢。大家不觉得维护共享空间的整洁和实用很重要吗？\nA. 我也觉得这很重要\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！既然大家都同意要明确时间表，那我们来想想怎么把厨房使用和安静时段安排得又合理又快乐吧！你觉得每周定一个固定轮流做饭时间，还是按需求灵活安排更好？还有，晚上几点开始安静时段，才不会打扰到大家的创作和休息呢？大胆说说你的想法吧，太棒了！",
+            "response": "我觉得可以定一个时间段，大家可以自由使用厨房，但是超过这个时间段就不要使用了",
+            "prediction": "我觉得按需求灵活安排更好，这样可以根据大家的时间和状态来调整。至于安静时段，晚上11点开始比较合适，这样大家都能有充足的休息和创作时间。",
+            "scores": {
+                "wmd": 0.9025147913983964,
+                "sentence_similarity": 0.7183994054794312,
+                "normalized_length_similarity": 0.5588235294117647,
+                "bleu": 0.01222498616281612,
+                "ttr": 0.8095238095238095,
+                "history_similarity": 0.7795655727386475
+            }
+        },
+        {
+            "message": "说到共享空间的规则，我不是挑剔，但我总觉得公平和责任心很关键呢。比如说，大家用完厨房后是否都能及时清理，或者公共区域的物品摆放有没有统一标准。或许我们可以设定一些具体的“使用后必清理”之类的规则，既保护环境，又减少摩擦。你们觉得，这样的细节是不是也应该写进我们的规章里呢？毕竟，维持一个高品质的ShareHouse，光靠时间表恐怕还不够吧。",
+            "response": "对的，应该再制定一个表，确定每个人的清扫范围",
+            "prediction": "我觉得应该写进规章里，这样大家都能有明确的遵循标准，减少不必要的矛盾。",
+            "scores": {
+                "wmd": 1.0079438643317067,
+                "sentence_similarity": 0.6220476627349854,
+                "normalized_length_similarity": 0.6285714285714286,
+                "bleu": 0.012384901282810543,
+                "ttr": 0.9130434782608695,
+                "history_similarity": 0.8351520299911499
+            }
+        },
+        {
+            "message": "哇，这个共享厨房的热闹场面简直就是一场艺术盛宴！说到做菜和聊天，有时候我会被大家的故事和笑声包围，太有感染力了！不过，保持厨房整洁又实用，是不是也像雕塑打磨一样重要呢？在这样温馨的共同烹饪时刻，你更倾向于享受这份社交的火花，还是坚持让厨房井井有条，做到完美无瑕呢？艺术与秩序，你是哪一派？",
+            "response": "我更倾向于秩序",
+            "prediction": "我更倾向于享受这份社交的火花，毕竟艺术也需要灵感和互动，不过我也认同秩序的重要性，所以会尽量在热闹和整洁之间找到平衡。",
+            "scores": {
+                "wmd": 1.00961189270414,
+                "sentence_similarity": 0.5541515350341797,
+                "normalized_length_similarity": 0.11864406779661017,
+                "bleu": 0.06595800588816438,
+                "ttr": 0.8378378378378378,
+                "history_similarity": 0.7169380784034729
+            }
+        },
+        {
+            "message": "从实用角度讲，秩序确实是关键。但生活中难免有些设计上的小妥协会带来更好的舒适感和合作氛围。你觉得在保持基本秩序的前提下，偶尔为了提升大家的居住体验，接受一些小的设计妥协合理吗？哪些方面你认为可以灵活调整，哪些又必须严格执行？",
+            "response": "比如清扫时间表可以灵活调整，但是厨房使用时间必须按照规定来。",
+            "prediction": "合理，比如在公共区域的清洁安排上可以灵活调整，但像垃圾分类和轮流打扫这样的基本秩序必须严格执行。",
+            "scores": {
+                "wmd": 0.7916198572831631,
+                "sentence_similarity": 0.6363945007324219,
+                "normalized_length_similarity": 0.625,
+                "bleu": 0.09615094003919297,
+                "ttr": 0.9285714285714286,
+                "history_similarity": 0.6856287717819214
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:48:58",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友们，既然我们准备启动梦想房间的布置计划啦，你们更希望它是个大家聚在一起放松娱乐的社交天地，还是一个能静静创作、独处的避风港呢？大胆说出你的心声，让我们一起打造最棒的梦想空间！",
+      "response": "这两者可以兼得啊，只需要把大家聚在一起放松娱乐的区域做好隔音措施，那么每个人自己房间就可以变成静静创作，独处的避风港了呢。你们觉得呢",
+      "prediction": "我个人会比较倾向于一个大家能聚在一起放松娱乐的社交天地，毕竟之前也提过想一起打游戏看电视。不过我比较佛系，大家商量好决定就好，我都可以的。",
+      "scores": {
+        "wmd": 0.7439176477119296,
+        "sentence_similarity": 0.6246707439422607,
+        "normalized_length_similarity": 0.9565217391304348,
+        "history_similarity": 0.7441843152046204,
+        "bleu": 0.07195213544257117,
+        "ttr": 0.7857142857142857
+      }
+    },
+    {
+      "message": "哦……关于工作和生活的平衡，我不是挑剔，但既然大家都在追求稳定的收入来支撑生活，或许我们应该更细致地考虑如何合理安排时间？毕竟，在忙碌的工作、挑战性的任务和休闲放松之间找到一个真正让人满意的分配，并不是件容易的事。你们有没有什么具体的想法，觉得怎样的时间分配才算既高效又不失生活品质呢？",
+      "response": "我没有什么具体的想法。我更倾向于在想做自己的事情的时候就马上行动",
+      "prediction": "工作和生活的平衡确实很重要。我本身比较佛系，只要能有稳定的收入，我就会留出足够的时间去放松和做自己喜欢的事。具体的安排，我觉得大家可以一起商量，我都能接受。",
+      "scores": {
+        "wmd": 0.8447509724011669,
+        "sentence_similarity": 0.7564932107925415,
+        "normalized_length_similarity": 0.41025641025641024,
+        "history_similarity": 0.8442477583885193,
+        "bleu": 0.014373928004880665,
+        "ttr": 0.7358490566037735
+      }
+    },
+    {
+      "message": "哇，大家的想法都太有深度了！说到我们共用的空间，比如冰箱和公共区域，我们是不是也该来点艺术家的规矩？你们觉得，哪些使用守则最关键，能让我们既尊重彼此的生活品质，又保持这个家充满创造力和和谐的氛围呢？太棒了，快说说你的想法！",
+      "response": "所有的剩菜应该套上保鲜膜，防止串味，过期的食品应该主动丢弃，这样应该能更好的利用冰箱",
+      "prediction": "嗯，我觉得谁制造的垃圾谁收拾是比较重要的。至于其他的，我比较佛系，没有特别的需求。大家商量好了，我都会遵守的。",
+      "scores": {
+        "wmd": 0.909349350787184,
+        "sentence_similarity": 0.4101353883743286,
+        "normalized_length_similarity": 0.7636363636363637,
+        "history_similarity": 0.8716502785682678,
+        "bleu": 0.007425055521504611,
+        "ttr": 0.6666666666666666
+      }
+    },
+    {
+      "message": "既然我们提到了规矩，生活中难免会遇到一些小冲突，比如噪音或公共区域卫生。让我们分析一下，从逻辑和效率角度出发，你觉得什么样的沟通方式最能让大家达成共识，避免矛盾升级？",
+      "response": "我觉得，及时沟通最为关键。很多时候也不是故意发出噪音，更多的是无意间发出的噪音，只要及时提醒，我觉得可以把争吵扼杀在萌芽阶段",
+      "prediction": "我觉得有事情直接说出来最有效率。大家都是成年人，当面沟通或者在群里说都可以。如果大家觉得有必要，也可以定期开个小会，我都可以配合。",
+      "scores": {
+        "wmd": 0.8098050528081198,
+        "sentence_similarity": 0.7163013815879822,
+        "normalized_length_similarity": 0.9538461538461539,
+        "history_similarity": 0.8401719331741333,
+        "bleu": 0.01808507541312163,
+        "ttr": 0.6829268292682927
+      }
+    }
+  ]
+}

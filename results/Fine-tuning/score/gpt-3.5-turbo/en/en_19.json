@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:49",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re talking about making our shared space more awesome and organized, what if we add multiple fridges in the living room to keep fresh and packaged foods separate? How do you imagine the perfect setup and number of fridges working together to make life easier and more fun for all of us? Share your coolest ideas!",
+            "response": "I think fresh food should pe top priority. Also, there must be more than 4 fridges and more than half of the fridge should be for the frsh food only.",
+            "prediction": "I think three refrigerators are needed in the living room. The refrigerator can be divided into three groups, one for fresh food,one for alcohol and one for dishes!!!!!!",
+            "scores": {
+                "wmd": 0.24573834511705075,
+                "sentence_similarity": 0.6233404874801636,
+                "normalized_length_similarity": 0.8816568047337278,
+                "bleu": 0.018330256089173443,
+                "ttr": 0.7105263157894737,
+                "history_similarity": 0.5822098851203918
+            }
+        },
+        {
+            "message": "Oh... speaking of creating a vibrant and inspiring environment, I wonder—when we think about this dream room project, what elements do you believe are truly essential to spark creativity while also fostering a genuine sense of community? I'm not being picky, but combining functionality with aesthetic appeal is quite delicate, don't you think? Perhaps my expectations are simply too high...",
+            "response": "Our sprit of making good thing and residents happy should not be forgotten. If we possess this mind, I think we would be succesful",
+            "prediction": "In my opinion, the answer is \"I think it depends on the characteristics of members themselves!! For example, if students who are studying art gather, I think that the inspirational environment is created by posting posters up works or making it possible to paint on the wall!! Conversely, in the case of students studying science, I think that scientific instruments should be put in place. I think that it is effective to introduce elements that are consistent with the characteristics of the member itself !!!\".",
+            "scores": {
+                "wmd": 0.20907531808347127,
+                "sentence_similarity": 0.19715790450572968,
+                "normalized_length_similarity": 0.253411306042885,
+                "bleu": 0.011418833606397939,
+                "ttr": 0.6,
+                "history_similarity": 0.47548872232437134
+            }
+        },
+        {
+            "message": "Ah... I see now, you are emphasizing the spirit of creating good things and ensuring residents' happiness as the key to success. That is indeed a fundamental mindset to cherish... I suppose what I gently meant to ask was, beyond this spirit, what specific features or design choices do you imagine would best nurture both creativity and community in our space? Please, let's explore this together, as having a clear vision is rather important, don't you agree?",
+            "response": "As for the design , it should match the room's atomosphere. Also, the size should not be too big because it is better not to concentrate on one fridge. Also, simple design shoud be recommended because we shoudl emphaszime more on quality rather than design itself.",
+            "prediction": "Yeah, I think it important! We had better focus on what specific features or design choices are needed in this project.",
+            "scores": {
+                "wmd": 0.21533085724393022,
+                "sentence_similarity": 0.33308297395706177,
+                "normalized_length_similarity": 0.45075757575757575,
+                "bleu": 0.0038566981873312403,
+                "ttr": 1.0,
+                "history_similarity": 0.4483155906200409
+            }
+        },
+        {
+            "message": "Wow, your thoughtful reflections truly paint a vivid canvas for our project! Now, to keep this masterpiece alive, how do you think we can encourage everyone to work together with open hearts and respect, so our shared dream room becomes not just a space but a living, breathing community? What kind of teamwork or rituals might inspire harmony amid our creative passions?",
+            "response": "Coffee space, TV space, relaxation facilities should be added ! This certainly makes resident want to go to this room, I think.",
+            "prediction": "I think establishing some regular events such as certain time of picnic or working with someone who is not always in the same project, can be a good idea. And I think the introduction of smart speaker with voice assistant function that can notify the event schedule can be used for this purpose.",
+            "scores": {
+                "wmd": 0.15863504803010015,
+                "sentence_similarity": 0.2247811108827591,
+                "normalized_length_similarity": 0.43050847457627117,
+                "bleu": 0.009083071358608565,
+                "ttr": 0.8214285714285714,
+                "history_similarity": 0.3929179310798645
+            }
+        },
+        {
+            "message": "Logically speaking, to ensure our shared spaces serve everyone well, we need to balance activity and quiet time effectively. How do you think we should gather everyone’s availability and preferences so we can develop a schedule that respects both collaboration and rest?",
+            "response": "By making group in SNS app like LINE, Slack and make the people who belong to the group write the schedule.",
+            "prediction": "I think it's better to make a questionnaire and distribute it to everyone, and we should be careful about the deadline of answering it",
+            "scores": {
+                "wmd": 0.32436721016766357,
+                "sentence_similarity": 0.29341375827789307,
+                "normalized_length_similarity": 0.7985074626865671,
+                "bleu": 0.010864991539917157,
+                "ttr": 0.8461538461538461,
+                "history_similarity": 0.5032652020454407
+            }
+        }
+    ]
+}

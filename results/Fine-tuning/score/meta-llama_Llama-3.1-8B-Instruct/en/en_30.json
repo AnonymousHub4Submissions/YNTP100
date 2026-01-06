@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:30",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since you’re all about design over pure functionality for your music club room and love tackling challenges, tell me—what kind of emotions do you want that space to spark during a live performance? Ready to share that vibe you’re dreaming of? Awesome!",
+            "response": "I want to create a space where people can discover music genres they didn’t know and expand their own world.",
+            "prediction": "we need to share per share per person per day",
+            "scores": {
+                "wmd": 0.3269133118634489,
+                "sentence_similarity": 0.19444505870342255,
+                "normalized_length_similarity": 0.4166666666666667,
+                "bleu": 0.005751876324997854,
+                "ttr": 0.7,
+                "history_similarity": 0.31089600920677185
+            }
+        },
+        {
+            "message": "Oh... considering how much effort and precision you pour into your artistic vision, do you find yourself preferring to handle complex design projects alone to ensure every detail meets your standards, or would you welcome collaboration with others whose skills might complement yours? I’m not being picky, but understanding this might help us foster a truly harmonious creative environment... What are your thoughts?",
+            "response": "There’s a limit to what one person can do, so I welcome collaboration with others where our skills complement each other.",
+            "prediction": "we need to share this activity with friends",
+            "scores": {
+                "wmd": 0.32965753285208,
+                "sentence_similarity": 0.4116900563240051,
+                "normalized_length_similarity": 0.35537190082644626,
+                "bleu": 0.0039450671917310364,
+                "ttr": 1.0,
+                "history_similarity": 0.29620108008384705
+            }
+        },
+        {
+            "message": "Wow, teamwork truly feeds the soul of creation! Speaking of living together and sharing spaces, how do you feel about setting some clear guidelines on noise levels? It could help everyone focus and rest comfortably—because every masterpiece needs the right environment to flourish, right? What’s your take on balancing energy and quiet in a shared home?",
+            "response": "Extra stress gets in the way of creative work, so I want to keep things quiet at night as a rule.",
+            "prediction": "we don't need to set rules",
+            "scores": {
+                "wmd": 0.4038613178394532,
+                "sentence_similarity": 0.18906253576278687,
+                "normalized_length_similarity": 0.26804123711340205,
+                "bleu": 0.0033593641015164603,
+                "ttr": 1.0,
+                "history_similarity": 0.33151617646217346
+            }
+        },
+        {
+            "message": "Logically speaking, setting rules is one thing, but ensuring everyone follows them is another. Considering your proactive approach to avoid regrets and preference for acting first, how would you handle a situation where someone doesn’t respect the agreed-upon rules about cleanliness or noise?",
+            "response": "If it becomes a habitual behavior, I’d like to set up a discussion with everyone.",
+            "prediction": "we need to remind them to respect the rules",
+            "scores": {
+                "wmd": 0.38186621710524643,
+                "sentence_similarity": 0.3206331133842468,
+                "normalized_length_similarity": 0.5308641975308642,
+                "bleu": 0.007894145539546107,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.19258365035057068
+            }
+        }
+    ]
+}

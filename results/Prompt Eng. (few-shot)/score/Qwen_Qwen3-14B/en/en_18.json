@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:42",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just won 100 million out of nowhere—no limits, no rules! What’s the craziest, boldest thing you’d do first? Don’t hold back, let your wildest dreams fly!\nA. I wanna save money.\n\nQ. Very interesting idea. Next, let's consider it realistically: how would you allocate this 100 million? For example, roughly what proportions would you set aside for investment, consumption, and savings?\nA. I am gonna allocate 5 million yen to investment, 5 million yen to consumption, and the rest to saving.\n\nQ. Wow, your plan is so thoughtful! I’m curious—what sparks your passion for saving so much? Is it a clear goal you’re aiming for, or more of a heartfelt value or feeling that drives you? Art is all about what moves the soul, right?\nA. I wanna lead a happy and calm life. To realise it, I have to have enough money not to limit my decision-making.\n\nQ. Oh… speaking of balance, I recently noticed the shared refrigerator feels rather cramped, especially with all those packaged foods occupying much of the space. I’m not being picky, but I wonder—do you think it’s important for us all to maintain a certain quality of life here by keeping some room for fresh ingredients? After all, we all deserve that little touch of daily well-being, don’t we?\nA. I agree with you. Unlike fresh food, packaged food contains a lot of chemicals. It harms our health and life\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about creating a calm and awesome space, let’s also think about our personal vibes—especially money vibes! If you had to map out your ideal financial plan for the next five years, keeping things chill and limitless, what cool goals or smart moves would you aim for? Share your big dreams and strategies!",
+            "response": "Now, I am a university student, so I can't so much money. Therefore, I study a lot and get a good job which gives me a high salary",
+            "prediction": "I would aim to save more money, invest wisely, and ensure I have enough to live a happy and calm life without any financial stress. I’d also like to contribute to the house by maybe buying some fresh food regularly to keep the fridge healthy and balanced.",
+            "scores": {
+                "wmd": 0.1560579566604155,
+                "sentence_similarity": 0.3156794011592865,
+                "normalized_length_similarity": 0.5098039215686274,
+                "bleu": 0.005982129067776496,
+                "ttr": 0.7924528301886793,
+                "history_similarity": 0.3821408450603485
+            }
+        },
+        {
+            "message": "Oh... since we all seem to agree that our shared living space should nurture health and well-being — especially with fresh foods and keeping the fridge organized as we agreed... I’m not being picky, but how do you think we might gently encourage everyone to follow these shared rules, in a way that feels friendly and constructive rather than... imposing? Perhaps there is a subtle art to this kind of harmony, don’t you think?",
+            "response": "I think we should hold a luncheon to discuss the rule every month",
+            "prediction": "Maybe we can create a shared fridge schedule or a rotating system where everyone takes turns organizing the fridge and suggesting fresh food items. It could be fun and make everyone feel involved!",
+            "scores": {
+                "wmd": 0.2787874708312219,
+                "sentence_similarity": 0.4548144042491913,
+                "normalized_length_similarity": 0.33163265306122447,
+                "bleu": 0.006990006728332351,
+                "ttr": 0.8857142857142857,
+                "history_similarity": 0.39155733585357666
+            }
+        },
+        {
+            "message": "Wow, your thoughtful ideas about our shared space fill me with excitement! Speaking of inspiration, since you love digital art museums and want to bring that creative spark into our dream room, what kinds of interactive or digital features do you imagine would make everyone feel both inspired and comfortable—like a living masterpiece where creativity flows freely?",
+            "response": "How about projecting the thanks messages to the wall? It feels us happy",
+            "prediction": "I imagine having a digital canvas wall where we can all contribute to a collaborative artwork, and smart lighting that changes colors based on our moods or the time of day. Also, maybe some augmented reality elements that bring our art to life when we point our phones at it.",
+            "scores": {
+                "wmd": 0.2620701623780274,
+                "sentence_similarity": 0.38675904273986816,
+                "normalized_length_similarity": 0.2581818181818182,
+                "bleu": 0.004458815748575231,
+                "ttr": 0.8518518518518519,
+                "history_similarity": 0.3951655328273773
+            }
+        },
+        {
+            "message": "Your idea to blend digital creativity with emotional warmth is compelling. From a practical standpoint, considering our focus on functionality first—even if it means initial quality compromises—how would you address potential technical challenges or setbacks that arise when developing this projection system for the dream room? How might we balance the desire for innovative features with the need for reliable, workable solutions?",
+            "response": "The projecting project  has a potential problem that overuses the projector. To address this problem, I will",
+            "prediction": "I would prioritize testing and iteration. Even if we start with basic functionality, we can gradually improve the system by identifying and solving technical issues step by step. It's important to keep the core features working reliably while experimenting with new ideas. Also, we can seek help from others in the house who might have technical skills or knowledge. This way, we can balance innovation with reliability.",
+            "scores": {
+                "wmd": 0.22131132744126744,
+                "sentence_similarity": 0.003873012959957123,
+                "normalized_length_similarity": 0.2571428571428571,
+                "bleu": 0.003376040430337173,
+                "ttr": 0.75,
+                "history_similarity": 0.33740606904029846
+            }
+        },
+        {
+            "message": "Let's analyze this. To address potential overuse of the projector, you could implement a scheduling system that limits projection time, ensuring breaks to prevent overheating or hardware wear. Alternatively, distributing the projection load across multiple devices could extend overall lifespan. Logically speaking, integrating usage monitoring and automatic shut-off for prolonged inactivity would also maintain system health without compromising creativity. Now, thinking further, how might we integrate these technical safeguards into the room's design without disrupting the seamless creative atmosphere we want?",
+            "response": "I have no ideas .. Sorry",
+            "prediction": "We could install a smart scheduling system with a touchscreen interface that blends into the room's design, allowing users to book projector time in advance. Additionally, motion sensors could detect inactivity and automatically pause or shut off the projector when not in use, ensuring energy efficiency without interrupting the creative flow. Hidden sensors and automated systems would keep the room looking clean and uncluttered, preserving the seamless atmosphere.",
+            "scores": {
+                "wmd": 0.42215852420646766,
+                "sentence_similarity": 0.05394044518470764,
+                "normalized_length_similarity": 0.05128205128205128,
+                "bleu": 0.0,
+                "ttr": 0.7763157894736842,
+                "history_similarity": 0.36965683102607727
+            }
+        },
+        {
+            "message": "Let's analyze this. It's perfectly reasonable not to have ideas immediately; creativity often requires time and information. Logically speaking, the challenge lies in balancing technical safeguards with maintaining an inspiring environment. To move forward, consider how subtle indicators—like soft lighting signals or ambient sounds—could inform users about projector status without breaking immersion. Now, could you think about what design elements in the room would best support such unobtrusive feedback mechanisms? This will help us maintain harmony between functionality and creativity.",
+            "response": "The sound that signals the projector's status should be fun music which is popular among us",
+            "prediction": "The room should have a minimalist design with soft, adjustable lighting that can subtly change color or intensity to indicate projector status. Additionally, ambient sound cues, like gentle chimes or soft tones, could be integrated into the space to provide unobtrusive feedback. The use of smart, discreet sensors and interfaces that blend seamlessly into the environment would also support this balance.",
+            "scores": {
+                "wmd": 0.21648744497496142,
+                "sentence_similarity": 0.5792608857154846,
+                "normalized_length_similarity": 0.22469135802469137,
+                "bleu": 0.004431271006658827,
+                "ttr": 0.8115942028985508,
+                "history_similarity": 0.2988341748714447
+            }
+        }
+    ]
+}

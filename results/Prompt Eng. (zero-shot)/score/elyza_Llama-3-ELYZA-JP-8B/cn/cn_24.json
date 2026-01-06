@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:09",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！既然我们要把生活规则弄得更细致一点，你觉得我们应该优先考虑的是“整洁”、还是“自由”，或者“互相尊重”呢？来，大家大胆说说自己的想法，我们一起把ShareHouse变得太棒了！",
+            "response": "首先我们需要互相尊重，有了尊重以后我们才能享受各自的自由，有了约束的自由才能把房间变得整洁",
+            "prediction": "我は“互相尊重”を優先するべきだと思います。なぜなら、整洁や自由は、互相尊重の基盤の上に成り立つものだと思います。例えば、整洁を重視するあまり、他人の持ち物を勝手に処分するのは、互相尊重に反しますし、自由を重視するあまり、他人に迷惑を掛ける行為を許容するのも、互相尊重に反します。ShareHouseは、個人の自由や所有物を尊重しつつ、他人との関係性を大切にしていくことが大切だと思います。",
+            "scores": {
+                "wmd": 0.9987667872079371,
+                "sentence_similarity": 0.3148236870765686,
+                "normalized_length_similarity": 0.23076923076923078,
+                "bleu": 0.0031828681262975936,
+                "ttr": 0.4140127388535032,
+                "history_similarity": 0.4707895517349243
+            }
+        },
+        {
+            "message": "说到尊重这个话题……如果共享空间里出现了噪音问题，你会选择主动沟通去解决呢，还是倾向于默默忍耐？我不是挑剔，只是觉得对这种日常干扰，大家坦诚交流或许更有助于维持良好的氛围，你觉得呢？",
+            "response": "沟通是解决问题的良药",
+            "prediction": "私は、共有スペースで音の問題が発生した場合、主動にコミュニケーションをとって解決する方を選択します。私は、日常の些細な問題を積極的に話し合って解決することが、良好な雰囲気を保つためには重要だと思います。共有生活では、個々の価値観や生活スタイルが異なるため、互いに理解し合い、尊重することが大切です。ですから、些細な問題を放置するのではなく、オープンに話し合って解決することで、より良い生活環境を創造することができます。",
+            "scores": {
+                "wmd": 1.1545671057393472,
+                "sentence_similarity": 0.2490626871585846,
+                "normalized_length_similarity": 0.04784688995215311,
+                "bleu": 0.000963854775950902,
+                "ttr": 0.46236559139784944,
+                "history_similarity": 0.392217755317688
+            }
+        },
+        {
+            "message": "哇，说得太对了！既然我们都这么重视氛围和交流，那你有没有想过，假如可以给我们的梦想房间加一个特别的功能或装饰，你会选择什么呢？是那种实用又酷炫的高科技设备，还是充满艺术气息、能激发灵感的摆设？为什么？艺术就是要让生活充满惊喜和激情！",
+            "response": "我觉得1个互相沟通的桌子就好，我们可以互相沟通享受彼此的idea",
+            "prediction": "Ah-ha! That's a great point! Since we all value atmosphere and交流, I was wondering if we could add a special function or decoration to our dream room. If I could choose, I would probably opt for something that's not only functional but also visually striking and high-tech devices. Maybe something like a smart mirror that displays art pieces or allows us to project our own art onto it? Why? Because I believe that art should bring excitement and passion to our daily lives!\n\nNote: This response is written in English, as the instruction is likely intended for English-speaking individuals.",
+            "scores": {
+                "wmd": 1.0787859552656125,
+                "sentence_similarity": 0.2080041915178299,
+                "normalized_length_similarity": 0.05423728813559322,
+                "bleu": 0.0,
+                "ttr": 0.4117647058823529,
+                "history_similarity": 0.15471236407756805
+            }
+        },
+        {
+            "message": "你们的想法很有趣，也让人思考如何在氛围与功能之间取得平衡。那么从理性的角度来说，你们如何在追求情感共鸣和高效生活之间分配资源？比如在资金使用或公共空间管理上，应该如何权衡情感投入与理性规划？",
+            "response": "总量/人数",
+            "prediction": "Hi everyone! I'm excited to join this share house and explore how we can work together to create a harmonious and efficient living environment.\n\nFrom a rational perspective, I think it's essential to strike a balance between emotional resonance and efficient living. For example, when it comes to financial resources, we should allocate funds in a way that balances emotional investment and rational planning. For instance, we could use some funds to plan a fun activity or event that fosters emotional connection among us, while also setting aside funds for practical purposes.\n\nIn terms of public space management, we should consider how to allocate space in a way that balances emotional comfort and practical functionality. For example, we could designate certain areas for relaxation and socialization, while also leaving some space for personal activities.\n\nI'm looking forward to discussing these ideas further and finding ways to implement them in our share house.\n\nPlease let me know if you'd like me to make any changes!",
+            "scores": {
+                "wmd": 1.2103430920466889,
+                "sentence_similarity": 0.07357747107744217,
+                "normalized_length_similarity": 0.0048543689320388345,
+                "bleu": 0.0,
+                "ttr": 0.32303370786516855,
+                "history_similarity": 0.20887957513332367
+            }
+        },
+        {
+            "message": "让我们分析一下，你是问总资金还是总体人数？请具体说明。然后我们继续探讨资源分配。",
+            "response": "总资金/总人数分配",
+            "prediction": "- 我将回答：我想知道总人数。因为我是一个新入住者，需要了解这个共享房的其他住民情况。\n\nThis response predicts that the next response from DaVinci, Donatello, Michelangelo, and Raffaello will be related to the total number of people in the share house, given the input provided.",
+            "scores": {
+                "wmd": 1.2168779260670677,
+                "sentence_similarity": 0.3913528621196747,
+                "normalized_length_similarity": 0.03829787234042553,
+                "bleu": 0.003979752725131096,
+                "ttr": 0.5833333333333334,
+                "history_similarity": 0.5173282027244568
+            }
+        },
+        {
+            "message": "从逻辑上讲，总资金除以总人数，得出人均资金。你觉得怎样分配更合理？",
+            "response": "每个人得到人均",
+            "prediction": "- これは、合理的な資金配分の方法を考えるということですね。私が思うに、合理的な配分方法は、各メンバーの生活費や支出に応じて配分することです。例えば、DaVinciはアーティストで、作品の制作に多くの費用がかかるため、多めに資金を配分する。Donatelloは彫刻家で、道具や材料の費用がかかるため、次に多めに配分する。Michelangeloは建築家で、建物の設計や建設に多くの費用がかかるため、また次に多めに配分する。Raffaelloは画家で、絵画の制作に多くの費用がかかるため、最も多めに配分する。こうすることで、各メンバーが必要な資金を得ることができ、合理的な資金配分ができます。",
+            "scores": {
+                "wmd": 1.2332127513270688,
+                "sentence_similarity": -0.05633464828133583,
+                "normalized_length_similarity": 0.023728813559322035,
+                "bleu": 0.0,
+                "ttr": 0.3407079646017699,
+                "history_similarity": 0.2891181409358978
+            }
+        }
+    ]
+}

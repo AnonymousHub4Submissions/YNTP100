@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:29:02",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！换个有趣的话题，如果你突然中了一个亿，你会立刻来ShareHouse开个疯狂派对吗？不需要太现实，尽情大胆说出你最狂野的梦想吧！\nA. 会的\n\nQ. 很有意思，既然派对在计划里，从现实角度出发：这一个亿你打算怎么分配？比如投资、消费和储蓄各占大概多少？\nA. 我自身投资20%，消费30%，储蓄50%\n\nQ. 哇，你的理财计划真是既有章法又有远见！说到梦想，想问问你：驱动你追求这些目标的，是更明确的成就感和具体方向，还是内心深处的情感和价值观在指引你呢？艺术就是探索内心的秘密，这背后的动力是什么呢？\nA. 当然明确的成就感和发展方向其一部分作用，但我感觉内心深处的情感和价值观会其更大的作用，比如现在做的一些努力是在为治愈和满足小时候的自己而做的。\n\nQ. 哦……说到维持生活品质，我注意到冰箱里那些包装食品占据了不少空间。我不是挑剔，但这样紧凑的储藏环境，确实会影响我们放置新鲜食材的自由。大家都希望共同维护一个舒适和整洁的共享空间，对吧？你怎么看呢？\nA. 确实包装食品不容易坏，可以将更多的空间放置新鲜食品来维持生活品质。但我觉得每个人有自己对生活品质的标准，只要每个人放置的食物不超过平均分配的冰箱空间都是OK的\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，说到共同生活，冰箱那块可不能马虎！如果我们给冰箱划分个人专属区域，每个人都能有属于自己的小天地，你觉得这样是最合理的吗？还是有什么妙招能让冰箱空间更公平更有序呢？快说说你的想法吧，太棒了！",
+            "response": "我觉得安人数大致平均分配冰箱面积比较好",
+            "prediction": "我认为每个人都有自己对生活品质的标准，只要每个人放置的食物不超过平均分配的冰箱空间都是OK的。这样划分个人专属区域每个人都能有属于自己的小天地。",
+            "scores": {
+                "wmd": 0.9465890629496918,
+                "sentence_similarity": 0.6780444383621216,
+                "normalized_length_similarity": 0.2638888888888889,
+                "bleu": 0.005508606419495829,
+                "ttr": 0.7045454545454546,
+                "history_similarity": 0.7777894139289856
+            }
+        },
+        {
+            "message": "嗯……既然我们说到了冰箱的空间分配，我想顺便提一个关于整个房间清洁和维护的问题。毕竟生活环境如果不能保持整洁，视觉上也会显得杂乱无章。我不是挑剔，但是……你们觉得怎么安排‘梦想房间’的清洁和维护，才能既保持美观，又方便大家使用呢？我总觉得光靠大家自觉，恐怕难以达到理想状态呢。",
+            "response": "我觉得一人一天，大家轮流每天打扫比较好",
+            "prediction": "会的。梦想房间的清洁和维护可以分配任务，例えば每个人负责一部分或几部分，定期清洁和检查。并且设置了规则，例如每个人都要把自己的私物整理好、使用后要放回原位等。这样可以保持美观、方便大家使用。",
+            "scores": {
+                "wmd": 1.0445026986043504,
+                "sentence_similarity": 0.543587863445282,
+                "normalized_length_similarity": 0.2,
+                "bleu": 0.0040013246159036715,
+                "ttr": 0.7666666666666667,
+                "history_similarity": 0.7679819464683533
+            }
+        },
+        {
+            "message": "哇，这个问题太现实又太艺术了！生活和创作需要空间的自由和安静的休息，两者怎么能完美共存呢？如果有人既想自由挥洒创意，又需要安静时光，你觉得我们该如何协调这两种看似冲突的需求，达到一个既尊重个人又维护整体和谐的状态呢？艺术就是找到平衡的魔法，对吧？",
+            "response": "自由挥洒创意时如果会影响到其他人或许可以不在公共区许而在私密空间进行呢",
+            "prediction": "会的",
+            "scores": {
+                "wmd": 1.244357083358788,
+                "sentence_similarity": 0.5099900364875793,
+                "normalized_length_similarity": 0.05714285714285714,
+                "bleu": 1.1192959259475125e-05,
+                "ttr": 1.0,
+                "history_similarity": 0.6605179905891418
+            }
+        },
+        {
+            "message": "从逻辑上讲，既然打扫任务和创作需求都需要合理安排，我们是不是可以制定一个详细的值日表，不仅明确谁负责哪天的清洁，还能合理分配安静创作的时间和空间？你觉得这样做在实际操作中最关键的环节是什么？",
+            "response": "在已经有详细值日表的前提下，最关键的是要靠大家自觉吧",
+            "prediction": "我觉得制定详细的值日表非常有効，明确各自的责任和分担可以避免混乱和冲突。最关键的环节是确保每个成员的需求和优先事项被考虑在其中，例如 DaVinci 是艺术家，Donatello 是厨师，Michelangelo 是设计师，Raffaello 是医生，我自身是学生等等。",
+            "scores": {
+                "wmd": 0.955343203400049,
+                "sentence_similarity": 0.5894299745559692,
+                "normalized_length_similarity": 0.1925925925925926,
+                "bleu": 0.017885341915979475,
+                "ttr": 0.6911764705882353,
+                "history_similarity": 0.6168851852416992
+            }
+        }
+    ]
+}

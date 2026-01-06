@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:31",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re talking about balancing lively vibes and chill times, here’s a fun thought: if you could pick one music genre or artist to set the perfect cozy mood in our dream room, what would you choose and why? Let’s make this space as awesome and relaxing as possible!",
+            "response": "Teshima Aoi",
+            "prediction": "I think we should choose classical music.",
+            "scores": {
+                "wmd": 0.5136126730640675,
+                "sentence_similarity": -0.0008620163425803185,
+                "normalized_length_similarity": 0.2682926829268293,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.4561714828014374
+            }
+        },
+        {
+            "message": "Oh... speaking of creating such a cozy atmosphere, I was wondering—would it be too much to suggest adding a small, quiet reading nook in the dream room? Perhaps with a warm lamp and a selection of thoughtfully chosen books... I’m not being picky, but it might enhance the comfort without overwhelming the space. Do you think such a corner would harmonize with the vibe we’re aiming for?",
+            "response": "Great idea! Let’s do that. Also, if the budget allows, how about getting a hammock too?",
+            "prediction": "we should discuss it in the shared space",
+            "scores": {
+                "wmd": 0.44555862458910483,
+                "sentence_similarity": 0.175077885389328,
+                "normalized_length_similarity": 0.45977011494252873,
+                "bleu": 0.004259616748687206,
+                "ttr": 1.0,
+                "history_similarity": 0.38349974155426025
+            }
+        },
+        {
+            "message": "Wow, such fantastic ideas brewing! Since we’re all about harmony and smooth flow in our creative nook, if you could pick just one golden rule or habit to keep our shared kitchen’s fridge neat and efficient without cramping anyone’s style, what masterpiece of a solution would you craft?",
+            "response": "How about this: any food placed in the shared fridge can be used by anyone for cooking, but in return, the dish should be shared with the person who provided the ingredients? If doing so, ingredients can be consumed by expiration.",
+            "prediction": "We should put shared condiments in the door pocket, individual items in labeled boxes in the main compartment",
+            "scores": {
+                "wmd": 0.17901934070819303,
+                "sentence_similarity": 0.5175784826278687,
+                "normalized_length_similarity": 0.47391304347826085,
+                "bleu": 0.006747033038370068,
+                "ttr": 0.8421052631578947,
+                "history_similarity": 0.4352937638759613
+            }
+        },
+        {
+            "message": "That’s a solid framework we’re building. Now, considering how creative activities can sometimes get noisy, how do you think we should balance having fun with respecting each other’s need for quiet? Logically speaking, would setting specific quiet hours or encouraging the use of headphones after a certain time be practical solutions?",
+            "response": "I think so.",
+            "prediction": "we should consider individual needs",
+            "scores": {
+                "wmd": 0.6214288311353686,
+                "sentence_similarity": 0.15629301965236664,
+                "normalized_length_similarity": 0.3142857142857143,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.41232722997665405
+            }
+        },
+        {
+            "message": "Let's analyze this clearly: by \"I think so,\" you agree that setting quiet hours or using headphones is practical, correct? Assuming yes, the next step logically is to define when quiet hours start and end or establish guidelines for headphone use to ensure clarity and compliance. This will make enforcing the rule more straightforward and fair for everyone. So, what time frame or specific conditions do you think would work best for maintaining that balance between fun and respect?",
+            "response": "How about wearing headphones when listening to music after 10 p.m.?",
+            "prediction": "we should consider individual needs, such as sleep schedules and personal preferences, when deciding on the timing of quiet hours.",
+            "scores": {
+                "wmd": 0.3011573833973733,
+                "sentence_similarity": 0.40425777435302734,
+                "normalized_length_similarity": 0.5153846153846153,
+                "bleu": 0.008282282660969604,
+                "ttr": 0.9565217391304348,
+                "history_similarity": 0.404538094997406
+            }
+        }
+    ]
+}

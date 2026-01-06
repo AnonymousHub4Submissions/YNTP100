@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:50:06",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since you’re all about design over pure functionality for your music club room and love tackling challenges, tell me—what kind of emotions do you want that space to spark during a live performance? Ready to share that vibe you’re dreaming of? Awesome!",
+            "response": "I want to create a space where people can discover music genres they didn’t know and expand their own world.",
+            "prediction": "I want the space to be filled with a thrilling vibe.",
+            "scores": {
+                "wmd": 0.33170156636530673,
+                "sentence_similarity": 0.5109686255455017,
+                "normalized_length_similarity": 0.48148148148148145,
+                "bleu": 0.018955289746979843,
+                "ttr": 1.0,
+                "history_similarity": 0.42413339018821716
+            }
+        },
+        {
+            "message": "Oh... considering how much effort and precision you pour into your artistic vision, do you find yourself preferring to handle complex design projects alone to ensure every detail meets your standards, or would you welcome collaboration with others whose skills might complement yours? I’m not being picky, but understanding this might help us foster a truly harmonious creative environment... What are your thoughts?",
+            "response": "There’s a limit to what one person can do, so I welcome collaboration with others where our skills complement each other.",
+            "prediction": "I prefer to handle complex design projects alone.",
+            "scores": {
+                "wmd": 0.275076220215927,
+                "sentence_similarity": 0.3966612219810486,
+                "normalized_length_similarity": 0.4049586776859504,
+                "bleu": 0.005334034103257644,
+                "ttr": 1.0,
+                "history_similarity": 0.3435131311416626
+            }
+        },
+        {
+            "message": "Wow, teamwork truly feeds the soul of creation! Speaking of living together and sharing spaces, how do you feel about setting some clear guidelines on noise levels? It could help everyone focus and rest comfortably—because every masterpiece needs the right environment to flourish, right? What’s your take on balancing energy and quiet in a shared home?",
+            "response": "Extra stress gets in the way of creative work, so I want to keep things quiet at night as a rule.",
+            "prediction": "I think we should keep the noise level down so as not to disturb others.",
+            "scores": {
+                "wmd": 0.2725983919066289,
+                "sentence_similarity": 0.4775295853614807,
+                "normalized_length_similarity": 0.7422680412371134,
+                "bleu": 0.012918140888163777,
+                "ttr": 1.0,
+                "history_similarity": 0.515512228012085
+            }
+        },
+        {
+            "message": "Logically speaking, setting rules is one thing, but ensuring everyone follows them is another. Considering your proactive approach to avoid regrets and preference for acting first, how would you handle a situation where someone doesn’t respect the agreed-upon rules about cleanliness or noise?",
+            "response": "If it becomes a habitual behavior, I’d like to set up a discussion with everyone.",
+            "prediction": "I will clearly point out the rules and the fact that they are not being followed, and ask for an explanation, then I will ask the person to make a commitment to follow the rules from now on.",
+            "scores": {
+                "wmd": 0.26844571018836566,
+                "sentence_similarity": 0.42116081714630127,
+                "normalized_length_similarity": 0.4263157894736842,
+                "bleu": 0.006734719128165655,
+                "ttr": 0.7560975609756098,
+                "history_similarity": 0.1818249672651291
+            }
+        }
+    ]
+}

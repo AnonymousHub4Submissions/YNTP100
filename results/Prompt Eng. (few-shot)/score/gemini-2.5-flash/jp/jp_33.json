@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:47:38",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "ハハ！冷蔵庫の管理も同じように、みんなで使うスペースを割り振って、日替わりでチェック担当を回すのはどうかな？そうすれば公平だし、みんなが気持ちよく使えると思うんだ！友達、個人間で共有するルールについてはどう感じる？何かみんなが守りやすいアイデアはあるかな？",
+      "response": "ルールが分かりやすいほうが守りやすい気がする",
+      "prediction": "期限切れのものはすぐに捨てるようにする",
+      "scores": {
+        "wmd": 0.8143278466776417,
+        "sentence_similarity": 0.5533733367919922,
+        "normalized_length_similarity": 0.8636363636363636,
+        "history_similarity": 0.7332764863967896,
+        "bleu": 0.01909690192411307,
+        "ttr": 0.9
+      }
+    },
+    {
+      "message": "ああ…確かにシンプルで分かりやすいルールは理想的ですよね。でも、実際のところ生活の中で多少の妥協や譲歩は避けられないと思うのですが、皆さんはどの辺りまでが許容範囲だと思いますか？例えば、完璧を求めすぎるとストレスになる一方で、あまりにルーズだと生活の質が落ちてしまう…このバランスを保つためにどんな実用的な工夫が考えられるでしょうか？僕は潔癖症なわけじゃないんだけど、やっぱり快適さにはこだわりたいんですよね。",
+      "response": "時と場合による。ただ全員の最低の希望は通さないといけないと思う",
+      "prediction": "快適と感じる最低ラインを決めるのがいいと思う",
+      "scores": {
+        "wmd": 0.7072334665137743,
+        "sentence_similarity": 0.6674776077270508,
+        "normalized_length_similarity": 0.7096774193548387,
+        "history_similarity": 0.7754879593849182,
+        "bleu": 0.020917118346825053,
+        "ttr": 0.9090909090909091
+      }
+    },
+    {
+      "message": "わあ、本当に共感するよ！みんなで快適に暮らすには相手へのリスペクトが欠かせないけど、具体的にはどんな行動やマナーが一番大切だと思う？たとえば、日の当たる場所の使い方や掃除の分担とか、細かいけど実は芸術のように調和が必要なポイントがある気がするんだ！君の考えをぜひ聞かせてほしいな！",
+      "response": "相手のことを考えて行動するといい気がする",
+      "prediction": "お互いの生活リズムを尊重することだと思う",
+      "scores": {
+        "wmd": 0.7098799504880099,
+        "sentence_similarity": 0.6710503101348877,
+        "normalized_length_similarity": 1.0,
+        "history_similarity": 0.7417953610420227,
+        "bleu": 0.02343404092837612,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ！まさにその通りだね！相手を思う気持ちが最高の調和の秘訣だよ！君はどう思う？",
+      "response": "非常に賛同する",
+      "prediction": "その通りだと思う",
+      "scores": {
+        "wmd": 1.095196923470094,
+        "sentence_similarity": 0.5571136474609375,
+        "normalized_length_similarity": 0.875,
+        "history_similarity": 0.7451658844947815,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ！君の心に響いてうれしいよ！では、具体的なマナーや行動について、君はどんなアイデアがある？",
+      "response": "人の睡眠などの妨害をしないようにすること",
+      "prediction": "お互いの意見を聞くことだと思う",
+      "scores": {
+        "wmd": 0.7647831261742033,
+        "sentence_similarity": 0.6322195529937744,
+        "normalized_length_similarity": 0.75,
+        "history_similarity": 0.7870068550109863,
+        "bleu": 0.020577107905082877,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "とても重要なポイントですね。さて、多様な意見がある中でみんなの意見を調和させるには、具体的にどのようなルールや仕組みを作るのが最も効果的だと思いますか？公平で実用的な方法を考えてみましょう。",
+      "response": "例えばそれを決めるために全体で会議をするとか",
+      "prediction": "A: 話し合いで合意形成をする仕組みを作る",
+      "scores": {
+        "wmd": 0.8369689429155188,
+        "sentence_similarity": 0.5518839359283447,
+        "normalized_length_similarity": 0.9545454545454546,
+        "history_similarity": 0.6191622018814087,
+        "bleu": 0.0394112020231606,
+        "ttr": 0.9166666666666666
+      }
+    }
+  ]
+}

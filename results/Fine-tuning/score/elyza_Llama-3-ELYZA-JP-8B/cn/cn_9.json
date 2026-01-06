@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "model": "elyza/Llama-3-ELYZA-JP-8B",
+    "method": "finetuning",
+    "date": "2025-10-07 12:09:21"},
+  "scores": [
+    {
+      "message": "哈哈，朋友，说到创造空间，听说你想把琴房设计得既实用又美观！来，聊聊你最看重琴房里的什么功能？是收纳乐器还是那些炫酷的音响设备？太棒了，快告诉我你的想法！",
+      "response": "收纳乐器，不需要音响，我喜欢乐器最真实的声音",
+      "prediction": "琴房",
+      "scores": {
+        "wmd": 1.2200692147728447,
+        "sentence_similarity": 0.4725759029388428,
+        "normalized_length_similarity": 0.09090909090909091,
+        "history_similarity": 0.6810778379440308,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哦……说到收纳，我这边正在考虑如何把那些包装食品移出冰箱，毕竟空间有点紧张。我不是挑剔，不过如果能找到既整洁又方便的存放方式，会让整个空间显得更有秩序。你觉得我们可以尝试什么新的收纳方法呢？也许有什么你觉得特别实用的建议？",
+      "response": "为什么你总是说你不是挑剔",
+      "prediction": "包装食品或许不需要在冰箱里",
+      "scores": {
+        "wmd": 1.1052984832763373,
+        "sentence_similarity": 0.6860942840576172,
+        "normalized_length_similarity": 0.9230769230769231,
+        "history_similarity": 0.7917346358299255,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哦…这话说出来，是想让气氛轻松些呢。我不是挑剔，但是有时候期望确实高了点呢。说到收纳，咱们还是回到那个如何保持空间整洁方便的问题吧？你有没有特别喜欢的收纳小妙招？",
+      "response": "没有，我觉得按使用频率放就好",
+      "prediction": "不好，要维持到底",
+      "scores": {
+        "wmd": 1.002031174714176,
+        "sentence_similarity": 0.6214927434921265,
+        "normalized_length_similarity": 0.5714285714285714,
+        "history_similarity": 0.8793594241142273,
+        "bleu": 0.01976560930094397,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，说到大家共同维护公共区域，真的是一种艺术般的合作啊！你觉得有没有什么轻松又有创意的方法，让我们都能愉快地分担这份责任，让空间不仅整洁，还充满活力？",
+      "response": "卫生表",
+      "prediction": "琴房需要清理",
+      "scores": {
+        "wmd": 1.2751540282820493,
+        "sentence_similarity": 0.5988346338272095,
+        "normalized_length_similarity": 0.5,
+        "history_similarity": 0.7548726797103882,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "从逻辑上讲，如果琴房的隔音效果做到极致，你觉得这样会不会让我们更容易组织音乐聚会或者邀请朋友过来？这会不会成为增强团队互动的新契机？",
+      "response": "是的",
+      "prediction": "琴房需要隔音墙",
+      "scores": {
+        "wmd": 1.245985981428076,
+        "sentence_similarity": 0.4056270718574524,
+        "normalized_length_similarity": 0.2857142857142857,
+        "history_similarity": 0.647880494594574,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

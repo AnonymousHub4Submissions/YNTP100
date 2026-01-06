@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "model": "elyza/Llama-3-ELYZA-JP-8B",
+    "method": "finetuning",
+    "date": "2025-10-07 12:16:07"},
+  "scores": [
+    {
+      "message": "哈哈，朋友们！说到公共区域的整洁，我们要不要来个轮流值日的打扫计划？大家觉得怎样分配任务最公平又高效？比如谁负责扫地，谁负责擦桌子，怎么安排才能让每个人都轻松又开心？大胆说说你的好主意吧！",
+      "response": "每人安排一天打扫吧。每一个月1号晚上大家抽一个小时集体大扫除。至于谁负责扫地，谁负责擦桌子，当天再安排吧。你们觉得怎么样",
+      "prediction": "要轮流把公共区域打扫一下吧，把大家的想法统一一下，然后按人数分配任务吧，把大家的噪音减少到最低，大家一起把房间里打扫起来吧",
+      "scores": {
+        "wmd": 0.8164565705639647,
+        "sentence_similarity": 0.6334735155105591,
+        "normalized_length_similarity": 0.9836065573770492,
+        "history_similarity": 0.8344959020614624,
+        "bleu": 0.0076286703073508285,
+        "ttr": 0.6578947368421053
+      }
+    },
+    {
+      "message": "嗯……既然我们都这么重视生活品质，我想问问大家，有没有什么看似不起眼但其实很关键的小习惯，或者必须要遵守的规矩？我不是挑剔，但这些细节往往决定了我们共同生活的舒适度呢。大家觉得呢？",
+      "response": "拿了东西要即及时放回原位",
+      "prediction": "把公共区留干净\n\nThis response is appropriate because it provides a specific and relevant suggestion that aligns with the request. The message is asking for a \"看似不起眼但其实很关键的小习惯\" and the response is providing a concise and meaningful answer that meets this request.",
+      "scores": {
+        "wmd": 1.2898085950737666,
+        "sentence_similarity": 0.36440521478652954,
+        "normalized_length_similarity": 0.047058823529411764,
+        "history_similarity": 0.5505875945091248,
+        "bleu": 0.0,
+        "ttr": 0.4731182795698925
+      }
+    },
+    {
+      "message": "哇，大家对生活细节的关注让我灵感爆棚！说到公共空间设计，如果有机会参加一个讨论会，和大家一起提出改进方案，你会特别关注哪方面呢？是空间的美感、功能性，还是大家的互动体验？艺术就是要让空间和人产生共鸣，你怎么看？",
+      "response": "空间的美感、功能性，还是大家的互动体验，以及艺术等方面我都会关注",
+      "prediction": "对于空间的美感",
+      "scores": {
+        "wmd": 0.9725548238825414,
+        "sentence_similarity": 0.8327039480209351,
+        "normalized_length_similarity": 0.21875,
+        "history_similarity": 0.6452355980873108,
+        "bleu": 0.0072829457434388815,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "说到艺术和实用的平衡，从逻辑上讲，你认为在公共空间我们应该更多地加入实用设施，提升功能性，还是增强艺术氛围，让环境更有趣？这样选择的背后，你觉得哪个因素对提升生活质量更关键？",
+      "response": "加入实用设施，提升功能性是更重要的，因为要长期生活使用，艺术无法解决一些实际问题",
+      "prediction": "对于公共空间，感觉还是实用功能更重要一点，你们觉得呢",
+      "scores": {
+        "wmd": 0.6967375034994497,
+        "sentence_similarity": 0.6775558590888977,
+        "normalized_length_similarity": 0.65,
+        "history_similarity": 0.744556188583374,
+        "bleu": 0.018887059924361526,
+        "ttr": 0.9285714285714286
+      }
+    }
+  ]
+}

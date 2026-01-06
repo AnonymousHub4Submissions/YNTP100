@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:43",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you suddenly got 100 million in your hands—no limits, no worries! What’s the wildest, most awesome thing you’d do first? Don’t hold back, let your boldest dreams fly!\nA. If I had one hundred million yen, I’d create a place filled with music, books, and nature where anyone could find hope again. I’d travel, listen to stories, and protect the earth. It’s not about money—it’s about giving something beautiful back to life.\n\n\nQ. Very inspiring vision you have there. Now, let’s analyze this realistically: if you had to allocate that 100 million yen, roughly what proportions would you assign to investment, consumption, and savings to ensure your dream is both sustainable and impactful?\nA. If I had one hundred million yen, I would divide it carefully to balance dreams with sustainability. Around 40% would go into creating and equipping the space—a place filled with art, music, and books. About 25% would be reserved as an operating fund, partly invested to generate steady income. Another 15% would support travel and cultural exchange, bringing new ideas back home. Fifteen percent would be dedicated to environmental protection projects, from forest restoration to ocean conservation. Finally, 5% would remain as a reserve for emergencies. This way, the dream could keep living far into the future.\n\nQ. Wow, your dream and plan are both so vibrant and full of life! Now I’m curious—with a vision this beautiful, what fuels your passion the most? Is it a clear goal driving you step by step, or is it deeper emotions and values that light your way and keep your heart beating for this dream?\nA. My deepest motivation comes from music. Playing the piano and listening to performances always gave me peace and courage, even in difficult times. Those sounds healed me when words could not. That’s why I dream of creating a place where others can feel the same comfort and inspiration. Surrounded by music, books, and nature, people could rediscover hope. My passion comes from knowing how beauty, especially music, can truly touch and even save the human heart.\n\n\nQ. Oh... speaking of sustaining beauty and inspiration, I noticed the shared refrigerator space seems rather cramped lately, especially with those packaged foods taking up quite a bit of room. I'm not being picky, but fresh ingredients for our meals and well-being also deserve some space, don't they? After all, maintaining a certain quality of life in our home should matter to all of us, wouldn't you agree?\nA. Even small things, like sharing refrigerator space, affect our daily comfort. I sometimes find it hard to store fresh food, though I’m not overly strict. Maybe we could gently review storage rules and manners, so everyone feels at ease. Small details can support our bigger dreams\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about creating a vibe that lifts everyone up, I gotta ask—if you had to pick a song or music style to spark hope and brighten tough days here in our ShareHouse, what would it be? Come on, spill your inspiring choice and why it hits that magic spot for you!",
+            "response": "I’d pick piano music, especially gentle, uplifting pieces. The piano has this magical ability to touch emotions directly—soft notes can calm stress, and bright melodies can spark hope like sunlight breaking through clouds. For me, it creates both focus and warmth, making the ShareHouse feel like a sanctuary where challenges transform into inspiration. That balance of peace and energy is exactly the vibe I’d love us to share.",
+            "prediction": "I’d choose jazz—especially the kind that flows like a warm river, with smooth saxophones and deep piano melodies. Jazz has this amazing way of turning ordinary moments into something magical. It’s improvisational, free-spirited, and full of emotion, which reminds me that even in life’s chaos, there’s beauty in the unexpected. When I hear jazz, it feels like the music is whispering, “It’s okay, just go with the flow.” That kind of vibe would definitely brighten tough days here in our ShareHouse.",
+            "scores": {
+                "wmd": 0.12502476116755432,
+                "sentence_similarity": 0.6753876209259033,
+                "normalized_length_similarity": 0.8577154308617234,
+                "bleu": 0.020684251750132644,
+                "ttr": 0.7047619047619048,
+                "history_similarity": 0.34515610337257385
+            }
+        },
+        {
+            "message": "Oh... since we cherish such uplifting energy, I wonder how we might gracefully handle those moments when exuberant creative activities unexpectedly disrupt our much-needed quiet time? I’m not being picky, but maintaining both artistic freedom and communal harmony is quite the delicate dance, don’t you think? Perhaps there’s a way to embrace both without compromise... what are your thoughts?",
+            "response": "You’re absolutely right—it is a delicate dance. I think the key is flexibility and mutual awareness. When someone feels inspired and bursts into lively creativity, we could embrace it with joy, but also keep tools like headphones, soundproof corners, or quick check-ins to avoid tension. Likewise, when quiet is needed, we honor it as sacred space. It’s not about compromise so much as shifting gracefully between energies, turning potential conflict into harmony.",
+            "prediction": "I think it’s all about communication and understanding. Creativity is a beautiful thing, but it’s also important to respect others’ need for quiet. Maybe we could set some gentle guidelines—like designating specific times or spaces for louder activities, or using headphones when needed. It’s about finding a balance where everyone’s needs are heard and respected. After all, harmony in our shared space allows both creativity and calm to thrive.",
+            "scores": {
+                "wmd": 0.0902795416660815,
+                "sentence_similarity": 0.782400906085968,
+                "normalized_length_similarity": 0.9612068965517241,
+                "bleu": 0.055844597409480036,
+                "ttr": 0.7441860465116279,
+                "history_similarity": 0.6717778444290161
+            }
+        },
+        {
+            "message": "Wow, your sensitivity to balance truly shows a deep artistic soul! Imagine now our dream room is fully alive with vivid colors and bold designs—some might feel a bit overwhelmed by such vibrant energy. How do you think we could encourage a friend to not just accept, but truly embrace that passionate spirit in the space as a source of creative inspiration rather than distraction? What comforting words or ideas might help transform that initial overwhelm into awe?",
+            "response": "I’d remind them that every bold color, every daring shape, carries the heartbeat of creativity—it’s not chaos, but energy waiting to spark new ideas. Overwhelm often comes before wonder; if they pause and breathe, they may feel the passion behind the design lifting their own imagination. I’d say, “Let the colors dance with you, not against you—see them as companions in your journey.” With that shift, what once felt distracting could become a powerful source of inspiration.",
+            "prediction": "I think the key is to remind them that vibrant energy is like a living canvas—it’s not about being overwhelmed, but about being inspired to add your own colors. Maybe we could create little corners where people can leave their own creative marks, like a mural wall or a music playlist that grows with everyone’s input. When someone feels they’re part of the art, rather than just looking at it, the space becomes a shared journey of expression. And if they ever feel lost in the colors, a quiet nook with soft lighting and calming music could be a gentle reminder that even the most passionate spaces need moments of peace.",
+            "scores": {
+                "wmd": 0.08698410957336351,
+                "sentence_similarity": 0.7221214175224304,
+                "normalized_length_similarity": 0.7656500802568218,
+                "bleu": 0.022719206282969116,
+                "ttr": 0.7301587301587301,
+                "history_similarity": 0.6306887865066528
+            }
+        },
+        {
+            "message": "Your enthusiasm for balancing inspiration with practical living is inspiring. Let’s analyze this: if you had to mentor someone struggling to maintain their artistic goals while handling everyday responsibilities, what specific mindset or strategies would you recommend to keep them both motivated and realistically grounded?",
+            "response": "I’d encourage them to see daily responsibilities not as obstacles, but as rhythms that can support their art. A key mindset is balance: treat routine as a grounding frame, and creativity as the color within it. Practical strategies might include setting small, consistent time blocks for art, celebrating progress rather than perfection, and integrating inspiration into ordinary tasks. This way, they stay motivated without burning out, and their artistic goals grow naturally alongside a sustainable, grounded life.",
+            "prediction": "I would encourage them to see their daily responsibilities not as obstacles, but as part of the journey that fuels their art. It’s important to set small, achievable goals that align with their creative vision—like dedicating 30 minutes a day to practice or sketch, even if it’s after work or chores. Also, keeping a gratitude journal for both creative wins and everyday moments can help maintain balance. They should also surround themselves with supportive people and find ways to integrate their passions into their routine, like cooking while listening to music or reading poetry during breaks. Most importantly, they must remember that art is not just about grand gestures—it’s in the consistent, heartfelt effort to create and live with purpose.",
+            "scores": {
+                "wmd": 0.0983065128503143,
+                "sentence_similarity": 0.8256950974464417,
+                "normalized_length_similarity": 0.6884154460719041,
+                "bleu": 0.10004648253690962,
+                "ttr": 0.7318840579710145,
+                "history_similarity": 0.5358917117118835
+            }
+        }
+    ]
+}

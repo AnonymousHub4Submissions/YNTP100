@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:30",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re all about making awesome memories together here, I gotta ask—when you spend special moments with your family or partner, how do you usually turn that time into unforgettable fun? Share your cool tricks or favorite ways to create those warm, joyful memories!",
+            "response": "let's see...\nI think i alway appreciate when i meet someone even my family. cause every moment never come back...especially my friends, family, boyfriend i cherish have own lifetime, but they give their time to spend with me. so i always feel happy when i meet important n precious people.",
+            "prediction": "Let’s have a movie marathon with lots of snacks and laughter.",
+            "scores": {
+                "wmd": 0.31588713901262594,
+                "sentence_similarity": 0.0875902995467186,
+                "normalized_length_similarity": 0.21107266435986158,
+                "bleu": 0.0007033174624114957,
+                "ttr": 1.0,
+                "history_similarity": 0.21764656901359558
+            }
+        },
+        {
+            "message": "Oh... your sentiments about cherishing moments with loved ones truly resonate. That said, I find myself pondering—balancing the joy of investing in memorable experiences with family against the prudence needed to secure one’s financial future is quite the delicate art. I’m not being picky, but how do you personally navigate allocating your resources between creating those precious memories and ensuring long-term stability? Perhaps my expectations are too high, but finding that equilibrium seems essential, don’t you think?",
+            "response": "that's right.\nnow i'm in trouble about that case.\nI have to work a lot to get my good life, at the same time, it's also important to spend my precious.\nso now I'm trying to do half and half. I mean, when i focus on work or something to do, I never contact n meet someone. but in advance, i told them.\nthen after i finished, I'm gonna meet sometimes.",
+            "prediction": "It would be great to share my activity and get your advice.",
+            "scores": {
+                "wmd": 0.2584911885807818,
+                "sentence_similarity": 0.23879081010818481,
+                "normalized_length_similarity": 0.16905444126074498,
+                "bleu": 6.21947256788553e-05,
+                "ttr": 1.0,
+                "history_similarity": 0.17964817583560944
+            }
+        },
+        {
+            "message": "Wow, your balance between deep focus and sharing precious moments is truly inspiring! In a shared creative space like ours, where some thrive on lively energy and others need peaceful calm, how do you think we could arrange group activities so everyone’s rhythm and vibe are honored? Art thrives on harmony, after all!",
+            "response": "i think you should ask both opinions.",
+            "prediction": "It would be awesome to create a schedule for activity time and quiet time.",
+            "scores": {
+                "wmd": 0.49292987157184254,
+                "sentence_similarity": 0.06776262819766998,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.013217947626377298,
+                "ttr": 0.9333333333333333,
+                "history_similarity": 0.29067978262901306
+            }
+        },
+        {
+            "message": "Very well. Since you suggested organizing the fridge with individual containers for each person to maintain order, would you be willing to take the lead in coordinating a brief group meeting? We could set clear, fair rules for shared spaces that reflect everyone's needs and promote efficiency. What do you think would be the most effective way to facilitate this?",
+            "response": "First, you tell the gratitude for gathering.\nthen, you should tell your feeling n thought. like recently there are lots of things inside refrigerator. and you suggest that why don't we use containers.\nthen, you should ask what they think one by one. then start discuss",
+            "prediction": "How about we create a schedule for everyone to contribute to keeping things organized?",
+            "scores": {
+                "wmd": 0.23761423244720944,
+                "sentence_similarity": 0.3403230309486389,
+                "normalized_length_similarity": 0.3208955223880597,
+                "bleu": 0.0012087200384321762,
+                "ttr": 0.9333333333333333,
+                "history_similarity": 0.377541184425354
+            }
+        }
+    ]
+}

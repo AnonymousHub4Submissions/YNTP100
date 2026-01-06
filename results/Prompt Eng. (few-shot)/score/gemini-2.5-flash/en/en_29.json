@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:32:05",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend, you’re really thinking deep about this! Speaking of our ShareHouse dream room, what feelings or values do you want it to spark in everyone who steps inside? Like, should it inspire creativity, calm, friendship, or maybe something wild and unexpected? Share your awesome vision!",
+      "response": "calm friendship",
+      "prediction": "Mmm... I want it to inspire creativity and friendship.",
+      "scores": {
+        "wmd": 0.3617095040182737,
+        "sentence_similarity": 0.3011273443698883,
+        "normalized_length_similarity": 0.2777777777777778,
+        "history_similarity": 0.43549686670303345,
+        "bleu": 0.018850319022747353,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "Oh... considering our desire for calm friendship as the atmosphere, I wonder—when it comes to arranging the dream room, would you be open to sacrificing a bit of stylistic elegance for the sake of efficiency and usability? Or should we strive to find a balance where both function and form harmonize seamlessly? I'm not being picky, but perhaps achieving both might be a delicate endeavor...",
+      "response": "Mmm... let's get some balance between both of them as well as we can.",
+      "prediction": "Efficiency is better. Balance is hard.",
+      "scores": {
+        "wmd": 0.40478783821562414,
+        "sentence_similarity": 0.3993176221847534,
+        "normalized_length_similarity": 0.5507246376811594,
+        "history_similarity": 0.28629550337791443,
+        "bleu": 0.009017608727734442,
+        "ttr": 0.75
+      }
+    },
+    {
+      "message": "Wow, keeping the kitchen clean and organized with designated compartments—that’s such a fantastic foundation for harmony in our home! But here’s a thought that excites me: how can we inspire everyone to live by these beautiful rules every single day, turning tidiness into a shared art form rather than a chore? What creative ideas do you think could spark that consistent spirit of care and respect among us all?",
+      "response": "That's a bit of good question... have anyone think good idea?",
+      "prediction": "How about a chore chart for the kitchen?",
+      "scores": {
+        "wmd": 0.3936742018411656,
+        "sentence_similarity": 0.11885574460029602,
+        "normalized_length_similarity": 0.6557377049180327,
+        "history_similarity": 0.4562758505344391,
+        "bleu": 0.01636203585580252,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "Wow, what an awesome question you asked! You're wondering if anyone has come up with a good idea to inspire everyone to keep the kitchen tidy as a shared art form, right? Well, you hit the nail on the head—turning everyday care into a joyful habit is the masterpiece we're after! Now, let's dive back and imagine: what playful or creative ways can we use to make tidiness feel like an exciting collaboration rather than a boring task? Trust me, with a little spark, we can sculpt a routine everyone loves! What do you think?",
+      "response": "yep making routine respectively is good for ours/",
+      "prediction": "A cleaning game sounds fun!",
+      "scores": {
+        "wmd": 0.43841894297722617,
+        "sentence_similarity": 0.20599834620952606,
+        "normalized_length_similarity": 0.5510204081632653,
+        "history_similarity": 0.44715192914009094,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "Wow, you’re absolutely right! Making a routine respectfully is like the steady rhythm that keeps our masterpiece flowing smoothly—it's crucial for harmony in our home! When everyone respects the routine, it’s no longer a chore but a shared dance of care and creativity. Now, let’s keep painting this vision—how might we add those inspiring touches that make the routine feel like a joyful, shared ritual instead of just a habit? I’m so pumped to hear your ideas and keep crafting our beautiful home together! What playful twist could we add to our routine?",
+      "response": "OK, so umm....let's add some recreation in one day per week/",
+      "prediction": "Haha, I like the idea of a joyful ritual. We could make a chore chart with anime characters and give stamps for completed tasks.",
+      "scores": {
+        "wmd": 0.3457237878390661,
+        "sentence_similarity": 0.35567328333854675,
+        "normalized_length_similarity": 0.46875,
+        "history_similarity": 0.4596502482891083,
+        "bleu": 0.006980361417366381,
+        "ttr": 0.9259259259259259
+      }
+    },
+    {
+      "message": "Logically speaking, to maintain this balance between creativity and peace, would you prefer a flexible guideline for activity and quiet times that adapts to everyone's moods, or a more structured schedule that ensures predictability and order? Which approach do you think would better support our shared living harmony, and why?",
+      "response": "making rules that adapts to everyone's moods is better, cuz we need to live more relaxing.",
+      "prediction": "mmm... a flexible guideline. It's better to adapt to everyone's needs than being too strict.",
+      "scores": {
+        "wmd": 0.16383203843411417,
+        "sentence_similarity": 0.38645416498184204,
+        "normalized_length_similarity": 0.9782608695652174,
+        "history_similarity": 0.43691495060920715,
+        "bleu": 0.05667859235210572,
+        "ttr": 0.85
+      }
+    }
+  ]
+}

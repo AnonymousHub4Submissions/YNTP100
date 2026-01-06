@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:26",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re aiming for harmony AND creativity, how about we try a rotating schedule for quiet and active hours? That way, everyone gets their turn to be expressive or chill without stepping on anyone’s toes! What do you think? Would that make our ShareHouse vibe even more awesome?",
+            "response": "Exactly! We should emphasize the importance of balance and contrast.",
+            "prediction": "I think we should not make sounds from 10p.m. to 7a.m.",
+            "scores": {
+                "wmd": 0.41325997385186225,
+                "sentence_similarity": 0.19856713712215424,
+                "normalized_length_similarity": 0.7941176470588235,
+                "bleu": 0.018476860420522198,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.3862905502319336
+            }
+        },
+        {
+            "message": "Haha, friend, you’re totally spot on! Balance and contrast are the secret sauce that makes everything shine! By balancing quiet focus and lively energy, we keep our ShareHouse buzzing with creativity AND calm! So, let’s chat more about how we can sprinkle that perfect mix into our rotating schedule! What’s your ideal way to mix those chill and lively vibes? Haha, I’m all ears and super excited!",
+            "response": "By making the morning and evening hours quiet, and the daytime and early evening active, a natural daily rhythm can be established.",
+            "prediction": "I think we should allocate specific time frames for activity and rest.",
+            "scores": {
+                "wmd": 0.2770381486658147,
+                "sentence_similarity": 0.33294403553009033,
+                "normalized_length_similarity": 0.5343511450381679,
+                "bleu": 0.00734075896156551,
+                "ttr": 1.0,
+                "history_similarity": 0.5610029697418213
+            }
+        },
+        {
+            "message": "Oh... speaking of maintaining such a harmonious rhythm, I wonder if we might also consider some small yet thoughtful habits to keep our shared spaces as inviting and pleasant as that ideal schedule. I’m not being picky, but perhaps simple daily efforts—like tidying up immediately after ourselves or being mindful of shared supplies—could make a considerable difference, don’t you think? After all, little gestures build the overall quality and comfort we all cherish in our home, wouldn’t you agree?",
+            "response": "That's right. Just by consistently following simple rules like putting things back in their original place after use, you can maintain most of the order in your space.",
+            "prediction": "I think everyone should not make sounds after 10p.m.",
+            "scores": {
+                "wmd": 0.29656820167479575,
+                "sentence_similarity": 0.09109668433666229,
+                "normalized_length_similarity": 0.31137724550898205,
+                "bleu": 0.0027810065043728394,
+                "ttr": 1.0,
+                "history_similarity": 0.3207762539386749
+            }
+        },
+        {
+            "message": "Wow, such a fantastic flow of harmony and respect in our home already! Since we’re vibing so well with the energy of music filling our dream room, how do you feel about weaving in some peaceful, quiet moments by pausing the music—like gentle breaths in our artistic symphony—to help everyone focus or rest deeply when they need it? Would that balance inspire even greater creativity and calm?",
+            "response": "I agree that having quiet time is a good idea.",
+            "prediction": "I think we should not make sounds from 10p.m. to 7a.m.",
+            "scores": {
+                "wmd": 0.49575710975938425,
+                "sentence_similarity": 0.4505809247493744,
+                "normalized_length_similarity": 0.8518518518518519,
+                "bleu": 0.018476860420522198,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.3862905502319336
+            }
+        },
+        {
+            "message": "Your idea of balancing vibrant activity with restful pauses is very insightful. Logically speaking, if we were to design a weekend plan that combines learning new skills with relaxing downtime, what specific activities would you include to maximize both mental stimulation and proper rest? How would you allocate time between these to maintain that harmony we value here?",
+            "response": "In addition to rest, incorporating some light exercise will likely have a positive effect on both your physical and mental well-being.",
+            "prediction": "I think we should allocate the time into two halves. We can do something from 9am to 6pm, and then have a good rest from 6pm to 9am.",
+            "scores": {
+                "wmd": 0.2664465329092467,
+                "sentence_similarity": 0.22888648509979248,
+                "normalized_length_similarity": 0.9850746268656716,
+                "bleu": 0.017448767890681335,
+                "ttr": 0.8387096774193549,
+                "history_similarity": 0.47993528842926025
+            }
+        },
+        {
+            "message": "Let's analyze this: Your suggestion to add light exercise complements rest well, as it supports both physical health and mental clarity, fitting our balance goal. To return to my original question, what specific activities—combining rest, light exercise, and skill learning—would you propose for a weekend plan? Also, how would you distribute time across these to ensure optimal harmony and productivity?",
+            "response": "By dedicating 50% of your time to skill acquisition, 30% to rest, and 20% to exercise, and rotating these activities in small increments (skill acquisition, exercise, rest), you can maintain your focus and concentration.",
+            "prediction": "I think we should allocate the time into three clear periods: activity time, rest time, and skill-learning time.",
+            "scores": {
+                "wmd": 0.2605522723842535,
+                "sentence_similarity": 0.5094754695892334,
+                "normalized_length_similarity": 0.509090909090909,
+                "bleu": 0.009658576412639043,
+                "ttr": 0.8181818181818182,
+                "history_similarity": 0.5022604465484619
+            }
+        }
+    ]
+}

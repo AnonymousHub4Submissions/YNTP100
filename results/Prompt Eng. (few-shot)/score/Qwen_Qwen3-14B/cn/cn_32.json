@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:48",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！如果你突然中了一个亿，你第一件疯狂想做的事情是什么？别想太多现实的细节，尽情大胆说出你最疯狂的梦想吧！\nA. 看看如何理财可以收益最大化\n\nQ. 哈哈，朋友！理财也要快乐哦！那你还想变个什么超级英雄吗？\nA. 超级英雄？可以瞬移得超级英雄吧\n\nQ. 很有意思。接下来现实一点：这一个亿你打算怎么分配？比如投资、消费、储蓄大概各占多少比例？\nA. 投资10%消费5%储蓄85%\n\nQ. 哇，你这理性规划真是太棒了！不过告诉我，你追求这些目标的动力是什么？是因为心中那份坚定的理想和价值，还是更倾向于明确的数字和计划？艺术就是灵魂与理智的舞蹈，你怎么看？\nA. 明确的数字和计划。我对艺术不太了解\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈朋友，说到你之前提到制定详尽的计划和数字，太棒了！是什么让你这么坚持这些理性安排呢？是为了安全感、目标感，还是有别的特别理由？快告诉我你的秘密！",
+            "response": "有目标感会比较安心，我不喜欢突发情况",
+            "prediction": "为了安全感和目标感，我觉得这样能让我更安心地面对未来。",
+            "scores": {
+                "wmd": 0.7508927264653302,
+                "sentence_similarity": 0.8001354932785034,
+                "normalized_length_similarity": 0.6666666666666666,
+                "bleu": 0.027166383723579154,
+                "ttr": 0.9444444444444444,
+                "history_similarity": 0.7252466678619385
+            }
+        },
+        {
+            "message": "说到稳妥和秩序，我正想问……如果我们设计共享冰箱，你觉得是给每个人固定分区比较合理，还是按物品类别来划分更合适呢？我不是挑剔，但空间有限，大家都希望存放物品时既方便又不混乱。你觉得哪种安排更能让生活品质得到保障呢？",
+            "response": "每个人固定分区，这样比较公平",
+            "prediction": "给每个人固定分区比较合理",
+            "scores": {
+                "wmd": 0.40001941563005644,
+                "sentence_similarity": 0.8527123332023621,
+                "normalized_length_similarity": 0.8571428571428571,
+                "bleu": 0.3768499164492419,
+                "ttr": 1.0,
+                "history_similarity": 0.6063562631607056
+            }
+        },
+        {
+            "message": "哇，说到生活细节，咱们装修“梦想房间”时，面对实用和美观的矛盾，你会怎么拿捏呢？更偏向功能优化，把实用放在第一位，还是愿意为了艺术感适度妥协一点？艺术就是要找到那个完美平衡点，你怎么看？",
+            "response": "实用第一位",
+            "prediction": "功能优化，把实用放在第一位。我对艺术不太了解",
+            "scores": {
+                "wmd": 0.9657676089769784,
+                "sentence_similarity": 0.6719193458557129,
+                "normalized_length_similarity": 0.22727272727272727,
+                "bleu": 0.018476860420522198,
+                "ttr": 1.0,
+                "history_similarity": 0.7370222806930542
+            }
+        },
+        {
+            "message": "从生活细节来说，噪音和清洁这些因素确实会影响心情。我们能不能用一个具体的公约来规范，比如安静时间段或者轮流清洁安排？你觉得这样的规则怎么制定才更合理，既尊重彼此习惯又能保证效率？",
+            "response": "可以制定公约。公约的制定需要在了解大家自身作息的基础上协商确定",
+            "prediction": "可以设定固定的安静时间段，比如晚上10点到早上8点，避免大声说话或播放音乐。清洁方面可以轮流安排，比如每周每人负责一天的公共区域打扫，同时设立一个共享的清洁日历，大家都可以查看和提醒。这样既尊重了彼此的习惯，也能保证效率。",
+            "scores": {
+                "wmd": 0.8830049523656874,
+                "sentence_similarity": 0.73984694480896,
+                "normalized_length_similarity": 0.27927927927927926,
+                "bleu": 0.004123329557147326,
+                "ttr": 0.7878787878787878,
+                "history_similarity": 0.6932451725006104
+            }
+        }
+    ]
+}

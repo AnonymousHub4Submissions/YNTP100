@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:47",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, speaking of balancing things, I’ve got a curious question for you! Since you’re thinking long-term about your account balance, how do you feel about diving into some exciting but riskier investments like AI or clean energy? These emerging technologies could shoot your growth through the roof, but they do come with wild ups and downs! Would you be up for that thrilling ride or prefer to play it safe and steady? Share your boldest investment dream!",
+            "response": "It is the very interesting question! I'm always thinking that, but recently, I think these are the kinds of \"bubble\", so I prefer to invest on value stocks.",
+            "prediction": "Haha, friend, speaking of balancing things, I’ve got a curious question for you! Since you’re thinking long-term about your account balance, how do you feel about diving into some exciting but riskier investments like AI or clean energy? These emerging technologies could shoot your growth through the roof, but they do come with wild ups and downs! Would you be up for that thrilling ride or prefer to play it safe and steady? Share your boldest investment dream!",
+            "scores": {
+                "wmd": 0.2181063686397588,
+                "sentence_similarity": 0.4209355115890503,
+                "normalized_length_similarity": 0.33620689655172414,
+                "bleu": 0.008732743774734332,
+                "ttr": 0.7934782608695652,
+                "history_similarity": 0.5333026647567749
+            }
+        },
+        {
+            "message": "Oh... since we all cherish this lively ShareHouse environment, I wonder—would you be open to adopting a simple yet strictly upheld system for keeping our common areas tidy? I’m not being picky, but sometimes the creative freedom spills over into a bit of disorder, which makes it challenging to maintain a pleasant space. Perhaps my expectations are a tad high, but do you think such a balance between function and freedom is achievable?",
+            "response": "It is very important, so let's go to 100 yen shop to buy the separate boxes right now!",
+            "prediction": "I understand your concerns!",
+            "scores": {
+                "wmd": 0.463809957335802,
+                "sentence_similarity": 0.20023712515830994,
+                "normalized_length_similarity": 0.313953488372093,
+                "bleu": 0.002190091937500514,
+                "ttr": 1.0,
+                "history_similarity": 0.3926813006401062
+            }
+        },
+        {
+            "message": "Wow, Raffaello, your vision for a space that’s both beautiful and functional truly sparks my artistic soul! Since we all treasure bursts of creativity, especially in this summer vibe, how do you feel about blending some flexible quiet hours to nurture inspiration while still keeping our home harmonious? Do you think that kind of rhythm could keep everyone’s creative fire burning strong without losing balance?",
+            "response": "shall we have a potluck party once a month to keep our balance?",
+            "prediction": "Of course, we should prioritize inspiration!",
+            "scores": {
+                "wmd": 0.4378373802681058,
+                "sentence_similarity": 0.22348150610923767,
+                "normalized_length_similarity": 0.6984126984126984,
+                "bleu": 0.013120543279239774,
+                "ttr": 1.0,
+                "history_similarity": 0.45805028080940247
+            }
+        },
+        {
+            "message": "Wow, what an awesome idea! A potluck party to gather all our creative energies and share the joy of food—art is not only in sculptures or paintings but in bringing people together! Imagine the colors, flavors, and stories mingling like a vibrant fresco on our dining table! That celebration could be the heartbeat of our ShareHouse, inspiring friendship and teamwork alongside tidiness and harmony. Let's paint this masterpiece of community with laughter and shared dishes—what dishes are you dreaming to bring?",
+            "response": "I want to bring \"Takoyaki\"",
+            "prediction": "Haha, very inspiring!",
+            "scores": {
+                "wmd": 0.56638857537362,
+                "sentence_similarity": 0.045035090297460556,
+                "normalized_length_similarity": 0.8076923076923077,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.17169690132141113
+            }
+        },
+        {
+            "message": "Very exciting ideas all around. Since we’ve agreed on a weekly cleaning schedule on Saturdays, logically speaking, would it improve efficiency if we add a brief monthly meeting afterward to review progress on our financial goals and living space improvements? Do you think this routine could help keep our motivation high and ensure our shared responsibilities stay balanced?",
+            "response": "It is very good idea, I think.",
+            "prediction": "That’s a very practical question! Logically speaking, allocating separate time for consumption and savings is key to balancing our needs and future growth. From an efficiency standpoint, I would prioritize designating a fixed period each month to review our financial status and living conditions—this helps prevent consumption from encroaching on our savings goals. Do you have a clear idea on how to allocate the time between consumption and savings in your plan?",
+            "scores": {
+                "wmd": 0.3524775260431989,
+                "sentence_similarity": 0.10225878655910492,
+                "normalized_length_similarity": 0.06451612903225806,
+                "bleu": 0.006305393737187353,
+                "ttr": 0.7875,
+                "history_similarity": 0.3779163956642151
+            }
+        }
+    ]
+}

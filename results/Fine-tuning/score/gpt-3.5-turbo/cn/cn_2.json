@@ -1,0 +1,114 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:50:38",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，既然大家都觉得需要规则来维护公共空间卫生和使用公平，那我们是不是该一起讨论制定冰箱和共享空间的管理条例呢？你们觉得，怎样的规则才能既合理又让大家都开心，让我们的ShareHouse活力满满又干净整洁？快告诉我你的超级创意吧！",
+            "response": "我没意见，你去问Donatello",
+            "prediction": "谁来洗冰箱",
+            "scores": {
+                "wmd": 1.2644806180678667,
+                "sentence_similarity": 0.454328715801239,
+                "normalized_length_similarity": 0.29411764705882354,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.5492377877235413
+            }
+        },
+        {
+            "message": "哈哈，朋友！你也来出个主意嘛，一起玩才太棒了！快说说！",
+            "response": "冰箱我们一人一格",
+            "prediction": "好啊，咱们玩什么笑话接龙吧",
+            "scores": {
+                "wmd": 1.229300059886334,
+                "sentence_similarity": 0.4269706606864929,
+                "normalized_length_similarity": 0.6153846153846154,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.5869598388671875
+            }
+        },
+        {
+            "message": "哦……说到我们梦想中的房间设计，我一直在想，是不是应该更多地注重实用性，比如配备一个设备齐全的健身区？我不是挑剔，但是如果只是追求整体美感和整齐收纳，可能会牺牲了生活的实际便利。大家觉得呢？难道我们能在这两者之间找到一个既美观又实用的平衡点吗？",
+            "response": "实用一点，你们想放啥东西",
+            "prediction": "可以多花点钱换个大点的家，最好有健身房",
+            "scores": {
+                "wmd": 0.9894083599148388,
+                "sentence_similarity": 0.5396066904067993,
+                "normalized_length_similarity": 0.631578947368421,
+                "bleu": 0.018850319022747353,
+                "ttr": 1.0,
+                "history_similarity": 0.7209440469741821
+            }
+        },
+        {
+            "message": "嗯……我不是挑剔，但是或许我们可以先列个清单呢，这样才能更清楚每样东西的必要性呢？你觉得呢？那么，大家最希望先安排哪些实用物品呢？",
+            "response": "买只猫吧",
+            "prediction": "不用啥必要性，生活用品不重要，饮食和心情最重要",
+            "scores": {
+                "wmd": 1.2562814388138706,
+                "sentence_similarity": 0.38527995347976685,
+                "normalized_length_similarity": 0.17391304347826086,
+                "bleu": 0.0,
+                "ttr": 0.8461538461538461,
+                "history_similarity": 0.7481194138526917
+            }
+        },
+        {
+            "message": "哦……买猫这主意倒是有趣呢，不过我不是挑剔，但是猫咪的需求也要考虑周全，不然可能会影响整体环境呢。你觉得呢？",
+            "response": "养猫还好不会太影响环境。",
+            "prediction": "那你建议主人开窗户换换空气",
+            "scores": {
+                "wmd": 1.202223141679942,
+                "sentence_similarity": 0.5479563474655151,
+                "normalized_length_similarity": 0.9230769230769231,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.6627234816551208
+            }
+        },
+        {
+            "message": "哇，大家一起生活，最大的挑战肯定不少吧！你觉得我们在日常相处或环境维护上，最头疼的问题是什么？为了让这个家更艺术、更和谐，你愿意怎么参与改善呢？太棒了，期待你的灵感爆发！",
+            "response": "最头疼马桶。每个人上完厕所应该自己清理掉。",
+            "prediction": "我不知道，我没跟那么多人生活过",
+            "scores": {
+                "wmd": 1.1136197335141143,
+                "sentence_similarity": 0.5801717638969421,
+                "normalized_length_similarity": 0.7142857142857143,
+                "bleu": 0.0,
+                "ttr": 0.9090909090909091,
+                "history_similarity": 0.8296535611152649
+            }
+        },
+        {
+            "message": "既然说到共享空间，从理性角度分析，如果让你设计一个完美的共享生活环境，你会优先考虑哪些元素来提升整体的生活品质和舒适度？比如实用功能、空间布局或某种智能设备，你会怎么权衡？",
+            "response": "咖啡机",
+            "prediction": "省不省事？明明挺好的，非要搞复杂",
+            "scores": {
+                "wmd": 1.3156330705550727,
+                "sentence_similarity": 0.30682599544525146,
+                "normalized_length_similarity": 0.1875,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.748114824295044
+            }
+        },
+        {
+            "message": "让我们分析一下，咖啡机作为智能设备，提升效率和体验。接下来，空间布局如何优化？",
+            "response": "东西能收的都收起来，腾出空间",
+            "prediction": "沙发怎么放",
+            "scores": {
+                "wmd": 1.2266221971025326,
+                "sentence_similarity": 0.35998380184173584,
+                "normalized_length_similarity": 0.35714285714285715,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.5492377877235413
+            }
+        }
+    ]
+}

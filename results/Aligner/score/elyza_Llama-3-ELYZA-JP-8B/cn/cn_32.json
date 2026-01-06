@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "DPO",
+        "date": "2025-12-19 16:32:18",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses and output only the answer part."
+    },
+    "scores": [
+        {
+            "message": "哈哈朋友，说到你之前提到制定详尽的计划和数字，太棒了！是什么让你这么坚持这些理性安排呢？是为了安全感、目标感，还是有别的特别理由？快告诉我你的秘密！",
+            "response": "有目标感会比较安心，我不喜欢突发情况",
+            "prediction": "I'd be happy to help you edit the Question-Answer pair to make it sound more like a human's statement!\n\nHere is the edited version:\n\nQ: さっきの話で、計画を立てるのってすごく大事っていう話になったよね。なんであなたはそんなに計画を立てるのを好きなの？安全感や目標感もあるけど、他に何か特別な理由があるの？教えて！\n\nA: 実は、計画を立てることが昔から好きで、癖みたいになってるんだ。もちろん、安全感や目標感もあるけど、他にも理由がある。計画を立てることで、自分の不安や心配事を減らすことができるから。例えば、明日何をすべきか、明後日はどうするか、などを決めることで、心の平穏を保つことができる。だから、計画を立てることで、心を守ることができるんだ。",
+            "scores": {
+                "wmd": 1.181399584484408,
+                "sentence_similarity": 0.1766611784696579,
+                "normalized_length_similarity": 0.04580152671755725,
+                "bleu": 0.0,
+                "ttr": 0.3614864864864865,
+                "history_similarity": 0.335562139749527
+            }
+        },
+        {
+            "message": "说到稳妥和秩序，我正想问……如果我们设计共享冰箱，你觉得是给每个人固定分区比较合理，还是按物品类别来划分更合适呢？我不是挑剔，但空间有限，大家都希望存放物品时既方便又不混乱。你觉得哪种安排更能让生活品质得到保障呢？",
+            "response": "每个人固定分区，这样比较公平",
+            "prediction": "Here is the edited Question-Answer pair:\n\nWhen thinking about stability and order, I was wondering...... if we design a shared fridge, I think it's more reasonable to divide it by categories of items rather than assigning fixed zones to each person. I'm not trying to be picky, but space is limited and everyone wants to store their belongings in a way that's convenient and organized. Which arrangement do you think would better ensure a high quality of life?\n\nOriginal sentence structure and wording were preserved while making it sound more natural and conversational.",
+            "scores": {
+                "wmd": 1.281997771296706,
+                "sentence_similarity": 0.0718737468123436,
+                "normalized_length_similarity": 0.024518388791593695,
+                "bleu": 0.0,
+                "ttr": 0.43137254901960786,
+                "history_similarity": 0.0532342791557312
+            }
+        },
+        {
+            "message": "哇，说到生活细节，咱们装修“梦想房间”时，面对实用和美观的矛盾，你会怎么拿捏呢？更偏向功能优化，把实用放在第一位，还是愿意为了艺术感适度妥协一点？艺术就是要找到那个完美平衡点，你怎么看？",
+            "response": "实用第一位",
+            "prediction": "Here is the edited Question-Answer pair:\n\nWhen it comes to the details of daily life, how do you handle the conflict between practicality and aesthetics when designing your \"dream room\"? Would you prioritize functionality and put practicality first, or are you willing to make some compromises for artistic flair? I think finding that perfect balance is key to achieving your dream room. | In my opinion, when it comes to designing my daily life, practicality and aesthetics are both very important factors. To achieve my \"dream room\", I would take a neutral stance, balancing both practicality and aesthetics.\n\nI changed the language to make it sound more natural and conversational. I also added a few words to make the sentence structure more complexと流暢。",
+            "scores": {
+                "wmd": 1.2854813066635726,
+                "sentence_similarity": 0.1389661282300949,
+                "normalized_length_similarity": 0.0066050198150594455,
+                "bleu": 0.0,
+                "ttr": 0.3382899628252788,
+                "history_similarity": 0.28583309054374695
+            }
+        },
+        {
+            "message": "从生活细节来说，噪音和清洁这些因素确实会影响心情。我们能不能用一个具体的公约来规范，比如安静时间段或者轮流清洁安排？你觉得这样的规则怎么制定才更合理，既尊重彼此习惯又能保证效率？",
+            "response": "可以制定公约。公约的制定需要在了解大家自身作息的基础上协商确定",
+            "prediction": "Here is the edited Question-Answer pair:\n\n生活の細かい部分で、騒音や清潔さは確かに心情に影響を与えます。例えば、安静時間や清掃のスケジュールを決めることで、生活をより規律正しくすることができます。具体的には、夜は静かに過ごす時間帯を決めることで、夜遅くまでの騒音を避けることができますし、清掃の担当を決めることで、責任の所在が明確になります。例えば、共有部分の清掃は週に2回、各自が交代で行う、などです。",
+            "scores": {
+                "wmd": 1.1514294456455239,
+                "sentence_similarity": 0.19689610600471497,
+                "normalized_length_similarity": 0.13901345291479822,
+                "bleu": 0.0012188970814505835,
+                "ttr": 0.4742857142857143,
+                "history_similarity": 0.1973371058702469
+            }
+        }
+    ]
+}

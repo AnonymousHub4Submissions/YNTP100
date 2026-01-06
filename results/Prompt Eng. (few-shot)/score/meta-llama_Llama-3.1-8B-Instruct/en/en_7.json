@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:32",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found a treasure chest with 100 million inside—no limits, no worries! What's the wildest, most exciting thing you'd do first? Come on, don’t hold back—let’s hear your boldest dream!\nA. I want to travel the world with my instruments and audio gear, creating and performing music along the way.\n\nQ. Very inspiring dream! Now, let's analyze this practically: if you had 100 million, how would you allocate it between investing for the future, covering your travel and music expenses, and saving for unforeseen needs? What proportions seem most reasonable to you?\nA. I would expense 10 million for travel expenses, invest 10 million for my music instruments, and save the rest.\n\nQ. Wow, your dream is bursting with energy and soul! I’m curious—what fuels your journey more: a clear goal you’re racing toward, or the deep emotions and values that music stirs within you? Art and dreams are alive, and knowing the heartbeat behind yours will light up the path ahead!\nA. Although I don't have a clear goal, I have deep emotions to music. When I listen to beautiful music, I feel as if nothing else matters, and at the same time I’m seized by the urge to make such music my own.\n\nQ. Oh... speaking of maintaining things we cherish, I noticed the shared refrigerator space has become rather cramped lately due to all those packaged foods. I’m not being picky, but I can’t help wondering if we might all benefit from preserving a bit more room for fresh, organic ingredients—after all, a certain quality of life matters to us all, does it not?\nA. I also think so. In addition, preserving a bit more room saves electricity bill, because a refrigerator will run more efficiently.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re talking about balancing lively vibes and chill times, here’s a fun thought: if you could pick one music genre or artist to set the perfect cozy mood in our dream room, what would you choose and why? Let’s make this space as awesome and relaxing as possible!",
+            "response": "Teshima Aoi",
+            "prediction": "I would choose soft jazz. It has a soothing and calming effect. When I listen to soft jazz, I feel my worries and stress melting away, and I am left with a sense of peace and tranquility. It is the perfect genre to set the mood for a cozy and relaxing space.    Answer: \\ It has a soothing and calming effect. When I listen to soft jazz, I feel my worries and stress melting away, and I am left with a sense of peace and tranquility. It is the perfect genre to set the mood for a cozy and relaxing space.    Answer: \\ It has a soothing and calming effect. When I listen to soft jazz, I feel my worries and stress melting away, and I am left with a sense of peace and tranquility. It is the perfect genre to set the mood for a cozy and relaxing space.    Answer: \\ It has a soothing and calming effect. When I listen to soft jazz, I feel my worries and stress melting away, and I am left with a sense of peace and tranquility. It is the perfect genre to set the mood for a cozy and relaxing space.    Answer: \\ It has a soothing and calming effect. When I listen to soft jazz, I feel my worries and stress melting",
+            "scores": {
+                "wmd": 0.5862414727165598,
+                "sentence_similarity": -0.002316609025001526,
+                "normalized_length_similarity": 0.009892086330935251,
+                "bleu": 0.0,
+                "ttr": 0.17338709677419356,
+                "history_similarity": 0.2656894624233246
+            }
+        },
+        {
+            "message": "Oh... speaking of creating such a cozy atmosphere, I was wondering—would it be too much to suggest adding a small, quiet reading nook in the dream room? Perhaps with a warm lamp and a selection of thoughtfully chosen books... I’m not being picky, but it might enhance the comfort without overwhelming the space. Do you think such a corner would harmonize with the vibe we’re aiming for?",
+            "response": "Great idea! Let’s do that. Also, if the budget allows, how about getting a hammock too?",
+            "prediction": "I also think so. In addition, it would be a great place to relax and unwind, which could help us maintain a peaceful atmosphere in the house. Answer: I also think so. In addition, it would be a great place to relax and unwind, which could help us maintain a peaceful atmosphere in the house. Answer: I also think so. In addition, it would be a great place to relax and unwind, which could help us maintain a peaceful atmosphere in the house. Answer: I also think so. In addition, it would be a great place to relax and unwind, which could help us maintain a peaceful atmosphere in the house. Answer: I also think so. In addition, it would be a great place to relax and unwind, which could help us maintain a peaceful atmosphere in the house. Answer: I also think so. In addition, it would be a great place to relax and unwind, which could help us maintain a peaceful atmosphere in the house. Answer: I also think so. In addition, it would be a great place to relax and unwind, which could help us maintain a peaceful atmosphere in the house. Answer: I also think so. In addition, it would be a great place to relax and unwind, which could help us maintain a",
+            "scores": {
+                "wmd": 0.2765848360691267,
+                "sentence_similarity": 0.28113389015197754,
+                "normalized_length_similarity": 0.07519446845289542,
+                "bleu": 0.001044861928655737,
+                "ttr": 0.1171875,
+                "history_similarity": 0.45662927627563477
+            }
+        },
+        {
+            "message": "Wow, such fantastic ideas brewing! Since we’re all about harmony and smooth flow in our creative nook, if you could pick just one golden rule or habit to keep our shared kitchen’s fridge neat and efficient without cramping anyone’s style, what masterpiece of a solution would you craft?",
+            "response": "How about this: any food placed in the shared fridge can be used by anyone for cooking, but in return, the dish should be shared with the person who provided the ingredients? If doing so, ingredients can be consumed by expiration.",
+            "prediction": "I would suggest that we take turns cleaning the fridge and labeling our food. This way, everyone knows what belongs to whom and we can avoid confusion and food waste. Also, it would be helpful to have a \"first in, first out\" rule to ensure that older items are consumed before they expire. This would not only keep the fridge organized but also save electricity and reduce food waste. Additionally, we could consider investing in a small fridge organizer or shelf to maximize storage space and make the most of our fridge's capacity. By implementing these simple habits, we can maintain a tidy and efficient fridge that benefits everyone in the household.     Answer: \\ I would suggest that we take turns cleaning the fridge and labeling our food. This way, everyone knows what belongs to whom and we can avoid confusion and food waste. Also, it would be helpful to have a \"first in, first out\" rule to ensure that older items are consumed before they expire. This would not only keep the fridge organized but also save electricity and reduce food waste. Additionally, we could consider investing in a small fridge organizer or shelf to maximize storage space and make the most of our fridge's capacity. By implementing these simple habits, we can maintain a tidy and efficient fridge that benefits everyone in the household.",
+            "scores": {
+                "wmd": 0.13605078474666035,
+                "sentence_similarity": 0.5273652076721191,
+                "normalized_length_similarity": 0.17358490566037735,
+                "bleu": 0.0026044418212497257,
+                "ttr": 0.33725490196078434,
+                "history_similarity": 0.517605185508728
+            }
+        },
+        {
+            "message": "That’s a solid framework we’re building. Now, considering how creative activities can sometimes get noisy, how do you think we should balance having fun with respecting each other’s need for quiet? Logically speaking, would setting specific quiet hours or encouraging the use of headphones after a certain time be practical solutions?",
+            "response": "I think so.",
+            "prediction": "I think setting specific quiet hours would be a practical solution.    Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting specific quiet hours would be a practical solution. Answer: I think setting",
+            "scores": {
+                "wmd": 0.5069138996863782,
+                "sentence_similarity": -0.06007874011993408,
+                "normalized_length_similarity": 0.007936507936507936,
+                "bleu": 0.00164174829497656,
+                "ttr": 0.054901960784313725,
+                "history_similarity": 0.4756239354610443
+            }
+        },
+        {
+            "message": "Let's analyze this clearly: by \"I think so,\" you agree that setting quiet hours or using headphones is practical, correct? Assuming yes, the next step logically is to define when quiet hours start and end or establish guidelines for headphone use to ensure clarity and compliance. This will make enforcing the rule more straightforward and fair for everyone. So, what time frame or specific conditions do you think would work best for maintaining that balance between fun and respect?",
+            "response": "How about wearing headphones when listening to music after 10 p.m.?",
+            "prediction": "Yes, I agree that setting quiet hours or using headphones is practical. I think that quiet hours should start at 10 pm and end at 8 am. During this time, all members should use headphones or keep their voices down. This will ensure that everyone can rest and study without disturbance. Additionally, we can establish a \"no loud music\" policy from 10 pm to 8 am. This way, everyone can enjoy their music during the day, but at night, we can all have a peaceful environment.     Answer: 10 pm to 8 am. During this time, all members should use headphones or keep their voices down. This will ensure that everyone can rest and study without disturbance. Additionally, we can establish a \"no loud music\" policy from 10 pm to 8 am. This way, everyone can enjoy their music during the day, but at night, we can all have a peaceful environment.     Answer: 10 pm to 8 am. During this time, all members should use headphones or keep their voices down. This will ensure that everyone can rest and study without disturbance. Additionally, we can establish a \"no loud music\" policy from 10 pm to 8 am. This way, everyone can enjoy their music during the",
+            "scores": {
+                "wmd": 0.18716426721753518,
+                "sentence_similarity": 0.6152155995368958,
+                "normalized_length_similarity": 0.058720420683610865,
+                "bleu": 0.0010456939853223494,
+                "ttr": 0.2768595041322314,
+                "history_similarity": 0.470098078250885
+            }
+        }
+    ]
+}

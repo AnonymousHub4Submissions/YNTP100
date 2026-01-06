@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:32",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about balancing practicality and creativity here, if you could add just one cool thing to our dream room that would spark your art but still be super easy to take care of, what awesome element would you choose? Come on, share your creative spark!",
+            "response": "How about a projector? Of course it could be used like a display, but with projection mapping we could instantly make the whole room look so much more vibrant and lively!",
+            "prediction": "I'll install a large glass window of the room facing the beautiful music garden!",
+            "scores": {
+                "wmd": 0.24543447155241538,
+                "sentence_similarity": 0.43706947565078735,
+                "normalized_length_similarity": 0.47058823529411764,
+                "bleu": 0.005647588539668156,
+                "ttr": 0.9375,
+                "history_similarity": 0.5594186782836914
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse truly inspiring and harmonious, I was pondering—perhaps to better manage our shared spaces and fridge usage, would a weekly meeting to discuss chores and organization suit everyone, or might a shared online note be more considerate of our varying schedules? I'm not being picky, but balancing creative freedom with respectful tidiness seems essential, don't you think?",
+            "response": "I think it’s really important to speak up before frustrations pile up, so I like the idea! Since some things are harder to explain just in writing, I’d prefer us actually meeting to talk. And for anyone who can’t make it, we could always keep the results in a shared online note—so everyone stays in the loop.",
+            "prediction": "I think maintaining the ShareHouse's quality and the members' satisfaction is good. So, having a certain rule and keeping it seems reasonable.",
+            "scores": {
+                "wmd": 0.19640698798390088,
+                "sentence_similarity": 0.15207131206989288,
+                "normalized_length_similarity": 0.459546925566343,
+                "bleu": 0.004538050690176369,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.2960781157016754
+            }
+        },
+        {
+            "message": "Wow, as we’re shaping this amazing space, I had a thought—what if we had a quiet hour every evening dedicated just to creative work and restful calm? Do you think that would fuel our inspiration and help us reach those perfect artistic moments, or might it feel a bit too limiting for our free-flowing energy? I’m curious how such a rhythm could paint our daily lives here!",
+            "response": "I really think having time to focus on something by yourself is super important—especially when it comes to artistic things! Since we can be so active during the day, I feel like evenings are already enough, and actually that rhythm might make everything go even more smoothly~",
+            "prediction": "I think the quiet hour every evening would be quite nice because it gives us a good opportunity to reflect and recharge.",
+            "scores": {
+                "wmd": 0.1953888293778834,
+                "sentence_similarity": 0.4095422625541687,
+                "normalized_length_similarity": 0.4332129963898917,
+                "bleu": 0.004164861858662761,
+                "ttr": 1.0,
+                "history_similarity": 0.43175122141838074
+            }
+        },
+        {
+            "message": "Since we’re all invested in making this shared space truly our own, I’m interested in your thoughts: if you were to take charge of a small team project to bring your dream room idea to life, would you be willing to lead that effort and coordinate with others to ensure we balance creativity with practicality?",
+            "response": "Yeah, I think I’m pretty good at pulling things together with a balanced perspective, so I could definitely do it! Plus, being the leader means you get to handle the coordination part, but also guide the project just a little toward your own style—so it actually feels like a nice win, too!",
+            "prediction": "I'll be happy to lead the effort and balance the practical side with creative ideas!",
+            "scores": {
+                "wmd": 0.2314967670207884,
+                "sentence_similarity": 0.47510838508605957,
+                "normalized_length_similarity": 0.2896551724137931,
+                "bleu": 0.00135295844186854,
+                "ttr": 0.9411764705882353,
+                "history_similarity": 0.3893575668334961
+            }
+        }
+    ]
+}

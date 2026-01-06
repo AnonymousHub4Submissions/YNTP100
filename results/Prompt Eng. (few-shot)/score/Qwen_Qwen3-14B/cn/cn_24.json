@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:47",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 来吧朋友！如果你突然中了一个亿，别管现实怎么说，告诉我你一脑子里最疯狂最酷的梦想是什么？大胆说出来，让我们一起畅想未来！哈哈！\nA. 先满足自己的衣食住行，剩下的可能会将钱用于有需要的地方进行捐赠\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何具体分配？比如衣食住行、捐赠、还有储蓄或投资，大概各占多少比例？\nA. 衣服买自己春夏秋冬，吃遍各地美食，在喜欢的城市买一套自己的房子，买清洁能源的车子，可能会1半1半\n\nQ. 让我们分析一下：50%消费，50%投资捐赠合理。你怎么看？\nA. 好\n\nQ. 合理。消费满意生活，投资保障未来，捐赠体现责任感。\nA. 接下来需要我做什么\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！既然我们要把生活规则弄得更细致一点，你觉得我们应该优先考虑的是“整洁”、还是“自由”，或者“互相尊重”呢？来，大家大胆说说自己的想法，我们一起把ShareHouse变得太棒了！",
+            "response": "首先我们需要互相尊重，有了尊重以后我们才能享受各自的自由，有了约束的自由才能把房间变得整洁",
+            "prediction": "我觉得应该优先考虑“互相尊重”，因为只有大家互相尊重，才能在整洁和自由之间找到一个平衡点，让每个人都能舒服地生活。",
+            "scores": {
+                "wmd": 0.6834113626716078,
+                "sentence_similarity": 0.778307318687439,
+                "normalized_length_similarity": 0.7894736842105263,
+                "bleu": 0.033591335903431406,
+                "ttr": 0.8857142857142857,
+                "history_similarity": 0.752588152885437
+            }
+        },
+        {
+            "message": "说到尊重这个话题……如果共享空间里出现了噪音问题，你会选择主动沟通去解决呢，还是倾向于默默忍耐？我不是挑剔，只是觉得对这种日常干扰，大家坦诚交流或许更有助于维持良好的氛围，你觉得呢？",
+            "response": "沟通是解决问题的良药",
+            "prediction": "主动沟通去解决，因为这样可以避免误会，也能让大家都更清楚彼此的界限，营造更和谐的居住环境。",
+            "scores": {
+                "wmd": 1.0140708498584325,
+                "sentence_similarity": 0.6016096472740173,
+                "normalized_length_similarity": 0.2222222222222222,
+                "bleu": 0.007696339439306161,
+                "ttr": 0.8620689655172413,
+                "history_similarity": 0.7953301668167114
+            }
+        },
+        {
+            "message": "哇，说得太对了！既然我们都这么重视氛围和交流，那你有没有想过，假如可以给我们的梦想房间加一个特别的功能或装饰，你会选择什么呢？是那种实用又酷炫的高科技设备，还是充满艺术气息、能激发灵感的摆设？为什么？艺术就是要让生活充满惊喜和激情！",
+            "response": "我觉得1个互相沟通的桌子就好，我们可以互相沟通享受彼此的idea",
+            "prediction": "一个能根据心情和场景自动变换颜色和光线的智能墙壁，让房间的氛围随时匹配当下的情绪和活动，既实用又充满艺术感，能激发无限灵感！",
+            "scores": {
+                "wmd": 1.044329902650107,
+                "sentence_similarity": 0.3832135796546936,
+                "normalized_length_similarity": 0.5161290322580645,
+                "bleu": 0.006243702571093031,
+                "ttr": 0.8205128205128205,
+                "history_similarity": 0.7276954650878906
+            }
+        },
+        {
+            "message": "你们的想法很有趣，也让人思考如何在氛围与功能之间取得平衡。那么从理性的角度来说，你们如何在追求情感共鸣和高效生活之间分配资源？比如在资金使用或公共空间管理上，应该如何权衡情感投入与理性规划？",
+            "response": "总量/人数",
+            "prediction": "在资金使用上，我会优先保障基本生活需求，比如食物、住宿和交通，这部分大概占60%；然后将剩下的40%用于投资和储蓄，以确保未来的稳定。在公共空间管理上，我会注重清洁和秩序，同时也会留出一些灵活的空间用于大家的共同活动，比如一起做饭或者聚会，这样既能保持效率，也能增进感情。",
+            "scores": {
+                "wmd": 1.253603897405953,
+                "sentence_similarity": 0.3571743369102478,
+                "normalized_length_similarity": 0.03676470588235294,
+                "bleu": 0.0,
+                "ttr": 0.7317073170731707,
+                "history_similarity": 0.6391865611076355
+            }
+        },
+        {
+            "message": "让我们分析一下，你是问总资金还是总体人数？请具体说明。然后我们继续探讨资源分配。",
+            "response": "总资金/总人数分配",
+            "prediction": "我是问总资金的分配，不是人数。接下来需要我做什么？",
+            "scores": {
+                "wmd": 0.9582997355395445,
+                "sentence_similarity": 0.7205613851547241,
+                "normalized_length_similarity": 0.36,
+                "bleu": 0.028927969316143217,
+                "ttr": 0.9411764705882353,
+                "history_similarity": 0.7193783521652222
+            }
+        },
+        {
+            "message": "从逻辑上讲，总资金除以总人数，得出人均资金。你觉得怎样分配更合理？",
+            "response": "每个人得到人均",
+            "prediction": "按人均分配的话，我会把资金分成五份，每份2000万。然后根据每个人的需求和目标来分配。比如，有人可能更需要资金用于教育或创业，有人可能更倾向于投资或储蓄。这样可以根据每个人的具体情况来灵活分配，确保每个人都能得到最适合自己的资金支持。",
+            "scores": {
+                "wmd": 1.110618990594099,
+                "sentence_similarity": 0.5366992354393005,
+                "normalized_length_similarity": 0.05982905982905983,
+                "bleu": 0.0064355608314765845,
+                "ttr": 0.676056338028169,
+                "history_similarity": 0.486565500497818
+            }
+        }
+    ]
+}

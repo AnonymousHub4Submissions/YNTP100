@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:43",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Come on, friend! If you suddenly found yourself with 100 million, what’s the wildest, most fun thing you’d do first? Don’t hold back—let’s hear those boldest dreams! Haha!\nA. If I won 100 million, I would buy a small car.\n\nQ. Very interesting choice with the car! Now, let’s analyze this realistically: if you had 100 million, how would you allocate it? For example, what proportions would you set for investment, spending on fun like that car, and saving for the future?\nA. I will assign 50 million to investment, and use the rest of that on consumption.\n\nQ. Wow, your plan already feels like a masterpiece in progress! Now I’m curious—what lights the fire behind this dream of yours? Is it a clear goal you’re chasing with strong intention, or more of a deep value or feeling that drives you forward? Art, life, and dreams all have that special spark!\nA. Since I often regret not doing things, I try to act first before overthinking, so I won’t have regrets.\n\nQ. Oh... speaking of maintaining quality, I noticed our shared refrigerator has become quite cramped lately, mostly due to those packaged foods occupying much of the space. I’m not being picky, but perhaps we all value having room for fresh ingredients—that surely matters to our daily living comfort, does it not?\nA. What if we give everyone their own space and let them work out how to make things fit in it?\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since you’re all about design over pure functionality for your music club room and love tackling challenges, tell me—what kind of emotions do you want that space to spark during a live performance? Ready to share that vibe you’re dreaming of? Awesome!",
+            "response": "I want to create a space where people can discover music genres they didn’t know and expand their own world.",
+            "prediction": "I want the space to spark excitement, creativity, and a sense of community, making every performance feel like a unique and unforgettable experience.",
+            "scores": {
+                "wmd": 0.21030317646796626,
+                "sentence_similarity": 0.5570323467254639,
+                "normalized_length_similarity": 0.7248322147651006,
+                "bleu": 0.02019074850994527,
+                "ttr": 0.8518518518518519,
+                "history_similarity": 0.4608462154865265
+            }
+        },
+        {
+            "message": "Oh... considering how much effort and precision you pour into your artistic vision, do you find yourself preferring to handle complex design projects alone to ensure every detail meets your standards, or would you welcome collaboration with others whose skills might complement yours? I’m not being picky, but understanding this might help us foster a truly harmonious creative environment... What are your thoughts?",
+            "response": "There’s a limit to what one person can do, so I welcome collaboration with others where our skills complement each other.",
+            "prediction": "I prefer to work alone because I can ensure that every detail meets my standards.",
+            "scores": {
+                "wmd": 0.2846980394589587,
+                "sentence_similarity": 0.44495445489883423,
+                "normalized_length_similarity": 0.6694214876033058,
+                "bleu": 0.00991182656714021,
+                "ttr": 0.9375,
+                "history_similarity": 0.3267379403114319
+            }
+        },
+        {
+            "message": "Wow, teamwork truly feeds the soul of creation! Speaking of living together and sharing spaces, how do you feel about setting some clear guidelines on noise levels? It could help everyone focus and rest comfortably—because every masterpiece needs the right environment to flourish, right? What’s your take on balancing energy and quiet in a shared home?",
+            "response": "Extra stress gets in the way of creative work, so I want to keep things quiet at night as a rule.",
+            "prediction": "I think it's a good idea to set some guidelines, maybe have specific hours for quiet and others for more lively activities.",
+            "scores": {
+                "wmd": 0.2545089905777703,
+                "sentence_similarity": 0.5702270269393921,
+                "normalized_length_similarity": 0.7886178861788617,
+                "bleu": 0.011856660123276007,
+                "ttr": 0.96,
+                "history_similarity": 0.5228025317192078
+            }
+        },
+        {
+            "message": "Logically speaking, setting rules is one thing, but ensuring everyone follows them is another. Considering your proactive approach to avoid regrets and preference for acting first, how would you handle a situation where someone doesn’t respect the agreed-upon rules about cleanliness or noise?",
+            "response": "If it becomes a habitual behavior, I’d like to set up a discussion with everyone.",
+            "prediction": "I would address it directly and calmly, reminding them of the agreed rules and the importance of respecting shared spaces, and if needed, suggest a discussion to find a solution that works for everyone.",
+            "scores": {
+                "wmd": 0.20490492523007278,
+                "sentence_similarity": 0.506633996963501,
+                "normalized_length_similarity": 0.400990099009901,
+                "bleu": 0.017853738103790047,
+                "ttr": 0.8157894736842105,
+                "history_similarity": 0.3643936216831207
+            }
+        }
+    ]
+}

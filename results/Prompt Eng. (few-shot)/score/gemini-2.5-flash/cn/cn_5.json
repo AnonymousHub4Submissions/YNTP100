@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:57:14",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友们，说到共同生活，冰箱那块可不能马虎！如果我们给冰箱划分个人专属区域，每个人都能有属于自己的小天地，你觉得这样是最合理的吗？还是有什么妙招能让冰箱空间更公平更有序呢？快说说你的想法吧，太棒了！",
+      "response": "我觉得安人数大致平均分配冰箱面积比较好",
+      "prediction": "是的，我还是觉得个人专属区域最合理。这样每个人管理自己的空间会比较方便和公平。",
+      "scores": {
+        "wmd": 0.9541935353895691,
+        "sentence_similarity": 0.7466694116592407,
+        "normalized_length_similarity": 0.48717948717948717,
+        "history_similarity": 0.8335879445075989,
+        "bleu": 0.009970222994544455,
+        "ttr": 0.92
+      }
+    },
+    {
+      "message": "嗯……既然我们说到了冰箱的空间分配，我想顺便提一个关于整个房间清洁和维护的问题。毕竟生活环境如果不能保持整洁，视觉上也会显得杂乱无章。我不是挑剔，但是……你们觉得怎么安排‘梦想房间’的清洁和维护，才能既保持美观，又方便大家使用呢？我总觉得光靠大家自觉，恐怕难以达到理想状态呢。",
+      "response": "我觉得一人一天，大家轮流每天打扫比较好",
+      "prediction": "我之前提过安排值日表，可以落实到具体区域和时间，这样会更有效。",
+      "scores": {
+        "wmd": 1.0636916921169197,
+        "sentence_similarity": 0.605273962020874,
+        "normalized_length_similarity": 0.6129032258064516,
+        "history_similarity": 0.830403745174408,
+        "bleu": 0.011451997463067555,
+        "ttr": 0.95
+      }
+    },
+    {
+      "message": "哇，这个问题太现实又太艺术了！生活和创作需要空间的自由和安静的休息，两者怎么能完美共存呢？如果有人既想自由挥洒创意，又需要安静时光，你觉得我们该如何协调这两种看似冲突的需求，达到一个既尊重个人又维护整体和谐的状态呢？艺术就是找到平衡的魔法，对吧？",
+      "response": "自由挥洒创意时如果会影响到其他人或许可以不在公共区许而在私密空间进行呢",
+      "prediction": "我觉得之前提到的活动时段与安静时段安排表是个很好的方案，这样既能保障大家创作的自由，也能有各自需要的安静休息时间。",
+      "scores": {
+        "wmd": 1.0650674052570865,
+        "sentence_similarity": 0.5570842027664185,
+        "normalized_length_similarity": 0.6140350877192983,
+        "history_similarity": 0.8788127303123474,
+        "bleu": 0.005157142709886005,
+        "ttr": 0.8055555555555556
+      }
+    },
+    {
+      "message": "从逻辑上讲，既然打扫任务和创作需求都需要合理安排，我们是不是可以制定一个详细的值日表，不仅明确谁负责哪天的清洁，还能合理分配安静创作的时间和空间？你觉得这样做在实际操作中最关键的环节是什么？",
+      "response": "在已经有详细值日表的前提下，最关键的是要靠大家自觉吧",
+      "prediction": "我觉得最关键的环节是如何确保每个人都能严格遵守这个详细的安排表。",
+      "scores": {
+        "wmd": 0.872964830332625,
+        "sentence_similarity": 0.6383985877037048,
+        "normalized_length_similarity": 0.8125,
+        "history_similarity": 0.8750455379486084,
+        "bleu": 0.05993031480537873,
+        "ttr": 0.9473684210526315
+      }
+    }
+  ]
+}

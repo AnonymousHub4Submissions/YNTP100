@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:55",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Let’s play a fun game—if you suddenly got 100 million, what’s the wildest, most awesome thing you’d do first? Don’t hold back—dream big and bold, no need to be realistic!\nA. I would travel to several places in the world, with luxury and a brand new camera\n\nQ. Very exciting plan! Now, to think a bit more practically, how would you allocate that 100 million? For instance, what proportions would you set aside for investment, consumption, and savings? Let's analyze this with a clear strategy in mind.\nA. More practically, I would use half the money in material investments, like an apartment, and the other half I would set up for savings\n\nQ. Wow, your plan has such a strong foundation—a perfect mix of dreams and reality! Now, tell me, what really fuels your journey? Is your dream driven by a clear goal, like ticking off places on a list, or is it more about the feelings and values behind capturing those special moments? Art is in the motivation!\nA. I don't like the idea of just ticking things off a to-do list, I try to focus on experiences and enjoying as much as I can. I would focus on enjoying food, seeing different landscapes and trying new things, but without a need to do everything. It is more aobut the journey than about the destination.\n\nQ. Oh... speaking of enjoying food, I must admit the shared refrigerator’s space has become a bit... cramped lately with all these packaged foods. I’m not being overly particular, but it does limit room for fresh ingredients, which, I suppose, we all would prefer for maintaining a certain quality of life, wouldn’t we?\nA. Hey Raffaello, nice to meet you. Yes, I would rather have fresh ingredients in the fridge than just packaged foods. How is the cooking situation around here?\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re talking about keeping things balanced and fun, imagine if we planned a spontaneous weekend getaway together! What kind of unexpected local adventures or unique experiences would you want to throw into the mix to make it unforgettable? Come on, let’s dream big and bold!",
+            "response": "How about oging for a hike in the mountains? We can even camp there for a night. If the outdoors is not to everyones liking we could go do something like sky-diving!",
+            "prediction": "I would want to visit a local market or a hidden spot, and try new foods and drinks, and maybe even take a cooking class together.",
+            "scores": {
+                "wmd": 0.22195590107298127,
+                "sentence_similarity": 0.4579477906227112,
+                "normalized_length_similarity": 0.7878787878787878,
+                "bleu": 0.007868920995803982,
+                "ttr": 0.8275862068965517,
+                "history_similarity": 0.5113711357116699
+            }
+        },
+        {
+            "message": "Oh... since we are embracing the spirit of shared adventures, I wonder if you might be interested in a little ritual of ours—venturing together to the fresh produce market weekly to select the finest ingredients for a communal meal? I'm not being picky, but fresh, thoughtfully chosen foods do inspire creativity in the kitchen and beyond. Perhaps dishes with a Mediterranean flair, where simplicity meets elegance, would suit our refined tastes? What do you think about this little culinary tradition joining our spirited gatherings?",
+            "response": "Sounds great! Thank you for inviting me to join you in your tradition! I love Mediterranean food",
+            "prediction": "I'm really excited about this idea! It sounds like a great way to explore new places, experience new things, and enjoy delicious food together.",
+            "scores": {
+                "wmd": 0.3184249487477088,
+                "sentence_similarity": 0.5639550089836121,
+                "normalized_length_similarity": 0.6713286713286714,
+                "bleu": 0.00967763449717078,
+                "ttr": 0.9310344827586207,
+                "history_similarity": 0.41600704193115234
+            }
+        },
+        {
+            "message": "Wow, your vision of shared experiences is truly inspiring! Thinking of our living space—how important is it for you that the room sparks lively social moments versus offering a quiet sanctuary for reflection? Would you craft the space differently to capture those distinct moods, like sculpting two masterpieces from one block of marble?",
+            "response": "I would rather focus on only one purpose for the room. I think we should make it more social and for everyone, since we each have our own space in our bedrooms where we can be more reflective.",
+            "prediction": "I would craft the space differently to capture those distinct moods. For example, if I were to design the room, I would create a cozy corner for reading books or relaxing, and a lively area with a big table for socializing and sharing meals together.",
+            "scores": {
+                "wmd": 0.20580767227853983,
+                "sentence_similarity": 0.6802404522895813,
+                "normalized_length_similarity": 0.768,
+                "bleu": 0.014435323317567443,
+                "ttr": 0.76,
+                "history_similarity": 0.6234405636787415
+            }
+        },
+        {
+            "message": "Your enthusiasm for a lively social space is clear, which is excellent. However, logically speaking, when we face constraints like limited budget or space, this vision might require some compromises. How would you approach balancing function and aesthetics under such constraints? Would you prioritize creating a functional social hub, preserving aesthetic appeal, or seek a creative compromise that addresses both?",
+            "response": "I think the best aproach is to maintain a minimalist aesthetic, that gives us more room to adapt to the functionality we want to create. There should be a measurre of both, but we should do our best to fulfill the function with our limited resorces",
+            "prediction": "I would seek a creative compromise that addresses both. For example, we could use the space more efficiently by choosing multi-functional furniture, or using storage effectively to maintain a clean and organized environment.",
+            "scores": {
+                "wmd": 0.16159487810228843,
+                "sentence_similarity": 0.5097463130950928,
+                "normalized_length_similarity": 0.9032258064516129,
+                "bleu": 0.025874875930388185,
+                "ttr": 0.918918918918919,
+                "history_similarity": 0.6886070370674133
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-30 13:34:35",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we're thinking about sharing fridge space mostly for fresh foods but still wanting to keep room for packaged meals, how about we take it up a notch and plan a weekly group cooking session? We can prep fresh meals together, bond over some awesome cooking, and make sure everyone's food gets the space it deserves! What do you say, friend? Ready to cook up some fun and teamwork?",
+            "response": "Yeah, that sounds like a great idea!! I will love cooking together!",
+            "prediction": "I think that's a wonderful idea! Cooking meals together sounds like a fun and engaging thing to do! I am definitely ready to cook up some fun and teamwork!",
+            "scores": {
+                "wmd": 0.22126149466127387,
+                "sentence_similarity": 0.8371898531913757,
+                "normalized_length_similarity": 0.432258064516129,
+                "bleu": 0.044923985784159286,
+                "ttr": 0.7878787878787878,
+                "history_similarity": 0.46764105558395386
+            }
+        },
+        {
+            "message": "Oh… speaking of balancing utility and aesthetic in our living spaces, I wonder—if you had to choose, would you prefer furniture that is more multi-functional and space-saving, even if it might appear a bit simpler in design? I'm not being picky, but perhaps striking that balance is more delicate than it seems… What are your thoughts on this?",
+            "response": "Well...if we have limited space in our flat, I guess  I'd prefer furniture that is more multifunctional and space saving. That's life. However though, I think we could try to blast our creativity in other parts like decorations on the walls where we don't need to think about practicality.",
+            "prediction": "Well, if I had to choose, I think I would prefer furniture that is more multi-functional and space-saving, even if it might appear a bit simpler in design. I think it's because I live in a small space, so I think I would benefit more from furniture that is space-saving.  If I had the option to choose, however, I would like furniture that is a little bit more aesthetic because I think furniture that is nice to look at can uplift our mood and stimulate creativity.",
+            "scores": {
+                "wmd": 0.09989428725404513,
+                "sentence_similarity": 0.7215204238891602,
+                "normalized_length_similarity": 0.6201716738197425,
+                "bleu": 0.06659400041214483,
+                "ttr": 0.53125,
+                "history_similarity": 0.4257326126098633
+            }
+        },
+        {
+            "message": "Wow, your sense of balance really inspires me! Since we all thrive on different energies—some lively and some peaceful—how would you feel about setting special ‘quiet hours’ during the day where the whole house embraces calm and low noise? Could this rhythm help us all find that perfect flow between a vibrant buzz and soothing focus?",
+            "response": "I think that is a great idea, because even if we like each other and have fun spending time together, it is also important that we get some time to ourselves in privacy so that we can think deeply and focus on personal needs.",
+            "prediction": "Yes, I think setting special 'quiet hours' would be a nice thing to do so that we can all thrive in an environment that we feel safe and comfortable. I do believe that would help us find a nice balance between the vibrant and the soothing.",
+            "scores": {
+                "wmd": 0.11550555352862257,
+                "sentence_similarity": 0.277642160654068,
+                "normalized_length_similarity": 0.9414225941422594,
+                "bleu": 0.0733506050785594,
+                "ttr": 0.78,
+                "history_similarity": 0.494599312543869
+            }
+        },
+        {
+            "message": "Logically speaking, since we all value both comfort and functionality in our long-term home, if you could select one improvement that would make your ideal room perfect in terms of comfort, what would that be? How do you see it enhancing our shared living experience?",
+            "response": "Maybe I would get a comfortable big sofa for the five us to share in the living room so we could have some quality time together there  - perhaps watch a movie together or just drink and talk. Shared hammock was a great idea but I figured we won't be able to use it together.",
+            "prediction": "If I could select one improvement that would make my ideal room perfect in terms of comfort, it would be a nice cozy couch. I believe it will enhance our shared living experience because we can have more quality time together to have conversations, watch movies, or just eat lunch.",
+            "scores": {
+                "wmd": 0.158349297093642,
+                "sentence_similarity": 0.5739055871963501,
+                "normalized_length_similarity": 0.9786476868327402,
+                "bleu": 0.028047065698104365,
+                "ttr": 0.8727272727272727,
+                "history_similarity": 0.5475186109542847
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:02",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，聊到这儿，我忍不住想问问大家，关于咱们共享厨房呢！你们觉得咱们是要买菜分摊，大家一起做饭更有团队感，还是每个人负责自己的食材，互不干涉更自由？来吧，大胆说说你的想法，咱们一起把厨房变成大家都爱呆的地方！太棒了！",
+            "response": "还是倾向于每个人负责自己的食材吧，食物上共享可能会引起一些不同口味的人的接受不了",
+            "prediction": "Oh, guys! I'm really excited to share my thoughts about our shared kitchen! I think we should buy ingredients in bulk and divide them among ourselves. Cooking together can definitely bring a sense of team spirit and make the experience more enjoyable. Plus, everyone can learn from each other's cooking techniques and share recipes. How about we make our kitchen a place where everyone feels welcome and loves to hang out?",
+            "scores": {
+                "wmd": 1.2791741148423725,
+                "sentence_similarity": 0.22546517848968506,
+                "normalized_length_similarity": 0.0947867298578199,
+                "bleu": 0.0,
+                "ttr": 0.42483660130718953,
+                "history_similarity": 0.08739231526851654
+            }
+        },
+        {
+            "message": "哦……说到梦想房间呢，我不是挑剔，但是总觉得光有放松娱乐或学习工作还不够，或许还需要一个既能独处深思，又能偶尔社交的小空间。这种空间既不过于吵闹，也不会太孤单。也许是我期望过高了，不过大家心中理想的“梦想房间”里，最重要的功能到底是什么呢？你觉得呢？",
+            "response": "功能不需要复杂，既有个人独有的隐私区域，也有增加大家交流的公共区域",
+            "prediction": "Ahahah! Welcome to our share house! I'm excited to meet you. As you mentioned, a \"dream room\" sounds like a fascinating concept. In our house, we value individuality and creativity. We think that each member has their own unique space where they can relax, think deeply, and sometimes socialize with others. For us, the most important function of a \"dream room\" is actually \"intimacy\" - the ability to be oneself without fear of judgment or distraction. What do you think?",
+            "scores": {
+                "wmd": 1.2781195323866683,
+                "sentence_similarity": 0.017451751977205276,
+                "normalized_length_similarity": 0.06991525423728813,
+                "bleu": 0.0,
+                "ttr": 0.40555555555555556,
+                "history_similarity": 0.005823885090649128
+            }
+        },
+        {
+            "message": "哇，你们对空间的理解真是太有深度了！说到创作时的噪音问题，你觉得通过合理的时间安排，还是建立专属的静音空间，哪个方法更符合艺术家的专注需求呢？或者你有什么更酷的解决方案，能让创作激情和环境和平共处？艺术就是要找到完美的平衡！",
+            "response": "静音空间吧。",
+            "prediction": "Hi everyone! I'm excited to join this share house and work together with talented artists like DaVinci, Donatello, Michelangelo, and Raffaello.\n\nRegarding the noise issue during creative work, I think it's crucial to find a balance between reasonable time scheduling and dedicated quiet spaces. Perhaps we can divide the space into different areas, such as a quiet room for focused work and a collaborative space for brainstorming.\n\nAs artists, we understand that inspiration can come from anywhere, and sometimes it requires a change of environment to stimulate creativity. So, let's work together to find a solution that meets our artistic needs and ensures a harmonious coexistence with our environment.\n\nWhat do you think?",
+            "scores": {
+                "wmd": 1.2461591843779818,
+                "sentence_similarity": 0.023364027962088585,
+                "normalized_length_similarity": 0.008264462809917356,
+                "bleu": 0.0,
+                "ttr": 0.3614457831325301,
+                "history_similarity": 0.18593822419643402
+            }
+        },
+        {
+            "message": "说到公共区域，生活品质很大程度上取决于维护细节。你们觉得我们该如何合理分配这些清洁与维护的责任？是轮流来承担，还是根据个人习惯和时间安排做更细致的分工？从效率和公正角度看，哪个方案更合理？",
+            "response": "公平角度更重要",
+            "prediction": "As a new resident, I think it would be reasonable to divide the responsibilities of cleaning and maintaining the common areas based on each member's habits and schedule. For example, DaVinci is a meticulous person, so he might be responsible for the living room and kitchen. Donatello is a bit messy, but he is also very creative, so he might be responsible for the art studio. Michelangelo is a perfectionist, so he might be responsible for the bathroom and shower. Raffaello is a bit lazy, but he is also very social, so he might be responsible for the living room and common spaces. This way, each member can contribute their strengths and weaknesses to the household chores, and it would be more efficient and fair.",
+            "scores": {
+                "wmd": 1.3011159746647791,
+                "sentence_similarity": 0.02626935765147209,
+                "normalized_length_similarity": 0.009735744089012517,
+                "bleu": 0.0,
+                "ttr": 0.27715355805243447,
+                "history_similarity": 0.09799269586801529
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:37",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈朋友，说到你之前提到制定详尽的计划和数字，太棒了！是什么让你这么坚持这些理性安排呢？是为了安全感、目标感，还是有别的特别理由？快告诉我你的秘密！",
+            "response": "有目标感会比较安心，我不喜欢突发情况",
+            "prediction": "我可能只是想活得轻松一些",
+            "scores": {
+                "wmd": 1.0800572293597548,
+                "sentence_similarity": 0.5645672082901001,
+                "normalized_length_similarity": 0.6666666666666666,
+                "bleu": 0.018653567503517977,
+                "ttr": 1.0,
+                "history_similarity": 0.6633760333061218
+            }
+        },
+        {
+            "message": "说到稳妥和秩序，我正想问……如果我们设计共享冰箱，你觉得是给每个人固定分区比较合理，还是按物品类别来划分更合适呢？我不是挑剔，但空间有限，大家都希望存放物品时既方便又不混乱。你觉得哪种安排更能让生活品质得到保障呢？",
+            "response": "每个人固定分区，这样比较公平",
+            "prediction": "定下一个固定的分区似乎是个更好的想法，大家都知道自己的地方，不妨碍到其他人就可以了。",
+            "scores": {
+                "wmd": 0.9589320442980703,
+                "sentence_similarity": 0.740479588508606,
+                "normalized_length_similarity": 0.3333333333333333,
+                "bleu": 0.009186672262412125,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.7699282169342041
+            }
+        },
+        {
+            "message": "哇，说到生活细节，咱们装修“梦想房间”时，面对实用和美观的矛盾，你会怎么拿捏呢？更偏向功能优化，把实用放在第一位，还是愿意为了艺术感适度妥协一点？艺术就是要找到那个完美平衡点，你怎么看？",
+            "response": "实用第一位",
+            "prediction": "实用与美观中间把握是个细致的问题，可能在大家共同生活的环境下，实用些更好，毕竟是每天都要面对的地方，太难看也不好",
+            "scores": {
+                "wmd": 1.1964819406450453,
+                "sentence_similarity": 0.43658268451690674,
+                "normalized_length_similarity": 0.08928571428571429,
+                "bleu": 0.005011724662824517,
+                "ttr": 0.8108108108108109,
+                "history_similarity": 0.7860753536224365
+            }
+        },
+        {
+            "message": "从生活细节来说，噪音和清洁这些因素确实会影响心情。我们能不能用一个具体的公约来规范，比如安静时间段或者轮流清洁安排？你觉得这样的规则怎么制定才更合理，既尊重彼此习惯又能保证效率？",
+            "response": "可以制定公约。公约的制定需要在了解大家自身作息的基础上协商确定",
+            "prediction": "我觉得如果大家在搬进来时签约，同意遵守一些基本规则，这样如何如何，应该是有约束作用。",
+            "scores": {
+                "wmd": 0.9459532824284769,
+                "sentence_similarity": 0.5315035581588745,
+                "normalized_length_similarity": 0.7380952380952381,
+                "bleu": 0.009970222994544455,
+                "ttr": 0.88,
+                "history_similarity": 0.6869953274726868
+            }
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:49",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. さあさあ友達！もし突然一億円が手に入ったら、ただのお金の使い道を超えて、心から熱くなれる夢や願いは何？君の本当の情熱や、ずっと心に秘めてきた想いを教えてよ！ハハ、聞かせてくれ！\nA. まずは安全資産に投資したいかな\n\nQ. ハハ！安全第一は最高だね！でも友達、その夢の裏にある熱い想いも教えて！\nA. 熱い思いはないかもしれない\n\nQ. とても堅実な選択ですね。では現実的に考えてみましょう。その一億円を投資や貯蓄に回す場合、どのくらいの割合でリスク資産と安全資産に分けたいですか？また、資産管理において最も重視するポイントは何でしょうか？\nA. 5割くらいで安全資産かな\n\nQ. 分析してみましょう。安全資産50％はリスク分散に適切です。残りは？\nA. 残りは遊びに使うよ\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、それで調和を大切にしたいって話だけど、前に話してたキャンプ場でのイベント、もっと実用的にみんなが快適に過ごせる工夫を考えてみたいんだ！友達、どんな具体的なアイデアがあると思う？たとえば、どんな設備やルールがあったら最高に楽しい＆便利になるかな？教えてくれよ！",
+            "response": "逆にどんなのがいいと思う？",
+            "prediction": "（回答）遊びに使うよ。",
+            "scores": {
+                "wmd": 0.9204264023309479,
+                "sentence_similarity": 0.6629196405410767,
+                "normalized_length_similarity": 0.8461538461538461,
+                "bleu": 0.024512401940754224,
+                "ttr": 1.0,
+                "history_similarity": 0.7330917119979858
+            }
+        },
+        {
+            "message": "ハハ！逆質問も最高だ！快適さなら日よけや夜の灯りが欲しいかな！さあ、他に何かアイデアは？",
+            "response": "美味しい料理を持ち寄りたいね",
+            "prediction": "遊びに使うよ",
+            "scores": {
+                "wmd": 1.0982889931661988,
+                "sentence_similarity": 0.6083347797393799,
+                "normalized_length_similarity": 0.42857142857142855,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7228291034698486
+            }
+        },
+        {
+            "message": "ああ...そうですね、みんなで美味しい料理を楽しむのは素敵ですが、実は冷蔵庫の共有ルールが少し曖昧なところがあって...。例えば、誰が何を置くか、保存期間の目安なんかが決まっていたら、食材が無駄にならずに済むと思うんですけど、そういう具体的なルールについて皆さんはどうお考えでしょうか？別に潔癖症なわけじゃないんだけど、みんなが快適に使えるためには少し整理整頓の工夫が必要かなと感じていて...。",
+            "response": "前にその話はしたよね？",
+            "prediction": "私は、冷蔵庫の共有ルールを決めることが大切だと思います。例えば、誰が何を置くかや保存期間の目安を決めることで、食材が無駄にならずに済むと考えます。実際、潔癖症なわけではないのですが、みんなが快適に使えるためには少し整理整頓の工夫が必要と感じています。",
+            "scores": {
+                "wmd": 0.9421168167693995,
+                "sentence_similarity": 0.3786303400993347,
+                "normalized_length_similarity": 0.088,
+                "bleu": 0.002694212814112345,
+                "ttr": 0.65,
+                "history_similarity": 0.4269099235534668
+            }
+        },
+        {
+            "message": "ああ、確かに以前少し話したかもしれないね。でも、僕の期待が高すぎたのかもね。もう少し具体的に考えたいんだけど、どう思う？",
+            "response": "具体的な取り決めも決めたよ、覚えてない？",
+            "prediction": "残りは遊びに使うよ",
+            "scores": {
+                "wmd": 0.9797364217102565,
+                "sentence_similarity": 0.6328387260437012,
+                "normalized_length_similarity": 0.45,
+                "bleu": 0.01501861529550426,
+                "ttr": 1.0,
+                "history_similarity": 0.7468106746673584
+            }
+        },
+        {
+            "message": "わあ、本当に素晴らしい提案だと思うよ！楽しいイベントのときでも、みんながルールを守りながら盛り上がれる工夫って何かあるかな？たとえば、ゲーム感覚でルールを守るチャレンジを取り入れたり、みんなが楽しく協力できるようなアイディアがあったら教えてほしいな！君のクリエイティビティ、待ってるよ！",
+            "response": "特に思いつかないかも",
+            "prediction": "遊びに使うよ",
+            "scores": {
+                "wmd": 1.0562456776777367,
+                "sentence_similarity": 0.6051612496376038,
+                "normalized_length_similarity": 0.6,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7228291034698486
+            }
+        },
+        {
+            "message": "わあ、そんな時もあるよね！でも君の意見があれば最高だ！他に何か気になることは？",
+            "response": "予算はどれくらいにする？",
+            "prediction": "安全資産に投資したいかな、熱い想いはないかもしれない、5割くらいで安全資産かな、残りは遊びに使うよ。",
+            "scores": {
+                "wmd": 0.853963809393697,
+                "sentence_similarity": 0.5790648460388184,
+                "normalized_length_similarity": 0.24,
+                "bleu": 0.007205335066302803,
+                "ttr": 0.7058823529411765,
+                "history_similarity": 0.7237514853477478
+            }
+        },
+        {
+            "message": "わあ！予算の設定は大事だね！きみはどれくらいを考えてる？それを教えてくれたら、最高のアイディアを提案するよ！そうだ、イベントのテーマも決めようか！",
+            "response": "一人1万円くらいでどう？",
+            "prediction": "5割くらいで考えてるよ！遊びに使うよ！",
+            "scores": {
+                "wmd": 0.7992631026304899,
+                "sentence_similarity": 0.6145455241203308,
+                "normalized_length_similarity": 0.631578947368421,
+                "bleu": 0.03285702044797773,
+                "ttr": 0.8461538461538461,
+                "history_similarity": 0.6904441714286804
+            }
+        },
+        {
+            "message": "とても良いスタートですね。ここで少し分析してみましょう。シェアハウスにはいろいろな生活スタイルや価値観を持つ人がいますが、予算やイベントのテーマを決める際に、どうすればみんなが快適で調和の取れた環境を作れると思いますか？具体的には、どのような配慮やルールが必要だと考えますか？",
+            "response": "思いやりじゃない？",
+            "prediction": "遊びに使うよ、残り50％は。",
+            "scores": {
+                "wmd": 1.055927523131094,
+                "sentence_similarity": 0.5567046403884888,
+                "normalized_length_similarity": 0.6428571428571429,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.6699723601341248
+            }
+        }
+    ]
+}

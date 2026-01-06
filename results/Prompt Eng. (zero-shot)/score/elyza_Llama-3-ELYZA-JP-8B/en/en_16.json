@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:27:53",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we're aiming for a heart-pounding, lively room that's also super easy to keep clean, how about we bring in some modular furniture or nifty storage solutions? They can be rearranged on a whim and make tidying up a breeze! What do you think? Any fun ideas on how to mix style and easy maintenance?",
+            "response": "Let's do this on a rotating duty system and work together.",
+            "prediction": "I love that idea! Modular furniture and nifty storage solutions can definitely help create a space that's both stylish and practical. For example, we could use stackable containers or hanging organizers to maximize vertical space and keep the floor clear. Plus, if we use a combination of different textures and colors, it'll add visual interest to the room. How about we also incorporate some plants or artwork to give the space a touch of personality?\n\n    Please note that the response should be written in a friendly and casual tone, and should include suggestions and ideas for the room's design and layout.",
+            "scores": {
+                "wmd": 0.27179946182995907,
+                "sentence_similarity": 0.047674454748630524,
+                "normalized_length_similarity": 0.09477124183006536,
+                "bleu": 0.0022355476119537724,
+                "ttr": 0.7017543859649122,
+                "history_similarity": 0.38860008120536804
+            }
+        },
+        {
+            "message": "Ah... since we all value a lively atmosphere, yet also need moments of calm to focus on our work, perhaps we could consider setting specific times for creative bursts and quieter periods for concentration? I’m not being picky, but finding the right balance might truly enhance our shared living experience. What times or activities do you think we should prioritize for each?",
+            "response": "The comfortable lives of everyone should be prioritized above all else.",
+            "prediction": "Please provide your response.",
+            "scores": {
+                "wmd": 0.30725156393227654,
+                "sentence_similarity": 0.17665165662765503,
+                "normalized_length_similarity": 0.4084507042253521,
+                "bleu": 0.013249284136531224,
+                "ttr": 1.0,
+                "history_similarity": 0.2229389101266861
+            }
+        },
+        {
+            "message": "Ah... your emphasis on prioritizing everyone’s comfort is... quite admirable, truly. Comfort, after all, is the foundation of a harmonious home. Yet, I wonder if, in focusing solely on comfort, we might be overlooking the subtle needs for both inspiration and productivity that also bring fulfillment. Perhaps my expectations are too high, but I believe a delicate balance between ease and meaningful engagement would serve us best. Returning to our earlier thought... how do you envision us blending moments of lively socializing with times of peaceful focus, in a way that everyone’s comfort is respected?",
+            "response": "One should not have too high expectations, and I want to interact with a gentle attitude.",
+            "prediction": "That's a great point, DaVinci! Indeed, comfort is the foundation of a harmonious home, but it's equally important to strike a balance between comfort, inspiration, and productivity. In our share house, I propose that we create a \"Zone\" system. For example, living room can be a socializing zone, while the library or study area can be a productive zone, and so on. Each zone can be designed to accommodate different needs and preferences, allowing us to seamlessly switch between different modes. This way, we can ensure that everyone's comfort is respected while also fostering a sense of community and engagement.",
+            "scores": {
+                "wmd": 0.24390119482974498,
+                "sentence_similarity": 0.2704653739929199,
+                "normalized_length_similarity": 0.14471544715447154,
+                "bleu": 0.0041074232820922495,
+                "ttr": 0.639344262295082,
+                "history_similarity": 0.40985652804374695
+            }
+        },
+        {
+            "message": "Ah... I appreciate your reminder about tempering expectations; indeed, realism gently guides harmony. Your desire for gentle interaction is... quite thoughtful. Perhaps, then, we might approach our shared plans with kindness and patience, allowing flexibility for each person's mood and needs... I hope that is not too vague, though. Returning to our earlier discussion, might you share your thoughts on how we can create an environment blending gentle social moments with respectful quiet? Your perspective would truly enrich our delicate balance...",
+            "response": "Since we have to decide by talking, I'd like to align everyone's opinions.",
+            "prediction": "- I completely agree with your approach. To create an environment blending gentle social moments with respectful quiet, I suggest we set aside dedicated time for socializing and relaxation. For example, we could have a shared dinner time or a quiet evening time. This way, each person can have a chance to socialize or relax according to their mood and needs.",
+            "scores": {
+                "wmd": 0.22539621925404563,
+                "sentence_similarity": 0.18714632093906403,
+                "normalized_length_similarity": 0.20612813370473537,
+                "bleu": 0.007735960759051276,
+                "ttr": 0.75,
+                "history_similarity": 0.44825980067253113
+            }
+        },
+        {
+            "message": "Wow, your vision for harmony truly inspires me! Since we’re all sharing this living space, would you be open to setting up regular little gatherings—like weekly ‘fridge check’ sessions—to keep our fresh ingredients and our spirits tidy and fair for everyone? It feels to me like a small act of collective care that could blossom into something beautiful! What do you think?",
+            "response": "Since we're living together, I think there will be some frustrations and things we have to put up with, but let's share and work through them. It's not good to unfairly force a burden on someone.",
+            "prediction": "I completely agree with your idea! In fact, I was thinking about something similar. It's really important to keep our living space organized and clean, not just for personal comfort but also for the well-being of the house itself. Weekly 'fridge check' sessions could be a great way to bond and maintain harmony within the house. Let's definitely set up a schedule and make it a habit!",
+            "scores": {
+                "wmd": 0.1524032277262986,
+                "sentence_similarity": 0.23696112632751465,
+                "normalized_length_similarity": 0.5064935064935064,
+                "bleu": 0.020467716305851664,
+                "ttr": 0.8051948051948052,
+                "history_similarity": 0.32158738374710083
+            }
+        },
+        {
+            "message": "Logically speaking, creating an environment that uplifts everyone’s mood is beneficial. If we had the chance to decorate our shared space with small, low-maintenance art pieces that brighten the room, would you prefer to contribute your own work or help select pieces together? How do you think this could impact our collective atmosphere?",
+            "response": "Let's go shopping together to decide. If someone really dislikes that art, we should avoid it.",
+            "prediction": "Please provide your response.",
+            "scores": {
+                "wmd": 0.38173182825684704,
+                "sentence_similarity": 0.09409050643444061,
+                "normalized_length_similarity": 0.30851063829787234,
+                "bleu": 0.0026749843330874786,
+                "ttr": 1.0,
+                "history_similarity": 0.2229389101266861
+            }
+        }
+    ]
+}

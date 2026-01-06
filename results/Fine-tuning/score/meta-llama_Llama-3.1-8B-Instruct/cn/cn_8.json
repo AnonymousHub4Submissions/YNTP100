@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:38",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，说到大家的个性和喜好，刚才你提到你喜欢动漫风格的房间设计！那要是我们基于某个具体动漫主题来举办一个小型聚会，你最想挑哪个动画呢？快大胆说说你的选择和理由，让我们一起嗨翻这个ShareHouse吧！",
+            "response": "我的话，最喜欢的海贼王。因为这个动漫让我又哭又笑的，对我影响很大。",
+            "prediction": "我非常偏向于Star Trek，因为它的科技梦想让人感到闪闪发光的希望。我非常尊重这样的梦想，因为在现实中我们每个人都要面对那么多的困难和挑战。为了突破这些困难，我觉得每个人都需要有一丝勇气和梦想的勇气。",
+            "scores": {
+                "wmd": 0.8953385440133211,
+                "sentence_similarity": 0.7520150542259216,
+                "normalized_length_similarity": 0.3235294117647059,
+                "bleu": 0.005266775906963349,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.6455549597740173
+            }
+        },
+        {
+            "message": "哦……说到布置共享空间，我一直在想，要是我们能找到一种方式，既能让大家方便使用，又能体现各自的喜好，同时保持整洁该多好呢？我不是挑剔，但如果环境太凌乱，恐怕大家的好心情也难以持续。难道大家不觉得一个既美观又实用的空间，对我们这样多元的ShareHouse来说是必须的吗？",
+            "response": "我觉得对于sharehouse来说，必须的应该是实用吧。美观的话，得看具体的住户了，如果大家有这方面的需求的话，那我们就一起努力想办法，让它在实用的基础上变得更加美观吧。I'm in。",
+            "prediction": "我非常支持，因为我们每个人都希望在家呆的舒服。",
+            "scores": {
+                "wmd": 0.9487671456972697,
+                "sentence_similarity": 0.6359748244285583,
+                "normalized_length_similarity": 0.25,
+                "bleu": 0.0012019377581334713,
+                "ttr": 1.0,
+                "history_similarity": 0.8296965956687927
+            }
+        },
+        {
+            "message": "哇，说到环境，艺术创作和休息需要完美的氛围才行！如果家里突然出现持续的噪音，你觉得我们应该怎么和邻居或室友沟通，既能维护大家的和谐，又能保护我们宝贵的安静环境呢？你有什么理想中的方式吗？",
+            "response": "我觉得真诚是最重要的。就如实礼貌地和对方说出自己的想法，并且期待对方也如实礼貌地说出自己的想法。如果大家能在沟通中达成理解和共识的话，那自然是最好。如果不能的话，可能就不得不请第三方介入了。",
+            "prediction": "我希望大家在活动之前都尊重别人安静的需求，达成共识，然后再开始行动。",
+            "scores": {
+                "wmd": 0.9142262173890194,
+                "sentence_similarity": 0.7111616134643555,
+                "normalized_length_similarity": 0.35789473684210527,
+                "bleu": 0.0024699882272742443,
+                "ttr": 0.9523809523809523,
+                "history_similarity": 0.831655740737915
+            }
+        },
+        {
+            "message": "很有意思。说回坚持理想和现实的平衡，当你遇到困难时，你会选择坚持到底，还是从逻辑上评估后适当调整方向？比如在项目或生活中，你是如何决定什么时候该坚持，什么时候该转变策略的？",
+            "response": "如果只是我自己的事情的话，我认定的事情我大概率是会选择坚持到底的。但是如果是一个群体或者团队的事情的话，那就要考虑团队中所有成员的利益了。如果能够照顾到每个人的利益的话，我会努力。但是真的有可能吗？这就是当leader的难处吧，为了团队利益，总有一些人的利益要被牺牲的吧。找到利益的最佳平衡点就是leader的必修课了。",
+            "prediction": "我的行为更偏向于坚持，但内心其实是更看重逻辑和价值的。如果只是为了追求完美而坚持，会有很大风险的。",
+            "scores": {
+                "wmd": 0.7182773220223686,
+                "sentence_similarity": 0.7027167081832886,
+                "normalized_length_similarity": 0.30625,
+                "bleu": 0.003906864935749659,
+                "ttr": 0.8181818181818182,
+                "history_similarity": 0.8320138454437256
+            }
+        }
+    ]
+}

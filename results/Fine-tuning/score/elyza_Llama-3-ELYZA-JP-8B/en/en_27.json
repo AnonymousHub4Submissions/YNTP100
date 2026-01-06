@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "model": "elyza_Llama_3_ELYZA_JP_8B",
+    "method": "finetuning",
+    "date": "2025-10-06 19:46:42"},
+  "scores": [
+    {
+      "message": "Oh... since we are aiming for comfort and durability rather than flashy design for the theater room, and frankly I do prefer a smoother, less complicated process, would you perhaps be willing to assist in selecting practical materials and furniture that strike a balance between these priorities? I’m not being picky, but ensuring we choose wisely now could save us a lot of trouble later, don’t you agree?",
+      "response": "Of course I agree with you. Choosing in advance saves money and time.",
+      "prediction": "I would prefer to choose materials and furniture that is easy to  clean.",
+      "scores": {
+        "wmd": 0.22356426777098692,
+        "sentence_similarity": 0.2784669101238251,
+        "normalized_length_similarity": 0.9583333333333334,
+        "history_similarity": 0.26175764203071594,
+        "bleu": 0.017502413882486995,
+        "ttr": 0.9285714285714286
+      }
+    },
+    {
+      "message": "Wow, I love how thoughtful this is getting! Since we're all about blending creativity with respect, how do you feel about setting special ‘creative hours’ during the day—like a vibrant, noisy time for building the dream room or practicing art—while keeping the quiet hours at night? Would that spark the right balance between freedom and harmony for everyone?",
+      "response": "Great idea!! Sharing our time in daytime will make our bonds stronger too!",
+      "prediction": "I think we should not make sounds after 10p.m. And I agree with making sounds during the day, but I think we should not make sounds when another does.",
+      "scores": {
+        "wmd": 0.3121837955683295,
+        "sentence_similarity": 0.4009667932987213,
+        "normalized_length_similarity": 0.49333333333333335,
+        "history_similarity": 0.517066240310669,
+        "bleu": 0.005834347180338519,
+        "ttr": 0.6875
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:27:31",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend! Since we're all about that balance between practicality and style, how about we start a weekly fridge organization routine? Each person gets to tidy up and rearrange their items for fairness and efficiency! What do you think—would that help keep our shared space awesome and neat?",
+      "response": "I think that’s a great idea!",
+      "prediction": "Yeah, a weekly fridge organization routine sounds like a really practical and fair idea. It would help us keep the shared space tidy and make sure everyone's items are organized, which is important for a share house.",
+      "scores": {
+        "wmd": 0.41134391635907935,
+        "sentence_similarity": 0.36246258020401,
+        "normalized_length_similarity": 0.12962962962962962,
+        "history_similarity": 0.549411952495575,
+        "bleu": 0.005223577740745087,
+        "ttr": 0.8809523809523809
+      }
+    },
+    {
+      "message": "Oh... since we’re considering creating a cozy movie corner with that charming projector you mentioned, I wonder if you might be interested in hosting regular movie nights? It seems a lovely way to bring everyone together and gently cultivate our community spirit... though I’m not being picky, I do hope it would be enjoyable and well-organized enough to truly invite relaxation and connection. Would you find that agreeable?",
+      "response": "Yes, please! I’m looking forward to it!",
+      "prediction": "Yes, I'd love to! I think hosting regular movie nights would be a wonderful way to bring everyone together and enjoy the projector. I'd be happy to organize them to make sure they're relaxing and fun for everyone.",
+      "scores": {
+        "wmd": 0.3385279450127019,
+        "sentence_similarity": 0.3556520938873291,
+        "normalized_length_similarity": 0.18309859154929578,
+        "history_similarity": 0.39826610684394836,
+        "bleu": 0.01293165965304266,
+        "ttr": 0.7777777777777778
+      }
+    },
+    {
+      "message": "Wow, your passion for creating something meaningful really shines through! Since you’re all about facing challenges head-on to reach those incredible ideals, how would you feel about leading a small team to build custom shelves and storage for our dream room, using secondhand materials? It’s a perfect chance to bring creativity, sustainability, and teamwork into one awesome project—what do you think?",
+      "response": "It sounds fun to make something together! Let’s definitely do it!",
+      "prediction": "That sounds like an amazing opportunity! I'd be happy to lead the team in building the custom shelves and storage for our dream room, especially since we'll be using secondhand materials. I'm excited to tackle this challenge together.",
+      "scores": {
+        "wmd": 0.25639915196430724,
+        "sentence_similarity": 0.5429694652557373,
+        "normalized_length_similarity": 0.2777777777777778,
+        "history_similarity": 0.5758815407752991,
+        "bleu": 0.005783214009218943,
+        "ttr": 0.8888888888888888
+      }
+    },
+    {
+      "message": "Logically speaking, as we dive into this creative project, should we also establish specific quiet hours in the share house to ensure everyone can balance active collaboration with necessary rest? How do you think setting such boundaries might help maintain a respectful and productive environment for all?",
+      "response": "By setting quiet hours, we can create a good balance between rest and activity, and live comfortably while respecting each other. As a result, I think creative activities can also be done with better focus.",
+      "prediction": "I agree, establishing specific quiet hours is crucial for a balanced share house. It allows everyone to have dedicated time for rest, concentration, or more subdued activities without interruptions. These boundaries help maintain mutual respect, prevent potential conflicts, and ultimately foster a more productive and harmonious living environment.",
+      "scores": {
+        "wmd": 0.14725336066220418,
+        "sentence_similarity": 0.6305190324783325,
+        "normalized_length_similarity": 0.5902578796561605,
+        "history_similarity": 0.5292246341705322,
+        "bleu": 0.013350097003610487,
+        "ttr": 0.8214285714285714
+      }
+    }
+  ]
+}

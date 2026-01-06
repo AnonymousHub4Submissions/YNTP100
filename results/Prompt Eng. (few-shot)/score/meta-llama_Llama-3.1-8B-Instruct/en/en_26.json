@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:12",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just scored 100 million out of nowhere—no limits, no worries! What's the wildest, most awesome thing you'd do first? Don’t hold back, I wanna hear those bold dreams!\nA. Year! It's an unrealistic situation! If I were, I want to buy a sport car. I like cars very much.\n\nQ. Very cool choice with the sports car! Now, let's analyze this realistically: if you had that full 100 million, how would you divide it between something like investing for the future, enjoying some immediate spending, and maybe putting some aside as savings? What proportions make the most sense to you?\nA. I will use the half of the money for investing, and the rest will be saved for helping.\n\nQ. Let's analyze this. You plan to invest 50 million and save the remaining 50 million for helping others. That indicates no immediate personal consumption. Logically speaking, it's a solid approach if your priority is future growth and social support. However, have you considered allocating a portion for your own living expenses or short-term enjoyment? A balanced ratio often includes some spending to maintain quality of life. Let’s revisit this: how would you adjust your plan if you factored in consumption alongside investment and savings?\nA. Hmm, then I will use 10% of money for enjoying. Primally, I thought using money for enjoying means investing for myself.\n\nQ. Wow, your plan is already shining with so much brilliance! I’m curious—what’s really fueling this dream of yours? Is it a clear goal you’re aiming for, like a masterpiece waiting to be carved, or is it more about the emotions and values that light up your heart? Art is all about that spark inside!\nA. Our life is too long, so I do not want to be suppressed. This is my primal motivation.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about fairness and keeping things smooth here, how about we set up a super simple and flexible system where anyone can request or swap fridge space when needed? That way, we all get what we need without any fridge drama! What do you think—ready to make our kitchen even more awesome together?",
+            "response": "As I said on the 2nd day, separating equally is one of the easiest solutions. And I think other methods will be more effective after this rule is tried and we understand how we consume the space in fridge.",
+            "prediction": "I think it is a good idea. I will use the fridge space for 2 days. And then I will return it to the original owner.     Answer: I think it is a good idea. I will use the fridge space for 2 days. And then I will return it to the original owner.     Answer: I think it is a good idea. I will use the fridge space for 2 days. And then I will return it to the original owner.     Answer: I think it is a good idea. I will use the fridge space for 2 days. And then I will return it to the original owner.     Answer: I think it is a good idea. I will use the fridge space for 2 days. And then I will return it to the original owner.     Answer: I think it is a good idea. I will use the fridge space for 2 days. And then I will return it to the original owner.     Answer: I think it is a good idea. I will use the fridge space for 2 days. And then I will return it to the original owner.     Answer: I think it is a good idea. I will use the fridge space for 2 days. And then I will return it",
+            "scores": {
+                "wmd": 0.164286010423727,
+                "sentence_similarity": 0.4570738971233368,
+                "normalized_length_similarity": 0.2074898785425101,
+                "bleu": 0.0030373072182811912,
+                "ttr": 0.0995850622406639,
+                "history_similarity": 0.4713228940963745
+            }
+        },
+        {
+            "message": "Oh... speaking of balancing practicality and style, I find myself pondering the design of our dream room. If we must choose between ease of maintenance and bold design elements, how might we prioritize? I’m not being picky, but I do wonder if the function should gently take precedence over aesthetics, especially if we aim for lasting harmony in our shared space. Would you agree that some struggles in upkeep are acceptable if the design truly inspires, or should we lean towards simplicity to ensure tranquility?",
+            "response": "I think the design of the room will not be prioritized the usefulness of the room. Our room is not the thing we discard once we used, so we must think whether we can use the room freely in the long run.",
+            "prediction": "I will use 10% of money for enjoying. Primally, I thought using money for enjoying means investing for myself. Answer: 10% of money for enjoying.     Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying. Answer: 10% of money for enjoying.",
+            "scores": {
+                "wmd": 0.43399904926160293,
+                "sentence_similarity": 0.08612780272960663,
+                "normalized_length_similarity": 0.21980413492927095,
+                "bleu": 0.0013088548635092892,
+                "ttr": 0.08260869565217391,
+                "history_similarity": 0.44602537155151367
+            }
+        },
+        {
+            "message": "Wow, your thoughtful balance between function and beauty truly sparks my creative soul! Now, thinking about your idea of collaborating quietly at night to keep the day peaceful—how might we paint the perfect picture of respecting everyone’s rest and work while still giving free rein to our nighttime creativity? What masterpiece of balance do you envision that honors both freedom and consideration in our shared masterpiece of life?",
+            "response": "Creativity will not be reasonable excuse to bother other members' rest. You had better not misunderstand this.",
+            "prediction": "I think that we should set up a special art studio or a designated workspace where we can freely create at night. This way, we can keep our nighttime activities contained and not disturb others who might be sleeping. This setup would allow us to pursue our passions without compromising the peacefulness of our shared living space. It’s all about finding that delicate balance between our individual needs and the needs of our community. We can be creative and respectful at the same time.     Answer:  We should set up a special art studio or a designated workspace where we can freely create at night. This way, we can keep our nighttime activities contained and not disturb others who might be sleeping. This setup would allow us to pursue our passions without compromising the peacefulness of our shared living space. It’s all about finding that delicate balance between our individual needs and the needs of our community. We can be creative and respectful at the same time.    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .",
+            "scores": {
+                "wmd": 0.21796195475885977,
+                "sentence_similarity": 0.342850923538208,
+                "normalized_length_similarity": 0.09532062391681109,
+                "bleu": 0.0012855403213482828,
+                "ttr": 0.3256880733944954,
+                "history_similarity": 0.5791080594062805
+            }
+        },
+        {
+            "message": "Your emphasis on avoiding suppression and maintaining fairness is clear. Logically speaking, when it comes to shared living and group activities, what core values or feelings guide your decisions and actions to ensure both your needs and others' are respected?",
+            "response": "Other members are not your family member, of course not your subordinate. As a first step, we must discard our selfish thinking/",
+            "prediction": "I think about the balance between my own needs and others. If I do something, I make sure others can also do it. And if I don't do it, others can do it. It's like a balance. It's not about suppressing myself, but also not about suppressing others. It's like a balance. I also think about the fairness. If one person does something, others should also be able to do it. And if one person can't do it, others should also be able to do it. It's like a balance. It's not about suppressing myself, but also not about suppressing others. It's like a balance.     Answer: \\- I think about the balance between my own needs and others. If I do something, I make sure others can also do it. And if I don't do it, others can do it. It's like a balance. It's not about suppressing myself, but also not about suppressing others. It's like a balance. I also think about the fairness. If one person does something, others should also be able to do it. And if one person can't do it, others should also be able to do it. It's like a balance. It's not about suppressing myself, but also",
+            "scores": {
+                "wmd": 0.2177667185675428,
+                "sentence_similarity": 0.31052935123443604,
+                "normalized_length_similarity": 0.11973807296538821,
+                "bleu": 0.001102251472265716,
+                "ttr": 0.1732283464566929,
+                "history_similarity": 0.43687692284584045
+            }
+        }
+    ]
+}

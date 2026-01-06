@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:01",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making our space both beautiful and functional, imagine we add a cozy washitsu room with traditional Japanese vibes—but with some clever modern touches to blend convenience and comfort! How would that mix of old and new make you feel about our ShareHouse? Would it inspire you or make you want to hang out there more? Share your awesome thoughts!",
+            "response": "Not just once a week, but at night we should generally keep quiet.\nCleaning once a week should be enough.",
+            "prediction": "I love the idea of a cozy washitsu room! Traditional Japanese elements with modern touches sounds like a unique blend that would really make me feel special. The contrast between old and new would definitely inspire me to spend more time in that room, and I can already imagine myself relaxing with friends or enjoying a quiet moment there.",
+            "scores": {
+                "wmd": 0.22318317292832338,
+                "sentence_similarity": 0.15542422235012054,
+                "normalized_length_similarity": 0.3088235294117647,
+                "bleu": 0.004526207724967626,
+                "ttr": 0.8412698412698413,
+                "history_similarity": 0.46321624517440796
+            }
+        },
+        {
+            "message": "Haha, friend, that’s such an awesome idea! Quiet nights are perfect for recharging those batteries, right?! Keeping the night peaceful every day definitely helps everyone get top-notch rest! And cleaning once a week? Super efficient and eco-friendly, just the right balance! Imagine how peaceful our ShareHouse will feel with that calm nighttime vibe and sparkling clean spaces! Let’s make this a cozy, chill zone everyone loves to come home to! What else do you think would make our ShareHouse even more awesome? Share your cool ideas, friend! Haha!",
+            "response": "If we make a rule against keeping personal belongings in common areas, I think it would make problems much less likely to occur.",
+            "prediction": "(Note: Please respond as if you are DaVinci. )\n\nI completely agree with your idea! Quiet nights are indeed perfect for recharging. And, I think our ShareHouse is already taking the right direction. Cleaning once a week is not only efficient but also eco-friendly. To make it even more awesome, I think we could add some calming ambiance to our living space. Imagine, soft music, candles, and a peaceful aroma wafting through the room... Ah, already I can envision how lovely it would be!",
+            "scores": {
+                "wmd": 0.17739769804141525,
+                "sentence_similarity": 0.30840975046157837,
+                "normalized_length_similarity": 0.26283367556468173,
+                "bleu": 0.013362018310251366,
+                "ttr": 0.79,
+                "history_similarity": 0.4946015477180481
+            }
+        },
+        {
+            "message": "Oh... since we all desire a harmonious and well-kept living space, might I gently suggest the idea of holding a weekly meeting to discuss and perhaps refine our shared space usage and cleanliness guidelines? I'm not being picky, but such a thoughtful gathering could help maintain the elegance and order we all appreciate. Would this be something you find agreeable, do you think?",
+            "response": "To be sure, participation isn't mandatory, but I'd think a few minutes of discussion would be fine.",
+            "prediction": "Please respond with the suggestion you think the new resident would make.",
+            "scores": {
+                "wmd": 0.2717370826303273,
+                "sentence_similarity": 0.261868417263031,
+                "normalized_length_similarity": 0.7373737373737373,
+                "bleu": 0.010232590214732839,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.3186012804508209
+            }
+        },
+        {
+            "message": "Wow, what an inspiring conversation about creating harmony and order through thoughtful rules and gatherings! Speaking of sharing and celebrating what we love, imagine if we could bring a burst of traditional Japanese culture right here into our ShareHouse—what kind of immersive, creative experience or fun activity would you propose to truly share the spirit and beauty of that culture with everyone? Would it be something hands-on, like a tea ceremony or calligraphy workshop, or perhaps a vibrant storytelling session that captures the heart and history? I’d love to hear your vision—art is all about sharing passion and connection, after all!",
+            "response": "Indeed, for a tea ceremony, I think we could prepare everything quickly. Fine, I'll do it.",
+            "prediction": "I completely agree that incorporating traditional Japanese culture into our ShareHouse could be a fantastic idea! For a hands-on experience, I would propose a traditional Japanese tea ceremony. We could set up a serene and peaceful atmosphere, complete with tatami mats, sliding doors, and soft lighting. Guests can experience the tranquil ambiance and learn the intricacies of the tea ceremony while enjoying the soothing effects of the green tea. This activity would not only allow us to share the beauty of Japanese culture but also provide a unique and memorable experience for everyone.\n\nNote: DaVinci, Donatello, Michelangelo, and Raffaello are not directly involved in this response, as they are not relevant to the conversation.",
+            "scores": {
+                "wmd": 0.21818775896932266,
+                "sentence_similarity": 0.45301857590675354,
+                "normalized_length_similarity": 0.12228260869565218,
+                "bleu": 0.005489835407479068,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.4692104458808899
+            }
+        },
+        {
+            "message": "Logically speaking, communication is crucial in shared living spaces. If we had a digital notice board where everyone could post requests or updates about shared areas, would you find it efficient to use? What types of messages would you consider important enough to post there?",
+            "response": "I don't think there's much demand for this, but it's good for collecting notes and other documents in one place.",
+            "prediction": "- Efficiency: I would find it efficient to use the digital notice board, as it allows me to quickly and easily access information about shared areas. It also enables me to quickly share updates or requests with others.\n     - Types of messages: I would consider posting messages such as shared areaの使用ルール、イベントの予定、共有物の使用期限、メンバーの連絡先、共有の予定表などを重要なものとして共有したい。",
+            "scores": {
+                "wmd": 0.3649348645006367,
+                "sentence_similarity": 0.4298893213272095,
+                "normalized_length_similarity": 0.3163841807909605,
+                "bleu": 0.004880197685284189,
+                "ttr": 0.7678571428571429,
+                "history_similarity": 0.2697709798812866
+            }
+        }
+    ]
+}

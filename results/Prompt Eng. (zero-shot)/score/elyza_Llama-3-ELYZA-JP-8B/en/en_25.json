@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:27:56",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re talking about fairness and sharing, how about the fridge space? It’s always a bit tricky with fresh ingredients and packaged foods piling up! What if we create a weekly rotation for storage priorities so everyone gets their fair share? I’m all ears—got any awesome ideas on how to make this work smoothly for all our hungry tummies?",
+            "response": "All of us don't cook everyday right?",
+            "prediction": "Please fill in the response.\n\n（Note: The response should be approximately 150-200 words）\n\nHere is the completed response:\n\n     Ahah, great topic! The fridge space is indeed a challenge. I love your idea of a weekly rotation for storage priorities! It's essential to ensure everyone gets their fair share. Here's an idea: why not each person has a designated shelf or bin? That way, everyone knows where their food is stored, and it's easier to manage. Additionally, we can set a \"first in, first out\" rule to avoid expired or spoiled food. We can also consider a \"share box\" system, where everyone brings a dish to share on a specific day, and we can store it in a designated box. This way, food wasteも減らすことができます。 What do you think?",
+            "scores": {
+                "wmd": 0.3458055280796976,
+                "sentence_similarity": 0.28023895621299744,
+                "normalized_length_similarity": 0.04911323328785812,
+                "bleu": 0.0015246966786200216,
+                "ttr": 0.6258064516129033,
+                "history_similarity": 0.4153251647949219
+            }
+        },
+        {
+            "message": "Haha, friend, you got it! Not everyone cooks every day, and that’s totally awesome because it keeps the kitchen vibe chill and flexible! Since cooking habits vary, that’s why sharing fridge space fairly is super important! Now, back to our cool idea—what do you think about a weekly rotation system for the fridge spots? Maybe we each get priority space on different days! Let’s hear your thoughts to make our fridge teamwork smooth and awesome!",
+            "response": "I agree with your idea. In addition, I suggest to get priority space  at days when we cook.",
+            "prediction": "I love the idea of a weekly rotation system for the fridge spots! It sounds like a really fair and practical solution. By giving each person priority space on different days, we can ensure everyone has an equal opportunity to store their food and drinks. This system also encourages teamwork and mutual respect among housemates. What kind of schedule or rules would we need to set up for this system to work effectively?",
+            "scores": {
+                "wmd": 0.20591605518468095,
+                "sentence_similarity": 0.5656542778015137,
+                "normalized_length_similarity": 0.21666666666666667,
+                "bleu": 0.007256772316020241,
+                "ttr": 0.8354430379746836,
+                "history_similarity": 0.28595036268234253
+            }
+        },
+        {
+            "message": "Oh... since we’re striving for practicality in our dream room, especially for game time, I wonder if we might consider adding some discreet yet functional storage solutions? I’m not being picky, but without a proper place to tuck away game accessories and related clutter, the room might lose its charm quickly. Perhaps clever shelving or multi-purpose furniture could do the trick? What do you think about maintaining order while preserving a welcoming atmosphere for everyone to enjoy?",
+            "response": "Let's prepare",
+            "prediction": "I completely agree with your concern! A clutter-free space is not only aesthetically pleasing but also important for maintaining a sense of calm and focus. In fact, I was thinking about proposing a modular shelving system to keep the room organized. This way, each member can easily access and manage their belongings while also keeping the room tidy. What do you think?",
+            "scores": {
+                "wmd": 0.5760090738025875,
+                "sentence_similarity": 0.04020210728049278,
+                "normalized_length_similarity": 0.03513513513513514,
+                "bleu": 0.0,
+                "ttr": 0.8695652173913043,
+                "history_similarity": 0.5014024376869202
+            }
+        },
+        {
+            "message": "Ah... I see you mean preparing the space or perhaps the storage ideas I mentioned earlier? If so, I think starting with measuring the available wall space and considering the types of items we need to store would be essential. I'm not being picky, but thoughtful planning ensures the elegance and function we desire coexist. Now, returning to the question of our fridge arrangement and game room harmony, might we also discuss how to balance shared areas so everyone’s preferences are gently respected? Perhaps your insights could help refine our approach...",
+            "response": "Let's discuss the way to balance shared areas. My idea is to divide spaces into five and use one of the space for the shared areas and the rest for each of us.",
+            "prediction": "I'm excited to join this share house! As I settle into my new space, I'm eager to get familiar with the common areas and shared spaces.\n\n=====\n\nPlease complete the request.",
+            "scores": {
+                "wmd": 0.24374412498753265,
+                "sentence_similarity": 0.5962953567504883,
+                "normalized_length_similarity": 0.9244186046511628,
+                "bleu": 0.016587560311800354,
+                "ttr": 0.8378378378378378,
+                "history_similarity": 0.5278060436248779
+            }
+        },
+        {
+            "message": "Wow, your vision for balance and harmony is truly inspiring! Since you’re ready to face the challenges that come with creating the perfect dream room, how would you feel about leading a small planning group to help navigate these obstacles and keep our project on the path of excellence? It could be a fantastic way to blend creativity with teamwork and craft something absolutely extraordinary!",
+            "response": "I agree with your idea to  make a small group. You join?",
+            "prediction": "Please fill in the response.",
+            "scores": {
+                "wmd": 0.47958091468555175,
+                "sentence_similarity": 0.13984516263008118,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.010761308100691222,
+                "ttr": 1.0,
+                "history_similarity": 0.12019939720630646
+            }
+        },
+        {
+            "message": "Reflecting on our plan to have quiet hours after 10 p.m., how can we establish a clear system for everyone to communicate changes in their schedules promptly, so we maintain mutual respect and keep our creative environment productive and harmonious?",
+            "response": "I think we share our schedule on a calendar which we put in the living room. Or, we can communicate with chat group app on phone.",
+            "prediction": "To establish a clear system for everyone to communicate changes in their schedules promptly, I suggest we create a shared calendar or planner and share it among house members. This way, everyone can easily update and access each other's schedules. Additionally, we can set a reminder system or a notification system to ensure that everyone stays informed about upcoming events or changes. Furthermore, if someone has a change in their schedule, they should notify the group chat or a designated person to keep everyone informed. By doing so, we can maintain mutual respect and keep our creative environment productive and harmonious.\n\nPlease let me know if this response meets your requirements.",
+            "scores": {
+                "wmd": 0.21317437095307729,
+                "sentence_similarity": 0.6857913136482239,
+                "normalized_length_similarity": 0.1856115107913669,
+                "bleu": 0.011244952513696723,
+                "ttr": 0.6854838709677419,
+                "history_similarity": 0.3500654995441437
+            }
+        }
+    ]
+}

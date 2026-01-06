@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:46",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！要是你突然中了一个亿，你第一件疯狂想做的事是什么？别拘泥于现实，尽情放飞你的梦想吧！\nA. 存一部分然后环球旅行\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何具体分配？比如投资、消费和储蓄各占多少比例？这样既能实现梦想，也能保证未来的安全。\nA. 投资20% 消费5% 储蓄75%\n\nQ. 哇，你的梦想太鼓舞人心了！告诉我，这背后的动力是什么？你更看重明确的目标，还是内心的情感和价值在推动你前进呢？艺术就是要挖掘那最真实的力量！\nA. 都重要\n\nQ. 哦……提到保持这份热情，我想顺便说一下冰箱的情况。最近那些包装食品似乎占用了不少空间，我不是挑剔，但我们不是都希望维持一个既方便又有品质的生活环境吗？大家觉得我们应该怎么共同调整，才更合适呢？\nA. 每人分一层 自己决定自己的那层怎么使用\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你刚才说会把大部分资金储蓄起来，还有明确的梦想和目标！如果突然来了一笔意外之财，你会用它去实现什么疯狂又美妙的梦想呢？大胆说出来，让我们一起为你的梦想加油打气！",
+            "response": "环游世界 我是认真的",
+            "prediction": "开一家属于自己的艺术工作室，让所有热爱艺术的人都能在这里找到灵感和归属感！",
+            "scores": {
+                "wmd": 1.0937339488578852,
+                "sentence_similarity": 0.5576175451278687,
+                "normalized_length_similarity": 0.2702702702702703,
+                "bleu": 0.008282282660969604,
+                "ttr": 0.9130434782608695,
+                "history_similarity": 0.8074922561645508
+            }
+        },
+        {
+            "message": "说到日常的小细节，关于冰箱我一直坚持各自占用一层，虽然我不是挑剔，但共享确实容易带来小摩擦。你觉得呢，这样的安排，最大的好处会体现在哪些方面呢？毕竟生活品质和便利性都不能忽视呢。",
+            "response": "我支持不共享",
+            "prediction": "最大的好处体现在减少摩擦和提高效率，每个人都有自己的空间，不会互相打扰，也更容易管理自己的食物和物品。",
+            "scores": {
+                "wmd": 1.1746961697063598,
+                "sentence_similarity": 0.544411301612854,
+                "normalized_length_similarity": 0.11764705882352941,
+                "bleu": 0.0,
+                "ttr": 0.8125,
+                "history_similarity": 0.7381629347801208
+            }
+        },
+        {
+            "message": "嗯...我不是挑剔，但是大家都坚持不共享，偶尔会不会显得有些孤立呢...呢？",
+            "response": "我不觉得",
+            "prediction": "也许可以定期组织一些小聚会，让大家有机会交流和分享，这样既能保持个人空间，又能增进彼此的联系。",
+            "scores": {
+                "wmd": 1.2240153379907521,
+                "sentence_similarity": 0.4449148178100586,
+                "normalized_length_similarity": 0.0851063829787234,
+                "bleu": 0.0,
+                "ttr": 0.896551724137931,
+                "history_similarity": 0.7489368319511414
+            }
+        },
+        {
+            "message": "哇，你对梦想房间的抽象风格主导真是太酷了！你有没有特别钟爱的元素或者图案，觉得能用幽默感十足的方式，完美展现那个空间的灵魂呢？艺术就是要敢于疯狂创新，对吧！",
+            "response": "蜡笔小新 我喜欢绿色",
+            "prediction": "抽象派的涂鸦墙，配上会发光的马桶！",
+            "scores": {
+                "wmd": 1.230286423922151,
+                "sentence_similarity": 0.5375230312347412,
+                "normalized_length_similarity": 0.5882352941176471,
+                "bleu": 0.0,
+                "ttr": 0.9090909090909091,
+                "history_similarity": 0.6965813636779785
+            }
+        },
+        {
+            "message": "让我们分析一下，创作自由和生活安宁确实容易冲突。从实际角度，你觉得在梦想房间设计里，如何兼顾这两者？是设立专门的创作区域，还是通过材料和布局降低噪音？你更倾向哪种方案？",
+            "response": "设立专门的创作区域",
+            "prediction": "设立专门的创作区域，同时用隔音材料和合理布局降低噪音",
+            "scores": {
+                "wmd": 0.9339898134724637,
+                "sentence_similarity": 0.8526049256324768,
+                "normalized_length_similarity": 0.34615384615384615,
+                "bleu": 0.2891784933232572,
+                "ttr": 1.0,
+                "history_similarity": 0.5971906781196594
+            }
+        }
+    ]
+}

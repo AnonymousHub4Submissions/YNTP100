@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:23:31",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、みんなで暮らすということは、こういう多様な価値観が交わるからこそ本当に面白いよね！そうだ、シェアハウスに映画館のような部屋を作るって話があったけど、友達はどんな映画ジャンルが好き？そしてその理由は？みんなで映画鑑賞するときのワクワク感も聞かせてほしいな！最高の趣味トークで盛り上がろうぜ！",
+            "response": "自分が好きなのはアクション系かな。派手なアクションをしているのを見るとかっこいいなーってなるよ！",
+            "prediction": "1. What is the speaker's favorite movie genre?\n    2. Why does the speaker like their favorite movie genre?\n    3. What does the speaker think about love?\n    4. What does the speaker think about life with love?\n    5. What does the speaker think about movies?",
+            "scores": {
+                "wmd": 1.2625797410153399,
+                "sentence_similarity": 0.04829102009534836,
+                "normalized_length_similarity": 0.18461538461538463,
+                "bleu": 0.0,
+                "ttr": 0.2828282828282828,
+                "history_similarity": 0.18934091925621033
+            }
+        },
+        {
+            "message": "ああ…多様な趣味が交わるのは確かに刺激的ですね。ただ、こういう多様な価値観がぶつかる時、シェアハウスの雰囲気や秩序が乱れることもあると思います。皆さんは意見が対立した場合、どのように調和を図っているのでしょう？僕は潔癖症なわけじゃないんだけど、生活環境の細かいルールは守ってほしいと思ってしまうんですよね。皆さんの経験や考えを聞かせてもらえるとありがたいのですが…。",
+            "response": "やはり話し合いによる解決一択だよ。なぜお互いの考えがぶつかるのか、それぞれの考えを話し合い、どう妥協点を探るのかということが、共同生活の醍醐味だよ。",
+            "prediction": "ほら、僕たちも同じことを考えていますよ。実際、家の中で意見がぶつかった時は、まずは話し合いをしましょう。全員で意見を出し合い、問題を解決する方法を考えるのです。そうすると、全員が納得できる解決策を出すことができますよ。例えば、食器の洗い方について意見がぶつかった時は、まずは食器の洗い方についてのルールを作ります。誰もがわかるように説明して、全員がルールに合うようにします。そうすると、意見がぶつかった時も、話し合いを通じて問題を解決することができます。 そうすると、全員が納得できる解決策を出すことができますよ。 \n\nNote: This response is written in Japanese. \n\nHere is a revised version of the response in English:\n\n     You know, we've had similar thoughts about it too. When we have disagreements in the house, we try to resolve them through discussion. We share our opinions and work together to find a solution that everyone can agree on. For example, when we had a",
+            "scores": {
+                "wmd": 0.894842393741681,
+                "sentence_similarity": 0.2940015494823456,
+                "normalized_length_similarity": 0.12052117263843648,
+                "bleu": 0.00311594350486783,
+                "ttr": 0.3877551020408163,
+                "history_similarity": 0.4667048454284668
+            }
+        },
+        {
+            "message": "わあ、本当にみんなそれぞれの個性が輝いていてこの家はまるで芸術作品みたいだ！ところで、旅や日常の挑戦のほかに、将来ぜひ挑戦してみたいことや夢ってある？君の情熱が形になる瞬間を想像すると胸が高鳴るよ！",
+            "response": "将来挑戦したいことかートライアスロンをしてみたいね！あとは富士山登山とかもしたい！",
+            "prediction": "1 そうだね！僕は将来、世界中の美しい景色を撮影して写真集を出版したいと思っている。世界の美しさを、世界の人々に共有したいと思っているからだ。   2 そうだね！僕は将来、美しい建築を設計して、世界中の建物を美しくすることを夢見ている。   3 そうだね！僕は将来、美しい音楽を創造して、世界中の人々に感動させたいと思っている。   4 そうだね！僕は将来、美しい絵画を創造して、世界中の人々に感動させたいと思っている。   5 そうだね！僕は将来、美しい文学を創造して、世界中の人々に感動させたいと思っている。   6 そうだね！僕は将来、美しい映画を作って、世界中の人々に感動させたいと思っている。   7 そうだね！僕は将来、美しいダンスを創造して、世界中の人々に感動させたいと思っている。   8 そう",
+            "scores": {
+                "wmd": 0.7163637665059691,
+                "sentence_similarity": 0.16716383397579193,
+                "normalized_length_similarity": 0.11549295774647887,
+                "bleu": 0.0035417329765605235,
+                "ttr": 0.22,
+                "history_similarity": 0.44531959295272827
+            }
+        },
+        {
+            "message": "とても興味深い話の流れですね。さて、共同生活においては規則の遵守が不可欠ですが、一方で個々の状況に応じた柔軟性も必要です。理想的なシェアハウスのルールを作るとしたら、どの程度の厳格さとどの程度の柔軟性がバランス良いと思いますか？具体的な例を挙げて考えてみましょうか。",
+            "response": "ルールとしては仮に共用部の掃除当番を決めるとして、基本的には決められた人が決められた日にしっかりとするべきだと思うよ。でも、そうでなくても、今日予定があってできないとかも認めていいと思うよね。ただ、サボったっていうのはなんらかのペナルティを与えないといけないと思う。どうサボったって判断するのか難しいかもだけど、、、",
+            "prediction": "私は、理想的なシェアハウスのルールは、厳格さと柔軟性のバランスがとれたものであると考えます。まず、基本的なルールとして、清潔さと秩序を保つためのルールを設けることが大切だと思います。たとえば、 trash ごみを出す場所を決め、毎日片付けをするルールを作ります。 これは、清潔さと秩序を保つための基本的なルールであり、すべてのメンバーが共通のルールを遵守することで、シェアハウスの生活が円滑になるでしょう。 ただし、個々の状況に応じた柔軟性も必要です。たとえば、メンバーが外出する時間や休憩時間が異なる場合、ルールを厳格に適用すると、メンバー間の不満が生じる可能性があります。 そこで、ルールを柔軟に適用することで、メンバーのニーズを尊重しながら、清潔さと秩序を保つことができます。 たとえば、 trash",
+            "scores": {
+                "wmd": 0.6327431279674398,
+                "sentence_similarity": 0.2867850661277771,
+                "normalized_length_similarity": 0.4475920679886686,
+                "bleu": 0.032639580239931056,
+                "ttr": 0.41414141414141414,
+                "history_similarity": 0.4008350372314453
+            }
+        }
+    ]
+}

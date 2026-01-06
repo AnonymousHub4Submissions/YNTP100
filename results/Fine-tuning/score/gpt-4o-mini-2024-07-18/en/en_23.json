@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-30 13:34:15",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!",
+            "response": "I want to travel Africa! There are so many wild animals and I want to observe  their natural behaviors in the nature, not a zoo!",
+            "prediction": "I will go to Switzerland! It's because the country has stunning nature and I can recharge my spirit by enjoying the view!",
+            "scores": {
+                "wmd": 0.19432369600392166,
+                "sentence_similarity": 0.3529580235481262,
+                "normalized_length_similarity": 0.9453125,
+                "bleu": 0.020094708803013412,
+                "ttr": 0.88,
+                "history_similarity": 0.1932477056980133
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse a harmonious place to live, I suggested labeling items in the fridge to avoid confusion. I'm not being picky, but perhaps we could consider setting up a communal checklist for shared expenses or chores as well? It might help maintain the balance and fairness we all appreciate here. What do you think... would that be agreeable to everyone?",
+            "response": "Oh that's a great idea! It'll be more organized and avoid some possible mistakes!",
+            "prediction": "I see... In that case, I'll keep the fridge calm and peaceful by labeling the items!",
+            "scores": {
+                "wmd": 0.3135148211279976,
+                "sentence_similarity": 0.3503062129020691,
+                "normalized_length_similarity": 0.9642857142857143,
+                "bleu": 0.013618796864073041,
+                "ttr": 0.9,
+                "history_similarity": 0.4302772283554077
+            }
+        },
+        {
+            "message": "Wow, I love how you’re thinking about both style and function in making a perfect dream room! If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, which would your heart pick—and why? Art and practicality often dance together, so I’m curious what rhythm speaks strongest to you!",
+            "response": "I'll go with high-end, durable audio equipments..Of course it'll be great if they're not ugly, but the most important element of audio equipment is sound itself. So If I should choose only one side, then it'll be \"function\".",
+            "prediction": "If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, I'll pick the audio equipment because I'll be able to enjoy the music and sounds for a long time!",
+            "scores": {
+                "wmd": 0.12635702174781985,
+                "sentence_similarity": 0.8122401237487793,
+                "normalized_length_similarity": 0.9142857142857143,
+                "bleu": 0.07505791840042929,
+                "ttr": 0.8260869565217391,
+                "history_similarity": 0.43257707357406616
+            }
+        },
+        {
+            "message": "Since you value calm and respect in our shared living space and suggested using a whiteboard for coordinating schedules, how comfortable would you be taking the initiative to call a house meeting where we can discuss and agree on common rules for noise levels and cleaning duties? It seems like a logical step to ensure everyone’s expectations align and to keep our environment comfortable for all.",
+            "response": "Yeah I'll do the job! Let's have a meeting in the living room every Sunday night and discuss the ruled and duties together!",
+            "prediction": "I'll be happy to discussing the common rules in our house!",
+            "scores": {
+                "wmd": 0.279754174224115,
+                "sentence_similarity": 0.5457702875137329,
+                "normalized_length_similarity": 0.4715447154471545,
+                "bleu": 0.014073801795363773,
+                "ttr": 1.0,
+                "history_similarity": 0.4750605821609497
+            }
+        }
+    ]
+}

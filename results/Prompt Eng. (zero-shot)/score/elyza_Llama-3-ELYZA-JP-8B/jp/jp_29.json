@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:27:38",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、そういえば友達、君が親への感謝がすごく強いって話してたよね！家を買う以外にも親に感謝を伝える方法っていっぱいあると思うんだけど、君ならどんな「最高の感謝の表現」を考える？大胆に教えてよ！",
+            "response": "ありがとうと伝えること",
+            "prediction": "Ahahah, yeah! You guys remember that conversation? I was talking about how I'm really grateful to my parents. Yeah, there are definitely many ways to express gratitude beyond buying a house. If I were to come up with \"the ultimate expression of gratitude\", I would...",
+            "scores": {
+                "wmd": 1.2842337844889162,
+                "sentence_similarity": 0.04527284950017929,
+                "normalized_length_similarity": 0.04119850187265917,
+                "bleu": 0.0,
+                "ttr": 0.4563106796116505,
+                "history_similarity": 0.05875290930271149
+            }
+        },
+        {
+            "message": "ああ、ところで…冷蔵庫の件で少し気になっているのですが、みんなで集まってルールを決める会議を開くのってどう思いますか？僕の期待が高すぎたのかもしれませんが、整理整頓や共有のルールが明確になると、生活の質が保たれてより快適になると思うんです。皆さんのご意見を聞かせていただけると嬉しいですね。",
+            "response": "会議を開こう！",
+            "prediction": "僕も全く同感です！実は私も、引っ越してきてから気になっていた点でした。特に、共有の冷蔵庫の使い方や、食材の分別、ゴミの出し方など、ルールが曖昧なままだと、ストレスを感じてしまうかもしれません。会議を開いて、各自の意見を共有し、明確なルールを決めることで、より快適で住みやすい環境を整えていくことが大切だと思います。みなさんのご意見を聞かせてください！",
+            "scores": {
+                "wmd": 1.0538453833334749,
+                "sentence_similarity": 0.2835294008255005,
+                "normalized_length_similarity": 0.04,
+                "bleu": 0.0037665199105674204,
+                "ttr": 0.6517857142857143,
+                "history_similarity": 0.6014038324356079
+            }
+        },
+        {
+            "message": "わあ、ルッカ！各自の部屋は自由に、それで共用スペースはみんなで配慮するって考え、まさに芸術的な調和のようだよ！そこで聞きたいんだが、そんな理想的な共同生活を実現するために、具体的にどんなルールや約束があれば最高に快適になると思う？完璧を追求する僕としては、細かいことまで語り合ってみたいんだ！",
+            "response": "冷蔵庫の１段ずつを分け合ったらいいじゃないか",
+            "prediction": "Ahahah! Welcome to our little art haven! I'm thrilled to hear that you're excited about our shared living space. To achieve our ideal of harmony and comfort, I think we should establish some simple yet effective rules. For instance, shared kitchen and bathroom spacesは、使用後は必ず清掃して元の状態に戻す、というルールや、共用スペースで大きな音を出さない、というルールなど。 あと、各自の部屋は自由ということで、プライバシーは守られますが、たまには共用スペースで開放的に過ごす時間を設けることで、コミュニケーションも活発化するのではないかと。",
+            "scores": {
+                "wmd": 1.1309056172485255,
+                "sentence_similarity": 0.09269081801176071,
+                "normalized_length_similarity": 0.05432098765432099,
+                "bleu": 0.0025628812326005516,
+                "ttr": 0.5227272727272727,
+                "history_similarity": 0.21583063900470734
+            }
+        },
+        {
+            "message": "対立や意見の違いが出てきたとき、その都度感情的にならずにどうやって合理的に解決していくべきだと思いますか？例えば、楽しさを損なわずにみんなが配慮し合うために、定例会議をどの程度活用するのが効果的だと考えますか？",
+            "response": "感情的になって解決できるならそっちの方がいいんじゃないかな？リモート会議とかだと、感情的になりにくいしそれもありだね",
+            "prediction": "I think it's essential to maintain open communication and active listening to resolve conflicts and differences in opinion in a rational manner. For instance, regular meetings, such as monthly or bi-monthly meetings, can be an effective tool to ensure everyone's voices are heard and to find a mutually beneficial solution.",
+            "scores": {
+                "wmd": 1.2839226892486724,
+                "sentence_similarity": 0.05538300797343254,
+                "normalized_length_similarity": 0.17956656346749225,
+                "bleu": 0.0,
+                "ttr": 0.44339622641509435,
+                "history_similarity": 0.11008410900831223
+            }
+        }
+    ]
+}

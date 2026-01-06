@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "DPO",
+        "date": "2025-12-19 16:03:38",
+        "instruction": "You are a resident of a shared house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello. Please think of a response to the conversation.",
+        "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0].role == 'system' %}\n        {{- messages[0].content + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0].content + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for forward_message in messages %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- set message = messages[index] %}\n    {%- set current_content = message.content if message.content is not none else '' %}\n    {%- set tool_start = '<tool_response>' %}\n    {%- set tool_start_length = tool_start|length %}\n    {%- set start_of_message = current_content[:tool_start_length] %}\n    {%- set tool_end = '</tool_response>' %}\n    {%- set tool_end_length = tool_end|length %}\n    {%- set start_pos = (current_content|length) - tool_end_length %}\n    {%- if start_pos < 0 %}\n        {%- set start_pos = 0 %}\n    {%- endif %}\n    {%- set end_of_message = current_content[start_pos:] %}\n    {%- if ns.multi_step_tool and message.role == \"user\" and not(start_of_message == tool_start and end_of_message == tool_end) %}\n        {%- set ns.multi_step_tool = false %}\n        {%- set ns.last_query_index = index %}\n    {%- endif %}\n{%- endfor %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set content = message.content %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is defined and message.reasoning_content is not none %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in message.content %}\n                {%- set content = (message.content.split('</think>')|last).lstrip('\\n') %}\n                {%- set reasoning_content = (message.content.split('</think>')|first).rstrip('\\n') %}\n                {%- set reasoning_content = (reasoning_content.split('<think>')|last).lstrip('\\n') %}\n            {%- endif %}\n        {%- endif %}\n        {%- if loop.index0 > ns.last_query_index %}\n            {%- if loop.last or (not loop.last and reasoning_content) %}\n                {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content.strip('\\n') + '\\n</think>\\n\\n' + content.lstrip('\\n') }}\n            {%- else %}\n                {{- '<|im_start|>' + message.role + '\\n' + content }}\n            {%- endif %}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if (loop.first and content) or (not loop.first) %}\n                    {{- '\\n' }}\n                {%- endif %}\n                {%- if tool_call.function %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {{- '<tool_call>\\n{\"name\": \"' }}\n                {{- tool_call.name }}\n                {{- '\", \"arguments\": ' }}\n                {%- if tool_call.arguments is string %}\n                    {{- tool_call.arguments }}\n                {%- else %}\n                    {{- tool_call.arguments | tojson }}\n                {%- endif %}\n                {{- '}\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.first or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- endif %}\n{%- endif %}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re aiming for a relaxed, hassle-free vibe in the house, how about we host a casual game night soon? It could be a super fun way for everyone to unwind and connect without any pressure or big plans! What do you think—ready to bring some awesome chill energy and friendly laughs into the mix?",
+            "response": "Yeah, sounds good to me",
+            "prediction": "Haha, that sounds absolutely perfect! I’m all for a casual game night—no pressure, just good vibes and some friendly competition. I’ve got a few board games tucked away that haven’t seen the light of day in ages. Maybe we could mix it up with some classics and a few newer ones? I’m thinking *Catan*, *Codenames*, and maybe even *Cards Against Humanity* if we’re feeling playful.  \n\nBut hey, what do *you* have in mind? I’m game for whatever we decide—just as long as there’s pizza, drinks, and a bunch of laughs. Let’s make it a weekly thing if we can!",
+            "scores": {
+                "wmd": 0.42903626683550894,
+                "sentence_similarity": 0.26359349489212036,
+                "normalized_length_similarity": 0.04159132007233273,
+                "bleu": 0.0017145976773206713,
+                "ttr": 0.6304347826086957,
+                "history_similarity": 0.3205674886703491
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping the good vibes, I was wondering if we might consider a brief weekly meeting to gently address some of the little things, like fridge space and cleaning up the common areas? I'm not being picky, but a bit of regular check-in could help us all keep the ShareHouse comfortable and pleasant. Do you think that might be... a reasonable idea?",
+            "response": "Yeah, sounds reasonable.",
+            "prediction": "Oh, absolutely! That sounds like a fantastic idea. I mean, I’ve been meaning to bring up the fridge situation myself—some of us are getting pretty creative with how we store things, and it’s starting to feel a bit like a mystery box in there. And the common areas? Yeah, I’ve been eyeing the kitchen counter like it’s a crime scene sometimes.  \n\nA weekly check-in could be a great way to keep things on track without anyone feeling singled out. Maybe we could even make it a bit of a light-hearted thing—like a \"ShareHouse Harmony Hour\" or something. DaVinci might have some brilliant organizational system he’s been working on, and I’m sure Michelangelo would be happy to help with any creative cleanup solutions.  \n\nWhat do you say we set a time this week? Maybe Thursday night? I’ll bring some snacks—just to keep the vibes positive, of course.",
+            "scores": {
+                "wmd": 0.39026240114090577,
+                "sentence_similarity": 0.2409404069185257,
+                "normalized_length_similarity": 0.02833530106257379,
+                "bleu": 0.0025195631966309436,
+                "ttr": 0.6480446927374302,
+                "history_similarity": 0.3802034258842468
+            }
+        },
+        {
+            "message": "Wow, loving this thoughtful energy flowing around! Since we all want a space that feels both comfy and alive with fun, how do you feel about investing in super durable, easy-to-clean furniture for the entertainment room—ones that can take all the laughter and action without losing their charm? Is practicality the new kind of art for our shared joyful moments?",
+            "response": "As longs as it is not expensive.",
+            "prediction": "Absolutely, I’m all for it! Practicality *is* the new art—especially when it comes to our shared spaces. Imagine the entertainment room as a canvas for our collective creativity, but one that can withstand the chaos of late-night movie marathons, spontaneous dance parties, and the inevitable snack-related messes. \n\nDurable, easy-to-clean furniture sounds like the perfect marriage of form and function. I’m thinking sleek, modern designs that are built to last but still have that cozy, inviting vibe. Maybe something with microfiber or leather-look upholstery? They’re tough on spills and stains but still stylish enough to keep the room looking fresh.\n\nAnd let’s not forget the vibe—maybe we can add some modular seating so we can rearrange the space depending on what we’re doing. A mix of loungers, bean bags, and a few sturdy chairs could make the room feel dynamic and adaptable. What do you all think? Should we also consider adding some soundproofing or acoustic panels for those times when we want to really let the music (or our voices) take over?",
+            "scores": {
+                "wmd": 0.38790044775165666,
+                "sentence_similarity": 0.23839455842971802,
+                "normalized_length_similarity": 0.030217186024551465,
+                "bleu": 0.001300336278962551,
+                "ttr": 0.6699029126213593,
+                "history_similarity": 0.5108585953712463
+            }
+        },
+        {
+            "message": "Logically speaking, since imposing quiet hours might not suit everyone's schedules, how do you feel about encouraging our housemates to use practical solutions like earplugs or headphones during late-night activities to maintain harmony without strict rules?",
+            "response": "I lean towards individual freedom, so the solutions that focus on one person doing something instead of restricting the entire group sounds good to me.",
+            "prediction": "That's a really thoughtful approach. I think encouraging practical solutions like earplugs or headphones is a great way to maintain harmony without imposing strict rules. It respects everyone's autonomy and schedules while still considering the needs of others.\n\nIn our shared house, people have such different routines—DaVinci might be up late sketching, Michelangelo could be practicing his music, and Raffaello might be studying. If we all just take a moment to consider others by using headphones or earplugs when needed, it can go a long way in keeping the peace.\n\nMaybe we could even set up a small reminder or a shared note in the common area to gently remind everyone to be considerate with noise. It’s about mutual respect and finding a balance that works for all of us.",
+            "scores": {
+                "wmd": 0.17837867868904536,
+                "sentence_similarity": 0.4477377235889435,
+                "normalized_length_similarity": 0.19383825417201542,
+                "bleu": 0.0021464555945768884,
+                "ttr": 0.7103448275862069,
+                "history_similarity": 0.5093728303909302
+            }
+        }
+    ]
+}

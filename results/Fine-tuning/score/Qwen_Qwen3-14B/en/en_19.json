@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:46",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re talking about making our shared space more awesome and organized, what if we add multiple fridges in the living room to keep fresh and packaged foods separate? How do you imagine the perfect setup and number of fridges working together to make life easier and more fun for all of us? Share your coolest ideas!",
+            "response": "I think fresh food should pe top priority. Also, there must be more than 4 fridges and more than half of the fridge should be for the frsh food only.",
+            "prediction": "Haha, friend! Since we’re talking about making our shared space more awesome and organized, what if we add multiple fridges in the living room to keep fresh and packaged foods separate? How do you imagine the perfect setup and number of fridges working together to make life easier and more fun for all of us? Share your coolest ideas!",
+            "scores": {
+                "wmd": 0.2448371467923665,
+                "sentence_similarity": 0.5780545473098755,
+                "normalized_length_similarity": 0.44477611940298506,
+                "bleu": 0.00858661484197413,
+                "ttr": 0.8208955223880597,
+                "history_similarity": 0.5083785653114319
+            }
+        },
+        {
+            "message": "Oh... speaking of creating a vibrant and inspiring environment, I wonder—when we think about this dream room project, what elements do you believe are truly essential to spark creativity while also fostering a genuine sense of community? I'm not being picky, but combining functionality with aesthetic appeal is quite delicate, don't you think? Perhaps my expectations are simply too high...",
+            "response": "Our sprit of making good thing and residents happy should not be forgotten. If we possess this mind, I think we would be succesful",
+            "prediction": "I think it must be quite an inspiring thing to set high expectations for this project! As for what should be placed in the room, I think it must be quite meaningful to show the pictures and objects which people truly cherish here. This would certainly contribute to making the room quite lively and encouraging people to share and communicate amongst eachother, wouldn’t you agree?",
+            "scores": {
+                "wmd": 0.1905629401147883,
+                "sentence_similarity": 0.3068755865097046,
+                "normalized_length_similarity": 0.34120734908136485,
+                "bleu": 0.017657056896665725,
+                "ttr": 0.7361111111111112,
+                "history_similarity": 0.5992295145988464
+            }
+        },
+        {
+            "message": "Ah... I see now, you are emphasizing the spirit of creating good things and ensuring residents' happiness as the key to success. That is indeed a fundamental mindset to cherish... I suppose what I gently meant to ask was, beyond this spirit, what specific features or design choices do you imagine would best nurture both creativity and community in our space? Please, let's explore this together, as having a clear vision is rather important, don't you agree?",
+            "response": "As for the design , it should match the room's atomosphere. Also, the size should not be too big because it is better not to concentrate on one fridge. Also, simple design shoud be recommended because we shoudl emphaszime more on quality rather than design itself.",
+            "prediction": "I think it must be nice to have a room where people can gather and talk together. Also, I think it must be nice to have a room where people can concentrate and focus on their creative activities.",
+            "scores": {
+                "wmd": 0.20066219929113124,
+                "sentence_similarity": 0.34923186898231506,
+                "normalized_length_similarity": 0.7386363636363636,
+                "bleu": 0.02410525698158399,
+                "ttr": 0.6341463414634146,
+                "history_similarity": 0.5705176591873169
+            }
+        },
+        {
+            "message": "Wow, your thoughtful reflections truly paint a vivid canvas for our project! Now, to keep this masterpiece alive, how do you think we can encourage everyone to work together with open hearts and respect, so our shared dream room becomes not just a space but a living, breathing community? What kind of teamwork or rituals might inspire harmony amid our creative passions?",
+            "response": "Coffee space, TV space, relaxation facilities should be added ! This certainly makes resident want to go to this room, I think.",
+            "prediction": "I think we can set up a schedule clearly so everyone knows what to do and when. Also, we can talk openly and share our ideas nicely, making sure everyone feels heard and valued. This way, we keep the room not just creative but also full of kindness and cooperation.",
+            "scores": {
+                "wmd": 0.20461262960143306,
+                "sentence_similarity": 0.4260860085487366,
+                "normalized_length_similarity": 0.47924528301886793,
+                "bleu": 0.010052070847919934,
+                "ttr": 0.8035714285714286,
+                "history_similarity": 0.5798740386962891
+            }
+        },
+        {
+            "message": "Logically speaking, to ensure our shared spaces serve everyone well, we need to balance activity and quiet time effectively. How do you think we should gather everyone’s availability and preferences so we can develop a schedule that respects both collaboration and rest?",
+            "response": "By making group in SNS app like LINE, Slack and make the people who belong to the group write the schedule.",
+            "prediction": "I think we should conduct a survey to collect everyone's availability and preferences. This will help us clearly understand everyone's schedule and needs. Do you think this is a good idea?",
+            "scores": {
+                "wmd": 0.29593249576375763,
+                "sentence_similarity": 0.32928988337516785,
+                "normalized_length_similarity": 0.5691489361702128,
+                "bleu": 0.007293301163414325,
+                "ttr": 0.8333333333333334,
+                "history_similarity": 0.5137150287628174
+            }
+        }
+    ]
+}

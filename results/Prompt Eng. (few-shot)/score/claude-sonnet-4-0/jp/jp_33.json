@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "model": "claude-sonnet-4-0",
+    "method": "few-shot",
+    "score_date": "2025-10-07 18:08:33",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "ハハ！冷蔵庫の管理も同じように、みんなで使うスペースを割り振って、日替わりでチェック担当を回すのはどうかな？そうすれば公平だし、みんなが気持ちよく使えると思うんだ！友達、個人間で共有するルールについてはどう感じる？何かみんなが守りやすいアイデアはあるかな？",
+      "response": "ルールが分かりやすいほうが守りやすい気がする",
+      "prediction": "シンプルなルールの方が守りやすいと思う",
+      "scores": {
+        "wmd": 0.5794574313058268,
+        "sentence_similarity": 0.7089760899543762,
+        "normalized_length_similarity": 0.8636363636363636,
+        "history_similarity": 0.8152599334716797,
+        "bleu": 0.10156297514737136,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "ああ…確かにシンプルで分かりやすいルールは理想的ですよね。でも、実際のところ生活の中で多少の妥協や譲歩は避けられないと思うのですが、皆さんはどの辺りまでが許容範囲だと思いますか？例えば、完璧を求めすぎるとストレスになる一方で、あまりにルーズだと生活の質が落ちてしまう…このバランスを保つためにどんな実用的な工夫が考えられるでしょうか？僕は潔癖症なわけじゃないんだけど、やっぱり快適さにはこだわりたいんですよね。",
+      "response": "時と場合による。ただ全員の最低の希望は通さないといけないと思う",
+      "prediction": "個人的には8割くらいできていれば十分だと思う",
+      "scores": {
+        "wmd": 0.7295263896370067,
+        "sentence_similarity": 0.5097633600234985,
+        "normalized_length_similarity": 0.7096774193548387,
+        "history_similarity": 0.7444413304328918,
+        "bleu": 0.02340062524264556,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ、本当に共感するよ！みんなで快適に暮らすには相手へのリスペクトが欠かせないけど、具体的にはどんな行動やマナーが一番大切だと思う？たとえば、日の当たる場所の使い方や掃除の分担とか、細かいけど実は芸術のように調和が必要なポイントがある気がするんだ！君の考えをぜひ聞かせてほしいな！",
+      "response": "相手のことを考えて行動するといい気がする",
+      "prediction": "相手の立場を考えて行動することが一番大切だと思う",
+      "scores": {
+        "wmd": 0.45285147483365007,
+        "sentence_similarity": 0.7950003147125244,
+        "normalized_length_similarity": 0.8333333333333334,
+        "history_similarity": 0.7258923649787903,
+        "bleu": 0.30934588294313714,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ！まさにその通りだね！相手を思う気持ちが最高の調和の秘訣だよ！君はどう思う？",
+      "response": "非常に賛同する",
+      "prediction": "複数の意見を組み合わせることでより良い解決策が見つかるはず",
+      "scores": {
+        "wmd": 1.064237140149414,
+        "sentence_similarity": 0.5349530577659607,
+        "normalized_length_similarity": 0.2413793103448276,
+        "history_similarity": 0.7801066637039185,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ！君の心に響いてうれしいよ！では、具体的なマナーや行動について、君はどんなアイデアがある？",
+      "response": "人の睡眠などの妨害をしないようにすること",
+      "prediction": "相手の気持ちを考えて行動することが一番大切だと思う",
+      "scores": {
+        "wmd": 0.7935058265355892,
+        "sentence_similarity": 0.5283668041229248,
+        "normalized_length_similarity": 0.8,
+        "history_similarity": 0.7308003902435303,
+        "bleu": 0.033241378434410024,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "とても重要なポイントですね。さて、多様な意見がある中でみんなの意見を調和させるには、具体的にどのようなルールや仕組みを作るのが最も効果的だと思いますか？公平で実用的な方法を考えてみましょう。",
+      "response": "例えばそれを決めるために全体で会議をするとか",
+      "prediction": "話し合いの機会を定期的に設けて、その都度調整していくのがいいと思う",
+      "scores": {
+        "wmd": 0.9238299612858917,
+        "sentence_similarity": 0.6428456902503967,
+        "normalized_length_similarity": 0.6666666666666666,
+        "history_similarity": 0.7821476459503174,
+        "bleu": 0.012673718536830811,
+        "ttr": 0.9
+      }
+    }
+  ]
+}

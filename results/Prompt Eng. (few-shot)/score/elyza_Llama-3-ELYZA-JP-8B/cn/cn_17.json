@@ -1,0 +1,141 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:59",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！要不我们玩个疯狂的假设游戏——如果你突然中了一个亿，你第一件想做的疯狂事是什么？别管现实不现实，尽情放飞你的梦想吧！\nA. 我想旅行\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何分配？比如投资、消费、储蓄各占大约多少？\nA. 一个亿花不完了，存银行9000万，剩下的直接玩\n\nQ. 哇，你的计划太有远见了！告诉我，这个梦想背后的动力是什么呢？是为了达成明确的目标，还是更多被内心的激情和价值观驱动呢？艺术就是要挖掘那些深藏的动机，爆发最真实的力量！\nA. 你还记得我打算用一个亿干嘛吗\n\nQ. 哇，当然记得！你要用它打造你的梦想天地，真是太棒了！那动力到底是为了证明自己，还是改变世界呢？分享给我吧！\nA. 我的梦想天地是啥\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，既然我们都在努力营造舒服的环境，那我来问问大家！如果我们要设计一个完美的电竞房，你觉得里面最酷的美学元素或者装饰风格应该是什么样的？别害羞，放飞你的想象力，来点炫的、酷的、让人秒变游戏王的感觉吧！",
+            "response": "电脑啊，4090",
+            "prediction": "我想让电竞房变成一座奇怪的城堡。",
+            "scores": {
+                "wmd": 1.256019044502236,
+                "sentence_similarity": 0.45772454142570496,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.8090450167655945
+            }
+        },
+        {
+            "message": "哈哈，朋友！4090超强！那电竞房墙壁要不弄成酷炫的霓虹灯效果，怎么样？！太棒了！！",
+            "response": "不要，花里胡哨的",
+            "prediction": "我想和大家一起共有这个家",
+            "scores": {
+                "wmd": 1.222898909221756,
+                "sentence_similarity": 0.3829795718193054,
+                "normalized_length_similarity": 0.6666666666666666,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7452722787857056
+            }
+        },
+        {
+            "message": "哦……既然我们都认同简约风格更符合电竞房的实用需求，那如果真的遇到空间或设备布置上的限制，你会怎么在追求理想美感和实际功能之间找到一个既不过分妥协又不显得突兀的平衡点呢？我不是挑剔，只是感觉这其实挺微妙的，大家怎么看呢？",
+            "response": "我不怎么看",
+            "prediction": "我想通过与其他住民进行讨论和合作来找到平衡点。",
+            "scores": {
+                "wmd": 1.1463997272734865,
+                "sentence_similarity": 0.5790755748748779,
+                "normalized_length_similarity": 0.21739130434782608,
+                "bleu": 0.01428363257865929,
+                "ttr": 1.0,
+                "history_similarity": 0.744608998298645
+            }
+        },
+        {
+            "message": "嗯……也许是我期望过高了，能不能说说你的想法呢？",
+            "response": "一起打游戏",
+            "prediction": "我想旅行",
+            "scores": {
+                "wmd": 1.2189078092479153,
+                "sentence_similarity": 0.5088104605674744,
+                "normalized_length_similarity": 0.8,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.8383660912513733
+            }
+        },
+        {
+            "message": "呵呵……一起打游戏当然重要呢，但是否也可以顺便聊聊设计细节呢？",
+            "response": "我对这些无所谓，别艺术了，你再说艺术我就离家出走了",
+            "prediction": "我的梦想天地是啥",
+            "scores": {
+                "wmd": 1.021200733954116,
+                "sentence_similarity": 0.5778332948684692,
+                "normalized_length_similarity": 0.32,
+                "bleu": 0.007710814196876619,
+                "ttr": 1.0,
+                "history_similarity": 0.8467028141021729
+            }
+        },
+        {
+            "message": "哇，说到共享那些有限的冰箱空间，我真的觉得这就像雕塑一样，要在保持个人隐私和遵守集体规则之间找到完美的平衡！你觉得我们应该怎么做，才能既尊重每个人的独占空间，又不让整个共享环境变得紧张呢？这种冲突是不是也像艺术创作中的矛盾一样，有它独特的美感呢？",
+            "response": "确实",
+            "prediction": "我的梦想天地是共享家裡的空間。",
+            "scores": {
+                "wmd": Infinity,
+                "sentence_similarity": 0.364719957113266,
+                "normalized_length_similarity": 0.13333333333333333,
+                "bleu": 0.0,
+                "ttr": 0.9,
+                "history_similarity": 0.7501770853996277
+            }
+        },
+        {
+            "message": "哇，太棒了！你觉得这种独特的美感怎么体现出来？快跟我分享！",
+            "response": "没有美感",
+            "prediction": "我的梦想天地是啥",
+            "scores": {
+                "wmd": 1.1850666272461279,
+                "sentence_similarity": 0.487486869096756,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.8467028141021729
+            }
+        },
+        {
+            "message": "从逻辑上讲，如果大家都能严格遵守安静和整洁的规则，这种环境对你的学习和实现梦想会带来怎样的影响？会让你更高效、更有动力，还是说还有其他因素更重要？",
+            "response": "是的",
+            "prediction": "我的梦想天地是啥",
+            "scores": {
+                "wmd": 0.7802370905966342,
+                "sentence_similarity": 0.6248915195465088,
+                "normalized_length_similarity": 0.25,
+                "bleu": 0.048549177170732344,
+                "ttr": 1.0,
+                "history_similarity": 0.8467028141021729
+            }
+        },
+        {
+            "message": "你同意规则带来的积极影响吗？请具体说明你的想法。",
+            "response": "OK",
+            "prediction": "我同意规則帶來的積極影響。為何ならば，我們四人都住在一起，生活方式、趣味、性格等也不同，各自有自己的想法、夢想、目標等，現在住在一起、共有空間、共有時間，相互影響、相互支持、相互理解等。共有生活空間、共有時間、共有經驗等，相互影響、相互支持、相互理解等。共有生活空間、共有時間、共有經驗等，相互影響、相互支持、相互理解等。共有生活空間、共有時間、共有經驗等。共有生活空間、共有時間、共有經驗等。共有生活空間、共有時間、共有經驗等。共有生活空間、共有時間、共有經驗等。共有生活空間、共有時間、共有經驗等。共有生活空間、共有時間、共有經驗等。共有生活空間、共有時間、共有經驗等。共有生活空間、共有時間",
+            "scores": {
+                "wmd": 1.2987070837564647,
+                "sentence_similarity": 0.02245231717824936,
+                "normalized_length_similarity": 0.006711409395973154,
+                "bleu": 0.0,
+                "ttr": 0.22033898305084745,
+                "history_similarity": 0.4605232775211334
+            }
+        },
+        {
+            "message": "让我们分析一下，你觉得哪些具体规则最能提升你的效率？",
+            "response": "没啥规则",
+            "prediction": "我想知道我在这所共享房子中住的是五个人：达维ンチ、ド那托、米歇尔安杰洛和拉斜波罗。他们是有名的艺术家吗？",
+            "scores": {
+                "wmd": 1.283644542364243,
+                "sentence_similarity": 0.3616670072078705,
+                "normalized_length_similarity": 0.07692307692307693,
+                "bleu": 0.0,
+                "ttr": 0.8823529411764706,
+                "history_similarity": 0.64898282289505
+            }
+        }
+    ]
+}

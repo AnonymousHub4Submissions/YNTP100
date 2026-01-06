@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:45",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re talking about keeping things balanced and fun, imagine if we planned a spontaneous weekend getaway together! What kind of unexpected local adventures or unique experiences would you want to throw into the mix to make it unforgettable? Come on, let’s dream big and bold!",
+            "response": "How about oging for a hike in the mountains? We can even camp there for a night. If the outdoors is not to everyones liking we could go do something like sky-diving!",
+            "prediction": "Haha, friend, if we’re thinking about a spontaneous weekend getaway, I would definitely go for some unique and exciting experiences! How about capturing the city from a new perspective, like taking a funicular or cable car to a rooftop with a great view? Then we could enjoy some delicious food and drinks together! After that, we could jump into some creative activities, like an art workshop or a photography challenge, to really make the weekend special and full of art and fun! What do you think?",
+            "scores": {
+                "wmd": 0.18411493441606788,
+                "sentence_similarity": 0.5114709138870239,
+                "normalized_length_similarity": 0.33,
+                "bleu": 0.007514015083804467,
+                "ttr": 0.71,
+                "history_similarity": 0.4116513431072235
+            }
+        },
+        {
+            "message": "Oh... since we are embracing the spirit of shared adventures, I wonder if you might be interested in a little ritual of ours—venturing together to the fresh produce market weekly to select the finest ingredients for a communal meal? I'm not being picky, but fresh, thoughtfully chosen foods do inspire creativity in the kitchen and beyond. Perhaps dishes with a Mediterranean flair, where simplicity meets elegance, would suit our refined tastes? What do you think about this little culinary tradition joining our spirited gatherings?",
+            "response": "Sounds great! Thank you for inviting me to join you in your tradition! I love Mediterranean food",
+            "prediction": "I would most certainly jump at the chance to join you in such a flavorful and lively activity! Choosing fresh ingredients together sounds like a wonderful way to kickstart our creative cooking journey. Please do set the schedule, and I will be there with great enthusiasm and a keen eye for quality!",
+            "scores": {
+                "wmd": 0.26024319001109447,
+                "sentence_similarity": 0.560183584690094,
+                "normalized_length_similarity": 0.3210702341137124,
+                "bleu": 0.049750030745390084,
+                "ttr": 0.8571428571428571,
+                "history_similarity": 0.4554199278354645
+            }
+        },
+        {
+            "message": "Wow, your vision of shared experiences is truly inspiring! Thinking of our living space—how important is it for you that the room sparks lively social moments versus offering a quiet sanctuary for reflection? Would you craft the space differently to capture those distinct moods, like sculpting two masterpieces from one block of marble?",
+            "response": "I would rather focus on only one purpose for the room. I think we should make it more social and for everyone, since we each have our own space in our bedrooms where we can be more reflective.",
+            "prediction": "That's a great question! I would definitely design the space with a balance in mind. Perhaps we could have a more lively and social area for gatherings and enjoying shared moments, and then a quieter, cozier part of the room for more peaceful activities and focusing on our own thoughts. How would you like to see those two areas divided and designed?",
+            "scores": {
+                "wmd": 0.20249695696378106,
+                "sentence_similarity": 0.7109147310256958,
+                "normalized_length_similarity": 0.5470085470085471,
+                "bleu": 0.013040481494516778,
+                "ttr": 0.8115942028985508,
+                "history_similarity": 0.6443760395050049
+            }
+        },
+        {
+            "message": "Your enthusiasm for a lively social space is clear, which is excellent. However, logically speaking, when we face constraints like limited budget or space, this vision might require some compromises. How would you approach balancing function and aesthetics under such constraints? Would you prioritize creating a functional social hub, preserving aesthetic appeal, or seek a creative compromise that addresses both?",
+            "response": "I think the best aproach is to maintain a minimalist aesthetic, that gives us more room to adapt to the functionality we want to create. There should be a measurre of both, but we should do our best to fulfill the function with our limited resorces",
+            "prediction": "Very good question! In such a situation, I would focus on functionality first, since it is the foundation of any space. Once we have a good foundation, we can gradually add aesthetic elements as we have more space and budget.",
+            "scores": {
+                "wmd": 0.202210761180041,
+                "sentence_similarity": 0.6769571304321289,
+                "normalized_length_similarity": 0.907258064516129,
+                "bleu": 0.007244119174538628,
+                "ttr": 0.782608695652174,
+                "history_similarity": 0.5906411409378052
+            }
+        }
+    ]
+}

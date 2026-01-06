@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:43:22",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈朋友，说到你之前提到制定详尽的计划和数字，太棒了！是什么让你这么坚持这些理性安排呢？是为了安全感、目标感，还是有别的特别理由？快告诉我你的秘密！",
+      "response": "有目标感会比较安心，我不喜欢突发情况",
+      "prediction": "为了目标感和安全感。",
+      "scores": {
+        "wmd": 0.932189049303992,
+        "sentence_similarity": 0.6964102387428284,
+        "normalized_length_similarity": 0.5555555555555556,
+        "history_similarity": 0.7456233501434326,
+        "bleu": 0.01774239756616722,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "说到稳妥和秩序，我正想问……如果我们设计共享冰箱，你觉得是给每个人固定分区比较合理，还是按物品类别来划分更合适呢？我不是挑剔，但空间有限，大家都希望存放物品时既方便又不混乱。你觉得哪种安排更能让生活品质得到保障呢？",
+      "response": "每个人固定分区，这样比较公平",
+      "prediction": "每个人分配固定空间",
+      "scores": {
+        "wmd": 0.6908824708499568,
+        "sentence_similarity": 0.7411785125732422,
+        "normalized_length_similarity": 0.6428571428571429,
+        "history_similarity": 0.7471744418144226,
+        "bleu": 0.06900940978236146,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，说到生活细节，咱们装修“梦想房间”时，面对实用和美观的矛盾，你会怎么拿捏呢？更偏向功能优化，把实用放在第一位，还是愿意为了艺术感适度妥协一点？艺术就是要找到那个完美平衡点，你怎么看？",
+      "response": "实用第一位",
+      "prediction": "A: 我更偏向功能优化，但实际中可以为艺术感适度妥协。",
+      "scores": {
+        "wmd": 1.2572152906466372,
+        "sentence_similarity": 0.3804357945919037,
+        "normalized_length_similarity": 0.18518518518518517,
+        "history_similarity": 0.5813755393028259,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "从生活细节来说，噪音和清洁这些因素确实会影响心情。我们能不能用一个具体的公约来规范，比如安静时间段或者轮流清洁安排？你觉得这样的规则怎么制定才更合理，既尊重彼此习惯又能保证效率？",
+      "response": "可以制定公约。公约的制定需要在了解大家自身作息的基础上协商确定",
+      "prediction": "可以。先了解大家作息时间，再制定安静时段和轮流清洁安排。",
+      "scores": {
+        "wmd": 0.6821812796210837,
+        "sentence_similarity": 0.6721729636192322,
+        "normalized_length_similarity": 0.9032258064516129,
+        "history_similarity": 0.828777015209198,
+        "bleu": 0.02886589539106327,
+        "ttr": 0.9375
+      }
+    }
+  ]
+}

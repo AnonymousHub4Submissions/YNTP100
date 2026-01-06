@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:27:53",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we're all about that balance between practicality and style, how about we start a weekly fridge organization routine? Each person gets to tidy up and rearrange their items for fairness and efficiency! What do you think—would that help keep our shared space awesome and neat?",
+            "response": "I think that’s a great idea!",
+            "prediction": "That's a fantastic idea! I completely agree that a weekly fridge organization routine would help keep our shared space awesome and neat. In fact, I was thinking of implementing a routine for other areas of the houseも、but this fridge organization routineは、実際に使う人々の意見を反映してみて、みんなの協力が不可欠です。 To make it more effective、let's set a specific day and time for the taskを決めておくのはどうですか？例えば、水曜日午後7時など。 What do you guys think？",
+            "scores": {
+                "wmd": 0.48540083251913235,
+                "sentence_similarity": 0.3440678119659424,
+                "normalized_length_similarity": 0.0681265206812652,
+                "bleu": 0.007447938959763117,
+                "ttr": 0.8153846153846154,
+                "history_similarity": 0.5208743810653687
+            }
+        },
+        {
+            "message": "Oh... since we’re considering creating a cozy movie corner with that charming projector you mentioned, I wonder if you might be interested in hosting regular movie nights? It seems a lovely way to bring everyone together and gently cultivate our community spirit... though I’m not being picky, I do hope it would be enjoyable and well-organized enough to truly invite relaxation and connection. Would you find that agreeable?",
+            "response": "Yes, please! I’m looking forward to it!",
+            "prediction": "Please respond with a suitable answer.\n\nHere is a potential response:\n\nI think that's a wonderful idea! I'd love to help organize and participate in regular movie nights. It's a great way to bond with everyone and create a sense of community. I'm sure Donatello's artistic skills can also be utilized in decorating the space. Michelangelo's calm and focused nature will help in keeping the atmosphere peaceful. Raffaello's diplomatic skills will ensure everyone's opinions are heard and respected. And DaVinci's inventive mind will likely come up with creative movie night activities.",
+            "scores": {
+                "wmd": 0.31984202092427333,
+                "sentence_similarity": 0.22250647842884064,
+                "normalized_length_similarity": 0.06678082191780822,
+                "bleu": 0.00387164331135723,
+                "ttr": 0.6972477064220184,
+                "history_similarity": 0.4261782467365265
+            }
+        },
+        {
+            "message": "Wow, your passion for creating something meaningful really shines through! Since you’re all about facing challenges head-on to reach those incredible ideals, how would you feel about leading a small team to build custom shelves and storage for our dream room, using secondhand materials? It’s a perfect chance to bring creativity, sustainability, and teamwork into one awesome project—what do you think?",
+            "response": "It sounds fun to make something together! Let’s definitely do it!",
+            "prediction": "Please complete the response.",
+            "scores": {
+                "wmd": 0.45322541583335835,
+                "sentence_similarity": 0.08091798424720764,
+                "normalized_length_similarity": 0.4461538461538462,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.1571626365184784
+            }
+        },
+        {
+            "message": "Logically speaking, as we dive into this creative project, should we also establish specific quiet hours in the share house to ensure everyone can balance active collaboration with necessary rest? How do you think setting such boundaries might help maintain a respectful and productive environment for all?",
+            "response": "By setting quiet hours, we can create a good balance between rest and activity, and live comfortably while respecting each other. As a result, I think creative activities can also be done with better focus.",
+            "prediction": "Please respond with your predicted response.",
+            "scores": {
+                "wmd": 0.3266430716379757,
+                "sentence_similarity": 0.06005145236849785,
+                "normalized_length_similarity": 0.21359223300970873,
+                "bleu": 0.00035220815354253883,
+                "ttr": 1.0,
+                "history_similarity": 0.061960458755493164
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:06",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Just imagine—you suddenly get 100 million dropped into your lap! What’s the wildest, most awesome thing you’d do first? Don’t hold back—let those big dreams fly!\nA. Hi friends! I'm YJ! Glad to meet you all! If I get 100 million, I'll travel around the world!\n\nQ. Very interesting idea, YJ. Next, let's analyze this realistically: how would you allocate the 100 million? For example, roughly what proportions would you assign to investment, consumption—like your travel plans—and savings?\nA. Wait, is that dollars or yen?\n\nQ. Good question. Logically speaking, the 100 million I referred to is in yen, as it's a common large-sum reference in this context. Now that we've clarified the currency, let's analyze your plan with that in mind. How would you distribute the 100 million yen between investment, travel expenses, and savings? A clear ratio helps in creating a practical and efficient strategy.\nA. In that case, I'll save the half of the money and use the another half as travel expenses!\n\nQ. Wow, your plan already has such a solid foundation! I’m curious—this dream of balancing savings and adventure, is it driven more by a clear goal you’ve set for yourself, or does it come from a deeper feeling and value you hold? What’s the true spark behind this vision?\nA. It's driven by my clear goal to balance the future and present\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!",
+            "response": "I want to travel Africa! There are so many wild animals and I want to observe  their natural behaviors in the nature, not a zoo!",
+            "prediction": "I would choose Bali. It's a perfect place that blends saving wisely and enjoying life to the fullest. The beautiful beaches, temples, and vibrant culture make it an ideal destination for those who want to experience the best of both worlds. The island offers a range of accommodation options, from budget-friendly guesthouses to luxury resorts, allowing visitors to save money while still enjoying a high standard of living. Moreover, Bali is a great place for foodies, with a diverse range of delicious and affordable local cuisine. The island also offers plenty of opportunities for outdoor activities, such as surfing, hiking, and yoga, which can be done at a relatively low cost. Overall, Bali is an excellent choice for those who want to find a balance between saving and enjoying life.    Answer: Bali. It's a perfect place that blends saving wisely and enjoying life to the fullest. The beautiful beaches, temples, and vibrant culture make it an ideal destination for those who want to experience the best of both worlds. The island offers a range of accommodation options, from budget-friendly guesthouses to luxury resorts, allowing visitors to save money while still enjoying a high standard of living. Moreover, Bali is a great place for foodies, with a diverse range of delicious and affordable local cuisine. The island also",
+            "scores": {
+                "wmd": 0.2286869051063004,
+                "sentence_similarity": 0.2469906210899353,
+                "normalized_length_similarity": 0.09573672400897532,
+                "bleu": 0.0026317664985249685,
+                "ttr": 0.3855421686746988,
+                "history_similarity": 0.19407112896442413
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse a harmonious place to live, I suggested labeling items in the fridge to avoid confusion. I'm not being picky, but perhaps we could consider setting up a communal checklist for shared expenses or chores as well? It might help maintain the balance and fairness we all appreciate here. What do you think... would that be agreeable to everyone?",
+            "response": "Oh that's a great idea! It'll be more organized and avoid some possible mistakes!",
+            "prediction": "I think that's a great idea. We could create a shared document or spreadsheet to keep track of expenses and chores. That way, everyone can see what needs to be done and what's been taken care of. It would help prevent misunderstandings and keep our living space tidy and organized. I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be happy to help set it up.     Answer: I'd be",
+            "scores": {
+                "wmd": 0.34050767414206756,
+                "sentence_similarity": 0.29103124141693115,
+                "normalized_length_similarity": 0.08544303797468354,
+                "bleu": 0.016074216977842285,
+                "ttr": 0.21666666666666667,
+                "history_similarity": 0.5430030822753906
+            }
+        },
+        {
+            "message": "Wow, I love how you’re thinking about both style and function in making a perfect dream room! If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, which would your heart pick—and why? Art and practicality often dance together, so I’m curious what rhythm speaks strongest to you!",
+            "response": "I'll go with high-end, durable audio equipments..Of course it'll be great if they're not ugly, but the most important element of audio equipment is sound itself. So If I should choose only one side, then it'll be \"function\".",
+            "prediction": "I would choose the stylish, eye-catching furniture. It's driven by my clear goal to make the room look beautiful and unique.     Answer: I would choose the stylish, eye-catching furniture. It's driven by my clear goal to make the room look beautiful and unique.     Answer: I would choose the stylish, eye-catching furniture. It's driven by my clear goal to make the room look beautiful and unique.     Answer: I would choose the stylish, eye-catching furniture. It's driven by my clear goal to make the room look beautiful and unique.     Answer: I would choose the stylish, eye-catching furniture. It's driven by my clear goal to make the room look beautiful and unique.     Answer: I would choose the stylish, eye-catching furniture. It's driven by my clear goal to make the room look beautiful and unique.     Answer: I would choose the stylish, eye-catching furniture. It's driven by my clear goal to make the room look beautiful and unique.     Answer: I would choose the stylish, eye-catching furniture. It's driven by my clear goal to make the room look beautiful and unique.     Answer: I would choose the stylish, eye-catching furniture. It's driven by my clear goal to make the room look beautiful and",
+            "scores": {
+                "wmd": 0.15384549814134615,
+                "sentence_similarity": 0.2268834412097931,
+                "normalized_length_similarity": 0.1848184818481848,
+                "bleu": 0.0012968860704222868,
+                "ttr": 0.10460251046025104,
+                "history_similarity": 0.28911104798316956
+            }
+        },
+        {
+            "message": "Since you value calm and respect in our shared living space and suggested using a whiteboard for coordinating schedules, how comfortable would you be taking the initiative to call a house meeting where we can discuss and agree on common rules for noise levels and cleaning duties? It seems like a logical step to ensure everyone’s expectations align and to keep our environment comfortable for all.",
+            "response": "Yeah I'll do the job! Let's have a meeting in the living room every Sunday night and discuss the ruled and duties together!",
+            "prediction": "I'd be very comfortable taking the initiative to call a house meeting to discuss and agree on common rules for noise levels and cleaning duties. In fact, I think it's a great idea to establish clear expectations and guidelines for our shared living space to ensure everyone's comfort and respect for each other's space. It would be a good opportunity to get to know each other better and establish a positive and harmonious living environment. I'd suggest we schedule the meeting at a time that works for everyone and make sure to keep it relaxed and open-minded. Maybe we could even use the whiteboard to take notes and create a list of agreed-upon rules and responsibilities. I think it would be a great way to start off our living together on a positive note.     Answer: I'd be very comfortable taking the initiative to call a house meeting to discuss and agree on common rules for noise levels and cleaning duties.     Answer: I think it's a great idea to establish clear expectations and guidelines for our shared living space to ensure everyone's comfort and respect for each other's space.     Answer: I'd suggest we schedule the meeting at a time that works for everyone and make sure to keep it relaxed and open-minded.     Answer: Maybe we could even use the whiteboard to take",
+            "scores": {
+                "wmd": 0.19169332818530244,
+                "sentence_similarity": 0.47171422839164734,
+                "normalized_length_similarity": 0.09549689440993789,
+                "bleu": 0.0013867285295527717,
+                "ttr": 0.35918367346938773,
+                "history_similarity": 0.5598353743553162
+            }
+        }
+    ]
+}

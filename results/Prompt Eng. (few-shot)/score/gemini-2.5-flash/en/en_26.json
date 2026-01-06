@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:42:40",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend! Since we’re all about fairness and keeping things smooth here, how about we set up a super simple and flexible system where anyone can request or swap fridge space when needed? That way, we all get what we need without any fridge drama! What do you think—ready to make our kitchen even more awesome together?",
+      "response": "As I said on the 2nd day, separating equally is one of the easiest solutions. And I think other methods will be more effective after this rule is tried and we understand how we consume the space in fridge.",
+      "prediction": "I think this is a good idea. It is fair and flexible.",
+      "scores": {
+        "wmd": 0.28690748231867846,
+        "sentence_similarity": 0.18090155720710754,
+        "normalized_length_similarity": 0.25853658536585367,
+        "history_similarity": 0.3936474919319153,
+        "bleu": 0.00578125603106491,
+        "ttr": 0.8571428571428571
+      }
+    },
+    {
+      "message": "Oh... speaking of balancing practicality and style, I find myself pondering the design of our dream room. If we must choose between ease of maintenance and bold design elements, how might we prioritize? I’m not being picky, but I do wonder if the function should gently take precedence over aesthetics, especially if we aim for lasting harmony in our shared space. Would you agree that some struggles in upkeep are acceptable if the design truly inspires, or should we lean towards simplicity to ensure tranquility?",
+      "response": "I think the design of the room will not be prioritized the usefulness of the room. Our room is not the thing we discard once we used, so we must think whether we can use the room freely in the long run.",
+      "prediction": "I think ease of maintenance should be prioritized. We must use the room daily, so practicality is important for lasting harmony.",
+      "scores": {
+        "wmd": 0.20097718938907017,
+        "sentence_similarity": 0.6836704015731812,
+        "normalized_length_similarity": 0.6336633663366337,
+        "history_similarity": 0.543299674987793,
+        "bleu": 0.03017321414313988,
+        "ttr": 0.9583333333333334
+      }
+    },
+    {
+      "message": "Wow, your thoughtful balance between function and beauty truly sparks my creative soul! Now, thinking about your idea of collaborating quietly at night to keep the day peaceful—how might we paint the perfect picture of respecting everyone’s rest and work while still giving free rein to our nighttime creativity? What masterpiece of balance do you envision that honors both freedom and consideration in our shared masterpiece of life?",
+      "response": "Creativity will not be reasonable excuse to bother other members' rest. You had better not misunderstand this.",
+      "prediction": "I think we should set a time frame for nighttime collaboration. During this time, we should only engage in quiet creative activities. This way we can respect others' rest.",
+      "scores": {
+        "wmd": 0.19071668142787504,
+        "sentence_similarity": 0.37157323956489563,
+        "normalized_length_similarity": 0.6432748538011696,
+        "history_similarity": 0.5401444435119629,
+        "bleu": 0.030787460505623355,
+        "ttr": 0.8235294117647058
+      }
+    },
+    {
+      "message": "Your emphasis on avoiding suppression and maintaining fairness is clear. Logically speaking, when it comes to shared living and group activities, what core values or feelings guide your decisions and actions to ensure both your needs and others' are respected?",
+      "response": "Other members are not your family member, of course not your subordinate. As a first step, we must discard our selfish thinking/",
+      "prediction": "My primal values are fairness and practicality. These help me ensure both my needs and others' are respected.",
+      "scores": {
+        "wmd": 0.26988382476952893,
+        "sentence_similarity": 0.32442858815193176,
+        "normalized_length_similarity": 0.8515625,
+        "history_similarity": 0.3087812066078186,
+        "bleu": 0.00897875024609425,
+        "ttr": 0.8571428571428571
+      }
+    }
+  ]
+}

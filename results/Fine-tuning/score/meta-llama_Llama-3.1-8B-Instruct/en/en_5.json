@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:31",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making our space both beautiful and functional, imagine we add a cozy washitsu room with traditional Japanese vibes—but with some clever modern touches to blend convenience and comfort! How would that mix of old and new make you feel about our ShareHouse? Would it inspire you or make you want to hang out there more? Share your awesome thoughts!",
+            "response": "Not just once a week, but at night we should generally keep quiet.\nCleaning once a week should be enough.",
+            "prediction": "Hmm, it’s not really about adding a room… more about keeping things simple and affordable for everyone. So maybe just keeping the shared spaces looking nice and comfortable, without needing any special “design” changes, feels like the best plan for now!",
+            "scores": {
+                "wmd": 0.2390836750365095,
+                "sentence_similarity": 0.14609360694885254,
+                "normalized_length_similarity": 0.4150197628458498,
+                "bleu": 0.005186671025518576,
+                "ttr": 0.86,
+                "history_similarity": 0.5658243894577026
+            }
+        },
+        {
+            "message": "Haha, friend, that’s such an awesome idea! Quiet nights are perfect for recharging those batteries, right?! Keeping the night peaceful every day definitely helps everyone get top-notch rest! And cleaning once a week? Super efficient and eco-friendly, just the right balance! Imagine how peaceful our ShareHouse will feel with that calm nighttime vibe and sparkling clean spaces! Let’s make this a cozy, chill zone everyone loves to come home to! What else do you think would make our ShareHouse even more awesome? Share your cool ideas, friend! Haha!",
+            "response": "If we make a rule against keeping personal belongings in common areas, I think it would make problems much less likely to occur.",
+            "prediction": "Hmm, I’m not being picky, but I’d love it if people kept their things tidy enough so we all don’t have to work too hard to keep the house looking nice… and of course, it’d be great if people would take out their trash and stuff on the right day, so we don’t have to wait for someone else to do it…",
+            "scores": {
+                "wmd": 0.2521651453447787,
+                "sentence_similarity": 0.5211999416351318,
+                "normalized_length_similarity": 0.43097643097643096,
+                "bleu": 0.006644012696678056,
+                "ttr": 0.6973684210526315,
+                "history_similarity": 0.48826274275779724
+            }
+        },
+        {
+            "message": "Oh... since we all desire a harmonious and well-kept living space, might I gently suggest the idea of holding a weekly meeting to discuss and perhaps refine our shared space usage and cleanliness guidelines? I'm not being picky, but such a thoughtful gathering could help maintain the elegance and order we all appreciate. Would this be something you find agreeable, do you think?",
+            "response": "To be sure, participation isn't mandatory, but I'd think a few minutes of discussion would be fine.",
+            "prediction": "Well, I do get your point, and it makes sense—especially the part about keeping the shared space looking nice. Just like in this room, it’s all about finding the right balance. Hmm, maybe instead of a meeting, could we try simply setting a schedule for when we use the common areas? That might be an even easier way to keep things looking great and feeling comfortable for everyone.",
+            "scores": {
+                "wmd": 0.22533309321483255,
+                "sentence_similarity": 0.3095516562461853,
+                "normalized_length_similarity": 0.2591623036649215,
+                "bleu": 0.003732656341817682,
+                "ttr": 0.7974683544303798,
+                "history_similarity": 0.5786114931106567
+            }
+        },
+        {
+            "message": "Wow, what an inspiring conversation about creating harmony and order through thoughtful rules and gatherings! Speaking of sharing and celebrating what we love, imagine if we could bring a burst of traditional Japanese culture right here into our ShareHouse—what kind of immersive, creative experience or fun activity would you propose to truly share the spirit and beauty of that culture with everyone? Would it be something hands-on, like a tea ceremony or calligraphy workshop, or perhaps a vibrant storytelling session that captures the heart and history? I’d love to hear your vision—art is all about sharing passion and connection, after all!",
+            "response": "Indeed, for a tea ceremony, I think we could prepare everything quickly. Fine, I'll do it.",
+            "prediction": "Well, I’m not being picky, but I’d be even happier with something simpler, like just having a fridge that really keeps things fresh… for all of us to use, of course!",
+            "scores": {
+                "wmd": 0.25652110607833467,
+                "sentence_similarity": 0.3012697100639343,
+                "normalized_length_similarity": 0.5454545454545454,
+                "bleu": 0.013365863767826365,
+                "ttr": 0.85,
+                "history_similarity": 0.4672733545303345
+            }
+        },
+        {
+            "message": "Logically speaking, communication is crucial in shared living spaces. If we had a digital notice board where everyone could post requests or updates about shared areas, would you find it efficient to use? What types of messages would you consider important enough to post there?",
+            "response": "I don't think there's much demand for this, but it's good for collecting notes and other documents in one place.",
+            "prediction": "Since people only wrote things when they really needed to, it kept the noise level down, and we all understood each other pretty well without needing to say much. So I think just having a spot where people could write things out whenever they wanted would be perfect—no pressure, just whenever you had the urge!",
+            "scores": {
+                "wmd": 0.2489008862387989,
+                "sentence_similarity": 0.30494844913482666,
+                "normalized_length_similarity": 0.36012861736334406,
+                "bleu": 0.005113237542365033,
+                "ttr": 0.85,
+                "history_similarity": 0.40585607290267944
+            }
+        }
+    ]
+}

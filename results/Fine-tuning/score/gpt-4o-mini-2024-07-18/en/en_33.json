@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-30 13:34:30",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re all about making awesome memories together here, I gotta ask—when you spend special moments with your family or partner, how do you usually turn that time into unforgettable fun? Share your cool tricks or favorite ways to create those warm, joyful memories!",
+            "response": "let's see...\nI think i alway appreciate when i meet someone even my family. cause every moment never come back...especially my friends, family, boyfriend i cherish have own lifetime, but they give their time to spend with me. so i always feel happy when i meet important n precious people.",
+            "prediction": "oh, I have several tricks!\nFirst, I always try to make my special time during trip. if we just stay at home, we might feel boring. but when we go somewhere, we can enjoy and make special memory.\nand second, I take not only me but my partner to special place like restraunt or somewhere. if we just stay at home, we might feel normal and we can't make special memory. but after we go to special place, we can make unforgettable memory!",
+            "scores": {
+                "wmd": 0.16585679827600083,
+                "sentence_similarity": 0.3151811361312866,
+                "normalized_length_similarity": 0.6658986175115207,
+                "bleu": 0.003742088620358819,
+                "ttr": 0.5102040816326531,
+                "history_similarity": 0.41311249136924744
+            }
+        },
+        {
+            "message": "Oh... your sentiments about cherishing moments with loved ones truly resonate. That said, I find myself pondering—balancing the joy of investing in memorable experiences with family against the prudence needed to secure one’s financial future is quite the delicate art. I’m not being picky, but how do you personally navigate allocating your resources between creating those precious memories and ensuring long-term stability? Perhaps my expectations are too high, but finding that equilibrium seems essential, don’t you think?",
+            "response": "that's right.\nnow i'm in trouble about that case.\nI have to work a lot to get my good life, at the same time, it's also important to spend my precious.\nso now I'm trying to do half and half. I mean, when i focus on work or something to do, I never contact n meet someone. but in advance, i told them.\nthen after i finished, I'm gonna meet sometimes.",
+            "prediction": "oh, yes. i think it's better to balance between create memorable experience and secure your future. if i were you, i would spend money for good experience like travel with loved one. because, we can't take back time. but, we should also care about your future. after you feel you spent enough money for good experience, you should try to save money.",
+            "scores": {
+                "wmd": 0.2433494051914873,
+                "sentence_similarity": 0.32051098346710205,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.010469541660118849,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.46712830662727356
+            }
+        },
+        {
+            "message": "Wow, your balance between deep focus and sharing precious moments is truly inspiring! In a shared creative space like ours, where some thrive on lively energy and others need peaceful calm, how do you think we could arrange group activities so everyone’s rhythm and vibe are honored? Art thrives on harmony, after all!",
+            "response": "i think you should ask both opinions.",
+            "prediction": "oh, sorry to interrupt but I wanna join your conversation. I sppreciate your suggest and I'd like to add my opinion.\nIn my case, I prefer to stay peaceful rather than lively. so, I think we should hold group activity which brave everyone like you, at first. then, we can take rest or ensure relax time after that.\nif we stay together for a long time, we should be careful about atmosphere, ryt?",
+            "scores": {
+                "wmd": 0.39935810933755705,
+                "sentence_similarity": 0.15478470921516418,
+                "normalized_length_similarity": 0.09390862944162437,
+                "bleu": 0.0029076034292809367,
+                "ttr": 0.7159090909090909,
+                "history_similarity": 0.5316846966743469
+            }
+        },
+        {
+            "message": "Very well. Since you suggested organizing the fridge with individual containers for each person to maintain order, would you be willing to take the lead in coordinating a brief group meeting? We could set clear, fair rules for shared spaces that reflect everyone's needs and promote efficiency. What do you think would be the most effective way to facilitate this?",
+            "response": "First, you tell the gratitude for gathering.\nthen, you should tell your feeling n thought. like recently there are lots of things inside refrigerator. and you suggest that why don't we use containers.\nthen, you should ask what they think one by one. then start discuss",
+            "prediction": "First, I would gather all of person who use shared space. then, i would ask that about their preference, like n*container for each person, or shared space, and etc... I wanna make them decide together.",
+            "scores": {
+                "wmd": 0.2170378856121166,
+                "sentence_similarity": 0.4801919460296631,
+                "normalized_length_similarity": 0.75,
+                "bleu": 0.026922141315926344,
+                "ttr": 0.782608695652174,
+                "history_similarity": 0.49807870388031006
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:36",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈朋友们，既然我们都觉得定个“安静时段”很棒，那你们觉得这个时段应该从什么时候开始最合适呢？是早一点让大家休息好，还是晚一点让大家有足够玩乐时间？大胆说说你的想法吧！太棒了！",
+            "response": "可以发一个住户的问卷调查，大家晚上在几点之后希望是一个比较安静的环境，然后综合大家的想法，定下一个时间",
+            "prediction": "你还记得我的梦想是什么吗，如果我有一个亿\n\n你应该还记得吧",
+            "scores": {
+                "wmd": 0.902390842803042,
+                "sentence_similarity": 0.5509686470031738,
+                "normalized_length_similarity": 0.5686274509803921,
+                "bleu": 0.0082132671207379,
+                "ttr": 0.7619047619047619,
+                "history_similarity": 0.8739320635795593
+            }
+        },
+        {
+            "message": "哦……既然我们谈到了“梦想房间”，我想问问大家，如果由我来设计这个房间，我会优先考虑哪些实用功能呢？我不是挑剔，但是，毕竟生活品质和舒适度都很重要，是不是应该有些具体的设计细节能真正满足大家的日常需求呢？你们觉得呢？",
+            "response": "我个人的话，会比较偏好收纳功能，因为我的东西比较多。也许女孩和男孩的偏好不同，也可以以问卷的形式调查。",
+            "prediction": "有的",
+            "scores": {
+                "wmd": 1.1082518835962358,
+                "sentence_similarity": 0.4922056198120117,
+                "normalized_length_similarity": 0.0392156862745098,
+                "bleu": 2.7744572127761838e-08,
+                "ttr": 1.0,
+                "history_similarity": 0.7423763871192932
+            }
+        },
+        {
+            "message": "哇，大家对梦想房间的热情真是太棒了！说到公共区域的整洁，我脑袋里蹦出一个念头：除了空间划分和安静时间，我们是不是可以设计一些激励机制，比如小奖励或有趣的活动，来鼓励大家自觉保持整洁呢？你们觉得，用艺术的力量来激发大家的责任感，这个点子怎么样？太棒了还是太疯狂？快告诉我你的想法！",
+            "response": "我认为保持整洁是个人的责任，但小奖励或活动可能更能激发人的积极性。",
+            "prediction": "你还记得我的梦想是什么吗，如果我有一个亿\n\n你应该还记得吧",
+            "scores": {
+                "wmd": 0.964269648968411,
+                "sentence_similarity": 0.6844897270202637,
+                "normalized_length_similarity": 0.8787878787878788,
+                "bleu": 0.01291802583371725,
+                "ttr": 0.7619047619047619,
+                "history_similarity": 0.8739320635795593
+            }
+        },
+        {
+            "message": "从逻辑上讲，既然大家都有不同需求和偏好，不如我们举办一个关于“理想共享空间”的讨论会，系统地收集并分析大家的建议。你愿意参加并分享你的改善点吗？如果参加了，你最关注的改进方向会是什么？",
+            "response": "我会参加讨论会，视具体情况而定我认为需要改进的地方。",
+            "prediction": "我不愿意",
+            "scores": {
+                "wmd": 1.0829601394068122,
+                "sentence_similarity": 0.48889634013175964,
+                "normalized_length_similarity": 0.15384615384615385,
+                "bleu": 0.002904350906583578,
+                "ttr": 1.0,
+                "history_similarity": 0.7804863452911377
+            }
+        },
+        {
+            "message": "明白了，你会根据讨论会情况决定改进点。既然如此，请你先告诉我，当前你最关注公共区域哪方面的问题？",
+            "response": "便利性",
+            "prediction": "你还记得我打算用一个亿干嘛吗，如果我赢了那个梦想项目\n\n你应该还记得吧",
+            "scores": {
+                "wmd": 1.24504354091536,
+                "sentence_similarity": 0.5018954873085022,
+                "normalized_length_similarity": 0.08571428571428572,
+                "bleu": 0.0,
+                "ttr": 0.7916666666666666,
+                "history_similarity": 0.7395693063735962
+            }
+        }
+    ]
+}

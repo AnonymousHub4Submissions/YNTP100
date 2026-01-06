@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:27",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we're aiming for a heart-pounding, lively room that's also super easy to keep clean, how about we bring in some modular furniture or nifty storage solutions? They can be rearranged on a whim and make tidying up a breeze! What do you think? Any fun ideas on how to mix style and easy maintenance?",
+            "response": "Let's do this on a rotating duty system and work together.",
+            "prediction": "At first, we should share the space people need, like rooms or areas for sleeping, eating, and activity. It might take some trial and error to make it work well.",
+            "scores": {
+                "wmd": 0.2933822171051732,
+                "sentence_similarity": 0.21356244385242462,
+                "normalized_length_similarity": 0.36024844720496896,
+                "bleu": 0.006787181501568368,
+                "ttr": 0.8611111111111112,
+                "history_similarity": 0.5114908218383789
+            }
+        },
+        {
+            "message": "Ah... since we all value a lively atmosphere, yet also need moments of calm to focus on our work, perhaps we could consider setting specific times for creative bursts and quieter periods for concentration? I’m not being picky, but finding the right balance might truly enhance our shared living experience. What times or activities do you think we should prioritize for each?",
+            "response": "The comfortable lives of everyone should be prioritized above all else.",
+            "prediction": "I think we should make sure the refrigerator space is shared correctly, and people should be willing to adjust their schedules to ensure this mutual concession.",
+            "scores": {
+                "wmd": 0.2893504485443589,
+                "sentence_similarity": 0.4019526541233063,
+                "normalized_length_similarity": 0.44375,
+                "bleu": 0.015718877363021206,
+                "ttr": 0.9285714285714286,
+                "history_similarity": 0.5186998844146729
+            }
+        },
+        {
+            "message": "Ah... your emphasis on prioritizing everyone’s comfort is... quite admirable, truly. Comfort, after all, is the foundation of a harmonious home. Yet, I wonder if, in focusing solely on comfort, we might be overlooking the subtle needs for both inspiration and productivity that also bring fulfillment. Perhaps my expectations are too high, but I believe a delicate balance between ease and meaningful engagement would serve us best. Returning to our earlier thought... how do you envision us blending moments of lively socializing with times of peaceful focus, in a way that everyone’s comfort is respected?",
+            "response": "One should not have too high expectations, and I want to interact with a gentle attitude.",
+            "prediction": "This problem can be addressed by having designated times for activity and quiet.",
+            "scores": {
+                "wmd": 0.3345427323260428,
+                "sentence_similarity": 0.20417264103889465,
+                "normalized_length_similarity": 0.898876404494382,
+                "bleu": 0.012764741709898067,
+                "ttr": 1.0,
+                "history_similarity": 0.5169992446899414
+            }
+        },
+        {
+            "message": "Ah... I appreciate your reminder about tempering expectations; indeed, realism gently guides harmony. Your desire for gentle interaction is... quite thoughtful. Perhaps, then, we might approach our shared plans with kindness and patience, allowing flexibility for each person's mood and needs... I hope that is not too vague, though. Returning to our earlier discussion, might you share your thoughts on how we can create an environment blending gentle social moments with respectful quiet? Your perspective would truly enrich our delicate balance...",
+            "response": "Since we have to decide by talking, I'd like to align everyone's opinions.",
+            "prediction": "This problem can be addressed by enforcing a clear schedule designating specific times for activity and quiet.",
+            "scores": {
+                "wmd": 0.25596494153100774,
+                "sentence_similarity": 0.08540225028991699,
+                "normalized_length_similarity": 0.6727272727272727,
+                "bleu": 0.01284618972676772,
+                "ttr": 1.0,
+                "history_similarity": 0.3998614251613617
+            }
+        },
+        {
+            "message": "Wow, your vision for harmony truly inspires me! Since we’re all sharing this living space, would you be open to setting up regular little gatherings—like weekly ‘fridge check’ sessions—to keep our fresh ingredients and our spirits tidy and fair for everyone? It feels to me like a small act of collective care that could blossom into something beautiful! What do you think?",
+            "response": "Since we're living together, I think there will be some frustrations and things we have to put up with, but let's share and work through them. It's not good to unfairly force a burden on someone.",
+            "prediction": "Indeed, we should all share and care for one another. I'm willing to try making it work. But it might be quite challenging. I'll give it a shot, though.",
+            "scores": {
+                "wmd": 0.1786860583544002,
+                "sentence_similarity": 0.47854113578796387,
+                "normalized_length_similarity": 0.7794871794871795,
+                "bleu": 0.014104457377187421,
+                "ttr": 0.8108108108108109,
+                "history_similarity": 0.36414793133735657
+            }
+        },
+        {
+            "message": "Logically speaking, creating an environment that uplifts everyone’s mood is beneficial. If we had the chance to decorate our shared space with small, low-maintenance art pieces that brighten the room, would you prefer to contribute your own work or help select pieces together? How do you think this could impact our collective atmosphere?",
+            "response": "Let's go shopping together to decide. If someone really dislikes that art, we should avoid it.",
+            "prediction": "I think we should all share their own artwork. It would make the space more interesting.",
+            "scores": {
+                "wmd": 0.22249210524620147,
+                "sentence_similarity": 0.5991441011428833,
+                "normalized_length_similarity": 0.9361702127659575,
+                "bleu": 0.024309548251524583,
+                "ttr": 0.9444444444444444,
+                "history_similarity": 0.3996152877807617
+            }
+        }
+    ]
+}

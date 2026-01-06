@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:48",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Speaking of exploring new ideas and balancing our shared space beautifully, here’s a fun thought to keep our creativity buzzing! If you had the chance to venture into some mysterious, little-known place—like a secret garden or an ancient hidden village—what kind of magical hidden beauty or unforgettable experience would you be most excited to discover? Come on, don’t hold back your wildest dreams!",
+            "response": "I want to explore mysterious, unpopular places like ancient ruins and imagine the people who once lived there!",
+            "prediction": "I want to explore an ancient hidden village, because I want to learn about traditions and culture.",
+            "scores": {
+                "wmd": 0.21120187219276534,
+                "sentence_similarity": 0.6712685823440552,
+                "normalized_length_similarity": 0.8909090909090909,
+                "bleu": 0.13829483667905937,
+                "ttr": 0.8421052631578947,
+                "history_similarity": 0.25641149282455444
+            }
+        },
+        {
+            "message": "Oh... speaking of such fascinating journeys into the past, I wonder how you manage to keep these adventurous travels both affordable and spontaneous? I'm not being picky, but since many of us prefer saving for the future rather than planning every detail meticulously, do you have any particular tips for ensuring the thrill of discovery without compromising on financial prudence? I suppose balancing curiosity with practicality is an art in itself, don't you think?",
+            "response": "Yes, I believe finding enjoyment within limited resources rather than consuming them endlessly, can be enjoyable in itself. I can find pleasure of discovery in everyday life, like stepping into a shop I've never been, or getting off at a station I've never visited, and so on.",
+            "prediction": "I don't have the capability to travel, but I can share some practical tips for balancing adventure with budget!",
+            "scores": {
+                "wmd": 0.2585956040777843,
+                "sentence_similarity": 0.22179988026618958,
+                "normalized_length_similarity": 0.40217391304347827,
+                "bleu": 0.004658286801413261,
+                "ttr": 0.9545454545454546,
+                "history_similarity": 0.3354395627975464
+            }
+        },
+        {
+            "message": "Wow, your spirit of sharing and appreciating small joys really resonates with me! Since you value contributing to our shared wellbeing, like suggesting we rearrange the fridge space collaboratively, how do you think this wonderful teamwork vibe could flow into managing shared finances or responsibilities with roommates? It feels like a true work of art when everyone harmoniously contributes, don’t you think?",
+            "response": "I want to value everyone's harmony, so I hope we can use this atmosphere for the division of roles  in a way that satisfies everyone, not just moving by alone.",
+            "prediction": "I think it's very important for all members to contribute fairly, so I'd like to suggest we analyze everyone's usage of shared resources and divide the costs accordingly.",
+            "scores": {
+                "wmd": 0.16267932799391083,
+                "sentence_similarity": 0.40712544322013855,
+                "normalized_length_similarity": 0.9352941176470588,
+                "bleu": 0.04245007575989871,
+                "ttr": 0.9090909090909091,
+                "history_similarity": 0.40809813141822815
+            }
+        },
+        {
+            "message": "Logically speaking, creating a perfect stargazing spot might require some temporary sacrifices in comfort. In such situations, what specific forms of support or collaboration from your housemates would help you stay motivated and maintain that sense of shared harmony?",
+            "response": "If we can have a space where all members share their problems, we'll improve them through plan modification. Regarding the ideal room project, a skylight isn't essential for stargazing.",
+            "prediction": "I think my practicality and rationality will help maintain harmony.",
+            "scores": {
+                "wmd": 0.3272546257502088,
+                "sentence_similarity": 0.18383148312568665,
+                "normalized_length_similarity": 0.3621621621621622,
+                "bleu": 0.0021269981282370015,
+                "ttr": 1.0,
+                "history_similarity": 0.40748652815818787
+            }
+        }
+    ]
+}

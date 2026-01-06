@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:33",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友！那我们是不是可以制定一个详细的“晚间安静时间”规则，这样大家心里都有数，睡觉时间超棒又安静！你觉得这样合理吗？还是说我们用别的方式来解决，搞得更灵活一些？说说你的想法吧！",
+            "response": "每个人晚上的睡眠时间区间取并集，这个时间保持安静就行",
+            "prediction": "我觉得很合理啊，毕竟晚上我们都应该有一个安静的时段，对吧？这时候如果有人噪音太大的话，就会很容易打扰大家的安静时刻，我觉得这是合理的",
+            "scores": {
+                "wmd": 0.8333428699065237,
+                "sentence_similarity": 0.6388064622879028,
+                "normalized_length_similarity": 0.3939393939393939,
+                "bleu": 0.00606212098164554,
+                "ttr": 0.7674418604651163,
+                "history_similarity": 0.7096551060676575
+            }
+        },
+        {
+            "message": "既然大家都在意生活的便利性……我倒挺好奇的，你们在梦想房间里，会优先选择哪类智能设备或者家具呢？我不是挑剔，但毕竟空间有限，功能性又要和品质感兼顾，这样用起来才会顺手，你觉得呢？",
+            "response": "我提议扫地机器人",
+            "prediction": "我觉得既然是梦想房间，那么我应该会先考虑把哪些东西放入里面，我个人觉得把所有的智能设备和家具都放入里面然后比较比较，然后根据空间和预算来进行调整",
+            "scores": {
+                "wmd": 1.1146389472866007,
+                "sentence_similarity": 0.6207774877548218,
+                "normalized_length_similarity": 0.1111111111111111,
+                "bleu": 0.004286566854494811,
+                "ttr": 0.7441860465116279,
+                "history_similarity": 0.7073681354522705
+            }
+        },
+        {
+            "message": "哇，听你们说得这么实用，我突然灵感迸发了！如果在这个实用的房间里，加个小小的艺术角落，像是悬挂创意灯光或者摆放特别的艺术装饰品，你们觉得这样的点缀会不会让生活多点激情和灵魂的火花呢？艺术就是生活的心跳，你们怎么看？",
+            "response": "额，对艺术没什么概念。不过搞点小装饰能让心情更加愉悦。",
+            "prediction": "我觉得很好，艺术就是要带来灵感的，这样的话就可以让全局美学上升一个档次",
+            "scores": {
+                "wmd": 1.1235291085951136,
+                "sentence_similarity": 0.5830388069152832,
+                "normalized_length_similarity": 0.7714285714285715,
+                "bleu": 0.012021577610863726,
+                "ttr": 0.9523809523809523,
+                "history_similarity": 0.7381906509399414
+            }
+        },
+        {
+            "message": "从逻辑上讲，生活区域的整洁和生熟分开是关键。你们觉得设立简单明确的分工或规则，比如谁负责哪些区域、清洁频率如何安排，是否能有效提高大家的遵守度？这样既保证效率，也维护了生活品质，你们怎么看？",
+            "response": "公共区域的清洁，比如冰箱和灶台的打扫，可以写个排班表。其他公共区域麻烦自己产生的垃圾自己带走。",
+            "prediction": "我觉得很合理啊。可以引起大家的重视，谁负责什么，什么时候负责，这样的话就很有纪律，大家都知道自己的职责，谁也不会觉得很困扰",
+            "scores": {
+                "wmd": 0.8710572226378709,
+                "sentence_similarity": 0.5825088024139404,
+                "normalized_length_similarity": 0.7704918032786885,
+                "bleu": 0.00771678504430642,
+                "ttr": 0.6923076923076923,
+                "history_similarity": 0.7373080253601074
+            }
+        }
+    ]
+}

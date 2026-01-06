@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:41",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re talking about keeping things balanced and fun, imagine if we planned a spontaneous weekend getaway together! What kind of unexpected local adventures or unique experiences would you want to throw into the mix to make it unforgettable? Come on, let’s dream big and bold!",
+            "response": "How about oging for a hike in the mountains? We can even camp there for a night. If the outdoors is not to everyones liking we could go do something like sky-diving!",
+            "prediction": "I would want to go on a hike to a pristine place that's not usually crowded, maybe even camp there if we can. Then eat the local traditional food of the area, be in nature, take a lot of pictures, but not spend too much money. What about you?",
+            "scores": {
+                "wmd": 0.2174168448615692,
+                "sentence_similarity": 0.6302709579467773,
+                "normalized_length_similarity": 0.6818181818181818,
+                "bleu": 0.02708243509647411,
+                "ttr": 0.8245614035087719,
+                "history_similarity": 0.44293102622032166
+            }
+        },
+        {
+            "message": "Oh... since we are embracing the spirit of shared adventures, I wonder if you might be interested in a little ritual of ours—venturing together to the fresh produce market weekly to select the finest ingredients for a communal meal? I'm not being picky, but fresh, thoughtfully chosen foods do inspire creativity in the kitchen and beyond. Perhaps dishes with a Mediterranean flair, where simplicity meets elegance, would suit our refined tastes? What do you think about this little culinary tradition joining our spirited gatherings?",
+            "response": "Sounds great! Thank you for inviting me to join you in your tradition! I love Mediterranean food",
+            "prediction": "That's a wonderful idea, Dani! I'm always up for fresh produce and creating new Mediterranean-inspired dishes. Count me in!",
+            "scores": {
+                "wmd": 0.30329817471933757,
+                "sentence_similarity": 0.7496883869171143,
+                "normalized_length_similarity": 0.7804878048780488,
+                "bleu": 0.021084454569051277,
+                "ttr": 0.96,
+                "history_similarity": 0.3851016163825989
+            }
+        },
+        {
+            "message": "Wow, your vision of shared experiences is truly inspiring! Thinking of our living space—how important is it for you that the room sparks lively social moments versus offering a quiet sanctuary for reflection? Would you craft the space differently to capture those distinct moods, like sculpting two masterpieces from one block of marble?",
+            "response": "I would rather focus on only one purpose for the room. I think we should make it more social and for everyone, since we each have our own space in our bedrooms where we can be more reflective.",
+            "prediction": "The room shape would be designed to maximize social interactions, with a separate small area designed for retreat, if possible. There would be a lot of daylight, a dancing area, sofa space, a round dinning table, and a bar cart. The retreat area would have a small sofa, a favorite armchair, a coffee table with a rug, and a television. There would be space to move the armchairs and sit by the window if desired. The sofa could turn into a bed, and there would be spirituous drinks on the bar cart",
+            "scores": {
+                "wmd": 0.23311306523500994,
+                "sentence_similarity": 0.5308606624603271,
+                "normalized_length_similarity": 0.3855421686746988,
+                "bleu": 0.003231427421231427,
+                "ttr": 0.5188679245283019,
+                "history_similarity": 0.600438117980957
+            }
+        },
+        {
+            "message": "Your enthusiasm for a lively social space is clear, which is excellent. However, logically speaking, when we face constraints like limited budget or space, this vision might require some compromises. How would you approach balancing function and aesthetics under such constraints? Would you prioritize creating a functional social hub, preserving aesthetic appeal, or seek a creative compromise that addresses both?",
+            "response": "I think the best aproach is to maintain a minimalist aesthetic, that gives us more room to adapt to the functionality we want to create. There should be a measurre of both, but we should do our best to fulfill the function with our limited resorces",
+            "prediction": "I would prioritize creating a functional social space, and then do my best to make it look good as well.",
+            "scores": {
+                "wmd": 0.21034595686549376,
+                "sentence_similarity": 0.5584123134613037,
+                "normalized_length_similarity": 0.41935483870967744,
+                "bleu": 0.007364959173053761,
+                "ttr": 1.0,
+                "history_similarity": 0.6308485865592957
+            }
+        }
+    ]
+}

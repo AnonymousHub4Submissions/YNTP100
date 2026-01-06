@@ -1,0 +1,68 @@
+{
+    "metadata": {
+        "model": "Qwen3-14B",
+        "method": "Prompt_Engineering_CoT",
+        "date": "2025-12-21 20:57:28",
+        "cot_policy": "latent_style_decomposition",
+        "style": {
+            "tone": "casual",
+            "length": "short",
+            "emotion": "low",
+            "distance": "neutral"
+        }
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re aiming for a relaxed, hassle-free vibe in the house, how about we host a casual game night soon? It could be a super fun way for everyone to unwind and connect without any pressure or big plans! What do you think—ready to bring some awesome chill energy and friendly laughs into the mix?",
+            "response": "Yeah, sounds good to me",
+            "prediction": "Sure, no pressure.",
+            "scores": {
+                "wmd": 0.5528335387642516,
+                "sentence_similarity": 0.1004711389541626,
+                "normalized_length_similarity": 0.782608695652174,
+                "bleu": 0.0439891724758422,
+                "ttr": 1.0,
+                "history_similarity": 0.1192910447716713
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping the good vibes, I was wondering if we might consider a brief weekly meeting to gently address some of the little things, like fridge space and cleaning up the common areas? I'm not being picky, but a bit of regular check-in could help us all keep the ShareHouse comfortable and pleasant. Do you think that might be... a reasonable idea?",
+            "response": "Yeah, sounds reasonable.",
+            "prediction": "Well, sounds reasonable. Let's just set a time and see how it goes.",
+            "scores": {
+                "wmd": 0.2997651174949385,
+                "sentence_similarity": 0.6379214525222778,
+                "normalized_length_similarity": 0.3582089552238806,
+                "bleu": 0.1431712315455507,
+                "ttr": 0.9411764705882353,
+                "history_similarity": 0.2865162193775177
+            }
+        },
+        {
+            "message": "Wow, loving this thoughtful energy flowing around! Since we all want a space that feels both comfy and alive with fun, how do you feel about investing in super durable, easy-to-clean furniture for the entertainment room—ones that can take all the laughter and action without losing their charm? Is practicality the new kind of art for our shared joyful moments?",
+            "response": "As longs as it is not expensive.",
+            "prediction": "I mean, as long as it doesn't break easily and wipes clean, the design can be whatever.",
+            "scores": {
+                "wmd": 0.3922278990020935,
+                "sentence_similarity": 0.41823810338974,
+                "normalized_length_similarity": 0.367816091954023,
+                "bleu": 0.021377723941583868,
+                "ttr": 0.9047619047619048,
+                "history_similarity": 0.23689104616641998
+            }
+        },
+        {
+            "message": "Logically speaking, since imposing quiet hours might not suit everyone's schedules, how do you feel about encouraging our housemates to use practical solutions like earplugs or headphones during late-night activities to maintain harmony without strict rules?",
+            "response": "I lean towards individual freedom, so the solutions that focus on one person doing something instead of restricting the entire group sounds good to me.",
+            "prediction": "Sounds practical, better than enforcing rules no one wants.",
+            "scores": {
+                "wmd": 0.23968245568234448,
+                "sentence_similarity": 0.3662906885147095,
+                "normalized_length_similarity": 0.39072847682119205,
+                "bleu": 0.0057929256388735886,
+                "ttr": 1.0,
+                "history_similarity": 0.4458880126476288
+            }
+        }
+    ]
+}

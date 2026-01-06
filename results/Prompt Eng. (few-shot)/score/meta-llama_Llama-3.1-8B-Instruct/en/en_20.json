@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:00",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Let’s have some fun—if you suddenly landed 100 million in your lap, what’s the wildest, most exciting thing you’d do first? Don’t hold back with realistic stuff—let your boldest dreams run free!\nA. I would just enjoy myself and buy a house and a gaming setup, besides that just invest some money for passive income and that's it.\n\nQ. Very interesting idea. Next, let's consider it realistically: how would you allocate this 100 million? For example, roughly what proportions would you assign to investment, consumption, and savings?\nA. About 70% on treasure bonds or something and the rest is spending money, after that I would focus on maintaining the monthly expenses withing the passive income limit.\n\nQ. Wow, your plan is shaping up amazingly! I’m curious—does this dream come from a clear, big goal you’re aiming for, or is it more about how you want to feel and what values inspire you? Art and life both need that spark of deep meaning!\nA. I just want a relaxed life tbh, no big dream or anything.\n\nWorking makes you have no time for that type of thing.\n\nQ. Oh... speaking of quality in life and balance, I couldn't help but notice the shared refrigerator space has become rather cramped lately, especially with many packaged foods occupying most of it. I'm not being picky, but perhaps preserving enough space for fresh ingredients could help us all maintain the kind of quality in daily living we're striving for... Would you agree this balance is important for our shared comfort?\nA. Well, seems to be a fair complaint.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re aiming for a relaxed, hassle-free vibe in the house, how about we host a casual game night soon? It could be a super fun way for everyone to unwind and connect without any pressure or big plans! What do you think—ready to bring some awesome chill energy and friendly laughs into the mix?",
+            "response": "Yeah, sounds good to me",
+            "prediction": "Awesome, I'll help you carry the pizzas and board games when you get back.     Answer: Awesome, I'll help you carry the pizzas and board games when you get back.",
+            "scores": {
+                "wmd": 0.4486702745186337,
+                "sentence_similarity": 0.31369662284851074,
+                "normalized_length_similarity": 0.14285714285714285,
+                "bleu": 0.005157142709886005,
+                "ttr": 0.5,
+                "history_similarity": 0.17849163711071014
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping the good vibes, I was wondering if we might consider a brief weekly meeting to gently address some of the little things, like fridge space and cleaning up the common areas? I'm not being picky, but a bit of regular check-in could help us all keep the ShareHouse comfortable and pleasant. Do you think that might be... a reasonable idea?",
+            "response": "Yeah, sounds reasonable.",
+            "prediction": "I think that's a great idea. It would be a good way to address issues before they become bigger problems. Plus, it would give us a chance to get to know each other better and build a stronger sense of community. What do you think about setting up a schedule for these weekly meetings, like every Sunday evening or something? That way, we can all plan ahead and make sure to attend.     Answer:  I think that's a great idea. It would be a good way to address issues before they become bigger problems. Plus, it would give us a chance to get to know each other better and build a stronger sense of community. What do you think about setting up a schedule for these weekly meetings, like every Sunday evening or something? That way, we can all plan ahead and make sure to attend. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "scores": {
+                "wmd": 0.34068005462841483,
+                "sentence_similarity": 0.20250234007835388,
+                "normalized_length_similarity": 0.02771362586605081,
+                "bleu": 0.001019167819380733,
+                "ttr": 0.32057416267942584,
+                "history_similarity": 0.3666468858718872
+            }
+        },
+        {
+            "message": "Wow, loving this thoughtful energy flowing around! Since we all want a space that feels both comfy and alive with fun, how do you feel about investing in super durable, easy-to-clean furniture for the entertainment room—ones that can take all the laughter and action without losing their charm? Is practicality the new kind of art for our shared joyful moments?",
+            "response": "As longs as it is not expensive.",
+            "prediction": "I think that's a great idea, and it would be really nice to have some comfortable seating that can withstand the occasional spills and messes. Investing in durable furniture would not only save us time and effort in cleaning but also create a more relaxed and inviting atmosphere for us to hang out and have fun together. It's definitely a practical and thoughtful way to prioritize our shared comfort and well-being.     Answer:  I think that's a great idea, and it would be really nice to have some comfortable seating that can withstand the occasional spills and messes. Investing in durable furniture would not only save us time and effort in cleaning but also create a more relaxed and inviting atmosphere for us to hang out and have fun together. It's definitely a practical and thoughtful way to prioritize our shared comfort and well-being.     Answer:  I think that's a great idea, and it would be really nice to have some comfortable seating that can withstand the occasional spills and messes. Investing in durable furniture would not only save us time and effort in cleaning but also create a more relaxed and inviting atmosphere for us to hang out and have fun together. It's definitely a practical and thoughtful way to prioritize our shared comfort and well-being.     Answer:  I think that's a great idea",
+            "scores": {
+                "wmd": 0.39157040550492045,
+                "sentence_similarity": 0.21201571822166443,
+                "normalized_length_similarity": 0.024242424242424242,
+                "bleu": 0.0009651019354158006,
+                "ttr": 0.25,
+                "history_similarity": 0.5371502637863159
+            }
+        },
+        {
+            "message": "Logically speaking, since imposing quiet hours might not suit everyone's schedules, how do you feel about encouraging our housemates to use practical solutions like earplugs or headphones during late-night activities to maintain harmony without strict rules?",
+            "response": "I lean towards individual freedom, so the solutions that focus on one person doing something instead of restricting the entire group sounds good to me.",
+            "prediction": "I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it's a good idea.     Answer: I think it",
+            "scores": {
+                "wmd": 0.3152158542523849,
+                "sentence_similarity": 0.17013227939605713,
+                "normalized_length_similarity": 0.17081447963800905,
+                "bleu": 0.0010109609561321405,
+                "ttr": 0.04291845493562232,
+                "history_similarity": 0.20466943085193634
+            }
+        }
+    ]
+}

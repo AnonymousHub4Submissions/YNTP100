@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:50:37",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你刚才说会把大部分资金储蓄起来，还有明确的梦想和目标！如果突然来了一笔意外之财，你会用它去实现什么疯狂又美妙的梦想呢？大胆说出来，让我们一起为你的梦想加油打气！",
+            "response": "环游世界 我是认真的",
+            "prediction": "坚持自己的储蓄计划 先理性分配",
+            "scores": {
+                "wmd": 1.0730598762853178,
+                "sentence_similarity": 0.5733619332313538,
+                "normalized_length_similarity": 0.6666666666666666,
+                "bleu": 0.028517539529041507,
+                "ttr": 1.0,
+                "history_similarity": 0.7472305297851562
+            }
+        },
+        {
+            "message": "说到日常的小细节，关于冰箱我一直坚持各自占用一层，虽然我不是挑剔，但共享确实容易带来小摩擦。你觉得呢，这样的安排，最大的好处会体现在哪些方面呢？毕竟生活品质和便利性都不能忽视呢。",
+            "response": "我支持不共享",
+            "prediction": "各自占用一层可以减少摩擦 然后隔壁共享",
+            "scores": {
+                "wmd": 1.0556200705588976,
+                "sentence_similarity": 0.49435585737228394,
+                "normalized_length_similarity": 0.3157894736842105,
+                "bleu": 0.021105340631872645,
+                "ttr": 1.0,
+                "history_similarity": 0.7428577542304993
+            }
+        },
+        {
+            "message": "嗯...我不是挑剔，但是大家都坚持不共享，偶尔会不会显得有些孤立呢...呢？",
+            "response": "我不觉得",
+            "prediction": "难说 共情",
+            "scores": {
+                "wmd": 1.1695304671513027,
+                "sentence_similarity": 0.4445781111717224,
+                "normalized_length_similarity": 0.8,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.718823254108429
+            }
+        },
+        {
+            "message": "哇，你对梦想房间的抽象风格主导真是太酷了！你有没有特别钟爱的元素或者图案，觉得能用幽默感十足的方式，完美展现那个空间的灵魂呢？艺术就是要敢于疯狂创新，对吧！",
+            "response": "蜡笔小新 我喜欢绿色",
+            "prediction": "先说“没”再说“武打”",
+            "scores": {
+                "wmd": 1.2380445393343475,
+                "sentence_similarity": 0.32577505707740784,
+                "normalized_length_similarity": 0.9090909090909091,
+                "bleu": 0.0,
+                "ttr": 0.75,
+                "history_similarity": 0.6725457310676575
+            }
+        },
+        {
+            "message": "让我们分析一下，创作自由和生活安宁确实容易冲突。从实际角度，你觉得在梦想房间设计里，如何兼顾这两者？是设立专门的创作区域，还是通过材料和布局降低噪音？你更倾向哪种方案？",
+            "response": "设立专门的创作区域",
+            "prediction": "设立专门创作区域",
+            "scores": {
+                "wmd": 0.261896301796569,
+                "sentence_similarity": 0.921527624130249,
+                "normalized_length_similarity": 0.8888888888888888,
+                "bleu": 0.18713114109010565,
+                "ttr": 1.0,
+                "history_similarity": 0.6598638296127319
+            }
+        }
+    ]
+}

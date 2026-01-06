@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:30:06",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!",
+      "response": "I want to travel Africa! There are so many wild animals and I want to observe  their natural behaviors in the nature, not a zoo!",
+      "prediction": "I'll go to Thailand! You can enjoy amazing street food and beautiful beaches without breaking the bank. The vibrant culture and stunning nature there would totally recharge my spirit and make me feel alive!",
+      "scores": {
+        "wmd": 0.1893734439475872,
+        "sentence_similarity": 0.2963517904281616,
+        "normalized_length_similarity": 0.6213592233009708,
+        "history_similarity": 0.17808835208415985,
+        "bleu": 0.007928399830171252,
+        "ttr": 0.9210526315789473
+      }
+    },
+    {
+      "message": "Oh... speaking of keeping our ShareHouse a harmonious place to live, I suggested labeling items in the fridge to avoid confusion. I'm not being picky, but perhaps we could consider setting up a communal checklist for shared expenses or chores as well? It might help maintain the balance and fairness we all appreciate here. What do you think... would that be agreeable to everyone?",
+      "response": "Oh that's a great idea! It'll be more organized and avoid some possible mistakes!",
+      "prediction": "That's a great idea! We can use the living room whiteboard for a communal checklist of shared expenses and chores.",
+      "scores": {
+        "wmd": 0.22437790627855303,
+        "sentence_similarity": 0.5595651268959045,
+        "normalized_length_similarity": 0.7105263157894737,
+        "history_similarity": 0.6233453154563904,
+        "bleu": 0.16133948681475338,
+        "ttr": 0.9565217391304348
+      }
+    },
+    {
+      "message": "Wow, I love how you’re thinking about both style and function in making a perfect dream room! If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, which would your heart pick—and why? Art and practicality often dance together, so I’m curious what rhythm speaks strongest to you!",
+      "response": "I'll go with high-end, durable audio equipments..Of course it'll be great if they're not ugly, but the most important element of audio equipment is sound itself. So If I should choose only one side, then it'll be \"function\".",
+      "prediction": "I would definitely pick the super high-end, durable audio equipment! Music is the heart of our dream room, and having the best sound quality makes it truly perfect and built to last. Everyone can enjoy amazing music together for many years!",
+      "scores": {
+        "wmd": 0.1739049087920872,
+        "sentence_similarity": 0.7333558201789856,
+        "normalized_length_similarity": 0.9333333333333333,
+        "history_similarity": 0.47473445534706116,
+        "bleu": 0.06439164847436336,
+        "ttr": 0.8913043478260869
+      }
+    },
+    {
+      "message": "Since you value calm and respect in our shared living space and suggested using a whiteboard for coordinating schedules, how comfortable would you be taking the initiative to call a house meeting where we can discuss and agree on common rules for noise levels and cleaning duties? It seems like a logical step to ensure everyone’s expectations align and to keep our environment comfortable for all.",
+      "response": "Yeah I'll do the job! Let's have a meeting in the living room every Sunday night and discuss the ruled and duties together!",
+      "prediction": "Yes, I'm comfortable with that! It's a great idea to make sure we're all on the same page.",
+      "scores": {
+        "wmd": 0.2911262720224593,
+        "sentence_similarity": 0.32827532291412354,
+        "normalized_length_similarity": 0.7317073170731707,
+        "history_similarity": 0.3578184247016907,
+        "bleu": 0.010442642913025364,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:55",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，听了你们的讨论我觉得太棒了！说到规则，大家觉得在制定这些规则时，最重要的是“公平”这个原则呢？还是“尊重”更关键？又或者我们需要一点“灵活变通”，才能让每个人都舒心？来来来，告诉我你们最在乎的是哪一个！",
+            "response": "公平和尊重都建立在所有人一致的前提上，我觉得公共生活的部分不要太复杂，找一个需要满足的下限，大家遵守，就可以了",
+            "prediction": "从逻辑上讲，规则的制定应基于明确的标准和共识，以确保效率和公正。不过，从现实角度出发，动态调整规则以适应环境变化和成员需求，可能更有利于维持群体的和谐与活力。",
+            "scores": {
+                "wmd": 0.7775334189476004,
+                "sentence_similarity": 0.7482421398162842,
+                "normalized_length_similarity": 0.6962025316455697,
+                "bleu": 0.006486155788333823,
+                "ttr": 0.7551020408163265,
+                "history_similarity": 0.7432858943939209
+            }
+        },
+        {
+            "message": "嗯……说到规则的制定方式，我不是挑剔，但大家真的都能充分表达自己的想法吗？是让所有人一起坐下来协商，虽然听起来理想，但有时候效率和一致性可能会变得……有些难以掌控。或者，委托某个人来负责制定规则，虽说这有集中管理的优势，但也许很难保证每个人的声音都被公平地考虑。你们觉得，在保持公平和尊重的同时，哪种方式更适合我们这个环境呢？毕竟生活品质和和谐共处，这两者都不容妥协，你说是吧？",
+            "response": "可以先各自想然后集中讨论，如果不能一起协商，那之后产生问题会更复杂，一开始达成一致有原则最重要",
+            "prediction": "我同意，我觉得应该由大家协商",
+            "scores": {
+                "wmd": 1.0572090220192685,
+                "sentence_similarity": 0.42492952942848206,
+                "normalized_length_similarity": 0.2978723404255319,
+                "bleu": 0.003090389385914503,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.8293346166610718
+            }
+        },
+        {
+            "message": "哇，你的思路真是让人眼前一亮！说到生活习惯难免有冲突时，你更喜欢主动敞开心扉沟通，把问题一点点化解，还是更愿意依赖明明白白的共同规则，像一幅完美的画框，帮助我们避免纠纷？艺术就是要找到最和谐的平衡点，你怎么看？",
+            "response": "先有原则再沟通",
+            "prediction": "我觉得折中就好",
+            "scores": {
+                "wmd": 1.2174516618329414,
+                "sentence_similarity": 0.4842980206012726,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7881728410720825
+            }
+        },
+        {
+            "message": "说到公共区域设计，我们要面对实用与美观的抉择。从逻辑上讲，你觉得是更应该优先保证空间的便利性和功能性，还是让它在视觉上更具艺术感，提升整体氛围？你怎么看这个平衡点？",
+            "response": "这不重要。之前也说过了，关心的人讨论其原则，其他人知会并且同意即可",
+            "prediction": "我觉得应该根据房屋的用途和住户的喜好来决定",
+            "scores": {
+                "wmd": 1.1345469104801456,
+                "sentence_similarity": 0.5097959041595459,
+                "normalized_length_similarity": 0.6363636363636364,
+                "bleu": 0.007775087201803301,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.8114051818847656
+            }
+        },
+        {
+            "message": "让我们分析一下，原则确实关键，但忽视美感可能影响整体体验。你怎么看？",
+            "response": "不重要，让在意美感的人讨论即可，我不在意",
+            "prediction": "我同意，应该在坚持原则的基础上，兼顾设计的美观性",
+            "scores": {
+                "wmd": 0.7002686795410819,
+                "sentence_similarity": 0.7739865779876709,
+                "normalized_length_similarity": 0.8333333333333334,
+                "bleu": 0.018693000799960027,
+                "ttr": 0.8666666666666667,
+                "history_similarity": 0.78974848985672
+            }
+        }
+    ]
+}

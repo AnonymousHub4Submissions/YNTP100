@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:37:04",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend! Speaking of exploring new ideas and balancing our shared space beautifully, here’s a fun thought to keep our creativity buzzing! If you had the chance to venture into some mysterious, little-known place—like a secret garden or an ancient hidden village—what kind of magical hidden beauty or unforgettable experience would you be most excited to discover? Come on, don’t hold back your wildest dreams!",
+      "response": "I want to explore mysterious, unpopular places like ancient ruins and imagine the people who once lived there!",
+      "prediction": "I want to discover a hidden jungle with bioluminescent plants and animals!",
+      "scores": {
+        "wmd": 0.22088931768006811,
+        "sentence_similarity": 0.3762457072734833,
+        "normalized_length_similarity": 0.6727272727272727,
+        "history_similarity": 0.2812187075614929,
+        "bleu": 0.050994085084353755,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "Oh... speaking of such fascinating journeys into the past, I wonder how you manage to keep these adventurous travels both affordable and spontaneous? I'm not being picky, but since many of us prefer saving for the future rather than planning every detail meticulously, do you have any particular tips for ensuring the thrill of discovery without compromising on financial prudence? I suppose balancing curiosity with practicality is an art in itself, don't you think?",
+      "response": "Yes, I believe finding enjoyment within limited resources rather than consuming them endlessly, can be enjoyable in itself. I can find pleasure of discovery in everyday life, like stepping into a shop I've never been, or getting off at a station I've never visited, and so on.",
+      "prediction": "I prioritize affordable accommodation and meals. For spontaneity, I stay flexible with my plans and destinations.",
+      "scores": {
+        "wmd": 0.21518760889574579,
+        "sentence_similarity": 0.16778728365898132,
+        "normalized_length_similarity": 0.40942028985507245,
+        "history_similarity": 0.5089162588119507,
+        "bleu": 0.004042571413134459,
+        "ttr": 0.8421052631578947
+      }
+    },
+    {
+      "message": "Wow, your spirit of sharing and appreciating small joys really resonates with me! Since you value contributing to our shared wellbeing, like suggesting we rearrange the fridge space collaboratively, how do you think this wonderful teamwork vibe could flow into managing shared finances or responsibilities with roommates? It feels like a true work of art when everyone harmoniously contributes, don’t you think?",
+      "response": "I want to value everyone's harmony, so I hope we can use this atmosphere for the division of roles  in a way that satisfies everyone, not just moving by alone.",
+      "prediction": "Yes, I think making a chore list for responsibilities and a shared budget for common expenses would keep that teamwork going.",
+      "scores": {
+        "wmd": 0.18478035372691817,
+        "sentence_similarity": 0.3273569643497467,
+        "normalized_length_similarity": 0.7861635220125787,
+        "history_similarity": 0.4076809585094452,
+        "bleu": 0.008034924572978329,
+        "ttr": 0.9130434782608695
+      }
+    },
+    {
+      "message": "Logically speaking, creating a perfect stargazing spot might require some temporary sacrifices in comfort. In such situations, what specific forms of support or collaboration from your housemates would help you stay motivated and maintain that sense of shared harmony?",
+      "response": "If we can have a space where all members share their problems, we'll improve them through plan modification. Regarding the ideal room project, a skylight isn't essential for stargazing.",
+      "prediction": "I would appreciate help with tasks, and understanding if there's any temporary inconvenience.",
+      "scores": {
+        "wmd": 0.18707138067330142,
+        "sentence_similarity": 0.20401334762573242,
+        "normalized_length_similarity": 0.5027027027027027,
+        "history_similarity": 0.3269757628440857,
+        "bleu": 0.004461307353974089,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

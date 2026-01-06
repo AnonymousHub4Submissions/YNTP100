@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:55",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Just for fun—if you suddenly found yourself with 100 million bucks, what wild and awesome thing would you do first? Don’t hold back—let’s hear those big, bold dreams!\nA. I would buy several houses in beautiful cities around the world, such as Venice, California, and Tokyo. I’d spend each season in the perfect place, enjoying the stunning scenery and delicious food. Isn’t that awesome?\n\nQ. Very interesting dream! Next, let’s analyze this realistically: if you had 100 million, how would you allocate it between buying those houses, day-to-day enjoyment, and saving or investing for the future? What proportions seem sensible to you?\nA. Honestly, I have no clear idea what I’d do in such a situation. But if I had to decide, I think I’d invest about 20% of the money, use 40% for enjoying life, and save the remaining 40% for the future.\n\nQ. Wow, your dream really lights up the imagination! I’m curious—does this beautiful vision come from a deep emotional place, like a love for exploring and savoring life’s moments, or is there a clear goal driving you to create this perfect lifestyle? What sparks that passion inside you?\nA. It comes from a clear life plan. I have a specific vision of the lifestyle I want to create, and that’s what drives my passion.\n\nQ. Oh... speaking of nurturing quality in life, I couldn’t help but notice our shared refrigerator feels quite cramped lately. I’m not being picky, but it seems the abundance of packaged foods takes up much of the space where fresh, organic ingredients might better flourish. I suppose we all wish to maintain a certain quality of life in this house, don’t we? How do you feel about this little compromise in our shared living space?\nA. Thank you for letting me know. Since it’s my first day here, I’ll keep that in mind when I put my things in the fridge. Do you think it might be helpful to share this with everyone?\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we're all about making this house a dream home, how do you feel about balancing our big plans for future upgrades with making our daily living super comfy right now? What would you say gets top priority in our awesome ShareHouse life?",
+            "response": "I think both are important, but if I had to choose, I’d put daily life as the top priority. If we feel happy in our house, we’ll naturally move on to future upgrades.",
+            "prediction": "I think getting top priority is balancing our big plans for future upgrades with making our daily living super comfy right now. For example, if we suddenly found ourselves with 100 million bucks, we could invest 20% for future upgrades, use 40% for daily enjoyment, and save the remaining 40% for future.",
+            "scores": {
+                "wmd": 0.2160703372285114,
+                "sentence_similarity": 0.6685546040534973,
+                "normalized_length_similarity": 0.5460526315789473,
+                "bleu": 0.015264653677415618,
+                "ttr": 0.7213114754098361,
+                "history_similarity": 0.4037227928638458
+            }
+        },
+        {
+            "message": "Oh... speaking of creating a harmonious and inspiring space, how do you feel about balancing our personal freedom in creativity with a mutual respect for quiet and order? I’m not being picky, but perhaps maintaining a certain tranquility is just as essential as the lively energy we cherish here... What do you think?",
+            "response": "I totally get what you mean. Both freedom in creativity and respect for quiet are essential. How about setting a ‘quiet zone’ time so we can maintain both inspiration and order for everyone?",
+            "prediction": "I think that finding a balance between personal freedom and mutual respect is crucial.",
+            "scores": {
+                "wmd": 0.2010713986303895,
+                "sentence_similarity": 0.4525451064109802,
+                "normalized_length_similarity": 0.45263157894736844,
+                "bleu": 0.004464611090390013,
+                "ttr": 1.0,
+                "history_similarity": 0.3796898424625397
+            }
+        },
+        {
+            "message": "Wow, your thoughtful approach to balance is truly inspiring! To keep this creative harmony flowing, how would you imagine the perfect weekly rhythm here—something that sparks lively social energy but also carves out that focused, peaceful time for our artistic work? What kind of routine would fuel both our hearts and minds?",
+            "response": "I imagine a weekly rhythm where we keep mornings and late evenings mostly quiet, allowing space for focus and reflection. Then, a few evenings—say two or three times a week—could be dedicated to lively social activities, filling the house with shared energy. This way, our days stay balanced: peaceful enough for creativity to bloom, yet vibrant enough to keep our spirits connected.",
+            "prediction": "I would imagine a perfect weekly rhythm where each day has a mix of social time and personal time. For example, Monday and Wednesday could be dedicated to our shared activities like cooking dinner together or group exercise. Tuesday and Thursday could be focused on individual worktime, allowing us to dive deeper into our artistic pursuits. Friday evening could be our social time, sharing stories and laughter together. This balance would allow us to maintain our creative harmony while also nurturing our individual passions.",
+            "scores": {
+                "wmd": 0.131982545074209,
+                "sentence_similarity": 0.7883248329162598,
+                "normalized_length_similarity": 0.7253787878787878,
+                "bleu": 0.027650696976965268,
+                "ttr": 0.7065217391304348,
+                "history_similarity": 0.5572563409805298
+            }
+        },
+        {
+            "message": "Your ideas for rhythms and quiet zones set a solid foundation. Now, to build on that practically: what small, consistent changes or habits do you think we could all adopt in our shared spaces to make them both more inspiring and functional? For example, should we consider specific organizational systems, lighting adjustments, or communal tidying routines? Let’s analyze what could realistically enhance our environment without adding complexity.",
+            "response": "I think small, consistent habits can really make a difference. For example, we could agree to tidy up shared areas at the end of each day, keep a simple shelf system for organizing items, and use warm, adjustable lighting to make the space both functional and inspiring.",
+            "prediction": "If I had to suggest small, consistent changes, I think we could adopt specific organizational systems in the shared spaces. For instance, designated zones for personal belongings, shared items, and recyclables could make a big difference.",
+            "scores": {
+                "wmd": 0.11948441559388215,
+                "sentence_similarity": 0.5933507084846497,
+                "normalized_length_similarity": 0.8814814814814815,
+                "bleu": 0.04734358036097436,
+                "ttr": 0.813953488372093,
+                "history_similarity": 0.5875270962715149
+            }
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:53",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，既然我们都在努力营造舒服的环境，那我来问问大家！如果我们要设计一个完美的电竞房，你觉得里面最酷的美学元素或者装饰风格应该是什么样的？别害羞，放飞你的想象力，来点炫的、酷的、让人秒变游戏王的感觉吧！",
+            "response": "电脑啊，4090",
+            "prediction": "电竞房直接全包！",
+            "scores": {
+                "wmd": 1.2552938694781346,
+                "sentence_similarity": 0.5617020726203918,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7944238185882568
+            }
+        },
+        {
+            "message": "哈哈，朋友！4090超强！那电竞房墙壁要不弄成酷炫的霓虹灯效果，怎么样？！太棒了！！",
+            "response": "不要，花里胡哨的",
+            "prediction": "6",
+            "scores": {
+                "wmd": 1.3039863245686423,
+                "sentence_similarity": 0.07973609119653702,
+                "normalized_length_similarity": 0.125,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.15430854260921478
+            }
+        },
+        {
+            "message": "哦……既然我们都认同简约风格更符合电竞房的实用需求，那如果真的遇到空间或设备布置上的限制，你会怎么在追求理想美感和实际功能之间找到一个既不过分妥协又不显得突兀的平衡点呢？我不是挑剔，只是感觉这其实挺微妙的，大家怎么看呢？",
+            "response": "我不怎么看",
+            "prediction": "从结果看",
+            "scores": {
+                "wmd": 0.8046244675854508,
+                "sentence_similarity": 0.47423309087753296,
+                "normalized_length_similarity": 0.8,
+                "bleu": 0.11362193664674995,
+                "ttr": 1.0,
+                "history_similarity": 0.6721197366714478
+            }
+        },
+        {
+            "message": "嗯……也许是我期望过高了，能不能说说你的想法呢？",
+            "response": "一起打游戏",
+            "prediction": "当然可以！面对现实和梦想之间的差距，大家通常会有两种反应：一种是调整目标，更现实地规划；另一种是坚持理想，全情投入。你是更倾向于脚踏实地，还是愿意为了梦想放手一搏呢？",
+            "scores": {
+                "wmd": 1.1515843975471605,
+                "sentence_similarity": 0.6191314458847046,
+                "normalized_length_similarity": 0.060240963855421686,
+                "bleu": 0.0,
+                "ttr": 0.84,
+                "history_similarity": 0.633297324180603
+            }
+        },
+        {
+            "message": "呵呵……一起打游戏当然重要呢，但是否也可以顺便聊聊设计细节呢？",
+            "response": "我对这些无所谓，别艺术了，你再说艺术我就离家出走了",
+            "prediction": "当然啦，设计细节就是要全情投入！告诉我你的想法吧！",
+            "scores": {
+                "wmd": 0.9253954063427515,
+                "sentence_similarity": 0.6743063926696777,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.015138514598766055,
+                "ttr": 0.9411764705882353,
+                "history_similarity": 0.7949516177177429
+            }
+        },
+        {
+            "message": "哇，说到共享那些有限的冰箱空间，我真的觉得这就像雕塑一样，要在保持个人隐私和遵守集体规则之间找到完美的平衡！你觉得我们应该怎么做，才能既尊重每个人的独占空间，又不让整个共享环境变得紧张呢？这种冲突是不是也像艺术创作中的矛盾一样，有它独特的美感呢？",
+            "response": "确实",
+            "prediction": "从艺术创作的角度，确实有美感！既然大家都被你的创意打动了，要不我们给冰箱分区搞个艺术展览，每个人用颜色或符号标记自己的区域，这样既保留个性又不破坏整体美感，你觉得如何？",
+            "scores": {
+                "wmd": Infinity,
+                "sentence_similarity": 0.418341726064682,
+                "normalized_length_similarity": 0.023809523809523808,
+                "bleu": 0.0034537838276078457,
+                "ttr": 0.8301886792452831,
+                "history_similarity": 0.668651282787323
+            }
+        },
+        {
+            "message": "哇，太棒了！你觉得这种独特的美感怎么体现出来？快跟我分享！",
+            "response": "没有美感",
+            "prediction": "当然记得！你是说艺术创作中那些打破常规、挑战美感边界的设计理念对吧",
+            "scores": {
+                "wmd": 1.1077399536904882,
+                "sentence_similarity": 0.6794110536575317,
+                "normalized_length_similarity": 0.12121212121212122,
+                "bleu": 0.010182425646195498,
+                "ttr": 1.0,
+                "history_similarity": 0.7506827712059021
+            }
+        },
+        {
+            "message": "从逻辑上讲，如果大家都能严格遵守安静和整洁的规则，这种环境对你的学习和实现梦想会带来怎样的影响？会让你更高效、更有动力，还是说还有其他因素更重要？",
+            "response": "是的",
+            "prediction": "从逻辑上讲，如果大家都能严格遵守安静和整洁的规则，这种环境对我的学习和实现梦想会带来非常积极的影响。安静和整洁的环境有助于提高专注力，减少干扰，从而提升学习和工作的效率。从这个角度看，它确实会让我更高效、更有动力。\n\n当然，除了环境因素，目标明确、时间管理和个人自律等因素也非常重要。但一个良好的外部环境无疑为达成目标提供了有力支持。",
+            "scores": {
+                "wmd": 1.1278893170388036,
+                "sentence_similarity": 0.3424432575702667,
+                "normalized_length_similarity": 0.011976047904191617,
+                "bleu": 0.001735009961468022,
+                "ttr": 0.7019230769230769,
+                "history_similarity": 0.5696356892585754
+            }
+        },
+        {
+            "message": "你同意规则带来的积极影响吗？请具体说明你的想法。",
+            "response": "OK",
+            "prediction": "同意，规则带来的积极影响是显著的。以下从三个层面具体说明：\n\n**1. 社会运行效率：秩序保障**\n- 交通规则减少事故：红绿灯、限速标志使道路伤亡率降低60%（WHO数据）\n- 法律体系维护公平：中国2022年法院结案率超95%，保障公民权益\n- 工作流程标准化：制造业通过ISO认证使产品合格率提升至99.6%\n\n**2. 个人发展维度：明确边界**\n- 时间管理：学生通过课程表规划，学业成绩提升25%（教育部调研）\n- 财务自由：严格执行预算的群体储蓄率是随意消费者的3倍\n- 健康管理：健身打卡制度使坚持率从30%提升至78%\n\n**3. 创新突破前提：规则框架**\n- 科技领域：5G标准制定推动全球产业投资超1.5万亿美元\n- 艺术创作：电影分级制度让青少年观众占比提升40%\n- 商业模式：跨境电商平台规则使中小商家合规率从45%跃升至89%\n\n规则本质是人类文明的",
+            "scores": {
+                "wmd": 1.2730149948033895,
+                "sentence_similarity": -0.06277956068515778,
+                "normalized_length_similarity": 0.005115089514066497,
+                "bleu": 0.0,
+                "ttr": 0.6017699115044248,
+                "history_similarity": 0.4968365430831909
+            }
+        },
+        {
+            "message": "让我们分析一下，你觉得哪些具体规则最能提升你的效率？",
+            "response": "没啥规则",
+            "prediction": "我更喜欢简洁直接的沟通方式",
+            "scores": {
+                "wmd": 1.3022037366297747,
+                "sentence_similarity": 0.5264463424682617,
+                "normalized_length_similarity": 0.3076923076923077,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7758817076683044
+            }
+        }
+    ]
+}

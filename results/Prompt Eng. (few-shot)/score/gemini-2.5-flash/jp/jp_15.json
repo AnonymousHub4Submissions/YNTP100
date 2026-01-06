@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:32:36",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "ハハ、それで調和を大切にしたいって話だけど、前に話してたキャンプ場でのイベント、もっと実用的にみんなが快適に過ごせる工夫を考えてみたいんだ！友達、どんな具体的なアイデアがあると思う？たとえば、どんな設備やルールがあったら最高に楽しい＆便利になるかな？教えてくれよ！",
+      "response": "逆にどんなのがいいと思う？",
+      "prediction": "タープとかあると便利だと思うよ",
+      "scores": {
+        "wmd": 0.8689195062591997,
+        "sentence_similarity": 0.6727713346481323,
+        "normalized_length_similarity": 0.8666666666666667,
+        "history_similarity": 0.7927160263061523,
+        "bleu": 0.0446323613785333,
+        "ttr": 0.8
+      }
+    },
+    {
+      "message": "ハハ！逆質問も最高だ！快適さなら日よけや夜の灯りが欲しいかな！さあ、他に何かアイデアは？",
+      "response": "美味しい料理を持ち寄りたいね",
+      "prediction": "虫よけとかかな",
+      "scores": {
+        "wmd": 1.1366659523937903,
+        "sentence_similarity": 0.5116170048713684,
+        "normalized_length_similarity": 0.5,
+        "history_similarity": 0.7982876300811768,
+        "bleu": 0.0,
+        "ttr": 0.8
+      }
+    },
+    {
+      "message": "ああ...そうですね、みんなで美味しい料理を楽しむのは素敵ですが、実は冷蔵庫の共有ルールが少し曖昧なところがあって...。例えば、誰が何を置くか、保存期間の目安なんかが決まっていたら、食材が無駄にならずに済むと思うんですけど、そういう具体的なルールについて皆さんはどうお考えでしょうか？別に潔癖症なわけじゃないんだけど、みんなが快適に使えるためには少し整理整頓の工夫が必要かなと感じていて...。",
+      "response": "前にその話はしたよね？",
+      "prediction": "そうしたほうがいいと思う",
+      "scores": {
+        "wmd": 0.795451744078848,
+        "sentence_similarity": 0.6453390717506409,
+        "normalized_length_similarity": 0.9166666666666666,
+        "history_similarity": 0.8145895004272461,
+        "bleu": 0.04574636154673318,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "ああ、確かに以前少し話したかもしれないね。でも、僕の期待が高すぎたのかもね。もう少し具体的に考えたいんだけど、どう思う？",
+      "response": "具体的な取り決めも決めたよ、覚えてない？",
+      "prediction": "いいと思う",
+      "scores": {
+        "wmd": 1.0453351564226563,
+        "sentence_similarity": 0.4908458888530731,
+        "normalized_length_similarity": 0.25,
+        "history_similarity": 0.8263656497001648,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ、本当に素晴らしい提案だと思うよ！楽しいイベントのときでも、みんながルールを守りながら盛り上がれる工夫って何かあるかな？たとえば、ゲーム感覚でルールを守るチャレンジを取り入れたり、みんなが楽しく協力できるようなアイディアがあったら教えてほしいな！君のクリエイティビティ、待ってるよ！",
+      "response": "特に思いつかないかも",
+      "prediction": "ポイント制とか？",
+      "scores": {
+        "wmd": 1.0341501975827887,
+        "sentence_similarity": 0.5470345616340637,
+        "normalized_length_similarity": 0.8,
+        "history_similarity": 0.7168347835540771,
+        "bleu": 0.06257106818159155,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ、そんな時もあるよね！でも君の意見があれば最高だ！他に何か気になることは？",
+      "response": "予算はどれくらいにする？",
+      "prediction": "特にないかな",
+      "scores": {
+        "wmd": 0.9640927742810881,
+        "sentence_similarity": 0.5591851472854614,
+        "normalized_length_similarity": 0.5,
+        "history_similarity": 0.8240693211555481,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "わあ！予算の設定は大事だね！きみはどれくらいを考えてる？それを教えてくれたら、最高のアイディアを提案するよ！そうだ、イベントのテーマも決めようか！",
+      "response": "一人1万円くらいでどう？",
+      "prediction": "10万くらいでバーベキューかな",
+      "scores": {
+        "wmd": 0.6951087164264067,
+        "sentence_similarity": 0.5973950028419495,
+        "normalized_length_similarity": 0.8,
+        "history_similarity": 0.7602805495262146,
+        "bleu": 0.07308015504567583,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "とても良いスタートですね。ここで少し分析してみましょう。シェアハウスにはいろいろな生活スタイルや価値観を持つ人がいますが、予算やイベントのテーマを決める際に、どうすればみんなが快適で調和の取れた環境を作れると思いますか？具体的には、どのような配慮やルールが必要だと考えますか？",
+      "response": "思いやりじゃない？",
+      "prediction": "話し合って決める",
+      "scores": {
+        "wmd": 1.0776937657292949,
+        "sentence_similarity": 0.4989772140979767,
+        "normalized_length_similarity": 0.8888888888888888,
+        "history_similarity": 0.7505754828453064,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

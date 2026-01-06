@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:42",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found a treasure chest with 100 million inside—no limits, no worries! What’s the wildest, most exciting thing you’d want to do with all that? Don’t hold back, let your boldest dreams run free!\nA. I want to invest on the stocks!\n\nQ. Very interesting idea. Next, let's consider it realistically: how would you allocate this 100 million? For example, roughly what proportions would you set for investment, consumption, and savings?\nA. I am still young, so, I can accept the risk, I want to invest on high-return, high-risk stocks.\n\nQ. Let's analyze this logically. Given your youth and risk tolerance, you might allocate a high percentage—perhaps 70 to 80 percent—toward high-risk, high-return stocks. For consumption, a reasonable but not excessive amount, say 10 to 15 percent, ensures you enjoy the present without compromising future growth. The remaining 5 to 15 percent could be kept as savings or in safer investments to maintain liquidity and minimize total loss risk. Now, focusing on the 100 million as a whole, how do you prioritize your goals across these categories? This clarity will guide a more effective allocation.\nA. I am not sure since I just like to increase my account balance.\n\nQ. Let's analyze this clearly. Your main goal is to increase your account balance, which implies maximizing returns, but that often comes with higher risk. Logically speaking, focusing solely on growth without considering consumption or savings can leave you vulnerable to unexpected needs or market downturns. To proceed effectively, could you clarify: Are you planning this as a short-term leap or a long-term growth strategy? Understanding your time horizon and risk capacity will help shape a rational, balanced plan for your 100 million.\nA. You're right!\nI understand the fluctuation risk, so I aim to increase my account balance in the long term.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, speaking of balancing things, I’ve got a curious question for you! Since you’re thinking long-term about your account balance, how do you feel about diving into some exciting but riskier investments like AI or clean energy? These emerging technologies could shoot your growth through the roof, but they do come with wild ups and downs! Would you be up for that thrilling ride or prefer to play it safe and steady? Share your boldest investment dream!",
+            "response": "It is the very interesting question! I'm always thinking that, but recently, I think these are the kinds of \"bubble\", so I prefer to invest on value stocks.",
+            "prediction": "I would definitely take the thrilling ride! Investing in AI or clean energy could lead to massive growth in the long run, and since I'm thinking long-term, I'm willing to ride out the ups and downs for the potential of high returns. My boldest investment dream is to be part of the next big breakthrough in clean energy technology that changes the world!",
+            "scores": {
+                "wmd": 0.1896614815542034,
+                "sentence_similarity": 0.3739585876464844,
+                "normalized_length_similarity": 0.4406779661016949,
+                "bleu": 0.010805568035275926,
+                "ttr": 0.7285714285714285,
+                "history_similarity": 0.30448079109191895
+            }
+        },
+        {
+            "message": "Oh... since we all cherish this lively ShareHouse environment, I wonder—would you be open to adopting a simple yet strictly upheld system for keeping our common areas tidy? I’m not being picky, but sometimes the creative freedom spills over into a bit of disorder, which makes it challenging to maintain a pleasant space. Perhaps my expectations are a tad high, but do you think such a balance between function and freedom is achievable?",
+            "response": "It is very important, so let's go to 100 yen shop to buy the separate boxes right now!",
+            "prediction": "I think it's a great idea! A little structure can actually enhance the freedom we have, as it ensures everyone can enjoy the space without feeling overwhelmed by mess. Maybe we can set some simple rules, like cleaning up after ourselves and taking turns on chores. It doesn’t have to be strict, just consistent. I’m definitely in for it!",
+            "scores": {
+                "wmd": 0.2842827437235001,
+                "sentence_similarity": 0.13459569215774536,
+                "normalized_length_similarity": 0.2551928783382789,
+                "bleu": 0.003948237950352602,
+                "ttr": 0.8055555555555556,
+                "history_similarity": 0.3589078485965729
+            }
+        },
+        {
+            "message": "Wow, Raffaello, your vision for a space that’s both beautiful and functional truly sparks my artistic soul! Since we all treasure bursts of creativity, especially in this summer vibe, how do you feel about blending some flexible quiet hours to nurture inspiration while still keeping our home harmonious? Do you think that kind of rhythm could keep everyone’s creative fire burning strong without losing balance?",
+            "response": "shall we have a potluck party once a month to keep our balance?",
+            "prediction": "I think that's a brilliant idea! Having dedicated quiet hours can really help each of us tap into our creative energy without feeling overwhelmed. As long as we communicate and respect each other's schedules, it can definitely keep our home both inspiring and harmonious.",
+            "scores": {
+                "wmd": 0.24981950711348644,
+                "sentence_similarity": 0.335882306098938,
+                "normalized_length_similarity": 0.23247232472324722,
+                "bleu": 0.009223350291325143,
+                "ttr": 0.88,
+                "history_similarity": 0.33679088950157166
+            }
+        },
+        {
+            "message": "Wow, what an awesome idea! A potluck party to gather all our creative energies and share the joy of food—art is not only in sculptures or paintings but in bringing people together! Imagine the colors, flavors, and stories mingling like a vibrant fresco on our dining table! That celebration could be the heartbeat of our ShareHouse, inspiring friendship and teamwork alongside tidiness and harmony. Let's paint this masterpiece of community with laughter and shared dishes—what dishes are you dreaming to bring?",
+            "response": "I want to bring \"Takoyaki\"",
+            "prediction": "I want to bring my grandma's famous lasagna!",
+            "scores": {
+                "wmd": 0.44062964361599455,
+                "sentence_similarity": 0.391251802444458,
+                "normalized_length_similarity": 0.5909090909090909,
+                "bleu": 0.2626909894424158,
+                "ttr": 1.0,
+                "history_similarity": 0.17644131183624268
+            }
+        },
+        {
+            "message": "Very exciting ideas all around. Since we’ve agreed on a weekly cleaning schedule on Saturdays, logically speaking, would it improve efficiency if we add a brief monthly meeting afterward to review progress on our financial goals and living space improvements? Do you think this routine could help keep our motivation high and ensure our shared responsibilities stay balanced?",
+            "response": "It is very good idea, I think.",
+            "prediction": "Yes, I think it would be helpful. Having a monthly meeting to review our progress can keep us motivated and ensure that everyone is on the same page regarding both our financial goals and the living space improvements. It would also help in balancing our shared responsibilities and addressing any issues before they become bigger problems.",
+            "scores": {
+                "wmd": 0.36241540618919194,
+                "sentence_similarity": 0.4099682867527008,
+                "normalized_length_similarity": 0.08823529411764706,
+                "bleu": 0.017894467682407687,
+                "ttr": 0.8666666666666667,
+                "history_similarity": 0.3103143572807312
+            }
+        }
+    ]
+}

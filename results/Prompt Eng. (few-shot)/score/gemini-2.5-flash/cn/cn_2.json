@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:25:16",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友们，既然大家都觉得需要规则来维护公共空间卫生和使用公平，那我们是不是该一起讨论制定冰箱和共享空间的管理条例呢？你们觉得，怎样的规则才能既合理又让大家都开心，让我们的ShareHouse活力满满又干净整洁？快告诉我你的超级创意吧！",
+      "response": "我没意见，你去问Donatello",
+      "prediction": "冰箱就按人头分格子，公共区域用完谁用谁收拾。",
+      "scores": {
+        "wmd": 1.177230394697614,
+        "sentence_similarity": 0.5071241855621338,
+        "normalized_length_similarity": 0.7727272727272727,
+        "history_similarity": 0.6480443477630615,
+        "bleu": 0.012300686288463768,
+        "ttr": 0.875
+      }
+    },
+    {
+      "message": "哈哈，朋友！你也来出个主意嘛，一起玩才太棒了！快说说！",
+      "response": "冰箱我们一人一格",
+      "prediction": "我建议我们可以定期一起运动，比如去健身房或者在家里练。",
+      "scores": {
+        "wmd": 1.0431605352478166,
+        "sentence_similarity": 0.6550140380859375,
+        "normalized_length_similarity": 0.2962962962962963,
+        "history_similarity": 0.8130089044570923,
+        "bleu": 0.012300686288463768,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哦……说到我们梦想中的房间设计，我一直在想，是不是应该更多地注重实用性，比如配备一个设备齐全的健身区？我不是挑剔，但是如果只是追求整体美感和整齐收纳，可能会牺牲了生活的实际便利。大家觉得呢？难道我们能在这两者之间找到一个既美观又实用的平衡点吗？",
+      "response": "实用一点，你们想放啥东西",
+      "prediction": "我梦想的房间是健身房，对我来说这就是实用性。设计得好，美观和实用性可以兼得。",
+      "scores": {
+        "wmd": 0.9721951412773164,
+        "sentence_similarity": 0.4876542091369629,
+        "normalized_length_similarity": 0.3157894736842105,
+        "history_similarity": 0.831329882144928,
+        "bleu": 0.007913247271422612,
+        "ttr": 0.8333333333333334
+      }
+    },
+    {
+      "message": "嗯……我不是挑剔，但是或许我们可以先列个清单呢，这样才能更清楚每样东西的必要性呢？你觉得呢？那么，大家最希望先安排哪些实用物品呢？",
+      "response": "买只猫吧",
+      "prediction": "嗯，可以列。我觉得垃圾桶，还有打扫工具比较重要。",
+      "scores": {
+        "wmd": 1.2408948936464783,
+        "sentence_similarity": 0.4700722396373749,
+        "normalized_length_similarity": 0.16666666666666666,
+        "history_similarity": 0.7889810800552368,
+        "bleu": 0.0,
+        "ttr": 0.8666666666666667
+      }
+    },
+    {
+      "message": "哦……买猫这主意倒是有趣呢，不过我不是挑剔，但是猫咪的需求也要考虑周全，不然可能会影响整体环境呢。你觉得呢？",
+      "response": "养猫还好不会太影响环境。",
+      "prediction": "养猫可以，但卫生打扫和猫毛要解决",
+      "scores": {
+        "wmd": 1.069731299324535,
+        "sentence_similarity": 0.5673069953918457,
+        "normalized_length_similarity": 0.75,
+        "history_similarity": 0.6906357407569885,
+        "bleu": 0.021105340631872645,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，大家一起生活，最大的挑战肯定不少吧！你觉得我们在日常相处或环境维护上，最头疼的问题是什么？为了让这个家更艺术、更和谐，你愿意怎么参与改善呢？太棒了，期待你的灵感爆发！",
+      "response": "最头疼马桶。每个人上完厕所应该自己清理掉。",
+      "prediction": "最大的挑战肯定是打扫卫生和垃圾。我的想法是，谁的垃圾谁处理，公共区域可以轮流安排。",
+      "scores": {
+        "wmd": 1.0398034769499227,
+        "sentence_similarity": 0.5849431753158569,
+        "normalized_length_similarity": 0.5121951219512195,
+        "history_similarity": 0.8146452903747559,
+        "bleu": 0.008640609739997756,
+        "ttr": 0.7307692307692307
+      }
+    },
+    {
+      "message": "既然说到共享空间，从理性角度分析，如果让你设计一个完美的共享生活环境，你会优先考虑哪些元素来提升整体的生活品质和舒适度？比如实用功能、空间布局或某种智能设备，你会怎么权衡？",
+      "response": "咖啡机",
+      "prediction": "我优先考虑实用功能和空间布局。收纳要好，打扫要方便，这样才舒服。智能设备只要能真正提高便利性就行。",
+      "scores": {
+        "wmd": 1.3110668991575072,
+        "sentence_similarity": 0.3824611306190491,
+        "normalized_length_similarity": 0.061224489795918366,
+        "history_similarity": 0.809337854385376,
+        "bleu": 0.0,
+        "ttr": 0.8571428571428571
+      }
+    },
+    {
+      "message": "让我们分析一下，咖啡机作为智能设备，提升效率和体验。接下来，空间布局如何优化？",
+      "response": "东西能收的都收起来，腾出空间",
+      "prediction": "多点储物空间吧，不然东西会很乱。",
+      "scores": {
+        "wmd": 0.9157722006759695,
+        "sentence_similarity": 0.8323922157287598,
+        "normalized_length_similarity": 0.875,
+        "history_similarity": 0.7260550260543823,
+        "bleu": 0.024808415001701823,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

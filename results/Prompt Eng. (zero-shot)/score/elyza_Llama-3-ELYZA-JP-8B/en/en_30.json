@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:27:59",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since you’re all about design over pure functionality for your music club room and love tackling challenges, tell me—what kind of emotions do you want that space to spark during a live performance? Ready to share that vibe you’re dreaming of? Awesome!",
+            "response": "I want to create a space where people can discover music genres they didn’t know and expand their own world.",
+            "prediction": "I'm super excited to dive into this topic! For the music club room, I want the space to spark emotions like \"Euphoria\" or \"Catharsis\". Live performances are a unique opportunity for people to come together, let go of their worries, and immerse themselves in the music. I dream of creating a space where everyone feels one with the music and themselves.",
+            "scores": {
+                "wmd": 0.22517755415426888,
+                "sentence_similarity": 0.5334644317626953,
+                "normalized_length_similarity": 0.3068181818181818,
+                "bleu": 0.018852786469529897,
+                "ttr": 0.726027397260274,
+                "history_similarity": 0.36654242873191833
+            }
+        },
+        {
+            "message": "Oh... considering how much effort and precision you pour into your artistic vision, do you find yourself preferring to handle complex design projects alone to ensure every detail meets your standards, or would you welcome collaboration with others whose skills might complement yours? I’m not being picky, but understanding this might help us foster a truly harmonious creative environment... What are your thoughts?",
+            "response": "There’s a limit to what one person can do, so I welcome collaboration with others where our skills complement each other.",
+            "prediction": "I think that as an artist, I would prefer to handle complex design projects alone to ensure every detail meets my standards. While collaboration can be beneficial, I believe that my unique vision and artistic style are what set me apart, and others' skills or ideas might compromise those qualities.",
+            "scores": {
+                "wmd": 0.20193154432206684,
+                "sentence_similarity": 0.4803534150123596,
+                "normalized_length_similarity": 0.40468227424749165,
+                "bleu": 0.005652694841526575,
+                "ttr": 0.8392857142857143,
+                "history_similarity": 0.38260260224342346
+            }
+        },
+        {
+            "message": "Wow, teamwork truly feeds the soul of creation! Speaking of living together and sharing spaces, how do you feel about setting some clear guidelines on noise levels? It could help everyone focus and rest comfortably—because every masterpiece needs the right environment to flourish, right? What’s your take on balancing energy and quiet in a shared home?",
+            "response": "Extra stress gets in the way of creative work, so I want to keep things quiet at night as a rule.",
+            "prediction": "",
+            "scores": {
+                "wmd": Infinity,
+                "sentence_similarity": -0.019629422575235367,
+                "normalized_length_similarity": 0.0,
+                "bleu": 0.0,
+                "ttr": 0.0,
+                "history_similarity": 0.22265687584877014
+            }
+        },
+        {
+            "message": "Logically speaking, setting rules is one thing, but ensuring everyone follows them is another. Considering your proactive approach to avoid regrets and preference for acting first, how would you handle a situation where someone doesn’t respect the agreed-upon rules about cleanliness or noise?",
+            "response": "If it becomes a habitual behavior, I’d like to set up a discussion with everyone.",
+            "prediction": "- \n\n(Note: The response should be concise and focused on the given instruction and input.)",
+            "scores": {
+                "wmd": 0.2622476173006499,
+                "sentence_similarity": 0.11639408767223358,
+                "normalized_length_similarity": 0.9,
+                "bleu": 0.010182425646195498,
+                "ttr": 0.9473684210526315,
+                "history_similarity": 0.18351487815380096
+            }
+        }
+    ]
+}

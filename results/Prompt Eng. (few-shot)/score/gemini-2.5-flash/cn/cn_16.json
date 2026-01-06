@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:31:52",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友！那我们是不是可以制定一个详细的“晚间安静时间”规则，这样大家心里都有数，睡觉时间超棒又安静！你觉得这样合理吗？还是说我们用别的方式来解决，搞得更灵活一些？说说你的想法吧！",
+      "response": "每个人晚上的睡眠时间区间取并集，这个时间保持安静就行",
+      "prediction": "就制定规则吧。",
+      "scores": {
+        "wmd": 1.116024173557189,
+        "sentence_similarity": 0.5750513672828674,
+        "normalized_length_similarity": 0.2692307692307692,
+        "history_similarity": 0.7892663478851318,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "既然大家都在意生活的便利性……我倒挺好奇的，你们在梦想房间里，会优先选择哪类智能设备或者家具呢？我不是挑剔，但毕竟空间有限，功能性又要和品质感兼顾，这样用起来才会顺手，你觉得呢？",
+      "response": "我提议扫地机器人",
+      "prediction": "智能灯光和升降桌",
+      "scores": {
+        "wmd": 1.2193415876374374,
+        "sentence_similarity": 0.37030211091041565,
+        "normalized_length_similarity": 1.0,
+        "history_similarity": 0.6449787020683289,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，听你们说得这么实用，我突然灵感迸发了！如果在这个实用的房间里，加个小小的艺术角落，像是悬挂创意灯光或者摆放特别的艺术装饰品，你们觉得这样的点缀会不会让生活多点激情和灵魂的火花呢？艺术就是生活的心跳，你们怎么看？",
+      "response": "额，对艺术没什么概念。不过搞点小装饰能让心情更加愉悦。",
+      "prediction": "我对艺术没兴趣。",
+      "scores": {
+        "wmd": 1.0162744314359655,
+        "sentence_similarity": 0.5931239128112793,
+        "normalized_length_similarity": 0.2962962962962963,
+        "history_similarity": 0.7676769495010376,
+        "bleu": 0.01527559510113079,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "从逻辑上讲，生活区域的整洁和生熟分开是关键。你们觉得设立简单明确的分工或规则，比如谁负责哪些区域、清洁频率如何安排，是否能有效提高大家的遵守度？这样既保证效率，也维护了生活品质，你们怎么看？",
+      "response": "公共区域的清洁，比如冰箱和灶台的打扫，可以写个排班表。其他公共区域麻烦自己产生的垃圾自己带走。",
+      "prediction": "分工和规则是需要的。",
+      "scores": {
+        "wmd": 1.0082217714157073,
+        "sentence_similarity": 0.5699742436408997,
+        "normalized_length_similarity": 0.2127659574468085,
+        "history_similarity": 0.7566090822219849,
+        "bleu": 0.0021643477772462717,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

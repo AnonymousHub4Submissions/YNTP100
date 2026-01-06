@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:49",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making awesome memories together, imagine this: if we planned the perfect weekend getaway with our housemates to celebrate all this teamwork and fun, what would it look like? Mountains, beach, a city adventure? And what cool activities would you want us to do to make it unforgettable? Come on, share your boldest dream for a fun escape!",
+            "response": "Beach BBQ all the way! Plus, staying in a cute cottage or a luxurious villa would be amazing!",
+            "prediction": "How about a dream house equipped with the latest AI technology? Imagine living in a smart home where AI helps with everything from cleaning and cooking to managing your schedule and even providing personalized learning experiences!",
+            "scores": {
+                "wmd": 0.32187252846070424,
+                "sentence_similarity": 0.26330190896987915,
+                "normalized_length_similarity": 0.4025974025974026,
+                "bleu": 0.012961448381540544,
+                "ttr": 0.8947368421052632,
+                "history_similarity": 0.4146908223628998
+            }
+        },
+        {
+            "message": "Oh... while the idea of lively gatherings certainly has its charm, I find myself pondering—if you were to choose between a spirited, albeit noisy, social event here at the share house and a tranquil evening devoted solely to your creative endeavors, which would truly align with your sense of fulfillment? I’m not being overly particular, but balancing joyful interaction with personal focus can be quite the delicate art, don’t you agree?",
+            "response": "It’s a tough choice, but I’d lean more toward the lively side. When I want quiet, I can adjust by going to a café or using earplugs, but creating a lively atmosphere on my own is much harder.",
+            "prediction": "I’d probably go with the quiet, creative time. Since last week, I’ve been trying to focus more on my goals and quality over quantity.",
+            "scores": {
+                "wmd": 0.15416046894789054,
+                "sentence_similarity": 0.39143338799476624,
+                "normalized_length_similarity": 0.6963350785340314,
+                "bleu": 0.03397676655386842,
+                "ttr": 0.875,
+                "history_similarity": 0.4740946292877197
+            }
+        },
+        {
+            "message": "Wow, imagine if our house had this amazing smart system that vibes with each of us—custom music, lighting, even fragrances that change to fit our moods perfectly! How do you think that kind of personalized art for our senses would spark new energy in your day or even in how we all connect here? It’s like turning everyday life into a masterpiece!",
+            "response": "I think it would help us relax and refresh, making it easier to come up with good ideas! Also, when we’re in a good mood, we tend to be kinder to others, which can deepen our connections and increase overall happiness!",
+            "prediction": "I think such a personalized space would definitely add more fun and creativity to daily life! From my perspective, it’s not just about the final “artistic result” but more about enjoying the process of creating and discovering with friends. In a way, I hope we can all feel comfortable being ourselves in such a space, and through that, find new ways to connect and have fun together!",
+            "scores": {
+                "wmd": 0.16058456574741983,
+                "sentence_similarity": 0.4795345067977905,
+                "normalized_length_similarity": 0.5677083333333334,
+                "bleu": 0.008742637130044476,
+                "ttr": 0.782051282051282,
+                "history_similarity": 0.483296275138855
+            }
+        },
+        {
+            "message": "Logically speaking, to maintain both personal freedom and a harmonious shared environment—especially considering limited fridge space and communal mess—what specific rules or habits do you think would balance individual needs while ensuring fairness and respect among all of us?",
+            "response": "First, I think it’s effective to assign duties, designate spaces, and set schedules. Then, as we put these into practice, it’s important to have a system where we can easily discuss things that aren’t working, and also to maintain flexibility so that the rules can be adjusted as needed.",
+            "prediction": "I think we all hope to live in a space that feels comfortable and tidy, so from a practical perspective, I’d be okay with setting a rule that food in the fridge should be packaged in sealed containers and labeled with the date it was stored. As long as everyone follows this, I believe we can keep the fridge fresh and organized without too much hassle.",
+            "scores": {
+                "wmd": 0.17005844013915797,
+                "sentence_similarity": 0.29909834265708923,
+                "normalized_length_similarity": 0.8130311614730878,
+                "bleu": 0.012607618173288777,
+                "ttr": 0.7534246575342466,
+                "history_similarity": 0.36057889461517334
+            }
+        }
+    ]
+}

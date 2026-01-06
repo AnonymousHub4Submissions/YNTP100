@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:43",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine this—we just found 100 million waiting for us! What’s the wildest, most awesome thing you’d do with that crazy fortune? Don’t hold back—let your imagination run wild!\nA. My dream is to invest everything in gambling and make even more money.\nIf it were me, I'd probably spend it on my hobbies like mountaineering and orienteering, or on books and computer equipment.\nThe rest I'd either invest or save.\n\n\nQ. Interesting approach with gambling and your hobbies—let’s analyze this logically: if you had to allocate that 100 million realistically, what proportions would you assign to investment, consumption, and savings?\nA. If I were to gamble, I'd go all in, 100%. If not, I'd probably put about 40% each into investments and savings. Immediate expenses like my hobbies would be at most 20%, as I think it would only cost about 20 million yen.\n\nQ. Wow, your dream is truly bold and full of daring spirit! I’m curious—does this all-in gambling passion come from a clear goal to hit a jackpot, or is it more about the thrill and emotion behind taking that risk? What’s the deeper motivation driving you to chase such an intense dream?\nA. I want to gamble simply because I want to have fun. Having fun is the most important thing. I've never done it before, so I want to try it. Besides, it wasn't my own money to begin with.\n\nQ. Oh... speaking of enjoying life’s pleasures, I couldn't help but notice the shared refrigerator space feels quite... cramped lately. I'm not being picky, but these packaged foods seem to consume much of the room that fresh, wholesome ingredients could occupy. Surely, we all hope to maintain a certain quality of life here, including in something as simple as our meals, don't we?\nA. You should discuss once how to use the common space, including the refrigerator.\n\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making our space both beautiful and functional, imagine we add a cozy washitsu room with traditional Japanese vibes—but with some clever modern touches to blend convenience and comfort! How would that mix of old and new make you feel about our ShareHouse? Would it inspire you or make you want to hang out there more? Share your awesome thoughts!",
+            "response": "Not just once a week, but at night we should generally keep quiet.\nCleaning once a week should be enough.",
+            "prediction": "It would definitely make me want to hang out there more! The combination of traditional Japanese elements with modern convenience sounds like the perfect balance—cozy yet functional, stylish yet comfortable. I could see myself relaxing in there with a cup of tea or reading a book, and it would definitely inspire me to keep the ShareHouse feeling more like a home.",
+            "scores": {
+                "wmd": 0.21801972769455663,
+                "sentence_similarity": 0.13775239884853363,
+                "normalized_length_similarity": 0.2876712328767123,
+                "bleu": 0.004315621605804481,
+                "ttr": 0.7727272727272727,
+                "history_similarity": 0.5507301092147827
+            }
+        },
+        {
+            "message": "Haha, friend, that’s such an awesome idea! Quiet nights are perfect for recharging those batteries, right?! Keeping the night peaceful every day definitely helps everyone get top-notch rest! And cleaning once a week? Super efficient and eco-friendly, just the right balance! Imagine how peaceful our ShareHouse will feel with that calm nighttime vibe and sparkling clean spaces! Let’s make this a cozy, chill zone everyone loves to come home to! What else do you think would make our ShareHouse even more awesome? Share your cool ideas, friend! Haha!",
+            "response": "If we make a rule against keeping personal belongings in common areas, I think it would make problems much less likely to occur.",
+            "prediction": "I think we should set up a common area with some games or a TV for relaxing after work. Also, maybe have a schedule for cooking meals together to bond and save time.",
+            "scores": {
+                "wmd": 0.1935973237695233,
+                "sentence_similarity": 0.15598344802856445,
+                "normalized_length_similarity": 0.7757575757575758,
+                "bleu": 0.01542345413162388,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.49345678091049194
+            }
+        },
+        {
+            "message": "Oh... since we all desire a harmonious and well-kept living space, might I gently suggest the idea of holding a weekly meeting to discuss and perhaps refine our shared space usage and cleanliness guidelines? I'm not being picky, but such a thoughtful gathering could help maintain the elegance and order we all appreciate. Would this be something you find agreeable, do you think?",
+            "response": "To be sure, participation isn't mandatory, but I'd think a few minutes of discussion would be fine.",
+            "prediction": "That sounds like a great idea. We could all contribute and make sure everyone's on the same page about how to keep things tidy and organized.",
+            "scores": {
+                "wmd": 0.24311408701767165,
+                "sentence_similarity": 0.43856459856033325,
+                "normalized_length_similarity": 0.7021276595744681,
+                "bleu": 0.008517399705356638,
+                "ttr": 0.9310344827586207,
+                "history_similarity": 0.4936496317386627
+            }
+        },
+        {
+            "message": "Wow, what an inspiring conversation about creating harmony and order through thoughtful rules and gatherings! Speaking of sharing and celebrating what we love, imagine if we could bring a burst of traditional Japanese culture right here into our ShareHouse—what kind of immersive, creative experience or fun activity would you propose to truly share the spirit and beauty of that culture with everyone? Would it be something hands-on, like a tea ceremony or calligraphy workshop, or perhaps a vibrant storytelling session that captures the heart and history? I’d love to hear your vision—art is all about sharing passion and connection, after all!",
+            "response": "Indeed, for a tea ceremony, I think we could prepare everything quickly. Fine, I'll do it.",
+            "prediction": "I think a hands-on experience like a tea ceremony would be amazing—it's not only beautiful but also calming and reflective. Alternatively, a calligraphy workshop could be fun and creative. Maybe we could also try making traditional Japanese snacks together, like wagashi, to add a sweet touch to the experience.",
+            "scores": {
+                "wmd": 0.2135259482095459,
+                "sentence_similarity": 0.49792900681495667,
+                "normalized_length_similarity": 0.28938906752411575,
+                "bleu": 0.027164719371681398,
+                "ttr": 0.75,
+                "history_similarity": 0.4454779028892517
+            }
+        },
+        {
+            "message": "Logically speaking, communication is crucial in shared living spaces. If we had a digital notice board where everyone could post requests or updates about shared areas, would you find it efficient to use? What types of messages would you consider important enough to post there?",
+            "response": "I don't think there's much demand for this, but it's good for collecting notes and other documents in one place.",
+            "prediction": "Yes, I think it would be efficient. Important messages like when someone is using the shared refrigerator, washing machine, or if there's a need for cleaning or maintenance would be worth posting.",
+            "scores": {
+                "wmd": 0.1950860101580483,
+                "sentence_similarity": 0.38974952697753906,
+                "normalized_length_similarity": 0.5714285714285714,
+                "bleu": 0.014577516118523641,
+                "ttr": 0.8421052631578947,
+                "history_similarity": 0.347845196723938
+            }
+        }
+    ]
+}

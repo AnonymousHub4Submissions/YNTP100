@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:09",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！说到安静时段……如果我们设定每天晚上7点到9点公共区域大家尽量保持安静，这样你们觉得对创作灵感和生活会有多大帮助呢？来，大胆说说你们的想法吧！太棒了！",
+            "response": "我赞同这个想法！不知道大家其他人的是怎么想的呢",
+            "prediction": "Ahaha, friends! When it comes to quiet time... if we set aside every evening from 7pm to 9pm to keep the public area quiet, how do you think it will help with creative inspiration and daily life? Come on, be bold and share your thoughts! That's awesome!\n\nNote: The response is written in a friendly and casual tone, matching the input's style.",
+            "scores": {
+                "wmd": 1.2796641439736955,
+                "sentence_similarity": 0.09203074872493744,
+                "normalized_length_similarity": 0.06705539358600583,
+                "bleu": 0.0,
+                "ttr": 0.4676258992805755,
+                "history_similarity": 0.11409351229667664
+            }
+        },
+        {
+            "message": "哦……说到‘梦想房间’的设计，我想知道大家是更倾向于能够容纳更多创作灵感的实用性呢，还是愿意接受一些装饰性设计，哪怕会牺牲一点使用空间？我不是挑剔，只是觉得生活环境嘛，既要美观也要实用，总不能完全偏向某一面，大家觉得呢？",
+            "response": "我个人的话应该会更加偏向于实用吧",
+            "prediction": "Hello everyone! I'm excited to join this share house. I noticed that each of you has a unique name, and I'm curious about the design concept of our shared space. For example, '梦想房间' (Dream Room) - how do you think we should balance practicality and aesthetics? Should we prioritize functional design that accommodates more creative inspirations, or accept some decorative design that sacrifices some usage space? I'm not looking to criticize, but I think it's important to find a balance between beauty and functionality. How do you think?",
+            "scores": {
+                "wmd": 1.2679770315207677,
+                "sentence_similarity": 0.14417582750320435,
+                "normalized_length_similarity": 0.029684601113172542,
+                "bleu": 0.0,
+                "ttr": 0.38190954773869346,
+                "history_similarity": 0.22905805706977844
+            }
+        },
+        {
+            "message": "哇，说到生活的艺术，我觉得冰箱里的食材也像创作的灵感一样需要一个完美的舞台！你觉得如果设定固定的食品摆放区域，让大家轮流管理，会不会更容易保持方便拿取的包装食品和新鲜食材之间的完美比例呢？这可是让我们的厨房也成为艺术品的秘诀哦！",
+            "response": "哇这种想法听着真不错呢！",
+            "prediction": "Ah-ha! I see what you mean! You're saying that if we set up a fixed food storage area and everyone takes turns managing it, it might be easier to maintain a perfect balance between packaged foods and fresh ingredients? That's a brilliant idea! It's like creating a masterpiece in the fridge!\n\n    Please let me know if this response meets your expectations!",
+            "scores": {
+                "wmd": 1.2743698988696568,
+                "sentence_similarity": -0.03028499335050583,
+                "normalized_length_similarity": 0.03361344537815126,
+                "bleu": 0.0,
+                "ttr": 0.46099290780141844,
+                "history_similarity": 0.042219288647174835
+            }
+        },
+        {
+            "message": "哇，太棒了！你觉得这样分区能激发大家的创意吗？",
+            "response": "肯定能的！大家可以集思广益",
+            "prediction": "That's a great idea! By dividing the space into different zones, I think it can definitely stimulate everyone's creativity.",
+            "scores": {
+                "wmd": 1.287054383610579,
+                "sentence_similarity": -0.002516677603125572,
+                "normalized_length_similarity": 0.10569105691056911,
+                "bleu": 0.0,
+                "ttr": 0.5681818181818182,
+                "history_similarity": 0.027728550136089325
+            }
+        },
+        {
+            "message": "说到合作，我们不妨思考一下公共区域的清洁和维护值班安排。从逻辑上讲，你觉得是按每个人的使用频率分配任务更合理，还是大家平均分担任务更有效？这样才能既保证效率，又维护公平。你怎么看？",
+            "response": "或许平均分配更加能考虑到每个人吧！不知道大家其他人是如何认为的呢",
+            "prediction": "Hi everyone! As a new resident, I'm excited to contribute to the share house. Considering our shared spaces' cleanliness and maintenance, I think it's reasonable to allocate tasks based on each person's usage frequency. This approach can ensure efficiency and fairness. For example, if someone uses the shared spaces more frequently, they should take more responsibility for cleaning and maintaining those areas. Conversely, if someone uses the shared spaces less frequently, their task load should be lighter. This way, everyone contributes fairly and efficiently. What do you think?",
+            "scores": {
+                "wmd": 1.2816977430260252,
+                "sentence_similarity": 0.017737852409482002,
+                "normalized_length_similarity": 0.0547945205479452,
+                "bleu": 0.0,
+                "ttr": 0.38071065989847713,
+                "history_similarity": 0.1354002207517624
+            }
+        }
+    ]
+}

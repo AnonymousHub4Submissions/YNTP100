@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:43",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found 100 million in your mailbox—what wild and wonderful adventure would you dive into first? Don’t hold back, I want to hear your boldest, most awesome dream!\nA. Hello all, I am new here\n\nQ. Haha, welcome, welcome, friend! So awesome to have you here in our ShareHouse! Now, spill the beans—if you suddenly got 100 million bucks, what’s the wildest, craziest thing you’d do? Build a castle? Travel the world in a hot air balloon? Turn your backyard into a theme park? Don’t hold back—this is the place for BIG dreams and big laughs! Come on, let’s hear your awesome adventure!\nA. I will travel and explore the world for about 9 months and then focus on finding God/truth\n\nQ. Very fascinating plan! Now, let's analyze this realistically: if you had to allocate that 100 million, how would you divide it among travel expenses, personal growth or spiritual pursuits, and maybe some savings for the future? What rough proportions make the most sense to you?\nA. I mean ofc i am not gonna use the 100mil, I will invest it somehwere where I can get like 5-7% return and then use that 5-7mil for what I want to do\n\nQ. Wow, your plan already shines with such clarity and purpose! Now I’m curious—what is truly fueling this dream of yours? Is it a clear, shining goal that guides every step like a compass, or is it more of a deep, heartfelt call from your values and emotions that pushes you forward? Art and life both need that spark—what’s the soul of your journey?\nA. travel/experience for seeing the world, finding truth because it is what matters in the ned\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about balancing order and creativity here, imagine if a new opportunity popped up—an investment promising bigger returns but with more ups and downs! How would you balance the risk so you can still enjoy your travels and personal growth without getting too wild? Share your boldest strategy!",
+            "response": "in that case i would spend my time to understand the investment, if it makes sense ot me and seems like a productive investment, I will go 50% in, if it does not feels nice Ill just let it go.",
+            "prediction": "I would allocate a portion of the investment to a more stable fund for security, while using the higher-risk portion to generate extra income for my travels and spiritual pursuits, keeping a balance between growth and stability.",
+            "scores": {
+                "wmd": 0.2175721708621272,
+                "sentence_similarity": 0.5549850463867188,
+                "normalized_length_similarity": 0.8421052631578947,
+                "bleu": 0.01320638279147816,
+                "ttr": 0.8,
+                "history_similarity": 0.31431543827056885
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping balances and thoughtful approaches, I was pondering about our shared refrigerator space and the idea of labeling items that was mentioned earlier. I'm not being picky, but perhaps implementing a quarterly review to adjust space allocation based on usage and our respect for common areas could help maintain harmony. Do you think such a system would be... beneficial to preserving our shared quality of life here?",
+            "response": "Ideally no, but I think individuals can talk with each other so that they can lend/borrow space from each other.",
+            "prediction": "I think that's a fantastic idea—it shows responsibility and consideration for others, which is essential in a shared living space. A quarterly review could ensure everyone's needs are met and prevent clutter from becoming an issue. It might even encourage us to be more mindful of what we store and how we use the space. Definitely beneficial!",
+            "scores": {
+                "wmd": 0.22724774609146292,
+                "sentence_similarity": 0.26774048805236816,
+                "normalized_length_similarity": 0.32653061224489793,
+                "bleu": 0.008231215992636891,
+                "ttr": 0.875,
+                "history_similarity": 0.2930687665939331
+            }
+        },
+        {
+            "message": "Wow, Raffaello, your thoughtful approach to harmony really sparks my creativity! Since we all treasure both lively collaboration and moments of quiet focus here, what if we arranged a weekly rotation where each of us hosts either a fun creative session or a peaceful workday in the common area? How do you imagine you'd bring your unique touch to balancing this rhythm between vibrant energy and calm concentration? I’m curious—would you lean more toward inspiring artistic bursts or soothing steady productivity?",
+            "response": "I think I would alternate bewteen both",
+            "prediction": "I think that sounds amazing! I would love to host a mix of both, but maybe lean more towards inspiring artistic bursts since I enjoy creativity and collaboration. I could set up the common area with some art supplies, music, and maybe even some light snacks to keep the energy flowing. But I’d also make sure there’s a quiet corner for those who need to focus, so everyone can find their balance.",
+            "scores": {
+                "wmd": 0.3388088229989414,
+                "sentence_similarity": 0.27289167046546936,
+                "normalized_length_similarity": 0.09595959595959595,
+                "bleu": 0.006816884529238541,
+                "ttr": 0.7976190476190477,
+                "history_similarity": 0.3361288607120514
+            }
+        },
+        {
+            "message": "Very interesting approach to balance creativity and focus. Now, reflecting on your desire for a dream room that’s both functional and playful with video games, what practical features or tech gadgets do you think would truly enhance usability and enjoyment for everyone involved? Let’s analyze how to merge fun and efficiency logically.",
+            "response": "big screen headphones and snack table",
+            "prediction": "I think having a gaming area with ergonomic chairs, a high-end gaming PC, a large monitor or curved screen, and maybe some VR setup would be awesome. Also, having a sound system for immersive audio, some storage for consoles and accessories, and maybe a small snack area or fridge would make it both functional and fun for everyone.",
+            "scores": {
+                "wmd": 0.32007210736977787,
+                "sentence_similarity": 0.33321237564086914,
+                "normalized_length_similarity": 0.11144578313253012,
+                "bleu": 0.003628990737912465,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.290095716714859
+            }
+        }
+    ]
+}

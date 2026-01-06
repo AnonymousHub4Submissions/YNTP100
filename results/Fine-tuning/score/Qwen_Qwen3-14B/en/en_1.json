@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:44",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re aiming for harmony AND creativity, how about we try a rotating schedule for quiet and active hours? That way, everyone gets their turn to be expressive or chill without stepping on anyone’s toes! What do you think? Would that make our ShareHouse vibe even more awesome?",
+            "response": "Exactly! We should emphasize the importance of balance and contrast.",
+            "prediction": "It's practical, so we should do it.",
+            "scores": {
+                "wmd": 0.36948435556629805,
+                "sentence_similarity": 0.2890999913215637,
+                "normalized_length_similarity": 0.5147058823529411,
+                "bleu": 0.02054901307230194,
+                "ttr": 1.0,
+                "history_similarity": 0.44071951508522034
+            }
+        },
+        {
+            "message": "Haha, friend, you’re totally spot on! Balance and contrast are the secret sauce that makes everything shine! By balancing quiet focus and lively energy, we keep our ShareHouse buzzing with creativity AND calm! So, let’s chat more about how we can sprinkle that perfect mix into our rotating schedule! What’s your ideal way to mix those chill and lively vibes? Haha, I’m all ears and super excited!",
+            "response": "By making the morning and evening hours quiet, and the daytime and early evening active, a natural daily rhythm can be established.",
+            "prediction": "We should coordinate the schedule in advance.",
+            "scores": {
+                "wmd": 0.3111687176721325,
+                "sentence_similarity": 0.24981799721717834,
+                "normalized_length_similarity": 0.3435114503816794,
+                "bleu": 0.0039450671917310364,
+                "ttr": 1.0,
+                "history_similarity": 0.5732622742652893
+            }
+        },
+        {
+            "message": "Oh... speaking of maintaining such a harmonious rhythm, I wonder if we might also consider some small yet thoughtful habits to keep our shared spaces as inviting and pleasant as that ideal schedule. I’m not being picky, but perhaps simple daily efforts—like tidying up immediately after ourselves or being mindful of shared supplies—could make a considerable difference, don’t you think? After all, little gestures build the overall quality and comfort we all cherish in our home, wouldn’t you agree?",
+            "response": "That's right. Just by consistently following simple rules like putting things back in their original place after use, you can maintain most of the order in your space.",
+            "prediction": "It's about mutual respect and care for the common living environment.",
+            "scores": {
+                "wmd": 0.22230868066783405,
+                "sentence_similarity": 0.12091796100139618,
+                "normalized_length_similarity": 0.41317365269461076,
+                "bleu": 0.004741468873401851,
+                "ttr": 1.0,
+                "history_similarity": 0.5128771662712097
+            }
+        },
+        {
+            "message": "Wow, such a fantastic flow of harmony and respect in our home already! Since we’re vibing so well with the energy of music filling our dream room, how do you feel about weaving in some peaceful, quiet moments by pausing the music—like gentle breaths in our artistic symphony—to help everyone focus or rest deeply when they need it? Would that balance inspire even greater creativity and calm?",
+            "response": "I agree that having quiet time is a good idea.",
+            "prediction": "It's all about maintaining a certain quality.",
+            "scores": {
+                "wmd": 0.3326767660225932,
+                "sentence_similarity": 0.15643969178199768,
+                "normalized_length_similarity": 0.9782608695652174,
+                "bleu": 0.022835060540062107,
+                "ttr": 1.0,
+                "history_similarity": 0.353901207447052
+            }
+        },
+        {
+            "message": "Your idea of balancing vibrant activity with restful pauses is very insightful. Logically speaking, if we were to design a weekend plan that combines learning new skills with relaxing downtime, what specific activities would you include to maximize both mental stimulation and proper rest? How would you allocate time between these to maintain that harmony we value here?",
+            "response": "In addition to rest, incorporating some light exercise will likely have a positive effect on both your physical and mental well-being.",
+            "prediction": "I would allocate approximately 60% of the time to learning new skills and 40% to relaxing downtime.",
+            "scores": {
+                "wmd": 0.19969665404613843,
+                "sentence_similarity": 0.2846298813819885,
+                "normalized_length_similarity": 0.7388059701492538,
+                "bleu": 0.010908370635616393,
+                "ttr": 0.9,
+                "history_similarity": 0.4311204254627228
+            }
+        },
+        {
+            "message": "Let's analyze this: Your suggestion to add light exercise complements rest well, as it supports both physical health and mental clarity, fitting our balance goal. To return to my original question, what specific activities—combining rest, light exercise, and skill learning—would you propose for a weekend plan? Also, how would you distribute time across these to ensure optimal harmony and productivity?",
+            "response": "By dedicating 50% of your time to skill acquisition, 30% to rest, and 20% to exercise, and rotating these activities in small increments (skill acquisition, exercise, rest), you can maintain your focus and concentration.",
+            "prediction": "Logically prioritizing quality time allocation based on activity type.",
+            "scores": {
+                "wmd": 0.30379048730930125,
+                "sentence_similarity": 0.3077094554901123,
+                "normalized_length_similarity": 0.3181818181818182,
+                "bleu": 0.0006857877606802024,
+                "ttr": 1.0,
+                "history_similarity": 0.40528690814971924
+            }
+        }
+    ]
+}

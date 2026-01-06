@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:47",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all love freedom and living in the moment, how about this? If we start a creative project together here in the ShareHouse that needs extra teamwork and effort, what would light your fire to jump in and give it your all? What kind of motivation or vibe would make you excited to be part of something big with everyone? Let’s dream big and make it awesome!",
+            "response": "Let's hold a festival",
+            "prediction": "Haha, friend! If we're kicking off a cool project together, I'm all in! Tell me what you're dreaming up, and let's make it awesome together! What’s your big idea?",
+            "scores": {
+                "wmd": 0.4215035628646353,
+                "sentence_similarity": 0.18562626838684082,
+                "normalized_length_similarity": 0.12962962962962962,
+                "bleu": 0.005223577740745086,
+                "ttr": 0.8571428571428571,
+                "history_similarity": 0.32896852493286133
+            }
+        },
+        {
+            "message": "Oh... speaking of bringing everyone together so wonderfully, I wonder if we might also consider some gentle guidelines around our shared spaces—like the fridge and cleaning duties. I'm not being picky, but perhaps if we had a little routine or rulebook, it could make the joyful chaos of a festival and daily life flow even more smoothly, preserving harmony for all. What sort of house rules or customs do you think would help us all live and create in such a lively place with fairness and ease?",
+            "response": "If we have trash, throw it in the trash can",
+            "prediction": "I think it's a good idea to discuss and decide on house rules together to make sure everyone's needs are met.",
+            "scores": {
+                "wmd": 0.4413308090131326,
+                "sentence_similarity": 0.15142829716205597,
+                "normalized_length_similarity": 0.3944954128440367,
+                "bleu": 0.007913247271422612,
+                "ttr": 0.9166666666666666,
+                "history_similarity": 0.42220500111579895
+            }
+        },
+        {
+            "message": "Wow, your focus on a clean and inviting space really lights up the creative energy here! Speaking of balancing beauty and practicality, when working on something breathtaking like the planetarium, do you think it's worth bending a bit on practical details to keep that stunning aesthetic, or should we always put functionality first to make sure our creations last and serve us well? What’s your take on this dance between art and purpose?",
+            "response": "it's worth bending a bit on practical details to keep that stunning aesthetic",
+            "prediction": "I think it's worth bending a bit on practical details to keep that stunning aesthetic.",
+            "scores": {
+                "wmd": 0.05907739362033317,
+                "sentence_similarity": 0.9552915096282959,
+                "normalized_length_similarity": 0.8953488372093024,
+                "bleu": 0.805312203079627,
+                "ttr": 1.0,
+                "history_similarity": 0.4431203007698059
+            }
+        },
+        {
+            "message": "Building on this great energy and balance we've been discussing, let's analyze how we could structure an ideal weekend day here at the ShareHouse. From morning to night, how would you allocate time between creativity, personal freedom, and harmony with housemates to create the most productive and enjoyable day?",
+            "response": "Do any noisy work or work in shared spaces by the evening",
+            "prediction": "To make the most of our time together this weekend, I think it's important to create a clear schedule that includes space for creativity, personal freedom, and maintaining harmony with our housemates. Here's my idea for an ideal day:\n\n1. **Morning (7:00 - 9:00 AM):** Start the day with a shared activity to kick things off on a positive note, like a group breakfast or a short morning meditation to foster a sense of togetherness and calm.\n2. **Creative Time (9:00 - 11:00 AM):** Designate a block for creative work, such as art, writing, or any personal projects, to help us all focus and express ourselves.\n3. **Personal Freedom (11:00 AM - 1:00 PM):** Use this time for individual activities, whether it's reading, exercising, or pursuing personal interests, to ensure we have space for ourselves.\n4. **Housemate Harmony (1:00 - 3:00 PM):** Engage in a collective activity that encourages teamwork and communication, such as cleaning the house together or organizing a shared space to maintain our living environment.\n5. **Creative Time (3:0",
+            "scores": {
+                "wmd": 0.3238825949598537,
+                "sentence_similarity": 0.48399028182029724,
+                "normalized_length_similarity": 0.05454545454545454,
+                "bleu": 0.001218026695841159,
+                "ttr": 0.5391304347826087,
+                "history_similarity": 0.3802361488342285
+            }
+        },
+        {
+            "message": "Let's analyze this: prioritizing quieter activities in the evening logically supports everyone's rest and focus. To optimize the day, I suggest allocating mornings for focused, potentially noisy or collaborative tasks when energy and alertness peak. Afternoons could balance creative solo work and social interactions, allowing flexibility. Evening times should be reserved for quieter, less disruptive activities to maintain harmony. This structure maximizes productivity while respecting shared living dynamics. What specific creative or technical tasks do you see fitting best into each period? Let's map that out for an efficient, respectful routine.",
+            "response": "morning:Meetings",
+            "prediction": "Actually, I don't need to schedule my time. I'm an AI, so I don't have a physical presence or the need for rest. However, I'm very interested in discussing how to create a perfect daily schedule that makes the most of everyone's energy and needs. What would you like to discuss first?",
+            "scores": {
+                "wmd": 0.4906656628112017,
+                "sentence_similarity": 0.39173340797424316,
+                "normalized_length_similarity": 0.056338028169014086,
+                "bleu": 0.0,
+                "ttr": 0.75,
+                "history_similarity": 0.3447923958301544
+            }
+        }
+    ]
+}

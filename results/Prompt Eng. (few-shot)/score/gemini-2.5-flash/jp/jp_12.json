@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:50:09",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "ハハ、みんなで暮らすということは、こういう多様な価値観が交わるからこそ本当に面白いよね！そうだ、シェアハウスに映画館のような部屋を作るって話があったけど、友達はどんな映画ジャンルが好き？そしてその理由は？みんなで映画鑑賞するときのワクワク感も聞かせてほしいな！最高の趣味トークで盛り上がろうぜ！",
+      "response": "自分が好きなのはアクション系かな。派手なアクションをしているのを見るとかっこいいなーってなるよ！",
+      "prediction": "自分はアクション映画とかSF映画が好きだな。迫力のある映像と音響に引き込まれるからだよ。みんなでハラハラドキドキしながら見るのが楽しいし、見終わった後に感想を言い合うのもワクワクするね！",
+      "scores": {
+        "wmd": 0.6111836466047492,
+        "sentence_similarity": 0.6849045753479004,
+        "normalized_length_similarity": 0.5161290322580645,
+        "history_similarity": 0.7818474173545837,
+        "bleu": 0.016486383891034698,
+        "ttr": 0.8269230769230769
+      }
+    },
+    {
+      "message": "ああ…多様な趣味が交わるのは確かに刺激的ですね。ただ、こういう多様な価値観がぶつかる時、シェアハウスの雰囲気や秩序が乱れることもあると思います。皆さんは意見が対立した場合、どのように調和を図っているのでしょう？僕は潔癖症なわけじゃないんだけど、生活環境の細かいルールは守ってほしいと思ってしまうんですよね。皆さんの経験や考えを聞かせてもらえるとありがたいのですが…。",
+      "response": "やはり話し合いによる解決一択だよ。なぜお互いの考えがぶつかるのか、それぞれの考えを話し合い、どう妥協点を探るのかということが、共同生活の醍醐味だよ。",
+      "prediction": "自分は、多様な価値観があるからこそ衝突が生まれるのは自然なことだと思うよ。でも、シェアハウスでの調和のためにはやっぱりルールが一番大事だね。みんなでしっかり話し合って、納得できる着地点を見つけるべきだと思うな。",
+      "scores": {
+        "wmd": 0.5997848650970738,
+        "sentence_similarity": 0.6530191898345947,
+        "normalized_length_similarity": 0.7047619047619048,
+        "history_similarity": 0.8272462487220764,
+        "bleu": 0.011169314207209544,
+        "ttr": 0.6949152542372882
+      }
+    },
+    {
+      "message": "わあ、本当にみんなそれぞれの個性が輝いていてこの家はまるで芸術作品みたいだ！ところで、旅や日常の挑戦のほかに、将来ぜひ挑戦してみたいことや夢ってある？君の情熱が形になる瞬間を想像すると胸が高鳴るよ！",
+      "response": "将来挑戦したいことかートライアスロンをしてみたいね！あとは富士山登山とかもしたい！",
+      "prediction": "自分は生命の院生だから、いつか自分の研究で、みんなの役に立つような新しい発見をしてみたいよ。それが夢かな。",
+      "scores": {
+        "wmd": 0.8240128604210719,
+        "sentence_similarity": 0.41931697726249695,
+        "normalized_length_similarity": 0.7735849056603774,
+        "history_similarity": 0.7790533900260925,
+        "bleu": 0.10146459445560989,
+        "ttr": 0.8108108108108109
+      }
+    },
+    {
+      "message": "とても興味深い話の流れですね。さて、共同生活においては規則の遵守が不可欠ですが、一方で個々の状況に応じた柔軟性も必要です。理想的なシェアハウスのルールを作るとしたら、どの程度の厳格さとどの程度の柔軟性がバランス良いと思いますか？具体的な例を挙げて考えてみましょうか。",
+      "response": "ルールとしては仮に共用部の掃除当番を決めるとして、基本的には決められた人が決められた日にしっかりとするべきだと思うよ。でも、そうでなくても、今日予定があってできないとかも認めていいと思うよね。ただ、サボったっていうのはなんらかのペナルティを与えないといけないと思う。どうサボったって判断するのか難しいかもだけど、、、",
+      "prediction": "自分は、基本的なルールは厳しめに設定するのが良いと思うな。例えば共用スペースの清掃や夜間の騒音なんかは、誰かが我慢することになるから厳格に守るべきだよ。でも、掃除の担当を交代できるとか、柔軟な部分ももちろん必要だね。その方がみんなが納得して生活できるし、多少の不自由さも成長につながるんじゃないかな。",
+      "scores": {
+        "wmd": 0.5264953246008256,
+        "sentence_similarity": 0.49428749084472656,
+        "normalized_length_similarity": 0.9493670886075949,
+        "history_similarity": 0.6832135915756226,
+        "bleu": 0.07215457877854307,
+        "ttr": 0.6702127659574468
+      }
+    }
+  ]
+}

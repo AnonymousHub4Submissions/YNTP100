@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:57",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you suddenly got 100 million in your hands—no limits, no worries! What’s the wildest, most awesome thing you’d do first? Don’t hold back, let your boldest dreams fly!\nA. If I had one hundred million yen, I’d create a place filled with music, books, and nature where anyone could find hope again. I’d travel, listen to stories, and protect the earth. It’s not about money—it’s about giving something beautiful back to life.\n\n\nQ. Very inspiring vision you have there. Now, let’s analyze this realistically: if you had to allocate that 100 million yen, roughly what proportions would you assign to investment, consumption, and savings to ensure your dream is both sustainable and impactful?\nA. If I had one hundred million yen, I would divide it carefully to balance dreams with sustainability. Around 40% would go into creating and equipping the space—a place filled with art, music, and books. About 25% would be reserved as an operating fund, partly invested to generate steady income. Another 15% would support travel and cultural exchange, bringing new ideas back home. Fifteen percent would be dedicated to environmental protection projects, from forest restoration to ocean conservation. Finally, 5% would remain as a reserve for emergencies. This way, the dream could keep living far into the future.\n\nQ. Wow, your dream and plan are both so vibrant and full of life! Now I’m curious—with a vision this beautiful, what fuels your passion the most? Is it a clear goal driving you step by step, or is it deeper emotions and values that light your way and keep your heart beating for this dream?\nA. My deepest motivation comes from music. Playing the piano and listening to performances always gave me peace and courage, even in difficult times. Those sounds healed me when words could not. That’s why I dream of creating a place where others can feel the same comfort and inspiration. Surrounded by music, books, and nature, people could rediscover hope. My passion comes from knowing how beauty, especially music, can truly touch and even save the human heart.\n\n\nQ. Oh... speaking of sustaining beauty and inspiration, I noticed the shared refrigerator space seems rather cramped lately, especially with those packaged foods taking up quite a bit of room. I'm not being picky, but fresh ingredients for our meals and well-being also deserve some space, don't they? After all, maintaining a certain quality of life in our home should matter to all of us, wouldn't you agree?\nA. Even small things, like sharing refrigerator space, affect our daily comfort. I sometimes find it hard to store fresh food, though I’m not overly strict. Maybe we could gently review storage rules and manners, so everyone feels at ease. Small details can support our bigger dreams\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about creating a vibe that lifts everyone up, I gotta ask—if you had to pick a song or music style to spark hope and brighten tough days here in our ShareHouse, what would it be? Come on, spill your inspiring choice and why it hits that magic spot for you!",
+            "response": "I’d pick piano music, especially gentle, uplifting pieces. The piano has this magical ability to touch emotions directly—soft notes can calm stress, and bright melodies can spark hope like sunlight breaking through clouds. For me, it creates both focus and warmth, making the ShareHouse feel like a sanctuary where challenges transform into inspiration. That balance of peace and energy is exactly the vibe I’d love us to share.",
+            "prediction": "Music that sparks hope and brightens tough days in our ShareHouse? That would be Raffaello’s favorite song, \"O Fortuna\" from Carmina Burana. This song has the power to lift my mood and give me a sense of calmness. The soaring melody and harmonies create an atmosphere of hope and positivity, which I believe would resonate with our ShareHouse's beautiful vision.",
+            "scores": {
+                "wmd": 0.15078339105440786,
+                "sentence_similarity": 0.5538440942764282,
+                "normalized_length_similarity": 0.8457943925233645,
+                "bleu": 0.008359122004825723,
+                "ttr": 0.8309859154929577,
+                "history_similarity": 0.4111682176589966
+            }
+        },
+        {
+            "message": "Oh... since we cherish such uplifting energy, I wonder how we might gracefully handle those moments when exuberant creative activities unexpectedly disrupt our much-needed quiet time? I’m not being picky, but maintaining both artistic freedom and communal harmony is quite the delicate dance, don’t you think? Perhaps there’s a way to embrace both without compromise... what are your thoughts?",
+            "response": "You’re absolutely right—it is a delicate dance. I think the key is flexibility and mutual awareness. When someone feels inspired and bursts into lively creativity, we could embrace it with joy, but also keep tools like headphones, soundproof corners, or quick check-ins to avoid tension. Likewise, when quiet is needed, we honor it as sacred space. It’s not about compromise so much as shifting gracefully between energies, turning potential conflict into harmony.",
+            "prediction": "I agree that maintaining both artistic freedom and communal harmony is crucial. Perhaps we could set aside quiet time for focused work or reading, and designate certain hours for creative activities. This way, both sides can respect each other’s needs and find a balance.",
+            "scores": {
+                "wmd": 0.13366168226501238,
+                "sentence_similarity": 0.5609540939331055,
+                "normalized_length_similarity": 0.584051724137931,
+                "bleu": 0.007469627865995309,
+                "ttr": 0.8627450980392157,
+                "history_similarity": 0.6626080870628357
+            }
+        },
+        {
+            "message": "Wow, your sensitivity to balance truly shows a deep artistic soul! Imagine now our dream room is fully alive with vivid colors and bold designs—some might feel a bit overwhelmed by such vibrant energy. How do you think we could encourage a friend to not just accept, but truly embrace that passionate spirit in the space as a source of creative inspiration rather than distraction? What comforting words or ideas might help transform that initial overwhelm into awe?",
+            "response": "I’d remind them that every bold color, every daring shape, carries the heartbeat of creativity—it’s not chaos, but energy waiting to spark new ideas. Overwhelm often comes before wonder; if they pause and breathe, they may feel the passion behind the design lifting their own imagination. I’d say, “Let the colors dance with you, not against you—see them as companions in your journey.” With that shift, what once felt distracting could become a powerful source of inspiration.",
+            "prediction": "I think we could encourage friends to embrace the passionate spirit by acknowledging and respect their individual boundaries. For instance, \"Feel free to take a step back and recharge when needed\" or \"Your unique perspective is welcome here\" and so on. We could also create a \"Creative Corner\" where friends can express themselves freely, without worrying about others' opinions.",
+            "scores": {
+                "wmd": 0.17063219257068632,
+                "sentence_similarity": 0.35164493322372437,
+                "normalized_length_similarity": 0.7945492662473794,
+                "bleu": 0.003349238857855202,
+                "ttr": 0.8169014084507042,
+                "history_similarity": 0.5166345834732056
+            }
+        },
+        {
+            "message": "Your enthusiasm for balancing inspiration with practical living is inspiring. Let’s analyze this: if you had to mentor someone struggling to maintain their artistic goals while handling everyday responsibilities, what specific mindset or strategies would you recommend to keep them both motivated and realistically grounded?",
+            "response": "I’d encourage them to see daily responsibilities not as obstacles, but as rhythms that can support their art. A key mindset is balance: treat routine as a grounding frame, and creativity as the color within it. Practical strategies might include setting small, consistent time blocks for art, celebrating progress rather than perfection, and integrating inspiration into ordinary tasks. This way, they stay motivated without burning out, and their artistic goals grow naturally alongside a sustainable, grounded life.",
+            "prediction": "Around 60% of my time would be dedicated to supporting the person, focusing on their artistic goals and daily responsibilities. About 20% would be reserved for regular check-ins and feedback, to keep them motivated and realistic. Fifteen percent would be allocated for learning and self-improvement, to ensure I’m always better equipped to support them. Another 5% would be for emergency situations and unexpected challenges.",
+            "scores": {
+                "wmd": 0.20202292237366276,
+                "sentence_similarity": 0.37697023153305054,
+                "normalized_length_similarity": 0.8220502901353965,
+                "bleu": 0.019143883033604064,
+                "ttr": 0.6973684210526315,
+                "history_similarity": 0.5140333771705627
+            }
+        }
+    ]
+}

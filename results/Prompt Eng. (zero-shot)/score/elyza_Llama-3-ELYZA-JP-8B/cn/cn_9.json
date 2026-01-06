@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:21",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，说到创造空间，听说你想把琴房设计得既实用又美观！来，聊聊你最看重琴房里的什么功能？是收纳乐器还是那些炫酷的音响设备？太棒了，快告诉我你的想法！",
+            "response": "收纳乐器，不需要音响，我喜欢乐器最真实的声音",
+            "prediction": "Oh, yeah! I'm super excited to design the music room! For me, the most important thing is to make it functional and beautiful at the same time. So, I would prioritize storing instruments over those cool sound equipment.",
+            "scores": {
+                "wmd": 1.2627037126265528,
+                "sentence_similarity": 0.013121658936142921,
+                "normalized_length_similarity": 0.1004566210045662,
+                "bleu": 0.0,
+                "ttr": 0.47619047619047616,
+                "history_similarity": -0.045646782964468
+            }
+        },
+        {
+            "message": "哦……说到收纳，我这边正在考虑如何把那些包装食品移出冰箱，毕竟空间有点紧张。我不是挑剔，不过如果能找到既整洁又方便的存放方式，会让整个空间显得更有秩序。你觉得我们可以尝试什么新的收纳方法呢？也许有什么你觉得特别实用的建议？",
+            "response": "为什么你总是说你不是挑剔",
+            "prediction": "Hi everyone, welcome to the share house! I'm excited to join this community. As we discussed earlier, I was thinking about how to store packaged foods outside the fridge since it's getting a bit cramped. I'm not picky, but if we can find a clean and convenient storage method, it would make the whole space look more organized. What do you think we could try for a new storage method? Maybe you have any practical suggestions?\n\nNote: The response should be natural and conversational, while also considering the context and the personalities of the share house members.",
+            "scores": {
+                "wmd": 1.2733363117392855,
+                "sentence_similarity": -0.03871309757232666,
+                "normalized_length_similarity": 0.0210896309314587,
+                "bleu": 0.0,
+                "ttr": 0.40375586854460094,
+                "history_similarity": 0.03488345071673393
+            }
+        },
+        {
+            "message": "哦…这话说出来，是想让气氛轻松些呢。我不是挑剔，但是有时候期望确实高了点呢。说到收纳，咱们还是回到那个如何保持空间整洁方便的问题吧？你有没有特别喜欢的收纳小妙招？",
+            "response": "没有，我觉得按使用频率放就好",
+            "prediction": "Ahahah, I'm glad to join this share house! I'm looking forward to getting to know each other better. Speaking of organization, I'm actually quite particular about keeping spaces tidy and organized. There's this one trick I've found that works really well for me...",
+            "scores": {
+                "wmd": 1.2741488038838826,
+                "sentence_similarity": 0.01469433307647705,
+                "normalized_length_similarity": 0.05303030303030303,
+                "bleu": 0.0,
+                "ttr": 0.45544554455445546,
+                "history_similarity": 0.00928646419197321
+            }
+        },
+        {
+            "message": "哇，说到大家共同维护公共区域，真的是一种艺术般的合作啊！你觉得有没有什么轻松又有创意的方法，让我们都能愉快地分担这份责任，让空间不仅整洁，还充满活力？",
+            "response": "卫生表",
+            "prediction": "我完全 agree！公共区域の維持は、まさにアートのような共同作業ですね！私は、例えば、各自が好きな場所や時間に、5分間の清掃や整理を任意で行う「スキマ時間クリーンアップ」や、共有する家具や小物を、各自が自由に配置し直す「レイアウト自由時間」などを提案します。こうすることで、責任を分担しつつ、自由度も高く、みんなで愉快に作業できますし、空間も整然として活力に満ちた空間を保つことができます。",
+            "scores": {
+                "wmd": 1.2804606374302256,
+                "sentence_similarity": 0.09741934388875961,
+                "normalized_length_similarity": 0.015306122448979591,
+                "bleu": 0.0,
+                "ttr": 0.5471698113207547,
+                "history_similarity": 0.3028683066368103
+            }
+        },
+        {
+            "message": "从逻辑上讲，如果琴房的隔音效果做到极致，你觉得这样会不会让我们更容易组织音乐聚会或者邀请朋友过来？这会不会成为增强团队互动的新契机？",
+            "response": "是的",
+            "prediction": "That's an interesting idea! If the soundproofing effect of the piano room is taken to the extreme, I think it could make it easier for us to organize music gatherings or invite friends over. This could potentially become a new opportunity to enhance team interaction.",
+            "scores": {
+                "wmd": 1.3210088839857703,
+                "sentence_similarity": -0.03730561584234238,
+                "normalized_length_similarity": 0.00749063670411985,
+                "bleu": 0.0,
+                "ttr": 0.47368421052631576,
+                "history_similarity": -0.029247485101222992
+            }
+        }
+    ]
+}

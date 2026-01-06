@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:43",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just scored 100 million out of nowhere—no limits, no worries! What's the wildest, most awesome thing you'd do first? Don’t hold back, I wanna hear those bold dreams!\nA. Year! It's an unrealistic situation! If I were, I want to buy a sport car. I like cars very much.\n\nQ. Very cool choice with the sports car! Now, let's analyze this realistically: if you had that full 100 million, how would you divide it between something like investing for the future, enjoying some immediate spending, and maybe putting some aside as savings? What proportions make the most sense to you?\nA. I will use the half of the money for investing, and the rest will be saved for helping.\n\nQ. Let's analyze this. You plan to invest 50 million and save the remaining 50 million for helping others. That indicates no immediate personal consumption. Logically speaking, it's a solid approach if your priority is future growth and social support. However, have you considered allocating a portion for your own living expenses or short-term enjoyment? A balanced ratio often includes some spending to maintain quality of life. Let’s revisit this: how would you adjust your plan if you factored in consumption alongside investment and savings?\nA. Hmm, then I will use 10% of money for enjoying. Primally, I thought using money for enjoying means investing for myself.\n\nQ. Wow, your plan is already shining with so much brilliance! I’m curious—what’s really fueling this dream of yours? Is it a clear goal you’re aiming for, like a masterpiece waiting to be carved, or is it more about the emotions and values that light up your heart? Art is all about that spark inside!\nA. Our life is too long, so I do not want to be suppressed. This is my primal motivation.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about fairness and keeping things smooth here, how about we set up a super simple and flexible system where anyone can request or swap fridge space when needed? That way, we all get what we need without any fridge drama! What do you think—ready to make our kitchen even more awesome together?",
+            "response": "As I said on the 2nd day, separating equally is one of the easiest solutions. And I think other methods will be more effective after this rule is tried and we understand how we consume the space in fridge.",
+            "prediction": "Year! That sounds great! I think it's a good idea. We can use a shared calendar or a sticky note on the fridge to mark who is using which space.",
+            "scores": {
+                "wmd": 0.2017132153487053,
+                "sentence_similarity": 0.45332154631614685,
+                "normalized_length_similarity": 0.7024390243902439,
+                "bleu": 0.01592782626794901,
+                "ttr": 0.8857142857142857,
+                "history_similarity": 0.4763132929801941
+            }
+        },
+        {
+            "message": "Oh... speaking of balancing practicality and style, I find myself pondering the design of our dream room. If we must choose between ease of maintenance and bold design elements, how might we prioritize? I’m not being picky, but I do wonder if the function should gently take precedence over aesthetics, especially if we aim for lasting harmony in our shared space. Would you agree that some struggles in upkeep are acceptable if the design truly inspires, or should we lean towards simplicity to ensure tranquility?",
+            "response": "I think the design of the room will not be prioritized the usefulness of the room. Our room is not the thing we discard once we used, so we must think whether we can use the room freely in the long run.",
+            "prediction": "I think it's better to prioritize bold design elements if they truly inspire, because a space that inspires can uplift everyone living in it. However, we should also find a balance where the design isn't too complicated to maintain. Maybe choose materials that are easy to clean but still look stylish. That way, we can have a beautiful and inspiring space without too much hassle.",
+            "scores": {
+                "wmd": 0.2215053015631749,
+                "sentence_similarity": 0.458299845457077,
+                "normalized_length_similarity": 0.5301837270341208,
+                "bleu": 0.010685362716233774,
+                "ttr": 0.7837837837837838,
+                "history_similarity": 0.2745605409145355
+            }
+        },
+        {
+            "message": "Wow, your thoughtful balance between function and beauty truly sparks my creative soul! Now, thinking about your idea of collaborating quietly at night to keep the day peaceful—how might we paint the perfect picture of respecting everyone’s rest and work while still giving free rein to our nighttime creativity? What masterpiece of balance do you envision that honors both freedom and consideration in our shared masterpiece of life?",
+            "response": "Creativity will not be reasonable excuse to bother other members' rest. You had better not misunderstand this.",
+            "prediction": "I think we can set some quiet hours in the night, like from 11 PM to 7 AM, to ensure everyone can rest well. During the day, we can have our own space to work or relax. But at night, we can create a shared space where we can express ourselves freely, like a small studio or a common room with soft lighting. This way, we can respect each other’s needs while still enjoying our creativity.",
+            "scores": {
+                "wmd": 0.20640026720978974,
+                "sentence_similarity": 0.21324387192726135,
+                "normalized_length_similarity": 0.28350515463917525,
+                "bleu": 0.0030744163116029,
+                "ttr": 0.6931818181818182,
+                "history_similarity": 0.5432880520820618
+            }
+        },
+        {
+            "message": "Your emphasis on avoiding suppression and maintaining fairness is clear. Logically speaking, when it comes to shared living and group activities, what core values or feelings guide your decisions and actions to ensure both your needs and others' are respected?",
+            "response": "Other members are not your family member, of course not your subordinate. As a first step, we must discard our selfish thinking/",
+            "prediction": "I believe in fairness and mutual respect. I want to make sure that everyone in the share house feels heard and valued. If there are decisions to be made, I think it's important to communicate openly and find solutions that work for everyone. I don't want anyone to feel suppressed or ignored, so I would try to be understanding and cooperative.",
+            "scores": {
+                "wmd": 0.2111457410516902,
+                "sentence_similarity": 0.44041991233825684,
+                "normalized_length_similarity": 0.37209302325581395,
+                "bleu": 0.003726239904517125,
+                "ttr": 0.7101449275362319,
+                "history_similarity": 0.5060219764709473
+            }
+        }
+    ]
+}

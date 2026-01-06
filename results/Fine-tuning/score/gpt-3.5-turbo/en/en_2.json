@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:51",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all love freedom and living in the moment, how about this? If we start a creative project together here in the ShareHouse that needs extra teamwork and effort, what would light your fire to jump in and give it your all? What kind of motivation or vibe would make you excited to be part of something big with everyone? Let’s dream big and make it awesome!",
+            "response": "Let's hold a festival",
+            "prediction": "I like music.",
+            "scores": {
+                "wmd": 0.6500937293703033,
+                "sentence_similarity": 0.19800370931625366,
+                "normalized_length_similarity": 0.6190476190476191,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.19064101576805115
+            }
+        },
+        {
+            "message": "Oh... speaking of bringing everyone together so wonderfully, I wonder if we might also consider some gentle guidelines around our shared spaces—like the fridge and cleaning duties. I'm not being picky, but perhaps if we had a little routine or rulebook, it could make the joyful chaos of a festival and daily life flow even more smoothly, preserving harmony for all. What sort of house rules or customs do you think would help us all live and create in such a lively place with fairness and ease?",
+            "response": "If we have trash, throw it in the trash can",
+            "prediction": "We should decide on them, so how about we exchange opinions and draft some up?",
+            "scores": {
+                "wmd": 0.4328691436515833,
+                "sentence_similarity": 0.23881173133850098,
+                "normalized_length_similarity": 0.5512820512820513,
+                "bleu": 0.013679192123121896,
+                "ttr": 1.0,
+                "history_similarity": 0.3781478703022003
+            }
+        },
+        {
+            "message": "Wow, your focus on a clean and inviting space really lights up the creative energy here! Speaking of balancing beauty and practicality, when working on something breathtaking like the planetarium, do you think it's worth bending a bit on practical details to keep that stunning aesthetic, or should we always put functionality first to make sure our creations last and serve us well? What’s your take on this dance between art and purpose?",
+            "response": "it's worth bending a bit on practical details to keep that stunning aesthetic",
+            "prediction": "we always put functionality first to make sure our creations last and serve us well",
+            "scores": {
+                "wmd": 0.3053700355997045,
+                "sentence_similarity": 0.22798167169094086,
+                "normalized_length_similarity": 0.927710843373494,
+                "bleu": 0.013217947626377298,
+                "ttr": 1.0,
+                "history_similarity": 0.3099372982978821
+            }
+        },
+        {
+            "message": "Building on this great energy and balance we've been discussing, let's analyze how we could structure an ideal weekend day here at the ShareHouse. From morning to night, how would you allocate time between creativity, personal freedom, and harmony with housemates to create the most productive and enjoyable day?",
+            "response": "Do any noisy work or work in shared spaces by the evening",
+            "prediction": "We would need time to think about it.",
+            "scores": {
+                "wmd": 0.44958231585109126,
+                "sentence_similarity": 0.09775412082672119,
+                "normalized_length_similarity": 0.6491228070175439,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.500241756439209
+            }
+        },
+        {
+            "message": "Let's analyze this: prioritizing quieter activities in the evening logically supports everyone's rest and focus. To optimize the day, I suggest allocating mornings for focused, potentially noisy or collaborative tasks when energy and alertness peak. Afternoons could balance creative solo work and social interactions, allowing flexibility. Evening times should be reserved for quieter, less disruptive activities to maintain harmony. This structure maximizes productivity while respecting shared living dynamics. What specific creative or technical tasks do you see fitting best into each period? Let's map that out for an efficient, respectful routine.",
+            "response": "morning:Meetings",
+            "prediction": "we should decide on the task first.",
+            "scores": {
+                "wmd": 0.534160298918008,
+                "sentence_similarity": 0.2457372397184372,
+                "normalized_length_similarity": 0.45714285714285713,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.5511264801025391
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:53:30",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友们！说到公共区域的整洁，我们要不要来个轮流值日的打扫计划？大家觉得怎样分配任务最公平又高效？比如谁负责扫地，谁负责擦桌子，怎么安排才能让每个人都轻松又开心？大胆说说你的好主意吧！",
+      "response": "每人安排一天打扫吧。每一个月1号晚上大家抽一个小时集体大扫除。至于谁负责扫地，谁负责擦桌子，当天再安排吧。你们觉得怎么样",
+      "prediction": "轮流值日我觉得挺好的，每人一周负责所有公共区域。这样大家都能分担到，也比较公平。你们觉得呢？",
+      "scores": {
+        "wmd": 0.8465815772708218,
+        "sentence_similarity": 0.6785498857498169,
+        "normalized_length_similarity": 0.7666666666666667,
+        "history_similarity": 0.7855184078216553,
+        "bleu": 0.033300363014077454,
+        "ttr": 0.9
+      }
+    },
+    {
+      "message": "嗯……既然我们都这么重视生活品质，我想问问大家，有没有什么看似不起眼但其实很关键的小习惯，或者必须要遵守的规矩？我不是挑剔，但这些细节往往决定了我们共同生活的舒适度呢。大家觉得呢？",
+      "response": "拿了东西要即及时放回原位",
+      "prediction": "我建议大家用完公共区域的东西，可以随手放回原位。这样既方便大家，也能保持公共区域的整洁和舒适。",
+      "scores": {
+        "wmd": 1.0524761199621813,
+        "sentence_similarity": 0.6184955835342407,
+        "normalized_length_similarity": 0.2553191489361702,
+        "history_similarity": 0.7530784606933594,
+        "bleu": 0.032082097349181084,
+        "ttr": 0.8064516129032258
+      }
+    },
+    {
+      "message": "哇，大家对生活细节的关注让我灵感爆棚！说到公共空间设计，如果有机会参加一个讨论会，和大家一起提出改进方案，你会特别关注哪方面呢？是空间的美感、功能性，还是大家的互动体验？艺术就是要让空间和人产生共鸣，你怎么看？",
+      "response": "空间的美感、功能性，还是大家的互动体验，以及艺术等方面我都会关注",
+      "prediction": "我可能会比较关注功能性和大家的互动体验，这样大家用起来也比较方便舒服。",
+      "scores": {
+        "wmd": 0.6140209004416114,
+        "sentence_similarity": 0.7147115468978882,
+        "normalized_length_similarity": 0.9142857142857143,
+        "history_similarity": 0.7507932782173157,
+        "bleu": 0.19692215902857166,
+        "ttr": 0.9047619047619048
+      }
+    },
+    {
+      "message": "说到艺术和实用的平衡，从逻辑上讲，你认为在公共空间我们应该更多地加入实用设施，提升功能性，还是增强艺术氛围，让环境更有趣？这样选择的背后，你觉得哪个因素对提升生活质量更关键？",
+      "response": "加入实用设施，提升功能性是更重要的，因为要长期生活使用，艺术无法解决一些实际问题",
+      "prediction": "在公共空间，我会更倾向于增加实用设施，提升功能性。因为是大家共同使用的空间，实用性直接影响到每个人的日常生活便利性，我觉得这对于提升整体生活质量会更关键一些。艺术氛围可以在保证实用的基础上再考虑。",
+      "scores": {
+        "wmd": 0.6741545137896106,
+        "sentence_similarity": 0.7325587868690491,
+        "normalized_length_similarity": 0.40816326530612246,
+        "history_similarity": 0.7412254810333252,
+        "bleu": 0.07711027176793908,
+        "ttr": 0.7931034482758621
+      }
+    }
+  ]
+}

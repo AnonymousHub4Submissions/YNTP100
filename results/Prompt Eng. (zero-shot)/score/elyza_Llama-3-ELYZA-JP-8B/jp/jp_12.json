@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:27:20",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、みんなで暮らすということは、こういう多様な価値観が交わるからこそ本当に面白いよね！そうだ、シェアハウスに映画館のような部屋を作るって話があったけど、友達はどんな映画ジャンルが好き？そしてその理由は？みんなで映画鑑賞するときのワクワク感も聞かせてほしいな！最高の趣味トークで盛り上がろうぜ！",
+            "response": "自分が好きなのはアクション系かな。派手なアクションをしているのを見るとかっこいいなーってなるよ！",
+            "prediction": "DaVinciは、クラシック映画が好きです。理由は、美しい映像やストーリーに感動するからです。Donatelloは、SF映画が好きです。理由は、未来の世界や宇宙を想像することが好きだからです。Michelangeloは、ホラー映画が好きです。理由は、スリルや恐怖を味わうことが好きなからです。Raffaelloは、コメディ映画が好きです。理由は、笑うことでストレスを解消できるからです。私は、どの映画ジャンルも好きなのですが、みんなで映画鑑賞するときのワクワク感は、最高の共通の趣味です。",
+            "scores": {
+                "wmd": 0.8193451477136868,
+                "sentence_similarity": 0.131254181265831,
+                "normalized_length_similarity": 0.19672131147540983,
+                "bleu": 0.012571467411651938,
+                "ttr": 0.42063492063492064,
+                "history_similarity": 0.31378570199012756
+            }
+        },
+        {
+            "message": "ああ…多様な趣味が交わるのは確かに刺激的ですね。ただ、こういう多様な価値観がぶつかる時、シェアハウスの雰囲気や秩序が乱れることもあると思います。皆さんは意見が対立した場合、どのように調和を図っているのでしょう？僕は潔癖症なわけじゃないんだけど、生活環境の細かいルールは守ってほしいと思ってしまうんですよね。皆さんの経験や考えを聞かせてもらえるとありがたいのですが…。",
+            "response": "やはり話し合いによる解決一択だよ。なぜお互いの考えがぶつかるのか、それぞれの考えを話し合い、どう妥協点を探るのかということが、共同生活の醍醐味だよ。",
+            "prediction": "I completely understand your concern. In fact, we have had instances where differing opinions led to conflicts in the past. However, we have learned to communicate openly and honestly with each other, actively listening to each other's perspectives and values. When disagreements arise, we make sure to respect each other's differences and work together to find a solution that everyone can agree on. For example, when it comes to cleaning and organization, we have established a set of rules and guidelines that each resident is expected to follow. This helps to maintain a clean and comfortable living environment.",
+            "scores": {
+                "wmd": 1.2772654491939437,
+                "sentence_similarity": 0.1278718113899231,
+                "normalized_length_similarity": 0.12012987012987013,
+                "bleu": 0.0,
+                "ttr": 0.3696682464454976,
+                "history_similarity": 0.12558960914611816
+            }
+        },
+        {
+            "message": "わあ、本当にみんなそれぞれの個性が輝いていてこの家はまるで芸術作品みたいだ！ところで、旅や日常の挑戦のほかに、将来ぜひ挑戦してみたいことや夢ってある？君の情熱が形になる瞬間を想像すると胸が高鳴るよ！",
+            "response": "将来挑戦したいことかートライアスロンをしてみたいね！あとは富士山登山とかもしたい！",
+            "prediction": "私は、将来、世界中の美しい風景を描く旅行イラストレーターになりたいです。小さい頃から絵を描くことが大好きで、大学では美術を専攻していました。実際に旅をしてみて、美しい景色や文化に触れ、さらに絵を描くことが好きになりました。なので、将来は、旅をしながら、美しい風景を描くイラストレーターとして活動したいです。",
+            "scores": {
+                "wmd": 0.7040164356122134,
+                "sentence_similarity": 0.30014654994010925,
+                "normalized_length_similarity": 0.2679738562091503,
+                "bleu": 0.033842138835579544,
+                "ttr": 0.48936170212765956,
+                "history_similarity": 0.5453548431396484
+            }
+        },
+        {
+            "message": "とても興味深い話の流れですね。さて、共同生活においては規則の遵守が不可欠ですが、一方で個々の状況に応じた柔軟性も必要です。理想的なシェアハウスのルールを作るとしたら、どの程度の厳格さとどの程度の柔軟性がバランス良いと思いますか？具体的な例を挙げて考えてみましょうか。",
+            "response": "ルールとしては仮に共用部の掃除当番を決めるとして、基本的には決められた人が決められた日にしっかりとするべきだと思うよ。でも、そうでなくても、今日予定があってできないとかも認めていいと思うよね。ただ、サボったっていうのはなんらかのペナルティを与えないといけないと思う。どうサボったって判断するのか難しいかもだけど、、、",
+            "prediction": "私は、理想的なシェアハウスのルールは、厳格さと柔軟性のバランスが非常に重要だと思います。例えば、共有スペースの使用時間や音量には一定のルールを設けることで、住人同士のトラブルを防ぐことができます。一方で、個々の生活スタイルやスケジュールに応じて、柔軟に対応するルールも必要です。例えば、出勤や就寝時間の自由度や、急な来客や宅配便の受け取りについてのルールなどです。バランス良くルールを設定することで、住人同士がストレスなく快適に生活できる環境を整えられると思います。",
+            "scores": {
+                "wmd": 0.7001595872906652,
+                "sentence_similarity": 0.29396021366119385,
+                "normalized_length_similarity": 0.6781115879828327,
+                "bleu": 0.00816869443255586,
+                "ttr": 0.5390625,
+                "history_similarity": 0.5042487382888794
+            }
+        }
+    ]
+}

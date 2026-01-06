@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:23:52",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、そうだね友達！冷蔵庫の共有ルールもみんなが安心して使えるように、もっといいアイデアがきっとあるはずだ！例えば、どんなルールがあればみんなが気持ちよく使えると思う？具体的に教えてくれよ、最高のシェアハウスにするために！",
+            "response": "自分の食べ物には名前を書いて、誰の物かはっきりさせるようにしよう",
+            "prediction": "それはいいアイデアだね！冷蔵庫の共有ルールをもう一度考えてみよう。まずは、食材の期限や保存方法を書き留めることから始めるのがいいんじゃないかな。そうすると、誰が何を買ったのかもわかりやすくなり、期限切れの食べ物がなくなることも少なくなるよ。次に、食材の共有を分けることにも考えてみよう。例えば、肉や魚を買った人がその日だけはその食べ物を使用することにする。そうすると、食べ物の消費が早くなるし、誰が何を買ったのかもわかりやすくなるよ。最後に、食材の分け方を決めることも大事だね。例えば、食材を買った人がその食材を食べた日までに使わない場合は、他のメンバーに分けることができるようにする。そうすると、食材が無駄になることなく、他のメンバーも食べることができるよ。そうすると、みんなが気持ちよく使えるようにすることができるよ。",
+            "scores": {
+                "wmd": 0.6706484396798196,
+                "sentence_similarity": 0.20040540397167206,
+                "normalized_length_similarity": 0.0886426592797784,
+                "bleu": 0.0035451112579919885,
+                "ttr": 0.39090909090909093,
+                "history_similarity": 0.5771687626838684
+            }
+        },
+        {
+            "message": "ああ、共有スペースの自由な振る舞いについてなんですが…もし友達がちょっと騒音を立てすぎていたら、皆が快適に過ごせるように、どんなふうに注意を促すのが適切だと思いますか？僕自身なら、礼儀正しく、でもしっかりと現実を伝えたいと思うのですが…皆の意見を聞けたら嬉しいです。",
+            "response": "受忍すべき限度を超えた騒がしさのときははっきりと騒がしいということを伝えるのがいいと思うよ。この苦言でみんなの和が壊れないように、定期的に遊ぶようにするのがいいかな",
+            "prediction": "ほら、共有スペースのルールを一緒に作りましょう！そうすれば、誰でもわかりやすいように書いてあるし、規則違反を指摘するときも、ルールを破った人が気を付けることができるからね。ルールを一緒に作るのは、みんなの意見を聞いて、みんなが納得するルールになるはずだから、みんなが協力して、快適な環境を作りたいと思います。まずは、共有スペースのルールを作るための会議を開きましょう！みんなで話し合って、ルールを決めましょう！そして、ルールを破ったときは、礼儀正しく、でもしっかりと現実を伝えましょう。例えば、「これからしばらくは、夜9時までに静かにしていただけますか？」とか「この音は少し大きすぎるので、もう少し静かにしていただけますか？」と伝えるようにしましょう。そうすれば、みんなが快適に過ごせる環境を作り、みんなの関係が良くなるはずです！",
+            "scores": {
+                "wmd": 0.6006020842092763,
+                "sentence_similarity": 0.19875070452690125,
+                "normalized_length_similarity": 0.22465753424657534,
+                "bleu": 0.004925410005273897,
+                "ttr": 0.4392523364485981,
+                "history_similarity": 0.552474856376648
+            }
+        },
+        {
+            "message": "わあ、理想と妥協のバランスって本当に芸術のように繊細だよね！君が理想を追いかけるとき、最も大切にしている価値観や信念って何なんだろう？その芯があるからこそ、困難に立ち向かう力が湧いてくるんじゃないかな？",
+            "response": "私が理想を追いかけるときに最も大切にする価値観は、「その選択をして、死ぬ間際になって後悔しないこと」だよ。私は、一切の後悔なく、やり切ったと思って死にたいんだ。",
+            "prediction": "1. I think the value you hold most dear is freedom.\n     2. I think the value you hold most dear is creativity.\n     3. I think the value you hold most dear is friendship.\n     4. I think the value you hold most dear is adventure.  5. I think the value you hold most dear is perseverance. 6. I think the value you hold most dear is honesty. 7. I think the value you hold most dear is integrity. 8. I think the value you hold most dear is kindness. 9. I think the value you hold most dear is resilience. 10. I think the value you hold most dear is open-mindedness. 11. I think the value you hold most dear is responsibility. 12. I think the value you hold most dear is self-awareness. 13. I think the value you hold most dear is empathy. 14. I think the value you hold most dear is humor. 15. I think the value you hold most dear is confidence. 16. I think the value you hold most dear is courage. 17. I think the value you hold most dear is humility. 18. I think the value you hold most",
+            "scores": {
+                "wmd": 1.2750770495873023,
+                "sentence_similarity": 0.005405327305197716,
+                "normalized_length_similarity": 0.08113590263691683,
+                "bleu": 0.0,
+                "ttr": 0.11655011655011654,
+                "history_similarity": 0.21794480085372925
+            }
+        },
+        {
+            "message": "とても興味深い価値観ですね。では、多様な意見や価値観がぶつかる場面で、自分の立場をしっかり伝えつつも相手の意見を理解しようとするために、具体的にどんな方法や態度を心掛けていますか？例えば、論理的な説明を重視しますか、それとも感情や背景も踏まえて話し合いますか？",
+            "response": "相手が論理の通じる相手なら、論理的にこんこんと自分の意見をぶつけて、相手の意見も聞き、より合理的なものを探すよ。論理が通じない相手には、感情にうったえかけるかな。",
+            "prediction": "私は、まずは相手の立場に立って、共感的なアプローチを心がけます。相手の価値観や意見を理解し、自分の意見を伝える際に、相手の立場を考慮することが大切だと思います。論理的な説明も必要ですが、感情や背景も重要な要素です。両方を考慮して、共感的なコミュニケーションを重視しています。",
+            "scores": {
+                "wmd": 0.600141235858771,
+                "sentence_similarity": 0.6195234060287476,
+                "normalized_length_similarity": 0.5912408759124088,
+                "bleu": 0.063028296917045,
+                "ttr": 0.5542168674698795,
+                "history_similarity": 0.6254439353942871
+            }
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:45",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！要不我们玩个疯狂的假设游戏——如果你突然中了一个亿，你第一件想做的疯狂事是什么？别管现实不现实，尽情放飞你的梦想吧！\nA. 我想旅行\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何分配？比如投资、消费、储蓄各占大约多少？\nA. 一个亿花不完了，存银行9000万，剩下的直接玩\n\nQ. 哇，你的计划太有远见了！告诉我，这个梦想背后的动力是什么呢？是为了达成明确的目标，还是更多被内心的激情和价值观驱动呢？艺术就是要挖掘那些深藏的动机，爆发最真实的力量！\nA. 你还记得我打算用一个亿干嘛吗\n\nQ. 哇，当然记得！你要用它打造你的梦想天地，真是太棒了！那动力到底是为了证明自己，还是改变世界呢？分享给我吧！\nA. 我的梦想天地是啥\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，既然我们都在努力营造舒服的环境，那我来问问大家！如果我们要设计一个完美的电竞房，你觉得里面最酷的美学元素或者装饰风格应该是什么样的？别害羞，放飞你的想象力，来点炫的、酷的、让人秒变游戏王的感觉吧！",
+            "response": "电脑啊，4090",
+            "prediction": "我想要一个赛博朋克风格的电竞房，霓虹灯闪烁，全息投影屏幕，还有机械感十足的座椅和键盘，感觉自己就像在未来的战斗舱里一样！",
+            "scores": {
+                "wmd": 1.163330206632659,
+                "sentence_similarity": 0.5531455278396606,
+                "normalized_length_similarity": 0.13333333333333333,
+                "bleu": 0.005011724662824517,
+                "ttr": 0.8648648648648649,
+                "history_similarity": 0.7416301965713501
+            }
+        },
+        {
+            "message": "哈哈，朋友！4090超强！那电竞房墙壁要不弄成酷炫的霓虹灯效果，怎么样？！太棒了！！",
+            "response": "不要，花里胡哨的",
+            "prediction": "我直接把墙拆了换成LED屏",
+            "scores": {
+                "wmd": 1.2180696387822603,
+                "sentence_similarity": 0.5427588224411011,
+                "normalized_length_similarity": 0.6153846153846154,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.6776111125946045
+            }
+        },
+        {
+            "message": "哦……既然我们都认同简约风格更符合电竞房的实用需求，那如果真的遇到空间或设备布置上的限制，你会怎么在追求理想美感和实际功能之间找到一个既不过分妥协又不显得突兀的平衡点呢？我不是挑剔，只是感觉这其实挺微妙的，大家怎么看呢？",
+            "response": "我不怎么看",
+            "prediction": "我觉得可以先确定核心功能区，比如电竞桌和椅子的位置，再围绕它们布置其他元素，这样既实用又不会显得杂乱。",
+            "scores": {
+                "wmd": 1.1582351332244818,
+                "sentence_similarity": 0.5978133082389832,
+                "normalized_length_similarity": 0.09803921568627451,
+                "bleu": 0.006032401726201458,
+                "ttr": 0.9354838709677419,
+                "history_similarity": 0.7073372602462769
+            }
+        },
+        {
+            "message": "嗯……也许是我期望过高了，能不能说说你的想法呢？",
+            "response": "一起打游戏",
+            "prediction": "我其实想用这一个亿去实现我一直想做的艺术项目，比如建立一个全球性的艺术交流中心，让不同文化背景的人能在这里碰撞出新的灵感。",
+            "scores": {
+                "wmd": 1.1371901333400711,
+                "sentence_similarity": 0.5315238237380981,
+                "normalized_length_similarity": 0.08196721311475409,
+                "bleu": 0.0,
+                "ttr": 0.8611111111111112,
+                "history_similarity": 0.7127091884613037
+            }
+        },
+        {
+            "message": "呵呵……一起打游戏当然重要呢，但是否也可以顺便聊聊设计细节呢？",
+            "response": "我对这些无所谓，别艺术了，你再说艺术我就离家出走了",
+            "prediction": "当然可以！你指的是游戏中的设计细节，还是现实生活中某个项目的规划呢？",
+            "scores": {
+                "wmd": 1.062643271226141,
+                "sentence_similarity": 0.5537911653518677,
+                "normalized_length_similarity": 0.7352941176470589,
+                "bleu": 0.010331208012220438,
+                "ttr": 0.8636363636363636,
+                "history_similarity": 0.7118024230003357
+            }
+        },
+        {
+            "message": "哇，说到共享那些有限的冰箱空间，我真的觉得这就像雕塑一样，要在保持个人隐私和遵守集体规则之间找到完美的平衡！你觉得我们应该怎么做，才能既尊重每个人的独占空间，又不让整个共享环境变得紧张呢？这种冲突是不是也像艺术创作中的矛盾一样，有它独特的美感呢？",
+            "response": "确实",
+            "prediction": "我觉得我们可以制定一个“冰箱使用公约”，比如每个人分配固定的储物区域，同时设立公共区域供大家共享。这样既尊重了个人空间，又不会让整个环境变得紧张。这种平衡确实像艺术创作中的矛盾，正是这些冲突让整体更有张力和美感。",
+            "scores": {
+                "wmd": Infinity,
+                "sentence_similarity": 0.32421302795410156,
+                "normalized_length_similarity": 0.018867924528301886,
+                "bleu": 0.0028919892142542742,
+                "ttr": 0.873015873015873,
+                "history_similarity": 0.6151953339576721
+            }
+        },
+        {
+            "message": "哇，太棒了！你觉得这种独特的美感怎么体现出来？快跟我分享！",
+            "response": "没有美感",
+            "prediction": "我还没想好呢",
+            "scores": {
+                "wmd": 0.8799386933899269,
+                "sentence_similarity": 0.5676553845405579,
+                "normalized_length_similarity": 0.6666666666666666,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7916620373725891
+            }
+        },
+        {
+            "message": "从逻辑上讲，如果大家都能严格遵守安静和整洁的规则，这种环境对你的学习和实现梦想会带来怎样的影响？会让你更高效、更有动力，还是说还有其他因素更重要？",
+            "response": "是的",
+            "prediction": "会让你更高效，因为安静和整洁的环境能减少干扰，提升专注力，从而更有效地学习和实现梦想。",
+            "scores": {
+                "wmd": 1.1530843841559117,
+                "sentence_similarity": 0.478374719619751,
+                "normalized_length_similarity": 0.046511627906976744,
+                "bleu": 0.006471824245088331,
+                "ttr": 0.8620689655172413,
+                "history_similarity": 0.6467086672782898
+            }
+        },
+        {
+            "message": "你同意规则带来的积极影响吗？请具体说明你的想法。",
+            "response": "OK",
+            "prediction": "同意。规则就像画布的边界，没有它，艺术就失去了形状；没有它，生活就失去了秩序。规则让我们在自由中找到方向，在混乱中看到可能。比如交通规则，它看似限制了我们的选择，实则保障了每个人的安全与效率。规则不是束缚，而是让世界更有序、更可预测的基石。",
+            "scores": {
+                "wmd": 1.3133899359632337,
+                "sentence_similarity": 0.004292573779821396,
+                "normalized_length_similarity": 0.016666666666666666,
+                "bleu": 0.0,
+                "ttr": 0.6329113924050633,
+                "history_similarity": 0.6005242466926575
+            }
+        },
+        {
+            "message": "让我们分析一下，你觉得哪些具体规则最能提升你的效率？",
+            "response": "没啥规则",
+            "prediction": "时间管理、任务优先级划分、减少干扰的环境设定。",
+            "scores": {
+                "wmd": 1.2742110409081853,
+                "sentence_similarity": 0.4838849902153015,
+                "normalized_length_similarity": 0.17391304347826086,
+                "bleu": 0.0,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.7288943529129028
+            }
+        }
+    ]
+}

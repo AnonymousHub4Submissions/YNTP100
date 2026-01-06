@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:27:56",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!",
+            "response": "I want to travel Africa! There are so many wild animals and I want to observe  their natural behaviors in the nature, not a zoo!",
+            "prediction": "I would choose to visit New Zealand! This beautiful country offers an incredible balance between saving wisely and enjoying life to the fullest. With its stunning natural landscapes, diverse wildlife, and rich culture, you can experience the best of both worlds. From hiking and camping in the beautiful fjords to exploring the vibrant cities like Auckland and Wellington, New Zealand offers countless opportunities for adventure and relaxation. Plus, it's relatively affordable compared to other popular travel destinations, making it an excellent choice for those who want to save wisely while still enjoy life to the fullest.",
+            "scores": {
+                "wmd": 0.23352771248076742,
+                "sentence_similarity": 0.3578927516937256,
+                "normalized_length_similarity": 0.20382165605095542,
+                "bleu": 0.006431022008257552,
+                "ttr": 0.7129629629629629,
+                "history_similarity": 0.18146444857120514
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse a harmonious place to live, I suggested labeling items in the fridge to avoid confusion. I'm not being picky, but perhaps we could consider setting up a communal checklist for shared expenses or chores as well? It might help maintain the balance and fairness we all appreciate here. What do you think... would that be agreeable to everyone?",
+            "response": "Oh that's a great idea! It'll be more organized and avoid some possible mistakes!",
+            "prediction": "Please complete the task by writing a response.",
+            "scores": {
+                "wmd": 0.284218448768808,
+                "sentence_similarity": 0.11295592784881592,
+                "normalized_length_similarity": 0.5802469135802469,
+                "bleu": 0.008821858171866304,
+                "ttr": 1.0,
+                "history_similarity": 0.12797261774539948
+            }
+        },
+        {
+            "message": "Wow, I love how you’re thinking about both style and function in making a perfect dream room! If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, which would your heart pick—and why? Art and practicality often dance together, so I’m curious what rhythm speaks strongest to you!",
+            "response": "I'll go with high-end, durable audio equipments..Of course it'll be great if they're not ugly, but the most important element of audio equipment is sound itself. So If I should choose only one side, then it'll be \"function\".",
+            "prediction": "Hi everyone! I'm excited to join this share house and be a part of this creative community! I must say, I'm really impressed by DaVinci’s ability to balance style and function in designing the dream room. If I had to choose between the two options, I think my heart would pick stylish, eye-catching furniture. I believe that beautiful design can evoke emotions and create a sense of well-being, which is important for a relaxing space. Plus, stylish furniture can also be a great conversation starter!",
+            "scores": {
+                "wmd": 0.17269636453635911,
+                "sentence_similarity": 0.25465714931488037,
+                "normalized_length_similarity": 0.4471057884231537,
+                "bleu": 0.006519345224301999,
+                "ttr": 0.72,
+                "history_similarity": 0.4705727994441986
+            }
+        },
+        {
+            "message": "Since you value calm and respect in our shared living space and suggested using a whiteboard for coordinating schedules, how comfortable would you be taking the initiative to call a house meeting where we can discuss and agree on common rules for noise levels and cleaning duties? It seems like a logical step to ensure everyone’s expectations align and to keep our environment comfortable for all.",
+            "response": "Yeah I'll do the job! Let's have a meeting in the living room every Sunday night and discuss the ruled and duties together!",
+            "prediction": "I would be very comfortable taking the initiative to call a house meeting. In fact, I believe it's a crucial step in creating a harmonious living environment. By discussing and agreeing on common rules for noise levels and cleaning duties, we can ensure that everyone's expectations are aligned and respect each other's space. A house meeting can also provide an opportunity for residents to share their thoughts, feelings, and concerns, which can foster a sense of community and cooperation. As DaVinci, Donatello, Michelangelo, and Raffaello are all artistic personalities, I believe their unique perspectives and ideas can also be valuable additions to the discussion.",
+            "scores": {
+                "wmd": 0.23383476864884284,
+                "sentence_similarity": 0.37065011262893677,
+                "normalized_length_similarity": 0.18330849478390462,
+                "bleu": 0.0027101871077196337,
+                "ttr": 0.6776859504132231,
+                "history_similarity": 0.36738142371177673
+            }
+        }
+    ]
+}

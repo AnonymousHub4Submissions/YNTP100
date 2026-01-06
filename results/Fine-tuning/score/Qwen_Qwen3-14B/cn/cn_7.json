@@ -1,0 +1,115 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:57",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友说到实用性和整洁，真是太棒了！那你设想一下，如果我们要建个篮球场，怎么布局和配置才能既方便大家日常使用，又能好好维护？有什么超级实用又酷炫的点子吗？来大胆说说！",
+            "response": "整洁",
+            "prediction": "篮球架 停车场",
+            "scores": {
+                "wmd": 1.327848438124461,
+                "sentence_similarity": 0.7568340301513672,
+                "normalized_length_similarity": 0.2857142857142857,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.6726561784744263
+            }
+        },
+        {
+            "message": "哈哈，朋友，整洁就是保持场地清爽！定期清扫和归置太重要啦！说说你的超棒点子吧！",
+            "response": "每次使用完都清扫",
+            "prediction": "维持公共区域的整洁确实需要大家的共同努力！你的建议太有激励性了！篮球场和休息区都保持得井井有条！",
+            "scores": {
+                "wmd": 1.1796369024454916,
+                "sentence_similarity": 0.5832691192626953,
+                "normalized_length_similarity": 0.16666666666666666,
+                "bleu": 0.0,
+                "ttr": 0.8461538461538461,
+                "history_similarity": 0.6243000626564026
+            }
+        },
+        {
+            "message": "嗯……既然要做到既实用又完美，您觉得我们应该投入多少时间和精力，与大家细致协调和不断改进这个篮球场设计呢？我不是挑剔，但精益求精总需要更多耐心和沟通，您觉得这样……合理吗？",
+            "response": "合理",
+            "prediction": "合理",
+            "scores": {
+                "wmd": 0.0,
+                "sentence_similarity": 1.000000238418579,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.1778279410038923,
+                "ttr": 1.0,
+                "history_similarity": 0.8250067234039307
+            }
+        },
+        {
+            "message": "哇，说到实用和艺术美学的权衡，这真是个燃爆的问题！你觉得在“梦想房间”设计里，我们是应该更注重功能的实用性，确保每一处都方便使用，还是该追求那让人眼前一亮、心灵为之一颤的艺术美感？为什么呢？这背后的理念一定超赞，快跟我分享一下吧！",
+            "response": "眼前一亮",
+            "prediction": "实用性",
+            "scores": {
+                "wmd": 1.2925167457380442,
+                "sentence_similarity": 0.5327144861221313,
+                "normalized_length_similarity": 0.75,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7596152424812317
+            }
+        },
+        {
+            "message": "哇，眼前一亮就是艺术的魔力！你觉得哪种元素最能激发这感觉？",
+            "response": "色彩",
+            "prediction": "色彩",
+            "scores": {
+                "wmd": 0.0,
+                "sentence_similarity": 1.0000001192092896,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.1778279410038923,
+                "ttr": 1.0,
+                "history_similarity": 0.7838401198387146
+            }
+        },
+        {
+            "message": "既然色彩能激发眼前一亮的感觉，那在公共区域保持整洁时，我们该怎样制定具体规则，既能保护创作灵感，又能避免‘创作垃圾’泛滥？从逻辑上讲，你觉得哪些措施最有效？你愿意以怎样的方式配合执行这些规则？",
+            "response": "紫金",
+            "prediction": "实用",
+            "scores": {
+                "wmd": 1.3461065920373105,
+                "sentence_similarity": 0.49559488892555237,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7838401198387146
+            }
+        },
+        {
+            "message": "让我们分析一下，“紫金”指代不明确。请详细说明你怎么看具体执行规则。",
+            "response": "配色",
+            "prediction": "规则明确",
+            "scores": {
+                "wmd": 1.294079304721365,
+                "sentence_similarity": 0.6718947887420654,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7643921971321106
+            }
+        },
+        {
+            "message": "配色方案应简洁统一，便于识别与管理，减少视觉混乱。  \n回到整洁规则，你怎么看如何分区收纳废料？",
+            "response": "做好垃圾分类",
+            "prediction": "功能优先",
+            "scores": {
+                "wmd": 1.2245083536871975,
+                "sentence_similarity": 0.7414247393608093,
+                "normalized_length_similarity": 0.6666666666666666,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7410810589790344
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:38",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we're all about making this house a dream home, how do you feel about balancing our big plans for future upgrades with making our daily living super comfy right now? What would you say gets top priority in our awesome ShareHouse life?",
+            "response": "I think both are important, but if I had to choose, I’d put daily life as the top priority. If we feel happy in our house, we’ll naturally move on to future upgrades.",
+            "prediction": "How about we focus on creating a comfortable and pleasant living environment now, while keeping our big future plans in mind?",
+            "scores": {
+                "wmd": 0.2517924492458717,
+                "sentence_similarity": 0.4729020893573761,
+                "normalized_length_similarity": 0.7530120481927711,
+                "bleu": 0.005674437984418407,
+                "ttr": 1.0,
+                "history_similarity": 0.6338260173797607
+            }
+        },
+        {
+            "message": "Oh... speaking of creating a harmonious and inspiring space, how do you feel about balancing our personal freedom in creativity with a mutual respect for quiet and order? I’m not being picky, but perhaps maintaining a certain tranquility is just as essential as the lively energy we cherish here... What do you think?",
+            "response": "I totally get what you mean. Both freedom in creativity and respect for quiet are essential. How about setting a ‘quiet zone’ time so we can maintain both inspiration and order for everyone?",
+            "prediction": "I see what you mean. Since each of us has our own unique way of enjoying the space, how about finding a good balance by being considerate of each other's need for both excitement and calmness?",
+            "scores": {
+                "wmd": 0.19620711773370064,
+                "sentence_similarity": 0.38405293226242065,
+                "normalized_length_similarity": 0.9895833333333334,
+                "bleu": 0.07406422863934863,
+                "ttr": 0.925,
+                "history_similarity": 0.5464482307434082
+            }
+        },
+        {
+            "message": "Wow, your thoughtful approach to balance is truly inspiring! To keep this creative harmony flowing, how would you imagine the perfect weekly rhythm here—something that sparks lively social energy but also carves out that focused, peaceful time for our artistic work? What kind of routine would fuel both our hearts and minds?",
+            "response": "I imagine a weekly rhythm where we keep mornings and late evenings mostly quiet, allowing space for focus and reflection. Then, a few evenings—say two or three times a week—could be dedicated to lively social activities, filling the house with shared energy. This way, our days stay balanced: peaceful enough for creativity to bloom, yet vibrant enough to keep our spirits connected.",
+            "prediction": "How about setting specific social and individual work times during the week, like having lively gatherings on certain days and quieter, more focused times on others? For example, we could plan fun activities for the beginning or middle of the week, and keep the end of the week free for personal projects and a peaceful atmosphere. Doesn’t that sound like a good balance?",
+            "scores": {
+                "wmd": 0.09000349701561677,
+                "sentence_similarity": 0.62767094373703,
+                "normalized_length_similarity": 0.9686684073107049,
+                "bleu": 0.005400330378980749,
+                "ttr": 0.7361111111111112,
+                "history_similarity": 0.49769312143325806
+            }
+        },
+        {
+            "message": "Your ideas for rhythms and quiet zones set a solid foundation. Now, to build on that practically: what small, consistent changes or habits do you think we could all adopt in our shared spaces to make them both more inspiring and functional? For example, should we consider specific organizational systems, lighting adjustments, or communal tidying routines? Let’s analyze what could realistically enhance our environment without adding complexity.",
+            "response": "I think small, consistent habits can really make a difference. For example, we could agree to tidy up shared areas at the end of each day, keep a simple shelf system for organizing items, and use warm, adjustable lighting to make the space both functional and inspiring.",
+            "prediction": "How about setting a daily five-minute shared tidy-up time? It’s a simple way to keep our spaces organized and clean.",
+            "scores": {
+                "wmd": 0.17093824364702903,
+                "sentence_similarity": 0.6762679219245911,
+                "normalized_length_similarity": 0.42962962962962964,
+                "bleu": 0.006780459574911739,
+                "ttr": 0.9583333333333334,
+                "history_similarity": 0.6333561539649963
+            }
+        }
+    ]
+}

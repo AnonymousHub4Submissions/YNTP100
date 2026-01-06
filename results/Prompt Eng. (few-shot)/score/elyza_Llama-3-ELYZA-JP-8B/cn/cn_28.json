@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:29:01",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！如果你突然中了一个亿，别管现实，告诉我你最疯狂最大胆的梦想会是什么？快说说！太想听了！！！\nA. 没什么特别的\n\nQ. 哈哈，没特别也太棒了，朋友！那你最想体验什么疯狂乐趣？快说！\nA. 中1个亿与否似乎不会影响我现在的生活模式\n\nQ. 哈哈，朋友！那你现在生活中最想尝试的乐趣是什么？快告诉我！太棒了！\nA. 好像没什么特别想尝试的乐趣，做点好研究可能更好\n\nQ. 让我们分析一下：如果真中了一个亿，从现实角度出发，你会如何分配这笔钱？比如投资、消费、储蓄各大概占多少比例？\nA. 投资60%，储蓄30%，消费10%\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，听了你们的讨论我觉得太棒了！说到规则，大家觉得在制定这些规则时，最重要的是“公平”这个原则呢？还是“尊重”更关键？又或者我们需要一点“灵活变通”，才能让每个人都舒心？来来来，告诉我你们最在乎的是哪一个！",
+            "response": "公平和尊重都建立在所有人一致的前提上，我觉得公共生活的部分不要太复杂，找一个需要满足的下限，大家遵守，就可以了",
+            "prediction": "我们在制定规则时，最重要的是“公平”这个原则。",
+            "scores": {
+                "wmd": 0.8506701249159336,
+                "sentence_similarity": 0.8380035161972046,
+                "normalized_length_similarity": 0.41818181818181815,
+                "bleu": 0.0053054184475599475,
+                "ttr": 1.0,
+                "history_similarity": 0.7300282716751099
+            }
+        },
+        {
+            "message": "嗯……说到规则的制定方式，我不是挑剔，但大家真的都能充分表达自己的想法吗？是让所有人一起坐下来协商，虽然听起来理想，但有时候效率和一致性可能会变得……有些难以掌控。或者，委托某个人来负责制定规则，虽说这有集中管理的优势，但也许很难保证每个人的声音都被公平地考虑。你们觉得，在保持公平和尊重的同时，哪种方式更适合我们这个环境呢？毕竟生活品质和和谐共处，这两者都不容妥协，你说是吧？",
+            "response": "可以先各自想然后集中讨论，如果不能一起协商，那之后产生问题会更复杂，一开始达成一致有原则最重要",
+            "prediction": "我们可以通过委托某个人来负责制定规则，集中管理的优势可以保持公平和尊重。",
+            "scores": {
+                "wmd": 0.9360414298188998,
+                "sentence_similarity": 0.6132032871246338,
+                "normalized_length_similarity": 0.7659574468085106,
+                "bleu": 0.007153732611558957,
+                "ttr": 0.9473684210526315,
+                "history_similarity": 0.8426268100738525
+            }
+        },
+        {
+            "message": "哇，你的思路真是让人眼前一亮！说到生活习惯难免有冲突时，你更喜欢主动敞开心扉沟通，把问题一点点化解，还是更愿意依赖明明白白的共同规则，像一幅完美的画框，帮助我们避免纠纷？艺术就是要找到最和谐的平衡点，你怎么看？",
+            "response": "先有原则再沟通",
+            "prediction": "我更喜欢主动敞开心扉沟通，把问题一点点化解。",
+            "scores": {
+                "wmd": 1.162915720897869,
+                "sentence_similarity": 0.6223081350326538,
+                "normalized_length_similarity": 0.3181818181818182,
+                "bleu": 0.01553712569276035,
+                "ttr": 1.0,
+                "history_similarity": 0.764123797416687
+            }
+        },
+        {
+            "message": "说到公共区域设计，我们要面对实用与美观的抉择。从逻辑上讲，你觉得是更应该优先保证空间的便利性和功能性，还是让它在视觉上更具艺术感，提升整体氛围？你怎么看这个平衡点？",
+            "response": "这不重要。之前也说过了，关心的人讨论其原则，其他人知会并且同意即可",
+            "prediction": "投資60%，储蓄30%，消费10%，这个平衡点可能会有所不同。",
+            "scores": {
+                "wmd": 0.8968558030585159,
+                "sentence_similarity": 0.6263712644577026,
+                "normalized_length_similarity": 0.9393939393939394,
+                "bleu": 0.01090871466388692,
+                "ttr": 0.8666666666666667,
+                "history_similarity": 0.7586392760276794
+            }
+        },
+        {
+            "message": "让我们分析一下，原则确实关键，但忽视美感可能影响整体体验。你怎么看？",
+            "response": "不重要，让在意美感的人讨论即可，我不在意",
+            "prediction": "私は、もし1億円を突然手に入れたら、生活に大きな変化はなく、特に特別な夢や楽しみは無いと考えます。投資と貯蓄をメインに、生活に必要な分は消費するという割合で分配すると思います。",
+            "scores": {
+                "wmd": 1.17355181485103,
+                "sentence_similarity": 0.37196677923202515,
+                "normalized_length_similarity": 0.22727272727272727,
+                "bleu": 0.0,
+                "ttr": 0.6493506493506493,
+                "history_similarity": 0.49593067169189453
+            }
+        }
+    ]
+}

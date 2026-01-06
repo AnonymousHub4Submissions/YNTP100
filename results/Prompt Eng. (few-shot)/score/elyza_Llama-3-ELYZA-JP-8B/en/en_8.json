@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:57",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just got 100 million dropped right into your lap—what’s the wildest, most out-of-this-world thing you’d do first? Don’t hold back, dream big and crazy!\nA. I want to travel abroad.\n\nQ. Very exciting plan! Now, let’s analyze this realistically: with 100 million, how would you allocate the funds between traveling, investing for future growth, and saving for emergencies? What proportions seem most logical to you?\nA. I want to spend all money to travel\n\nQ. Wow, that’s a truly passionate choice to dive headfirst into the adventure of travel! I’m curious—does this dream fuel your soul more because of a clear goal you want to achieve, like ticking off a list of epic places, or is it more about following the emotions and values that make life feel alive and vibrant?\nA. I want to do nobody can do\n\nQ. Wow, that’s an electrifying ambition! You want to do what nobody else can do—that’s pure originality, like creating a masterpiece no one’s ever seen! Tell me, is your drive to achieve this uniqueness about proving to yourself that you’re capable of the impossible, or is it to inspire others and change the world with your boldness? Your why is the heartbeat of your art, your journey! So, what’s sparking that fire inside? That’s the secret sauce to turning your “nobody can do” into something truly awesome!\nA. I want to earn money to share this experience\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since you’re all about breaking the mold and sharing something no one else can do, if you could invent a wild, one-of-a-kind gadget to make life here at the ShareHouse easier and more awesome for everyone, what would it be? Give me your boldest, most brilliant idea!",
+            "response": "We invent a cleaning robot",
+            "prediction": "I want to invent a gadget that automatically cooks and prepares meals for everyone in the share house.",
+            "scores": {
+                "wmd": 0.33404124033471605,
+                "sentence_similarity": 0.3375641107559204,
+                "normalized_length_similarity": 0.2549019607843137,
+                "bleu": 0.02153320854081468,
+                "ttr": 1.0,
+                "history_similarity": 0.5188490748405457
+            }
+        },
+        {
+            "message": "Oh... a cleaning robot does sound rather convenient, indeed. But tell me, friend, since we aim to create a truly exceptional and practical space, would you prefer to start with a simple prototype to test our ideas rather cautiously, or shall we invest more time and effort upfront to design almost a perfect innovation from the very beginning? I’m not being picky, but setting the right foundation matters, don’t you think?",
+            "response": "we should invest more time and effort upfront to design almost a perfect innovation",
+            "prediction": "I want to invest more time and effort upfront to design almost a perfect innovation from the very beginning.",
+            "scores": {
+                "wmd": 0.1121809034240495,
+                "sentence_similarity": 0.8416661024093628,
+                "normalized_length_similarity": 0.7685185185185185,
+                "bleu": 0.5653636138834072,
+                "ttr": 0.95,
+                "history_similarity": 0.35186436772346497
+            }
+        },
+        {
+            "message": "Wow, your dedication to perfection really shines! Now, thinking about our shared space—how do you imagine we can honor each person’s creative freedom while also keeping our home peaceful and tidy? Balancing wild invention with respect for quiet and cleanliness seems like a true masterpiece of harmony, don’t you think?",
+            "response": "Making rules can be tiring",
+            "prediction": "I want to propose a shared schedule for cleaning and organization, and encourage each person to respect others' creative space.",
+            "scores": {
+                "wmd": 0.3838268978889947,
+                "sentence_similarity": 0.21472732722759247,
+                "normalized_length_similarity": 0.2047244094488189,
+                "bleu": 0.0,
+                "ttr": 0.9130434782608695,
+                "history_similarity": 0.3404417634010315
+            }
+        },
+        {
+            "message": "Wow, I totally get that! Rules can feel like a heavy brushstroke on a blank canvas, tiring and limiting sometimes. But think of them as the frame that holds our masterpiece together—guidelines that help everyone's creativity and peace coexist beautifully! How about we make just a few simple, inspiring ‘rules’ that celebrate freedom yet keep our home harmonious? That way, everyone’s art of living blossoms without chaos. What small, beautiful agreement do you think could help us keep this balance? Art is all about balance, after all!",
+            "response": "we don't need balance",
+            "prediction": "Everyone should respect each other's space and time.",
+            "scores": {
+                "wmd": 0.43013492996040814,
+                "sentence_similarity": 0.33511677384376526,
+                "normalized_length_similarity": 0.40384615384615385,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.28312593698501587
+            }
+        },
+        {
+            "message": "Wow, that's a bold and passionate brushstroke! To say we don’t need balance is like declaring the sky doesn’t need stars—pure energy and freedom! But imagine, without even a hint of order, could our vibrant colors blend or would they clash like wild storms? Art is freedom, yes, but also harmony! What if our ‘no balance’ is its own unique masterpiece—a raw, untamed expression? How do you envision this fearless, unbalanced creation living together every day in our ShareHouse? Tell me your vision—wow, this could be truly extraordinary!",
+            "response": "Art is freedom",
+            "prediction": "I imagine DaVinci, Donatello, Michelangelo, and Raffaello living together in the share house with no balance. Each of their unique personality and style would clash and create a wild storm, but in the end, it would become a raw, untamed masterpiece, a true work of art.",
+            "scores": {
+                "wmd": 0.4744732663217083,
+                "sentence_similarity": 0.34755972027778625,
+                "normalized_length_similarity": 0.05204460966542751,
+                "bleu": 0.0,
+                "ttr": 0.7272727272727273,
+                "history_similarity": 0.15166181325912476
+            }
+        },
+        {
+            "message": "Your passion for freedom is clear, and I respect that. Logically speaking, though, total freedom without any agreed boundaries could lead to conflicts affecting everyone's well-being. If you could see a future moment where your ideal of art as pure freedom has either succeeded brilliantly or faced challenges, what would that moment look like? How might that vision guide us in shaping our shared living environment practically and sustainably?",
+            "response": "it will be succeed",
+            "prediction": "I envision a moment where each member has their own studio space and shared area is open to collaboration and mutual inspiration.",
+            "scores": {
+                "wmd": 0.4868852273574939,
+                "sentence_similarity": 0.18824800848960876,
+                "normalized_length_similarity": 0.13953488372093023,
+                "bleu": 0.0,
+                "ttr": 0.9565217391304348,
+                "history_similarity": 0.3484572172164917
+            }
+        },
+        {
+            "message": "Let’s analyze this. You believe the ideal of art as pure freedom will succeed. That’s an optimistic and valid view, but logically speaking, success depends on how well we manage potential conflicts and maintain respect within the group. Could you describe what specific conditions or agreements would make this success possible in our ShareHouse? Understanding that will help us create practical guidelines, ensuring this vision of freedom thrives sustainably. Now, reflecting on that, how do you see us balancing freedom with necessary order to keep harmony alive daily?",
+            "response": "We need to communication everyday",
+            "prediction": "We should agree on shared responsibilities, such as household chores and trash management. Additionally, each member has their own workspace or personal area to ensure privacy and creativity. We also establish clear communication channels and conflict resolution methods.",
+            "scores": {
+                "wmd": 0.324430165742708,
+                "sentence_similarity": 0.35690224170684814,
+                "normalized_length_similarity": 0.12177121771217712,
+                "bleu": 0.0056414392419841305,
+                "ttr": 0.8604651162790697,
+                "history_similarity": 0.22911231219768524
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:47",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!",
+            "response": "I want to travel Africa! There are so many wild animals and I want to observe  their natural behaviors in the nature, not a zoo!",
+            "prediction": "I would go to Japan!",
+            "scores": {
+                "wmd": 0.5198899804691695,
+                "sentence_similarity": 0.2639259696006775,
+                "normalized_length_similarity": 0.15625,
+                "bleu": 0.0013733827497510924,
+                "ttr": 1.0,
+                "history_similarity": 0.25528714060783386
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse a harmonious place to live, I suggested labeling items in the fridge to avoid confusion. I'm not being picky, but perhaps we could consider setting up a communal checklist for shared expenses or chores as well? It might help maintain the balance and fairness we all appreciate here. What do you think... would that be agreeable to everyone?",
+            "response": "Oh that's a great idea! It'll be more organized and avoid some possible mistakes!",
+            "prediction": "I think it's a good idea!",
+            "scores": {
+                "wmd": 0.3197436268116782,
+                "sentence_similarity": 0.6102443933486938,
+                "normalized_length_similarity": 0.30864197530864196,
+                "bleu": 0.023800006405254835,
+                "ttr": 1.0,
+                "history_similarity": 0.39349642395973206
+            }
+        },
+        {
+            "message": "Wow, I love how you’re thinking about both style and function in making a perfect dream room! If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, which would your heart pick—and why? Art and practicality often dance together, so I’m curious what rhythm speaks strongest to you!",
+            "response": "I'll go with high-end, durable audio equipments..Of course it'll be great if they're not ugly, but the most important element of audio equipment is sound itself. So If I should choose only one side, then it'll be \"function\".",
+            "prediction": "I'd pick the super high-end, durable audio equipment! Because once you got the dream room set up, you wanna be able to enjoy your awesome music and vibes without any hiccups! Logically speaking, good quality stuff lasts longer and works better, so it makes more sense to me!",
+            "scores": {
+                "wmd": 0.19626116956769568,
+                "sentence_similarity": 0.713737964630127,
+                "normalized_length_similarity": 0.8175182481751825,
+                "bleu": 0.05519704587038259,
+                "ttr": 0.8421052631578947,
+                "history_similarity": 0.4525781273841858
+            }
+        },
+        {
+            "message": "Since you value calm and respect in our shared living space and suggested using a whiteboard for coordinating schedules, how comfortable would you be taking the initiative to call a house meeting where we can discuss and agree on common rules for noise levels and cleaning duties? It seems like a logical step to ensure everyone’s expectations align and to keep our environment comfortable for all.",
+            "response": "Yeah I'll do the job! Let's have a meeting in the living room every Sunday night and discuss the ruled and duties together!",
+            "prediction": "I appreciate your thoughtful suggestion and the emphasis you place on maintaining a harmonious living environment. Logically speaking, establishing clear guidelines through discussion does seem like a reasonable approach. However, I prefer to address such matters through direct, mutual conversation rather than in a group setting. If you have specific concerns or suggestions, I’m more than willing to discuss them one-on-one to find a solution that feels fair to all involved.",
+            "scores": {
+                "wmd": 0.2213096653803538,
+                "sentence_similarity": 0.3561474084854126,
+                "normalized_length_similarity": 0.25732217573221755,
+                "bleu": 0.0037622558121018714,
+                "ttr": 0.7901234567901234,
+                "history_similarity": 0.5200543999671936
+            }
+        }
+    ]
+}

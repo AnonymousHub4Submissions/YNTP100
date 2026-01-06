@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:29",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about fairness and keeping things smooth here, how about we set up a super simple and flexible system where anyone can request or swap fridge space when needed? That way, we all get what we need without any fridge drama! What do you think—ready to make our kitchen even more awesome together?",
+            "response": "As I said on the 2nd day, separating equally is one of the easiest solutions. And I think other methods will be more effective after this rule is tried and we understand how we consume the space in fridge.",
+            "prediction": "Well I think its a great idea, but I do have one question - will we decide mutually so that we can respect each other's needs, or would it be more like a rule with some clear guidelines?",
+            "scores": {
+                "wmd": 0.14582462926451778,
+                "sentence_similarity": 0.16020295023918152,
+                "normalized_length_similarity": 0.9073170731707317,
+                "bleu": 0.01728874123127798,
+                "ttr": 0.9047619047619048,
+                "history_similarity": 0.544807493686676
+            }
+        },
+        {
+            "message": "Oh... speaking of balancing practicality and style, I find myself pondering the design of our dream room. If we must choose between ease of maintenance and bold design elements, how might we prioritize? I’m not being picky, but I do wonder if the function should gently take precedence over aesthetics, especially if we aim for lasting harmony in our shared space. Would you agree that some struggles in upkeep are acceptable if the design truly inspires, or should we lean towards simplicity to ensure tranquility?",
+            "response": "I think the design of the room will not be prioritized the usefulness of the room. Our room is not the thing we discard once we used, so we must think whether we can use the room freely in the long run.",
+            "prediction": "Well I think we should prioritise the function so that we can maintain the room easily, but I do believe we can still come up with a design that is nice and not too bold so that it still inspires us appropriately.",
+            "scores": {
+                "wmd": 0.22326580970261992,
+                "sentence_similarity": 0.7063524127006531,
+                "normalized_length_similarity": 0.9483568075117371,
+                "bleu": 0.018844917022471312,
+                "ttr": 0.7954545454545454,
+                "history_similarity": 0.5251368284225464
+            }
+        },
+        {
+            "message": "Wow, your thoughtful balance between function and beauty truly sparks my creative soul! Now, thinking about your idea of collaborating quietly at night to keep the day peaceful—how might we paint the perfect picture of respecting everyone’s rest and work while still giving free rein to our nighttime creativity? What masterpiece of balance do you envision that honors both freedom and consideration in our shared masterpiece of life?",
+            "response": "Creativity will not be reasonable excuse to bother other members' rest. You had better not misunderstand this.",
+            "prediction": "Well, I think we should come up with a clear schedule that divides the day and night into active and quiet hours appropriately so that we can respect each other's need for rest and activity. I also think we should come up with some clear rules so that we can maintain the same level of quality throughout the day. I believe having same high quality throughout the day and night would enrichen our shared experience positively.",
+            "scores": {
+                "wmd": 0.23013854062665948,
+                "sentence_similarity": 0.18245065212249756,
+                "normalized_length_similarity": 0.25821596244131456,
+                "bleu": 0.003163667425663915,
+                "ttr": 0.6419753086419753,
+                "history_similarity": 0.5448535680770874
+            }
+        },
+        {
+            "message": "Your emphasis on avoiding suppression and maintaining fairness is clear. Logically speaking, when it comes to shared living and group activities, what core values or feelings guide your decisions and actions to ensure both your needs and others' are respected?",
+            "response": "Other members are not your family member, of course not your subordinate. As a first step, we must discard our selfish thinking/",
+            "prediction": "Well, it would be mutual respect, so we can mutually concessionate to each other so that everyone's needs are met appropriately.",
+            "scores": {
+                "wmd": 0.24209987264375002,
+                "sentence_similarity": 0.31661325693130493,
+                "normalized_length_similarity": 1.0,
+                "bleu": 0.011328360454400999,
+                "ttr": 0.92,
+                "history_similarity": 0.4787076413631439
+            }
+        }
+    ]
+}

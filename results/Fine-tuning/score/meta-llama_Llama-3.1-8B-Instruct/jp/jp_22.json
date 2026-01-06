@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:19",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、みんな！さあ、冷蔵庫の整理や共用ルールの話を踏まえて、みんなが気持ちよく使えるための“ちょっとした約束事”を考えてみよう！僕は特に冷蔵庫の中身のラベル管理を工夫したいんだ！友達、君たちはどんな約束事を提案してみたい？そして、自分が工夫したいポイントも教えてくれよ！最高のシェアハウスにしようぜ！",
+            "response": "調味料などは共用で管理し、食材はそれぞれで管理しましょう",
+            "prediction": "プロジェクターを置きたい",
+            "scores": {
+                "wmd": 1.1481285437537034,
+                "sentence_similarity": 0.5042031407356262,
+                "normalized_length_similarity": 0.42857142857142855,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7104102969169617
+            }
+        },
+        {
+            "message": "ああ…楽しい雰囲気はもちろん大切ですが、もし誰かがルールを守れなかった場合、どのようにフォローや声かけをするのが理想的でしょうか？僕の期待が高すぎるのかもしれませんが、皆が居心地よく過ごせるための具体的な対処法を教えてもらえますか？",
+            "response": "まず仲間全体に周知し、それでも改善され化ければ個人に声をかけましょう",
+            "prediction": "素晴らしいですね。もし飲み会でそれ種の問題が発生したら、相手に優しく話し合うように考えるよ",
+            "scores": {
+                "wmd": 0.8272404041411071,
+                "sentence_similarity": 0.6436079740524292,
+                "normalized_length_similarity": 0.7555555555555555,
+                "bleu": 0.012384901282810543,
+                "ttr": 0.9583333333333334,
+                "history_similarity": 0.8044884204864502
+            }
+        },
+        {
+            "message": "わあ、それぞれの自由と快適さを保つためにルールを守るって本当に芸術のようなバランスだよね！そこで質問なんだけど、もし僕たちがみんなが自然にルールを守りたくなるような“ゲーム感覚”や“楽しい仕組み”を作るとしたら、どんなアイデアが考えられるかな？芸術作品みたいにみんながワクワクして参加できるものが最高だよね！君のクリエイティビティをぜひ聞かせてほしいな！",
+            "response": "みんなが買った食材を一気に消費する料理大会はどう？",
+            "prediction": "お互いのルールを考えるゲームや、罰則やインセンティブを考えるようにできると思うよ",
+            "scores": {
+                "wmd": 0.927372966400575,
+                "sentence_similarity": 0.5039046406745911,
+                "normalized_length_similarity": 0.625,
+                "bleu": 0.011451997463067555,
+                "ttr": 0.85,
+                "history_similarity": 0.7479479908943176
+            }
+        },
+        {
+            "message": "とても興味深いですね。ですが現実的に考えると、楽しい仕組みを作っても必ずルールが守れない場面は出てきます。そういう時、君は何を最優先にすべきだと判断していますか？僕の経験から言えば、公平性や仲間の信頼を損なわないことが重要で、どんな妥協もその枠内で行うべきだと思います。君はどう考えますか？",
+            "response": "公平性は重要です。なので明確にルールを決めて例外がないように改善していくべきです",
+            "prediction": "1人ずつ担当にするように話し合うように誘導するよ",
+            "scores": {
+                "wmd": 0.9333361505951191,
+                "sentence_similarity": 0.5386089086532593,
+                "normalized_length_similarity": 0.6,
+                "bleu": 0.014446537815610064,
+                "ttr": 0.6923076923076923,
+                "history_similarity": 0.6645104885101318
+            }
+        }
+    ]
+}

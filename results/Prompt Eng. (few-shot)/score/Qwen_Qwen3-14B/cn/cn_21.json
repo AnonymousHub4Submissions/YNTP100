@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:47",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！假如你突然中了一个亿，你第一个疯狂的梦想会是什么？大胆说出来，别拘泥于现实，我们这儿就是要听最狂最酷的想法！\nA. 天啊 中一个亿奖金设么的也太疯狂了 如果这是真的话 我想我应该会去环游世界吧！\n\nQ. 很有意思，环游世界确实是个极佳的选择。接下来现实一点：这一个亿你会如何分配？比如在投资、消费和储蓄上，你大概会给各部分分配多少比例？\nA. 要说具体分配的话 那得好好思考一下呢 或许会花费部分的钱用来买房子然后出租 同时去周游世界！\n\nQ. 让我们分析一下，你会考虑投资房地产多少比例？还有储蓄呢？\nA. 哇这么具体的吗 或许是把一半的钱用于投资房产吧\n\nQ. 哇，听你这么说，感觉你的理财规划超级有条理！不过告诉我，你做这些选择的背后，是更被明确的目标驱动，还是内心的情感和价值观在引导你呢？这两者都太重要了，艺术和生活就是要找到那个完美的平衡！\nA. 我想应该也没有什么具体明确的目标\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！说到安静时段……如果我们设定每天晚上7点到9点公共区域大家尽量保持安静，这样你们觉得对创作灵感和生活会有多大帮助呢？来，大胆说说你们的想法吧！太棒了！",
+            "response": "我赞同这个想法！不知道大家其他人的是怎么想的呢",
+            "prediction": "我觉得这样设定应该会很有帮助！安静的环境真的能让人更容易集中精神，尤其是在创作的时候，比如画画或者写东西，不会被别人的声音打扰，灵感应该会更多一些！",
+            "scores": {
+                "wmd": 0.9152081566694973,
+                "sentence_similarity": 0.7051777839660645,
+                "normalized_length_similarity": 0.3108108108108108,
+                "bleu": 0.005720251726917803,
+                "ttr": 0.8125,
+                "history_similarity": 0.7275172472000122
+            }
+        },
+        {
+            "message": "哦……说到‘梦想房间’的设计，我想知道大家是更倾向于能够容纳更多创作灵感的实用性呢，还是愿意接受一些装饰性设计，哪怕会牺牲一点使用空间？我不是挑剔，只是觉得生活环境嘛，既要美观也要实用，总不能完全偏向某一面，大家觉得呢？",
+            "response": "我个人的话应该会更加偏向于实用吧",
+            "prediction": "我觉得还是实用为主吧，毕竟房间的主要功能还是要满足日常使用的需求，装饰性设计可以适当点缀，但不能影响实用性。",
+            "scores": {
+                "wmd": 0.9700222204781672,
+                "sentence_similarity": 0.6544167995452881,
+                "normalized_length_similarity": 0.2962962962962963,
+                "bleu": 0.007939087147543497,
+                "ttr": 0.8709677419354839,
+                "history_similarity": 0.7360881567001343
+            }
+        },
+        {
+            "message": "哇，说到生活的艺术，我觉得冰箱里的食材也像创作的灵感一样需要一个完美的舞台！你觉得如果设定固定的食品摆放区域，让大家轮流管理，会不会更容易保持方便拿取的包装食品和新鲜食材之间的完美比例呢？这可是让我们的厨房也成为艺术品的秘诀哦！",
+            "response": "哇这种想法听着真不错呢！",
+            "prediction": "我觉得这个主意很棒！让每个人轮流管理冰箱，不仅能保持食材的新鲜度，还能让每个人都有参与感，让厨房变得更有序也更有创意！",
+            "scores": {
+                "wmd": 1.138912499091213,
+                "sentence_similarity": 0.6613725423812866,
+                "normalized_length_similarity": 0.2033898305084746,
+                "bleu": 0.004744188024111083,
+                "ttr": 0.7435897435897436,
+                "history_similarity": 0.7571746110916138
+            }
+        },
+        {
+            "message": "哇，太棒了！你觉得这样分区能激发大家的创意吗？",
+            "response": "肯定能的！大家可以集思广益",
+            "prediction": "我觉得这样分区的话，大家可能会更有灵感去创作呢！",
+            "scores": {
+                "wmd": 0.7683818821509809,
+                "sentence_similarity": 0.7725366950035095,
+                "normalized_length_similarity": 0.5416666666666666,
+                "bleu": 0.014628063653657535,
+                "ttr": 1.0,
+                "history_similarity": 0.8458304405212402
+            }
+        },
+        {
+            "message": "说到合作，我们不妨思考一下公共区域的清洁和维护值班安排。从逻辑上讲，你觉得是按每个人的使用频率分配任务更合理，还是大家平均分担任务更有效？这样才能既保证效率，又维护公平。你怎么看？",
+            "response": "或许平均分配更加能考虑到每个人吧！不知道大家其他人是如何认为的呢",
+            "prediction": "我觉得平均分担任务可能更有效，这样大家都能参与进来，也不会有人觉得负担太重。",
+            "scores": {
+                "wmd": 0.8147062790644026,
+                "sentence_similarity": 0.7730659246444702,
+                "normalized_length_similarity": 0.8421052631578947,
+                "bleu": 0.009849349468888718,
+                "ttr": 0.9130434782608695,
+                "history_similarity": 0.8382446765899658
+            }
+        }
+    ]
+}

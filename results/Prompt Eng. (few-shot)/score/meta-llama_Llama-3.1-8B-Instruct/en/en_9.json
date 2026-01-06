@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:36",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found 100 million in your pocket—no strings attached! What wild and bold adventure would you dive into first? Don’t hold back, let’s hear your biggest, craziest dream!\nA. Hmm, I think I’d love to get a grand piano… and of course a soundproof room so I can play it as much as I want without holding back~\n\nQ. Very interesting idea. Next, let's consider it realistically: if you were to allocate that 100 million, how would you divide it among investment, consumption, and savings? What proportions seem most logical to you?\nA. Well, the consumption part would be the piano and the soundproof room, and I think that could be covered with about half of it~ As for the rest, maybe around 30% for investments and 20% for savings feels just right to me!\n\nQ. Wow, your plan sounds so well thought out and passionate—truly inspiring! Tell me, what drives your dream of having that grand piano and soundproof room? Is it more about hitting a clear goal, like mastering your music, or is it all about the deep emotions and values that music stirs inside you? Art is all about that spark!\nA. Right now, it’s not really about trying to master music—it’s more about just playing for the pure joy of it. So I guess it’s simply following wherever my heart wants to go!\n\nQ. Oh... speaking of maintaining quality in our shared spaces, I noticed the refrigerator has become quite cramped lately, especially with all the packaged foods taking up quite a bit of room. I'm not being picky, but I imagine we all value having enough space for fresh ingredients and preserving a certain standard of living, don't we? How do you feel about finding a balance that suits everyone’s needs?\nA. Yeah, totally—fresh stuff really needs to go straight into the fridge. Hmm, maybe the packaged foods that don’t really need refrigeration could be kept outside instead? That might make things feel a lot more comfortable for everyone.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about balancing practicality and creativity here, if you could add just one cool thing to our dream room that would spark your art but still be super easy to take care of, what awesome element would you choose? Come on, share your creative spark!",
+            "response": "How about a projector? Of course it could be used like a display, but with projection mapping we could instantly make the whole room look so much more vibrant and lively!",
+            "prediction": "I would choose a portable piano that I could easily move around the house and play whenever I want. It would be a great way to express myself creatively and bring some music into our space without taking up too much room. Plus, it would be super easy to take care of and wouldn't get in the way of our daily activities. I think it would be a great addition to our dream room and would definitely spark some creativity and inspiration.    Answer: a portable piano. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "scores": {
+                "wmd": 0.26163690455275107,
+                "sentence_similarity": 0.4662783741950989,
+                "normalized_length_similarity": 0.27287319422150885,
+                "bleu": 0.0018332429470172742,
+                "ttr": 0.3448275862068966,
+                "history_similarity": 0.6238306760787964
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse truly inspiring and harmonious, I was pondering—perhaps to better manage our shared spaces and fridge usage, would a weekly meeting to discuss chores and organization suit everyone, or might a shared online note be more considerate of our varying schedules? I'm not being picky, but balancing creative freedom with respectful tidiness seems essential, don't you think?",
+            "response": "I think it’s really important to speak up before frustrations pile up, so I like the idea! Since some things are harder to explain just in writing, I’d prefer us actually meeting to talk. And for anyone who can’t make it, we could always keep the results in a shared online note—so everyone stays in the loop.",
+            "prediction": "I think a shared online note would be perfect for our schedules. That way, we can all contribute and see what's been done without having to meet up every week. It keeps things flexible and considerate of everyone's time.    Answer: A shared online note would be perfect for our schedules. That way, we can all contribute and see what's been done without having to meet up every week. It keeps things flexible and considerate of everyone's time.    Answer: A shared online note would be perfect for our schedules. That way, we can all contribute and see what's been done without having to meet up every week. It keeps things flexible and considerate of everyone's time.    Answer: A shared online note would be perfect for our schedules. That way, we can all contribute and see what's been done without having to meet up every week. It keeps things flexible and considerate of everyone's time.    Answer: A shared online note would be perfect for our schedules. That way, we can all contribute and see what's been done without having to meet up every week. It keeps things flexible and considerate of everyone's time.    Answer: A shared online note would be perfect for our schedules. That way, we can all contribute and",
+            "scores": {
+                "wmd": 0.16817546686422113,
+                "sentence_similarity": 0.4460468292236328,
+                "normalized_length_similarity": 0.2532786885245902,
+                "bleu": 0.006878570200303316,
+                "ttr": 0.17886178861788618,
+                "history_similarity": 0.4391319453716278
+            }
+        },
+        {
+            "message": "Wow, as we’re shaping this amazing space, I had a thought—what if we had a quiet hour every evening dedicated just to creative work and restful calm? Do you think that would fuel our inspiration and help us reach those perfect artistic moments, or might it feel a bit too limiting for our free-flowing energy? I’m curious how such a rhythm could paint our daily lives here!",
+            "response": "I really think having time to focus on something by yourself is super important—especially when it comes to artistic things! Since we can be so active during the day, I feel like evenings are already enough, and actually that rhythm might make everything go even more smoothly~",
+            "prediction": "I think that would be a great idea. It would allow each of us to have some dedicated time for our own creative pursuits, whether it's painting, playing music, or writing. It would also give us a chance to relax and recharge, which would help us be more productive and focused when we're working on our projects. Plus, it would be a nice way to wind down at the end of the day and get a good night's sleep. I think it would really help us maintain a healthy balance between our creative work and our personal lives.     Answer:  I think that would be a great idea. It would allow each of us to have some dedicated time for our own creative pursuits, whether it's painting, playing music, or writing. It would also give us a chance to relax and recharge, which would help us be more productive and focused when we're working on our projects. Plus, it would be a nice way to wind down at the end of the day and get a good night's sleep. I think it would really help us maintain a healthy balance between our creative work and our personal lives.     Answer:  I think that would be a great idea. It would allow each of us to have some dedicated time for our own creative pursuits,",
+            "scores": {
+                "wmd": 0.17303509973802628,
+                "sentence_similarity": 0.5730010271072388,
+                "normalized_length_similarity": 0.23554421768707484,
+                "bleu": 0.002635633358938787,
+                "ttr": 0.2896825396825397,
+                "history_similarity": 0.5590434670448303
+            }
+        },
+        {
+            "message": "Since we’re all invested in making this shared space truly our own, I’m interested in your thoughts: if you were to take charge of a small team project to bring your dream room idea to life, would you be willing to lead that effort and coordinate with others to ensure we balance creativity with practicality?",
+            "response": "Yeah, I think I’m pretty good at pulling things together with a balanced perspective, so I could definitely do it! Plus, being the leader means you get to handle the coordination part, but also guide the project just a little toward your own style—so it actually feels like a nice win, too!",
+            "prediction": "I'd be happy to take the lead on that project. To start, I think we should all get together to discuss our expectations and ideas for the dream room. We could have a meeting to share our thoughts and come up with a plan that works for everyone. I'd suggest we allocate a specific area of the house for the project, so we can start brainstorming and sketching out ideas without disrupting the rest of the space. We could also set up a shared document or board to keep track of our progress and decisions. Once we have a solid plan, we can start making a list of materials and resources we'll need, and assign tasks to each team member. I think it's essential to have a clear timeline and milestones to ensure we stay on track and meet our goals. Additionally, we should establish a system for communicating and addressing any concerns or issues that may arise during the project. By working together and being open to feedback and suggestions, I'm confident we can create a dream room that exceeds our expectations and becomes a beautiful addition to our shared space. Answer:     I'd be happy to take the lead on that project. To start, I think we should all get together to discuss our expectations and ideas for the dream room. We could have a meeting to",
+            "scores": {
+                "wmd": 0.15872354870681918,
+                "sentence_similarity": 0.4870368242263794,
+                "normalized_length_similarity": 0.23089171974522293,
+                "bleu": 0.007476421973478959,
+                "ttr": 0.45849802371541504,
+                "history_similarity": 0.6086614727973938
+            }
+        }
+    ]
+}

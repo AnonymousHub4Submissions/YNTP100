@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:42",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Just imagine—you suddenly get 100 million dropped into your lap! What’s the wildest, most awesome thing you’d do first? Don’t hold back—let those big dreams fly!\nA. Hi friends! I'm YJ! Glad to meet you all! If I get 100 million, I'll travel around the world!\n\nQ. Very interesting idea, YJ. Next, let's analyze this realistically: how would you allocate the 100 million? For example, roughly what proportions would you assign to investment, consumption—like your travel plans—and savings?\nA. Wait, is that dollars or yen?\n\nQ. Good question. Logically speaking, the 100 million I referred to is in yen, as it's a common large-sum reference in this context. Now that we've clarified the currency, let's analyze your plan with that in mind. How would you distribute the 100 million yen between investment, travel expenses, and savings? A clear ratio helps in creating a practical and efficient strategy.\nA. In that case, I'll save the half of the money and use the another half as travel expenses!\n\nQ. Wow, your plan already has such a solid foundation! I’m curious—this dream of balancing savings and adventure, is it driven more by a clear goal you’ve set for yourself, or does it come from a deeper feeling and value you hold? What’s the true spark behind this vision?\nA. It's driven by my clear goal to balance the future and present\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!",
+            "response": "I want to travel Africa! There are so many wild animals and I want to observe  their natural behaviors in the nature, not a zoo!",
+            "prediction": "I would go to Japan! Because it's a place where you can experience both traditional culture and modern technology, and it's also a place where I can enjoy delicious food while keeping my expenses under control.",
+            "scores": {
+                "wmd": 0.261318778261426,
+                "sentence_similarity": 0.21764472126960754,
+                "normalized_length_similarity": 0.6095238095238096,
+                "bleu": 0.00732573993509772,
+                "ttr": 0.8048780487804879,
+                "history_similarity": 0.19254416227340698
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse a harmonious place to live, I suggested labeling items in the fridge to avoid confusion. I'm not being picky, but perhaps we could consider setting up a communal checklist for shared expenses or chores as well? It might help maintain the balance and fairness we all appreciate here. What do you think... would that be agreeable to everyone?",
+            "response": "Oh that's a great idea! It'll be more organized and avoid some possible mistakes!",
+            "prediction": "That sounds like a great idea! I think a communal checklist would definitely help keep things organized and fair for everyone.",
+            "scores": {
+                "wmd": 0.2487978878722359,
+                "sentence_similarity": 0.6639107465744019,
+                "normalized_length_similarity": 0.6428571428571429,
+                "bleu": 0.12259149958656422,
+                "ttr": 0.9565217391304348,
+                "history_similarity": 0.4640648066997528
+            }
+        },
+        {
+            "message": "Wow, I love how you’re thinking about both style and function in making a perfect dream room! If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, which would your heart pick—and why? Art and practicality often dance together, so I’m curious what rhythm speaks strongest to you!",
+            "response": "I'll go with high-end, durable audio equipments..Of course it'll be great if they're not ugly, but the most important element of audio equipment is sound itself. So If I should choose only one side, then it'll be \"function\".",
+            "prediction": "My heart would pick the super high-end, durable audio equipment because I believe that music is the soul of a room, and having the best sound quality enhances every moment!",
+            "scores": {
+                "wmd": 0.1973985854684547,
+                "sentence_similarity": 0.7536429762840271,
+                "normalized_length_similarity": 0.7678571428571429,
+                "bleu": 0.056389215435862394,
+                "ttr": 0.9090909090909091,
+                "history_similarity": 0.3922542929649353
+            }
+        },
+        {
+            "message": "Since you value calm and respect in our shared living space and suggested using a whiteboard for coordinating schedules, how comfortable would you be taking the initiative to call a house meeting where we can discuss and agree on common rules for noise levels and cleaning duties? It seems like a logical step to ensure everyone’s expectations align and to keep our environment comfortable for all.",
+            "response": "Yeah I'll do the job! Let's have a meeting in the living room every Sunday night and discuss the ruled and duties together!",
+            "prediction": "I would be very comfortable taking the initiative to call a house meeting. I think it's important for everyone to have a say in creating rules that work for all of us, and I'd be happy to organize a time when we can discuss and agree on common rules for noise levels and cleaning duties.",
+            "scores": {
+                "wmd": 0.21614389607401602,
+                "sentence_similarity": 0.5522094368934631,
+                "normalized_length_similarity": 0.42857142857142855,
+                "bleu": 0.00984626779733068,
+                "ttr": 0.7833333333333333,
+                "history_similarity": 0.49349889159202576
+            }
+        }
+    ]
+}

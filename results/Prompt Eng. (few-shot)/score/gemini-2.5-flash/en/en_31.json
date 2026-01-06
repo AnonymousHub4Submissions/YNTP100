@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:53:30",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend! Since we’re all about making awesome memories together, imagine this: if we planned the perfect weekend getaway with our housemates to celebrate all this teamwork and fun, what would it look like? Mountains, beach, a city adventure? And what cool activities would you want us to do to make it unforgettable? Come on, share your boldest dream for a fun escape!",
+      "response": "Beach BBQ all the way! Plus, staying in a cute cottage or a luxurious villa would be amazing!",
+      "prediction": "I’d love to go for a mountain retreat! We could rent a cozy cabin, explore hiking trails during the day, and then have relaxing evenings with good food and conversation.",
+      "scores": {
+        "wmd": 0.3039475613670457,
+        "sentence_similarity": 0.6208502054214478,
+        "normalized_length_similarity": 0.5502958579881657,
+        "history_similarity": 0.3133552372455597,
+        "bleu": 0.007711727065811939,
+        "ttr": 0.9166666666666666
+      }
+    },
+    {
+      "message": "Oh... while the idea of lively gatherings certainly has its charm, I find myself pondering—if you were to choose between a spirited, albeit noisy, social event here at the share house and a tranquil evening devoted solely to your creative endeavors, which would truly align with your sense of fulfillment? I’m not being overly particular, but balancing joyful interaction with personal focus can be quite the delicate art, don’t you agree?",
+      "response": "It’s a tough choice, but I’d lean more toward the lively side. When I want quiet, I can adjust by going to a café or using earplugs, but creating a lively atmosphere on my own is much harder.",
+      "prediction": "It's true that balancing them is an art, but if I had to choose, I think I'd lean towards a spirited social event. I value shared experiences in a share house.",
+      "scores": {
+        "wmd": 0.17672113690672203,
+        "sentence_similarity": 0.2839277982711792,
+        "normalized_length_similarity": 0.8324607329842932,
+        "history_similarity": 0.5986837148666382,
+        "bleu": 0.015645873849850247,
+        "ttr": 0.8378378378378378
+      }
+    },
+    {
+      "message": "Wow, imagine if our house had this amazing smart system that vibes with each of us—custom music, lighting, even fragrances that change to fit our moods perfectly! How do you think that kind of personalized art for our senses would spark new energy in your day or even in how we all connect here? It’s like turning everyday life into a masterpiece!",
+      "response": "I think it would help us relax and refresh, making it easier to come up with good ideas! Also, when we’re in a good mood, we tend to be kinder to others, which can deepen our connections and increase overall happiness!",
+      "prediction": "That sounds incredible. I think personalized art for our senses would definitely bring a new energy to my day, making daily life more inspiring. It could also create a unique atmosphere that helps us connect in new ways.",
+      "scores": {
+        "wmd": 0.16325361428162222,
+        "sentence_similarity": 0.4537820518016815,
+        "normalized_length_similarity": 0.990909090909091,
+        "history_similarity": 0.4301166534423828,
+        "bleu": 0.013982526429544076,
+        "ttr": 0.9047619047619048
+      }
+    },
+    {
+      "message": "Logically speaking, to maintain both personal freedom and a harmonious shared environment—especially considering limited fridge space and communal mess—what specific rules or habits do you think would balance individual needs while ensuring fairness and respect among all of us?",
+      "response": "First, I think it’s effective to assign duties, designate spaces, and set schedules. Then, as we put these into practice, it’s important to have a system where we can easily discuss things that aren’t working, and also to maintain flexibility so that the rules can be adjusted as needed.",
+      "prediction": "I think a good start would be to stick to the idea of assigned fridge space, so everyone knows what’s theirs. For messes, the person who makes it should clean it up immediately. Beyond that, I think open communication is the most important habit, especially when it comes to noise or if someone needs extra quiet time.",
+      "scores": {
+        "wmd": 0.13368256170063725,
+        "sentence_similarity": 0.36167991161346436,
+        "normalized_length_similarity": 0.9025157232704403,
+        "history_similarity": 0.49832138419151306,
+        "bleu": 0.024566352740722105,
+        "ttr": 0.803030303030303
+      }
+    }
+  ]
+}

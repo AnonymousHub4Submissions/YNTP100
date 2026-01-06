@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:46",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we're all about that balance between practicality and style, how about we start a weekly fridge organization routine? Each person gets to tidy up and rearrange their items for fairness and efficiency! What do you think—would that help keep our shared space awesome and neat?",
+            "response": "I think that’s a great idea!",
+            "prediction": "Haha, sounds like a plan! Next, let’s do some shopping and stock up on ingredients!",
+            "scores": {
+                "wmd": 0.4380873368971429,
+                "sentence_similarity": 0.3887344002723694,
+                "normalized_length_similarity": 0.3373493975903614,
+                "bleu": 0.02297185935845028,
+                "ttr": 0.9047619047619048,
+                "history_similarity": 0.3518596291542053
+            }
+        },
+        {
+            "message": "Oh... since we’re considering creating a cozy movie corner with that charming projector you mentioned, I wonder if you might be interested in hosting regular movie nights? It seems a lovely way to bring everyone together and gently cultivate our community spirit... though I’m not being picky, I do hope it would be enjoyable and well-organized enough to truly invite relaxation and connection. Would you find that agreeable?",
+            "response": "Yes, please! I’m looking forward to it!",
+            "prediction": "Yes, I think it’s wonderful to share the magic of movies with everyone, and I’d love to help make these movie nights a success!",
+            "scores": {
+                "wmd": 0.29021387218245726,
+                "sentence_similarity": 0.4237438440322876,
+                "normalized_length_similarity": 0.30708661417322836,
+                "bleu": 0.020750198923629275,
+                "ttr": 0.8709677419354839,
+                "history_similarity": 0.32000070810317993
+            }
+        },
+        {
+            "message": "Wow, your passion for creating something meaningful really shines through! Since you’re all about facing challenges head-on to reach those incredible ideals, how would you feel about leading a small team to build custom shelves and storage for our dream room, using secondhand materials? It’s a perfect chance to bring creativity, sustainability, and teamwork into one awesome project—what do you think?",
+            "response": "It sounds fun to make something together! Let’s definitely do it!",
+            "prediction": "I think it’s wonderful to use secondhand materials to make the room more realistic, and I’d love to lead in creating practical storage that makes living in the room as comfortable as possible!",
+            "scores": {
+                "wmd": 0.2526921455734008,
+                "sentence_similarity": 0.3063164949417114,
+                "normalized_length_similarity": 0.3385416666666667,
+                "bleu": 0.015702080675779332,
+                "ttr": 0.7948717948717948,
+                "history_similarity": 0.6520130634307861
+            }
+        },
+        {
+            "message": "Logically speaking, as we dive into this creative project, should we also establish specific quiet hours in the share house to ensure everyone can balance active collaboration with necessary rest? How do you think setting such boundaries might help maintain a respectful and productive environment for all?",
+            "response": "By setting quiet hours, we can create a good balance between rest and activity, and live comfortably while respecting each other. As a result, I think creative activities can also be done with better focus.",
+            "prediction": "Yes, establishing quiet hours is very reasonable, and logically it makes sense to set these hours during the nighttime when everyone is resting. This helps maintain a clear balance between active creative work during the day and getting enough rest at night. Setting such boundaries will help create a respectful environment for everyone’s lifestyle and schedule, and will also help keep the shared space tidy and orderly.",
+            "scores": {
+                "wmd": 0.15726169677178045,
+                "sentence_similarity": 0.6404657363891602,
+                "normalized_length_similarity": 0.4881516587677725,
+                "bleu": 0.012356348345219915,
+                "ttr": 0.7733333333333333,
+                "history_similarity": 0.38244661688804626
+            }
+        }
+    ]
+}

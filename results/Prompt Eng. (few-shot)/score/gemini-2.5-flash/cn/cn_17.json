@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:37:24",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友们，既然我们都在努力营造舒服的环境，那我来问问大家！如果我们要设计一个完美的电竞房，你觉得里面最酷的美学元素或者装饰风格应该是什么样的？别害羞，放飞你的想象力，来点炫的、酷的、让人秒变游戏王的感觉吧！",
+      "response": "电脑啊，4090",
+      "prediction": "酷炫",
+      "scores": {
+        "wmd": 1.2897179307185884,
+        "sentence_similarity": 0.5504611730575562,
+        "normalized_length_similarity": 0.25,
+        "history_similarity": 0.7288892269134521,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哈哈，朋友！4090超强！那电竞房墙壁要不弄成酷炫的霓虹灯效果，怎么样？！太棒了！！",
+      "response": "不要，花里胡哨的",
+      "prediction": "酷",
+      "scores": {
+        "wmd": 1.3169536412648115,
+        "sentence_similarity": 0.3250642716884613,
+        "normalized_length_similarity": 0.125,
+        "history_similarity": 0.6447768211364746,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哦……既然我们都认同简约风格更符合电竞房的实用需求，那如果真的遇到空间或设备布置上的限制，你会怎么在追求理想美感和实际功能之间找到一个既不过分妥协又不显得突兀的平衡点呢？我不是挑剔，只是感觉这其实挺微妙的，大家怎么看呢？",
+      "response": "我不怎么看",
+      "prediction": "不妥协",
+      "scores": {
+        "wmd": 0.8543001561923624,
+        "sentence_similarity": 0.8696441650390625,
+        "normalized_length_similarity": 0.6,
+        "history_similarity": 0.8064996600151062,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "嗯……也许是我期望过高了，能不能说说你的想法呢？",
+      "response": "一起打游戏",
+      "prediction": "安静点",
+      "scores": {
+        "wmd": 1.2005007632334452,
+        "sentence_similarity": 0.559122622013092,
+        "normalized_length_similarity": 0.6,
+        "history_similarity": 0.7402386665344238,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "呵呵……一起打游戏当然重要呢，但是否也可以顺便聊聊设计细节呢？",
+      "response": "我对这些无所谓，别艺术了，你再说艺术我就离家出走了",
+      "prediction": "边玩边聊",
+      "scores": {
+        "wmd": 1.3195348748046485,
+        "sentence_similarity": 0.46731770038604736,
+        "normalized_length_similarity": 0.16,
+        "history_similarity": 0.6721198558807373,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，说到共享那些有限的冰箱空间，我真的觉得这就像雕塑一样，要在保持个人隐私和遵守集体规则之间找到完美的平衡！你觉得我们应该怎么做，才能既尊重每个人的独占空间，又不让整个共享环境变得紧张呢？这种冲突是不是也像艺术创作中的矛盾一样，有它独特的美感呢？",
+      "response": "确实",
+      "prediction": "一人一个",
+      "scores": {
+        "wmd": Infinity,
+        "sentence_similarity": 0.43809017539024353,
+        "normalized_length_similarity": 0.5,
+        "history_similarity": 0.704743504524231,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，太棒了！你觉得这种独特的美感怎么体现出来？快跟我分享！",
+      "response": "没有美感",
+      "prediction": "灯光",
+      "scores": {
+        "wmd": 1.290352151944751,
+        "sentence_similarity": 0.4891929030418396,
+        "normalized_length_similarity": 0.5,
+        "history_similarity": 0.5542553067207336,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "从逻辑上讲，如果大家都能严格遵守安静和整洁的规则，这种环境对你的学习和实现梦想会带来怎样的影响？会让你更高效、更有动力，还是说还有其他因素更重要？",
+      "response": "是的",
+      "prediction": "更高效，更有动力",
+      "scores": {
+        "wmd": 1.1904635575022748,
+        "sentence_similarity": 0.5777283906936646,
+        "normalized_length_similarity": 0.25,
+        "history_similarity": 0.7186270356178284,
+        "bleu": 0.0,
+        "ttr": 0.8333333333333334
+      }
+    },
+    {
+      "message": "你同意规则带来的积极影响吗？请具体说明你的想法。",
+      "response": "OK",
+      "prediction": "同意，安静点",
+      "scores": {
+        "wmd": 1.3079396987725218,
+        "sentence_similarity": -0.025825008749961853,
+        "normalized_length_similarity": 0.3333333333333333,
+        "history_similarity": 0.7217408418655396,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "让我们分析一下，你觉得哪些具体规则最能提升你的效率？",
+      "response": "没啥规则",
+      "prediction": "不打扰我",
+      "scores": {
+        "wmd": 1.3091726124970955,
+        "sentence_similarity": 0.4282803535461426,
+        "normalized_length_similarity": 1.0,
+        "history_similarity": 0.8074080348014832,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

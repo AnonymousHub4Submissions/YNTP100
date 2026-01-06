@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:15",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！说到公共区域的整洁，我们要不要来个轮流值日的打扫计划？大家觉得怎样分配任务最公平又高效？比如谁负责扫地，谁负责擦桌子，怎么安排才能让每个人都轻松又开心？大胆说说你的好主意吧！",
+            "response": "每人安排一天打扫吧。每一个月1号晚上大家抽一个小时集体大扫除。至于谁负责扫地，谁负责擦桌子，当天再安排吧。你们觉得怎么样",
+            "prediction": "我有个提案！每人都有自己的专责任务、例えば DaVinciさんは清洁の担当、Donatelloさんは食器の洗浄、Michelangeloさんはトイレの掃除、Raffaelloさんは台所の清掃。こうすることで、各自の役割が明確になり、責任感が生まれ、また、分担することで、負担が公平に分かれる。更に、各自の得意分野を生かすことで、仕事の質が向上し、家の清潔を保つことができます。",
+            "scores": {
+                "wmd": 1.0958485704006216,
+                "sentence_similarity": 0.4318767786026001,
+                "normalized_length_similarity": 0.3191489361702128,
+                "bleu": 0.0019125154084660256,
+                "ttr": 0.5639097744360902,
+                "history_similarity": 0.5936012864112854
+            }
+        },
+        {
+            "message": "嗯……既然我们都这么重视生活品质，我想问问大家，有没有什么看似不起眼但其实很关键的小习惯，或者必须要遵守的规矩？我不是挑剔，但这些细节往往决定了我们共同生活的舒适度呢。大家觉得呢？",
+            "response": "拿了东西要即及时放回原位",
+            "prediction": "Hi everyone, I'm excited to join this share house. As we all value the quality of life, I was wondering if there are any seemingly insignificant but actually crucial small habits or must-follow rules that I'm not aware of? These tiny details often determine the comfort level of our shared living space. What do you think?",
+            "scores": {
+                "wmd": 1.2948980952204652,
+                "sentence_similarity": -0.0669652447104454,
+                "normalized_length_similarity": 0.037267080745341616,
+                "bleu": 0.0,
+                "ttr": 0.4796747967479675,
+                "history_similarity": 0.09509814530611038
+            }
+        },
+        {
+            "message": "哇，大家对生活细节的关注让我灵感爆棚！说到公共空间设计，如果有机会参加一个讨论会，和大家一起提出改进方案，你会特别关注哪方面呢？是空间的美感、功能性，还是大家的互动体验？艺术就是要让空间和人产生共鸣，你怎么看？",
+            "response": "空间的美感、功能性，还是大家的互动体验，以及艺术等方面我都会关注",
+            "prediction": "Wow, I'm really inspired by the attention to detail in everyone's daily life! When it comes to public space design, if I had the opportunity to participate in a discussion meeting with everyone to come up with improvement proposals, I would pay special attention to the aspects that promote interaction and experience sharing among residents. As artists, I believe that art should create a harmonious resonance between space and people.",
+            "scores": {
+                "wmd": 1.2822907498592615,
+                "sentence_similarity": 0.09799496829509735,
+                "normalized_length_similarity": 0.07339449541284404,
+                "bleu": 0.0,
+                "ttr": 0.4,
+                "history_similarity": 0.14997942745685577
+            }
+        },
+        {
+            "message": "说到艺术和实用的平衡，从逻辑上讲，你认为在公共空间我们应该更多地加入实用设施，提升功能性，还是增强艺术氛围，让环境更有趣？这样选择的背后，你觉得哪个因素对提升生活质量更关键？",
+            "response": "加入实用设施，提升功能性是更重要的，因为要长期生活使用，艺术无法解决一些实际问题",
+            "prediction": "As a new resident of this share house, I think we should strike a balance between artistic and practical aspects in public spaces. While it's logical to prioritize practical facilities to enhance functionality, I believe that incorporating more artistic elements can also enrich our living environment and make it more interesting.\n\nIn this response, I considered the input provided, which discusses the balance between artistic and practical aspects in public spaces. I then predicted that the conversation would likely focus on how to achieve this balance in the share house. Therefore, I responded by expressing my opinion on the importance of balancing artistic and practical aspects in public spaces, and how it can contribute to enhancing our living environment.",
+            "scores": {
+                "wmd": 1.2756642365627993,
+                "sentence_similarity": 0.012012800201773643,
+                "normalized_length_similarity": 0.052083333333333336,
+                "bleu": 0.0,
+                "ttr": 0.30278884462151395,
+                "history_similarity": 0.22340404987335205
+            }
+        }
+    ]
+}

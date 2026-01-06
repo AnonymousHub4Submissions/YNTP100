@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:58",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, speaking of balancing things, I’ve got a curious question for you! Since you’re thinking long-term about your account balance, how do you feel about diving into some exciting but riskier investments like AI or clean energy? These emerging technologies could shoot your growth through the roof, but they do come with wild ups and downs! Would you be up for that thrilling ride or prefer to play it safe and steady? Share your boldest investment dream!",
+            "response": "It is the very interesting question! I'm always thinking that, but recently, I think these are the kinds of \"bubble\", so I prefer to invest on value stocks.",
+            "prediction": "I'll bet on growingizing my asset on my own steady pace.",
+            "scores": {
+                "wmd": 0.32832194570796785,
+                "sentence_similarity": 0.32109981775283813,
+                "normalized_length_similarity": 0.358974358974359,
+                "bleu": 0.0034856504477720246,
+                "ttr": 0.8461538461538461,
+                "history_similarity": 0.445872962474823
+            }
+        },
+        {
+            "message": "Oh... since we all cherish this lively ShareHouse environment, I wonder—would you be open to adopting a simple yet strictly upheld system for keeping our common areas tidy? I’m not being picky, but sometimes the creative freedom spills over into a bit of disorder, which makes it challenging to maintain a pleasant space. Perhaps my expectations are a tad high, but do you think such a balance between function and freedom is achievable?",
+            "response": "It is very important, so let's go to 100 yen shop to buy the separate boxes right now!",
+            "prediction": "保守主義riticizing him",
+            "scores": {
+                "wmd": 0.7536725033375697,
+                "sentence_similarity": 0.008959370665252209,
+                "normalized_length_similarity": 0.20930232558139536,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.09031898528337479
+            }
+        },
+        {
+            "message": "Wow, Raffaello, your vision for a space that’s both beautiful and functional truly sparks my artistic soul! Since we all treasure bursts of creativity, especially in this summer vibe, how do you feel about blending some flexible quiet hours to nurture inspiration while still keeping our home harmonious? Do you think that kind of rhythm could keep everyone’s creative fire burning strong without losing balance?",
+            "response": "shall we have a potluck party once a month to keep our balance?",
+            "prediction": "It is a difficult question !But I think you want to talk about Raffaelo, so the answer might be about Raffaelo.",
+            "scores": {
+                "wmd": 0.3490519046507663,
+                "sentence_similarity": -0.12302431464195251,
+                "normalized_length_similarity": 0.5675675675675675,
+                "bleu": 0.009410489957951634,
+                "ttr": 0.9166666666666666,
+                "history_similarity": 0.07689394056797028
+            }
+        },
+        {
+            "message": "Wow, what an awesome idea! A potluck party to gather all our creative energies and share the joy of food—art is not only in sculptures or paintings but in bringing people together! Imagine the colors, flavors, and stories mingling like a vibrant fresco on our dining table! That celebration could be the heartbeat of our ShareHouse, inspiring friendship and teamwork alongside tidiness and harmony. Let's paint this masterpiece of community with laughter and shared dishes—what dishes are you dreaming to bring?",
+            "response": "I want to bring \"Takoyaki\"",
+            "prediction": "I'd love to bring one of my favorite food from my home, Houlihuli chicken!",
+            "scores": {
+                "wmd": 0.5654946076431886,
+                "sentence_similarity": 0.4260772466659546,
+                "normalized_length_similarity": 0.35135135135135137,
+                "bleu": 0.026920508809559315,
+                "ttr": 0.9411764705882353,
+                "history_similarity": 0.2673289179801941
+            }
+        },
+        {
+            "message": "Very exciting ideas all around. Since we’ve agreed on a weekly cleaning schedule on Saturdays, logically speaking, would it improve efficiency if we add a brief monthly meeting afterward to review progress on our financial goals and living space improvements? Do you think this routine could help keep our motivation high and ensure our shared responsibilities stay balanced?",
+            "response": "It is very good idea, I think.",
+            "prediction": "I'm glad to see the progress like this! If it's not on Saturday morning, I can enjoy meeting because not against our concept!",
+            "scores": {
+                "wmd": 0.3619600730259869,
+                "sentence_similarity": 0.27538183331489563,
+                "normalized_length_similarity": 0.24,
+                "bleu": 0.014203609079723397,
+                "ttr": 0.8928571428571429,
+                "history_similarity": 0.40526193380355835
+            }
+        }
+    ]
+}

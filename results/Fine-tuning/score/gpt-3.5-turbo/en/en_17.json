@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:46",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we're all about that balance between practicality and style, how about we start a weekly fridge organization routine? Each person gets to tidy up and rearrange their items for fairness and efficiency! What do you think—would that help keep our shared space awesome and neat?",
+            "response": "I think that’s a great idea!",
+            "prediction": "I think that’s a great idea! A weekly fridge organization will definitely help maintain the balance in our shared space, and it’s a fair system, too.",
+            "scores": {
+                "wmd": 0.3309172593256372,
+                "sentence_similarity": 0.46958494186401367,
+                "normalized_length_similarity": 0.18791946308724833,
+                "bleu": 0.2283070457730447,
+                "ttr": 0.8823529411764706,
+                "history_similarity": 0.5585139989852905
+            }
+        },
+        {
+            "message": "Oh... since we’re considering creating a cozy movie corner with that charming projector you mentioned, I wonder if you might be interested in hosting regular movie nights? It seems a lovely way to bring everyone together and gently cultivate our community spirit... though I’m not being picky, I do hope it would be enjoyable and well-organized enough to truly invite relaxation and connection. Would you find that agreeable?",
+            "response": "Yes, please! I’m looking forward to it!",
+            "prediction": "Since I love movies and often watch them on streaming services, I think it would be great to host regular movie nights. I’d like to create a space where we can naturally interact with each other, and enjoy the films in a cozy and welcoming atmosphere. I also want to make it a place where we can share our thoughts and deepen our connections through the movies.",
+            "scores": {
+                "wmd": 0.32576619658166445,
+                "sentence_similarity": 0.21968874335289001,
+                "normalized_length_similarity": 0.10803324099722991,
+                "bleu": 0.006523131669239737,
+                "ttr": 0.7297297297297297,
+                "history_similarity": 0.40024420619010925
+            }
+        },
+        {
+            "message": "Wow, your passion for creating something meaningful really shines through! Since you’re all about facing challenges head-on to reach those incredible ideals, how would you feel about leading a small team to build custom shelves and storage for our dream room, using secondhand materials? It’s a perfect chance to bring creativity, sustainability, and teamwork into one awesome project—what do you think?",
+            "response": "It sounds fun to make something together! Let’s definitely do it!",
+            "prediction": "Since it’s a project that aligns with my values and allows me to take on a new challenge, I’d love to lead the team and create a wonderful space together!",
+            "scores": {
+                "wmd": 0.3043556256382632,
+                "sentence_similarity": 0.548708438873291,
+                "normalized_length_similarity": 0.42207792207792205,
+                "bleu": 0.017068857826795368,
+                "ttr": 0.8611111111111112,
+                "history_similarity": 0.43101850152015686
+            }
+        },
+        {
+            "message": "Logically speaking, as we dive into this creative project, should we also establish specific quiet hours in the share house to ensure everyone can balance active collaboration with necessary rest? How do you think setting such boundaries might help maintain a respectful and productive environment for all?",
+            "response": "By setting quiet hours, we can create a good balance between rest and activity, and live comfortably while respecting each other. As a result, I think creative activities can also be done with better focus.",
+            "prediction": "Since it can be hard to get a good night’s sleep in a share house, I think it’s important to set some rules to make sure everyone can rest and also enjoy living there. It’d be great to create an environment where we can respect each other’s lifestyles and work habits, and also have plenty of time to relax and recharge.",
+            "scores": {
+                "wmd": 0.1521026267952827,
+                "sentence_similarity": 0.4802797734737396,
+                "normalized_length_similarity": 0.64375,
+                "bleu": 0.02705696454779055,
+                "ttr": 0.726027397260274,
+                "history_similarity": 0.5505130290985107
+            }
+        }
+    ]
+}

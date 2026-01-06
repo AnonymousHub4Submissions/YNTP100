@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:58",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，说到创造空间，听说你想把琴房设计得既实用又美观！来，聊聊你最看重琴房里的什么功能？是收纳乐器还是那些炫酷的音响设备？太棒了，快告诉我你的想法！",
+            "response": "收纳乐器，不需要音响，我喜欢乐器最真实的声音",
+            "prediction": "琴房对我来说就是灵感的源泉，或许你会觉得有点不切实际，但我更看重那个纯粹创作的环境",
+            "scores": {
+                "wmd": 0.9240923547410755,
+                "sentence_similarity": 0.8025500178337097,
+                "normalized_length_similarity": 0.5365853658536586,
+                "bleu": 0.010713701843513142,
+                "ttr": 0.88,
+                "history_similarity": 0.7517364621162415
+            }
+        },
+        {
+            "message": "哦……说到收纳，我这边正在考虑如何把那些包装食品移出冰箱，毕竟空间有点紧张。我不是挑剔，不过如果能找到既整洁又方便的存放方式，会让整个空间显得更有秩序。你觉得我们可以尝试什么新的收纳方法呢？也许有什么你觉得特别实用的建议？",
+            "response": "为什么你总是说你不是挑剔",
+            "prediction": "或许我们不需要大动干戈，但重新布局一下空间，也许会有意想不到的好效果。冰箱里那些包装食品佔了不少地方，其实我们可以一起动动脑筋，比方说……",
+            "scores": {
+                "wmd": 1.1144961741607824,
+                "sentence_similarity": 0.557232677936554,
+                "normalized_length_similarity": 0.17391304347826086,
+                "bleu": 0.0,
+                "ttr": 0.875,
+                "history_similarity": 0.6989534497261047
+            }
+        },
+        {
+            "message": "哦…这话说出来，是想让气氛轻松些呢。我不是挑剔，但是有时候期望确实高了点呢。说到收纳，咱们还是回到那个如何保持空间整洁方便的问题吧？你有没有特别喜欢的收纳小妙招？",
+            "response": "没有，我觉得按使用频率放就好",
+            "prediction": "其实我一直觉得，生活就是要有自己的那份坚持和品质",
+            "scores": {
+                "wmd": 0.8949498054678122,
+                "sentence_similarity": 0.7751915454864502,
+                "normalized_length_similarity": 0.5833333333333334,
+                "bleu": 0.017395797375642234,
+                "ttr": 1.0,
+                "history_similarity": 0.7866665124893188
+            }
+        },
+        {
+            "message": "哇，说到大家共同维护公共区域，真的是一种艺术般的合作啊！你觉得有没有什么轻松又有创意的方法，让我们都能愉快地分担这份责任，让空间不仅整洁，还充满活力？",
+            "response": "卫生表",
+            "prediction": "或许我们可以设计一个“活力维护日”，大家轮流负责公共区域的清洁和布置，一起玩音乐或画画，把维护变成有趣的活动！",
+            "scores": {
+                "wmd": 1.284839092865467,
+                "sentence_similarity": 0.4532882571220398,
+                "normalized_length_similarity": 0.05454545454545454,
+                "bleu": 0.0,
+                "ttr": 0.8823529411764706,
+                "history_similarity": 0.6966949701309204
+            }
+        },
+        {
+            "message": "从逻辑上讲，如果琴房的隔音效果做到极致，你觉得这样会不会让我们更容易组织音乐聚会或者邀请朋友过来？这会不会成为增强团队互动的新契机？",
+            "response": "是的",
+            "prediction": "那我们就一起把琴房的隔音做到最好，然后举办一场轰动整个空间的音乐派对吧！",
+            "scores": {
+                "wmd": 1.1100892585832747,
+                "sentence_similarity": 0.625308096408844,
+                "normalized_length_similarity": 0.05555555555555555,
+                "bleu": 0.008687475782716616,
+                "ttr": 0.9545454545454546,
+                "history_similarity": 0.7416169047355652
+            }
+        }
+    ]
+}

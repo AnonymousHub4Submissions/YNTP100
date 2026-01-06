@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:29:03",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 来吧朋友！如果你突然中了大奖，拿到一个亿，你第一件疯狂想做的事是什么？别想太现实，大胆告诉我你最狂野的梦想吧！哈哈！\nA. 我想现实一点，搞个大房子然后拥有一间自己的大琴房，然后买很多乐器\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何分配？比如买房、购置乐器的预算占多少，剩下的钱你打算怎样投资或储蓄？\nA. 买房2000万，乐器5000万，剩下就够我生活了，或许开一家奶茶店之类的\n\nQ. 哇，你的梦想真的让我心潮澎湃！不过让我好奇，你的动力更多是源自那个明确的大目标，还是因为那些音乐和生活背后的情感与价值呢？艺术就是要有灵魂的火花，你怎么看？\nA. 艺术是我的一切\n\nQ. 哦……说到生活品质，我发现冰箱里那些包装食品占了不少空间。我不是挑剔，但毕竟新鲜的食材才是健康生活的基本，我们难道不该一起维护这份品质吗？你觉得呢？\nA. 包装食品也有它们的好处\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，说到创造空间，听说你想把琴房设计得既实用又美观！来，聊聊你最看重琴房里的什么功能？是收纳乐器还是那些炫酷的音响设备？太棒了，快告诉我你的想法！",
+            "response": "收纳乐器，不需要音响，我喜欢乐器最真实的声音",
+            "prediction": "我想看重的是收纳乐器。",
+            "scores": {
+                "wmd": 0.8446059758606104,
+                "sentence_similarity": 0.779463529586792,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.032996419469835704,
+                "ttr": 1.0,
+                "history_similarity": 0.8278307914733887
+            }
+        },
+        {
+            "message": "哦……说到收纳，我这边正在考虑如何把那些包装食品移出冰箱，毕竟空间有点紧张。我不是挑剔，不过如果能找到既整洁又方便的存放方式，会让整个空间显得更有秩序。你觉得我们可以尝试什么新的收纳方法呢？也许有什么你觉得特别实用的建议？",
+            "response": "为什么你总是说你不是挑剔",
+            "prediction": "我们可以尝试使用储蔵袋或透明袋来收纳包装食品，这样可以保持食品的新鲜度和视觉效果。加上可以容易地取出和存储包装食品。",
+            "scores": {
+                "wmd": 1.2015102433447504,
+                "sentence_similarity": 0.43678152561187744,
+                "normalized_length_similarity": 0.20689655172413793,
+                "bleu": 0.0,
+                "ttr": 0.7878787878787878,
+                "history_similarity": 0.7008765339851379
+            }
+        },
+        {
+            "message": "哦…这话说出来，是想让气氛轻松些呢。我不是挑剔，但是有时候期望确实高了点呢。说到收纳，咱们还是回到那个如何保持空间整洁方便的问题吧？你有没有特别喜欢的收纳小妙招？",
+            "response": "没有，我觉得按使用频率放就好",
+            "prediction": "我有一个方法是，收纳容器分为高低二部分，高部分用来存储不常用的物品，低部分用来存储日常使用的物品。这样可以很好地分区整理，提高空間利用率。",
+            "scores": {
+                "wmd": 0.9202275133072598,
+                "sentence_similarity": 0.5163393020629883,
+                "normalized_length_similarity": 0.2028985507246377,
+                "bleu": 0.00606212098164554,
+                "ttr": 0.7674418604651163,
+                "history_similarity": 0.6054924726486206
+            }
+        },
+        {
+            "message": "哇，说到大家共同维护公共区域，真的是一种艺术般的合作啊！你觉得有没有什么轻松又有创意的方法，让我们都能愉快地分担这份责任，让空间不仅整洁，还充满活力？",
+            "response": "卫生表",
+            "prediction": "我想通过一些有趣的活动、例えば每月组织一场“清洁大战”、或者定期的に“DIY日”，让大家一起维护公共区域。这些活动可以带来愉快感和一致感，促进大家之间的交流和合作。",
+            "scores": {
+                "wmd": 1.2836823828360626,
+                "sentence_similarity": 0.3649420738220215,
+                "normalized_length_similarity": 0.036585365853658534,
+                "bleu": 0.0,
+                "ttr": 0.7924528301886793,
+                "history_similarity": 0.6464385390281677
+            }
+        },
+        {
+            "message": "从逻辑上讲，如果琴房的隔音效果做到极致，你觉得这样会不会让我们更容易组织音乐聚会或者邀请朋友过来？这会不会成为增强团队互动的新契机？",
+            "response": "是的",
+            "prediction": "音楽聚会、邀請朋友、隔音效果、团队互动、逻辑上",
+            "scores": {
+                "wmd": 1.1799889806543913,
+                "sentence_similarity": 0.376369833946228,
+                "normalized_length_similarity": 0.08695652173913043,
+                "bleu": 0.0,
+                "ttr": 0.8,
+                "history_similarity": 0.5987153053283691
+            }
+        }
+    ]
+}

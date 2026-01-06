@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:49",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since you’re all about design over pure functionality for your music club room and love tackling challenges, tell me—what kind of emotions do you want that space to spark during a live performance? Ready to share that vibe you’re dreaming of? Awesome!",
+            "response": "I want to create a space where people can discover music genres they didn’t know and expand their own world.",
+            "prediction": "Friend, I want the music club room to feel like a small live house!",
+            "scores": {
+                "wmd": 0.3223578377385287,
+                "sentence_similarity": 0.432009220123291,
+                "normalized_length_similarity": 0.6203703703703703,
+                "bleu": 0.021118740211640723,
+                "ttr": 1.0,
+                "history_similarity": 0.48778417706489563
+            }
+        },
+        {
+            "message": "Oh... considering how much effort and precision you pour into your artistic vision, do you find yourself preferring to handle complex design projects alone to ensure every detail meets your standards, or would you welcome collaboration with others whose skills might complement yours? I’m not being picky, but understanding this might help us foster a truly harmonious creative environment... What are your thoughts?",
+            "response": "There’s a limit to what one person can do, so I welcome collaboration with others where our skills complement each other.",
+            "prediction": "I will carefully balance my own efforts with the strengths of my team members.",
+            "scores": {
+                "wmd": 0.21888528260809662,
+                "sentence_similarity": 0.4759581983089447,
+                "normalized_length_similarity": 0.6446280991735537,
+                "bleu": 0.00893130017187696,
+                "ttr": 0.9333333333333333,
+                "history_similarity": 0.4215031862258911
+            }
+        },
+        {
+            "message": "Wow, teamwork truly feeds the soul of creation! Speaking of living together and sharing spaces, how do you feel about setting some clear guidelines on noise levels? It could help everyone focus and rest comfortably—because every masterpiece needs the right environment to flourish, right? What’s your take on balancing energy and quiet in a shared home?",
+            "response": "Extra stress gets in the way of creative work, so I want to keep things quiet at night as a rule.",
+            "prediction": "Haha, I’ll keep it lively but fair—how about we all sign a “Nighttime Silence Pledge” from 11 PM to 7 AM, and give everyone a small “fridge space” to make things fair and fun!",
+            "scores": {
+                "wmd": 0.30930281853195113,
+                "sentence_similarity": 0.5292932391166687,
+                "normalized_length_similarity": 0.5542857142857143,
+                "bleu": 0.006708839685423083,
+                "ttr": 0.8604651162790697,
+                "history_similarity": 0.4998362958431244
+            }
+        },
+        {
+            "message": "Logically speaking, setting rules is one thing, but ensuring everyone follows them is another. Considering your proactive approach to avoid regrets and preference for acting first, how would you handle a situation where someone doesn’t respect the agreed-upon rules about cleanliness or noise?",
+            "response": "If it becomes a habitual behavior, I’d like to set up a discussion with everyone.",
+            "prediction": "Haha, let’s not make it too awkward—how about we all sign a “fun and responsibility” pledge to keep things awesome, and maybe assign everyone a small task to maintain that vibe!",
+            "scores": {
+                "wmd": 0.24177862559219324,
+                "sentence_similarity": 0.32706454396247864,
+                "normalized_length_similarity": 0.4576271186440678,
+                "bleu": 0.007928399830171252,
+                "ttr": 0.8947368421052632,
+                "history_similarity": 0.5331029295921326
+            }
+        }
+    ]
+}

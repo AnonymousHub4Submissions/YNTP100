@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:50:07",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making awesome memories together, imagine this: if we planned the perfect weekend getaway with our housemates to celebrate all this teamwork and fun, what would it look like? Mountains, beach, a city adventure? And what cool activities would you want us to do to make it unforgettable? Come on, share your boldest dream for a fun escape!",
+            "response": "Beach BBQ all the way! Plus, staying in a cute cottage or a luxurious villa would be amazing!",
+            "prediction": "I’d love to rent a luxury camping car for a road trip and go glamping at a beautiful campground in the mountains. On the second day, we could have a barbecue party and play games by the bonfire.",
+            "scores": {
+                "wmd": 0.2687141699794925,
+                "sentence_similarity": 0.5880132913589478,
+                "normalized_length_similarity": 0.4793814432989691,
+                "bleu": 0.006409912521492096,
+                "ttr": 0.8372093023255814,
+                "history_similarity": 0.35354042053222656
+            }
+        },
+        {
+            "message": "Oh... while the idea of lively gatherings certainly has its charm, I find myself pondering—if you were to choose between a spirited, albeit noisy, social event here at the share house and a tranquil evening devoted solely to your creative endeavors, which would truly align with your sense of fulfillment? I’m not being overly particular, but balancing joyful interaction with personal focus can be quite the delicate art, don’t you agree?",
+            "response": "It’s a tough choice, but I’d lean more toward the lively side. When I want quiet, I can adjust by going to a café or using earplugs, but creating a lively atmosphere on my own is much harder.",
+            "prediction": "If I had to choose, I think a tranquil evening dedicated to my creative endeavors would be more fulfilling.",
+            "scores": {
+                "wmd": 0.19056778964963295,
+                "sentence_similarity": 0.36278271675109863,
+                "normalized_length_similarity": 0.5602094240837696,
+                "bleu": 0.007920556889813846,
+                "ttr": 0.9047619047619048,
+                "history_similarity": 0.39882612228393555
+            }
+        },
+        {
+            "message": "Wow, imagine if our house had this amazing smart system that vibes with each of us—custom music, lighting, even fragrances that change to fit our moods perfectly! How do you think that kind of personalized art for our senses would spark new energy in your day or even in how we all connect here? It’s like turning everyday life into a masterpiece!",
+            "response": "I think it would help us relax and refresh, making it easier to come up with good ideas! Also, when we’re in a good mood, we tend to be kinder to others, which can deepen our connections and increase overall happiness!",
+            "prediction": "I think having a smart system tailored to each of us would make our shared life more convenient and also bring us closer together.",
+            "scores": {
+                "wmd": 0.1845689207289415,
+                "sentence_similarity": 0.40510234236717224,
+                "normalized_length_similarity": 0.5963302752293578,
+                "bleu": 0.008675097255503857,
+                "ttr": 0.96,
+                "history_similarity": 0.4245971739292145
+            }
+        },
+        {
+            "message": "Logically speaking, to maintain both personal freedom and a harmonious shared environment—especially considering limited fridge space and communal mess—what specific rules or habits do you think would balance individual needs while ensuring fairness and respect among all of us?",
+            "response": "First, I think it’s effective to assign duties, designate spaces, and set schedules. Then, as we put these into practice, it’s important to have a system where we can easily discuss things that aren’t working, and also to maintain flexibility so that the rules can be adjusted as needed.",
+            "prediction": "Labeling our own items in the fridge, cleaning up communal areas after using them, and proactively communicating if we have any plans are probably the most important.",
+            "scores": {
+                "wmd": 0.24851534973188147,
+                "sentence_similarity": 0.4206690788269043,
+                "normalized_length_similarity": 0.578397212543554,
+                "bleu": 0.0062163907368790955,
+                "ttr": 0.9333333333333333,
+                "history_similarity": 0.45722007751464844
+            }
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:51:12",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，说到创造空间，听说你想把琴房设计得既实用又美观！来，聊聊你最看重琴房里的什么功能？是收纳乐器还是那些炫酷的音响设备？太棒了，快告诉我你的想法！",
+            "response": "收纳乐器，不需要音响，我喜欢乐器最真实的声音",
+            "prediction": "收纳琴谱",
+            "scores": {
+                "wmd": 1.1266643285543896,
+                "sentence_similarity": 0.49000778794288635,
+                "normalized_length_similarity": 0.18181818181818182,
+                "bleu": 0.00037065990463274877,
+                "ttr": 1.0,
+                "history_similarity": 0.6816199421882629
+            }
+        },
+        {
+            "message": "哦……说到收纳，我这边正在考虑如何把那些包装食品移出冰箱，毕竟空间有点紧张。我不是挑剔，不过如果能找到既整洁又方便的存放方式，会让整个空间显得更有秩序。你觉得我们可以尝试什么新的收纳方法呢？也许有什么你觉得特别实用的建议？",
+            "response": "为什么你总是说你不是挑剔",
+            "prediction": "包装食品可以存放在其他地方，冰箱不一定需要",
+            "scores": {
+                "wmd": 1.1463638964910023,
+                "sentence_similarity": 0.5501033067703247,
+                "normalized_length_similarity": 0.5714285714285714,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7450164556503296
+            }
+        },
+        {
+            "message": "哦…这话说出来，是想让气氛轻松些呢。我不是挑剔，但是有时候期望确实高了点呢。说到收纳，咱们还是回到那个如何保持空间整洁方便的问题吧？你有没有特别喜欢的收纳小妙招？",
+            "response": "没有，我觉得按使用频率放就好",
+            "prediction": "我是虚拟助手，没有实体的物品所以不需要收纳",
+            "scores": {
+                "wmd": 0.9362589275909969,
+                "sentence_similarity": 0.834674596786499,
+                "normalized_length_similarity": 0.6666666666666666,
+                "bleu": 0.020448007360218394,
+                "ttr": 1.0,
+                "history_similarity": 0.7454599142074585
+            }
+        },
+        {
+            "message": "哇，说到大家共同维护公共区域，真的是一种艺术般的合作啊！你觉得有没有什么轻松又有创意的方法，让我们都能愉快地分担这份责任，让空间不仅整洁，还充满活力？",
+            "response": "卫生表",
+            "prediction": "我觉得定期举办清洁日或者小活动可能是一个好主意",
+            "scores": {
+                "wmd": 1.2650722668412135,
+                "sentence_similarity": 0.5595750212669373,
+                "normalized_length_similarity": 0.13043478260869565,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7481204867362976
+            }
+        },
+        {
+            "message": "从逻辑上讲，如果琴房的隔音效果做到极致，你觉得这样会不会让我们更容易组织音乐聚会或者邀请朋友过来？这会不会成为增强团队互动的新契机？",
+            "response": "是的",
+            "prediction": "不需要琴房",
+            "scores": {
+                "wmd": 1.2212869540332334,
+                "sentence_similarity": 0.4938749074935913,
+                "normalized_length_similarity": 0.4,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.8708527088165283
+            }
+        }
+    ]
+}

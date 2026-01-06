@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:57",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Just imagine—if you suddenly found yourself with 100 million in your hands, what's the wildest, most awesome thing you'd want to do first? Don’t hold back—let your boldest dreams run free!\nA. Well...if I found myself with 100 million in my hands, I would travel all around the world! \n\nQ. Very interesting dream! Next, let's analyze this realistically: if you had 100 million, how would you allocate it between traveling, investing for the future, and maybe saving or spending on other things? What proportions make the most sense to you?\nA. I guess I will save about 45% and invest about 40% of it - and use the other 15% to spend on traveling - I feel like 15 million is still a lot of money to spend on traveling.\n\nQ. Wow, your vision is truly amazing! I can feel the passion behind your plan—now I’m curious, what drives this dream more for you: is it a clear goal you’re aiming to achieve, or is it the excitement and values behind experiencing the world that fuel your journey? Art, life, dreams—they all have their own heartbeat! What’s yours?\nA. Well, it's not exactly a clear goal I am trying to achieve. It actually something thats away from what I want to achieve in life talking work wise. I guess its the excitement to meet new cultures, food, and art around the world, because I myself, though not professional, am a musician. \n\nQ. Oh... speaking of maintaining a certain quality of life, I couldn’t help but notice the shared refrigerator space is rather cramped lately, especially with so many packaged foods occupying the shelves. I’m not being picky, but don’t you think it’s important for all of us—yourself included—to have enough room to store fresh ingredients properly? Perhaps we could consider how best to balance our needs for convenience and quality living... What are your thoughts on ensuring this delicate harmony?\nA. Yeah, I think we gotta reduce the amount of packaged foods so we can fit more fresh ingredients properly. But I do think using packaged food is alright sometimes because we don't always have the time to cook ourselves healthy meals and the only thing we can do is not starve ourselves. \n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we're thinking about sharing fridge space mostly for fresh foods but still wanting to keep room for packaged meals, how about we take it up a notch and plan a weekly group cooking session? We can prep fresh meals together, bond over some awesome cooking, and make sure everyone's food gets the space it deserves! What do you say, friend? Ready to cook up some fun and teamwork?",
+            "response": "Yeah, that sounds like a great idea!! I will love cooking together!",
+            "prediction": "I'm totally on board! Weekly group cooking session sounds like a great idea!",
+            "scores": {
+                "wmd": 0.2626579095658673,
+                "sentence_similarity": 0.7227169275283813,
+                "normalized_length_similarity": 0.881578947368421,
+                "bleu": 0.3334477432809602,
+                "ttr": 0.9375,
+                "history_similarity": 0.41387397050857544
+            }
+        },
+        {
+            "message": "Oh… speaking of balancing utility and aesthetic in our living spaces, I wonder—if you had to choose, would you prefer furniture that is more multi-functional and space-saving, even if it might appear a bit simpler in design? I'm not being picky, but perhaps striking that balance is more delicate than it seems… What are your thoughts on this?",
+            "response": "Well...if we have limited space in our flat, I guess  I'd prefer furniture that is more multifunctional and space saving. That's life. However though, I think we could try to blast our creativity in other parts like decorations on the walls where we don't need to think about practicality.",
+            "prediction": "If I had to choose, I would prefer furniture that is more multi-functional and space-saving, even if it might appear a bit simpler in design.",
+            "scores": {
+                "wmd": 0.16301875524600845,
+                "sentence_similarity": 0.7230491638183594,
+                "normalized_length_similarity": 0.48788927335640137,
+                "bleu": 0.05651028544683455,
+                "ttr": 0.9285714285714286,
+                "history_similarity": 0.41734108328819275
+            }
+        },
+        {
+            "message": "Wow, your sense of balance really inspires me! Since we all thrive on different energies—some lively and some peaceful—how would you feel about setting special ‘quiet hours’ during the day where the whole house embraces calm and low noise? Could this rhythm help us all find that perfect flow between a vibrant buzz and soothing focus?",
+            "response": "I think that is a great idea, because even if we like each other and have fun spending time together, it is also important that we get some time to ourselves in privacy so that we can think deeply and focus on personal needs.",
+            "prediction": "I think setting special 'quiet hours' during the day could be a good idea. Because, I'm a musician and sometimes I need to focus on my music and quiet environment is necessary for me.",
+            "scores": {
+                "wmd": 0.20154891687254112,
+                "sentence_similarity": 0.2684960961341858,
+                "normalized_length_similarity": 0.8133333333333334,
+                "bleu": 0.015209980446547661,
+                "ttr": 0.8717948717948718,
+                "history_similarity": 0.4595189392566681
+            }
+        },
+        {
+            "message": "Logically speaking, since we all value both comfort and functionality in our long-term home, if you could select one improvement that would make your ideal room perfect in terms of comfort, what would that be? How do you see it enhancing our shared living experience?",
+            "response": "Maybe I would get a comfortable big sofa for the five us to share in the living room so we could have some quality time together there  - perhaps watch a movie together or just drink and talk. Shared hammock was a great idea but I figured we won't be able to use it together.",
+            "prediction": "I think it would be better if the room was a bit larger.",
+            "scores": {
+                "wmd": 0.18995476550994184,
+                "sentence_similarity": 0.38238945603370667,
+                "normalized_length_similarity": 0.20363636363636364,
+                "bleu": 0.001898776215497639,
+                "ttr": 1.0,
+                "history_similarity": 0.41512665152549744
+            }
+        }
+    ]
+}

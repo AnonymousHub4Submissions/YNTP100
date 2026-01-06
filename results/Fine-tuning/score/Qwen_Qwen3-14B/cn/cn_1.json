@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:51",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，聊到这儿，我忍不住想问问大家，关于咱们共享厨房呢！你们觉得咱们是要买菜分摊，大家一起做饭更有团队感，还是每个人负责自己的食材，互不干涉更自由？来吧，大胆说说你的想法，咱们一起把厨房变成大家都爱呆的地方！太棒了！",
+            "response": "还是倾向于每个人负责自己的食材吧，食物上共享可能会引起一些不同口味的人的接受不了",
+            "prediction": "我倾向于按个人喜好做菜，当然如果大家都很注重分享，可以适当调整",
+            "scores": {
+                "wmd": 0.9625514841754068,
+                "sentence_similarity": 0.5315994024276733,
+                "normalized_length_similarity": 0.775,
+                "bleu": 0.017377445506604895,
+                "ttr": 0.9473684210526315,
+                "history_similarity": 0.8263083100318909
+            }
+        },
+        {
+            "message": "哦……说到梦想房间呢，我不是挑剔，但是总觉得光有放松娱乐或学习工作还不够，或许还需要一个既能独处深思，又能偶尔社交的小空间。这种空间既不过于吵闹，也不会太孤单。也许是我期望过高了，不过大家心中理想的“梦想房间”里，最重要的功能到底是什么呢？你觉得呢？",
+            "response": "功能不需要复杂，既有个人独有的隐私区域，也有增加大家交流的公共区域",
+            "prediction": "创作与灵感",
+            "scores": {
+                "wmd": 1.2388814237515022,
+                "sentence_similarity": 0.3970884680747986,
+                "normalized_length_similarity": 0.15151515151515152,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.59062659740448
+            }
+        },
+        {
+            "message": "哇，你们对空间的理解真是太有深度了！说到创作时的噪音问题，你觉得通过合理的时间安排，还是建立专属的静音空间，哪个方法更符合艺术家的专注需求呢？或者你有什么更酷的解决方案，能让创作激情和环境和平共处？艺术就是要找到完美的平衡！",
+            "response": "静音空间吧。",
+            "prediction": "设置独立的创作房间更适合",
+            "scores": {
+                "wmd": 1.2201830857041378,
+                "sentence_similarity": 0.6274396777153015,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7137097120285034
+            }
+        },
+        {
+            "message": "说到公共区域，生活品质很大程度上取决于维护细节。你们觉得我们该如何合理分配这些清洁与维护的责任？是轮流来承担，还是根据个人习惯和时间安排做更细致的分工？从效率和公正角度看，哪个方案更合理？",
+            "response": "公平角度更重要",
+            "prediction": "从效率和公正角度来看，我认为可以按照“谁产生，谁清理”的原则进行责任划分，同时设置一些公共区域的共享清理时间。这样既保证了个人产生的垃圾及时清理，又不会让公共区域的维护成为一个人的负担。当然，对于一些大家都比较难清理或者清理频率高的区域，可以设置公共清理日，大家按照时间安排轮流清理。",
+            "scores": {
+                "wmd": 1.1438679209742217,
+                "sentence_similarity": 0.6773179769515991,
+                "normalized_length_similarity": 0.04929577464788732,
+                "bleu": 0.0021046569177111426,
+                "ttr": 0.6395348837209303,
+                "history_similarity": 0.6885444521903992
+            }
+        }
+    ]
+}

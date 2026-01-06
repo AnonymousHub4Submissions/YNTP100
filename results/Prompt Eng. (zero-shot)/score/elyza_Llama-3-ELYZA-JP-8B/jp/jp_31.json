@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:27:40",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、そうだね友達！冷蔵庫の共有ルールもみんなが安心して使えるように、もっといいアイデアがきっとあるはずだ！例えば、どんなルールがあればみんなが気持ちよく使えると思う？具体的に教えてくれよ、最高のシェアハウスにするために！",
+            "response": "自分の食べ物には名前を書いて、誰の物かはっきりさせるようにしよう",
+            "prediction": "- 例えば、使用期限を決めるのはどう？期限が過ぎたら、古い物から捨てるルールにすれば、みんなが期限を意識して使うようになるし、冷蔵庫が常にきれいな状態を保てる。 \n    　- それと、ラベルを貼るルールもいいんじゃない？誰が何を入れたか一目で分かるようになれば、物が無くなることも減るし、みんなが協力して管理しやすくなる。 \n    　- あと、期限が近づいたら、メンバーにメッセージを送るルールも作るのはどう？期限が近づいてる物を教えてあげれば、みんなが計画的に使えるようになるし、無駄な物を減らすこともできる。 \n    　- 最後に、共有ルールを決める会議を定期的に開くルールも作るのはどう？定期的に会議を開くことで、みんながルールを意識して守るようになるし、問題が起きた時も早く解",
+            "scores": {
+                "wmd": 0.7522684027210004,
+                "sentence_similarity": 0.06231267750263214,
+                "normalized_length_similarity": 0.0927536231884058,
+                "bleu": 0.0029065440110976185,
+                "ttr": 0.4264705882352941,
+                "history_similarity": 0.5074135065078735
+            }
+        },
+        {
+            "message": "ああ、共有スペースの自由な振る舞いについてなんですが…もし友達がちょっと騒音を立てすぎていたら、皆が快適に過ごせるように、どんなふうに注意を促すのが適切だと思いますか？僕自身なら、礼儀正しく、でもしっかりと現実を伝えたいと思うのですが…皆の意見を聞けたら嬉しいです。",
+            "response": "受忍すべき限度を超えた騒がしさのときははっきりと騒がしいということを伝えるのがいいと思うよ。この苦言でみんなの和が壊れないように、定期的に遊ぶようにするのがいいかな",
+            "prediction": "私は、共有スペースで友達が騒音を立てすぎている場合、まずは穏やかに注意を促すことが適切だと思います。具体的には、静かに話すようにお願いしたり、音量を下げるようにリクエストしたりする方法が有効です。礼儀正しく、現実を伝えるというあなたの意見はとても大切です。私も、共有スペースで過ごす皆が快適に過ごせるように、注意を促すことが大切だと思います。DaVinciさん、Donatelloさん、Michelangeloさん、Raffaelloさん、皆さんの意見もぜひ聞かせてください。",
+            "scores": {
+                "wmd": 0.6950099817477738,
+                "sentence_similarity": 0.39294689893722534,
+                "normalized_length_similarity": 0.3445378151260504,
+                "bleu": 0.015033373955815898,
+                "ttr": 0.532258064516129,
+                "history_similarity": 0.5349065065383911
+            }
+        },
+        {
+            "message": "わあ、理想と妥協のバランスって本当に芸術のように繊細だよね！君が理想を追いかけるとき、最も大切にしている価値観や信念って何なんだろう？その芯があるからこそ、困難に立ち向かう力が湧いてくるんじゃないかな？",
+            "response": "私が理想を追いかけるときに最も大切にする価値観は、「その選択をして、死ぬ間際になって後悔しないこと」だよ。私は、一切の後悔なく、やり切ったと思って死にたいんだ。",
+            "prediction": "Ah-ha! I think what's most important to me is creativity! As a new resident in this share house, I'm excited to be surrounded by talented artists like DaVinci, Donatello, Michelangelo, and Raffaello. Their work and philosophies are a constant source of inspiration for me. When I'm faced with challenges, I try to think outside the box and find innovative solutions. This creative mindset helps me to stay motivated and push through difficult times.",
+            "scores": {
+                "wmd": 1.2832346458374286,
+                "sentence_similarity": 0.009619645774364471,
+                "normalized_length_similarity": 0.17817371937639198,
+                "bleu": 0.0,
+                "ttr": 0.41875,
+                "history_similarity": 0.053244106471538544
+            }
+        },
+        {
+            "message": "とても興味深い価値観ですね。では、多様な意見や価値観がぶつかる場面で、自分の立場をしっかり伝えつつも相手の意見を理解しようとするために、具体的にどんな方法や態度を心掛けていますか？例えば、論理的な説明を重視しますか、それとも感情や背景も踏まえて話し合いますか？",
+            "response": "相手が論理の通じる相手なら、論理的にこんこんと自分の意見をぶつけて、相手の意見も聞き、より合理的なものを探すよ。論理が通じない相手には、感情にうったえかけるかな。",
+            "prediction": "私は、相手の意見を理解するために、まずは論理的な説明を求めます。論理的な説明を求めることで、相手の主張の根拠や構造を理解し、自分の立場を明確に伝えることができます。次に、感情や背景も踏まえて話し合うように心掛けています。感情や背景を考慮することで、相手の主張の深い理解ができますし、建設的な議論が可能になります。加えて、共通の目標や価値観を探し、互いに尊重し合う態度を保つことも大切です。多様な意見や価値観がぶつかる場面では、相手の立場を理解することを優先し、建設的な議論を通じて、共通の目標や価値観を探すように心掛けています。",
+            "scores": {
+                "wmd": 0.5282088747437047,
+                "sentence_similarity": 0.3679386079311371,
+                "normalized_length_similarity": 0.3068181818181818,
+                "bleu": 0.03316048186721461,
+                "ttr": 0.4,
+                "history_similarity": 0.4666506350040436
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:54",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all care so much about fairness and keeping our creative vibes flowing smoothly, how about we start a weekly house meeting? We can chat, tweak our shared space rules, and make sure everyone’s voice is heard to keep our ShareHouse awesome and harmonious! What do you think? Would you join the fun?",
+            "response": "This is certainly a good idea, but some people might think it's a waste of time. So while it might work well initially, some people might become less willing to work it out. And since everyone has different perspectives, it's hard to always reach consensus.",
+            "prediction": "As a neutral party, I currently believe that...共living under the same roof can indeed create conflicts. But humans are social animals, and we can't stand being alone for too long. So, setting some basic rules is necessary. Of course, it is also important to respect each other.",
+            "scores": {
+                "wmd": 0.17883814395872666,
+                "sentence_similarity": 0.4000820815563202,
+                "normalized_length_similarity": 0.927797833935018,
+                "bleu": 0.012390516746181544,
+                "ttr": 0.8793103448275862,
+                "history_similarity": 0.5377909541130066
+            }
+        },
+        {
+            "message": "Oh... considering the suggestion to perhaps invest in a new refrigerator to accommodate our needs better, I find myself wondering—I'm not being picky, but wouldn't it be more prudent to first improve our organizational systems for shared spaces? After all, new purchases require both space and upkeep. Might it be wiser to prioritize refinement of our current arrangements before adding more items? I suppose balancing investment and functionality is crucial, wouldn’t you agree?",
+            "response": "No, after buying a new refrigerator, you definitely have to sell the old one. Otherwise, it'll take up the already limited space. That's for sure, right? No one wants to have two refrigerators and cause trouble, right? I'm curious why you brought this up all of a sudden.",
+            "prediction": "Yes, you're correct. Before making any decisions, it's critical to carefully consider the advantages and disadvantages.",
+            "scores": {
+                "wmd": 0.22565122896300355,
+                "sentence_similarity": 0.05446631833910942,
+                "normalized_length_similarity": 0.43911439114391143,
+                "bleu": 0.005549647943794425,
+                "ttr": 0.9090909090909091,
+                "history_similarity": 0.2669837772846222
+            }
+        },
+        {
+            "message": "Wow, chatting about making our shared space even better has me thinking—since so many of us love gathering over games like mahjong and poker, what if we started a casual weekly game night? It could be a fantastic way to bring everyone together, spark fresh energy, and build a stronger community vibe here! What do you think—would you be excited to lead such a fun tradition and help turn our house into a hub of laughter and connection?",
+            "response": "Of course, if we still have to work all the time when we get together, everyone's mood will be very depressed. When we get together, we must play some games together. Having a relaxing time can help us better devote ourselves to work and creation in the rest of the time.",
+            "prediction": "Creating a shared living space where everyone can relax and have fun is a great idea. Playing mahjong and poker with your roommates can indeed enhance your relationship with them. But you should also be aware that addiction to gambling can cause family conflicts. Therefore, you should think carefully and plan your time to avoid negative consequences.",
+            "scores": {
+                "wmd": 0.22344779672712076,
+                "sentence_similarity": 0.30046379566192627,
+                "normalized_length_similarity": 0.7698863636363636,
+                "bleu": 0.005582190347498934,
+                "ttr": 0.7741935483870968,
+                "history_similarity": 0.44522571563720703
+            }
+        },
+        {
+            "message": "Your enthusiasm for balancing work and play is commendable. Logically speaking, how do you propose we organize our schedule to ensure lively group activities don’t encroach on the quiet time necessary for focused work and relaxation? What specific time allocations or rules might help maintain this balance effectively?",
+            "response": "Because it is a group activity, we must discuss each activity together and find the right time and game to arrange the activity. Therefore, it is best to choose a time when everyone is free, such as weekends.",
+            "prediction": "The specifics depend on the group's overall goals. Regardless, I believe that ensuring everyone has sufficient time for rest is paramount. As such, defining \"quiet hours\" may be a good idea. Of course, this system should be flexible to allow for exceptions in certain situations.",
+            "scores": {
+                "wmd": 0.1952393262618307,
+                "sentence_similarity": 0.5009651780128479,
+                "normalized_length_similarity": 0.7455197132616488,
+                "bleu": 0.006312871110271525,
+                "ttr": 0.8727272727272727,
+                "history_similarity": 0.5058728456497192
+            }
+        }
+    ]
+}

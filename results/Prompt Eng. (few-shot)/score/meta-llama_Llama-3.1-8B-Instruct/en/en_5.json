@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:29",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine this—we just found 100 million waiting for us! What’s the wildest, most awesome thing you’d do with that crazy fortune? Don’t hold back—let your imagination run wild!\nA. My dream is to invest everything in gambling and make even more money.\nIf it were me, I'd probably spend it on my hobbies like mountaineering and orienteering, or on books and computer equipment.\nThe rest I'd either invest or save.\n\n\nQ. Interesting approach with gambling and your hobbies—let’s analyze this logically: if you had to allocate that 100 million realistically, what proportions would you assign to investment, consumption, and savings?\nA. If I were to gamble, I'd go all in, 100%. If not, I'd probably put about 40% each into investments and savings. Immediate expenses like my hobbies would be at most 20%, as I think it would only cost about 20 million yen.\n\nQ. Wow, your dream is truly bold and full of daring spirit! I’m curious—does this all-in gambling passion come from a clear goal to hit a jackpot, or is it more about the thrill and emotion behind taking that risk? What’s the deeper motivation driving you to chase such an intense dream?\nA. I want to gamble simply because I want to have fun. Having fun is the most important thing. I've never done it before, so I want to try it. Besides, it wasn't my own money to begin with.\n\nQ. Oh... speaking of enjoying life’s pleasures, I couldn't help but notice the shared refrigerator space feels quite... cramped lately. I'm not being picky, but these packaged foods seem to consume much of the room that fresh, wholesome ingredients could occupy. Surely, we all hope to maintain a certain quality of life here, including in something as simple as our meals, don't we?\nA. You should discuss once how to use the common space, including the refrigerator.\n\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making our space both beautiful and functional, imagine we add a cozy washitsu room with traditional Japanese vibes—but with some clever modern touches to blend convenience and comfort! How would that mix of old and new make you feel about our ShareHouse? Would it inspire you or make you want to hang out there more? Share your awesome thoughts!",
+            "response": "Not just once a week, but at night we should generally keep quiet.\nCleaning once a week should be enough.",
+            "prediction": "I would be inspired to spend more time in the washitsu room. It would be a great place to relax and unwind. I would also appreciate the modern touches, such as a high-tech sound system or a large TV. It would be a great space to hang out and socialize with the others.     Answer:  I would be inspired to spend more time in the washitsu room. It would be a great place to relax and unwind. I would also appreciate the modern touches, such as a high-tech sound system or a large TV. It would be a great space to hang out and socialize with the others.     Answer:  I would be inspired to spend more time in the washitsu room. It would be a great place to relax and unwind. I would also appreciate the modern touches, such as a high-tech sound system or a large TV. It would be a great space to hang out and socialize with the others.     Answer:  I would be inspired to spend more time in the washitsu room. It would be a great place to relax and unwind. I would also appreciate the modern touches, such as a high-tech sound system or a large TV. It would be a great space to hang out and socialize with the others.",
+            "scores": {
+                "wmd": 0.24996558391580231,
+                "sentence_similarity": 0.129329115152359,
+                "normalized_length_similarity": 0.09425493716337523,
+                "bleu": 0.0011768240101945845,
+                "ttr": 0.1722689075630252,
+                "history_similarity": 0.5406732559204102
+            }
+        },
+        {
+            "message": "Haha, friend, that’s such an awesome idea! Quiet nights are perfect for recharging those batteries, right?! Keeping the night peaceful every day definitely helps everyone get top-notch rest! And cleaning once a week? Super efficient and eco-friendly, just the right balance! Imagine how peaceful our ShareHouse will feel with that calm nighttime vibe and sparkling clean spaces! Let’s make this a cozy, chill zone everyone loves to come home to! What else do you think would make our ShareHouse even more awesome? Share your cool ideas, friend! Haha!",
+            "response": "If we make a rule against keeping personal belongings in common areas, I think it would make problems much less likely to occur.",
+            "prediction": "I think we should make a shared calendar to keep track of everyone's schedules and preferences, so we can plan our cleaning and quiet nights accordingly. That way, we can make sure everyone has a say in how the space is used and when. We can also use the calendar to plan group activities and events, which can help foster a sense of community and make our ShareHouse feel even more like a home.     Answer:  I think we should make a shared calendar to keep track of everyone's schedules and preferences.     Answer:  We can make sure everyone has a say in how the space is used and when.     Answer:  We can use the calendar to plan group activities and events.     Answer:  It can help foster a sense of community and make our ShareHouse feel even more like a home.     Answer:  We can make sure everyone has a say in how the space is used and when.     Answer:  It can help foster a sense of community and make our ShareHouse feel even more like a home.     Answer:  We can use the calendar to plan group activities and events.     Answer:  It can help foster a sense of community and make our ShareHouse feel even more like a home.     Answer:  We can",
+            "scores": {
+                "wmd": 0.21565425422366666,
+                "sentence_similarity": 0.2937418818473816,
+                "normalized_length_similarity": 0.11082251082251082,
+                "bleu": 0.0028763356437135597,
+                "ttr": 0.25213675213675213,
+                "history_similarity": 0.600171685218811
+            }
+        },
+        {
+            "message": "Oh... since we all desire a harmonious and well-kept living space, might I gently suggest the idea of holding a weekly meeting to discuss and perhaps refine our shared space usage and cleanliness guidelines? I'm not being picky, but such a thoughtful gathering could help maintain the elegance and order we all appreciate. Would this be something you find agreeable, do you think?",
+            "response": "To be sure, participation isn't mandatory, but I'd think a few minutes of discussion would be fine.",
+            "prediction": "I think that's a great idea, and it would be really helpful to establish some ground rules for the common space. I'm sure we can all agree on what's reasonable and respectful.     Answer: I think that's a great idea, and it would be really helpful to establish some ground rules for the common space. I'm sure we can all agree on what's reasonable and respectful.     Answer: I think that's a great idea, and it would be really helpful to establish some ground rules for the common space. I'm sure we can all agree on what's reasonable and respectful.     Answer: I think that's a great idea, and it would be really helpful to establish some ground rules for the common space. I'm sure we can all agree on what's reasonable and respectful.     Answer: I think that's a great idea, and it would be really helpful to establish some ground rules for the common space. I'm sure we can all agree on what's reasonable and respectful.     Answer: I think that's a great idea, and it would be really helpful to establish some ground rules for the common space. I'm sure we can all agree on what's reasonable and respectful.     Answer: I think that's a great idea, and it",
+            "scores": {
+                "wmd": 0.2325942486141492,
+                "sentence_similarity": 0.36629611253738403,
+                "normalized_length_similarity": 0.08512467755803955,
+                "bleu": 0.0022629658624549716,
+                "ttr": 0.144,
+                "history_similarity": 0.33847177028656006
+            }
+        },
+        {
+            "message": "Wow, what an inspiring conversation about creating harmony and order through thoughtful rules and gatherings! Speaking of sharing and celebrating what we love, imagine if we could bring a burst of traditional Japanese culture right here into our ShareHouse—what kind of immersive, creative experience or fun activity would you propose to truly share the spirit and beauty of that culture with everyone? Would it be something hands-on, like a tea ceremony or calligraphy workshop, or perhaps a vibrant storytelling session that captures the heart and history? I’d love to hear your vision—art is all about sharing passion and connection, after all!",
+            "response": "Indeed, for a tea ceremony, I think we could prepare everything quickly. Fine, I'll do it.",
+            "prediction": "I'd propose a traditional Japanese tea ceremony, which is not only a beautiful and meaningful experience but also a unique opportunity for us to connect and bond over our shared interest in Japanese culture. It would be a hands-on experience where everyone can participate in preparing and serving the tea, which would not only be a fun and interactive activity but also a chance for us to learn about the traditional Japanese tea ceremony and its significance. We could also incorporate some Japanese calligraphy and traditional Japanese music to create a truly immersive experience. It would be a great way for us to come together and celebrate our shared love of Japanese culture.     Answer: I'd propose a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional Japanese tea ceremony.     Answer: a traditional",
+            "scores": {
+                "wmd": 0.2573759319949208,
+                "sentence_similarity": 0.47881922125816345,
+                "normalized_length_similarity": 0.06396588486140725,
+                "bleu": 0.005127986444221216,
+                "ttr": 0.2928870292887029,
+                "history_similarity": 0.4562762975692749
+            }
+        },
+        {
+            "message": "Logically speaking, communication is crucial in shared living spaces. If we had a digital notice board where everyone could post requests or updates about shared areas, would you find it efficient to use? What types of messages would you consider important enough to post there?",
+            "response": "I don't think there's much demand for this, but it's good for collecting notes and other documents in one place.",
+            "prediction": "Yes, I would find it efficient to use. I would post messages about my personal space, like my room or my desk. I would also post messages about the shared spaces, like the living room or the kitchen. It would be helpful to have a central place to communicate with the other residents about things like cleaning schedules, shared expenses, or upcoming events. I would also post messages about my personal schedule, like when I would be out of town or when I would be having guests over. This would help prevent any confusion or conflicts with the other residents.     Answer: Yes, I would find it efficient to use. I would post messages about my personal space, like my room or my desk. I would also post messages about the shared spaces, like the living room or the kitchen. It would be helpful to have a central place to communicate with the other residents about things like cleaning schedules, shared expenses, or upcoming events. I would also post messages about my personal schedule, like when I would be out of town or when I would be having guests over. This would help prevent any confusion or conflicts with the other residents.     Answer: Yes, I would find it efficient to use. I would post messages about my personal space, like my room or my desk.",
+            "scores": {
+                "wmd": 0.18757267277658518,
+                "sentence_similarity": 0.32224857807159424,
+                "normalized_length_similarity": 0.08888888888888889,
+                "bleu": 0.001102251472265716,
+                "ttr": 0.23228346456692914,
+                "history_similarity": 0.35842594504356384
+            }
+        }
+    ]
+}

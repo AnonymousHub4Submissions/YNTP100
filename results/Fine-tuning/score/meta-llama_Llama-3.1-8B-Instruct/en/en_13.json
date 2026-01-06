@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:26",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re talking about keeping things balanced and fun, imagine if we planned a spontaneous weekend getaway together! What kind of unexpected local adventures or unique experiences would you want to throw into the mix to make it unforgettable? Come on, let’s dream big and bold!",
+            "response": "How about oging for a hike in the mountains? We can even camp there for a night. If the outdoors is not to everyones liking we could go do something like sky-diving!",
+            "prediction": "Well, there is a pretty cool escape room in our area that is quite challenging, we could give it a try.",
+            "scores": {
+                "wmd": 0.24884463914560803,
+                "sentence_similarity": 0.43729493021965027,
+                "normalized_length_similarity": 0.6242424242424243,
+                "bleu": 0.014964961224648316,
+                "ttr": 0.875,
+                "history_similarity": 0.32150596380233765
+            }
+        },
+        {
+            "message": "Oh... since we are embracing the spirit of shared adventures, I wonder if you might be interested in a little ritual of ours—venturing together to the fresh produce market weekly to select the finest ingredients for a communal meal? I'm not being picky, but fresh, thoughtfully chosen foods do inspire creativity in the kitchen and beyond. Perhaps dishes with a Mediterranean flair, where simplicity meets elegance, would suit our refined tastes? What do you think about this little culinary tradition joining our spirited gatherings?",
+            "response": "Sounds great! Thank you for inviting me to join you in your tradition! I love Mediterranean food",
+            "prediction": "Well, seems to be a reasonable request.",
+            "scores": {
+                "wmd": 0.5626752199143039,
+                "sentence_similarity": 0.11667367815971375,
+                "normalized_length_similarity": 0.40625,
+                "bleu": 0.007894145539546107,
+                "ttr": 1.0,
+                "history_similarity": 0.15711946785449982
+            }
+        },
+        {
+            "message": "Wow, your vision of shared experiences is truly inspiring! Thinking of our living space—how important is it for you that the room sparks lively social moments versus offering a quiet sanctuary for reflection? Would you craft the space differently to capture those distinct moods, like sculpting two masterpieces from one block of marble?",
+            "response": "I would rather focus on only one purpose for the room. I think we should make it more social and for everyone, since we each have our own space in our bedrooms where we can be more reflective.",
+            "prediction": "I guess the type of people that will be living there will dictate the type of atmosphere, so maybe a mix of both?",
+            "scores": {
+                "wmd": 0.28413651223450476,
+                "sentence_similarity": 0.15977849066257477,
+                "normalized_length_similarity": 0.5885416666666666,
+                "bleu": 0.005649253815540524,
+                "ttr": 0.8,
+                "history_similarity": 0.25613924860954285
+            }
+        },
+        {
+            "message": "Your enthusiasm for a lively social space is clear, which is excellent. However, logically speaking, when we face constraints like limited budget or space, this vision might require some compromises. How would you approach balancing function and aesthetics under such constraints? Would you prioritize creating a functional social hub, preserving aesthetic appeal, or seek a creative compromise that addresses both?",
+            "response": "I think the best aproach is to maintain a minimalist aesthetic, that gives us more room to adapt to the functionality we want to create. There should be a measurre of both, but we should do our best to fulfill the function with our limited resorces",
+            "prediction": "Well, if it's an choose between function and aesthetic, I would choose the latter, the room can be renovated again in the future but to make sure it's running properly and everyone can use it, we should focus on making it a functional space.",
+            "scores": {
+                "wmd": 0.14959966596152985,
+                "sentence_similarity": 0.564773440361023,
+                "normalized_length_similarity": 0.9717741935483871,
+                "bleu": 0.015198233764435014,
+                "ttr": 0.7647058823529411,
+                "history_similarity": 0.5244061946868896
+            }
+        }
+    ]
+}

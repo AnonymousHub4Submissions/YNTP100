@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "DPO",
+        "date": "2025-12-18 11:57:45",
+        "instruction": "You are a resident of a shared house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello. Please think of a response to the conversation.",
+        "chat_template": "\n    <|start_header_id|>system<|end_header_id|>\n    {system}\n    <|eot_id|>\n    \n    <|start_header_id|>user<|end_header_id|>\n    {user}\n    <|eot_id|>\n    \n    <|start_header_id|>assistant<|end_header_id|>\n    {assistant}\n    <|eot_id|>\n    "
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友！那我们是不是可以制定一个详细的“晚间安静时间”规则，这样大家心里都有数，睡觉时间超棒又安静！你觉得这样合理吗？还是说我们用别的方式来解决，搞得更灵活一些？说说你的想法吧！",
+            "response": "每个人晚上的睡眠时间区间取并集，这个时间保持安静就行",
+            "prediction": "That's a great idea! I think it's really reasonable to establish a detailed \"Quiet Time\" rule to ensure everyone's peaceful sleep and relaxation time.",
+            "scores": {
+                "wmd": 1.2934001942190314,
+                "sentence_similarity": -0.017753351479768753,
+                "normalized_length_similarity": 0.17333333333333334,
+                "bleu": 0.0,
+                "ttr": 0.49122807017543857,
+                "history_similarity": 0.038416966795921326
+            }
+        },
+        {
+            "message": "既然大家都在意生活的便利性……我倒挺好奇的，你们在梦想房间里，会优先选择哪类智能设备或者家具呢？我不是挑剔，但毕竟空间有限，功能性又要和品质感兼顾，这样用起来才会顺手，你觉得呢？",
+            "response": "我提议扫地机器人",
+            "prediction": "What a fascinating topic! As a resident of this shared house, I'm happy to share my thoughts.\n\nI think, if I were to dream up my ideal room, I would prioritize smart devices over smart furniture. Smart devices can enhance the functionality and convenience of my room, whereas smart furniture might change the layout or design of my room, which could be challenging in a shared space.\n\nFor example, smart lighting, thermostats, or air quality sensors can make my life easier and more comfortable. These devices can also be controlled remotely or voice-assisted, which would be fantastic!\n\nSmart furniture, on the other hand, might require significant changes to the room's layout or design, whichは、共有スペースであるこの家では、他の住人との調整や協力が必要になるかもしれない。\n\nOf course,個人的な好みや優先順位は人それぞれなので、DaVinci、Donatello、Michelangelo、Raffaelloの皆さんは、どのようにお考えなのか、ぜひ聞かせてください!",
+            "scores": {
+                "wmd": 1.2790069909861235,
+                "sentence_similarity": 0.0723498985171318,
+                "normalized_length_similarity": 0.00954653937947494,
+                "bleu": 0.0,
+                "ttr": 0.4005681818181818,
+                "history_similarity": 0.20082490146160126
+            }
+        },
+        {
+            "message": "哇，听你们说得这么实用，我突然灵感迸发了！如果在这个实用的房间里，加个小小的艺术角落，像是悬挂创意灯光或者摆放特别的艺术装饰品，你们觉得这样的点缀会不会让生活多点激情和灵魂的火花呢？艺术就是生活的心跳，你们怎么看？",
+            "response": "额，对艺术没什么概念。不过搞点小装饰能让心情更加愉悦。",
+            "prediction": "What a wonderful idea! I completely agree with you, adding a small art corner to our practical room could bring more excitement and soul to our lives.",
+            "scores": {
+                "wmd": 1.2760564420216076,
+                "sentence_similarity": 0.17152884602546692,
+                "normalized_length_similarity": 0.18,
+                "bleu": 0.0,
+                "ttr": 0.5,
+                "history_similarity": -0.02480531856417656
+            }
+        },
+        {
+            "message": "从逻辑上讲，生活区域的整洁和生熟分开是关键。你们觉得设立简单明确的分工或规则，比如谁负责哪些区域、清洁频率如何安排，是否能有效提高大家的遵守度？这样既保证效率，也维护了生活品质，你们怎么看？",
+            "response": "公共区域的清洁，比如冰箱和灶台的打扫，可以写个排班表。其他公共区域麻烦自己产生的垃圾自己带走。",
+            "prediction": "生活区域の整頓と生熟分離は、共有生活を送る上でとても重要なことですね。私も同感です。設立する分工や規則は、明確で簡単なものがいいと思います。例えば、各自が責任を持つ区域を決める、清潔頻度を決める、などです。\n\n実際に、私達の共有家でも、各自が分担して掃除や洗濯をしています。私達の家では、各自の部屋の掃除は個々で行い、共有スペースの掃除はローテーションで分担しています。共有スペースの清潔頻度は、週に2回、各自が交代で掃除をしています。\n\nこのように、明確な分工や規則を設けることで、各自の責任が明確になり、遵守度も高まると思います。更に、共有家の生活品質も向上すると思います。",
+            "scores": {
+                "wmd": 1.0390412681469077,
+                "sentence_similarity": 0.23479154706001282,
+                "normalized_length_similarity": 0.16262975778546712,
+                "bleu": 0.0010500602347028047,
+                "ttr": 0.35269709543568467,
+                "history_similarity": 0.35197028517723083
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:57",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们，说到共同生活，冰箱那块可不能马虎！如果我们给冰箱划分个人专属区域，每个人都能有属于自己的小天地，你觉得这样是最合理的吗？还是有什么妙招能让冰箱空间更公平更有序呢？快说说你的想法吧，太棒了！",
+            "response": "我觉得安人数大致平均分配冰箱面积比较好",
+            "prediction": "从实用和公平的角度出发，冰箱划分个人专属区域确实是个不错的主意",
+            "scores": {
+                "wmd": 0.9153002121446364,
+                "sentence_similarity": 0.7061910629272461,
+                "normalized_length_similarity": 0.6129032258064516,
+                "bleu": 0.010182425646195498,
+                "ttr": 0.9473684210526315,
+                "history_similarity": 0.6255167722702026
+            }
+        },
+        {
+            "message": "嗯……既然我们说到了冰箱的空间分配，我想顺便提一个关于整个房间清洁和维护的问题。毕竟生活环境如果不能保持整洁，视觉上也会显得杂乱无章。我不是挑剔，但是……你们觉得怎么安排‘梦想房间’的清洁和维护，才能既保持美观，又方便大家使用呢？我总觉得光靠大家自觉，恐怕难以达到理想状态呢。",
+            "response": "我觉得一人一天，大家轮流每天打扫比较好",
+            "prediction": "从实用和公平的角度出发，我觉得制定一个明确的清洁值日表和公共区域维护公约会比较好",
+            "scores": {
+                "wmd": 0.9465348116402341,
+                "sentence_similarity": 0.56098473072052,
+                "normalized_length_similarity": 0.475,
+                "bleu": 0.025023885065808108,
+                "ttr": 0.9166666666666666,
+                "history_similarity": 0.8034355640411377
+            }
+        },
+        {
+            "message": "哇，这个问题太现实又太艺术了！生活和创作需要空间的自由和安静的休息，两者怎么能完美共存呢？如果有人既想自由挥洒创意，又需要安静时光，你觉得我们该如何协调这两种看似冲突的需求，达到一个既尊重个人又维护整体和谐的状态呢？艺术就是找到平衡的魔法，对吧？",
+            "response": "自由挥洒创意时如果会影响到其他人或许可以不在公共区许而在私密空间进行呢",
+            "prediction": "从逻辑上讲，你的建议确实有助于维持基本的生活秩序。但我们创作时，确实会有一些“非常规”的需求，比如：  \n- 突然的噪音（比如敲击声、喊叫）  \n- 不定期的“空间占领”（比如需要整块区域做项目）  \n- 对“整洁”和“规律”的挑战（比如材料散落、时间不固定）  \n\n这些“创作必需品”会不会……在冰箱清理日被“整理”掉？",
+            "scores": {
+                "wmd": 1.0366239874031815,
+                "sentence_similarity": 0.6446951031684875,
+                "normalized_length_similarity": 0.21739130434782608,
+                "bleu": 0.002385005959470808,
+                "ttr": 0.6017699115044248,
+                "history_similarity": 0.6629618406295776
+            }
+        },
+        {
+            "message": "从逻辑上讲，既然打扫任务和创作需求都需要合理安排，我们是不是可以制定一个详细的值日表，不仅明确谁负责哪天的清洁，还能合理分配安静创作的时间和空间？你觉得这样做在实际操作中最关键的环节是什么？",
+            "response": "在已经有详细值日表的前提下，最关键的是要靠大家自觉吧",
+            "prediction": "就是会太理想化",
+            "scores": {
+                "wmd": 1.1364873559503446,
+                "sentence_similarity": 0.5594027042388916,
+                "normalized_length_similarity": 0.2692307692307692,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.6764441132545471
+            }
+        }
+    ]
+}

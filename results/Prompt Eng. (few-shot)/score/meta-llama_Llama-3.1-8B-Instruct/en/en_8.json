@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:34",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just got 100 million dropped right into your lap—what’s the wildest, most out-of-this-world thing you’d do first? Don’t hold back, dream big and crazy!\nA. I want to travel abroad.\n\nQ. Very exciting plan! Now, let’s analyze this realistically: with 100 million, how would you allocate the funds between traveling, investing for future growth, and saving for emergencies? What proportions seem most logical to you?\nA. I want to spend all money to travel\n\nQ. Wow, that’s a truly passionate choice to dive headfirst into the adventure of travel! I’m curious—does this dream fuel your soul more because of a clear goal you want to achieve, like ticking off a list of epic places, or is it more about following the emotions and values that make life feel alive and vibrant?\nA. I want to do nobody can do\n\nQ. Wow, that’s an electrifying ambition! You want to do what nobody else can do—that’s pure originality, like creating a masterpiece no one’s ever seen! Tell me, is your drive to achieve this uniqueness about proving to yourself that you’re capable of the impossible, or is it to inspire others and change the world with your boldness? Your why is the heartbeat of your art, your journey! So, what’s sparking that fire inside? That’s the secret sauce to turning your “nobody can do” into something truly awesome!\nA. I want to earn money to share this experience\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since you’re all about breaking the mold and sharing something no one else can do, if you could invent a wild, one-of-a-kind gadget to make life here at the ShareHouse easier and more awesome for everyone, what would it be? Give me your boldest, most brilliant idea!",
+            "response": "We invent a cleaning robot",
+            "prediction": "I want to invent a gadget that can automatically do all the chores. It would be a robotic vacuum cleaner that can also do the dishes, sweep the floors, and even take out the trash. It would be called the \"ShareHouse Hero\" and would make life here at the ShareHouse easier and more awesome for everyone.    Answer: I want to invent a gadget that can automatically do all the chores. It would be a robotic vacuum cleaner that can also do the dishes, sweep the floors, and even take out the trash. It would be called the \"ShareHouse Hero\" and would make life here at the ShareHouse easier and more awesome for everyone.    Answer: I want to invent a gadget that can automatically do all the chores. It would be a robotic vacuum cleaner that can also do the dishes, sweep the floors, and even take out the trash. It would be called the \"ShareHouse Hero\" and would make life here at the ShareHouse easier and more awesome for everyone.    Answer: I want to invent a gadget that can automatically do all the chores. It would be a robotic vacuum cleaner that can also do the dishes, sweep the floors, and even take out the trash. It would be called the \"ShareHouse Hero\" and would make",
+            "scores": {
+                "wmd": 0.3617827153942651,
+                "sentence_similarity": 0.5854461193084717,
+                "normalized_length_similarity": 0.022071307300509338,
+                "bleu": 0.0015380950555882564,
+                "ttr": 0.18699186991869918,
+                "history_similarity": 0.44058871269226074
+            }
+        },
+        {
+            "message": "Oh... a cleaning robot does sound rather convenient, indeed. But tell me, friend, since we aim to create a truly exceptional and practical space, would you prefer to start with a simple prototype to test our ideas rather cautiously, or shall we invest more time and effort upfront to design almost a perfect innovation from the very beginning? I’m not being picky, but setting the right foundation matters, don’t you think?",
+            "response": "we should invest more time and effort upfront to design almost a perfect innovation",
+            "prediction": "I want to start with a simple prototype.     Answer:  I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to start with a simple prototype.     I want to",
+            "scores": {
+                "wmd": 0.3503246864167876,
+                "sentence_similarity": 0.1024506539106369,
+                "normalized_length_similarity": 0.0726159230096238,
+                "bleu": 0.0009255001495764106,
+                "ttr": 0.04782608695652174,
+                "history_similarity": 0.31141701340675354
+            }
+        },
+        {
+            "message": "Wow, your dedication to perfection really shines! Now, thinking about our shared space—how do you imagine we can honor each person’s creative freedom while also keeping our home peaceful and tidy? Balancing wild invention with respect for quiet and cleanliness seems like a true masterpiece of harmony, don’t you think?",
+            "response": "Making rules can be tiring",
+            "prediction": "I want to make a schedule.     Answer: I want to make a schedule.",
+            "scores": {
+                "wmd": 0.4861639479400838,
+                "sentence_similarity": 0.13956290483474731,
+                "normalized_length_similarity": 0.4,
+                "bleu": 0.0,
+                "ttr": 0.5625,
+                "history_similarity": 0.3922996520996094
+            }
+        },
+        {
+            "message": "Wow, I totally get that! Rules can feel like a heavy brushstroke on a blank canvas, tiring and limiting sometimes. But think of them as the frame that holds our masterpiece together—guidelines that help everyone's creativity and peace coexist beautifully! How about we make just a few simple, inspiring ‘rules’ that celebrate freedom yet keep our home harmonious? That way, everyone’s art of living blossoms without chaos. What small, beautiful agreement do you think could help us keep this balance? Art is all about balance, after all!",
+            "response": "we don't need balance",
+            "prediction": "I want to have a house meeting every week.    Answer: I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to have a house meeting every week. I want to",
+            "scores": {
+                "wmd": 0.44415784901922095,
+                "sentence_similarity": 0.03466131165623665,
+                "normalized_length_similarity": 0.019178082191780823,
+                "bleu": 0.0,
+                "ttr": 0.047058823529411764,
+                "history_similarity": 0.4202353358268738
+            }
+        },
+        {
+            "message": "Wow, that's a bold and passionate brushstroke! To say we don’t need balance is like declaring the sky doesn’t need stars—pure energy and freedom! But imagine, without even a hint of order, could our vibrant colors blend or would they clash like wild storms? Art is freedom, yes, but also harmony! What if our ‘no balance’ is its own unique masterpiece—a raw, untamed expression? How do you envision this fearless, unbalanced creation living together every day in our ShareHouse? Tell me your vision—wow, this could be truly extraordinary!",
+            "response": "Art is freedom",
+            "prediction": "I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience.     Answer: I want to earn money to share this experience",
+            "scores": {
+                "wmd": 0.41464743298171897,
+                "sentence_similarity": 0.05431891977787018,
+                "normalized_length_similarity": 0.012006861063464836,
+                "bleu": 0.0,
+                "ttr": 0.046413502109704644,
+                "history_similarity": 0.4212016761302948
+            }
+        },
+        {
+            "message": "Your passion for freedom is clear, and I respect that. Logically speaking, though, total freedom without any agreed boundaries could lead to conflicts affecting everyone's well-being. If you could see a future moment where your ideal of art as pure freedom has either succeeded brilliantly or faced challenges, what would that moment look like? How might that vision guide us in shaping our shared living environment practically and sustainably?",
+            "response": "it will be succeed",
+            "prediction": "I want to have a space that is completely open to all the residents and encourages everyone to express themselves freely, without any boundaries or restrictions. This space could be a shared art studio where everyone can create and experiment with their art, and it could also be a communal living area where we can relax and socialize. This space would be a reflection of our shared values of freedom, creativity, and mutual respect. It would be a place where we can come together and support each other's artistic endeavors, and where we can also challenge each other to think outside the box and push the boundaries of what is possible. In this space, we would have the freedom to be ourselves, to express ourselves authentically, and to create something truly unique and special. It would be a space that is both a sanctuary and a catalyst for growth, a place where we can come together and achieve great things. It would be a space that is truly open to all, and that celebrates the diversity and individuality of each and every one of us. It would be a space that is a reflection of our shared humanity, and that inspires us to be our best selves. It would be a space that is a true reflection of our values, and that brings us all together in a spirit of creativity",
+            "scores": {
+                "wmd": 0.4486533822811809,
+                "sentence_similarity": 0.09477841854095459,
+                "normalized_length_similarity": 0.014150943396226415,
+                "bleu": 0.0008442170021631755,
+                "ttr": 0.40476190476190477,
+                "history_similarity": 0.3078444004058838
+            }
+        },
+        {
+            "message": "Let’s analyze this. You believe the ideal of art as pure freedom will succeed. That’s an optimistic and valid view, but logically speaking, success depends on how well we manage potential conflicts and maintain respect within the group. Could you describe what specific conditions or agreements would make this success possible in our ShareHouse? Understanding that will help us create practical guidelines, ensuring this vision of freedom thrives sustainably. Now, reflecting on that, how do you see us balancing freedom with necessary order to keep harmony alive daily?",
+            "response": "We need to communication everyday",
+            "prediction": "To maintain harmony in our ShareHouse, I think we should establish a clear set of rules and expectations that respect everyone's individuality and creative space. This could include regular house meetings where we discuss any issues or concerns, and make sure everyone is on the same page. Additionally, we could designate specific areas for each person's art projects, ensuring that everyone has their own space to work without distractions. It's also important to establish a system for sharing resources and responsibilities, so that everyone contributes fairly and we can maintain a sense of community. By doing so, we can create an environment that supports artistic freedom while also promoting mutual respect and cooperation.     Answer:  By doing so, we can create an environment that supports artistic freedom while also promoting mutual respect and cooperation.     Answer:  By doing so, we can create an environment that supports artistic freedom while also promoting mutual respect and cooperation.     Answer:  By doing so, we can create an environment that supports artistic freedom while also promoting mutual respect and cooperation.     Answer:  By doing so, we can create an environment that supports artistic freedom while also promoting mutual respect and cooperation.     Answer:  By doing so, we can create an environment that supports artistic freedom while also promoting mutual respect and cooperation.     Answer",
+            "scores": {
+                "wmd": 0.3167414850795972,
+                "sentence_similarity": 0.2870370149612427,
+                "normalized_length_similarity": 0.02294853963838665,
+                "bleu": 0.0007363554729152775,
+                "ttr": 0.37037037037037035,
+                "history_similarity": 0.2158244401216507
+            }
+        }
+    ]
+}

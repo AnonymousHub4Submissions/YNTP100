@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:29:01",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 哈哈，朋友！假如你突然中了一个亿，你第一个疯狂的梦想会是什么？大胆说出来，别拘泥于现实，我们这儿就是要听最狂最酷的想法！\nA. 天啊 中一个亿奖金设么的也太疯狂了 如果这是真的话 我想我应该会去环游世界吧！\n\nQ. 很有意思，环游世界确实是个极佳的选择。接下来现实一点：这一个亿你会如何分配？比如在投资、消费和储蓄上，你大概会给各部分分配多少比例？\nA. 要说具体分配的话 那得好好思考一下呢 或许会花费部分的钱用来买房子然后出租 同时去周游世界！\n\nQ. 让我们分析一下，你会考虑投资房地产多少比例？还有储蓄呢？\nA. 哇这么具体的吗 或许是把一半的钱用于投资房产吧\n\nQ. 哇，听你这么说，感觉你的理财规划超级有条理！不过告诉我，你做这些选择的背后，是更被明确的目标驱动，还是内心的情感和价值观在引导你呢？这两者都太重要了，艺术和生活就是要找到那个完美的平衡！\nA. 我想应该也没有什么具体明确的目标\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！说到安静时段……如果我们设定每天晚上7点到9点公共区域大家尽量保持安静，这样你们觉得对创作灵感和生活会有多大帮助呢？来，大胆说说你们的想法吧！太棒了！",
+            "response": "我赞同这个想法！不知道大家其他人的是怎么想的呢",
+            "prediction": "我想保持安静的时间段对我来说非常有帮助。理由は，我是一个艺术家，需要在晚上集中思考和创作。静かな环境下，我的灵感会更加活跃。",
+            "scores": {
+                "wmd": 0.9657648969864284,
+                "sentence_similarity": 0.6613295674324036,
+                "normalized_length_similarity": 0.3709677419354839,
+                "bleu": 0.006568301273760529,
+                "ttr": 0.8095238095238095,
+                "history_similarity": 0.7642771005630493
+            }
+        },
+        {
+            "message": "哦……说到‘梦想房间’的设计，我想知道大家是更倾向于能够容纳更多创作灵感的实用性呢，还是愿意接受一些装饰性设计，哪怕会牺牲一点使用空间？我不是挑剔，只是觉得生活环境嘛，既要美观也要实用，总不能完全偏向某一面，大家觉得呢？",
+            "response": "我个人的话应该会更加偏向于实用吧",
+            "prediction": "我想大家都应该会选择容纳更多创作灵感的实用性。理由は，DaVinci、Donatello、Michelangelo、Raffaello这四个名字来看大家都有艺术家的背景，我们住在一起的这所房子也应该反映大家的这种特点。装饰性设计可以在一些小部分上进行，例如壁上的一些艺术作品或家具的装饰等，而主要的空間应该用来容纳更多创作灵感。这样大家都可以在生活中找到灵感和实用性。",
+            "scores": {
+                "wmd": 1.074898093560381,
+                "sentence_similarity": 0.5465487837791443,
+                "normalized_length_similarity": 0.08695652173913043,
+                "bleu": 0.004548745555625771,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.5540923476219177
+            }
+        },
+        {
+            "message": "哇，说到生活的艺术，我觉得冰箱里的食材也像创作的灵感一样需要一个完美的舞台！你觉得如果设定固定的食品摆放区域，让大家轮流管理，会不会更容易保持方便拿取的包装食品和新鲜食材之间的完美比例呢？这可是让我们的厨房也成为艺术品的秘诀哦！",
+            "response": "哇这种想法听着真不错呢！",
+            "prediction": "我觉得如果设定固定的食品摆放区域，让大家轮流管理，会不会更容易保持方便拿取的包装食品和新鲜食材之间的完美比例呢？我想应该可以！如果我们每人负责管理一个固定的区域，我们可以确保每个区域都保持完美比例。例如，包装食品区域、生鲜食材区域、調味料区域等等。这样，大家可以自由地选择取食材，且每个区域都被关注和管理。这个方式可以让我们的厨房变成艺术品！",
+            "scores": {
+                "wmd": 1.1881778927850282,
+                "sentence_similarity": 0.46460387110710144,
+                "normalized_length_similarity": 0.07017543859649122,
+                "bleu": 0.002104351645526129,
+                "ttr": 0.6078431372549019,
+                "history_similarity": 0.6670175790786743
+            }
+        },
+        {
+            "message": "哇，太棒了！你觉得这样分区能激发大家的创意吗？",
+            "response": "肯定能的！大家可以集思广益",
+            "prediction": "我想应该也没有什么具体明确的目标，内心的情感和价值观在引导我。",
+            "scores": {
+                "wmd": 1.0833200286782068,
+                "sentence_similarity": 0.5517434477806091,
+                "normalized_length_similarity": 0.41935483870967744,
+                "bleu": 0.009629943614188135,
+                "ttr": 0.9,
+                "history_similarity": 0.7942936420440674
+            }
+        },
+        {
+            "message": "说到合作，我们不妨思考一下公共区域的清洁和维护值班安排。从逻辑上讲，你觉得是按每个人的使用频率分配任务更合理，还是大家平均分担任务更有效？这样才能既保证效率，又维护公平。你怎么看？",
+            "response": "或许平均分配更加能考虑到每个人吧！不知道大家其他人是如何认为的呢",
+            "prediction": "我想应该按每个人の使用頻率分配任务更合理。理由は、我不常使用公共区域的清洁和維護作業，但DaVinci、Donatello、Michelangelo、Raffaello这些人可能使用頻率高於我。这样分配任务可以尽量減少無駄作業。",
+            "scores": {
+                "wmd": 1.0702222724817172,
+                "sentence_similarity": 0.6260712146759033,
+                "normalized_length_similarity": 0.2807017543859649,
+                "bleu": 0.007929020238848623,
+                "ttr": 0.7777777777777778,
+                "history_similarity": 0.6622322201728821
+            }
+        }
+    ]
+}

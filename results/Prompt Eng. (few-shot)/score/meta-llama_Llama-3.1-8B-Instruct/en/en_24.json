@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:07",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found a treasure chest with 100 million inside—no limits, no worries! What’s the wildest, most exciting thing you’d want to do with all that? Don’t hold back, let your boldest dreams run free!\nA. I want to invest on the stocks!\n\nQ. Very interesting idea. Next, let's consider it realistically: how would you allocate this 100 million? For example, roughly what proportions would you set for investment, consumption, and savings?\nA. I am still young, so, I can accept the risk, I want to invest on high-return, high-risk stocks.\n\nQ. Let's analyze this logically. Given your youth and risk tolerance, you might allocate a high percentage—perhaps 70 to 80 percent—toward high-risk, high-return stocks. For consumption, a reasonable but not excessive amount, say 10 to 15 percent, ensures you enjoy the present without compromising future growth. The remaining 5 to 15 percent could be kept as savings or in safer investments to maintain liquidity and minimize total loss risk. Now, focusing on the 100 million as a whole, how do you prioritize your goals across these categories? This clarity will guide a more effective allocation.\nA. I am not sure since I just like to increase my account balance.\n\nQ. Let's analyze this clearly. Your main goal is to increase your account balance, which implies maximizing returns, but that often comes with higher risk. Logically speaking, focusing solely on growth without considering consumption or savings can leave you vulnerable to unexpected needs or market downturns. To proceed effectively, could you clarify: Are you planning this as a short-term leap or a long-term growth strategy? Understanding your time horizon and risk capacity will help shape a rational, balanced plan for your 100 million.\nA. You're right!\nI understand the fluctuation risk, so I aim to increase my account balance in the long term.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, speaking of balancing things, I’ve got a curious question for you! Since you’re thinking long-term about your account balance, how do you feel about diving into some exciting but riskier investments like AI or clean energy? These emerging technologies could shoot your growth through the roof, but they do come with wild ups and downs! Would you be up for that thrilling ride or prefer to play it safe and steady? Share your boldest investment dream!",
+            "response": "It is the very interesting question! I'm always thinking that, but recently, I think these are the kinds of \"bubble\", so I prefer to invest on value stocks.",
+            "prediction": "I am not sure since I just like to increase my account balance.     Answer: I am not sure since I just like to increase my account balance. ```python\ndef predict_response():\n    return \"I am not sure since I just like to increase my account balance.\"\n\nprint(predict_response())\n``` ```python\ndef predict_response():\n    return \"I am not sure since I just like to increase my account balance.\"\n\nprint(predict_response())\n``` ```python\ndef predict_response():\n    return \"I am not sure since I just like to increase my account balance.\"\n\nprint(predict_response())\n``` ```python\ndef predict_response():\n    return \"I am not sure since I just like to increase my account balance.\"\n\nprint(predict_response())\n``` ```python\ndef predict_response():\n    return \"I am not sure since I just like to increase my account balance.\"\n\nprint(predict_response())\n``` ```python\ndef predict_response():\n    return \"I am not sure since I just like to increase my account balance.\"\n\nprint(predict_response())\n``` ```python\ndef predict_response():\n    return \"I am not sure since I just like to increase my account balance.\"\n\nprint(predict_response())\n``` ```python\ndef predict_response():\n    return \"I am not sure since I just like to increase my account",
+            "scores": {
+                "wmd": 0.2801118813124655,
+                "sentence_similarity": 0.09308011829853058,
+                "normalized_length_similarity": 0.12641815235008103,
+                "bleu": 0.0010275418908381373,
+                "ttr": 0.08833922261484099,
+                "history_similarity": 0.4684537351131439
+            }
+        },
+        {
+            "message": "Oh... since we all cherish this lively ShareHouse environment, I wonder—would you be open to adopting a simple yet strictly upheld system for keeping our common areas tidy? I’m not being picky, but sometimes the creative freedom spills over into a bit of disorder, which makes it challenging to maintain a pleasant space. Perhaps my expectations are a tad high, but do you think such a balance between function and freedom is achievable?",
+            "response": "It is very important, so let's go to 100 yen shop to buy the separate boxes right now!",
+            "prediction": "I'm open to it. I think it would be great to have a system for keeping the common areas tidy. It would make it easier for everyone to contribute and maintain a pleasant space. Maybe we could establish some simple rules, like cleaning up after ourselves, putting away our belongings, and designating specific areas for different activities. This way, we can still have our creative freedom while also keeping the space organized and enjoyable for everyone. I'm happy to help come up with a system that works for everyone.    Answer: I'm open to it. I think it would be great to have a system for keeping the common areas tidy. It would make it easier for everyone to contribute and maintain a pleasant space. Maybe we could establish some simple rules, like cleaning up after ourselves, putting away our belongings, and designating specific areas for different activities. This way, we can still have our creative freedom while also keeping the space organized and enjoyable for everyone. I'm happy to help come up with a system that works for everyone.    Answer: I'm open to it. I think it would be great to have a system for keeping the common areas tidy. It would make it easier for everyone to contribute and maintain a pleasant space. Maybe we could establish some simple rules,",
+            "scores": {
+                "wmd": 0.28504153190964227,
+                "sentence_similarity": 0.12231290340423584,
+                "normalized_length_similarity": 0.06703039750584568,
+                "bleu": 0.001061546680426688,
+                "ttr": 0.26587301587301587,
+                "history_similarity": 0.4066663384437561
+            }
+        },
+        {
+            "message": "Wow, Raffaello, your vision for a space that’s both beautiful and functional truly sparks my artistic soul! Since we all treasure bursts of creativity, especially in this summer vibe, how do you feel about blending some flexible quiet hours to nurture inspiration while still keeping our home harmonious? Do you think that kind of rhythm could keep everyone’s creative fire burning strong without losing balance?",
+            "response": "shall we have a potluck party once a month to keep our balance?",
+            "prediction": "I think that's a great idea, and I'd like to suggest we establish some flexible quiet hours. We could have a designated quiet room or area where people can retreat to focus on their work or hobbies without distractions. This way, everyone can have some dedicated time to themselves, and we can still maintain a sense of community and collaboration in the shared spaces. We could also consider having a \"creative corner\" where people can display their work, share their ideas, and get feedback from others. This would not only foster creativity but also help us stay connected and inspired. What do you think, DaVinci?     Answer:  I think that's a great idea, and I'd like to suggest we establish some flexible quiet hours. We could have a designated quiet room or area where people can retreat to focus on their work or hobbies without distractions. This way, everyone can have some dedicated time to themselves, and we can still maintain a sense of community and collaboration in the shared spaces. We could also consider having a \"creative corner\" where people can display their work, share their ideas, and get feedback from others. This would not only foster creativity but also help us stay connected and inspired. What do you think, DaVinci?     Answer:  I think",
+            "scores": {
+                "wmd": 0.2515787125132548,
+                "sentence_similarity": 0.2913394868373871,
+                "normalized_length_similarity": 0.04964539007092199,
+                "bleu": 0.002007822682644934,
+                "ttr": 0.3467741935483871,
+                "history_similarity": 0.4173571765422821
+            }
+        },
+        {
+            "message": "Wow, what an awesome idea! A potluck party to gather all our creative energies and share the joy of food—art is not only in sculptures or paintings but in bringing people together! Imagine the colors, flavors, and stories mingling like a vibrant fresco on our dining table! That celebration could be the heartbeat of our ShareHouse, inspiring friendship and teamwork alongside tidiness and harmony. Let's paint this masterpiece of community with laughter and shared dishes—what dishes are you dreaming to bring?",
+            "response": "I want to bring \"Takoyaki\"",
+            "prediction": "I want to make pasta with pesto sauce. It is my favorite dish.    Answer: It is my favorite dish.",
+            "scores": {
+                "wmd": 0.4661104176704796,
+                "sentence_similarity": 0.23726947605609894,
+                "normalized_length_similarity": 0.26804123711340205,
+                "bleu": 0.04099093841051792,
+                "ttr": 0.6956521739130435,
+                "history_similarity": 0.24946926534175873
+            }
+        },
+        {
+            "message": "Very exciting ideas all around. Since we’ve agreed on a weekly cleaning schedule on Saturdays, logically speaking, would it improve efficiency if we add a brief monthly meeting afterward to review progress on our financial goals and living space improvements? Do you think this routine could help keep our motivation high and ensure our shared responsibilities stay balanced?",
+            "response": "It is very good idea, I think.",
+            "prediction": "I think it's a great idea to have a monthly meeting. It can help keep our motivation high and ensure our shared responsibilities stay balanced. By reviewing progress on our financial goals and living space improvements, we can identify areas for improvement and make adjustments as needed. This can also help prevent procrastination and ensure that everyone is on the same page. It's a good way to stay organized and work together as a team. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer: It can help keep our motivation high and ensure our shared responsibilities stay balanced. Answer:",
+            "scores": {
+                "wmd": 0.3684284671855026,
+                "sentence_similarity": 0.336052805185318,
+                "normalized_length_similarity": 0.020847810979847115,
+                "bleu": 0.002097967503966697,
+                "ttr": 0.24313725490196078,
+                "history_similarity": 0.35838109254837036
+            }
+        }
+    ]
+}

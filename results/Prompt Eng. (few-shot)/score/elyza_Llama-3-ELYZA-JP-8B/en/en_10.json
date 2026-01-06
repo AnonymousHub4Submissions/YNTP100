@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:55",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Come on, friend! Imagine you just won 100 million out of nowhere—no limits, no worries! What's the most wild and awesome thing you’d do first? Don’t hold back, let’s hear your boldest dream! Haha!\nA. I want build a house\n\nQ. Very interesting plan to build a house. Next, let’s analyze this realistically: how would you allocate that 100 million? For instance, what proportions would you consider for investment, consumption, and savings?\nA. I will use all 100 million to build my house\n\nQ. Wow, your passion for building this house is truly inspiring! Tell me, what’s driving this dream for you? Is it a clear goal you’re aiming to achieve, or is it more about expressing your values and emotions through this creation? Art is all about that deeper motivation!\nA. I want to live a comfortable house.\n\nQ. Wow, wanting a comfortable house—that’s a beautiful and powerful motivation! Comfort isn’t just about walls and furniture; it’s about creating a sanctuary where your spirit feels at peace and alive. Art is creating spaces that nurture the soul! But tell me, beyond comfort, does this dream come from a desire to prove something to yourself or to maybe inspire others to find their own comfort? Let’s dive into what truly fuels this vision, because that’s the heart of making your dream an extraordinary masterpiece!\nA. I want to relax and unwind in a big house.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we all agree that a tidy space sparks creativity, imagine if you could design the ultimate cozy corner in our house just for relaxing and dreaming up awesome ideas! What would your creative sanctuary look like, and what cool things would you do there to keep the inspiration flowing?",
+            "response": "I’d probably place some plants.",
+            "prediction": "I would design my creative sanctuary in a big house.",
+            "scores": {
+                "wmd": 0.36791966311493046,
+                "sentence_similarity": 0.5207749605178833,
+                "normalized_length_similarity": 0.5961538461538461,
+                "bleu": 0.022416933501922302,
+                "ttr": 1.0,
+                "history_similarity": 0.5381585955619812
+            }
+        },
+        {
+            "message": "Haha, friend, plants are such an awesome choice! They bring life and fresh vibes to any space! Imagine a cozy corner with lush green plants all around, a comfy chair, and maybe some soft fairy lights—perfect for chilling and dreaming big! Now, what kind of activities or creative things would you do in your plant-filled sanctuary to keep those awesome ideas flowing nonstop? Tell me more!",
+            "response": "I will read a book.",
+            "prediction": "I would use my big house to relax and unwind, and maybe write some art about my favorite artists, DaVinci, Donatello, Michelangelo, and Raffaello.",
+            "scores": {
+                "wmd": 0.4336580512200474,
+                "sentence_similarity": 0.32232534885406494,
+                "normalized_length_similarity": 0.13013698630136986,
+                "bleu": 0.007425868202031369,
+                "ttr": 0.7666666666666667,
+                "history_similarity": 0.4602907598018646
+            }
+        },
+        {
+            "message": "Oh... speaking of creating such a lovely sanctuary with plants, I wonder—if we were to add something like an aquarium to enhance the visual appeal, would you be open to balancing the aesthetics with ease of maintenance? I’m not being picky, but an aquarium that demands too much care might lose its charm over time. Perhaps ensuring it lasts longer and remains enjoyable for everyone would be a sensible approach, don’t you think?",
+            "response": "Yes. I agree.",
+            "prediction": "I'm open to balancing aesthetics with ease of maintenance.",
+            "scores": {
+                "wmd": 0.6531212637043435,
+                "sentence_similarity": 0.23169082403182983,
+                "normalized_length_similarity": 0.22413793103448276,
+                "bleu": 0.022416933501922302,
+                "ttr": 1.0,
+                "history_similarity": 0.473399817943573
+            }
+        },
+        {
+            "message": "Wow, your thoughts about balance between beauty and function really spark my passion! Since we all treasure a space where creativity flows freely without distraction, how would you feel about proposing a quiet time schedule? A special creative pause where everyone can focus deeply or unwind peacefully—does that sound like a perfect way to honor both artistry and harmony in our shared haven?",
+            "response": "Yes I think so.",
+            "prediction": "I think proposing a quiet time schedule sounds like a perfect way to honor both artistry and harmony in our shared haven.",
+            "scores": {
+                "wmd": 0.43779997130677256,
+                "sentence_similarity": 0.120448999106884,
+                "normalized_length_similarity": 0.12396694214876033,
+                "bleu": 0.019383418023456653,
+                "ttr": 0.9565217391304348,
+                "history_similarity": 0.48467662930488586
+            }
+        },
+        {
+            "message": "Wow, I’m thrilled you think so! Embracing a quiet time schedule truly celebrates the art of focus and serenity—two essential ingredients for masterpiece-making! How wonderful it will be to have moments where inspiration can flow uninterrupted like a gentle stream. Now, tell me, what kind of creative activities or rituals would you love to include during these peaceful pauses to make our sanctuary feel even more alive with artistic spirit?",
+            "response": "I want to read a book",
+            "prediction": "I would love to include painting and meditation.",
+            "scores": {
+                "wmd": 0.45558674434293905,
+                "sentence_similarity": 0.19620674848556519,
+                "normalized_length_similarity": 0.4375,
+                "bleu": 0.028517539529041507,
+                "ttr": 1.0,
+                "history_similarity": 0.43956679105758667
+            }
+        },
+        {
+            "message": "Logically speaking, creating an atmosphere that balances comfort and inspiration is crucial. If we were to host a gathering in such a space, how would you practically design the environment and select activities so that guests feel both relaxed and intellectually stimulated? For example, what specific elements or arrangements would support this dual goal effectively?",
+            "response": "\"Maybe arranging some easy-to-grab drinks and snacks.\"",
+            "prediction": "I would practically design the environment by using natural light, greenery, and minimalist furniture. I would select activities such as reading, painting, and playing musical instruments. These elements or arrangements would support the dual goal effectively.",
+            "scores": {
+                "wmd": 0.3890316572091507,
+                "sentence_similarity": 0.21386286616325378,
+                "normalized_length_similarity": 0.2076923076923077,
+                "bleu": 0.005097615802300061,
+                "ttr": 0.7674418604651163,
+                "history_similarity": 0.4522685408592224
+            }
+        },
+        {
+            "message": "Let’s analyze this. Providing easy-to-grab drinks and snacks is a practical way to keep guests comfortable without interrupting the flow of conversation or activities. It minimizes distractions and encourages mingling. To build on that, we could also include comfortable seating arranged to promote discussion, good lighting for reading or viewing, and perhaps some background music at a low volume. Now, back to my original question: what specific activities or interactive elements do you think would intellectually engage guests while maintaining that relaxed atmosphere?",
+            "response": "Maybe setting up a monitor to stimulate active discussions.",
+            "prediction": "",
+            "scores": {
+                "wmd": Infinity,
+                "sentence_similarity": 0.1583908349275589,
+                "normalized_length_similarity": 0.0,
+                "bleu": 0.0,
+                "ttr": 0.0,
+                "history_similarity": 0.22727105021476746
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:43",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just won 100 million—yeah, like out of nowhere! What’s the wildest, most awesome thing you’d want to do first? Don’t hold back, dream big and crazy!\nA. I’d love to rent a brand-new two-bedroom apartment and try living in a share house with my friends!\n\nQ. Very interesting idea! Now, let's analyze this logically: with 100 million in hand, how would you realistically divide it among investment, daily living expenses, and savings? What proportions make the most sense to you?\nA. I’d probably go with 20% for investments, 50% for daily living expenses, and 30% for savings.\n\nQ. Wow, your dream has such a vibrant spirit! I’m curious—does this adventure of living with friends and managing your money come from a clear, goal-driven plan, or is it more about following what feels right in your heart and values? What’s the true motivation lighting your way?\nA. I think it’s more about following my values than having a clear goal. As long as I’m a student who can still rely on my parents, I want to spend as much time and money as possible on things and experiences that I can only do during my university years.\n\nQ. Oh... speaking of maintaining quality in our daily living, I couldn’t help but notice the shared refrigerator feels rather cramped lately, especially with so many packaged foods occupying the space. I’m not being picky, but perhaps we all wish to preserve an environment that supports fresh and wholesome ingredients alongside convenience. Do you think there might be a way we can balance this better for the sake of everyone’s quality of life here?\nA. Yeah, I think we can definitely find a way.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making awesome memories together, imagine this: if we planned the perfect weekend getaway with our housemates to celebrate all this teamwork and fun, what would it look like? Mountains, beach, a city adventure? And what cool activities would you want us to do to make it unforgettable? Come on, share your boldest dream for a fun escape!",
+            "response": "Beach BBQ all the way! Plus, staying in a cute cottage or a luxurious villa would be amazing!",
+            "prediction": "I’d love a weekend getaway to a cozy mountain cabin where we can disconnect from the city, roast marshmallows by the fire, and stargaze. We could also go hiking during the day and have a bonfire at night with board games and storytelling—something that brings us closer and creates lasting memories!",
+            "scores": {
+                "wmd": 0.2629705947273418,
+                "sentence_similarity": 0.5644806623458862,
+                "normalized_length_similarity": 0.3110367892976589,
+                "bleu": 0.004792230160209378,
+                "ttr": 0.8596491228070176,
+                "history_similarity": 0.3163341283798218
+            }
+        },
+        {
+            "message": "Oh... while the idea of lively gatherings certainly has its charm, I find myself pondering—if you were to choose between a spirited, albeit noisy, social event here at the share house and a tranquil evening devoted solely to your creative endeavors, which would truly align with your sense of fulfillment? I’m not being overly particular, but balancing joyful interaction with personal focus can be quite the delicate art, don’t you agree?",
+            "response": "It’s a tough choice, but I’d lean more toward the lively side. When I want quiet, I can adjust by going to a café or using earplugs, but creating a lively atmosphere on my own is much harder.",
+            "prediction": "I think it depends on the moment—I really enjoy both, but if I had to choose, I’d go with a tranquil evening for my creative work because I feel like I can really focus and get things done without distractions.",
+            "scores": {
+                "wmd": 0.13458269623636174,
+                "sentence_similarity": 0.4229201078414917,
+                "normalized_length_similarity": 0.9095238095238095,
+                "bleu": 0.036401359587746915,
+                "ttr": 0.8666666666666667,
+                "history_similarity": 0.3817674517631531
+            }
+        },
+        {
+            "message": "Wow, imagine if our house had this amazing smart system that vibes with each of us—custom music, lighting, even fragrances that change to fit our moods perfectly! How do you think that kind of personalized art for our senses would spark new energy in your day or even in how we all connect here? It’s like turning everyday life into a masterpiece!",
+            "response": "I think it would help us relax and refresh, making it easier to come up with good ideas! Also, when we’re in a good mood, we tend to be kinder to others, which can deepen our connections and increase overall happiness!",
+            "prediction": "I think it would make the house feel more like a home and less like just a place to live. It could help us all relax better, focus when we need to, and maybe even inspire some creativity or fun moments together. Imagine coming home to a scent that makes you feel calm or having the lights shift to match your mood—it could really enhance how we live and connect with each other.",
+            "scores": {
+                "wmd": 0.18995408416113124,
+                "sentence_similarity": 0.6238774061203003,
+                "normalized_length_similarity": 0.5767195767195767,
+                "bleu": 0.048537047456563856,
+                "ttr": 0.7692307692307693,
+                "history_similarity": 0.414949506521225
+            }
+        },
+        {
+            "message": "Logically speaking, to maintain both personal freedom and a harmonious shared environment—especially considering limited fridge space and communal mess—what specific rules or habits do you think would balance individual needs while ensuring fairness and respect among all of us?",
+            "response": "First, I think it’s effective to assign duties, designate spaces, and set schedules. Then, as we put these into practice, it’s important to have a system where we can easily discuss things that aren’t working, and also to maintain flexibility so that the rules can be adjusted as needed.",
+            "prediction": "I think we could implement a rule where everyone labels their food with the date it was stored and tries to consume it within a week. Also, maybe setting aside specific sections of the fridge for different people or types of food could help. Plus, doing a weekly cleanup together to remove expired items and organize the space would ensure fairness and respect for everyone’s needs.",
+            "scores": {
+                "wmd": 0.20968086519428955,
+                "sentence_similarity": 0.3320976197719574,
+                "normalized_length_similarity": 0.7513089005235603,
+                "bleu": 0.010834844652102086,
+                "ttr": 0.7808219178082192,
+                "history_similarity": 0.4426143765449524
+            }
+        }
+    ]
+}

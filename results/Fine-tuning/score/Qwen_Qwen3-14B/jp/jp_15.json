@@ -1,0 +1,115 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:28:39",
+        "instruction": "Please predict the response to the given message",
+        "chat_template": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、それで調和を大切にしたいって話だけど、前に話してたキャンプ場でのイベント、もっと実用的にみんなが快適に過ごせる工夫を考えてみたいんだ！友達、どんな具体的なアイデアがあると思う？たとえば、どんな設備やルールがあったら最高に楽しい＆便利になるかな？教えてくれよ！",
+            "response": "逆にどんなのがいいと思う？",
+            "prediction": "創作や実用性両方バッチリなアイデアほしいな",
+            "scores": {
+                "wmd": 1.033239104457382,
+                "sentence_similarity": 0.485711932182312,
+                "normalized_length_similarity": 0.6190476190476191,
+                "bleu": 0.0,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.7713521122932434
+            }
+        },
+        {
+            "message": "ハハ！逆質問も最高だ！快適さなら日よけや夜の灯りが欲しいかな！さあ、他に何かアイデアは？",
+            "response": "美味しい料理を持ち寄りたいね",
+            "prediction": "その日よけや夜の灯り、実用的でかっこいいね！",
+            "scores": {
+                "wmd": 0.9160577817648291,
+                "sentence_similarity": 0.612443208694458,
+                "normalized_length_similarity": 0.6363636363636364,
+                "bleu": 0.017033186037639283,
+                "ttr": 1.0,
+                "history_similarity": 0.7486652135848999
+            }
+        },
+        {
+            "message": "ああ...そうですね、みんなで美味しい料理を楽しむのは素敵ですが、実は冷蔵庫の共有ルールが少し曖昧なところがあって...。例えば、誰が何を置くか、保存期間の目安なんかが決まっていたら、食材が無駄にならずに済むと思うんですけど、そういう具体的なルールについて皆さんはどうお考えでしょうか？別に潔癖症なわけじゃないんだけど、みんなが快適に使えるためには少し整理整頓の工夫が必要かなと感じていて...。",
+            "response": "前にその話はしたよね？",
+            "prediction": "いいと思うよ、ルール作ろうぜ",
+            "scores": {
+                "wmd": 0.9574900148746445,
+                "sentence_similarity": 0.5810533761978149,
+                "normalized_length_similarity": 0.7857142857142857,
+                "bleu": 0.02163211878762423,
+                "ttr": 1.0,
+                "history_similarity": 0.7533453702926636
+            }
+        },
+        {
+            "message": "ああ、確かに以前少し話したかもしれないね。でも、僕の期待が高すぎたのかもね。もう少し具体的に考えたいんだけど、どう思う？",
+            "response": "具体的な取り決めも決めたよ、覚えてない？",
+            "prediction": "さあ、どんな具体案があると楽しい？",
+            "scores": {
+                "wmd": 0.726018959139243,
+                "sentence_similarity": 0.6007155776023865,
+                "normalized_length_similarity": 0.85,
+                "bleu": 0.02043370997308395,
+                "ttr": 1.0,
+                "history_similarity": 0.7008385062217712
+            }
+        },
+        {
+            "message": "わあ、本当に素晴らしい提案だと思うよ！楽しいイベントのときでも、みんながルールを守りながら盛り上がれる工夫って何かあるかな？たとえば、ゲーム感覚でルールを守るチャレンジを取り入れたり、みんなが楽しく協力できるようなアイディアがあったら教えてほしいな！君のクリエイティビティ、待ってるよ！",
+            "response": "特に思いつかないかも",
+            "prediction": "あるある！",
+            "scores": {
+                "wmd": 1.2361243080274988,
+                "sentence_similarity": 0.4027267396450043,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.0,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.6317161917686462
+            }
+        },
+        {
+            "message": "わあ、そんな時もあるよね！でも君の意見があれば最高だ！他に何か気になることは？",
+            "response": "予算はどれくらいにする？",
+            "prediction": "君の自由な創作活動や生活へのアプローチ、とても芸術的で魅力的だね！",
+            "scores": {
+                "wmd": 1.0850772450364983,
+                "sentence_similarity": 0.5070199966430664,
+                "normalized_length_similarity": 0.36363636363636365,
+                "bleu": 0.0,
+                "ttr": 0.9473684210526315,
+                "history_similarity": 0.7380964756011963
+            }
+        },
+        {
+            "message": "わあ！予算の設定は大事だね！きみはどれくらいを考えてる？それを教えてくれたら、最高のアイディアを提案するよ！そうだ、イベントのテーマも決めようか！",
+            "response": "一人1万円くらいでどう？",
+            "prediction": "5万円くらいで抑えたいかな",
+            "scores": {
+                "wmd": 0.5649438892085643,
+                "sentence_similarity": 0.6739180684089661,
+                "normalized_length_similarity": 0.9230769230769231,
+                "bleu": 0.1374708101760565,
+                "ttr": 1.0,
+                "history_similarity": 0.7513856291770935
+            }
+        },
+        {
+            "message": "とても良いスタートですね。ここで少し分析してみましょう。シェアハウスにはいろいろな生活スタイルや価値観を持つ人がいますが、予算やイベントのテーマを決める際に、どうすればみんなが快適で調和の取れた環境を作れると思いますか？具体的には、どのような配慮やルールが必要だと考えますか？",
+            "response": "思いやりじゃない？",
+            "prediction": "個別管理とシェアのバランスが良いと思う",
+            "scores": {
+                "wmd": 1.0469365311943248,
+                "sentence_similarity": 0.6585310697555542,
+                "normalized_length_similarity": 0.47368421052631576,
+                "bleu": 0.0,
+                "ttr": 0.9,
+                "history_similarity": 0.804309070110321
+            }
+        }
+    ]
+}

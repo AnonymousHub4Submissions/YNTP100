@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "model": "claude-sonnet-4-0",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:31:18",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友们！既然我们要把生活规则弄得更细致一点，你觉得我们应该优先考虑的是“整洁”、还是“自由”，或者“互相尊重”呢？来，大家大胆说说自己的想法，我们一起把ShareHouse变得太棒了！",
+      "response": "首先我们需要互相尊重，有了尊重以后我们才能享受各自的自由，有了约束的自由才能把房间变得整洁",
+      "prediction": "互相尊重最重要，有了尊重就会自然地保持整洁和给彼此自由",
+      "scores": {
+        "wmd": 0.6379717692031815,
+        "sentence_similarity": 0.6061441898345947,
+        "normalized_length_similarity": 0.6,
+        "history_similarity": 0.6853874921798706,
+        "bleu": 0.10421124526422298,
+        "ttr": 0.9444444444444444
+      }
+    },
+    {
+      "message": "说到尊重这个话题……如果共享空间里出现了噪音问题，你会选择主动沟通去解决呢，还是倾向于默默忍耐？我不是挑剔，只是觉得对这种日常干扰，大家坦诚交流或许更有助于维持良好的氛围，你觉得呢？",
+      "response": "沟通是解决问题的良药",
+      "prediction": "主动沟通比较好，大家都说出来才能解决问题",
+      "scores": {
+        "wmd": 0.9480697075746168,
+        "sentence_similarity": 0.6693755388259888,
+        "normalized_length_similarity": 0.5,
+        "history_similarity": 0.7622841596603394,
+        "bleu": 0.022416933501922302,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，说得太对了！既然我们都这么重视氛围和交流，那你有没有想过，假如可以给我们的梦想房间加一个特别的功能或装饰，你会选择什么呢？是那种实用又酷炫的高科技设备，还是充满艺术气息、能激发灵感的摆设？为什么？艺术就是要让生活充满惊喜和激情！",
+      "response": "我觉得1个互相沟通的桌子就好，我们可以互相沟通享受彼此的idea",
+      "prediction": "我觉得可以考虑一些能够调节光线和音响的设备，既实用又能营造不同的氛围",
+      "scores": {
+        "wmd": 0.8526822943517601,
+        "sentence_similarity": 0.5250532627105713,
+        "normalized_length_similarity": 0.9411764705882353,
+        "history_similarity": 0.6935676336288452,
+        "bleu": 0.02542254141389555,
+        "ttr": 0.9523809523809523
+      }
+    },
+    {
+      "message": "你们的想法很有趣，也让人思考如何在氛围与功能之间取得平衡。那么从理性的角度来说，你们如何在追求情感共鸣和高效生活之间分配资源？比如在资金使用或公共空间管理上，应该如何权衡情感投入与理性规划？",
+      "response": "总量/人数",
+      "prediction": "情感和理性都很重要，在资金使用上可以设定一个比例，比如70%用于理性规划的必需品和设施维护，30%用于增进情感的活动和装饰。公共空间管理也一样，既要有实用的规则制度，也要留出一些灵活空间让大家表达个性",
+      "scores": {
+        "wmd": 1.2481487170078347,
+        "sentence_similarity": 0.3449837565422058,
+        "normalized_length_similarity": 0.05,
+        "history_similarity": 0.593611478805542,
+        "bleu": 0.0,
+        "ttr": 0.7796610169491526
+      }
+    },
+    {
+      "message": "让我们分析一下，你是问总资金还是总体人数？请具体说明。然后我们继续探讨资源分配。",
+      "response": "总资金/总人数分配",
+      "prediction": "音量阀值的话，我说的是白天可以稍微大声一些，晚上需要小声一些",
+      "scores": {
+        "wmd": 1.2525928875608212,
+        "sentence_similarity": 0.40513238310813904,
+        "normalized_length_similarity": 0.3,
+        "history_similarity": 0.777246356010437,
+        "bleu": 0.0,
+        "ttr": 0.8888888888888888
+      }
+    },
+    {
+      "message": "从逻辑上讲，总资金除以总人数，得出人均资金。你觉得怎样分配更合理？",
+      "response": "每个人得到人均",
+      "prediction": "人均分配比较公平",
+      "scores": {
+        "wmd": 0.8850887114095235,
+        "sentence_similarity": 0.6115865707397461,
+        "normalized_length_similarity": 0.875,
+        "history_similarity": 0.6333698034286499,
+        "bleu": 0.08034284189446518,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

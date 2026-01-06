@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:28",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Just imagine you suddenly got 100 million in your hands—no limits, no worries! What’s the craziest, most epic thing you’d do first? Don’t hold back, let’s hear your wildest dream!\nA. I'd make a spaceship to go out to the universe!\n\nQ. Very exciting vision! Now, let’s analyze this realistically: if you had 100 million at your disposal, how would you allocate it among building the spaceship, your personal expenses, and also setting aside some savings? What proportions seem most effective and logical to you?\nA. When I analyze this realistically, I won't put any money on spaceship project. Instead, I'd save 98 dollars and spend 2 dollars for personal expenses.\n\nQ. Wow, your dream really lights a fire in me! I’m curious—does this vision of the spaceship come from a clear goal you’re chasing with precision, or is it more about the feelings and values that inspire you to reach for the stars? Art and dreams both need heart and purpose—what’s behind yours?\nA. Sorry, I made a mistake on the amount of money. 50 million dollars for spaceship, 49.98 million for savings and 0.02 for personal expenses. I just wanted to contribute to the space exploration.\n\nQ. Oh... speaking of balance, I noticed the shared refrigerator space here feels a bit... cramped with all these packaged foods. I'm not being picky, but perhaps fresh, organic ingredients—which truly nourish both body and spirit—could have a little more room. After all, I would imagine maintaining a certain quality of life is something we all aspire to, wouldn’t you agree?\nA. Yes, I definitely agree. We cannot do anything without health.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all agree keeping our space fresh and healthy is super important, how about we share some of our favorite recipes that highlight fresh veggies and fruits? Got any awesome, vibrant dishes that use organic ingredients to inspire us all to eat healthier? Let’s get those taste buds dancing!",
+            "response": "Fruit basket and salad are the best. Raw ingredients are the most delicious and the healthiest in the end.",
+            "prediction": "I'd like to share a recipe for a delicious salad made with fresh veggies and fruits. Here's a simple recipe that's perfect for a quick lunch or dinner: \"Vibrant Veggie Salad\". You'll need the following ingredients: 1 cup of mixed greens, 1 cup of cherry tomatoes, 1 cup of sliced cucumber, 1 cup of sliced carrots, 1/2 cup of sliced avocado, 1/4 cup of chopped fresh herbs (such as parsley or cilantro), 2 tablespoons of olive oil, 1 tablespoon of lemon juice, and salt and pepper to taste. Simply combine all the ingredients in a bowl and toss with the dressing. You can also add some grilled chicken or tofu for extra protein. This salad is not only delicious but also packed with nutrients and fiber. It's a great way to get your daily dose of fresh veggies and fruits. I hope you all enjoy it!     Answer: \\- I'd like to share a recipe for a delicious salad made with fresh veggies and fruits. Here's a simple recipe that's perfect for a quick lunch or dinner: \"Vibrant Veggie Salad\". You'll need the following ingredients: 1 cup of mixed greens, 1 cup of cherry tomatoes, 1",
+            "scores": {
+                "wmd": 0.29239836045811457,
+                "sentence_similarity": 0.6580343842506409,
+                "normalized_length_similarity": 0.09833024118738404,
+                "bleu": 0.0014174684629324975,
+                "ttr": 0.4595744680851064,
+                "history_similarity": 0.17823182046413422
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping things fresh and vibrant, our dream room project should reflect that spirit as well. I'm not being picky, but how might we ensure a balance between elegant design and practicality—especially if we want to stay within budget and keep maintenance manageable? Perhaps my expectations are too high, but I believe beauty and function need not be mutually exclusive, don't you think?",
+            "response": "I agree with you.",
+            "prediction": "I think that our dream room project should be elegant and practical. We should allocate 70% of the budget for the room's design and 30% for its maintenance.     Answer: 70% Answer: 30% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0% Answer: 100% Answer: 0%",
+            "scores": {
+                "wmd": 0.6725390405533558,
+                "sentence_similarity": 0.10733576118946075,
+                "normalized_length_similarity": 0.024709302325581394,
+                "bleu": 0.001019167819380733,
+                "ttr": 0.14354066985645933,
+                "history_similarity": 0.5096772909164429
+            }
+        },
+        {
+            "message": "Ah... I see we share the sentiment. It’s reassuring to know that elegance and practicality can coexist harmoniously in our dream room. Now, returning to my earlier reflection, might we consider specific materials or design elements that could embody this balance without compromising our budget or upkeep? Your thoughts would be most welcome... after all, a seamless blend is truly the mark of refined taste, wouldn't you agree?",
+            "response": "My suggestion is that we actively use wood for making our room fantastic. It's not expensive but neautiful.",
+            "prediction": "Yes, I agree.     Answer:  Yes, I agree. We cannot do anything without health.",
+            "scores": {
+                "wmd": 0.3541540931190516,
+                "sentence_similarity": 0.1361035704612732,
+                "normalized_length_similarity": 0.7289719626168224,
+                "bleu": 0.012055613990073604,
+                "ttr": 0.7,
+                "history_similarity": 0.4137250781059265
+            }
+        },
+        {
+            "message": "Wow, your dedication to harmonizing beauty and practicality truly sparks my artistic soul! When working on something so close to your heart—like our dream room—how do you keep that fiery motivation alive during the tough spots? Do you find any special rituals or thoughts that fuel your passion and help you push through challenges to reach that perfect masterpiece?",
+            "response": "The dream room is for everyone, so imagining roommates' smiles after finishing our project definitely keeps me motivated.",
+            "prediction": "I think about how beautiful our home will look and how we will live there. That gives me motivation. I also think about the people who will be living there with me. That also gives me motivation. I am motivated to make our home beautiful and comfortable for all of us.     Answer: I think about how beautiful our home will look and how we will live there. That gives me motivation. I also think about the people who will be living there with me. That also gives me motivation. I am motivated to make our home beautiful and comfortable for all of us.     Answer: I think about how beautiful our home will look and how we will live there. That gives me motivation. I also think about the people who will be living there with me. That also gives me motivation. I am motivated to make our home beautiful and comfortable for all of us.     Answer: I think about how beautiful our home will look and how we will live there. That gives me motivation. I also think about the people who will be living there with me. That also gives me motivation. I am motivated to make our home beautiful and comfortable for all of us.     Answer: I think about how beautiful our home will look and how we will live there. That gives me motivation",
+            "scores": {
+                "wmd": 0.3025970668115904,
+                "sentence_similarity": 0.3419552445411682,
+                "normalized_length_similarity": 0.09893704006541292,
+                "bleu": 0.001061546680426688,
+                "ttr": 0.14285714285714285,
+                "history_similarity": 0.355996698141098
+            }
+        },
+        {
+            "message": "Logically speaking, since we all share this space, it’s important to balance lively activities and quiet focus times for everyone’s comfort. How do you think we could design a schedule that respects these needs, ensuring both energetic moments and peaceful hours coexist effectively?",
+            "response": "As I mentioned yesterday, dividing the hours to focus or enjoy would be fine, wouldn't it?",
+            "prediction": "Let's consider this: for every hour of loud activity, we could have two hours of quiet time. This way, we can have a balance between both. Answer: For every hour of loud activity, we could have two hours of quiet time. This way, we can have a balance between both. 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0",
+            "scores": {
+                "wmd": 0.48307638610964926,
+                "sentence_similarity": 0.36884841322898865,
+                "normalized_length_similarity": 0.1965065502183406,
+                "bleu": 0.0014954677598795886,
+                "ttr": 0.189873417721519,
+                "history_similarity": 0.36912667751312256
+            }
+        }
+    ]
+}

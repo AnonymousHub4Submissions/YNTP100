@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:56",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend, imagine you just found a treasure chest with 100 million inside! What’s the wildest, most exciting thing you’d want to do first? Don’t hold back—let your boldest dreams run free!\nA. I would quit my job right now and go on a trip abroad.\n\nQ. Very exciting plan! Now, let's analyze this practically: out of that 100 million, how would you realistically allocate funds between travel, daily expenses, and saving for the future?\nA. I don't need to invest, I should be able to live on 100 million without needing to increase it any further. I'll think about it if I run out of money, but for now I'll use it all to travel.\n\nQ. Wow, your dream to drop everything and explore the world is bursting with passion! I’m curious—does this adventure come from a clear, focused goal you’re chasing, or is it more about following the emotional call of freedom and the joy travel brings? What fuels your fire more: a destination or the feeling itself?\nA. There's nothing in particular I want to do. Just following my heart and the emotions that come with living fully in the moment.\n\nQ. Oh... speaking of living fully and with passion, I noticed that the shared refrigerator has become rather cramped lately, especially with all those packaged foods taking up the space. I'm not being picky, but surely we all wish to maintain a certain quality of life here, including having room for fresh ingredients and a bit of order—do you think that’s something we might consider together?\nA. For example, how about putting shared condiments in the door pocket?\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all love freedom and living in the moment, how about this? If we start a creative project together here in the ShareHouse that needs extra teamwork and effort, what would light your fire to jump in and give it your all? What kind of motivation or vibe would make you excited to be part of something big with everyone? Let’s dream big and make it awesome!",
+            "response": "Let's hold a festival",
+            "prediction": "Please fill in the response accordingly.\n\nIf I were DaVinci, I would be motivated by the vibe of creating something new and beautiful together.",
+            "scores": {
+                "wmd": 0.4252600236777411,
+                "sentence_similarity": 0.11720692366361618,
+                "normalized_length_similarity": 0.14685314685314685,
+                "bleu": 0.0,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.3927595019340515
+            }
+        },
+        {
+            "message": "Oh... speaking of bringing everyone together so wonderfully, I wonder if we might also consider some gentle guidelines around our shared spaces—like the fridge and cleaning duties. I'm not being picky, but perhaps if we had a little routine or rulebook, it could make the joyful chaos of a festival and daily life flow even more smoothly, preserving harmony for all. What sort of house rules or customs do you think would help us all live and create in such a lively place with fairness and ease?",
+            "response": "If we have trash, throw it in the trash can",
+            "prediction": "Perhaps we can make a list of shared items and their designated places, and also create a cleaning schedule.",
+            "scores": {
+                "wmd": 0.3949306391037125,
+                "sentence_similarity": 0.3329128623008728,
+                "normalized_length_similarity": 0.39814814814814814,
+                "bleu": 0.012021577610863726,
+                "ttr": 0.9047619047619048,
+                "history_similarity": 0.47549399733543396
+            }
+        },
+        {
+            "message": "Wow, your focus on a clean and inviting space really lights up the creative energy here! Speaking of balancing beauty and practicality, when working on something breathtaking like the planetarium, do you think it's worth bending a bit on practical details to keep that stunning aesthetic, or should we always put functionality first to make sure our creations last and serve us well? What’s your take on this dance between art and purpose?",
+            "response": "it's worth bending a bit on practical details to keep that stunning aesthetic",
+            "prediction": "Always put functionality first to make sure our creations last and serve us well.",
+            "scores": {
+                "wmd": 0.31312996315086844,
+                "sentence_similarity": 0.24407052993774414,
+                "normalized_length_similarity": 0.9506172839506173,
+                "bleu": 0.013217947626377298,
+                "ttr": 1.0,
+                "history_similarity": 0.3724493384361267
+            }
+        },
+        {
+            "message": "Building on this great energy and balance we've been discussing, let's analyze how we could structure an ideal weekend day here at the ShareHouse. From morning to night, how would you allocate time between creativity, personal freedom, and harmony with housemates to create the most productive and enjoyable day?",
+            "response": "Do any noisy work or work in shared spaces by the evening",
+            "prediction": "I would allocate time between creativity, personal freedom, and harmony with housemates as follows: morning is free time, lunchtime is personal time, afternoon is creativity time, and evening is dinner and relaxation time.",
+            "scores": {
+                "wmd": 0.320864870081574,
+                "sentence_similarity": 0.44277721643447876,
+                "normalized_length_similarity": 0.25675675675675674,
+                "bleu": 0.004620856909230222,
+                "ttr": 0.625,
+                "history_similarity": 0.3997471332550049
+            }
+        },
+        {
+            "message": "Let's analyze this: prioritizing quieter activities in the evening logically supports everyone's rest and focus. To optimize the day, I suggest allocating mornings for focused, potentially noisy or collaborative tasks when energy and alertness peak. Afternoons could balance creative solo work and social interactions, allowing flexibility. Evening times should be reserved for quieter, less disruptive activities to maintain harmony. This structure maximizes productivity while respecting shared living dynamics. What specific creative or technical tasks do you see fitting best into each period? Let's map that out for an efficient, respectful routine.",
+            "response": "morning:Meetings",
+            "prediction": "In the morning: DaVinci could be focused on designing new furniture layouts, Donatello could work on some coding tasks, Michelangelo could create art pieces, Raffaello could plan new trip itineraries, and I could work on writing.",
+            "scores": {
+                "wmd": 0.4562554736943484,
+                "sentence_similarity": 0.32146984338760376,
+                "normalized_length_similarity": 0.06986899563318777,
+                "bleu": 0.009288980743104617,
+                "ttr": 0.7380952380952381,
+                "history_similarity": 0.415823370218277
+            }
+        }
+    ]
+}

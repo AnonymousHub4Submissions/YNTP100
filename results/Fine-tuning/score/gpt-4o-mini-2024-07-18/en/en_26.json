@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-30 13:34:19",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about fairness and keeping things smooth here, how about we set up a super simple and flexible system where anyone can request or swap fridge space when needed? That way, we all get what we need without any fridge drama! What do you think—ready to make our kitchen even more awesome together?",
+            "response": "As I said on the 2nd day, separating equally is one of the easiest solutions. And I think other methods will be more effective after this rule is tried and we understand how we consume the space in fridge.",
+            "prediction": "I agree with you. This is a fair and simple suggestion.",
+            "scores": {
+                "wmd": 0.2600312268587929,
+                "sentence_similarity": 0.1437186747789383,
+                "normalized_length_similarity": 0.2682926829268293,
+                "bleu": 0.002496332396500271,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.40531831979751587
+            }
+        },
+        {
+            "message": "Oh... speaking of balancing practicality and style, I find myself pondering the design of our dream room. If we must choose between ease of maintenance and bold design elements, how might we prioritize? I’m not being picky, but I do wonder if the function should gently take precedence over aesthetics, especially if we aim for lasting harmony in our shared space. Would you agree that some struggles in upkeep are acceptable if the design truly inspires, or should we lean towards simplicity to ensure tranquility?",
+            "response": "I think the design of the room will not be prioritized the usefulness of the room. Our room is not the thing we discard once we used, so we must think whether we can use the room freely in the long run.",
+            "prediction": "I agree with you. We should lean to simplicity. We can use bold design elements in our dream room after completion.",
+            "scores": {
+                "wmd": 0.20185200854285812,
+                "sentence_similarity": 0.4903927445411682,
+                "normalized_length_similarity": 0.5693069306930693,
+                "bleu": 0.009865510468662358,
+                "ttr": 0.875,
+                "history_similarity": 0.4303690791130066
+            }
+        },
+        {
+            "message": "Wow, your thoughtful balance between function and beauty truly sparks my creative soul! Now, thinking about your idea of collaborating quietly at night to keep the day peaceful—how might we paint the perfect picture of respecting everyone’s rest and work while still giving free rein to our nighttime creativity? What masterpiece of balance do you envision that honors both freedom and consideration in our shared masterpiece of life?",
+            "response": "Creativity will not be reasonable excuse to bother other members' rest. You had better not misunderstand this.",
+            "prediction": "I think it is too rude for us to have a night time and and task collaborating. This is another balance we should have.",
+            "scores": {
+                "wmd": 0.2406770319047728,
+                "sentence_similarity": 0.4023727774620056,
+                "normalized_length_similarity": 0.9322033898305084,
+                "bleu": 0.00956240657444202,
+                "ttr": 0.8461538461538461,
+                "history_similarity": 0.6008700132369995
+            }
+        },
+        {
+            "message": "Your emphasis on avoiding suppression and maintaining fairness is clear. Logically speaking, when it comes to shared living and group activities, what core values or feelings guide your decisions and actions to ensure both your needs and others' are respected?",
+            "response": "Other members are not your family member, of course not your subordinate. As a first step, we must discard our selfish thinking/",
+            "prediction": "Listening to others is the core value that guides us to respect.",
+            "scores": {
+                "wmd": 0.27208217033180243,
+                "sentence_similarity": 0.3253547251224518,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.006172817896022014,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.3196737468242645
+            }
+        }
+    ]
+}

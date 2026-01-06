@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:01",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we're thinking about sharing fridge space mostly for fresh foods but still wanting to keep room for packaged meals, how about we take it up a notch and plan a weekly group cooking session? We can prep fresh meals together, bond over some awesome cooking, and make sure everyone's food gets the space it deserves! What do you say, friend? Ready to cook up some fun and teamwork?",
+            "response": "Yeah, that sounds like a great idea!! I will love cooking together!",
+            "prediction": "That sounds like an amazing idea! I'd love to participate in the weekly group cooking session. It's a great way to bond with fellow residents while also maintaining the fridge space effectively. Moreover, fresh meals can be healthier and delicious, so it's a win-win situation. When and how would we plan this session?",
+            "scores": {
+                "wmd": 0.2455950373914181,
+                "sentence_similarity": 0.6079185605049133,
+                "normalized_length_similarity": 0.21069182389937108,
+                "bleu": 0.01293336894653753,
+                "ttr": 0.8571428571428571,
+                "history_similarity": 0.4701906442642212
+            }
+        },
+        {
+            "message": "Oh… speaking of balancing utility and aesthetic in our living spaces, I wonder—if you had to choose, would you prefer furniture that is more multi-functional and space-saving, even if it might appear a bit simpler in design? I'm not being picky, but perhaps striking that balance is more delicate than it seems… What are your thoughts on this?",
+            "response": "Well...if we have limited space in our flat, I guess  I'd prefer furniture that is more multifunctional and space saving. That's life. However though, I think we could try to blast our creativity in other parts like decorations on the walls where we don't need to think about practicality.",
+            "prediction": "Please provide a response that completes the request.",
+            "scores": {
+                "wmd": 0.2690659228851407,
+                "sentence_similarity": 0.018508950248360634,
+                "normalized_length_similarity": 0.18339100346020762,
+                "bleu": 0.00012200784189621543,
+                "ttr": 1.0,
+                "history_similarity": -0.023550458252429962
+            }
+        },
+        {
+            "message": "Wow, your sense of balance really inspires me! Since we all thrive on different energies—some lively and some peaceful—how would you feel about setting special ‘quiet hours’ during the day where the whole house embraces calm and low noise? Could this rhythm help us all find that perfect flow between a vibrant buzz and soothing focus?",
+            "response": "I think that is a great idea, because even if we like each other and have fun spending time together, it is also important that we get some time to ourselves in privacy so that we can think deeply and focus on personal needs.",
+            "prediction": "Please note that this response should be approximately 200-250 words.",
+            "scores": {
+                "wmd": 0.2920178027533497,
+                "sentence_similarity": -0.039049677550792694,
+                "normalized_length_similarity": 0.30666666666666664,
+                "bleu": 0.0008496671116553403,
+                "ttr": 1.0,
+                "history_similarity": 0.21211348474025726
+            }
+        },
+        {
+            "message": "Logically speaking, since we all value both comfort and functionality in our long-term home, if you could select one improvement that would make your ideal room perfect in terms of comfort, what would that be? How do you see it enhancing our shared living experience?",
+            "response": "Maybe I would get a comfortable big sofa for the five us to share in the living room so we could have some quality time together there  - perhaps watch a movie together or just drink and talk. Shared hammock was a great idea but I figured we won't be able to use it together.",
+            "prediction": "Please provide your response.",
+            "scores": {
+                "wmd": 0.4293779744896122,
+                "sentence_similarity": 0.012134835124015808,
+                "normalized_length_similarity": 0.10545454545454545,
+                "bleu": 1.338699743924805e-06,
+                "ttr": 1.0,
+                "history_similarity": 0.11716551333665848
+            }
+        }
+    ]
+}

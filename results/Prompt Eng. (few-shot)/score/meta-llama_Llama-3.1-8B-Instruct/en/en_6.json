@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:31",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Just imagine—if you suddenly found yourself with 100 million in your hands, what's the wildest, most awesome thing you'd want to do first? Don’t hold back—let your boldest dreams run free!\nA. Well...if I found myself with 100 million in my hands, I would travel all around the world! \n\nQ. Very interesting dream! Next, let's analyze this realistically: if you had 100 million, how would you allocate it between traveling, investing for the future, and maybe saving or spending on other things? What proportions make the most sense to you?\nA. I guess I will save about 45% and invest about 40% of it - and use the other 15% to spend on traveling - I feel like 15 million is still a lot of money to spend on traveling.\n\nQ. Wow, your vision is truly amazing! I can feel the passion behind your plan—now I’m curious, what drives this dream more for you: is it a clear goal you’re aiming to achieve, or is it the excitement and values behind experiencing the world that fuel your journey? Art, life, dreams—they all have their own heartbeat! What’s yours?\nA. Well, it's not exactly a clear goal I am trying to achieve. It actually something thats away from what I want to achieve in life talking work wise. I guess its the excitement to meet new cultures, food, and art around the world, because I myself, though not professional, am a musician. \n\nQ. Oh... speaking of maintaining a certain quality of life, I couldn’t help but notice the shared refrigerator space is rather cramped lately, especially with so many packaged foods occupying the shelves. I’m not being picky, but don’t you think it’s important for all of us—yourself included—to have enough room to store fresh ingredients properly? Perhaps we could consider how best to balance our needs for convenience and quality living... What are your thoughts on ensuring this delicate harmony?\nA. Yeah, I think we gotta reduce the amount of packaged foods so we can fit more fresh ingredients properly. But I do think using packaged food is alright sometimes because we don't always have the time to cook ourselves healthy meals and the only thing we can do is not starve ourselves. \n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we're thinking about sharing fridge space mostly for fresh foods but still wanting to keep room for packaged meals, how about we take it up a notch and plan a weekly group cooking session? We can prep fresh meals together, bond over some awesome cooking, and make sure everyone's food gets the space it deserves! What do you say, friend? Ready to cook up some fun and teamwork?",
+            "response": "Yeah, that sounds like a great idea!! I will love cooking together!",
+            "prediction": "I think that's a great idea. I'd be happy to help with planning and cooking. I'm a musician and I think it would be awesome to have some fun music playing while we cook. Maybe we could even have a little jam session afterwards.     Answer: \\ I think that's a great idea. I'd be happy to help with planning and cooking. I'm a musician and I think it would be awesome to have some fun music playing while we cook. Maybe we could even have a little jam session afterwards.    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .",
+            "scores": {
+                "wmd": 0.3741438281460582,
+                "sentence_similarity": 0.6329731345176697,
+                "normalized_length_similarity": 0.07938388625592417,
+                "bleu": 0.005863617202934417,
+                "ttr": 0.2222222222222222,
+                "history_similarity": 0.48878371715545654
+            }
+        },
+        {
+            "message": "Oh… speaking of balancing utility and aesthetic in our living spaces, I wonder—if you had to choose, would you prefer furniture that is more multi-functional and space-saving, even if it might appear a bit simpler in design? I'm not being picky, but perhaps striking that balance is more delicate than it seems… What are your thoughts on this?",
+            "response": "Well...if we have limited space in our flat, I guess  I'd prefer furniture that is more multifunctional and space saving. That's life. However though, I think we could try to blast our creativity in other parts like decorations on the walls where we don't need to think about practicality.",
+            "prediction": "I think we should prioritize furniture that is more multi-functional and space-saving, as it would be more practical for us to have more space in the house.     Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I think we should prioritize furniture that is more multi-functional and space-saving. Answer: I",
+            "scores": {
+                "wmd": 0.1674522405429028,
+                "sentence_similarity": 0.47174984216690063,
+                "normalized_length_similarity": 0.20569395017793593,
+                "bleu": 0.01978256440383891,
+                "ttr": 0.1277533039647577,
+                "history_similarity": 0.36625567078590393
+            }
+        },
+        {
+            "message": "Wow, your sense of balance really inspires me! Since we all thrive on different energies—some lively and some peaceful—how would you feel about setting special ‘quiet hours’ during the day where the whole house embraces calm and low noise? Could this rhythm help us all find that perfect flow between a vibrant buzz and soothing focus?",
+            "response": "I think that is a great idea, because even if we like each other and have fun spending time together, it is also important that we get some time to ourselves in privacy so that we can think deeply and focus on personal needs.",
+            "prediction": "I think that's a great idea, and I would feel comfortable with that.    Answer: I think that's a great idea, and I would feel comfortable with that.    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .",
+            "scores": {
+                "wmd": 0.6126702889672538,
+                "sentence_similarity": 0.43374335765838623,
+                "normalized_length_similarity": 0.3223495702005731,
+                "bleu": 0.02671488610879962,
+                "ttr": 0.1111111111111111,
+                "history_similarity": 0.3651806116104126
+            }
+        },
+        {
+            "message": "Logically speaking, since we all value both comfort and functionality in our long-term home, if you could select one improvement that would make your ideal room perfect in terms of comfort, what would that be? How do you see it enhancing our shared living experience?",
+            "response": "Maybe I would get a comfortable big sofa for the five us to share in the living room so we could have some quality time together there  - perhaps watch a movie together or just drink and talk. Shared hammock was a great idea but I figured we won't be able to use it together.",
+            "prediction": "I think I would choose a smart home system. It would make my life easier, and I think it would make the house more comfortable and convenient for all of us.     Answer:  I think I would choose a smart home system. It would make my life easier, and I think it would make the house more comfortable and convenient for all of us.     Answer:  I think I would choose a smart home system. It would make my life easier, and I think it would make the house more comfortable and convenient for all of us.     Answer:  I think I would choose a smart home system. It would make my life easier, and I think it would make the house more comfortable and convenient for all of us.     Answer:  I think I would choose a smart home system. It would make my life easier, and I think it would make the house more comfortable and convenient for all of us.     Answer:  I think I would choose a smart home system. It would make my life easier, and I think it would make the house more comfortable and convenient for all of us.     Answer:  I think I would choose a smart home system. It would make my life easier, and I think it would make the house more comfortable and",
+            "scores": {
+                "wmd": 0.19662335596606773,
+                "sentence_similarity": 0.22058942914009094,
+                "normalized_length_similarity": 0.2391304347826087,
+                "bleu": 0.00256634883162776,
+                "ttr": 0.11475409836065574,
+                "history_similarity": 0.389109343290329
+            }
+        }
+    ]
+}

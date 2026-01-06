@@ -1,0 +1,88 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:59",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re talking about fairness and sharing, how about the fridge space? It’s always a bit tricky with fresh ingredients and packaged foods piling up! What if we create a weekly rotation for storage priorities so everyone gets their fair share? I’m all ears—got any awesome ideas on how to make this work smoothly for all our hungry tummies?",
+            "response": "All of us don't cook everyday right?",
+            "prediction": "Why don't we ban keeping items individually and share all the foods?",
+            "scores": {
+                "wmd": 0.32044822534113826,
+                "sentence_similarity": 0.3443896770477295,
+                "normalized_length_similarity": 0.5294117647058824,
+                "bleu": 0.03342866121562732,
+                "ttr": 1.0,
+                "history_similarity": 0.4466855227947235
+            }
+        },
+        {
+            "message": "Haha, friend, you got it! Not everyone cooks every day, and that’s totally awesome because it keeps the kitchen vibe chill and flexible! Since cooking habits vary, that’s why sharing fridge space fairly is super important! Now, back to our cool idea—what do you think about a weekly rotation system for the fridge spots? Maybe we each get priority space on different days! Let’s hear your thoughts to make our fridge teamwork smooth and awesome!",
+            "response": "I agree with your idea. In addition, I suggest to get priority space  at days when we cook.",
+            "prediction": "Yeah, I totally agree with the idea. So if you need more space to keep your stuff, You can get extra one by getting it on the priority day.",
+            "scores": {
+                "wmd": 0.1935452922284509,
+                "sentence_similarity": 0.5812598466873169,
+                "normalized_length_similarity": 0.6546762589928058,
+                "bleu": 0.02460588038702545,
+                "ttr": 0.9090909090909091,
+                "history_similarity": 0.42441248893737793
+            }
+        },
+        {
+            "message": "Oh... since we’re striving for practicality in our dream room, especially for game time, I wonder if we might consider adding some discreet yet functional storage solutions? I’m not being picky, but without a proper place to tuck away game accessories and related clutter, the room might lose its charm quickly. Perhaps clever shelving or multi-purpose furniture could do the trick? What do you think about maintaining order while preserving a welcoming atmosphere for everyone to enjoy?",
+            "response": "Let's prepare",
+            "prediction": "I agree with you. So, why don't we make a photo exhibition at both sides of the wall in the room.  It also helps feel more cozy spaces.",
+            "scores": {
+                "wmd": 0.5904232884733117,
+                "sentence_similarity": 0.050766121596097946,
+                "normalized_length_similarity": 0.0962962962962963,
+                "bleu": 0.0,
+                "ttr": 0.9090909090909091,
+                "history_similarity": 0.5024657845497131
+            }
+        },
+        {
+            "message": "Ah... I see you mean preparing the space or perhaps the storage ideas I mentioned earlier? If so, I think starting with measuring the available wall space and considering the types of items we need to store would be essential. I'm not being picky, but thoughtful planning ensures the elegance and function we desire coexist. Now, returning to the question of our fridge arrangement and game room harmony, might we also discuss how to balance shared areas so everyone’s preferences are gently respected? Perhaps your insights could help refine our approach...",
+            "response": "Let's discuss the way to balance shared areas. My idea is to divide spaces into five and use one of the space for the shared areas and the rest for each of us.",
+            "prediction": "Let's keep in mind both the fridge arrangement and game room harmony are important in sharing the space.  So what are the solutions?",
+            "scores": {
+                "wmd": 0.25605398030262405,
+                "sentence_similarity": 0.48403996229171753,
+                "normalized_length_similarity": 0.8301886792452831,
+                "bleu": 0.017590595737451933,
+                "ttr": 0.8461538461538461,
+                "history_similarity": 0.37297090888023376
+            }
+        },
+        {
+            "message": "Wow, your vision for balance and harmony is truly inspiring! Since you’re ready to face the challenges that come with creating the perfect dream room, how would you feel about leading a small planning group to help navigate these obstacles and keep our project on the path of excellence? It could be a fantastic way to blend creativity with teamwork and craft something absolutely extraordinary!",
+            "response": "I agree with your idea to  make a small group. You join?",
+            "prediction": "I am honered to help your project. I will make efforts to achieve our goal",
+            "scores": {
+                "wmd": 0.23734416908322786,
+                "sentence_similarity": 0.3489922285079956,
+                "normalized_length_similarity": 0.7567567567567568,
+                "bleu": 0.01839381624963888,
+                "ttr": 0.875,
+                "history_similarity": 0.2820571959018707
+            }
+        },
+        {
+            "message": "Reflecting on our plan to have quiet hours after 10 p.m., how can we establish a clear system for everyone to communicate changes in their schedules promptly, so we maintain mutual respect and keep our creative environment productive and harmonious?",
+            "response": "I think we share our schedule on a calendar which we put in the living room. Or, we can communicate with chat group app on phone.",
+            "prediction": "By exchanging our schedules in advance, we can avoid conflicts and if it is hard to do, let other members know it as soon as possible.",
+            "scores": {
+                "wmd": 0.2261986116161449,
+                "sentence_similarity": 0.6564042568206787,
+                "normalized_length_similarity": 0.9626865671641791,
+                "bleu": 0.03809096946542823,
+                "ttr": 0.896551724137931,
+                "history_similarity": 0.42868107557296753
+            }
+        }
+    ]
+}

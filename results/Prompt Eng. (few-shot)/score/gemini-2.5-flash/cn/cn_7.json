@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:40:16",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友说到实用性和整洁，真是太棒了！那你设想一下，如果我们要建个篮球场，怎么布局和配置才能既方便大家日常使用，又能好好维护？有什么超级实用又酷炫的点子吗？来大胆说说！",
+      "response": "整洁",
+      "prediction": "可折叠",
+      "scores": {
+        "wmd": 1.2289661301704617,
+        "sentence_similarity": 0.9578516483306885,
+        "normalized_length_similarity": 0.6666666666666666,
+        "history_similarity": 0.7596153616905212,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哈哈，朋友，整洁就是保持场地清爽！定期清扫和归置太重要啦！说说你的超棒点子吧！",
+      "response": "每次使用完都清扫",
+      "prediction": "值日表",
+      "scores": {
+        "wmd": 1.2625881123835332,
+        "sentence_similarity": 0.4544486999511719,
+        "normalized_length_similarity": 0.375,
+        "history_similarity": 0.7001280188560486,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "嗯……既然要做到既实用又完美，您觉得我们应该投入多少时间和精力，与大家细致协调和不断改进这个篮球场设计呢？我不是挑剔，但精益求精总需要更多耐心和沟通，您觉得这样……合理吗？",
+      "response": "合理",
+      "prediction": "合理",
+      "scores": {
+        "wmd": 0.0,
+        "sentence_similarity": 1.0000001192092896,
+        "normalized_length_similarity": 1.0,
+        "history_similarity": 0.8250067234039307,
+        "bleu": 0.1778279410038923,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，说到实用和艺术美学的权衡，这真是个燃爆的问题！你觉得在“梦想房间”设计里，我们是应该更注重功能的实用性，确保每一处都方便使用，还是该追求那让人眼前一亮、心灵为之一颤的艺术美感？为什么呢？这背后的理念一定超赞，快跟我分享一下吧！",
+      "response": "眼前一亮",
+      "prediction": "实用性",
+      "scores": {
+        "wmd": 1.2925167457380442,
+        "sentence_similarity": 0.5327144861221313,
+        "normalized_length_similarity": 0.75,
+        "history_similarity": 0.7596153616905212,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "哇，眼前一亮就是艺术的魔力！你觉得哪种元素最能激发这感觉？",
+      "response": "色彩",
+      "prediction": "色彩",
+      "scores": {
+        "wmd": 0.0,
+        "sentence_similarity": 1.0,
+        "normalized_length_similarity": 1.0,
+        "history_similarity": 0.7838401794433594,
+        "bleu": 0.1778279410038923,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "既然色彩能激发眼前一亮的感觉，那在公共区域保持整洁时，我们该怎样制定具体规则，既能保护创作灵感，又能避免‘创作垃圾’泛滥？从逻辑上讲，你觉得哪些措施最有效？你愿意以怎样的方式配合执行这些规则？",
+      "response": "紫金",
+      "prediction": "轮流清理",
+      "scores": {
+        "wmd": 1.2362144241213475,
+        "sentence_similarity": 0.5360149145126343,
+        "normalized_length_similarity": 0.5,
+        "history_similarity": 0.7377452254295349,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "让我们分析一下，“紫金”指代不明确。请详细说明你怎么看具体执行规则。",
+      "response": "配色",
+      "prediction": "规则明确",
+      "scores": {
+        "wmd": 1.294079304721365,
+        "sentence_similarity": 0.6718947887420654,
+        "normalized_length_similarity": 0.5,
+        "history_similarity": 0.7643921971321106,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "配色方案应简洁统一，便于识别与管理，减少视觉混乱。  \n回到整洁规则，你怎么看如何分区收纳废料？",
+      "response": "做好垃圾分类",
+      "prediction": "分类",
+      "scores": {
+        "wmd": 0.8692195001367529,
+        "sentence_similarity": 0.8223180770874023,
+        "normalized_length_similarity": 0.3333333333333333,
+        "history_similarity": 0.7145807147026062,
+        "bleu": 0.024066394763145416,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

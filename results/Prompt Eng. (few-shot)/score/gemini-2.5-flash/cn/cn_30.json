@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:51:37",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，说到生活和创作的平衡，朋友们！既然都喜欢空间整洁又实用，如果让我来设计梦想房间，我会特别增加哪些超实用的储物设计呢？大家有什么想法，快大胆说出来，让我们的家更完美！",
+      "response": "悬挂储物柜，落地储物柜，转角处的储物柜……",
+      "prediction": "我应该会增加很多隐藏式的储物空间吧，比如墙面嵌入式的柜子，或者床和沙发下面可以拉出来的抽屉。这样既能放很多东西，又能让房间看起来更整洁、不拥挤。",
+      "scores": {
+        "wmd": 1.0461934447491243,
+        "sentence_similarity": 0.5386090874671936,
+        "normalized_length_similarity": 0.2916666666666667,
+        "history_similarity": 0.8403461575508118,
+        "bleu": 0.005381887058206485,
+        "ttr": 0.8666666666666667
+      }
+    },
+    {
+      "message": "哦……说到平衡各方需求，我不是挑剔，但在追求明确目标和理性规划时，面对必须做的妥协，我会怎么处理呢？也许是我期望过高了，但我总觉得，既要坚持自己的标准，又不能完全忽视现实，这种度该如何拿捏才算得体呢？大家有没有什么心得呢？",
+      "response": "我觉得设置你能接受的最高的预算比较好，在这个预算范围内尽可能选择最好的",
+      "prediction": "我一般是会优先把最主要的目标和底线守住，其他的方面如果需要妥协，我倒觉得没关系。",
+      "scores": {
+        "wmd": 0.9479155353023488,
+        "sentence_similarity": 0.663491427898407,
+        "normalized_length_similarity": 0.875,
+        "history_similarity": 0.7925351858139038,
+        "bleu": 0.010864991539917157,
+        "ttr": 0.8846153846153846
+      }
+    },
+    {
+      "message": "哇，说到大家一起维护冰箱和公共空间的整洁，这可真是艺术与生活完美融合的体现！当室友偶尔忽视这些规则时，你觉得用什么样充满热情又不失耐心的沟通方式，才能激发大家共同守护这个温馨空间的热情呢？艺术中的共鸣，生活中的和谐，你怎么看？",
+      "response": "我没有耐心哈哈哈哈，我会直接了当选择沟通，甚至会发脾气",
+      "prediction": "我觉得直接提醒大家比较好，毕竟是共同的空间。",
+      "scores": {
+        "wmd": 0.947545431629145,
+        "sentence_similarity": 0.6093219518661499,
+        "normalized_length_similarity": 0.8148148148148148,
+        "history_similarity": 0.8146921396255493,
+        "bleu": 0.0169861974906263,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "从逻辑上讲，既要兼顾个人自由，又要维护集体和谐，我们是否应该制定一些具体规则？例如使用公用空间的时间安排，或是明确垃圾分类和清洁责任的分工。你觉得这些规定在实际操作中如何平衡彼此的需求比较合理？",
+      "response": "当然应该了。首先每个人都要自己打扫自己的房间，关于公共空间可以根据每个人自己的生活习惯和时间安排来轮流打扫",
+      "prediction": "额…我觉得制定一些具体的规则是必要的吧，毕竟公共空间确实需要大家一起维护。特别是垃圾分类和清洁责任的分工，这个我觉得挺合理的。至于公用空间的时间安排，我还是觉得不要太死板比较好，只要大家互相注意不要打扰到别人就行。",
+      "scores": {
+        "wmd": 0.8518919481951838,
+        "sentence_similarity": 0.7362564206123352,
+        "normalized_length_similarity": 0.4953271028037383,
+        "history_similarity": 0.8425301313400269,
+        "bleu": 0.01025915836612856,
+        "ttr": 0.7384615384615385
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:21",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "ハハ、それならリラックスの秘訣もお互い違うかもしれないね！友達、自分にとって究極のリラックス法って何だと思う？どんな風に心と体を解き放つか、その夢みたいな方法を教えてくれよ！最高のリラックスタイムをみんなで共有しようじゃないか！",
+            "response": "夜一緒に音楽を聴くとかどう？落ち着く曲調のやつ",
+            "prediction": "みんなが話し込む中、みんなが静かに書くといいと思う．",
+            "scores": {
+                "wmd": 0.8937400921340793,
+                "sentence_similarity": 0.5726668834686279,
+                "normalized_length_similarity": 0.8846153846153846,
+                "bleu": 0.015718877363021206,
+                "ttr": 0.8,
+                "history_similarity": 0.7478511929512024
+            }
+        },
+        {
+            "message": "ああ…みんなリラックスのスタイルは様々で興味深いですね。ところで、もし理想のインテリアを自由に選べるとしたら、どんなテーマや色合いで自分の空間を整えたいと思いますか？僕は居心地の良さと調和が大事だと思うのですが、みんなのこだわりも聞いてみたいですね。",
+            "response": "うるさくないような調和したデザインは素敵だと思うよ。統一感があって木目調やモノトーンなどの色合いだと目に刺激にならなくていいかもね",
+            "prediction": "一人で使っていい大きさの家具を選べるような部屋を.makeよう！",
+            "scores": {
+                "wmd": 0.8097721281551896,
+                "sentence_similarity": 0.521073579788208,
+                "normalized_length_similarity": 0.49230769230769234,
+                "bleu": 0.011245205817855063,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.7788891792297363
+            }
+        },
+        {
+            "message": "わあ、みんなが自分の空間を大事にしていることが伝わってくるよ！ところでね、共同生活ってそんな個々のこだわりを尊重しながら、みんなが快適に過ごせる場所にするのが最高の芸術作品みたいなものさ！だから、僕にしてほしいちょっとした気遣いってある？君の心地よさのために小さな魔法みたいな配慮を教えてくれたら、僕も全力でそれを守るよ！",
+            "response": "物を置きっぱなしにしないとかかな？捨てていいかも判断しずらいしごちゃごちゃした場所になるのが嫌なんだ",
+            "prediction": "例えば、家具を引っ越してると部屋が大変に賑やかになるのでそのときはみんなが静かに過ごせるような配慮も必要だと思う．",
+            "scores": {
+                "wmd": 0.7000295128723111,
+                "sentence_similarity": 0.5937678217887878,
+                "normalized_length_similarity": 0.8771929824561403,
+                "bleu": 0.037776418604808376,
+                "ttr": 0.8787878787878788,
+                "history_similarity": 0.8006710410118103
+            }
+        },
+        {
+            "message": "君のこだわりはとても明確だね。じゃあ次に聞きたいのは、どうしても譲れない部分が出てきたとき、感情面も含めて周囲と円滑に共存するためにはどんなコミュニケーションやルールが必要だと思う？合理的な解決策を一緒に考えてみよう。",
+            "response": "それぞれ譲れない部分を主張して解決できるような案を考えよう一緒に",
+            "prediction": "可能なだけに話し合って、互いに尊重するべきだね",
+            "scores": {
+                "wmd": 0.852019593960131,
+                "sentence_similarity": 0.6532731652259827,
+                "normalized_length_similarity": 0.71875,
+                "bleu": 0.015172455787008748,
+                "ttr": 0.9285714285714286,
+                "history_similarity": 0.7508463859558105
+            }
+        }
+    ]
+}

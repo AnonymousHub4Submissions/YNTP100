@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "model": "gpt-3.5-turbo",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-26 18:49:42",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we’re all about finding the perfect balance, how do you imagine designing a space that’s super practical for everyone’s daily needs but still sparks a bit of creative flair? What cool features would you put in to make it a multi-purpose dream room that’s both useful and inspiring? Let’s think big and smart!",
+            "response": "Turn our wall into a whiteboard – it's stylish, practical and encourages creative discussions.",
+            "prediction": "Install smart lighting that can change color and brightness, and add some adjustable furniture.",
+            "scores": {
+                "wmd": 0.24743726061322802,
+                "sentence_similarity": 0.30715227127075195,
+                "normalized_length_similarity": 0.9894736842105263,
+                "bleu": 0.01520779505248453,
+                "ttr": 0.9375,
+                "history_similarity": 0.34093672037124634
+            }
+        },
+        {
+            "message": "Oh... since we are embracing such creative endeavors, may I inquire—have you ever pushed yourself beyond your usual limits in a project, perhaps to achieve some extraordinary design outcome? I'm not being picky, but I wonder how that experience felt—did the challenge bring a certain rewarding satisfaction that made it worthwhile despite the effort?",
+            "response": "I once pushed myself beyond my limits when organizing a school festival, and the sense of accomplishment I felt when I saw the finished product was exceptional.",
+            "prediction": "It was a challenging and long process, but eventually I managed to create a smart design for the miniature garden.",
+            "scores": {
+                "wmd": 0.2182014013050721,
+                "sentence_similarity": 0.2860381007194519,
+                "normalized_length_similarity": 0.7125,
+                "bleu": 0.010279772632980435,
+                "ttr": 0.9545454545454546,
+                "history_similarity": 0.3424986004829407
+            }
+        },
+        {
+            "message": "Wow, your dedication to balancing creative energy and peaceful rest is truly inspiring! Since we agreed on quiet hours starting at 10pm, how do you imagine a schedule for our group activities that keeps that calm while still lighting up the night with bursts of creative passion? What’s your vision for that perfect harmony?",
+            "response": "We could hold group activities right after dinner, say around 7–9pm, so we get that lively creative",
+            "prediction": "Maybe we could plan creative sessions earlier in the evening and wind down with quieter activities later on.",
+            "scores": {
+                "wmd": 0.24525189905526462,
+                "sentence_similarity": 0.723269522190094,
+                "normalized_length_similarity": 0.9166666666666666,
+                "bleu": 0.014400124446705301,
+                "ttr": 1.0,
+                "history_similarity": 0.48619163036346436
+            }
+        },
+        {
+            "message": "Wow, what an awesome idea to spark that creative fire right after dinner! From 7 to 9pm sounds perfect—just the right time to channel our energy before the quiet hours at 10pm wrap us in calm. That way, we get those amazing bursts of art and inspiration without any restless nights. Now, thinking of those nights alive with creativity, what kinds of group activities do you imagine would paint the most vivid masterpiece of our shared passion? I’m all ears and ready to create something spectacular together!",
+            "response": "I imagine creative jam sessions—maybe group brainstorming, collaborative art, or even late-night storytelling.",
+            "prediction": "How about a virtual painting or drawing session?",
+            "scores": {
+                "wmd": 0.29067709402424646,
+                "sentence_similarity": 0.5253298878669739,
+                "normalized_length_similarity": 0.43636363636363634,
+                "bleu": 0.011017167600428483,
+                "ttr": 1.0,
+                "history_similarity": 0.3641439974308014
+            }
+        },
+        {
+            "message": "Indeed, fostering this creative synergy requires clear communication and fairness. Considering our shared spaces like the fridge and resources we all rely on, how can we establish an open, ongoing dialogue among roommates to address any future challenges effectively and ensure everyone feels heard and respected?",
+            "response": "First of all, it is important to have a proper discussion with everyone participating. We must sincerely listen to everyone's opinions.",
+            "prediction": "Let's set aside time for regular house meetings. We can discuss issues openly, take turns sharing, and agree on solutions together.",
+            "scores": {
+                "wmd": 0.22124467028027725,
+                "sentence_similarity": 0.3997870683670044,
+                "normalized_length_similarity": 0.9703703703703703,
+                "bleu": 0.019320990745681776,
+                "ttr": 0.9230769230769231,
+                "history_similarity": 0.32861456274986267
+            }
+        }
+    ]
+}

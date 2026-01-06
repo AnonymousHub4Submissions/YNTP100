@@ -1,0 +1,81 @@
+{
+    "metadata": {
+        "model": "Qwen3-14B",
+        "method": "Prompt_Engineering_CoT",
+        "date": "2025-12-21 20:57:35",
+        "cot_policy": "latent_style_decomposition",
+        "style": {
+            "tone": "casual",
+            "length": "short",
+            "emotion": "low",
+            "distance": "neutral"
+        }
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友，你刚才说会把大部分资金储蓄起来，还有明确的梦想和目标！如果突然来了一笔意外之财，你会用它去实现什么疯狂又美妙的梦想呢？大胆说出来，让我们一起为你的梦想加油打气！",
+            "response": "环游世界 我是认真的",
+            "prediction": "投资艺术项目",
+            "scores": {
+                "wmd": 1.291706594698999,
+                "sentence_similarity": 0.4784846305847168,
+                "normalized_length_similarity": 0.6,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.6564529538154602
+            }
+        },
+        {
+            "message": "说到日常的小细节，关于冰箱我一直坚持各自占用一层，虽然我不是挑剔，但共享确实容易带来小摩擦。你觉得呢，这样的安排，最大的好处会体现在哪些方面呢？毕竟生活品质和便利性都不能忽视呢。",
+            "response": "我支持不共享",
+            "prediction": "避免冲突 个人控制",
+            "scores": {
+                "wmd": 1.2245966474941816,
+                "sentence_similarity": 0.5244958400726318,
+                "normalized_length_similarity": 0.6666666666666666,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.8480374217033386
+            }
+        },
+        {
+            "message": "嗯...我不是挑剔，但是大家都坚持不共享，偶尔会不会显得有些孤立呢...呢？",
+            "response": "我不觉得",
+            "prediction": "能吧",
+            "scores": {
+                "wmd": 1.202133113414528,
+                "sentence_similarity": 0.46081942319869995,
+                "normalized_length_similarity": 0.5,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7448689937591553
+            }
+        },
+        {
+            "message": "哇，你对梦想房间的抽象风格主导真是太酷了！你有没有特别钟爱的元素或者图案，觉得能用幽默感十足的方式，完美展现那个空间的灵魂呢？艺术就是要敢于疯狂创新，对吧！",
+            "response": "蜡笔小新 我喜欢绿色",
+            "prediction": "荒诞几何",
+            "scores": {
+                "wmd": 1.2341015895984868,
+                "sentence_similarity": 0.5270395278930664,
+                "normalized_length_similarity": 0.4,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7188229560852051
+            }
+        },
+        {
+            "message": "让我们分析一下，创作自由和生活安宁确实容易冲突。从实际角度，你觉得在梦想房间设计里，如何兼顾这两者？是设立专门的创作区域，还是通过材料和布局降低噪音？你更倾向哪种方案？",
+            "response": "设立专门的创作区域",
+            "prediction": "材料和布局",
+            "scores": {
+                "wmd": 1.269558140482253,
+                "sentence_similarity": 0.5268044471740723,
+                "normalized_length_similarity": 0.5555555555555556,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.806232213973999
+            }
+        }
+    ]
+}

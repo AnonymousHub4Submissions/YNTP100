@@ -1,0 +1,102 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:26:35",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Come on, friend! Imagine you just won 100 million out of nowhere—no limits, no worries! What's the most wild and awesome thing you’d do first? Don’t hold back, let’s hear your boldest dream! Haha!\nA. I want build a house\n\nQ. Very interesting plan to build a house. Next, let’s analyze this realistically: how would you allocate that 100 million? For instance, what proportions would you consider for investment, consumption, and savings?\nA. I will use all 100 million to build my house\n\nQ. Wow, your passion for building this house is truly inspiring! Tell me, what’s driving this dream for you? Is it a clear goal you’re aiming to achieve, or is it more about expressing your values and emotions through this creation? Art is all about that deeper motivation!\nA. I want to live a comfortable house.\n\nQ. Wow, wanting a comfortable house—that’s a beautiful and powerful motivation! Comfort isn’t just about walls and furniture; it’s about creating a sanctuary where your spirit feels at peace and alive. Art is creating spaces that nurture the soul! But tell me, beyond comfort, does this dream come from a desire to prove something to yourself or to maybe inspire others to find their own comfort? Let’s dive into what truly fuels this vision, because that’s the heart of making your dream an extraordinary masterpiece!\nA. I want to relax and unwind in a big house.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, since we all agree that a tidy space sparks creativity, imagine if you could design the ultimate cozy corner in our house just for relaxing and dreaming up awesome ideas! What would your creative sanctuary look like, and what cool things would you do there to keep the inspiration flowing?",
+            "response": "I’d probably place some plants.",
+            "prediction": "I want to have a cozy corner in our house.    Answer: I want to have a cozy corner in our house. Hide 1. I want to build a house. 2. I will use all 100 million to build my house. 3. I want to live a comfortable house. 4. I want to relax and unwind in a big house. 5. I want to have a cozy corner in our house. Show more responses. 1. I want to build a house. 2. I will use all 100 million to build my house. 3. I want to live a comfortable house. 4. I want to relax and unwind in a big house. 5. I want to have a cozy corner in our house. 6. I want to have a cozy corner in our house. 7. I want to build a house. 8. I will use all 100 million to build my house. 9. I want to live a comfortable house. 10. I want to relax and unwind in a big house. 11. I want to have a cozy corner in our house. 12. I want to have a cozy corner in our house. 13. I want to",
+            "scores": {
+                "wmd": 0.41143842156407184,
+                "sentence_similarity": 0.19339974224567413,
+                "normalized_length_similarity": 0.03625730994152047,
+                "bleu": 0.0009095771949261427,
+                "ttr": 0.18376068376068377,
+                "history_similarity": 0.6120008230209351
+            }
+        },
+        {
+            "message": "Haha, friend, plants are such an awesome choice! They bring life and fresh vibes to any space! Imagine a cozy corner with lush green plants all around, a comfy chair, and maybe some soft fairy lights—perfect for chilling and dreaming big! Now, what kind of activities or creative things would you do in your plant-filled sanctuary to keep those awesome ideas flowing nonstop? Tell me more!",
+            "response": "I will read a book.",
+            "prediction": "I want to build a house.    Answer: I want to build a house.",
+            "scores": {
+                "wmd": 0.3729212130433963,
+                "sentence_similarity": 0.19845707714557648,
+                "normalized_length_similarity": 0.31666666666666665,
+                "bleu": 0.01618861356572822,
+                "ttr": 0.5625,
+                "history_similarity": 0.45806023478507996
+            }
+        },
+        {
+            "message": "Oh... speaking of creating such a lovely sanctuary with plants, I wonder—if we were to add something like an aquarium to enhance the visual appeal, would you be open to balancing the aesthetics with ease of maintenance? I’m not being picky, but an aquarium that demands too much care might lose its charm over time. Perhaps ensuring it lasts longer and remains enjoyable for everyone would be a sensible approach, don’t you think?",
+            "response": "Yes. I agree.",
+            "prediction": "I want to have a big aquarium in my house.     Answer:  I want to have a big aquarium in my house.  I want to relax and unwind in a big house.  I want to live a comfortable house.  I will use all 100 million to build my house.  I want build a house.  I want to have a big aquarium in my house.  I want to relax and unwind in a big house.  I want to live a comfortable house.  I will use all 100 million to build my house.  I want build a house.  I want to have a big aquarium in my house.  I want to relax and unwind in a big house.  I want to live a comfortable house.  I will use all 100 million to build my house.  I want build a house.  I want to have a big aquarium in my house.  I want to relax and unwind in a big house.  I want to live a comfortable house.  I will use all 100 million to build my house.  I want build a house.  I want to have a big aquarium in my house.  I want to relax and unwind in a big house.  I want to live a",
+            "scores": {
+                "wmd": 0.7016841048364059,
+                "sentence_similarity": 0.06238958239555359,
+                "normalized_length_similarity": 0.013829787234042552,
+                "bleu": 0.0018374579044030067,
+                "ttr": 0.10526315789473684,
+                "history_similarity": 0.5214834809303284
+            }
+        },
+        {
+            "message": "Wow, your thoughts about balance between beauty and function really spark my passion! Since we all treasure a space where creativity flows freely without distraction, how would you feel about proposing a quiet time schedule? A special creative pause where everyone can focus deeply or unwind peacefully—does that sound like a perfect way to honor both artistry and harmony in our shared haven?",
+            "response": "Yes I think so.",
+            "prediction": "I want to relax and unwind in a big house.    Answer: I want to relax and unwind in a big house.",
+            "scores": {
+                "wmd": 0.5170932319921092,
+                "sentence_similarity": -0.007090057246387005,
+                "normalized_length_similarity": 0.15625,
+                "bleu": 0.009410489957951634,
+                "ttr": 0.5416666666666666,
+                "history_similarity": 0.49543875455856323
+            }
+        },
+        {
+            "message": "Wow, I’m thrilled you think so! Embracing a quiet time schedule truly celebrates the art of focus and serenity—two essential ingredients for masterpiece-making! How wonderful it will be to have moments where inspiration can flow uninterrupted like a gentle stream. Now, tell me, what kind of creative activities or rituals would you love to include during these peaceful pauses to make our sanctuary feel even more alive with artistic spirit?",
+            "response": "I want to read a book",
+            "prediction": "I want to read in a big house.    Answer: I want to read in a big house. \n     I want to paint in a big house.    Answer: I want to paint in a big house. \n     I want to relax in a big house.    Answer: I want to relax in a big house. \n     I want to watch TV in a big house.    Answer: I want to watch TV in a big house. \n     I want to play video games in a big house.    Answer: I want to play video games in a big house. \n     I want to listen to music in a big house.    Answer: I want to listen to music in a big house. \n     I want to exercise in a big house.    Answer: I want to exercise in a big house. \n     I want to garden in a big house.    Answer: I want to garden in a big house. \n     I want to learn in a big house.    Answer: I want to learn in a big house. \n     I want to cook in a big house.    Answer: I want to cook in a big house. \n     I want to play with my pets in a big house.    Answer: I",
+            "scores": {
+                "wmd": 0.42302738744145657,
+                "sentence_similarity": 0.13033603131771088,
+                "normalized_length_similarity": 0.02287581699346405,
+                "bleu": 0.01047148367969077,
+                "ttr": 0.12,
+                "history_similarity": 0.5062326788902283
+            }
+        },
+        {
+            "message": "Logically speaking, creating an atmosphere that balances comfort and inspiration is crucial. If we were to host a gathering in such a space, how would you practically design the environment and select activities so that guests feel both relaxed and intellectually stimulated? For example, what specific elements or arrangements would support this dual goal effectively?",
+            "response": "\"Maybe arranging some easy-to-grab drinks and snacks.\"",
+            "prediction": "I would create a comfortable and inspiring space for our gathering by incorporating elements such as a cozy reading nook, a large art studio, and a peaceful outdoor space. I would also plan activities that foster creativity and intellectual stimulation, such as art workshops, book clubs, and debates. The goal would be to create an atmosphere where guests feel relaxed and inspired.     Answer: &quot;I would plan activities that foster creativity and intellectual stimulation&quot;",
+            "scores": {
+                "wmd": 0.4031651847266633,
+                "sentence_similarity": 0.3067675828933716,
+                "normalized_length_similarity": 0.11180124223602485,
+                "bleu": 0.002444993300661746,
+                "ttr": 0.6136363636363636,
+                "history_similarity": 0.460486501455307
+            }
+        },
+        {
+            "message": "Let’s analyze this. Providing easy-to-grab drinks and snacks is a practical way to keep guests comfortable without interrupting the flow of conversation or activities. It minimizes distractions and encourages mingling. To build on that, we could also include comfortable seating arranged to promote discussion, good lighting for reading or viewing, and perhaps some background music at a low volume. Now, back to my original question: what specific activities or interactive elements do you think would intellectually engage guests while maintaining that relaxed atmosphere?",
+            "response": "Maybe setting up a monitor to stimulate active discussions.",
+            "prediction": "I think it would be a good idea to have a variety of books and board games available for guests to enjoy. This would allow them to engage their minds and have some fun while still being able to relax and unwind in the comfortable environment you've created. Additionally, you could also consider having a few puzzles or brain teasers scattered around the house to keep guests engaged and stimulated. This would add an extra layer of intellectual engagement without disrupting the relaxed atmosphere. It would also be a great way to encourage guests to interact with each other and work together to solve the puzzles. Overall, I think this would be a great way to create a unique and engaging experience for your guests.     Answer: I think it would be a good idea to have a variety of books and board games available for guests to enjoy. This would allow them to engage their minds and have some fun while still being able to relax and unwind in the comfortable environment you've created. Additionally, you could also consider having a few puzzles or brain teasers scattered around the house to keep guests engaged and stimulated. This would add an extra layer of intellectual engagement without disrupting the relaxed atmosphere. It would also be a great way to encourage guests to interact with each other and work together to solve the puzzles. Overall, I think",
+            "scores": {
+                "wmd": 0.2808249784553301,
+                "sentence_similarity": 0.3050023317337036,
+                "normalized_length_similarity": 0.04322344322344322,
+                "bleu": 0.0009305647892440326,
+                "ttr": 0.35177865612648224,
+                "history_similarity": 0.3954850137233734
+            }
+        }
+    ]
+}

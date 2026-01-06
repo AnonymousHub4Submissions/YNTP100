@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "model": "gpt-3.5-turbo",
+    "method": "zero-shot",
+    "date": "2025-10-06 19:15:03"},
+  "scores": [
+    {
+      "message": "哈哈，朋友们，聊到这儿，我忍不住想问问大家，关于咱们共享厨房呢！你们觉得咱们是要买菜分摊，大家一起做饭更有团队感，还是每个人负责自己的食材，互不干涉更自由？来吧，大胆说说你的想法，咱们一起把厨房变成大家都爱呆的地方！太棒了！",
+      "response": "还是倾向于每个人负责自己的食材吧，食物上共享可能会引起一些不同口味的人的接受不了",
+      "prediction": "My response would likely be: \"我觉得可以尝试一段时间每个人负责自己的食材，互不干涉，如果觉得需要改变再商量调整也行。我们可以灵活应对，让大家都感觉舒适方便就好啦！\"ttr",
+      "scores": {
+        "wmd": 0.9995918227289183,
+        "sentence_similarity": 0.5870089530944824,
+        "normalized_length_similarity": 0.41237113402061853,
+        "history_similarity": 0.4510250687599182,
+        "bleu": 0.08966592262979808,
+        "ttr": 0.8269230769230769
+      }
+    },
+    {
+      "message": "哦……说到梦想房间呢，我不是挑剔，但是总觉得光有放松娱乐或学习工作还不够，或许还需要一个既能独处深思，又能偶尔社交的小空间。这种空间既不过于吵闹，也不会太孤单。也许是我期望过高了，不过大家心中理想的“梦想房间”里，最重要的功能到底是什么呢？你觉得呢？",
+      "response": "功能不需要复杂，既有个人独有的隐私区域，也有增加大家交流的公共区域",
+      "prediction": "My response would be: 理想的梦想房间对每个人来说可能都有不同的定义吧。在我看来，一个理想的梦想房间应该是一个可以让人身心放松的温馨空间，既能享受独处时间，又可以与他人交流和分享。最重要的功能可能是让人感到舒适和自在吧。你认为呢？",
+      "scores": {
+        "wmd": 0.9056608525583961,
+        "sentence_similarity": 0.5211232304573059,
+        "normalized_length_similarity": 0.264,
+        "history_similarity": 0.5781267881393433,
+        "bleu": 0.0038315560661825857,
+        "ttr": 0.7012987012987013
+      }
+    },
+    {
+      "message": "哇，你们对空间的理解真是太有深度了！说到创作时的噪音问题，你觉得通过合理的时间安排，还是建立专属的静音空间，哪个方法更符合艺术家的专注需求呢？或者你有什么更酷的解决方案，能让创作激情和环境和平共处？艺术就是要找到完美的平衡！",
+      "response": "静音空间吧。",
+      "prediction": "My response would be: \"谢谢夸奖！对于创作时的噪音问题，我认为建立专属的静音空间可能更有利于艺术家的专注需求。不过，结合合理的时间安排和定期沟通协调也是很重要的。或许我们可以尝试制定一个创作时间表，同时在特定时段保持安静，以便每个人都能在一个和平的环境中发挥创作激情。你觉得如何呢？\"ttr",
+      "scores": {
+        "wmd": 1.1062748555004347,
+        "sentence_similarity": 0.53313148021698,
+        "normalized_length_similarity": 0.0392156862745098,
+        "history_similarity": 0.41646021604537964,
+        "bleu": 0.004756721425975386,
+        "ttr": 0.797752808988764
+      }
+    },
+    {
+      "message": "说到公共区域，生活品质很大程度上取决于维护细节。你们觉得我们该如何合理分配这些清洁与维护的责任？是轮流来承担，还是根据个人习惯和时间安排做更细致的分工？从效率和公正角度看，哪个方案更合理？",
+      "response": "公平角度更重要",
+      "prediction": "I think it would be best if we had a combination of both approaches. We can have a schedule for rotating responsibilities to ensure that everyone contributes equally to the cleanliness and maintenance of the common areas. Additionally, individuals can also take on specific tasks based on their habits and availability to ensure a thorough and personalized approach to the division of labor. This way, we can achieve a balance between efficiency and fairness in maintaining our shared living spaces.",
+      "scores": {
+        "wmd": 1.3033308783222723,
+        "sentence_similarity": 0.08081932365894318,
+        "normalized_length_similarity": 0.014028056112224449,
+        "history_similarity": 0.11293859034776688,
+        "bleu": 0.0,
+        "ttr": 0.3939393939393939
+      }
+    }
+  ]
+}

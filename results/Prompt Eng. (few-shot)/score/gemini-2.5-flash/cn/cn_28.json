@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:30:42",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "哈哈，朋友们，听了你们的讨论我觉得太棒了！说到规则，大家觉得在制定这些规则时，最重要的是“公平”这个原则呢？还是“尊重”更关键？又或者我们需要一点“灵活变通”，才能让每个人都舒心？来来来，告诉我你们最在乎的是哪一个！",
+      "response": "公平和尊重都建立在所有人一致的前提上，我觉得公共生活的部分不要太复杂，找一个需要满足的下限，大家遵守，就可以了",
+      "prediction": "我觉得公平、尊重和灵活变通都应该考虑，并由大家共同协商。",
+      "scores": {
+        "wmd": 0.801345075783151,
+        "sentence_similarity": 0.8587766885757446,
+        "normalized_length_similarity": 0.509090909090909,
+        "history_similarity": 0.8204046487808228,
+        "bleu": 0.012563837742775169,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "嗯……说到规则的制定方式，我不是挑剔，但大家真的都能充分表达自己的想法吗？是让所有人一起坐下来协商，虽然听起来理想，但有时候效率和一致性可能会变得……有些难以掌控。或者，委托某个人来负责制定规则，虽说这有集中管理的优势，但也许很难保证每个人的声音都被公平地考虑。你们觉得，在保持公平和尊重的同时，哪种方式更适合我们这个环境呢？毕竟生活品质和和谐共处，这两者都不容妥协，你说是吧？",
+      "response": "可以先各自想然后集中讨论，如果不能一起协商，那之后产生问题会更复杂，一开始达成一致有原则最重要",
+      "prediction": "我觉得让所有人坐下来协商会比较好。效率虽然可能会低一点，但是能确保大家的意见都能被听到和考虑，这样制定的规则会更公平。我们可以先讨论出一个框架，然后逐步细化。",
+      "scores": {
+        "wmd": 0.8304579226062393,
+        "sentence_similarity": 0.5659815669059753,
+        "normalized_length_similarity": 0.5949367088607594,
+        "history_similarity": 0.8099128603935242,
+        "bleu": 0.013433582022038107,
+        "ttr": 0.86
+      }
+    },
+    {
+      "message": "哇，你的思路真是让人眼前一亮！说到生活习惯难免有冲突时，你更喜欢主动敞开心扉沟通，把问题一点点化解，还是更愿意依赖明明白白的共同规则，像一幅完美的画框，帮助我们避免纠纷？艺术就是要找到最和谐的平衡点，你怎么看？",
+      "response": "先有原则再沟通",
+      "prediction": "我更倾向于依赖明明白白的共同规则。沟通可以用于建立和完善这些规则。",
+      "scores": {
+        "wmd": 1.1776381081287144,
+        "sentence_similarity": 0.5666985511779785,
+        "normalized_length_similarity": 0.21212121212121213,
+        "history_similarity": 0.832148015499115,
+        "bleu": 0.010182425646195498,
+        "ttr": 0.8947368421052632
+      }
+    },
+    {
+      "message": "说到公共区域设计，我们要面对实用与美观的抉择。从逻辑上讲，你觉得是更应该优先保证空间的便利性和功能性，还是让它在视觉上更具艺术感，提升整体氛围？你怎么看这个平衡点？",
+      "response": "这不重要。之前也说过了，关心的人讨论其原则，其他人知会并且同意即可",
+      "prediction": "我觉得优先保证空间的便利性和功能性更重要。艺术感可以在此基础上考虑，具体还是由大家协商达成共识。",
+      "scores": {
+        "wmd": 0.9415064941131897,
+        "sentence_similarity": 0.5403822064399719,
+        "normalized_length_similarity": 0.6875,
+        "history_similarity": 0.8418044447898865,
+        "bleu": 0.016891032976324306,
+        "ttr": 0.9642857142857143
+      }
+    },
+    {
+      "message": "让我们分析一下，原则确实关键，但忽视美感可能影响整体体验。你怎么看？",
+      "response": "不重要，让在意美感的人讨论即可，我不在意",
+      "prediction": "我觉得美感确实可以考虑，但是最终还是应该以实用性以及大家的共识为准，不要太复杂。",
+      "scores": {
+        "wmd": 0.8048020208658181,
+        "sentence_similarity": 0.8356478810310364,
+        "normalized_length_similarity": 0.5,
+        "history_similarity": 0.829935610294342,
+        "bleu": 0.012384901282810543,
+        "ttr": 0.9565217391304348
+      }
+    }
+  ]
+}

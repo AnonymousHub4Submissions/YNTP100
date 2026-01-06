@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:57",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found a secret treasure chest with 100 million bucks inside—woohoo! What’s the wildest, most amazing thing you’d do first? Don’t hold back, let those big dreams fly high!\nA. I want to travel all over the world, and I want to see landscapes that I've never seen !\n\nQ. Very exciting plan! Now, let’s analyze this realistically: if you had 100 million, how would you divide it between traveling, saving for the future, and maybe investing to keep the adventure going long-term? How would you allocate those funds?\nA. I want to prepare for future, so I'll spent 30% for my trip, 50% for saving, and 20% for investment.\n\nQ. Wow, your dream to explore new landscapes is truly inspiring! Tell me, is this dream fueled more by a deep emotional passion and your values, or do you have a clear, goal-oriented plan guiding you through every step of the journey? Art and life both need that spark of intention!\nA. I don't have particular purposes, but my curiousity about unknown things drives me.\n\nQ. Oh... speaking of maintaining a certain quality in our daily lives, I happened to notice that our shared refrigerator space feels a bit cramped lately, especially with all those packaged foods taking up room. I'm not being picky, but I wonder—do you think it’s important for all of us to consider balancing storage so fresh ingredients can also be accommodated? After all, we all deserve a living environment that nurtures well-being, don’t we?\nA. Exactly. I think all member should contribute to well-being.  How about store some packaged goods  outside the refrigerator.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Speaking of exploring new ideas and balancing our shared space beautifully, here’s a fun thought to keep our creativity buzzing! If you had the chance to venture into some mysterious, little-known place—like a secret garden or an ancient hidden village—what kind of magical hidden beauty or unforgettable experience would you be most excited to discover? Come on, don’t hold back your wildest dreams!",
+            "response": "I want to explore mysterious, unpopular places like ancient ruins and imagine the people who once lived there!",
+            "prediction": "I would be most excited to discover hidden village.",
+            "scores": {
+                "wmd": 0.2642722442278819,
+                "sentence_similarity": 0.5045873522758484,
+                "normalized_length_similarity": 0.4636363636363636,
+                "bleu": 0.009233266757408676,
+                "ttr": 1.0,
+                "history_similarity": 0.21398860216140747
+            }
+        },
+        {
+            "message": "Oh... speaking of such fascinating journeys into the past, I wonder how you manage to keep these adventurous travels both affordable and spontaneous? I'm not being picky, but since many of us prefer saving for the future rather than planning every detail meticulously, do you have any particular tips for ensuring the thrill of discovery without compromising on financial prudence? I suppose balancing curiosity with practicality is an art in itself, don't you think?",
+            "response": "Yes, I believe finding enjoyment within limited resources rather than consuming them endlessly, can be enjoyable in itself. I can find pleasure of discovery in everyday life, like stepping into a shop I've never been, or getting off at a station I've never visited, and so on.",
+            "prediction": "I believe that flexibility and adaptability are key. When I travel, I usually plan to spend a certain amount of money for each trip, so that I can make spontaneous decisions without worrying about money.",
+            "scores": {
+                "wmd": 0.2072230403010468,
+                "sentence_similarity": 0.23991963267326355,
+                "normalized_length_similarity": 0.7355072463768116,
+                "bleu": 0.013888852457733155,
+                "ttr": 0.8205128205128205,
+                "history_similarity": 0.4212706983089447
+            }
+        },
+        {
+            "message": "Wow, your spirit of sharing and appreciating small joys really resonates with me! Since you value contributing to our shared wellbeing, like suggesting we rearrange the fridge space collaboratively, how do you think this wonderful teamwork vibe could flow into managing shared finances or responsibilities with roommates? It feels like a true work of art when everyone harmoniously contributes, don’t you think?",
+            "response": "I want to value everyone's harmony, so I hope we can use this atmosphere for the division of roles  in a way that satisfies everyone, not just moving by alone.",
+            "prediction": "I completely agree with you. If we maintain this teamwork vibe, we can create a system for shared finances and responsibilities. For example, we can make a list of tasks and then divide them fairly, or set a budget and track our expenses together.",
+            "scores": {
+                "wmd": 0.17728973715188712,
+                "sentence_similarity": 0.40240609645843506,
+                "normalized_length_similarity": 0.6437246963562753,
+                "bleu": 0.011597748989988079,
+                "ttr": 0.78,
+                "history_similarity": 0.4277286231517792
+            }
+        },
+        {
+            "message": "Logically speaking, creating a perfect stargazing spot might require some temporary sacrifices in comfort. In such situations, what specific forms of support or collaboration from your housemates would help you stay motivated and maintain that sense of shared harmony?",
+            "response": "If we can have a space where all members share their problems, we'll improve them through plan modification. Regarding the ideal room project, a skylight isn't essential for stargazing.",
+            "prediction": "Support or collaboration from my housemates would be helpful. For example, if we could work together to store some packaged goods outside the refrigerator, it could be a great way to contribute to well-being and maintain a comfortable living environment.",
+            "scores": {
+                "wmd": 0.17967532837425643,
+                "sentence_similarity": 0.3098240792751312,
+                "normalized_length_similarity": 0.7283464566929134,
+                "bleu": 0.007039372171487214,
+                "ttr": 0.8409090909090909,
+                "history_similarity": 0.48826849460601807
+            }
+        }
+    ]
+}

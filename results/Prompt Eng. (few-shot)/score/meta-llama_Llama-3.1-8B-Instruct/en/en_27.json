@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:27:14",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Let’s have some fun—if you suddenly stumbled upon 100 million, what’s the wildest, boldest thing you’d do with it? Don’t hold back with reality, just dream big and tell me all about it!\nA. Hi, nice to meet you everyone! I'm Tamayo. I will travel all over the world if I had the money.\n\nQ. Very interesting dream, Tamayo. Next, let’s analyze it realistically: if you had to allocate this 100 million, how would you divide it between travel expenses, other personal consumption, and savings or investments?\nA. I will save half of it for the future. I may meet the situation where I need to use a big amount of money. \n\nQ. Thanks for clarifying. So you plan to allocate approximately 50% to savings for unforeseen large expenses. What about the remaining 50%? How much would you set aside specifically for travel and for other consumption or investment? Let's analyze this logically so your plan balances enjoyment and security effectively.\nA. Another half is to travel. I will do something which many people cannot. So I will use 50% at once. \n\nQ. Wow, your plan is so thoughtful and inspiring! Now I’m curious—does your dream come from a clear goal you want to achieve, or is it more driven by deep emotions and values that fuel your passion? Art and dreams both need that spark!\nA. I just want to enjoy travel, not having some vision for the future. \n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re making awesome plans to keep the peace at night, how about we do a little organizing magic with the fridge too? I was thinking if we move canned and packaged foods out, we could save tons of space for fresh ingredients for everyone! But of course, we need everyone on board! How do you think we should chat with the other housemates to make sure everyone agrees and follows this cool change? Any fun ideas to get everyone involved?",
+            "response": "Why don't we have a cooking party after cleaning the fridge?",
+            "prediction": "Let's invite everyone to a meeting and ask them to share their thoughts and opinions on the idea. We can also make it a fun and interactive session by asking them to suggest their favorite snacks or dishes they'd like to see in the fridge. This way, everyone will feel included and invested in the decision. We can also consider making it a housemate challenge to come up with creative ways to organize the fridge and make the most of the space. This will not only get everyone on board but also make the process more enjoyable and engaging.     Answer: Let's invite everyone to a meeting and ask them to share their thoughts and opinions on the idea. We can also make it a fun and interactive session by asking them to suggest their favorite snacks or dishes they'd like to see in the fridge. This way, everyone will feel included and invested in the decision. We can also consider making it a housemate challenge to come up with creative ways to organize the fridge and make the most of the space. This will not only get everyone on board but also make the process more enjoyable and engaging.     Answer: Let's invite everyone to a meeting and ask them to share their thoughts and opinions on the idea. We can also make it a fun and interactive session by asking them to",
+            "scores": {
+                "wmd": 0.20897777067880782,
+                "sentence_similarity": 0.49219393730163574,
+                "normalized_length_similarity": 0.04713275726630008,
+                "bleu": 0.0016614103405637951,
+                "ttr": 0.28174603174603174,
+                "history_similarity": 0.507674515247345
+            }
+        },
+        {
+            "message": "Oh... since we are aiming for comfort and durability rather than flashy design for the theater room, and frankly I do prefer a smoother, less complicated process, would you perhaps be willing to assist in selecting practical materials and furniture that strike a balance between these priorities? I’m not being picky, but ensuring we choose wisely now could save us a lot of trouble later, don’t you agree?",
+            "response": "Of course I agree with you. Choosing in advance saves money and time.",
+            "prediction": "I'm happy to help. I would recommend using materials that are easy to maintain and durable, such as hardwood or laminate flooring, and a comfortable seating arrangement with a couch and a few armchairs. For the walls, we could use a neutral-colored paint to create a calm atmosphere, and add some decorative elements like artwork or plants to give the room some personality. As for furniture, I would suggest choosing pieces that are both functional and stylish, such as a coffee table or a bookshelf. We could also consider adding some soundproofing materials to minimize echo and ensure a more immersive experience.     Answer:  I'm happy to help. I would recommend using materials that are easy to maintain and durable, such as hardwood or laminate flooring, and a comfortable seating arrangement with a couch and a few armchairs. For the walls, we could use a neutral-colored paint to create a calm atmosphere, and add some decorative elements like artwork or plants to give the room some personality. As for furniture, I would suggest choosing pieces that are both functional and stylish, such as a coffee table or a bookshelf. We could also consider adding some soundproofing materials to minimize echo and ensure a more immersive experience.  (Note: This answer has been generated based on the",
+            "scores": {
+                "wmd": 0.199106070265986,
+                "sentence_similarity": 0.04316064342856407,
+                "normalized_length_similarity": 0.05307692307692308,
+                "bleu": 0.0011103035170563996,
+                "ttr": 0.35684647302904565,
+                "history_similarity": 0.31792980432510376
+            }
+        },
+        {
+            "message": "Wow, I love how thoughtful this is getting! Since we're all about blending creativity with respect, how do you feel about setting special ‘creative hours’ during the day—like a vibrant, noisy time for building the dream room or practicing art—while keeping the quiet hours at night? Would that spark the right balance between freedom and harmony for everyone?",
+            "response": "Great idea!! Sharing our time in daytime will make our bonds stronger too!",
+            "prediction": "I think that's a great idea. I would propose setting aside 2 hours in the morning for creative activities. This would allow us to express ourselves freely and have fun while still maintaining some quiet time in the evening for relaxation and sleep. I would also suggest that each person has a designated area in the house where they can work on their projects without disturbing others. This would help to maintain a sense of community and respect for each other's space.     Answer: I think that's a great idea. I would propose setting aside 2 hours in the morning for creative activities. This would allow us to express ourselves freely and have fun while still maintaining some quiet time in the evening for relaxation and sleep. I would also suggest that each person has a designated area in the house where they can work on their projects without disturbing others. This would help to maintain a sense of community and respect for each other's space.     Answer: I think that's a great idea. I would propose setting aside 2 hours in the morning for creative activities. This would allow us to express ourselves freely and have fun while still maintaining some quiet time in the evening for relaxation and sleep. I would also suggest that each person has a designated area in the house where they can work on their projects without",
+            "scores": {
+                "wmd": 0.2550293642399974,
+                "sentence_similarity": 0.5335476994514465,
+                "normalized_length_similarity": 0.05543071161048689,
+                "bleu": 0.001668069433295606,
+                "ttr": 0.26693227091633465,
+                "history_similarity": 0.5224397778511047
+            }
+        },
+        {
+            "message": "Very interesting idea about the creative hours and theater room. Logically speaking, if we were to add another facility or activity that enhances relaxation or recreation for everyone here, what would you suggest? How do you think it would fit into our shared schedule and space?",
+            "response": "I think having meal together is so important to live in the share house. Just talking together with meal and understand others more deeply.",
+            "prediction": "I think we could have a pool. It could be a good place for us to relax and enjoy some time together. It would also be a good place for us to hold some events and activities. It would fit into our schedule and space, and it would be a great addition to our share house.     Answer:  I think we could have a pool. It could be a good place for us to relax and enjoy some time together. It would also be a good place for us to hold some events and activities. It would fit into our schedule and space, and it would be a great addition to our share house.     Answer:  I think we could have a pool. It could be a good place for us to relax and enjoy some time together. It would also be a good place for us to hold some events and activities. It would fit into our schedule and space, and it would be a great addition to our share house.     Answer:  I think we could have a pool. It could be a good place for us to relax and enjoy some time together. It would also be a good place for us to hold some events and activities. It would fit into our schedule and space, and it would be a great addition to our share house.",
+            "scores": {
+                "wmd": 0.24117371633764437,
+                "sentence_similarity": 0.33430951833724976,
+                "normalized_length_similarity": 0.12477558348294435,
+                "bleu": 0.005296126089910784,
+                "ttr": 0.156,
+                "history_similarity": 0.4318813979625702
+            }
+        }
+    ]
+}

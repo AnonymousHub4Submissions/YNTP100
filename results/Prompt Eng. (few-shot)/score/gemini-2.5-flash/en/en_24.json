@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:33:06",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend, speaking of balancing things, I’ve got a curious question for you! Since you’re thinking long-term about your account balance, how do you feel about diving into some exciting but riskier investments like AI or clean energy? These emerging technologies could shoot your growth through the roof, but they do come with wild ups and downs! Would you be up for that thrilling ride or prefer to play it safe and steady? Share your boldest investment dream!",
+      "response": "It is the very interesting question! I'm always thinking that, but recently, I think these are the kinds of \"bubble\", so I prefer to invest on value stocks.",
+      "prediction": "Definitely! Since I am young, I can accept the risk. I want to invest on AI and clean energy for long-term growth! Let's take that thrilling ride!",
+      "scores": {
+        "wmd": 0.20538543452451793,
+        "sentence_similarity": 0.4193597733974457,
+        "normalized_length_similarity": 0.9358974358974359,
+        "history_similarity": 0.43715786933898926,
+        "bleu": 0.039094030886498515,
+        "ttr": 0.8787878787878788
+      }
+    },
+    {
+      "message": "Oh... since we all cherish this lively ShareHouse environment, I wonder—would you be open to adopting a simple yet strictly upheld system for keeping our common areas tidy? I’m not being picky, but sometimes the creative freedom spills over into a bit of disorder, which makes it challenging to maintain a pleasant space. Perhaps my expectations are a tad high, but do you think such a balance between function and freedom is achievable?",
+      "response": "It is very important, so let's go to 100 yen shop to buy the separate boxes right now!",
+      "prediction": "Yes, it is achievable. That's why I suggested the Saturday cleaning hour.",
+      "scores": {
+        "wmd": 0.3330419301338379,
+        "sentence_similarity": 0.01550506055355072,
+        "normalized_length_similarity": 0.8488372093023255,
+        "history_similarity": 0.3370395600795746,
+        "bleu": 0.012727037238008833,
+        "ttr": 0.9375
+      }
+    },
+    {
+      "message": "Wow, Raffaello, your vision for a space that’s both beautiful and functional truly sparks my artistic soul! Since we all treasure bursts of creativity, especially in this summer vibe, how do you feel about blending some flexible quiet hours to nurture inspiration while still keeping our home harmonious? Do you think that kind of rhythm could keep everyone’s creative fire burning strong without losing balance?",
+      "response": "shall we have a potluck party once a month to keep our balance?",
+      "prediction": "Yes, I think that kind of rhythm could definitely work for us. It is important to prioritize inspiration during our summer vacation, and flexible quiet hours can help us enjoy both without losing our creative fire.",
+      "scores": {
+        "wmd": 0.32141329582718103,
+        "sentence_similarity": 0.2916417121887207,
+        "normalized_length_similarity": 0.29439252336448596,
+        "history_similarity": 0.23230105638504028,
+        "bleu": 0.005495155913866061,
+        "ttr": 0.9
+      }
+    },
+    {
+      "message": "Wow, what an awesome idea! A potluck party to gather all our creative energies and share the joy of food—art is not only in sculptures or paintings but in bringing people together! Imagine the colors, flavors, and stories mingling like a vibrant fresco on our dining table! That celebration could be the heartbeat of our ShareHouse, inspiring friendship and teamwork alongside tidiness and harmony. Let's paint this masterpiece of community with laughter and shared dishes—what dishes are you dreaming to bring?",
+      "response": "I want to bring \"Takoyaki\"ttr",
+      "prediction": "A: That's a nice idea! I will bring some drinks.",
+      "scores": {
+        "wmd": 0.4886353071152918,
+        "sentence_similarity": 0.31510478258132935,
+        "normalized_length_similarity": 0.5416666666666666,
+        "history_similarity": 0.19779016077518463,
+        "bleu": 0.0169861974906263,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "Very exciting ideas all around. Since we’ve agreed on a weekly cleaning schedule on Saturdays, logically speaking, would it improve efficiency if we add a brief monthly meeting afterward to review progress on our financial goals and living space improvements? Do you think this routine could help keep our motivation high and ensure our shared responsibilities stay balanced?",
+      "response": "It is very good idea, I think.",
+      "prediction": "Yes, I think it is a good idea. We can review our financial progress and keep our living space in order.",
+      "scores": {
+        "wmd": 0.3399636460677715,
+        "sentence_similarity": 0.5258187651634216,
+        "normalized_length_similarity": 0.28846153846153844,
+        "history_similarity": 0.46114712953567505,
+        "bleu": 0.05356850921756574,
+        "ttr": 0.9166666666666666
+      }
+    }
+  ]
+}

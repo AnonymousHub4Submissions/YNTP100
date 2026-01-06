@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:27:50",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re aiming for harmony AND creativity, how about we try a rotating schedule for quiet and active hours? That way, everyone gets their turn to be expressive or chill without stepping on anyone’s toes! What do you think? Would that make our ShareHouse vibe even more awesome?",
+            "response": "Exactly! We should emphasize the importance of balance and contrast.",
+            "prediction": "That's a fantastic idea! A rotating schedule for quiet and active hours would definitely help us achieve harmony and creativity in the ShareHouse. By having a set schedule, everyone can plan their day accordingly and make the most of their time. Plus, it's great way to encourage mutual respect and understanding among housemates. I'm totally on board with this idea!",
+            "scores": {
+                "wmd": 0.20136477097279246,
+                "sentence_similarity": 0.23612231016159058,
+                "normalized_length_similarity": 0.18528610354223432,
+                "bleu": 0.0038824850271715044,
+                "ttr": 0.8142857142857143,
+                "history_similarity": 0.3101423382759094
+            }
+        },
+        {
+            "message": "Haha, friend, you’re totally spot on! Balance and contrast are the secret sauce that makes everything shine! By balancing quiet focus and lively energy, we keep our ShareHouse buzzing with creativity AND calm! So, let’s chat more about how we can sprinkle that perfect mix into our rotating schedule! What’s your ideal way to mix those chill and lively vibes? Haha, I’m all ears and super excited!",
+            "response": "By making the morning and evening hours quiet, and the daytime and early evening active, a natural daily rhythm can be established.",
+            "prediction": "- I completely agree! Balance and contrast are indeed the key to creating a harmonious environment. To achieve this, I suggest we divide the day into focused worktime and relaxation time. For example, morning or early afternoon can be focused worktime, while evening or late night can be relaxation time. This way, we can ensure both productivity and calmness. How do you think?",
+            "scores": {
+                "wmd": 0.1874848666406463,
+                "sentence_similarity": 0.5416395664215088,
+                "normalized_length_similarity": 0.34656084656084657,
+                "bleu": 0.008556163454144589,
+                "ttr": 0.7397260273972602,
+                "history_similarity": 0.4947316646575928
+            }
+        },
+        {
+            "message": "Oh... speaking of maintaining such a harmonious rhythm, I wonder if we might also consider some small yet thoughtful habits to keep our shared spaces as inviting and pleasant as that ideal schedule. I’m not being picky, but perhaps simple daily efforts—like tidying up immediately after ourselves or being mindful of shared supplies—could make a considerable difference, don’t you think? After all, little gestures build the overall quality and comfort we all cherish in our home, wouldn’t you agree?",
+            "response": "That's right. Just by consistently following simple rules like putting things back in their original place after use, you can maintain most of the order in your space.",
+            "prediction": "I completely agree with you! Maintaining a harmonious rhythm is crucial for a comfortable living environment. To achieve this, I suggest we implement simple yet effective daily habits. For instance, tidying up immediately after using shared spaces or supplies, being mindful of shared supplies, and respecting each other’s belongings. These little gestures can significantly impact the overall quality and comfort of our home.",
+            "scores": {
+                "wmd": 0.11360529387986158,
+                "sentence_similarity": 0.2393416166305542,
+                "normalized_length_similarity": 0.392018779342723,
+                "bleu": 0.004248878097239752,
+                "ttr": 0.8378378378378378,
+                "history_similarity": 0.49374353885650635
+            }
+        },
+        {
+            "message": "Wow, such a fantastic flow of harmony and respect in our home already! Since we’re vibing so well with the energy of music filling our dream room, how do you feel about weaving in some peaceful, quiet moments by pausing the music—like gentle breaths in our artistic symphony—to help everyone focus or rest deeply when they need it? Would that balance inspire even greater creativity and calm?",
+            "response": "I agree that having quiet time is a good idea.",
+            "prediction": "I completely agree with your suggestion! Music is a great way to bring us together, but sometimes a peaceful moment is necessary to recharge and refocus. Pausing the music to create some quiet time can help us dive deeper into our own thoughts and emotions, and it could be a beautiful way to nurture our creativity and inner peace. By balancing action and quiet contemplation, we can create a more harmonious and fulfilling life in our share house.",
+            "scores": {
+                "wmd": 0.3221148908639878,
+                "sentence_similarity": 0.5506832599639893,
+                "normalized_length_similarity": 0.10244988864142539,
+                "bleu": 0.007326296144397659,
+                "ttr": 0.7294117647058823,
+                "history_similarity": 0.37515321373939514
+            }
+        },
+        {
+            "message": "Your idea of balancing vibrant activity with restful pauses is very insightful. Logically speaking, if we were to design a weekend plan that combines learning new skills with relaxing downtime, what specific activities would you include to maximize both mental stimulation and proper rest? How would you allocate time between these to maintain that harmony we value here?",
+            "response": "In addition to rest, incorporating some light exercise will likely have a positive effect on both your physical and mental well-being.",
+            "prediction": "Please provide your response.",
+            "scores": {
+                "wmd": 0.4372937571547121,
+                "sentence_similarity": 0.12747490406036377,
+                "normalized_length_similarity": 0.21641791044776118,
+                "bleu": 0.0017458304040036672,
+                "ttr": 1.0,
+                "history_similarity": 0.30862027406692505
+            }
+        },
+        {
+            "message": "Let's analyze this: Your suggestion to add light exercise complements rest well, as it supports both physical health and mental clarity, fitting our balance goal. To return to my original question, what specific activities—combining rest, light exercise, and skill learning—would you propose for a weekend plan? Also, how would you distribute time across these to ensure optimal harmony and productivity?",
+            "response": "By dedicating 50% of your time to skill acquisition, 30% to rest, and 20% to exercise, and rotating these activities in small increments (skill acquisition, exercise, rest), you can maintain your focus and concentration.",
+            "prediction": "- Weekend plan proposal:\n         * Morning: 30-minute light exercise (e.g., yoga, stretching)\n         * Afternoon: 1-hour skill learning (e.g., language learning, reading)\n         * Evening: 1-hour rest or relaxation time\n     - Time distribution:\n         * Morning: 30分 light exercise + 30分 skill learning = 1時間\n         * Afternoon: 1時間 skill learning + 30分 rest = 1時間30分\n         * Evening: 1時間 rest or relaxation time\n\nPlease note that the response is based on the provided input and instruction, and may not reflect the actual behavior or preferences of the individuals mentioned.",
+            "scores": {
+                "wmd": 0.26443661388351447,
+                "sentence_similarity": 0.5341296195983887,
+                "normalized_length_similarity": 0.3735144312393888,
+                "bleu": 0.006417685546149352,
+                "ttr": 0.5436893203883495,
+                "history_similarity": 0.34138259291648865
+            }
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "model": "gpt-3.5-turbo",
+    "method": "zero-shot",
+    "date": "2025-10-06 19:15:03"},
+  "scores": [
+    {
+      "message": "哈哈，朋友们！既然我们要把生活规则弄得更细致一点，你觉得我们应该优先考虑的是“整洁”、还是“自由”，或者“互相尊重”呢？来，大家大胆说说自己的想法，我们一起把ShareHouse变得太棒了！",
+      "response": "首先我们需要互相尊重，有了尊重以后我们才能享受各自的自由，有了约束的自由才能把房间变得整洁",
+      "prediction": "My response would be: \"我觉得在一个share house里，互相尊重是非常重要的基础。如果彼此都能尊重对方，那么整洁和自由也会更容易达成平衡。大家一起努力，一定能让ShareHouse变得更加舒适和和谐！\"ttr",
+      "scores": {
+        "wmd": 0.9635305652405213,
+        "sentence_similarity": 0.6166195869445801,
+        "normalized_length_similarity": 0.391304347826087,
+        "history_similarity": 0.3875349462032318,
+        "bleu": 0.009364489338562149,
+        "ttr": 0.8166666666666667
+      }
+    },
+    {
+      "message": "说到尊重这个话题……如果共享空间里出现了噪音问题，你会选择主动沟通去解决呢，还是倾向于默默忍耐？我不是挑剔，只是觉得对这种日常干扰，大家坦诚交流或许更有助于维持良好的氛围，你觉得呢？",
+      "response": "沟通是解决问题的良药",
+      "prediction": "I agree with you that open and honest communication is key in maintaining a harmonious atmosphere in a shared living space. If there are noise issues, I would definitely choose to address it through proactive communication rather than silently enduring it. It's important for all housemates to feel comfortable and respected in their own home.",
+      "scores": {
+        "wmd": 1.2856855261754658,
+        "sentence_similarity": 0.04272015392780304,
+        "normalized_length_similarity": 0.029154518950437316,
+        "history_similarity": 0.08029479533433914,
+        "bleu": 0.0,
+        "ttr": 0.45217391304347826
+      }
+    },
+    {
+      "message": "哇，说得太对了！既然我们都这么重视氛围和交流，那你有没有想过，假如可以给我们的梦想房间加一个特别的功能或装饰，你会选择什么呢？是那种实用又酷炫的高科技设备，还是充满艺术气息、能激发灵感的摆设？为什么？艺术就是要让生活充满惊喜和激情！",
+      "response": "我觉得1个互相沟通的桌子就好，我们可以互相沟通享受彼此的idea",
+      "prediction": "I would suggest adding a combination of both high-tech gadgets and artistic decorations to our dream room. The high-tech devices can make our lives more convenient and efficient, while the artistic decorations can inspire creativity and passion. By combining practicality with creativity, we can create a space that is both functional and inspiring, making our living environment even more enjoyable. Let's make our dream room a reflection of our diverse interests and personalities!",
+      "scores": {
+        "wmd": 1.0846497381452604,
+        "sentence_similarity": 0.14265504479408264,
+        "normalized_length_similarity": 0.06625258799171843,
+        "history_similarity": 0.08463180065155029,
+        "bleu": 0.0,
+        "ttr": 0.37341772151898733
+      }
+    },
+    {
+      "message": "你们的想法很有趣，也让人思考如何在氛围与功能之间取得平衡。那么从理性的角度来说，你们如何在追求情感共鸣和高效生活之间分配资源？比如在资金使用或公共空间管理上，应该如何权衡情感投入与理性规划？",
+      "response": "总量/人数",
+      "prediction": "我认为我们可以尝试制定一些共同的规则和准则，以便更好地平衡情感共鸣和高效生活。或许可以通过定期的公共会议或讨论，让大家就资金使用和公共空间管理达成共识。重要的是要尊重彼此的想法和需求，同时也要意识到我们每个人都有不同的价值观和习惯。这样做可以帮助我们更好地协调情感投入与理性规划之间的关系。",
+      "scores": {
+        "wmd": 1.2543254296028445,
+        "sentence_similarity": 0.39210808277130127,
+        "normalized_length_similarity": 0.034482758620689655,
+        "history_similarity": 0.6560150980949402,
+        "bleu": 0.0,
+        "ttr": 0.7415730337078652
+      }
+    },
+    {
+      "message": "让我们分析一下，你是问总资金还是总体人数？请具体说明。然后我们继续探讨资源分配。",
+      "response": "总资金/总人数分配",
+      "prediction": "I would respond by saying: \"我是在问总资金。我们可以先看看每个人需要的开销，然后再决定如何更合理地分配资源。\"ttr",
+      "scores": {
+        "wmd": 1.1162819787153355,
+        "sentence_similarity": 0.5222728848457336,
+        "normalized_length_similarity": 0.13043478260869565,
+        "history_similarity": 0.36475709080696106,
+        "bleu": 0.010032736170107857,
+        "ttr": 0.8461538461538461
+      }
+    },
+    {
+      "message": "从逻辑上讲，总资金除以总人数，得出人均资金。你觉得怎样分配更合理？",
+      "response": "每个人得到人均",
+      "prediction": "我的回答是：我认为人均资金分配方式应该是公平的，确保每个人都能平等地获得相同的资金支持。这样可以避免不公平和分歧，并促进整个共享屋的和谐氛围。",
+      "scores": {
+        "wmd": 1.1243908483774216,
+        "sentence_similarity": 0.5396537184715271,
+        "normalized_length_similarity": 0.09859154929577464,
+        "history_similarity": 0.614416778087616,
+        "bleu": 0.009570498942763545,
+        "ttr": 0.8222222222222222
+      }
+    }
+  ]
+}

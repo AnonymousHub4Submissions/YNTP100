@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:56",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Just imagine—if you suddenly found yourself with 100 million in your pocket, what wild and awesome thing would you do first? Don’t hold back—let your boldest dream run free!\nA. I would like to travel around the world. Especially, I would like to see aurora.\n\nQ. Very interesting dream! Next, let's analyze this realistically: if you had 100 million, how would you allocate it between travel expenses, daily consumption, and savings? What proportions seem most practical to you?\nA. I would spend 60 million to travel, 10 million to daily consumption, 10 million to savings and the rest to asset building.\n\nQ. Wow, your dream to chase the aurora is truly electrifying! I’ve gotta ask, what’s lighting your fire the most—the thrill of reaching a concrete goal like seeing those magical skies, or is it more about the feelings and values this journey brings to your soul? Art, life, and dreams all shine brightest when fueled by deep passion!\nA. Actually, the thrill of reaching a concrete goal is impressive for me. However, in the way to reach that level, I would meet those who I didn't and won't meet in my life to get some inspiration in my life. That moment is more impressive for me. \n\nQ. Oh... speaking of maintaining quality in life, I’ve noticed the refrigerator space is becoming rather cramped with all these packaged foods. I’m not being picky, but it does make it a bit challenging to store fresh ingredients that truly nourish us. I suppose we all wish to keep a certain standard of living here, don’t we? How do you feel about managing our shared fridge space to preserve that balance?\nA. I agree with you. we must deal with that problem.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Speaking of journeys and growth—imagine you met someone on your travels who completely shook up your way of thinking, challenging all your usual ideas! How do you think that kind of epic encounter would change your adventure and help you grow as a person? I’m super curious to hear your boldest thoughts!",
+            "response": "I think thanks to embrecing new values, my personal values in life would be expanding. Also I'm sure that makes new inspirations in business,  art and so on.",
+            "prediction": "I would be inspired to be more open-minded and flexible. That person's new ideas and perspectives would make me realize that my usual ideas are limited and narrow. Then, I would be more willing to take risks and challenge my own beliefs, which could lead to greater personal growth and new experiences.",
+            "scores": {
+                "wmd": 0.18246689079891656,
+                "sentence_similarity": 0.5753286480903625,
+                "normalized_length_similarity": 0.5198675496688742,
+                "bleu": 0.011016900404738557,
+                "ttr": 0.6896551724137931,
+                "history_similarity": 0.30176404118537903
+            }
+        },
+        {
+            "message": "Oh... speaking of adding vibrant colors to our lives, I wonder—if we had the chance to redesign a shared space here in the house, would you prefer it to become visually stunning, almost like a living piece of art, or more cozy and comfortable for everyday function? I’m not being picky, but sometimes enhancing aesthetics might overlook practical comfort. Perhaps my expectations for balance are a bit too exacting? What do you think would best nurture both our creativity and well-being?",
+            "response": "I think cozy and comfortable for everyday function is best. It makes us happy. Also when we relax, sometimes we can get new inspiration that we couldn't get.",
+            "prediction": "I think it would be best if we could find a balance between both.",
+            "scores": {
+                "wmd": 0.2439832746995317,
+                "sentence_similarity": 0.16272813081741333,
+                "normalized_length_similarity": 0.4140127388535032,
+                "bleu": 0.013176678812921998,
+                "ttr": 1.0,
+                "history_similarity": 0.4622795581817627
+            }
+        },
+        {
+            "message": "Wow, your thoughtful balance between comfort and inspiration truly speaks to the heart of what makes a creative home! But here’s a wild thought: when different members have clashing priorities or lifestyles—like some craving bold excitement while others seek calm serenity—how do you imagine our group should handle those conflicts? Should we embrace the tension as part of our artistic harmony, or find a peaceful middle ground that honors everyone’s rhythm? Your vision on this would be pure gold!",
+            "response": "When we live together, we might conflict sometimes. However, these conflict gives us inspire. So we must embrace the tension. However, when somebody couldn't tolerate, we must think this idea again.",
+            "prediction": "If conflicts arise, I think our group should find a peaceful middle ground that honors everyone's rhythm.",
+            "scores": {
+                "wmd": 0.2805869443181791,
+                "sentence_similarity": 0.47797268629074097,
+                "normalized_length_similarity": 0.5303030303030303,
+                "bleu": 0.004662400492893469,
+                "ttr": 1.0,
+                "history_similarity": 0.3987949788570404
+            }
+        },
+        {
+            "message": "Given our shared appreciation for both inspiration and comfort, how about we design a community event that fosters mutual respect while encouraging creative expression? For instance, what kind of activity could balance relaxed, comfortable interaction with moments that spark innovative ideas? From a logical standpoint, how do you think we can ensure the event accommodates different personalities and keeps participation engaging for everyone?",
+            "response": "Actually it's difficult. However in the way we talk about that topic we can find  new inspiration. Also I think setting a goal and achieving it by combinating everybody's strength is most impressive idea.",
+            "prediction": "I think we could organize a potluck dinner party with a twist. Each person brings their favorite dish or a dish related to their favorite artist (e.g., DaVinci's favorite pasta dish, Michelangelo's favorite pizza etc.). This way, everyone can share their creativity and culture.",
+            "scores": {
+                "wmd": 0.1649669634756082,
+                "sentence_similarity": 0.2733483612537384,
+                "normalized_length_similarity": 0.7338129496402878,
+                "bleu": 0.01121332795811047,
+                "ttr": 0.7407407407407407,
+                "history_similarity": 0.2167166769504547
+            }
+        },
+        {
+            "message": "Let's analyze this carefully. You’re pointing out that while organizing such an event is challenging, the discussion process itself can fuel new ideas. Setting a clear, shared goal and leveraging each person's strengths makes the approach more effective and inclusive. Logically speaking, structuring activities around specific objectives allows us to manage different personalities and maintain focus. Returning to my question, what specific types of activities do you think could simultaneously promote comfort and creativity, while encouraging everyone to contribute their unique abilities?",
+            "response": "How about gardening? It is influenced by people who do. So I think it is best to express everyone's unique abilities.",
+            "prediction": "I think activities that involve creative and artistic works could simultaneously promote comfort and creativity, while encouraging everyone to contribute their unique abilities.",
+            "scores": {
+                "wmd": 0.23001105016195297,
+                "sentence_similarity": 0.6161419153213501,
+                "normalized_length_similarity": 0.6610169491525424,
+                "bleu": 0.051283703648473455,
+                "ttr": 0.96,
+                "history_similarity": 0.3914138078689575
+            }
+        }
+    ]
+}

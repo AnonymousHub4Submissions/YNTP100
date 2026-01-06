@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:34:16",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend! Since we're thinking about sharing fridge space mostly for fresh foods but still wanting to keep room for packaged meals, how about we take it up a notch and plan a weekly group cooking session? We can prep fresh meals together, bond over some awesome cooking, and make sure everyone's food gets the space it deserves! What do you say, friend? Ready to cook up some fun and teamwork?",
+      "response": "Yeah, that sounds like a great idea!! I will love cooking together!",
+      "prediction": "Oh, that sounds like a fantastic idea, DaVinci! I think a weekly group cooking session would be a great way to manage our fresh food space in the fridge, and also help us reduce packaged meals. Plus, it sounds like a really fun way to bond and cook together. I'm definitely in for that, friend!",
+      "scores": {
+        "wmd": 0.23925416810493166,
+        "sentence_similarity": 0.7049944400787354,
+        "normalized_length_similarity": 0.22789115646258504,
+        "history_similarity": 0.4986380636692047,
+        "bleu": 0.07180662987406507,
+        "ttr": 0.7384615384615385
+      }
+    },
+    {
+      "message": "Oh… speaking of balancing utility and aesthetic in our living spaces, I wonder—if you had to choose, would you prefer furniture that is more multi-functional and space-saving, even if it might appear a bit simpler in design? I'm not being picky, but perhaps striking that balance is more delicate than it seems… What are your thoughts on this?",
+      "response": "Well...if we have limited space in our flat, I guess  I'd prefer furniture that is more multifunctional and space saving. That's life. However though, I think we could try to blast our creativity in other parts like decorations on the walls where we don't need to think about practicality.",
+      "prediction": "Well, I think I would prefer furniture that's more multi-functional and space-saving. It's really important for a shared house to keep things organized and prevent clutter, which makes daily life much easier for everyone. Even if the design is simpler, I believe we can still find pieces that look good and fit our overall aesthetic.",
+      "scores": {
+        "wmd": 0.10062201737055673,
+        "sentence_similarity": 0.7057515978813171,
+        "normalized_length_similarity": 0.8678678678678678,
+        "history_similarity": 0.5449598431587219,
+        "bleu": 0.035614645670837844,
+        "ttr": 0.8253968253968254
+      }
+    },
+    {
+      "message": "Wow, your sense of balance really inspires me! Since we all thrive on different energies—some lively and some peaceful—how would you feel about setting special ‘quiet hours’ during the day where the whole house embraces calm and low noise? Could this rhythm help us all find that perfect flow between a vibrant buzz and soothing focus?",
+      "response": "I think that is a great idea, because even if we like each other and have fun spending time together, it is also important that we get some time to ourselves in privacy so that we can think deeply and focus on personal needs.",
+      "prediction": "Yeah, I absolutely think setting special quiet hours would be a great idea. It would totally help us find that balance between being lively and having a peaceful concentration, just like you said. I'm open to discussing the best times for those quiet hours so it works for everyone.",
+      "scores": {
+        "wmd": 0.1299806443193796,
+        "sentence_similarity": 0.3203798532485962,
+        "normalized_length_similarity": 0.7978723404255319,
+        "history_similarity": 0.4748092293739319,
+        "bleu": 0.024184136877418508,
+        "ttr": 0.8363636363636363
+      }
+    },
+    {
+      "message": "Logically speaking, since we all value both comfort and functionality in our long-term home, if you could select one improvement that would make your ideal room perfect in terms of comfort, what would that be? How do you see it enhancing our shared living experience?",
+      "response": "Maybe I would get a comfortable big sofa for the five us to share in the living room so we could have some quality time together there  - perhaps watch a movie together or just drink and talk. Shared hammock was a great idea but I figured we won't be able to use it together.",
+      "prediction": "Well, if I had to pick just one thing for comfort, I think really good soundproofing for my room would be amazing. It would make my space feel super peaceful and private, which really helps me relax and focus. And for the shared living, it means I could practice my music or listen to something without bothering anyone else, and I also wouldn't be disturbed by outside noise either. It just feels like a win-win for peaceful living.",
+      "scores": {
+        "wmd": 0.18544605690878255,
+        "sentence_similarity": 0.45639848709106445,
+        "normalized_length_similarity": 0.6351039260969977,
+        "history_similarity": 0.4856899380683899,
+        "bleu": 0.009077496156961334,
+        "ttr": 0.7045454545454546
+      }
+    }
+  ]
+}

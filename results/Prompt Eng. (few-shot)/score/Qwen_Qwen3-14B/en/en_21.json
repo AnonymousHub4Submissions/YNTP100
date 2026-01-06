@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "Qwen/Qwen3-14B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:42",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine this—suddenly you discover 100 million just landed in your lap! What’s the wildest, boldest thing you’d do first? Don’t hold back—let’s dream BIG together!\nA. Of course, I would first travel around the world with my friends. Then I would open a cozy little shop, chat with friends every day, go hiking, play ball, etc.\n\nQ. Very inspiring plan! Now, let's analyze this logically: if you had to allocate that 100 million realistically, how would you divide it among travel expenses, setting up your shop, daily living costs, and savings? What proportions make the most practical sense to you?\nA. Travel expenses should only take up about 10%. Opening and maintaining the shop should take up about 30%. The remaining 10% can be used to pursue other interests. The rest can be saved for later use.\n\nQ. Wow, your dream shines so brightly with both fun and thoughtful planning! I’m curious—what really fuels this dream inside you? Is it a clear goal you’re aiming for, like opening that cozy shop and living that joyful life, or is it more about the feelings and values that inspire you every day? What’s the true heart behind your vision?\nA. Humans are social animals. So, being able to communicate with different people every day is like living another person's life. A person's life is limited, but we can experience different life experiences through chatting.\n\nQ. Ah... speaking of quality in life, I couldn't help but notice the shared refrigerator space feels rather cramped these days, largely due to an abundance of packaged foods. I'm not one to be overly particular, but surely we all desire a certain standard when it comes to preserving fresh ingredients and our daily meals, do we not? How might we better balance this shared space to maintain such quality for everyone, including ourselves?\nA. That's a really good question. I think the best approach is to zone the space based on the number of people, so that no one interferes with the other and avoids conflicts. If someone needs someone else's space temporarily, they can certainly request it.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we all care so much about fairness and keeping our creative vibes flowing smoothly, how about we start a weekly house meeting? We can chat, tweak our shared space rules, and make sure everyone’s voice is heard to keep our ShareHouse awesome and harmonious! What do you think? Would you join the fun?",
+            "response": "This is certainly a good idea, but some people might think it's a waste of time. So while it might work well initially, some people might become less willing to work it out. And since everyone has different perspectives, it's hard to always reach consensus.",
+            "prediction": "Of course! I think that's a fantastic idea. Having a weekly meeting would definitely help us stay on the same page and make sure everyone feels heard and respected. I'd be more than happy to join the fun and contribute my thoughts to keep our ShareHouse running smoothly and creatively!",
+            "scores": {
+                "wmd": 0.19705879551417485,
+                "sentence_similarity": 0.49490177631378174,
+                "normalized_length_similarity": 0.8986013986013986,
+                "bleu": 0.010320361584657317,
+                "ttr": 0.8392857142857143,
+                "history_similarity": 0.48542511463165283
+            }
+        },
+        {
+            "message": "Oh... considering the suggestion to perhaps invest in a new refrigerator to accommodate our needs better, I find myself wondering—I'm not being picky, but wouldn't it be more prudent to first improve our organizational systems for shared spaces? After all, new purchases require both space and upkeep. Might it be wiser to prioritize refinement of our current arrangements before adding more items? I suppose balancing investment and functionality is crucial, wouldn’t you agree?",
+            "response": "No, after buying a new refrigerator, you definitely have to sell the old one. Otherwise, it'll take up the already limited space. That's for sure, right? No one wants to have two refrigerators and cause trouble, right? I'm curious why you brought this up all of a sudden.",
+            "prediction": "Absolutely, I agree. It's definitely smarter to first optimize how we use the space we have. Maybe we can create a system where everyone labels their items, sets specific areas for different types of food, and schedules cleaning rotations. That way, we can maximize efficiency and avoid unnecessary clutter before considering a new refrigerator.",
+            "scores": {
+                "wmd": 0.19196059328020348,
+                "sentence_similarity": 0.5405265092849731,
+                "normalized_length_similarity": 0.7855072463768116,
+                "bleu": 0.0260664958757952,
+                "ttr": 0.8095238095238095,
+                "history_similarity": 0.4783749282360077
+            }
+        },
+        {
+            "message": "Wow, chatting about making our shared space even better has me thinking—since so many of us love gathering over games like mahjong and poker, what if we started a casual weekly game night? It could be a fantastic way to bring everyone together, spark fresh energy, and build a stronger community vibe here! What do you think—would you be excited to lead such a fun tradition and help turn our house into a hub of laughter and connection?",
+            "response": "Of course, if we still have to work all the time when we get together, everyone's mood will be very depressed. When we get together, we must play some games together. Having a relaxing time can help us better devote ourselves to work and creation in the rest of the time.",
+            "prediction": "I think that's a brilliant idea! Organizing a weekly game night would definitely bring everyone closer and create a fun, lively atmosphere in the house. I would be more than happy to help lead it and make sure everyone enjoys themselves!",
+            "scores": {
+                "wmd": 0.19750180555740185,
+                "sentence_similarity": 0.32898619771003723,
+                "normalized_length_similarity": 0.8745387453874539,
+                "bleu": 0.009973121023884916,
+                "ttr": 0.8478260869565217,
+                "history_similarity": 0.4530709981918335
+            }
+        },
+        {
+            "message": "Your enthusiasm for balancing work and play is commendable. Logically speaking, how do you propose we organize our schedule to ensure lively group activities don’t encroach on the quiet time necessary for focused work and relaxation? What specific time allocations or rules might help maintain this balance effectively?",
+            "response": "Because it is a group activity, we must discuss each activity together and find the right time and game to arrange the activity. Therefore, it is best to choose a time when everyone is free, such as weekends.",
+            "prediction": "I think we could set up a shared calendar where everyone schedules their work and quiet time, and then mark group activities separately. Maybe we could have specific hours, like 9 AM to 1 PM and 6 PM to 10 PM, as quiet times, and then set aside weekends or evenings for group activities. We could also agree on a rule that if someone needs quiet time, others should avoid loud activities in shared spaces during those times.",
+            "scores": {
+                "wmd": 0.1599018027344022,
+                "sentence_similarity": 0.5952182412147522,
+                "normalized_length_similarity": 0.49056603773584906,
+                "bleu": 0.004335103168298235,
+                "ttr": 0.6976744186046512,
+                "history_similarity": 0.6129360198974609
+            }
+        }
+    ]
+}

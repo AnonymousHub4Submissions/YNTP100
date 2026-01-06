@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:30",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about making awesome memories together, imagine this: if we planned the perfect weekend getaway with our housemates to celebrate all this teamwork and fun, what would it look like? Mountains, beach, a city adventure? And what cool activities would you want us to do to make it unforgettable? Come on, share your boldest dream for a fun escape!",
+            "response": "Beach BBQ all the way! Plus, staying in a cute cottage or a luxurious villa would be amazing!",
+            "prediction": "I would use most of the money to travel abroad and visit many countries.",
+            "scores": {
+                "wmd": 0.34983362624945735,
+                "sentence_similarity": 0.3140392303466797,
+                "normalized_length_similarity": 0.7741935483870968,
+                "bleu": 0.010536678597608944,
+                "ttr": 1.0,
+                "history_similarity": 0.28925085067749023
+            }
+        },
+        {
+            "message": "Oh... while the idea of lively gatherings certainly has its charm, I find myself pondering—if you were to choose between a spirited, albeit noisy, social event here at the share house and a tranquil evening devoted solely to your creative endeavors, which would truly align with your sense of fulfillment? I’m not being overly particular, but balancing joyful interaction with personal focus can be quite the delicate art, don’t you agree?",
+            "response": "It’s a tough choice, but I’d lean more toward the lively side. When I want quiet, I can adjust by going to a café or using earplugs, but creating a lively atmosphere on my own is much harder.",
+            "prediction": "It is the first.",
+            "scores": {
+                "wmd": 0.5878910882296051,
+                "sentence_similarity": -0.01947196200489998,
+                "normalized_length_similarity": 0.08376963350785341,
+                "bleu": 1.7086221744807404e-05,
+                "ttr": 1.0,
+                "history_similarity": 0.033833928406238556
+            }
+        },
+        {
+            "message": "Wow, imagine if our house had this amazing smart system that vibes with each of us—custom music, lighting, even fragrances that change to fit our moods perfectly! How do you think that kind of personalized art for our senses would spark new energy in your day or even in how we all connect here? It’s like turning everyday life into a masterpiece!",
+            "response": "I think it would help us relax and refresh, making it easier to come up with good ideas! Also, when we’re in a good mood, we tend to be kinder to others, which can deepen our connections and increase overall happiness!",
+            "prediction": "It may be difficult to keep the maintenance cost low.",
+            "scores": {
+                "wmd": 0.27710405622439277,
+                "sentence_similarity": 0.04969968646764755,
+                "normalized_length_similarity": 0.24311926605504589,
+                "bleu": 0.0007084124337351503,
+                "ttr": 1.0,
+                "history_similarity": 0.2820693254470825
+            }
+        },
+        {
+            "message": "Logically speaking, to maintain both personal freedom and a harmonious shared environment—especially considering limited fridge space and communal mess—what specific rules or habits do you think would balance individual needs while ensuring fairness and respect among all of us?",
+            "response": "First, I think it’s effective to assign duties, designate spaces, and set schedules. Then, as we put these into practice, it’s important to have a system where we can easily discuss things that aren’t working, and also to maintain flexibility so that the rules can be adjusted as needed.",
+            "prediction": "We need to be careful not to generate excessive heat, so let's limit the use of ovens and heaters to certain hours of the day. Also, we must be mindful of space and maintain a certain standard of cleanliness. Let's analyze these factors and find a suitable schedule.",
+            "scores": {
+                "wmd": 0.1744852992935166,
+                "sentence_similarity": 0.3809330463409424,
+                "normalized_length_similarity": 0.926829268292683,
+                "bleu": 0.005749114703572624,
+                "ttr": 0.7272727272727273,
+                "history_similarity": 0.43208736181259155
+            }
+        }
+    ]
+}

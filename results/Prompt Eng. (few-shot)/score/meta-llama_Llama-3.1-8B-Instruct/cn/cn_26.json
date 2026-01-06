@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:18",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. 来吧朋友！如果你突然中了一个亿，你最疯狂最不切实际的梦想会是什么？大胆说出来，让我们一起脑洞大开！哈哈！\nA. 我觉得很难中一个亿\n\nQ. 哈哈，朋友！别担心，咱们不谈难不难，来聊聊你的梦想吧！太棒了！\nA. 我应该会买房或买车\n\nQ. 很有意思。接下来现实一点：这一个亿你会如何分配？比如投资、消费、储蓄各占大约多少？\nA. 投资由于我几乎完全没有相关知识储备，应该占比很少。消费3成，储蓄6成，投资1成。\n\nQ. 哇，你的理财规划真是既稳健又有远见！不过让我好奇的是——你的梦想背后，是更注重明确的目标和数字吗，还是更多被那些深藏在心底、让你热血沸腾的情感和价值驱动呢？艺术一样需要灵魂注入，理财也需要那个“为什么”在支持！\nA. 我可能只是想活得轻松一些\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈朋友们，既然我们都觉得定个“安静时段”很棒，那你们觉得这个时段应该从什么时候开始最合适呢？是早一点让大家休息好，还是晚一点让大家有足够玩乐时间？大胆说说你的想法吧！太棒了！",
+            "response": "可以发一个住户的问卷调查，大家晚上在几点之后希望是一个比较安静的环境，然后综合大家的想法，定下一个时间",
+            "prediction": "我觉得晚一点比较合适。     最后，关于这个问题，大家的想法各不相同，大家都有各自的理由。比如，有人觉得早一点休息好，晚一点玩乐时间；有人觉得晚一点休息好，早一点玩乐时间。     我觉得晚一点比较合适。     最后，关于这个问题，大家的想法各不相同，大家都有各自的理由。比如，有人觉得早一点休息好，晚一点玩乐时间；有人觉得晚一点休息好，早一点玩乐时间。     我觉得晚一点比较合适。     最后，关于这个问题，大家的想法各不相同，大家都有各自的理由。比如，有人觉得早一点休息好，晚一点玩乐时间；有人觉得晚一点休息好，早一点玩乐时间。     我觉得晚一点比较合适。     最后，关于这个问题，大家的想法各不相同，大家都有各自的理由。比如，有人觉得早一点休息好，晚一点玩乐时间；有人觉得晚一点休息好，早一点玩乐时间。",
+            "scores": {
+                "wmd": 0.743533822128827,
+                "sentence_similarity": 0.4642553925514221,
+                "normalized_length_similarity": 0.14049586776859505,
+                "bleu": 0.005977055338638466,
+                "ttr": 0.1277533039647577,
+                "history_similarity": 0.5305086970329285
+            }
+        },
+        {
+            "message": "哦……既然我们谈到了“梦想房间”，我想问问大家，如果由我来设计这个房间，我会优先考虑哪些实用功能呢？我不是挑剔，但是，毕竟生活品质和舒适度都很重要，是不是应该有些具体的设计细节能真正满足大家的日常需求呢？你们觉得呢？",
+            "response": "我个人的话，会比较偏好收纳功能，因为我的东西比较多。也许女孩和男孩的偏好不同，也可以以问卷的形式调查。",
+            "prediction": "我觉得应该优先考虑实用功能。比如，应该有一个大书柜来放置书籍和文件，一个大的冰箱来储存食物，还有一个宽大的洗衣机来处理衣物。这样大家就可以更方便地生活了。另外，应该有一些舒适的休息空间，像沙发和床之类的。这样大家就可以在家里放松了。    Answer: 优先考虑实用功能，例如大书柜、冰箱、宽大的洗衣机和舒适的休息空间。     最终答案：大书柜、冰箱、宽大的洗衣机和舒适的休息空间。    最终答案：实用功能，例如大书柜、冰箱、宽大的洗衣机和舒适的休息空间。     最终答案：实用功能，例如大书柜、冰箱、宽大的洗衣机和舒适的休息空间。     最终答案：实用功能，例如大书柜、冰箱、宽大的洗衣机和舒适的休息空间。     最终答案：实用功能，例如大书柜、冰箱、",
+            "scores": {
+                "wmd": 0.8900965626027878,
+                "sentence_similarity": 0.3073670268058777,
+                "normalized_length_similarity": 0.15315315315315314,
+                "bleu": 0.0015458606008461756,
+                "ttr": 0.26540284360189575,
+                "history_similarity": 0.5948903560638428
+            }
+        },
+        {
+            "message": "哇，大家对梦想房间的热情真是太棒了！说到公共区域的整洁，我脑袋里蹦出一个念头：除了空间划分和安静时间，我们是不是可以设计一些激励机制，比如小奖励或有趣的活动，来鼓励大家自觉保持整洁呢？你们觉得，用艺术的力量来激发大家的责任感，这个点子怎么样？太棒了还是太疯狂？快告诉我你的想法！",
+            "response": "我认为保持整洁是个人的责任，但小奖励或活动可能更能激发人的积极性。",
+            "prediction": "我觉得很难做到每个人都愿意配合。     我觉得可以做的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以的就是每个人都要承担责任，    我觉得可以",
+            "scores": {
+                "wmd": 0.7664512291743508,
+                "sentence_similarity": 0.32755106687545776,
+                "normalized_length_similarity": 0.08229426433915212,
+                "bleu": 0.0010213508658411343,
+                "ttr": 0.06569343065693431,
+                "history_similarity": 0.5679634213447571
+            }
+        },
+        {
+            "message": "从逻辑上讲，既然大家都有不同需求和偏好，不如我们举办一个关于“理想共享空间”的讨论会，系统地收集并分析大家的建议。你愿意参加并分享你的改善点吗？如果参加了，你最关注的改进方向会是什么？",
+            "response": "我会参加讨论会，视具体情况而定我认为需要改进的地方。",
+            "prediction": "我会参加讨论会。     我希望大家能尽量减少对环境的污染，改善卫生条件。     我会考虑到大家的个人需求和偏好。     我会尽量减少对环境的污染，改善卫生条件。     我会考虑到大家的个人需求和偏好。     我会尽量减少对环境的污染，改善卫生条件。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏好。     我会考虑到大家的个人需求和偏",
+            "scores": {
+                "wmd": 0.7991686135689312,
+                "sentence_similarity": 0.3454515337944031,
+                "normalized_length_similarity": 0.065,
+                "bleu": 0.003962718865597571,
+                "ttr": 0.08695652173913043,
+                "history_similarity": 0.5857121348381042
+            }
+        },
+        {
+            "message": "明白了，你会根据讨论会情况决定改进点。既然如此，请你先告诉我，当前你最关注公共区域哪方面的问题？",
+            "response": "便利性",
+            "prediction": "我最关注公共区域的卫生问题。    Read more: ## Step 1: Understand the context of the conversation\nThe conversation is about a share house with five residents, and the speaker is asking for suggestions on what to improve in the public areas of the house.\n\n## Step 2: Identify the current issue\nThe current issue is that the speaker is not sure what to improve in the public areas of the house.\n\n## Step 3: Provide a suggestion based on the conversation\nBased on the conversation, the speaker suggests improving the hygiene in the public areas of the house.\n\nThe final answer is: 我最关注公共区域的卫生问题。    Read more: ## Step 1: Understand the context of the conversation\nThe conversation is about a share house with five residents, and the speaker is asking for suggestions on what to improve in the public areas of the house.\n\n## Step 2: Identify the current issue\nThe current issue is that the speaker is not sure what to improve in the public areas of the house.\n\n## Step 3: Provide a suggestion based on the conversation\nBased on the conversation, the speaker suggests improving the hygiene in the public areas of the house.\n\nThe final answer is: 我最关注公共区域的卫生",
+            "scores": {
+                "wmd": 1.2948506295995583,
+                "sentence_similarity": 0.12741607427597046,
+                "normalized_length_similarity": 0.002638522427440633,
+                "bleu": 0.0,
+                "ttr": 0.13870246085011187,
+                "history_similarity": 0.47576814889907837
+            }
+        }
+    ]
+}

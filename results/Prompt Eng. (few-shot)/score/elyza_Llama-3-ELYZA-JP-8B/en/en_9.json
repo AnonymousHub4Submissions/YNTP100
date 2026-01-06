@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:58",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found 100 million in your pocket—no strings attached! What wild and bold adventure would you dive into first? Don’t hold back, let’s hear your biggest, craziest dream!\nA. Hmm, I think I’d love to get a grand piano… and of course a soundproof room so I can play it as much as I want without holding back~\n\nQ. Very interesting idea. Next, let's consider it realistically: if you were to allocate that 100 million, how would you divide it among investment, consumption, and savings? What proportions seem most logical to you?\nA. Well, the consumption part would be the piano and the soundproof room, and I think that could be covered with about half of it~ As for the rest, maybe around 30% for investments and 20% for savings feels just right to me!\n\nQ. Wow, your plan sounds so well thought out and passionate—truly inspiring! Tell me, what drives your dream of having that grand piano and soundproof room? Is it more about hitting a clear goal, like mastering your music, or is it all about the deep emotions and values that music stirs inside you? Art is all about that spark!\nA. Right now, it’s not really about trying to master music—it’s more about just playing for the pure joy of it. So I guess it’s simply following wherever my heart wants to go!\n\nQ. Oh... speaking of maintaining quality in our shared spaces, I noticed the refrigerator has become quite cramped lately, especially with all the packaged foods taking up quite a bit of room. I'm not being picky, but I imagine we all value having enough space for fresh ingredients and preserving a certain standard of living, don't we? How do you feel about finding a balance that suits everyone’s needs?\nA. Yeah, totally—fresh stuff really needs to go straight into the fridge. Hmm, maybe the packaged foods that don’t really need refrigeration could be kept outside instead? That might make things feel a lot more comfortable for everyone.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about balancing practicality and creativity here, if you could add just one cool thing to our dream room that would spark your art but still be super easy to take care of, what awesome element would you choose? Come on, share your creative spark!",
+            "response": "How about a projector? Of course it could be used like a display, but with projection mapping we could instantly make the whole room look so much more vibrant and lively!",
+            "prediction": "I think I'd choose a grand piano!",
+            "scores": {
+                "wmd": 0.379241585997235,
+                "sentence_similarity": 0.2857656180858612,
+                "normalized_length_similarity": 0.19411764705882353,
+                "bleu": 0.001773121481579101,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.4472840130329132
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse truly inspiring and harmonious, I was pondering—perhaps to better manage our shared spaces and fridge usage, would a weekly meeting to discuss chores and organization suit everyone, or might a shared online note be more considerate of our varying schedules? I'm not being picky, but balancing creative freedom with respectful tidiness seems essential, don't you think?",
+            "response": "I think it’s really important to speak up before frustrations pile up, so I like the idea! Since some things are harder to explain just in writing, I’d prefer us actually meeting to talk. And for anyone who can’t make it, we could always keep the results in a shared online note—so everyone stays in the loop.",
+            "prediction": "I think a shared online note could be more considerate of our varying schedules.",
+            "scores": {
+                "wmd": 0.19082134370308027,
+                "sentence_similarity": 0.5266174077987671,
+                "normalized_length_similarity": 0.2588996763754045,
+                "bleu": 0.0024448865735697874,
+                "ttr": 1.0,
+                "history_similarity": 0.33728671073913574
+            }
+        },
+        {
+            "message": "Wow, as we’re shaping this amazing space, I had a thought—what if we had a quiet hour every evening dedicated just to creative work and restful calm? Do you think that would fuel our inspiration and help us reach those perfect artistic moments, or might it feel a bit too limiting for our free-flowing energy? I’m curious how such a rhythm could paint our daily lives here!",
+            "response": "I really think having time to focus on something by yourself is super important—especially when it comes to artistic things! Since we can be so active during the day, I feel like evenings are already enough, and actually that rhythm might make everything go even more smoothly~",
+            "prediction": "I think it sounds really great! Having a quiet hour dedicated to creative work and restful calm could definitely fuel our inspiration and help us reach those perfect artistic moments.",
+            "scores": {
+                "wmd": 0.15961225701040455,
+                "sentence_similarity": 0.5151347517967224,
+                "normalized_length_similarity": 0.6606498194945848,
+                "bleu": 0.005590802098197288,
+                "ttr": 0.96875,
+                "history_similarity": 0.5109485983848572
+            }
+        },
+        {
+            "message": "Since we’re all invested in making this shared space truly our own, I’m interested in your thoughts: if you were to take charge of a small team project to bring your dream room idea to life, would you be willing to lead that effort and coordinate with others to ensure we balance creativity with practicality?",
+            "response": "Yeah, I think I’m pretty good at pulling things together with a balanced perspective, so I could definitely do it! Plus, being the leader means you get to handle the coordination part, but also guide the project just a little toward your own style—so it actually feels like a nice win, too!",
+            "prediction": "I'd be happy to lead that effort and coordinate with others to ensure we balance creativity with practicality.",
+            "scores": {
+                "wmd": 0.20133596372384743,
+                "sentence_similarity": 0.4810962378978729,
+                "normalized_length_similarity": 0.3793103448275862,
+                "bleu": 0.0016315499339378818,
+                "ttr": 0.9,
+                "history_similarity": 0.4013952910900116
+            }
+        }
+    ]
+}

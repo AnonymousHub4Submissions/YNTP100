@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:28:04",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友！那我们是不是可以制定一个详细的“晚间安静时间”规则，这样大家心里都有数，睡觉时间超棒又安静！你觉得这样合理吗？还是说我们用别的方式来解决，搞得更灵活一些？说说你的想法吧！",
+            "response": "每个人晚上的睡眠时间区间取并集，这个时间保持安静就行",
+            "prediction": "Ahaha, friends! That's a great idea! I think setting a detailed \"quiet time\" rule would be really reasonable. It's great that we can all have a sense of what's expected and get a good night's sleep. Instead of relying on individual habits, a rule would provide a clear guideline for everyone. Plus, it's easier to adjust and adapt to different situations. What do you guys think?",
+            "scores": {
+                "wmd": 1.2912418683954723,
+                "sentence_similarity": -0.05219140276312828,
+                "normalized_length_similarity": 0.06860158311345646,
+                "bleu": 0.0,
+                "ttr": 0.40522875816993464,
+                "history_similarity": 0.03906772658228874
+            }
+        },
+        {
+            "message": "既然大家都在意生活的便利性……我倒挺好奇的，你们在梦想房间里，会优先选择哪类智能设备或者家具呢？我不是挑剔，但毕竟空间有限，功能性又要和品质感兼顾，这样用起来才会顺手，你觉得呢？",
+            "response": "我提议扫地机器人",
+            "prediction": "Ahaha, that's a great question! I'm really curious too! In my dream room, I would prioritize choosing smart devices or furniture that prioritize functionality and quality. Since the space is limited, I think it's essential to balance functionality and quality. What do you guys think?\n\n    Please note that the instruction requires predicting the next response, and the input provides context about the conversation. In this response, I'm assuming the conversation is about what kind of smart devices or furniture they would choose in their dream room, and I'm expressing my curiosity and thoughts about it.",
+            "scores": {
+                "wmd": 1.3023251484880882,
+                "sentence_similarity": 0.03680828586220741,
+                "normalized_length_similarity": 0.013179571663920923,
+                "bleu": 0.0,
+                "ttr": 0.3225806451612903,
+                "history_similarity": 0.0723780170083046
+            }
+        },
+        {
+            "message": "哇，听你们说得这么实用，我突然灵感迸发了！如果在这个实用的房间里，加个小小的艺术角落，像是悬挂创意灯光或者摆放特别的艺术装饰品，你们觉得这样的点缀会不会让生活多点激情和灵魂的火花呢？艺术就是生活的心跳，你们怎么看？",
+            "response": "额，对艺术没什么概念。不过搞点小装饰能让心情更加愉悦。",
+            "prediction": "Ah-ha! I'm really inspired by your conversation! If we add a small art corner in this practical room, like hanging creative lighting or placing special art decorations, I think it could make our lives more exciting and sparky! Art is the heartbeat of life, how do you guys think?\n\nThis response aims to predict the next action based on the context provided.",
+            "scores": {
+                "wmd": 1.2769313164737706,
+                "sentence_similarity": 0.2184164673089981,
+                "normalized_length_similarity": 0.07563025210084033,
+                "bleu": 0.0,
+                "ttr": 0.49264705882352944,
+                "history_similarity": 0.09463454782962799
+            }
+        },
+        {
+            "message": "从逻辑上讲，生活区域的整洁和生熟分开是关键。你们觉得设立简单明确的分工或规则，比如谁负责哪些区域、清洁频率如何安排，是否能有效提高大家的遵守度？这样既保证效率，也维护了生活品质，你们怎么看？",
+            "response": "公共区域的清洁，比如冰箱和灶台的打扫，可以写个排班表。其他公共区域麻烦自己产生的垃圾自己带走。",
+            "prediction": "I completely agree that setting up a clear division of labor and rules is crucial for maintaining a clean and organized living space. For example, we can establish specific responsibilities for each area or set a cleaning frequency to ensure everyone's cooperation. By doing so, we can not only improve the efficiency of cleaning tasks but also maintain the quality of our living environment.",
+            "scores": {
+                "wmd": 1.274119160038051,
+                "sentence_similarity": 0.09266006946563721,
+                "normalized_length_similarity": 0.11989795918367346,
+                "bleu": 0.0,
+                "ttr": 0.43283582089552236,
+                "history_similarity": 0.10004667937755585
+            }
+        }
+    ]
+}

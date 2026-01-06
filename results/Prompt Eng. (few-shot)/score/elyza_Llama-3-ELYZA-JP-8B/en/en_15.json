@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "elyza/Llama-3-ELYZA-JP-8B",
+        "method": "prompt_engineering_few_shot",
+        "date": "2025-12-20 17:28:55",
+        "instruction": "You are a resident who has just moved into the share house. Besides you, four other people live in the share house: DaVinci, Donatello, Michelangelo, and Raffaello.Please predict responses referencing below Q&A examples and output only the answer part: \nQ. Haha, friend! Imagine you just found a treasure chest with 100 million inside—no limits, no worries! What’s the wildest, most amazing thing you’d do first? Don’t hold back, let your boldest dreams fly!\nA. I'd travel to every country with a bodyguard and take photos of beautiful nature and animals with a high-end camera.\n\nQ. Very exciting plan! Now, let's analyze this realistically: if you had 100 million, how would you allocate it among investing in your travels, covering daily expenses and security, and saving for future opportunities? What proportions seem most practical to you?\nA. I would use 50% for travel expenses, 20% for safety measures, and the rest of the money for retirement funds.\n\nQ. Wow, your dream bursts with so much life and vision! I gotta ask—what drives this incredible journey of yours? Is it a crystal-clear goal you’re chasing, like capturing that perfect shot, or is it more about following the emotions and values that make your heart race? Art and life thrive on passion—what fuels your fire?\nA. I think it's more about the emotions and values. When I see beautiful photos from other countries on Instagram, I'd like to experience that magnificent nature and take photos myself. In my country, I often take photos, but I can rarely see such magnificent nature. It's not just about taking perfect shots, but about feeling the beauty of nature myself.\n\nQ. Oh... speaking of passion and experiences, I noticed our shared refrigerator seems rather cramped lately due to all the packaged foods. I'm not being picky, but it does make it difficult to store fresh ingredients—which, I suppose, we all agree are essential to maintaining a certain quality of life, yes? Do you think it would be possible for us all to be a bit more mindful about how we use that space?\nA. You're right. We should discuss how to divide  the space so we can all use it comfortably.\n\n",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend, while we’re getting all organized and harmonious here, I gotta ask—if you were planning an epic photography trip next year to capture the most stunning nature scenes, what wild landscapes or cool creatures would you chase after to really feel that magical connection? Let’s dream big and adventurous!",
+            "response": "I want to see vast nature where water and greenery coexist, like a valley. I'd also love to see animals living freely on a savanna.",
+            "prediction": "I would chase after majestic mountain ranges, glowing forests, and beautiful waterfalls to capture their breathtaking beauty.",
+            "scores": {
+                "wmd": 0.23859243870297037,
+                "sentence_similarity": 0.5052958130836487,
+                "normalized_length_similarity": 0.9541984732824428,
+                "bleu": 0.009181924734076212,
+                "ttr": 0.95,
+                "history_similarity": 0.2907654643058777
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping things harmonious here, I was wondering... since you seem so enthusiastic about adventures and fun, how would you feel about taking on the responsibility of organizing and maintaining the gaming setup? I'm not being picky, but balancing enjoyment with a certain orderliness in our shared space might help everyone stay comfortable. Of course, I trust someone mindful like you would manage this well... What do you think?",
+            "response": "I'd be happy to take on that responsibility to make sure everyone can enjoy the gaming setup comfortably. I'll probably need to ask for your input on your preferences, so I appreciate your help when the time comes.",
+            "prediction": "I think it's a great idea! I would make sure to organize and maintain the gaming setup in a way that everyone can enjoy it while also keeping the shared space comfortable.",
+            "scores": {
+                "wmd": 0.19287630330251876,
+                "sentence_similarity": 0.6491423845291138,
+                "normalized_length_similarity": 0.7990654205607477,
+                "bleu": 0.045968674262863135,
+                "ttr": 0.8857142857142857,
+                "history_similarity": 0.5248359441757202
+            }
+        },
+        {
+            "message": "Wow, Raffaello, your vision of harmony and beauty in our shared space truly speaks to me! Since creativity often bursts out loud and wild, but we also need quiet focus to shape our best work, how do you think we could gently balance those energies? Could we create special zones or times that honor both the wild sparks of inspiration and the calm flow of concentration, keeping our space vibrant yet peaceful? What’s your take on blending noise and stillness like a perfect sculpture of life?",
+            "response": "How about we use a retractable screen? Then, we could roll it out only when we want to be active and have some fun, and then put it away when we need to focus. I think this would let us use the same space in two different ways without changing the size of the room.",
+            "prediction": "I think it would be great if we could create separate areas for creativity and quiet focus. For example, we could set up a quiet room for tasks that require concentration, and an open space for brainstorming and creativity.",
+            "scores": {
+                "wmd": 0.18889866275656358,
+                "sentence_similarity": 0.4795791506767273,
+                "normalized_length_similarity": 0.8415094339622642,
+                "bleu": 0.028117222034919717,
+                "ttr": 0.7674418604651163,
+                "history_similarity": 0.5059208869934082
+            }
+        },
+        {
+            "message": "Since we’ve agreed on a flexible and fair way to share the gaming setup, would you both be open to applying a similar approach to other shared resources or responsibilities? From a practical standpoint, what system could we put in place to ensure smooth coordination and mutual respect across all shared areas?",
+            "response": "I'm not sure if this is the same approach, but what if we tried a weekly chore schedule? By taking turns with the responsibilities, we could all understand the effort it takes to keep our shared space clean and have a better living situation.",
+            "prediction": "Yes, I'm open to applying a similar approach to other shared resources or responsibilities. For example, shared refrigerator space could be divided into sections or categories, such as \"common ingredients\", \"personal food\", \"drinks\", etc. and each person can use their designated space.",
+            "scores": {
+                "wmd": 0.21533147993356758,
+                "sentence_similarity": 0.5739185214042664,
+                "normalized_length_similarity": 0.8461538461538461,
+                "bleu": 0.010629735219665662,
+                "ttr": 0.7413793103448276,
+                "history_similarity": 0.48946794867515564
+            }
+        }
+    ]
+}

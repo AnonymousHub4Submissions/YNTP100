@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:35",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！既然我们要把生活规则弄得更细致一点，你觉得我们应该优先考虑的是“整洁”、还是“自由”，或者“互相尊重”呢？来，大家大胆说说自己的想法，我们一起把ShareHouse变得太棒了！",
+            "response": "首先我们需要互相尊重，有了尊重以后我们才能享受各自的自由，有了约束的自由才能把房间变得整洁",
+            "prediction": "我们按照人数平均分配吧，我倒是不介意。",
+            "scores": {
+                "wmd": 1.0606966191615965,
+                "sentence_similarity": 0.6779682040214539,
+                "normalized_length_similarity": 0.4222222222222222,
+                "bleu": 0.005234499214049016,
+                "ttr": 1.0,
+                "history_similarity": 0.7713639140129089
+            }
+        },
+        {
+            "message": "说到尊重这个话题……如果共享空间里出现了噪音问题，你会选择主动沟通去解决呢，还是倾向于默默忍耐？我不是挑剔，只是觉得对这种日常干扰，大家坦诚交流或许更有助于维持良好的氛围，你觉得呢？",
+            "response": "沟通是解决问题的良药",
+            "prediction": "嗯嗯，我倾向于开口说说，看情况而定。",
+            "scores": {
+                "wmd": 1.174097109105119,
+                "sentence_similarity": 0.6095865964889526,
+                "normalized_length_similarity": 0.5555555555555556,
+                "bleu": 0.0,
+                "ttr": 0.7857142857142857,
+                "history_similarity": 0.7570886611938477
+            }
+        },
+        {
+            "message": "哇，说得太对了！既然我们都这么重视氛围和交流，那你有没有想过，假如可以给我们的梦想房间加一个特别的功能或装饰，你会选择什么呢？是那种实用又酷炫的高科技设备，还是充满艺术气息、能激发灵感的摆设？为什么？艺术就是要让生活充满惊喜和激情！",
+            "response": "我觉得1个互相沟通的桌子就好，我们可以互相沟通享受彼此的idea",
+            "prediction": "我，如果可以的话我想我会选一个温暖的火炉，不过不是任何人都能用，具体分配应兼顾多数人需求。我希望我们在冷风凛冽时能有一个温馨的聚会点。",
+            "scores": {
+                "wmd": 0.9468024649521481,
+                "sentence_similarity": 0.5771246552467346,
+                "normalized_length_similarity": 0.47761194029850745,
+                "bleu": 0.006708839685423083,
+                "ttr": 0.8372093023255814,
+                "history_similarity": 0.6844401955604553
+            }
+        },
+        {
+            "message": "你们的想法很有趣，也让人思考如何在氛围与功能之间取得平衡。那么从理性的角度来说，你们如何在追求情感共鸣和高效生活之间分配资源？比如在资金使用或公共空间管理上，应该如何权衡情感投入与理性规划？",
+            "response": "总量/人数",
+            "prediction": "我们按照人数平均分配，别管那些性别别墅了。",
+            "scores": {
+                "wmd": 1.0957418205028049,
+                "sentence_similarity": 0.6336035132408142,
+                "normalized_length_similarity": 0.23809523809523808,
+                "bleu": 0.018850319022747353,
+                "ttr": 1.0,
+                "history_similarity": 0.7674251794815063
+            }
+        },
+        {
+            "message": "让我们分析一下，你是问总资金还是总体人数？请具体说明。然后我们继续探讨资源分配。",
+            "response": "总资金/总人数分配",
+            "prediction": "嗯，了解了，谢谢你，话说你们都是男孩吗",
+            "scores": {
+                "wmd": 1.2481572324451755,
+                "sentence_similarity": 0.360397070646286,
+                "normalized_length_similarity": 0.47368421052631576,
+                "bleu": 0.0,
+                "ttr": 0.8666666666666667,
+                "history_similarity": 0.7298226356506348
+            }
+        },
+        {
+            "message": "从逻辑上讲，总资金除以总人数，得出人均资金。你觉得怎样分配更合理？",
+            "response": "每个人得到人均",
+            "prediction": "我们按照人数平均分配吧，我倒是不介意。",
+            "scores": {
+                "wmd": 1.0808459040198835,
+                "sentence_similarity": 0.6234717965126038,
+                "normalized_length_similarity": 0.3684210526315789,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7713639140129089
+            }
+        }
+    ]
+}

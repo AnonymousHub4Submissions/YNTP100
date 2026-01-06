@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:49:10",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "Haha, friend! Since you’re all about design over pure functionality for your music club room and love tackling challenges, tell me—what kind of emotions do you want that space to spark during a live performance? Ready to share that vibe you’re dreaming of? Awesome!",
+      "response": "I want to create a space where people can discover music genres they didn’t know and expand their own world.",
+      "prediction": "I want it to spark passionate energy and a sense of connection.",
+      "scores": {
+        "wmd": 0.26082439942886587,
+        "sentence_similarity": 0.31124347448349,
+        "normalized_length_similarity": 0.5833333333333334,
+        "history_similarity": 0.2924569547176361,
+        "bleu": 0.0200371437236976,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "Oh... considering how much effort and precision you pour into your artistic vision, do you find yourself preferring to handle complex design projects alone to ensure every detail meets your standards, or would you welcome collaboration with others whose skills might complement yours? I’m not being picky, but understanding this might help us foster a truly harmonious creative environment... What are your thoughts?",
+      "response": "There’s a limit to what one person can do, so I welcome collaboration with others where our skills complement each other.",
+      "prediction": "I welcome collaboration with others whose skills complement mine.",
+      "scores": {
+        "wmd": 0.14007198225381487,
+        "sentence_similarity": 0.8518366813659668,
+        "normalized_length_similarity": 0.5371900826446281,
+        "history_similarity": 0.37372905015945435,
+        "bleu": 0.10423257178190692,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "Wow, teamwork truly feeds the soul of creation! Speaking of living together and sharing spaces, how do you feel about setting some clear guidelines on noise levels? It could help everyone focus and rest comfortably—because every masterpiece needs the right environment to flourish, right? What’s your take on balancing energy and quiet in a shared home?",
+      "response": "Extra stress gets in the way of creative work, so I want to keep things quiet at night as a rule.",
+      "prediction": "I think clear noise guidelines are necessary to balance energy and quiet.",
+      "scores": {
+        "wmd": 0.2938920290187223,
+        "sentence_similarity": 0.4747253656387329,
+        "normalized_length_similarity": 0.7525773195876289,
+        "history_similarity": 0.4408906400203705,
+        "bleu": 0.010181528905491455,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "Logically speaking, setting rules is one thing, but ensuring everyone follows them is another. Considering your proactive approach to avoid regrets and preference for acting first, how would you handle a situation where someone doesn’t respect the agreed-upon rules about cleanliness or noise?",
+      "response": "If it becomes a habitual behavior, I’d like to set up a discussion with everyone.",
+      "prediction": "I would talk to the person directly.",
+      "scores": {
+        "wmd": 0.31778258178400187,
+        "sentence_similarity": 0.3370421528816223,
+        "normalized_length_similarity": 0.4444444444444444,
+        "history_similarity": 0.18355074524879456,
+        "bleu": 0.009242683479084893,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

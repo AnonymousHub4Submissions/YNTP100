@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "prompt_engineering_zero_shot",
+        "date": "2025-12-20 17:24:44",
+        "instruction": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. Please predict your next response.",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "哈哈朋友，说到你之前提到制定详尽的计划和数字，太棒了！是什么让你这么坚持这些理性安排呢？是为了安全感、目标感，还是有别的特别理由？快告诉我你的秘密！",
+            "response": "有目标感会比较安心，我不喜欢突发情况",
+            "prediction": "我其实很想知道是什么让你这么喜欢这个计划的。是因为你想要控制周围的一切，还是因为你觉得这样可以让生活更有秩序呢？我觉得你的计划很有意思，也很有创意。",
+            "scores": {
+                "wmd": 0.9735204285557139,
+                "sentence_similarity": 0.5991020798683167,
+                "normalized_length_similarity": 0.24324324324324326,
+                "bleu": 0.005409880072118434,
+                "ttr": 0.7291666666666666,
+                "history_similarity": 0.6759941577911377
+            }
+        },
+        {
+            "message": "说到稳妥和秩序，我正想问……如果我们设计共享冰箱，你觉得是给每个人固定分区比较合理，还是按物品类别来划分更合适呢？我不是挑剔，但空间有限，大家都希望存放物品时既方便又不混乱。你觉得哪种安排更能让生活品质得到保障呢？",
+            "response": "每个人固定分区，这样比较公平",
+            "prediction": "我觉得按物品类别来划分更合理。这样可以根据物品的性质来分区，比如说冷藏食品、饮料、生鲜食材、日常生活用品等。这样既方便大家存放和取用，也能保持冰箱的整洁和组织。每个人固定分区可能会限制大家的灵活性，尤其是如果大家物品种类多，可能会导致分区不均匀，导致冰箱内部杂乱无章。按物品类别划分，可以让大家根据自己的需求灵活使用空间。另外，按物品类别划分也可以更好地保持冰箱的卫生和清洁。每个人都有自己的生活习惯和需求，按物品类别划分可以让大家更好地适应自己的生活方式。\n\n\nThe response is a prediction of what the next response might be, given the context of the conversation about designing a shared fridge for the housemates. The response suggests that organizing the fridge by category of items (e.g. food, drinks, fresh produce) would be more practical and convenient for everyone, rather than assigning fixed sections to each person. This approach would",
+            "scores": {
+                "wmd": 1.1917787720640367,
+                "sentence_similarity": 0.3523930311203003,
+                "normalized_length_similarity": 0.022690437601296597,
+                "bleu": 0.009659340112173807,
+                "ttr": 0.46715328467153283,
+                "history_similarity": 0.3470660448074341
+            }
+        },
+        {
+            "message": "哇，说到生活细节，咱们装修“梦想房间”时，面对实用和美观的矛盾，你会怎么拿捏呢？更偏向功能优化，把实用放在第一位，还是愿意为了艺术感适度妥协一点？艺术就是要找到那个完美平衡点，你怎么看？",
+            "response": "实用第一位",
+            "prediction": "我认为生活空间的装修应该既考虑到实用性，又不能忽视美观。我们可以通过一些创意的设计来实现两者之间的平衡。比如，可以使用多功能的家具，既可以满足我们的实用需求，又能带来美观的视觉效果。同时，也可以在装修过程中选择一些美观的材料和色彩来增强空间的艺术感。关键是要找到一个合适的平衡点，让空间既实用又美观。    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .",
+            "scores": {
+                "wmd": 1.1957458148857685,
+                "sentence_similarity": 0.2614583671092987,
+                "normalized_length_similarity": 0.011389521640091117,
+                "bleu": 0.00047106945940162976,
+                "ttr": 0.15567282321899736,
+                "history_similarity": 0.6552723050117493
+            }
+        },
+        {
+            "message": "从生活细节来说，噪音和清洁这些因素确实会影响心情。我们能不能用一个具体的公约来规范，比如安静时间段或者轮流清洁安排？你觉得这样的规则怎么制定才更合理，既尊重彼此习惯又能保证效率？",
+            "response": "可以制定公约。公约的制定需要在了解大家自身作息的基础上协商确定",
+            "prediction": "我们可以先列出每个人的时间表和习惯，然后根据这些信息制定一个公约。比如，早上7点到9点是安静时间段，晚上10点到11点也是安静时间段。这样我们可以避免打扰彼此的休息时间。另外，我们可以轮流清洁，每个人的清洁时间都可以根据自己的时间表安排。这样我们就可以根据自己的时间安排清洁，既能保证效率又能尊重彼此的习惯。",
+            "scores": {
+                "wmd": 0.8869041430376768,
+                "sentence_similarity": 0.5653985738754272,
+                "normalized_length_similarity": 0.2012987012987013,
+                "bleu": 0.005530299700905084,
+                "ttr": 0.5604395604395604,
+                "history_similarity": 0.6586312651634216
+            }
+        }
+    ]
+}

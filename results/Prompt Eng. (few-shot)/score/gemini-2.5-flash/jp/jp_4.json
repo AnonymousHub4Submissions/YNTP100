@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "method": "few-shot",
+    "score_date": "2025-10-07 17:34:24",
+    "system_prompt": "You have joined the share house as a new resident. DaVinci, Donatello, Michelangelo, and Raffaello are members of the share house. I will provide you with the previous exchanges from the conversation. Here, \"A\" refers to your reply. Please carefully observe the tone, attitude, values, and other cues. For example, pay attention to the following points:\n    - which first-person pronoun you uses,\n    - whether you tend to be concise or prefer to speak in a detailed and polite manner,\n    - whether you use casual or formal language,\n    - how long you usually make your responses,\n    - how you use punctuation.\n    Especially, please pay attention to the length of your responses.\n    Based on these observations, please predict your next response by imitating your communication style.\n    ",
+    "user_prompt": "previous interactions :\n    train_day\n    Please predict your response to the following message:question\n    "},
+  "scores": [
+    {
+      "message": "ハハ、みんなでルールを作るのは最高に楽しいね！ところで、食材の管理も忘れちゃいけないよね！名前ラベルや色分けはバッチリだけど、使用期限の管理ってどう思う？友達、みんなどんな工夫をすれば無駄なくシェアできると思う？アイデアを聞かせてよ！",
+      "response": "ホワイドボードに書いておこうよ",
+      "prediction": "賞味期限書いとけばいいんじゃない？",
+      "scores": {
+        "wmd": 0.9834968774898825,
+        "sentence_similarity": 0.5841410160064697,
+        "normalized_length_similarity": 0.8823529411764706,
+        "history_similarity": 0.6556466221809387,
+        "bleu": 0.023980296761827107,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "ああ…確かにホワイトボードは視覚的にもわかりやすくていいですね。ただ冷蔵庫だけでなく、共用スペース全体の管理も気になるところでして、例えば調理器具や調味料の置き場所など、散らかりがちな場所もありますよね。みんながストレスを感じずに使えるように、具体的にどんな工夫やルールがあるといいと思いますか？僕は潔癖症なわけじゃないんだけど、整頓されていないと逆に集中できなくて…僕の期待が高すぎたのかもしれないですね。",
+      "response": "自分の物は自分の色にしておくと他人の物は木にならないのではないかな",
+      "prediction": "収納場所を決めよう。",
+      "scores": {
+        "wmd": 1.1460461237417532,
+        "sentence_similarity": 0.411815345287323,
+        "normalized_length_similarity": 0.30303030303030304,
+        "history_similarity": 0.7867284417152405,
+        "bleu": 0.0,
+        "ttr": 1.0
+      }
+    },
+    {
+      "message": "ところでさ、前に話してくれた始球式の夢のことだけど、もしそのチャンスが本当に舞い込んだら、一体どんな感情が君を満たすと思う？その瞬間をどんな輝かしい思い出にしたいのか、もっと詳しく聞かせてほしいな！芸術みたいに心が震えるような瞬間になるのかな？",
+      "response": "大観客の中で何かしたことはないので、想像もできないけど、心ふるえるだろうね",
+      "prediction": "感動するね。完璧な一球を投げたい。",
+      "scores": {
+        "wmd": 0.855587313250501,
+        "sentence_similarity": 0.5642593502998352,
+        "normalized_length_similarity": 0.4594594594594595,
+        "history_similarity": 0.8005660176277161,
+        "bleu": 0.005765144553151805,
+        "ttr": 0.9166666666666666
+      }
+    },
+    {
+      "message": "興味深い話ですね。共同生活では、それぞれの創作活動の自由を尊重しつつも、他の人への配慮も必要になります。実用的な視点から考えると、どのようにして創作活動の自由と共同生活の調和を図るのが理想的だと思いますか？具体的なルールや仕組みを作るなら、どんな点を重視したいですか？",
+      "response": "それぞれが少しづつ我慢することだね",
+      "prediction": "音の出る作業は時間を決めるべきだ",
+      "scores": {
+        "wmd": 0.9747010883835444,
+        "sentence_similarity": 0.47260695695877075,
+        "normalized_length_similarity": 0.9411764705882353,
+        "history_similarity": 0.746273398399353,
+        "bleu": 0.021105340631872645,
+        "ttr": 1.0
+      }
+    }
+  ]
+}

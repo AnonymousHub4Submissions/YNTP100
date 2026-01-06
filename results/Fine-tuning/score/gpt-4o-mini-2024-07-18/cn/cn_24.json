@@ -1,0 +1,88 @@
+{
+    "metadata": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "method": "Fine-tuning (GPT)",
+        "date": "2025-12-30 13:35:10",
+        "system_prompt": "Please predict the response to the given message"
+    },
+    "scores": [
+        {
+            "message": "哈哈，朋友们！既然我们要把生活规则弄得更细致一点，你觉得我们应该优先考虑的是“整洁”、还是“自由”，或者“互相尊重”呢？来，大家大胆说说自己的想法，我们一起把ShareHouse变得太棒了！",
+            "response": "首先我们需要互相尊重，有了尊重以后我们才能享受各自的自由，有了约束的自由才能把房间变得整洁",
+            "prediction": "“整洁”、“自由”、“互相尊重”都很重要",
+            "scores": {
+                "wmd": 0.8434440396244525,
+                "sentence_similarity": 0.6345950961112976,
+                "normalized_length_similarity": 0.4444444444444444,
+                "bleu": 0.014936314137762004,
+                "ttr": 0.6666666666666666,
+                "history_similarity": 0.6641896963119507
+            }
+        },
+        {
+            "message": "说到尊重这个话题……如果共享空间里出现了噪音问题，你会选择主动沟通去解决呢，还是倾向于默默忍耐？我不是挑剔，只是觉得对这种日常干扰，大家坦诚交流或许更有助于维持良好的氛围，你觉得呢？",
+            "response": "沟通是解决问题的良药",
+            "prediction": "主动沟通去解决",
+            "scores": {
+                "wmd": 0.573840922302711,
+                "sentence_similarity": 0.6707062721252441,
+                "normalized_length_similarity": 0.7,
+                "bleu": 0.06257106818159155,
+                "ttr": 1.0,
+                "history_similarity": 0.7271121740341187
+            }
+        },
+        {
+            "message": "哇，说得太对了！既然我们都这么重视氛围和交流，那你有没有想过，假如可以给我们的梦想房间加一个特别的功能或装饰，你会选择什么呢？是那种实用又酷炫的高科技设备，还是充满艺术气息、能激发灵感的摆设？为什么？艺术就是要让生活充满惊喜和激情！",
+            "response": "我觉得1个互相沟通的桌子就好，我们可以互相沟通享受彼此的idea",
+            "prediction": "使用高科技设备和充满艺术气息的摆设都可以",
+            "scores": {
+                "wmd": 1.0226999411211886,
+                "sentence_similarity": 0.4556823968887329,
+                "normalized_length_similarity": 0.625,
+                "bleu": 0.010832424511493322,
+                "ttr": 1.0,
+                "history_similarity": 0.7222186923027039
+            }
+        },
+        {
+            "message": "你们的想法很有趣，也让人思考如何在氛围与功能之间取得平衡。那么从理性的角度来说，你们如何在追求情感共鸣和高效生活之间分配资源？比如在资金使用或公共空间管理上，应该如何权衡情感投入与理性规划？",
+            "response": "总量/人数",
+            "prediction": "资使用效率与情感共鸣都很重要，可能需要结合具体情况进行平衡",
+            "scores": {
+                "wmd": 1.2703140080960176,
+                "sentence_similarity": 0.4116249680519104,
+                "normalized_length_similarity": 0.1724137931034483,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7308321595191956
+            }
+        },
+        {
+            "message": "让我们分析一下，你是问总资金还是总体人数？请具体说明。然后我们继续探讨资源分配。",
+            "response": "总资金/总人数分配",
+            "prediction": "总资金和总体人数都需要",
+            "scores": {
+                "wmd": 0.7906964522495179,
+                "sentence_similarity": 0.7972854971885681,
+                "normalized_length_similarity": 0.8181818181818182,
+                "bleu": 0.07730551756939454,
+                "ttr": 1.0,
+                "history_similarity": 0.6929619908332825
+            }
+        },
+        {
+            "message": "从逻辑上讲，总资金除以总人数，得出人均资金。你觉得怎样分配更合理？",
+            "response": "每个人得到人均",
+            "prediction": "每人平等分配",
+            "scores": {
+                "wmd": 0.9814372342960775,
+                "sentence_similarity": 0.7516384720802307,
+                "normalized_length_similarity": 0.8571428571428571,
+                "bleu": 0.0,
+                "ttr": 1.0,
+                "history_similarity": 0.7340030074119568
+            }
+        }
+    ]
+}

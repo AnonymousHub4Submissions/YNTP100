@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "method": "PEFT_LoRA",
+        "date": "2025-12-20 19:27:28",
+        "instruction": "Please predict the response to the given message",
+        "alpaca_prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n    ### Instruction:\n    {}\n    ### Input:\n    {}\n    ### Response:\n    {}"
+    },
+    "scores": [
+        {
+            "message": "Haha, friend! Since we’re all about finding balance here, let me ask you—if you had to pick one dream travel destination that perfectly blends saving wisely and enjoying life to the fullest, where would you go? And why does that place recharge your awesome spirit? Share your dream getaway with me!",
+            "response": "I want to travel Africa! There are so many wild animals and I want to observe  their natural behaviors in the nature, not a zoo!",
+            "prediction": "because it has the nicest people, awesome nature and it is really cheap to live there so I can live my dream while maintaining my values",
+            "scores": {
+                "wmd": 0.25244436413289295,
+                "sentence_similarity": 0.24335850775241852,
+                "normalized_length_similarity": 0.9411764705882353,
+                "bleu": 0.01094126252323493,
+                "ttr": 0.8888888888888888,
+                "history_similarity": 0.11248700320720673
+            }
+        },
+        {
+            "message": "Oh... speaking of keeping our ShareHouse a harmonious place to live, I suggested labeling items in the fridge to avoid confusion. I'm not being picky, but perhaps we could consider setting up a communal checklist for shared expenses or chores as well? It might help maintain the balance and fairness we all appreciate here. What do you think... would that be agreeable to everyone?",
+            "response": "Oh that's a great idea! It'll be more organized and avoid some possible mistakes!",
+            "prediction": "yeah, that makes sense, though having a strict schedule might be a bit tough to maintain, but some kind of system seems doable",
+            "scores": {
+                "wmd": 0.2641255221762062,
+                "sentence_similarity": 0.38831430673599243,
+                "normalized_length_similarity": 0.6428571428571429,
+                "bleu": 0.010275474580767148,
+                "ttr": 0.8846153846153846,
+                "history_similarity": 0.3922754228115082
+            }
+        },
+        {
+            "message": "Wow, I love how you’re thinking about both style and function in making a perfect dream room! If you had to choose between installing super high-end, durable audio equipment that lasts forever or investing in stylish, eye-catching furniture, which would your heart pick—and why? Art and practicality often dance together, so I’m curious what rhythm speaks strongest to you!",
+            "response": "I'll go with high-end, durable audio equipments..Of course it'll be great if they're not ugly, but the most important element of audio equipment is sound itself. So If I should choose only one side, then it'll be \"function\".",
+            "prediction": "because having awesome experince is what matters in the ned",
+            "scores": {
+                "wmd": 0.3360210099538675,
+                "sentence_similarity": 0.03157780319452286,
+                "normalized_length_similarity": 0.26339285714285715,
+                "bleu": 0.0004159513029082128,
+                "ttr": 1.0,
+                "history_similarity": 0.1393732875585556
+            }
+        },
+        {
+            "message": "Since you value calm and respect in our shared living space and suggested using a whiteboard for coordinating schedules, how comfortable would you be taking the initiative to call a house meeting where we can discuss and agree on common rules for noise levels and cleaning duties? It seems like a logical step to ensure everyone’s expectations align and to keep our environment comfortable for all.",
+            "response": "Yeah I'll do the job! Let's have a meeting in the living room every Sunday night and discuss the ruled and duties together!",
+            "prediction": "while agreeing that some rules are necessary, I am not sure about having a call, maybe just a message or a note could work better.",
+            "scores": {
+                "wmd": 0.2621679325143381,
+                "sentence_similarity": 0.35534006357192993,
+                "normalized_length_similarity": 0.9461538461538461,
+                "bleu": 0.007987276352377327,
+                "ttr": 0.8928571428571429,
+                "history_similarity": 0.28330522775650024
+            }
+        }
+    ]
+}
